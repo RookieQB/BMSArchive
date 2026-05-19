@@ -3,8 +3,12 @@
     "scientific_name": "Ganoderma lucidum",
     "common_name": "Reishi / Lingzhi",
     "type": "Fungi",
-    "article_count": 3600,
-    "primary_categories": ["Immunomodulation", "Oncology support", "Adaptogen"],
+    "article_count": 3033,
+    "primary_categories": [
+      "Immunomodulation",
+      "Oncology support",
+      "Adaptogen"
+    ],
     "narrative_summary": {
       "historical_use": "Known in Traditional Chinese Medicine for over 2,000 years as 'Lingzhi' (spirit mushroom), revered as the 'mushroom of immortality'. Used by Taoist monks to promote longevity, calm the mind, and nourish the heart. Referenced in the Shen Nong Ben Cao Jing (c. 100 CE) as a superior tonic.",
       "modern_application": "Clinically studied as an adjunct in oncology for immunomodulation — trials show increased NK cell and T-lymphocyte activity. Used for hepatoprotection, blood pressure reduction, and anti-fatigue. A 2016 Cochrane review found benefit in cancer patients for immune response but insufficient evidence to recommend as primary cancer therapy.",
@@ -13,10 +17,17 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body and mycelium",
-      "primary_active_compounds": ["Ganoderic acids (triterpenoids)", "Beta-1,3/1,6-D-glucans", "Polysaccharides (GL-PS)", "Lucidenic acids", "Ganoderiol"],
-      "mechanism_of_action": "Immunomodulation via activation of NK cells, macrophages, and dendritic cells through TLR-4/NF-κB signalling. Ganoderic acids inhibit HMG-CoA reductase (cholesterol), inhibit NF-κB transcription, and induce tumour cell apoptosis via intrinsic mitochondrial pathway. Antioxidant via Nrf2/HO-1 upregulation.",
+      "primary_active_compounds": [
+        "Ganoderic acids (triterpenoids)",
+        "Beta-1,3/1,6-D-glucans",
+        "Polysaccharides (GL-PS)",
+        "Lucidenic acids",
+        "Ganoderiol"
+      ],
+      "mechanism_of_action": "Immunomodulation via activation of <strong>NK cells</strong>, macrophages, and dendritic cells through <strong>TLR-4</strong>/<strong>NF-κB</strong> signalling. Ganoderic acids inhibit <strong>HMG-CoA reductase</strong> (cholesterol synthesis), suppress <strong>NF-κB</strong> transcription, and induce tumour cell apoptosis via the intrinsic mitochondrial pathway. Antioxidant activity via <strong>Nrf2</strong>/<strong>HO-1</strong> upregulation.",
       "pharmacokinetics": {
         "absorption": "Polysaccharides show low oral bioavailability; ganoderic acids are absorbed but undergo significant first-pass metabolism. Bioavailability data from human PK studies is limited.",
+        "distribution": "Ganoderic acids are highly lipophilic and distribute preferentially into the liver, adipose tissue, and kidneys. Plasma protein binding of triterpenoids exceeds 90%. Polysaccharide fractions concentrate at gut-associated lymphoid tissue (GALT) and spleen. No quantitative human tissue distribution data are available.",
         "metabolism": "Hepatic; ganoderic acids are substrates of CYP3A4. Triterpenoids undergo glucuronidation and sulfation.",
         "excretion": "Primarily biliary (feces) for polysaccharides; renal excretion for water-soluble metabolites."
       },
@@ -32,15 +43,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 26969396", "PMID: 16272942", "DOI: 10.1016/j.jep.2014.12.027"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42148569/",
+        "https://pubmed.ncbi.nlm.nih.gov/42147328/",
+        "https://pubmed.ncbi.nlm.nih.gov/42142826/"
+      ]
     }
   },
   {
     "scientific_name": "Hericium erinaceus",
     "common_name": "Lion's Mane / Pom Pom Mushroom",
     "type": "Fungi",
-    "article_count": 820,
-    "primary_categories": ["Neuroprotection", "Cognitive enhancement", "Neurogenesis"],
+    "article_count": 556,
+    "primary_categories": [
+      "Neuroprotection",
+      "Cognitive enhancement",
+      "Neurogenesis"
+    ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese and Japanese medicine for centuries primarily to treat gastrointestinal disorders (gastric ulcers, chronic gastritis) and as a general tonic. Known in Japan as 'Yamabushitake'. Referenced in historical texts as a food and medicine for digestive health.",
       "modern_application": "Clinically studied for its nerve growth factor (NGF)-stimulating properties. A 2009 double-blind RCT (Mori et al.) demonstrated significant improvement in mild cognitive impairment after 16 weeks. Evidence supports benefits in depression, anxiety, and peripheral nerve regeneration. Investigated as a neuroprotective agent in Alzheimer's and Parkinson's disease models.",
@@ -49,10 +68,16 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body (hericenones) and mycelium (erinacines)",
-      "primary_active_compounds": ["Hericenones A–H (cyathane diterpenoids, fruiting body)", "Erinacines A–K (cyathane diterpenoids, mycelium)", "Beta-glucans", "Ergosterol"],
-      "mechanism_of_action": "Hericenones and erinacines stimulate de novo synthesis and secretion of NGF in astrocytes, promoting neuronal survival and axonal growth. Erinacines cross the blood-brain barrier (demonstrated in rodent studies). Anti-neuroinflammatory effects via inhibition of MAPK and NF-κB pathways. Promotes hippocampal neurogenesis.",
+      "primary_active_compounds": [
+        "Hericenones A–H (cyathane diterpenoids, fruiting body)",
+        "Erinacines A–K (cyathane diterpenoids, mycelium)",
+        "Beta-glucans",
+        "Ergosterol"
+      ],
+      "mechanism_of_action": "Hericenones and erinacines stimulate de novo synthesis and secretion of <strong>NGF</strong> (nerve growth factor) in astrocytes, promoting neuronal survival and axonal growth. Erinacines cross the <strong>blood-brain barrier</strong> (demonstrated in rodent studies) via passive diffusion. Anti-neuroinflammatory effects via inhibition of <strong>MAPK</strong> and <strong>NF-κB</strong> pathways. Promotes hippocampal neurogenesis via <strong>TrkA</strong>/<strong>Erk1/2</strong> signalling.",
       "pharmacokinetics": {
         "absorption": "Erinacine A crosses the blood-brain barrier in rodents; human CNS penetration not directly measured. Hericenone bioavailability in humans is not well characterised.",
+        "distribution": "Erinacine A distributes into CNS tissue in rodent models, including the hippocampus and cortex. Hericenones are lipophilic and expected to distribute into lipid-rich tissues. No human plasma protein binding or tissue distribution data are available.",
         "metabolism": "Limited human data. Hepatic phase I/II metabolism assumed based on compound structure.",
         "excretion": "Limited human data. Presumed renal and biliary excretion of metabolites."
       },
@@ -68,15 +93,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 18844328", "PMID: 20834180", "PMID: 32210036"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42125535/",
+        "https://pubmed.ncbi.nlm.nih.gov/42082841/",
+        "https://pubmed.ncbi.nlm.nih.gov/42074246/"
+      ]
     }
   },
   {
     "scientific_name": "Inonotus obliquus",
     "common_name": "Chaga",
     "type": "Fungi",
-    "article_count": 510,
-    "primary_categories": ["Antioxidant", "Immunomodulation", "Anti-inflammatory"],
+    "article_count": 437,
+    "primary_categories": [
+      "Antioxidant",
+      "Immunomodulation",
+      "Anti-inflammatory"
+    ],
     "narrative_summary": {
       "historical_use": "Used in folk medicine across Russia, Siberia, and Scandinavia (including Norway and Finland) since at least the 16th century. Traditionally prepared as a tea (decoction of the sclerotium) for GI diseases, tuberculosis, and cancer. Finnish records describe its use as a coffee substitute during WWII.",
       "modern_application": "Studied primarily for antioxidant and anti-tumour activity. Betulinic acid and polysaccharides show anti-proliferative effects in vitro and in animal models. Immunomodulatory properties documented. Anti-inflammatory and anti-hyperglycaemic effects seen in preclinical studies. Human RCT data remains limited.",
@@ -85,10 +118,18 @@
     },
     "clinical_data": {
       "used_part": "Sclerotium (sterile conk growing on birch trees)",
-      "primary_active_compounds": ["Betulinic acid", "Betulin", "Inotodiol (lanostane triterpenoid)", "Polysaccharides (beta-1,3-glucans)", "Melanin-glucan complex", "Ergosterol peroxide"],
-      "mechanism_of_action": "Betulinic acid induces tumour cell apoptosis via mitochondrial pathway (cytochrome c release, caspase-3 activation). Beta-glucans activate macrophages and NK cells via Dectin-1 and TLR-2/4 receptors. Melanin complex acts as a potent free-radical scavenger (DPPH, ABTS assays). Anti-inflammatory via inhibition of COX-2 and iNOS.",
+      "primary_active_compounds": [
+        "Betulinic acid",
+        "Betulin",
+        "Inotodiol (lanostane triterpenoid)",
+        "Polysaccharides (beta-1,3-glucans)",
+        "Melanin-glucan complex",
+        "Ergosterol peroxide"
+      ],
+      "mechanism_of_action": "Betulinic acid induces tumour cell apoptosis via the mitochondrial pathway (cytochrome c release, <strong>caspase-3</strong> activation). Beta-glucans activate macrophages and NK cells via <strong>Dectin-1</strong> and <strong>TLR-2/4</strong> receptors. Melanin-glucan complex acts as a potent free-radical scavenger (DPPH, ABTS assays). Anti-inflammatory activity via inhibition of <strong>COX-2</strong> and <strong>iNOS</strong> expression.",
       "pharmacokinetics": {
         "absorption": "Betulinic acid has very poor oral bioavailability (<5%) due to low aqueous solubility. Polysaccharides have limited systemic absorption; exert local GI immunomodulatory effects.",
+        "distribution": "Betulinic acid is highly lipophilic (logP ≈ 7.8) and distributes extensively into adipose tissue and the liver; plasma protein binding exceeds 99%. It does not readily penetrate the blood-brain barrier due to poor aqueous solubility. Polysaccharide fractions remain largely in the GI tract and GALT. No quantitative human tissue distribution data are available.",
         "metabolism": "Betulinic acid undergoes hepatic oxidative metabolism. Detailed human PK data not available.",
         "excretion": "Fecal excretion of unabsorbed polysaccharides and betulinic acid; oxalate excreted renally."
       },
@@ -104,15 +145,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 29735237", "PMID: 24239400", "PMID: 26392405"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42102927/",
+        "https://pubmed.ncbi.nlm.nih.gov/42096018/",
+        "https://pubmed.ncbi.nlm.nih.gov/41978174/"
+      ]
     }
   },
   {
     "scientific_name": "Cordyceps sinensis",
     "common_name": "Kinesisk Snyltekølle / Caterpillar Fungus",
     "type": "Fungi",
-    "article_count": 1400,
-    "primary_categories": ["Adaptogen", "Athletic performance", "Renoprotection"],
+    "article_count": 2836,
+    "primary_categories": [
+      "Adaptogen",
+      "Athletic performance",
+      "Renoprotection"
+    ],
     "narrative_summary": {
       "historical_use": "Documented in Tibetan and Chinese medicine since at least the 15th century (Ben Cao Bei Yao, 1694). Traditionally collected at high altitude on the Tibetan Plateau, growing from the larvae of Hepialus moth caterpillars. Used to treat fatigue, respiratory weakness, sexual dysfunction, and as a general tonic for the elderly.",
       "modern_application": "Studied for anti-fatigue and athletic performance enhancement (increased VO2 max in elderly subjects). Clinically trialled for chronic kidney disease — several Chinese RCTs show reduction in proteinuria and creatinine. Immunomodulatory and anti-tumour properties documented in preclinical models. Expensive wild form largely replaced by cultured mycelium (CS-4 strain).",
@@ -121,10 +170,18 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body (stromata) and mycelium; cultured mycelium (CS-4) used commercially",
-      "primary_active_compounds": ["Cordycepin (3'-deoxyadenosine)", "Adenosine", "D-Mannitol (cordycepic acid)", "Polysaccharides (CS-PS)", "Beta-glucans", "Ergosterol"],
-      "mechanism_of_action": "Cordycepin inhibits mRNA polyadenylation, blocking RNA processing and thereby suppressing inflammatory cytokine production and tumour cell proliferation. Adenosine and cordycepin act on adenosine receptors (A1, A2A, A3) modulating cardiovascular and immune tone. Increases cellular ATP production via mitochondrial upregulation. Anti-inflammatory via NF-κB and COX-2 inhibition.",
+      "primary_active_compounds": [
+        "Cordycepin (3'-deoxyadenosine)",
+        "Adenosine",
+        "D-Mannitol (cordycepic acid)",
+        "Polysaccharides (CS-PS)",
+        "Beta-glucans",
+        "Ergosterol"
+      ],
+      "mechanism_of_action": "Cordycepin inhibits mRNA polyadenylation, blocking RNA processing and thereby suppressing inflammatory cytokine production and tumour cell proliferation. Adenosine and cordycepin act on adenosine receptors (<strong>A1</strong>, <strong>A2A</strong>, <strong>A3</strong>), modulating cardiovascular and immune tone. Increases cellular ATP production via <strong>AMPK</strong>-mediated mitochondrial biogenesis. Anti-inflammatory via suppression of <strong>NF-κB</strong> and <strong>COX-2</strong>.",
       "pharmacokinetics": {
         "absorption": "Cordycepin is rapidly deaminated in plasma by adenosine deaminase to the less active 3'-deoxyinosine, significantly limiting systemic bioavailability. Plasma half-life is very short (minutes) unless adenosine deaminase is inhibited.",
+        "distribution": "Cordycepin distributes rapidly to tissues via equilibrative nucleoside transporters (ENTs) but is simultaneously deaminated in plasma. In animal models, intact cordycepin has been detected in liver, kidney, and spleen. Adenosine distributes widely to all tissues. No quantitative human tissue distribution studies are available for Cordyceps sinensis preparations.",
         "metabolism": "Rapid deamination by adenosine deaminase; hepatic xanthine oxidase pathway for purine catabolism.",
         "excretion": "Renal excretion of deaminated metabolites."
       },
@@ -140,15 +197,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 9540194", "PMID: 28401567", "DOI: 10.1186/s13063-014-0515-7"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42147308/",
+        "https://pubmed.ncbi.nlm.nih.gov/42114627/",
+        "https://pubmed.ncbi.nlm.nih.gov/42113971/"
+      ]
     }
   },
   {
     "scientific_name": "Cordyceps militaris",
     "common_name": "Cordyceps militaris / Orange Caterpillar Fungus",
     "type": "Fungi",
-    "article_count": 730,
-    "primary_categories": ["Adaptogen", "Anti-inflammatory", "Athletic performance"],
+    "article_count": 2836,
+    "primary_categories": [
+      "Adaptogen",
+      "Anti-inflammatory",
+      "Athletic performance"
+    ],
     "narrative_summary": {
       "historical_use": "Historically used interchangeably with C. sinensis in Traditional Chinese Medicine, though less prized. Growing interest as a cultivatable alternative since wild C. sinensis is prohibitively expensive and endangered. Used in TCM for similar indications: fatigue, sexual dysfunction, respiratory conditions.",
       "modern_application": "Contains higher concentrations of cordycepin than wild C. sinensis and is more accessible for research. A double-blind RCT (Hirsch et al., 2017) demonstrated improved VO2 max and time-to-exhaustion in active adults. Anti-inflammatory effects documented both in vitro and in vivo. Investigated for anti-tumour, antidiabetic, and renoprotective activities.",
@@ -157,10 +222,18 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body and mycelium (commercially cultivated)",
-      "primary_active_compounds": ["Cordycepin (3'-deoxyadenosine — higher concentration than C. sinensis)", "Adenosine", "Polysaccharides", "Carotenoids (cordyxanthin)", "Ergosterol", "Militarinones"],
-      "mechanism_of_action": "Cordycepin is the primary bioactive; inhibits polyadenylation of mRNA, reducing expression of pro-inflammatory cytokines (TNF-α, IL-6, IL-1β). Activates AMPK pathway, enhancing mitochondrial biogenesis. Immunomodulation via NK cell and macrophage activation. Anti-tumour activity via cell cycle arrest at G2/M phase and apoptosis induction.",
+      "primary_active_compounds": [
+        "Cordycepin (3'-deoxyadenosine — higher concentration than C. sinensis)",
+        "Adenosine",
+        "Polysaccharides",
+        "Carotenoids (cordyxanthin)",
+        "Ergosterol",
+        "Militarinones"
+      ],
+      "mechanism_of_action": "Cordycepin is the primary bioactive; inhibits mRNA polyadenylation, reducing expression of pro-inflammatory cytokines (<strong>TNF-α</strong>, <strong>IL-6</strong>, <strong>IL-1β</strong>). Activates <strong>AMPK</strong> pathway, enhancing mitochondrial biogenesis. Immunomodulation via NK cell and macrophage activation. Anti-tumour activity via cell cycle arrest at G2/M phase and apoptosis induction.",
       "pharmacokinetics": {
         "absorption": "Cordycepin is rapidly deaminated by adenosine deaminase after oral administration; concurrent administration of adenosine deaminase inhibitors (e.g., pentostatin) dramatically increases bioavailability. Human PK studies are limited.",
+        "distribution": "Cordycepin distributes broadly via equilibrative nucleoside transporters (ENTs) to muscle, liver, and kidney. In animal models, intact cordycepin has been detected in tumour tissue. Rapid plasma deamination limits systemic exposure of the intact molecule. No quantitative human tissue distribution studies are available.",
         "metabolism": "Adenosine deaminase-mediated deamination is the primary metabolic step; subsequent hepatic purine catabolism.",
         "excretion": "Renal excretion of polar metabolites."
       },
@@ -176,15 +249,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 28401567", "DOI: 10.1155/2012/869649", "PMID: 26197888"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42147308/",
+        "https://pubmed.ncbi.nlm.nih.gov/42114627/",
+        "https://pubmed.ncbi.nlm.nih.gov/42113971/"
+      ]
     }
   },
   {
     "scientific_name": "Trametes versicolor",
     "common_name": "Turkey Tail / Kalkhatten",
     "type": "Fungi",
-    "article_count": 1100,
-    "primary_categories": ["Immunomodulation", "Oncology support", "Gut microbiome"],
+    "article_count": 1346,
+    "primary_categories": [
+      "Immunomodulation",
+      "Oncology support",
+      "Gut microbiome"
+    ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese Medicine as 'Yun Zhi' (cloud mushroom) for over 2,000 years for liver ailments, infections, and as a general tonic. In Japan, the polysaccharide extract PSK (Krestin) was developed in the 1970s and became one of the best-selling anti-cancer drugs in the world, approved for clinical use in Japan.",
       "modern_application": "PSK (polysaccharide-K) and PSP (polysaccharide-peptide) are the most clinically validated compounds. Meta-analyses of Japanese RCTs show improved 5-year survival in gastric and colorectal cancer when PSK is used as adjunct to chemotherapy. US FDA granted IND approval for a clinical trial in breast cancer. Also shown to modulate gut microbiome composition beneficially.",
@@ -193,10 +274,17 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body",
-      "primary_active_compounds": ["PSK / Krestin (polysaccharide-K, protein-bound)", "PSP (polysaccharide-peptide)", "Beta-1,3/1,4-glucans", "Ergosterol", "Phenolic compounds (quercetin, kaempferol)"],
-      "mechanism_of_action": "PSK and PSP bind to TLR-2 and Dectin-1 on macrophages and dendritic cells, activating innate immunity. Stimulates NK cell cytotoxicity and T-helper cell polarisation. PSK upregulates IL-2, IFN-γ production. Antioxidant via direct radical scavenging. Prebiotic effect on Bifidobacterium and Lactobacillus populations in the gut.",
+      "primary_active_compounds": [
+        "PSK / Krestin (polysaccharide-K, protein-bound)",
+        "PSP (polysaccharide-peptide)",
+        "Beta-1,3/1,4-glucans",
+        "Ergosterol",
+        "Phenolic compounds (quercetin, kaempferol)"
+      ],
+      "mechanism_of_action": "PSK and PSP bind to <strong>TLR-2</strong> and <strong>Dectin-1</strong> on macrophages and dendritic cells, activating innate immunity. Stimulates NK cell cytotoxicity and T-helper cell polarisation. PSK upregulates <strong>IL-2</strong>, <strong>IFN-γ</strong> production. Antioxidant via direct radical scavenging. Prebiotic effect on Bifidobacterium and Lactobacillus populations in the gut.",
       "pharmacokinetics": {
         "absorption": "PSK is a high-molecular-weight glycoprotein with limited systemic oral absorption; primarily acts at gut-associated lymphoid tissue (GALT) and is partially absorbed in lower molecular weight fractions.",
+        "distribution": "PSK distributes primarily to GALT, spleen, and peripheral lymphoid organs after partial oral absorption. Animal studies demonstrate accumulation in lymphoid tissue and tumour microenvironment. High molecular weight limits CNS penetration. No human plasma protein binding or quantitative tissue distribution data are available.",
         "metabolism": "Partially hydrolysed in the GI tract; absorbed fractions undergo hepatic metabolism.",
         "excretion": "Primarily fecal; some renal excretion of smaller absorbed fragments."
       },
@@ -212,15 +300,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 22814890", "PMID: 23435424", "DOI: 10.1371/journal.pone.0044890"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42129476/",
+        "https://pubmed.ncbi.nlm.nih.gov/42110815/",
+        "https://pubmed.ncbi.nlm.nih.gov/42105680/"
+      ]
     }
   },
   {
     "scientific_name": "Lentinula edodes",
     "common_name": "Shiitake",
     "type": "Fungi",
-    "article_count": 1250,
-    "primary_categories": ["Immunomodulation", "Cardiovascular", "Anti-infective"],
+    "article_count": 1607,
+    "primary_categories": [
+      "Immunomodulation",
+      "Cardiovascular",
+      "Anti-infective"
+    ],
     "narrative_summary": {
       "historical_use": "Cultivated and used as food and medicine in China and Japan for over 1,000 years. Referenced in Chinese medical texts as early as 100 CE (Liu Ming Ben Cao). Traditionally used for improving vitality, treating colds, liver conditions, and as an aphrodisiac. The most widely cultivated edible mushroom globally.",
       "modern_application": "Lentinan, the primary beta-glucan, is approved in Japan as an adjunct in gastric cancer treatment (IV formulation). Oral AHCC (Active Hexose Correlated Compound), derived from shiitake mycelium, is widely studied for immune enhancement. Anti-hypercholesterolaemic properties supported by multiple RCTs. Eritadenine shown to reduce serum LDL. Antiviral properties investigated (including HPV clearance in a small RCT).",
@@ -229,10 +325,18 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body and mycelium",
-      "primary_active_compounds": ["Lentinan (beta-1,3/1,6-glucan)", "Eritadenine (2(R),3(R)-dihydroxy-4-(9-adenyl)-butyric acid)", "AHCC (alpha-glucan-rich, from mycelium)", "KS-2 (alpha-mannan peptide)", "Polysaccharides", "L-ergothioneine"],
-      "mechanism_of_action": "Lentinan activates macrophages, NK cells, and T-cells via Dectin-1 and complement receptor 3 (CR3). Upregulates IL-12, TNF-α, IFN-γ. Eritadenine competitively inhibits S-adenosylhomocysteine hydrolase, lowering plasma homocysteine and LDL-cholesterol. AHCC activates NK and dendritic cells and modulates alpha-glucan-dependent pathways.",
+      "primary_active_compounds": [
+        "Lentinan (beta-1,3/1,6-glucan)",
+        "Eritadenine (2(R),3(R)-dihydroxy-4-(9-adenyl)-butyric acid)",
+        "AHCC (alpha-glucan-rich, from mycelium)",
+        "KS-2 (alpha-mannan peptide)",
+        "Polysaccharides",
+        "L-ergothioneine"
+      ],
+      "mechanism_of_action": "Lentinan activates macrophages, NK cells, and T-cells via <strong>Dectin-1</strong> and complement receptor 3 (<strong>CR3</strong>). Upregulates <strong>IL-12</strong>, <strong>TNF-α</strong>, <strong>IFN-γ</strong>. Eritadenine competitively inhibits <strong>S-adenosylhomocysteine hydrolase</strong>, lowering plasma homocysteine and LDL-cholesterol. AHCC activates NK and dendritic cells and modulates alpha-glucan-dependent pathways.",
       "pharmacokinetics": {
         "absorption": "Lentinan is poorly absorbed orally (hence IV formulation in clinical use). AHCC alpha-glucan fractions have better oral bioavailability due to smaller molecular weight. Eritadenine is absorbed orally.",
+        "distribution": "Lentinan (IV) distributes to lymphoid tissue, tumour stroma, and peritoneal cavity; does not cross the blood-brain barrier. AHCC fractions distribute to lymphoid tissue and liver. Eritadenine distributes systemically. No human plasma protein binding data are available.",
         "metabolism": "Eritadenine undergoes hepatic metabolism. Lentinan is degraded by intestinal microbiota and digestive enzymes.",
         "excretion": "Renal excretion of eritadenine metabolites; fecal for unabsorbed polysaccharides."
       },
@@ -248,15 +352,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 25866155", "PMID: 17429743", "DOI: 10.1016/j.jep.2015.08.010"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42112335/",
+        "https://pubmed.ncbi.nlm.nih.gov/42107424/",
+        "https://pubmed.ncbi.nlm.nih.gov/42087141/"
+      ]
     }
   },
   {
     "scientific_name": "Grifola frondosa",
     "common_name": "Maitake / Hen-of-the-Woods",
     "type": "Fungi",
-    "article_count": 580,
-    "primary_categories": ["Immunomodulation", "Antidiabetic", "Oncology support"],
+    "article_count": 588,
+    "primary_categories": [
+      "Immunomodulation",
+      "Antidiabetic",
+      "Oncology support"
+    ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese and Japanese medicine as a tonic and food. Known in Japan as 'Maitake' (dancing mushroom), legend holds that people danced with joy upon finding it in the wild. Used historically for fatigue, diabetes-like symptoms, and immune support. Cultivated commercially since the 1970s in Japan.",
       "modern_application": "D-fraction (MD-fraction), a specific beta-1,6/1,3-glucan with protein, has shown immunomodulatory and anti-tumour effects in preclinical and small human trials. A 2009 non-randomised study in breast cancer patients showed immune stimulation. SX-fraction (a specific polysaccharide fraction) has demonstrated antidiabetic effects in humans, reducing insulin resistance and blood glucose. Antihypertensive and lipid-lowering effects also documented.",
@@ -265,10 +377,17 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body",
-      "primary_active_compounds": ["D-fraction / MD-fraction (beta-1,6/1,3-glucan-protein complex)", "SX-fraction (alpha-glucan)", "Polysaccharides", "Ergosterol", "Phospholipids"],
-      "mechanism_of_action": "D-fraction binds Dectin-1 and TLR-2 on macrophages and dendritic cells, activating innate and adaptive immune responses; increases NK cell and CD4+ T-cell activity. Anti-tumour mechanism involves upregulation of TNF-α, IL-12, and direct tumour cytotoxicity. SX-fraction increases insulin receptor sensitivity via PPAR-gamma activation, reducing blood glucose and insulin resistance.",
+      "primary_active_compounds": [
+        "D-fraction / MD-fraction (beta-1,6/1,3-glucan-protein complex)",
+        "SX-fraction (alpha-glucan)",
+        "Polysaccharides",
+        "Ergosterol",
+        "Phospholipids"
+      ],
+      "mechanism_of_action": "D-fraction binds <strong>Dectin-1</strong> and <strong>TLR-2</strong> on macrophages and dendritic cells, activating innate and adaptive immune responses; increases NK cell and CD4+ T-cell activity. Anti-tumour mechanism involves upregulation of <strong>TNF-α</strong>, <strong>IL-12</strong>, and direct tumour cytotoxicity. SX-fraction increases insulin receptor sensitivity via <strong>PPAR-γ</strong> activation, reducing blood glucose and insulin resistance.",
       "pharmacokinetics": {
         "absorption": "Beta-glucan fractions have limited oral bioavailability; partially absorbed in low-molecular-weight fractions and active at gut mucosal level. SX-fraction absorption profile not fully characterised.",
+        "distribution": "D-fraction distributes to GALT, spleen, and lymph nodes in animal models; higher affinity for lymphoid tissue and tumour microenvironment. SX-fraction distribution to peripheral tissues (muscle, liver, adipose) demonstrated in rodent models. Human tissue distribution data are not available.",
         "metabolism": "Intestinal microbial fermentation of polysaccharides produces short-chain fatty acids (SCFAs). Absorbed fractions undergo hepatic metabolism.",
         "excretion": "Primarily fecal; smaller metabolites via renal route."
       },
@@ -284,15 +403,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 19516576", "PMID: 20931066", "DOI: 10.1089/acm.2009.0091"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42116453/",
+        "https://pubmed.ncbi.nlm.nih.gov/42070058/",
+        "https://pubmed.ncbi.nlm.nih.gov/42055721/"
+      ]
     }
   },
   {
     "scientific_name": "Agaricus blazei",
     "common_name": "Mandel-champignon / Royal Sun Agaricus / ABM",
     "type": "Fungi",
-    "article_count": 420,
-    "primary_categories": ["Immunomodulation", "Antidiabetic", "Oncology support"],
+    "article_count": 357,
+    "primary_categories": [
+      "Immunomodulation",
+      "Antidiabetic",
+      "Oncology support"
+    ],
     "narrative_summary": {
       "historical_use": "Native to the Piedade region of Brazil, where it is known as 'Cogumelo do Sol' (mushroom of the sun) or 'Cogumelo de Deus' (mushroom of God). Introduced to Japan in the 1960s, where it became popular after researchers noted low rates of cancer and infections in the Brazilian community that consumed it regularly.",
       "modern_application": "Studied primarily for immunomodulation and anti-tumour activity. Japanese RCTs in gynaecological cancer patients show improved NK cell activity when used as adjunct to chemotherapy. A Norwegian RCT (AndoSan) demonstrated reduced inflammatory markers (TNF-α, IL-6) in healthy subjects. Anti-hyperglycaemic effects documented in type 2 diabetic patients in a small RCT (reduced insulin resistance).",
@@ -301,10 +428,17 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body",
-      "primary_active_compounds": ["Beta-1,3/1,6-D-glucans (high content, up to 40% dry weight)", "Polysaccharides (AbPS)", "Ergosterol", "Blazein (steroid compound)", "Agaritine (hydrazine derivative — potentially genotoxic)"],
-      "mechanism_of_action": "Beta-glucans activate macrophages and NK cells via Dectin-1; upregulate Th1 cytokines (IL-12, IFN-γ, TNF-α). Anti-tumour mechanisms include direct cytotoxicity via induction of apoptosis (caspase-3 pathway) and anti-angiogenic effects. Antidiabetic mechanism involves PPAR-gamma activation and improved insulin receptor signalling. Agaritine is a potentially carcinogenic hydrazine compound degraded by cooking.",
+      "primary_active_compounds": [
+        "Beta-1,3/1,6-D-glucans (high content, up to 40% dry weight)",
+        "Polysaccharides (AbPS)",
+        "Ergosterol",
+        "Blazein (steroid compound)",
+        "Agaritine (hydrazine derivative — potentially genotoxic)"
+      ],
+      "mechanism_of_action": "Beta-glucans activate macrophages and NK cells via <strong>Dectin-1</strong>; upregulate Th1 cytokines (<strong>IL-12</strong>, <strong>IFN-γ</strong>, <strong>TNF-α</strong>). Anti-tumour mechanisms include direct cytotoxicity via induction of apoptosis (<strong>caspase-3</strong> pathway) and anti-angiogenic effects. Antidiabetic mechanism involves <strong>PPAR-γ</strong> activation and improved insulin receptor signalling. Agaritine is a potentially carcinogenic hydrazine compound degraded by cooking.",
       "pharmacokinetics": {
         "absorption": "Beta-glucan fractions partially absorbed; primarily active at GALT. Detailed human PK data not available.",
+        "distribution": "Beta-glucan fractions concentrate at gut-associated lymphoid tissue (GALT), spleen, and mesenteric lymph nodes; limited systemic distribution. Blazein (steroid compound) distributes broadly due to lipophilicity; plasma protein binding not established in humans. No quantitative human tissue distribution studies available.",
         "metabolism": "Hepatic metabolism of absorbed fractions. Agaritine hydrolysed by gut bacteria and enzymes; cooking significantly reduces agaritine content.",
         "excretion": "Primarily fecal for polysaccharides; renal for smaller metabolites."
       },
@@ -320,15 +454,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 21120122", "PMID: 21164316", "DOI: 10.1186/1472-6882-11-29"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42019840/",
+        "https://pubmed.ncbi.nlm.nih.gov/41966375/",
+        "https://pubmed.ncbi.nlm.nih.gov/41655058/"
+      ]
     }
   },
   {
     "scientific_name": "Tremella fuciformis",
     "common_name": "Snow Fungus / Silver Ear Mushroom / Hvid Gelésvamp",
     "type": "Fungi",
-    "article_count": 310,
-    "primary_categories": ["Neuroprotection", "Skin health", "Immunomodulation"],
+    "article_count": 227,
+    "primary_categories": [
+      "Neuroprotection",
+      "Skin health",
+      "Immunomodulation"
+    ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese Medicine and as a prized culinary delicacy for over 2,000 years. Known in China as 'Bai Mu Er' (white wood ear). Historically associated with female beauty and longevity — legend holds that Yang Guifei, the Tang Dynasty imperial consort famed for her beauty, used it daily. Used medicinally for lung conditions, dry cough, and as a yin tonic.",
       "modern_application": "The primary bioactive — Tremella polysaccharide (TP) — is studied for neuroprotective effects (NGF-like activity), skin hydration (high water-retention capacity comparable to hyaluronic acid), and immunomodulation. Preclinical studies show NGF secretion stimulation and neuroprotection against amyloid-beta toxicity. Cosmetic industry extensively uses TP for topical hydration. Anti-diabetic and anti-atherosclerotic effects in animal models.",
@@ -337,10 +479,17 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body",
-      "primary_active_compounds": ["Tremella polysaccharide (TP) — acidic heteropolysaccharide", "Glucuronoxylomannans", "Ergosterol", "Trehalose", "Phenolic compounds"],
-      "mechanism_of_action": "Tremella polysaccharides stimulate NGF secretion in astrocytes (similar mechanism to Lion's Mane), promoting neuronal differentiation and survival. High uronic acid content of TP gives it exceptional water-binding capacity (superior to hyaluronic acid by molecular weight). Immunomodulation via macrophage and NK cell activation. Antidiabetic effects via PPAR-γ agonism and alpha-glucosidase inhibition.",
+      "primary_active_compounds": [
+        "Tremella polysaccharide (TP) — acidic heteropolysaccharide",
+        "Glucuronoxylomannans",
+        "Ergosterol",
+        "Trehalose",
+        "Phenolic compounds"
+      ],
+      "mechanism_of_action": "Tremella polysaccharides stimulate <strong>NGF</strong> secretion in astrocytes (similar mechanism to Lion's Mane), promoting neuronal differentiation and survival. Anti-inflammatory effects via inhibition of <strong>NF-κB</strong> and <strong>COX-2</strong>. Skin-hydrating effects attributed to polysaccharide hygroscopic properties and upregulation of hyaluronic acid synthase (<strong>HAS2</strong>). Immunomodulation via <strong>TLR-4</strong> activation.",
       "pharmacokinetics": {
         "absorption": "Oral bioavailability of TP is low due to high molecular weight. Some fractions absorbed in the GI tract; bioactive effects also mediated at mucosal level. Human PK data very limited.",
+        "distribution": "High-molecular-weight polysaccharides remain largely confined to the GI tract and GALT; smaller oligosaccharide fragments may enter systemic circulation via lymphatic uptake. Skin distribution is suggested by clinical hydration data, consistent with promotion of dermal hyaluronic acid synthesis. No formal human PK distribution studies.",
         "metabolism": "Partially fermented by gut microbiota to SCFAs. Absorbed fractions undergo hepatic metabolism.",
         "excretion": "Primarily fecal; renal for absorbed small molecular weight fragments."
       },
@@ -356,15 +505,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 29186505", "PMID: 31249999", "DOI: 10.1016/j.carbpol.2015.05.054"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42101779/",
+        "https://pubmed.ncbi.nlm.nih.gov/42083183/",
+        "https://pubmed.ncbi.nlm.nih.gov/42070597/"
+      ]
     }
   },
   {
     "scientific_name": "Phellinus linteus",
     "common_name": "Sanghuang / Meshimakobu",
     "type": "Fungi",
-    "article_count": 380,
-    "primary_categories": ["Immunomodulation", "Oncology support", "Anti-inflammatory"],
+    "article_count": 307,
+    "primary_categories": [
+      "Immunomodulation",
+      "Oncology support",
+      "Anti-inflammatory"
+    ],
     "narrative_summary": {
       "historical_use": "One of the most prized medicinal mushrooms in East Asian medicine, known as 'Sang Huang' (yellow mulberry) in China and 'Meshimakobu' in Japan. Used for over 2,000 years primarily as an anti-tumour agent, also for haemostasis, dysentery, and as an immune tonic. Grows on mulberry trees (Morus species) and was historically one of the most expensive medicinal fungi.",
       "modern_application": "Strongly investigated for anti-tumour and immunomodulatory properties. Preclinical studies show consistent anti-proliferative effects across multiple cancer cell lines (breast, prostate, colon, leukaemia). Mechanistically among the better-characterised medicinal mushrooms for tumour-suppressive activity. Investigated as an adjunct in prostate cancer in a small human study. Anti-inflammatory properties studied for IBD and arthritis models.",
@@ -373,10 +530,18 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body and mycelium",
-      "primary_active_compounds": ["Hispidin (styrylpyrone compound)", "Polysaccharides (PL-1, PL-2 — beta-glucans)", "Protocatechuic acid", "Caffeic acid", "Inoscavin A", "Davallialactone"],
-      "mechanism_of_action": "Hispidin and related styrylpyrones inhibit PKC (protein kinase C) and scavenge free radicals. Polysaccharides activate macrophages and NK cells via Dectin-1/TLR-2, increasing IL-12, IFN-γ, and TNF-α production. Anti-tumour activity via Akt/mTOR pathway inhibition, inducing G1 cell cycle arrest and apoptosis (caspase-3/7). Anti-angiogenic via VEGF suppression.",
+      "primary_active_compounds": [
+        "Hispidin (styrylpyrone compound)",
+        "Polysaccharides (PL-1, PL-2 — beta-glucans)",
+        "Protocatechuic acid",
+        "Caffeic acid",
+        "Inoscavin A",
+        "Davallialactone"
+      ],
+      "mechanism_of_action": "Hispidin and related styrylpyrones inhibit <strong>PKC</strong> (protein kinase C) and scavenge free radicals. Polysaccharides activate macrophages and NK cells via <strong>Dectin-1</strong>/<strong>TLR-4</strong>; upregulate <strong>IL-12</strong> and <strong>IFN-γ</strong>. Anti-tumour activity involves <strong>TRAIL</strong>-mediated apoptosis and <strong>VEGF</strong> inhibition (anti-angiogenic). Antidiabetic effect via α-glucosidase inhibition and improved insulin sensitivity through <strong>PPAR-γ</strong>.",
       "pharmacokinetics": {
         "absorption": "Limited human PK data. Hispidin has demonstrated absorption in animal models; polysaccharide fractions show limited systemic absorption.",
+        "distribution": "Hispidin and styrylpyrone compounds are lipophilic and distribute widely to liver, adipose tissue, and inflammatory foci. Polysaccharide fractions preferentially target GALT, spleen, and bone marrow. No formal human tissue distribution data available; preclinical rodent data only.",
         "metabolism": "Hepatic phase I/II metabolism of phenolic compounds assumed. Polysaccharides fermented by gut microbiota.",
         "excretion": "Renal excretion of phenolic metabolites; fecal for unabsorbed polysaccharides."
       },
@@ -392,15 +557,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 15664459", "PMID: 16901419", "DOI: 10.1016/j.phymed.2010.01.013"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41868659/",
+        "https://pubmed.ncbi.nlm.nih.gov/41751415/",
+        "https://pubmed.ncbi.nlm.nih.gov/41750890/"
+      ]
     }
   },
   {
     "scientific_name": "Poria cocos",
     "common_name": "Fu Ling / Tuckahoe / Indian Bread",
     "type": "Fungi",
-    "article_count": 620,
-    "primary_categories": ["Immunomodulation", "Sedation/Anxiolysis", "Anti-inflammatory"],
+    "article_count": 889,
+    "primary_categories": [
+      "Immunomodulation",
+      "Sedation/Anxiolysis",
+      "Anti-inflammatory"
+    ],
     "narrative_summary": {
       "historical_use": "One of the most widely used fungi in Traditional Chinese Medicine, mentioned as a primary herb in the Shen Nong Ben Cao Jing (c. 100 CE). Known as 'Fu Ling', used to calm the mind (shen), strengthen the spleen and stomach, promote urination, and resolve dampness. A core component of many classical TCM formulas (e.g., Liu Wei Di Huang Wan, Si Jun Zi Tang).",
       "modern_application": "Beta-pachymaran and pachymic acids are the primary studied bioactives. Documented immunomodulatory, anti-tumour, and anti-inflammatory effects in preclinical studies. Sedative and anxiolytic properties supported by animal pharmacology (interaction with GABA-A receptor). Antidiabetic effects in animal models. Widely used in TCM formulations for GI disorders and insomnia.",
@@ -409,10 +582,18 @@
     },
     "clinical_data": {
       "used_part": "Sclerotium (underground mass)",
-      "primary_active_compounds": ["Pachymaran (beta-1,3-glucan)", "Pachymic acid (lanostane triterpenoid)", "Tumulosic acid", "Dehydropachymic acid", "Poriacocos polysaccharides (PCP)", "Ergosterol"],
-      "mechanism_of_action": "Pachymaran activates macrophages and NK cells via Dectin-1/TLR-4. Pachymic acid inhibits NF-κB pathway, reducing pro-inflammatory cytokine production. Sedative/anxiolytic effects mediated via potentiation of GABA-A receptor chloride conductance (positive allosteric modulation). Anti-tumour effects via Akt/ERK pathway inhibition and apoptosis induction. Mild diuretic effect via inhibition of renal tubular Na+/K+-ATPase.",
+      "primary_active_compounds": [
+        "Pachymaran (beta-1,3-glucan)",
+        "Pachymic acid (lanostane triterpenoid)",
+        "Tumulosic acid",
+        "Dehydropachymic acid",
+        "Poriacocos polysaccharides (PCP)",
+        "Ergosterol"
+      ],
+      "mechanism_of_action": "Pachymaran activates macrophages and NK cells via <strong>Dectin-1</strong>/<strong>TLR-4</strong>. Pachymic acid inhibits <strong>NF-κB</strong> pathway, reducing pro-inflammatory cytokines (<strong>IL-6</strong>, <strong>TNF-α</strong>, <strong>COX-2</strong>). Diuretic action attributed to direct renal tubular effects. Sedative effects involve positive modulation of <strong>GABA-A</strong> receptor (animal data only).",
       "pharmacokinetics": {
         "absorption": "Pachymic acid absorbed orally; reaches systemic circulation. Pachymaran (high MW) has limited systemic absorption. Detailed human PK data limited.",
+        "distribution": "Pachymaran (polysaccharide) preferentially targets GALT and spleen; limited systemic absorption. Pachymic acid (triterpenoid) is lipophilic; distributes to liver and adipose tissue. Plasma protein binding of triterpenoids estimated >80% by analogy with structurally related compounds. No human clinical PK distribution studies.",
         "metabolism": "Pachymic acid undergoes hepatic CYP450-mediated metabolism. Polysaccharides partially fermented by intestinal microbiota.",
         "excretion": "Renal excretion of triterpenoid metabolites; fecal for polysaccharides."
       },
@@ -428,15 +609,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 22771396", "PMID: 30016492", "DOI: 10.1016/j.jep.2013.08.035"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42148962/",
+        "https://pubmed.ncbi.nlm.nih.gov/42146259/",
+        "https://pubmed.ncbi.nlm.nih.gov/42142777/"
+      ]
     }
   },
   {
     "scientific_name": "Polyporus umbellatus",
     "common_name": "Zhu Ling / Umbrella Polypore",
     "type": "Fungi",
-    "article_count": 220,
-    "primary_categories": ["Immunomodulation", "Diuretic", "Oncology support"],
+    "article_count": 136,
+    "primary_categories": [
+      "Immunomodulation",
+      "Diuretic",
+      "Oncology support"
+    ],
     "narrative_summary": {
       "historical_use": "Known in TCM as 'Zhu Ling', used for over 2,000 years primarily as a diuretic and for treating oedema, urinary difficulty, and diarrhoea. Referenced in classical texts including Shen Nong Ben Cao Jing. The sclerotium grows on the roots of deciduous trees. A major component of the classical TCM formula 'Zhu Ling Tang' for urinary tract disorders.",
       "modern_application": "Ergone (a steroid from the fruiting body) and polysaccharides (PU-PS) are the primary bioactives. Zhu Ling polysaccharide injection (ZPS) is used in China as an adjunct to chemotherapy in bladder and other cancers. Diuretic effect well-documented. Immunomodulatory properties studied in animal models and small clinical trials. Anti-tumour properties via NK cell and macrophage activation.",
@@ -445,10 +634,16 @@
     },
     "clinical_data": {
       "used_part": "Sclerotium and fruiting body",
-      "primary_active_compounds": ["Polyporus umbellatus polysaccharides (PU-PS, beta-glucan)", "Ergone (ergosta-4,6,8(14),22-tetraen-3-one)", "Acetosyringone", "Biotin"],
-      "mechanism_of_action": "PU-PS activates macrophages and T-cells via TLR-2/Dectin-1; stimulates IL-2, IFN-γ. Anti-tumour effects via NK cell activation and promotion of tumour cell apoptosis. Diuretic effect via inhibition of aldosterone and ADH-mediated water reabsorption (mechanism partially characterised). Ergone inhibits 5-alpha-reductase (relevant to prostate health).",
+      "primary_active_compounds": [
+        "Polyporus umbellatus polysaccharides (PU-PS, beta-glucan)",
+        "Ergone (ergosta-4,6,8(14),22-tetraen-3-one)",
+        "Acetosyringone",
+        "Biotin"
+      ],
+      "mechanism_of_action": "PU-PS activates macrophages and T-cells via <strong>TLR-2</strong>/<strong>Dectin-1</strong>; stimulates <strong>IL-2</strong>, <strong>IFN-γ</strong>. Anti-tumour effects via <strong>NK cell</strong> activation and induction of tumour cell apoptosis (<strong>Bcl-2</strong> suppression). Diuretic mechanism: inhibition of renal <strong>Na⁺/K⁺-ATPase</strong> and modulation of aquaporin expression. Ergosterol is a precursor to vitamin D2.",
       "pharmacokinetics": {
         "absorption": "Limited human PK data. Polysaccharides have limited systemic oral bioavailability. Ergone absorption profile not characterised in humans.",
+        "distribution": "Polysaccharide fractions (PU-PS) concentrate in kidneys, spleen, and lymph nodes, consistent with diuretic and immunomodulatory effects. Ergosterol derivatives distribute systemically. No formal human pharmacokinetic distribution studies available.",
         "metabolism": "Assumed hepatic metabolism of steroid (ergone) compounds. Polysaccharides fermented in colon.",
         "excretion": "Renal excretion (diuretic mechanism increases urinary output). Fecal for unabsorbed polysaccharides."
       },
@@ -464,15 +659,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 24795079", "PMID: 12627425", "DOI: 10.1016/j.jep.2011.01.023"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41874788/",
+        "https://pubmed.ncbi.nlm.nih.gov/41862737/",
+        "https://pubmed.ncbi.nlm.nih.gov/41590451/"
+      ]
     }
   },
   {
     "scientific_name": "Flammulina velutipes",
     "common_name": "Enoki / Winter Mushroom / Vintersvamp",
     "type": "Fungi",
-    "article_count": 390,
-    "primary_categories": ["Immunomodulation", "Anti-tumour", "Cardiovascular"],
+    "article_count": 642,
+    "primary_categories": [
+      "Immunomodulation",
+      "Anti-tumour",
+      "Cardiovascular"
+    ],
     "narrative_summary": {
       "historical_use": "Widely consumed as food in East Asia for centuries. Known in Japan as 'Enokitake', in China as 'Jin Zhen Gu' (golden needle mushroom). Used in TCM for liver disease, gastric disorders, and as a tonic. The wild form (brown, thick-stemmed) differs significantly in bioactive content from the commercially cultivated white, slender variety.",
       "modern_application": "Profungin / FVE (Flammulina velutipes immunomodulatory protein) is a unique ribosome-inactivating lectin with anti-tumour and immunomodulatory properties, studied in animal models. Flammutoxin, a cardiotoxic protein in the raw mushroom, is destroyed by cooking. Flammulin (a lectin) demonstrates anti-tumour activity. Ergothioneine content is among the highest of edible mushrooms. Epidemiological data from Japan links high enoki consumption to reduced cancer incidence.",
@@ -481,10 +684,18 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body (cooked or extracted)",
-      "primary_active_compounds": ["FVE (Flammulina velutipes immunomodulatory protein / lectin)", "Flammulin (lectin)", "Flammutoxin (cytotoxic protein — destroyed by heat)", "Polysaccharides (beta-glucans)", "L-ergothioneine", "Profungin"],
-      "mechanism_of_action": "FVE activates macrophages and NK cells; stimulates Th1 cytokines (IFN-γ, IL-2). Flammulin inhibits protein synthesis in tumour cells (ribosome inactivation). Ergothioneine is a potent antioxidant and cytoprotectant concentrated in mitochondria. Flammutoxin disrupts cell membranes via pore formation (toxic when raw; heat-labile). Anti-tumour mechanism includes apoptosis induction and anti-angiogenesis.",
+      "primary_active_compounds": [
+        "FVE (Flammulina velutipes immunomodulatory protein / lectin)",
+        "Flammulin (lectin)",
+        "Flammutoxin (cytotoxic protein — destroyed by heat)",
+        "Polysaccharides (beta-glucans)",
+        "L-ergothioneine",
+        "Profungin"
+      ],
+      "mechanism_of_action": "FVE activates macrophages and NK cells; stimulates Th1 cytokines (<strong>IFN-γ</strong>, <strong>IL-2</strong>). Flammulin inhibits protein synthesis in cancer cells via ribosome inactivating protein (RIP)-like activity. Lectins act as <strong>TLR-4</strong> ligands, activating innate immunity. Proflamin targets <strong>CD4+</strong> T-cells as an immunomodulatory lectin.",
       "pharmacokinetics": {
         "absorption": "Ergothioneine absorbed via organic cation transporter OCTN1; accumulates selectively in tissues under oxidative stress. FVE and flammulin are proteins largely degraded during digestion; immunological activity may be mediated at mucosal level.",
+        "distribution": "FVE (Flammulina velutipes lectin) and high-MW polysaccharides primarily act at mucosal surfaces and GALT. Flammulin distributes preferentially to actively dividing cells. Ergothioneine accumulates in erythrocytes via the OCTN1 transporter. No formal human PK distribution data.",
         "metabolism": "Ergothioneine: not significantly metabolised; retained in erythrocytes and mitochondria-rich tissues. Protein bioactives: digested to peptides/amino acids.",
         "excretion": "Ergothioneine: renal excretion of intact molecule and metabolites."
       },
@@ -500,15 +711,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 23136081", "PMID: 21663618", "DOI: 10.1016/j.foodchem.2015.02.076"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42141064/",
+        "https://pubmed.ncbi.nlm.nih.gov/42107424/",
+        "https://pubmed.ncbi.nlm.nih.gov/42103701/"
+      ]
     }
   },
   {
     "scientific_name": "Pleurotus ostreatus",
     "common_name": "Almindelig Østershat / Oyster Mushroom",
     "type": "Fungi",
-    "article_count": 870,
-    "primary_categories": ["Cardiovascular", "Antidiabetic", "Immunomodulation"],
+    "article_count": 4056,
+    "primary_categories": [
+      "Cardiovascular",
+      "Antidiabetic",
+      "Immunomodulation"
+    ],
     "narrative_summary": {
       "historical_use": "Consumed as food across Europe and Asia for centuries. Less prominent in traditional medicine than Asian medicinal fungi, but used in Eastern European folk medicine for general health. One of the most widely cultivated mushrooms globally, appreciated for culinary and nutritional value. References to medicinal use in Slavic folk medicine for liver and cardiovascular conditions.",
       "modern_application": "Among edible fungi, oyster mushrooms have the most clinical evidence for lipid-lowering effects. A placebo-controlled RCT demonstrated significant reduction in total cholesterol, LDL, and triglycerides in hyperlipidaemic patients. Lovastatin (mevinolin) content — a genuine statin — is the likely cholesterol-lowering mechanism. Antidiabetic effects (alpha-glucosidase inhibition) and immunomodulatory properties documented. Pleuran (beta-1,3/1,6-glucan) from P. ostreatus is commercially used as an immunomodulatory supplement.",
@@ -517,10 +736,18 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body",
-      "primary_active_compounds": ["Pleuran (beta-1,3/1,6-glucan)", "Lovastatin (mevinolin) — 2.8% dry weight in some varieties", "Polysaccharides", "Phenolic compounds (gallic acid, p-coumaric acid)", "Ergothioneine", "GABA"],
-      "mechanism_of_action": "Lovastatin competitively inhibits HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating LDL receptors (identical mechanism to pharmaceutical statins). Pleuran activates NK cells and macrophages via Dectin-1/CR3. Alpha-glucosidase inhibition by polysaccharide fractions slows post-prandial glucose absorption. GABA exerts mild anxiolytic and antihypertensive effects.",
+      "primary_active_compounds": [
+        "Pleuran (beta-1,3/1,6-glucan)",
+        "Lovastatin (mevinolin) — 2.8% dry weight in some varieties",
+        "Polysaccharides",
+        "Phenolic compounds (gallic acid, p-coumaric acid)",
+        "Ergothioneine",
+        "GABA"
+      ],
+      "mechanism_of_action": "Lovastatin competitively inhibits <strong>HMG-CoA reductase</strong>, reducing hepatic cholesterol synthesis and upregulating <strong>LDL receptor</strong> expression. Beta-glucans activate <strong>Dectin-1</strong>, promoting Th1 immune response. <strong>ACE</strong>-inhibitory peptides reduce angiotensin II formation, producing antihypertensive effects. Ergothioneine acts as antioxidant via <strong>Nrf2</strong>/<strong>HO-1</strong> upregulation.",
       "pharmacokinetics": {
         "absorption": "Lovastatin absorbed in prodrug (lactone) form; hydrolysed to active hydroxy acid in gut/liver; bioavailability ~5% due to first-pass effect. Pleuran: limited systemic absorption; active at mucosal/GALT level.",
+        "distribution": "Lovastatin undergoes extensive hepatic first-pass metabolism; the active β-hydroxy acid metabolite distributes systemically with high hepatic uptake (target organ) and ~95% plasma protein binding. Ergothioneine concentrates in erythrocytes via OCTN1 transporter. Polysaccharide fractions confined to GI/GALT. Volume of distribution of lovastatin ~0.5 L/kg.",
         "metabolism": "Lovastatin extensively metabolised by CYP3A4 to active and inactive metabolites. Pleuran fermented by gut microbiota.",
         "excretion": "Lovastatin: primarily biliary/fecal (83%); minor renal (10%). Pleuran: fecal."
       },
@@ -536,15 +763,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 21056640", "PMID: 17726047", "DOI: 10.1080/09637480701453225"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42148232/",
+        "https://pubmed.ncbi.nlm.nih.gov/42141309/",
+        "https://pubmed.ncbi.nlm.nih.gov/42133254/"
+      ]
     }
   },
   {
     "scientific_name": "Schizophyllum commune",
     "common_name": "Kløvblad / Split Gill Fungus",
     "type": "Fungi",
-    "article_count": 290,
-    "primary_categories": ["Immunomodulation", "Oncology support", "Anti-inflammatory"],
+    "article_count": 1174,
+    "primary_categories": [
+      "Immunomodulation",
+      "Oncology support",
+      "Anti-inflammatory"
+    ],
     "narrative_summary": {
       "historical_use": "Consumed as food in parts of Asia, Africa, and Latin America. Used in traditional medicine in Mexico and Southeast Asia for fever, headache, and infections. One of the most widespread mushroom species globally (found on every continent except Antarctica). Not traditionally prominent in Chinese or Japanese medicinal systems, but significant in modern Japanese oncology research.",
       "modern_application": "Schizophyllan (SPG / Sonifilan / sizofiran) — a beta-1,3-glucan — is approved in Japan as an adjunct to radiation therapy in cervical cancer, significantly improving survival. Clinical trials demonstrate immune stimulation with improved NK cell and lymphocyte activity. Intratumoral administration also investigated. Antibacterial and antifungal properties noted in vitro. Interestingly, it is an opportunistic pathogen in immunocompromised hosts (sino-pulmonary infections).",
@@ -553,10 +788,15 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body; SPG (schizophyllan) derived from fermentation of mycelium",
-      "primary_active_compounds": ["Schizophyllan / SPG / Sizofiran (beta-1,3-glucan with beta-1,6-branching)", "Glucans", "Mannoproteins"],
-      "mechanism_of_action": "Schizophyllan activates macrophages and NK cells via Dectin-1 receptor; upregulates IL-2, IFN-γ, TNF-α. Augments T-lymphocyte and B-lymphocyte function. As adjunct to radiotherapy, potentiates tumour-cell killing by improving immune clearance of irradiated tumour debris. Anti-tumour activity also via direct cytotoxicity in vitro. Schizophyllan forms a triple-helix structure that enhances receptor binding affinity.",
+      "primary_active_compounds": [
+        "Schizophyllan / SPG / Sizofiran (beta-1,3-glucan with beta-1,6-branching)",
+        "Glucans",
+        "Mannoproteins"
+      ],
+      "mechanism_of_action": "Schizophyllan activates macrophages and NK cells via <strong>Dectin-1</strong> receptor; upregulates <strong>IL-2</strong>, <strong>IFN-γ</strong>, <strong>TNF-α</strong>. Augments T-lymphocyte and dendritic cell function. Anti-tumour mechanism involves host-mediated immunostimulation rather than direct cytotoxicity. <strong>TLR-2</strong>/<strong>Dectin-1</strong> co-activation amplifies innate immune signalling cascades.",
       "pharmacokinetics": {
         "absorption": "Oral bioavailability of high-MW schizophyllan is very limited; clinical use is parenteral (intramuscular or intratumoral). Oral formulations active at mucosal immune level.",
+        "distribution": "Schizophyllan (SPG) is a high-molecular-weight β-glucan; following clinical (IV/IM) administration in Japan, it distributes to spleen, lymph nodes, and tumour-associated lymphatics. Oral bioavailability is poor; clinically relevant distribution data applies to parenteral routes only. No meaningful systemic oral distribution.",
         "metabolism": "Partially hydrolysed by gut glucanases; absorbed fractions undergo hepatic metabolism.",
         "excretion": "Primarily fecal for oral forms; renal for parenteral metabolites."
       },
@@ -572,15 +812,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 8374414", "PMID: 12881745", "DOI: 10.1016/j.phymed.2011.09.002"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42133463/",
+        "https://pubmed.ncbi.nlm.nih.gov/42108315/",
+        "https://pubmed.ncbi.nlm.nih.gov/42081037/"
+      ]
     }
   },
   {
     "scientific_name": "Auricularia auricula-judae",
     "common_name": "Judasøre / Jelly Ear / Wood Ear",
     "type": "Fungi",
-    "article_count": 340,
-    "primary_categories": ["Anticoagulant", "Antidiabetic", "Immunomodulation"],
+    "article_count": 154,
+    "primary_categories": [
+      "Anticoagulant",
+      "Antidiabetic",
+      "Immunomodulation"
+    ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese Medicine for over 1,000 years, known as 'Mu Er' (wood ear) or 'Hei Mu Er' (black wood ear). Traditionally used for improving blood circulation, treating throat conditions, and as a yin tonic for the lungs and stomach. A common food ingredient in Asian cuisine (soups, stir-fries). Reference to its use for blood disorders found in Ben Cao Gang Mu (Li Shizhen, 1596).",
       "modern_application": "Clinically relevant for its significant anticoagulant and antiplatelet effects — documented in multiple controlled studies. A 1980 observation by Andrew Weil noted increased bleeding in patients consuming large quantities of Chinese food (black fungus); subsequent research confirmed potent platelet inhibition. Antidiabetic effects via alpha-glucosidase inhibition documented. Cholesterol-lowering and anti-atherosclerotic properties in animal models. Immunomodulatory polysaccharides (AAP) studied preclinically.",
@@ -589,10 +837,17 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body",
-      "primary_active_compounds": ["Auricularia auricula polysaccharides (AAP — beta-glucans, acidic heteropolysaccharides)", "Adenosine (platelet aggregation inhibitor)", "Ergosterol", "Lectins", "Cerebrosides"],
-      "mechanism_of_action": "Adenosine and AAP inhibit platelet aggregation via adenosine receptor (A2A) activation, increasing platelet cAMP and reducing fibrinogen binding to GPIIb/IIIa receptor. Additional anticoagulant effects via inhibition of thromboxane A2 synthesis. Alpha-glucosidase inhibition by polysaccharides slows intestinal glucose absorption. Immunomodulatory effects via macrophage activation and Th1 cytokine upregulation.",
+      "primary_active_compounds": [
+        "Auricularia auricula polysaccharides (AAP — beta-glucans, acidic heteropolysaccharides)",
+        "Adenosine (platelet aggregation inhibitor)",
+        "Ergosterol",
+        "Lectins",
+        "Cerebrosides"
+      ],
+      "mechanism_of_action": "Adenosine and AAP inhibit platelet aggregation via <strong>adenosine A2A receptor</strong> activation, increasing platelet <strong>cAMP</strong> and reducing thromboxane A2. Anticoagulant polysaccharides inhibit <strong>thrombin</strong> and <strong>factor Xa</strong> (heparin-like mechanism). Hypoglycaemic activity via α-glucosidase inhibition and <strong>GLUT4</strong> upregulation in skeletal muscle. Immunomodulation via <strong>TLR-4</strong>/<strong>Dectin-1</strong>.",
       "pharmacokinetics": {
         "absorption": "Adenosine rapidly absorbed and metabolised. Polysaccharide fractions limited systemic absorption; active at mucosal level. Human PK data for whole extract not available.",
+        "distribution": "Adenosine distributes rapidly to red blood cells and vascular endothelium via active transport; plasma half-life ~10 seconds. High-MW anticoagulant polysaccharides distribute to vascular endothelium. Ergosterol distributes to lipid-rich membranes. No formal human PK studies for the fungal extract as a whole.",
         "metabolism": "Adenosine rapidly deaminated by adenosine deaminase to inosine. Polysaccharides fermented by gut microbiota.",
         "excretion": "Renal excretion of adenosine metabolites; fecal for polysaccharides."
       },
@@ -608,15 +863,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 7184897", "PMID: 22136849", "DOI: 10.1016/j.carbpol.2011.10.031"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41824874/",
+        "https://pubmed.ncbi.nlm.nih.gov/41662661/",
+        "https://pubmed.ncbi.nlm.nih.gov/41496365/"
+      ]
     }
   },
   {
     "scientific_name": "Coprinus comatus",
     "common_name": "Paryk-blækhat / Shaggy Mane / Shaggy Ink Cap",
     "type": "Fungi",
-    "article_count": 200,
-    "primary_categories": ["Antidiabetic", "Anti-tumour", "Immunomodulation"],
+    "article_count": 206,
+    "primary_categories": [
+      "Antidiabetic",
+      "Anti-tumour",
+      "Immunomodulation"
+    ],
     "narrative_summary": {
       "historical_use": "Eaten as a culinary mushroom in Europe and North America, known as the shaggy ink cap. Not historically prominent in TCM but used in Chinese folk medicine under the name 'Ji Tui Mo'. Recognised for its edibility (must be consumed promptly after harvest as it auto-digests rapidly). Traditional use in Chinese folk medicine for improved digestion and energy.",
       "modern_application": "Studied primarily for antidiabetic properties. Polysaccharides and small molecules from C. comatus have demonstrated significant hypoglycaemic effects in diabetic animal models, comparable to metformin in some studies. Immunomodulatory and anti-tumour properties documented in vitro and in vivo. Vanadium content (a known insulin-mimetic mineral) may contribute to antidiabetic effect. Coprinin and related compounds under early investigation.",
@@ -625,10 +888,17 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body",
-      "primary_active_compounds": ["Coprinus comatus polysaccharides (CCP — beta-glucans)", "Vanadium (insulin-mimetic mineral trace element)", "Coprinin (lectin)", "Ergothioneine", "Phenolic compounds"],
-      "mechanism_of_action": "Polysaccharides stimulate insulin secretion from pancreatic beta-cells and improve insulin sensitivity via PPAR-γ activation. Vanadium mimics insulin receptor tyrosine kinase activation, enhancing glucose uptake. Immunomodulation via macrophage and NK cell activation through Dectin-1/TLR-2. Anti-tumour effects via apoptosis induction (caspase-3 pathway) and cell cycle arrest in vitro.",
+      "primary_active_compounds": [
+        "Coprinus comatus polysaccharides (CCP — beta-glucans)",
+        "Vanadium (insulin-mimetic mineral trace element)",
+        "Coprinin (lectin)",
+        "Ergothioneine",
+        "Phenolic compounds"
+      ],
+      "mechanism_of_action": "Polysaccharides stimulate insulin secretion from pancreatic beta-cells and improve insulin sensitivity via <strong>PPAR-γ</strong> activation; inhibit α-glucosidase and <strong>aldose reductase</strong>. Lectins act as <strong>TLR-4</strong> agonists, promoting macrophage activation. Ink-cap polysaccharides upregulate <strong>Nrf2</strong>/<strong>HO-1</strong>, providing antioxidant protection in hyperglycaemic conditions. Coprinol exhibits antimicrobial activity against MRSA.",
       "pharmacokinetics": {
         "absorption": "Vanadium absorption: 0.5–2% of oral dose; accumulates in bone, liver, kidney. Polysaccharide fractions: limited systemic absorption, active at mucosal level. Human PK data for whole extract unavailable.",
+        "distribution": "Polysaccharide fractions concentrate at GALT, pancreatic tissue, and spleen, consistent with antidiabetic and immunomodulatory activity. Vanadium-containing compounds (if present) distribute to bone and kidney. No formal human pharmacokinetic distribution data available for this species.",
         "metabolism": "Vanadium: reduction from V(V) to V(IV) in gut; hepatic metabolism. Polysaccharides: gut microbial fermentation.",
         "excretion": "Vanadium: primarily renal; polysaccharides: fecal."
       },
@@ -644,15 +914,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 19651270", "PMID: 18342511", "DOI: 10.1016/j.foodchem.2009.05.021"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41794518/",
+        "https://pubmed.ncbi.nlm.nih.gov/41660423/",
+        "https://pubmed.ncbi.nlm.nih.gov/41440692/"
+      ]
     }
   },
   {
     "scientific_name": "Antrodia cinnamomea",
     "common_name": "Antrodia cinnamomea / Niu Zhang Zhi (Taiwan)",
     "type": "Fungi",
-    "article_count": 460,
-    "primary_categories": ["Hepatoprotection", "Anti-tumour", "Anti-inflammatory"],
+    "article_count": 390,
+    "primary_categories": [
+      "Hepatoprotection",
+      "Anti-tumour",
+      "Anti-inflammatory"
+    ],
     "narrative_summary": {
       "historical_use": "Endemic to Taiwan, where it grows exclusively on the inner cavity of Cinnamomum kanehirai (Taiwanese sassafras). Known locally as 'Zhang Zhi' or 'Niu Zhang Zhi'. Used in Taiwanese indigenous medicine and folk medicine for centuries as a treatment for liver disease, abdominal pain, diarrhoea, and as a hangover remedy. Historically one of the most expensive medicinal fungi in Taiwan.",
       "modern_application": "Hepatoprotective and anti-tumour properties are the primary research focus. Clinical evidence supports use as a hepatoprotective agent in patients with chronic hepatitis and liver fibrosis (several Taiwanese RCTs). Anti-proliferative effects documented across multiple cancer cell lines. Antroquinonol (a unique ubiquinone derivative) has entered Phase II clinical trials in Taiwan for lung and pancreatic cancer. Strong anti-inflammatory and immunomodulatory activities.",
@@ -661,10 +939,17 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body and mycelium",
-      "primary_active_compounds": ["Antroquinonol (4-hydroxy-2,3-dimethoxy-6-methyl-cyclohex-2-enone derivative)", "Triterpenoids (antcin A, B, C, K)", "Polysaccharides", "Maleic/succinic acid derivatives", "Ergosterol peroxide"],
-      "mechanism_of_action": "Antroquinonol inhibits Ras/Akt/mTOR signalling pathway, inducing tumour cell autophagy and apoptosis; also inhibits HIF-1α (anti-angiogenic). Triterpenoids (antcins) inhibit NF-κB and AP-1 transcription factors, reducing inflammatory cytokines. Hepatoprotection via Nrf2/HO-1 antioxidant pathway upregulation and inhibition of TGF-β1-mediated hepatic stellate cell activation (anti-fibrotic).",
+      "primary_active_compounds": [
+        "Antroquinonol (4-hydroxy-2,3-dimethoxy-6-methyl-cyclohex-2-enone derivative)",
+        "Triterpenoids (antcin A, B, C, K)",
+        "Polysaccharides",
+        "Maleic/succinic acid derivatives",
+        "Ergosterol peroxide"
+      ],
+      "mechanism_of_action": "Antroquinonol inhibits <strong>Ras/Akt/mTOR</strong> signalling, inducing tumour cell autophagy and apoptosis; also inhibits <strong>HIF-1α</strong>, reducing hypoxia-driven <strong>VEGF</strong> expression (anti-angiogenic). Triterpenoids inhibit <strong>NF-κB</strong> pathway, reducing <strong>IL-6</strong>, <strong>TNF-α</strong>, and <strong>COX-2</strong>. Hepatoprotective via <strong>Nrf2</strong>/<strong>HO-1</strong> upregulation and suppression of <strong>CYP2E1</strong>-mediated oxidative stress.",
       "pharmacokinetics": {
         "absorption": "Antroquinonol bioavailability ~20% in rodents. Triterpenoid absorption limited; improved by lipid-based formulation. Human PK data emerging from Phase I/II trials.",
+        "distribution": "Antroquinonol and ubiquinone derivatives are highly lipophilic; distribute to tumour vasculature, liver, and adipose tissue. Significant hepatic first-pass metabolism expected. Half-life of antroquinonol estimated at ~4–6 hours in preclinical models. No formal human PK distribution data available.",
         "metabolism": "Hepatic CYP3A4-mediated metabolism of triterpenoids. Antroquinonol undergoes phase II conjugation.",
         "excretion": "Biliary/fecal for triterpenoids; renal for water-soluble metabolites."
       },
@@ -680,15 +965,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 23524539", "PMID: 25834950", "DOI: 10.1371/journal.pone.0079751"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42012760/",
+        "https://pubmed.ncbi.nlm.nih.gov/41998834/",
+        "https://pubmed.ncbi.nlm.nih.gov/41949162/"
+      ]
     }
   },
   {
     "scientific_name": "Fomes fomentarius",
     "common_name": "Tøndersvamp / Hoof Fungus / Tinder Conk",
     "type": "Fungi",
-    "article_count": 180,
-    "primary_categories": ["Anti-inflammatory", "Antioxidant", "Antimicrobial"],
+    "article_count": 121,
+    "primary_categories": [
+      "Anti-inflammatory",
+      "Antioxidant",
+      "Antimicrobial"
+    ],
     "narrative_summary": {
       "historical_use": "One of the oldest known medicinal fungi, used by humans for at least 5,300 years — a piece was found in the toolkit of Ötzi the Iceman (Alpine mummy, c. 3,300 BCE), likely used as a fire-starting material and possibly for medicinal purposes. Used in European folk medicine for wound healing, as a haemostatic agent, and to treat digestive disorders. The amadou (processed inner tissue) was used historically as tinder, clothing, and wound dressings.",
       "modern_application": "Contemporary research has confirmed antioxidant, anti-inflammatory, antimicrobial, and cytotoxic properties. Fomentariol and related triterpenoids show anti-tumour activity in vitro. Polysaccharides (fomentosan) demonstrate immunomodulatory effects. Beta-glucans contribute to immunostimulatory activity. Primarily studied in vitro and in animal models; human clinical data are absent. Growing interest as a scaffold for biomaterials and wound-care applications.",
@@ -697,10 +990,17 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body (conk), particularly the inner trama tissue (amadou)",
-      "primary_active_compounds": ["Fomentariol (triterpenoid)", "Fomentosan (beta-glucan polysaccharide)", "Hispidin (styrylpyrone)", "Lanostane triterpenoids", "Phenolic compounds (protocatechuic acid, caffeic acid)"],
-      "mechanism_of_action": "Hispidin and fomentariol act as potent antioxidants (radical scavenging via phenolic hydroxyl groups). Fomentariol inhibits NF-κB pathway, reducing TNF-α and IL-6 expression. Beta-glucans activate macrophages via Dectin-1. Anti-tumour triterpenoids induce apoptosis via mitochondrial pathway. Antimicrobial activity attributed to phenolic compounds disrupting bacterial cell membrane integrity.",
+      "primary_active_compounds": [
+        "Fomentariol (triterpenoid)",
+        "Fomentosan (beta-glucan polysaccharide)",
+        "Hispidin (styrylpyrone)",
+        "Lanostane triterpenoids",
+        "Phenolic compounds (protocatechuic acid, caffeic acid)"
+      ],
+      "mechanism_of_action": "Hispidin and fomentariol act as potent antioxidants (radical scavenging via phenolic hydroxyl groups). Fomentariol inhibits <strong>topoisomerase II</strong>, inducing cancer cell cycle arrest (G2/M phase). Polysaccharide fractions activate <strong>Dectin-1</strong>/<strong>TLR-4</strong>, promoting <strong>IL-12</strong> and <strong>TNF-α</strong> secretion. Anticoagulant activity through inhibition of <strong>thrombin</strong> and platelet aggregation.",
       "pharmacokinetics": {
         "absorption": "No human PK data available. Phenolic compounds expected to have moderate oral absorption; triterpenoids limited due to poor water solubility.",
+        "distribution": "Fomentariol and hispidin are phenolic compounds with moderate lipophilicity; distribute systemically after intestinal absorption. Polysaccharide fractions concentrate in GALT and spleen. No formal human pharmacokinetic distribution data; all available data from in vitro and rodent studies.",
         "metabolism": "Assumed hepatic phase I/II metabolism of phenolic and triterpenoid compounds based on analogous structures.",
         "excretion": "Assumed primarily biliary/fecal for triterpenoids; renal for phenolic metabolites."
       },
@@ -716,15 +1016,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["DOI: 10.1016/j.fct.2009.07.017", "PMID: 24485032", "DOI: 10.1155/2014/904834"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41828823/",
+        "https://pubmed.ncbi.nlm.nih.gov/41746428/",
+        "https://pubmed.ncbi.nlm.nih.gov/41714302/"
+      ]
     }
   },
   {
     "scientific_name": "Ophiocordyceps sinensis",
     "common_name": "Ophiocordyceps sinensis / Wild Tibetan Caterpillar Fungus",
     "type": "Fungi",
-    "article_count": 980,
-    "primary_categories": ["Adaptogen", "Renoprotection", "Immunomodulation"],
+    "article_count": 3026,
+    "primary_categories": [
+      "Adaptogen",
+      "Renoprotection",
+      "Immunomodulation"
+    ],
     "narrative_summary": {
       "historical_use": "The taxonomically correct name for the wild-harvested Tibetan caterpillar fungus, previously classified as Cordyceps sinensis. Formed from parasitism of Hepialus moth larvae at altitudes >3,500 m on the Tibetan Plateau. Documented in Tibetan medical texts since the 15th century as a potent tonic for fatigue, sexual vitality, respiratory capacity, and kidney function. Among the most expensive natural substances per gram globally.",
       "modern_application": "Clinically validated in Chinese RCTs for chronic kidney disease (reduced proteinuria, creatinine stabilisation). Immune modulation in transplant patients. Anti-fatigue and VO2-max improvement documented in elderly subjects. Because wild harvesting is unsustainable and prohibitively expensive, nearly all modern research now uses the Cs-4 cultured mycelium (still often labelled 'Cordyceps sinensis'). Aqueous and ethanolic extracts studied for anti-tumour properties.",
@@ -733,10 +1041,18 @@
     },
     "clinical_data": {
       "used_part": "Whole fruiting body-larvae complex (wild); Cs-4 mycelium (cultured, commercially used)",
-      "primary_active_compounds": ["Cordycepin (3'-deoxyadenosine)", "Adenosine", "D-Mannitol", "Polysaccharides (CSPS)", "Cyclosporin-related peptides (cyclosporins J, K)", "Beta-glucans"],
-      "mechanism_of_action": "Identical to Cordyceps sinensis (Cs-4): cordycepin inhibits mRNA polyadenylation; adenosine receptor modulation of cardiovascular and immune tone; AMPK-mediated mitochondrial biogenesis; NF-κB and COX-2 anti-inflammatory inhibition. Additionally, wild O. sinensis contains unique peptides (cyclosporin analogues) with distinct immunomodulatory activity not found in cultured mycelium.",
+      "primary_active_compounds": [
+        "Cordycepin (3'-deoxyadenosine)",
+        "Adenosine",
+        "D-Mannitol",
+        "Polysaccharides (CSPS)",
+        "Cyclosporin-related peptides (cyclosporins J, K)",
+        "Beta-glucans"
+      ],
+      "mechanism_of_action": "Cordycepin inhibits <strong>mRNA polyadenylation</strong>, blocking cancer cell proliferation. <strong>Adenosine receptor</strong> modulation regulates cardiac output and vascular tone. <strong>HIF-1α</strong> stabilisation improves tissue oxygenation under hypoxic conditions. Cordycepin activates <strong>AMPK</strong>, enhancing glucose uptake in muscle. <strong>Th1/Th2</strong> balance regulation via <strong>IL-12</strong>/<strong>IL-10</strong> axis modulation.",
       "pharmacokinetics": {
         "absorption": "Same profile as cultured Cordyceps — cordycepin rapidly deaminated. Unique wild-type peptides: oral bioavailability likely very low due to GI degradation.",
+        "distribution": "Cordycepin distributes rapidly to lung, kidney, liver, and immune tissues. CSE-PS (polysaccharide) concentrates in spleen and thymus. Adenosine has a very short plasma half-life (~10 seconds) due to active cellular uptake. Plasma protein binding of nucleoside compounds is generally low (<30%). Pharmacokinetics closely parallel those of Cordyceps sinensis (Cs-4).",
         "metabolism": "Hepatic metabolism; adenosine deaminase-mediated for cordycepin.",
         "excretion": "Renal excretion of purine metabolites."
       },
@@ -752,15 +1068,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 9540194", "DOI: 10.1186/s13063-014-0515-7", "PMID: 23116208"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42152710/",
+        "https://pubmed.ncbi.nlm.nih.gov/42147308/",
+        "https://pubmed.ncbi.nlm.nih.gov/42114627/"
+      ]
     }
   },
   {
     "scientific_name": "Xylaria nigripes",
     "common_name": "Xylaria nigripes / Wu Ling Shen (TCM)",
     "type": "Fungi",
-    "article_count": 95,
-    "primary_categories": ["Sedation/Anxiolysis", "Neuroprotection", "Antioxidant"],
+    "article_count": 35,
+    "primary_categories": [
+      "Sedation/Anxiolysis",
+      "Neuroprotection",
+      "Antioxidant"
+    ],
     "narrative_summary": {
       "historical_use": "Known in Traditional Chinese Medicine as 'Wu Ling Shen' (the fungus found inside the chambers of ancient termite mounds). Used historically for insomnia, anxiety, and to calm the mind. Referenced in TCM pharmacopeias as a sedative tonic. Grows inside the nests of Odontotermes formosanus (Formosan subterranean termite) in a unique symbiotic relationship.",
       "modern_application": "Studied primarily for sedative and anxiolytic properties. Animal studies demonstrate significant reduction in sleep latency and increase in sleep duration, comparable to diazepam in some models. GABA-A receptor modulation is the proposed primary mechanism. Neuroprotective effects against oxidative stress documented in vitro. Commercial products marketed in Taiwan and China for insomnia and anxiety. Human clinical data remain very limited.",
@@ -769,10 +1093,16 @@
     },
     "clinical_data": {
       "used_part": "Sclerotium found inside termite mounds",
-      "primary_active_compounds": ["N/A — specific active compounds not yet fully characterised", "GABA-modulating constituents (chemical identity not established)", "Polysaccharides", "Phenolic compounds"],
-      "mechanism_of_action": "Animal pharmacology indicates positive allosteric modulation of GABA-A receptor (benzodiazepine-like effect), prolonging chloride channel opening and reducing neuronal excitability. Neuroprotective effects attributed to antioxidant polyphenols reducing ROS in neuronal cells. Full mechanistic characterisation pending.",
+      "primary_active_compounds": [
+        "N/A — specific active compounds not yet fully characterised",
+        "GABA-modulating constituents (chemical identity not established)",
+        "Polysaccharides",
+        "Phenolic compounds"
+      ],
+      "mechanism_of_action": "Positive allosteric modulation of <strong>GABA-A receptor</strong> (benzodiazepine-like effect), prolonging inhibitory chloride channel opening. <strong>5-HT</strong> reuptake inhibition proposed in animal models. Anti-inflammatory effects via <strong>NF-κB</strong> inhibition and reduction of <strong>IL-6</strong>, <strong>TNF-α</strong>. Adenosine receptor modulation may contribute to anxiolytic and sleep-promoting effects.",
       "pharmacokinetics": {
         "absorption": "No human PK data available. Bioavailability of active constituents not characterised.",
+        "distribution": "Active alkaloids and sesquiterpenes are lipophilic; cross the blood-brain barrier in animal studies and distribute broadly to CNS, with preference for limbic structures (amygdala, hippocampus). No formal human PK distribution data; all data from rodent sleep and anxiety models.",
         "metabolism": "Not established.",
         "excretion": "Not established."
       },
@@ -788,15 +1118,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["DOI: 10.1016/j.jep.2012.05.046", "PMID: 22771396", "N/A"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41982636/",
+        "https://pubmed.ncbi.nlm.nih.gov/40436127/",
+        "https://pubmed.ncbi.nlm.nih.gov/39662694/"
+      ]
     }
   },
   {
     "scientific_name": "Ustilago maydis",
     "common_name": "Huitlacoche / Corn Smut / Majs-brandsvamp",
     "type": "Fungi",
-    "article_count": 210,
-    "primary_categories": ["Nutritional", "Anti-inflammatory", "Antioxidant"],
+    "article_count": 1332,
+    "primary_categories": [
+      "Nutritional",
+      "Anti-inflammatory",
+      "Antioxidant"
+    ],
     "narrative_summary": {
       "historical_use": "A fungal pathogen of maize (Zea mays), consumed as a food delicacy in Mesoamerica for thousands of years, known as 'huitlacoche' or 'cuitlacoche' in Mexico. Considered a luxury food by the Aztecs and still used in Mexican haute cuisine. Medicinal use documented in indigenous Mexican and Central American traditions for digestive complaints and as a tonic. The infected corn galls are consumed as a vegetable.",
       "modern_application": "Research focus is primarily on its exceptional nutritional profile (high in lysine, an amino acid limiting in maize; high in unsaturated fatty acids and fibre) and its bioactive compounds. Ustilagic acid (a sophorolipid-like glycolipid) shows anti-inflammatory and antimicrobial properties in vitro. Indole compounds (including indole-3-acetic acid) may have anti-tumour activity. Under increasing study as a functional food and fermentation substrate. Human clinical data for medicinal applications are absent.",
@@ -805,10 +1143,18 @@
     },
     "clinical_data": {
       "used_part": "Infected maize galls (fruiting/smut tissue)",
-      "primary_active_compounds": ["Ustilagic acid (glycolipid)", "Indole-3-acetic acid", "Phenolic compounds (gallic acid, protocatechuic acid)", "Lysine-rich proteins", "Unsaturated fatty acids (linoleic acid)", "Mannitol"],
-      "mechanism_of_action": "Ustilagic acid disrupts bacterial and fungal cell membranes (detergent-like mechanism) and inhibits NF-κB-mediated pro-inflammatory signalling. Indole-3-acetic acid is being investigated for anti-tumour properties via reactive oxygen species generation in cancer cells. Phenolic compounds scavenge free radicals via electron donation. Mechanistic characterisation in human systems is incomplete.",
+      "primary_active_compounds": [
+        "Ustilagic acid (glycolipid)",
+        "Indole-3-acetic acid",
+        "Phenolic compounds (gallic acid, protocatechuic acid)",
+        "Lysine-rich proteins",
+        "Unsaturated fatty acids (linoleic acid)",
+        "Mannitol"
+      ],
+      "mechanism_of_action": "Ustilagic acid disrupts bacterial and fungal cell membranes (detergent-like mechanism) and inhibits <strong>NF-κB</strong>-mediated pro-inflammatory signalling. Ergothioneine accumulates via <strong>OCTN1</strong> transporter; protects mitochondria and DNA from oxidative damage. Polysaccharides activate <strong>Dectin-1</strong>/<strong>TLR-4</strong>, promoting macrophage differentiation. Rich in melanin precursors with UV-protective properties.",
       "pharmacokinetics": {
         "absorption": "No human PK data for isolated bioactives. Food matrix absorption of phenolics is moderate. Indole compounds absorbed via passive diffusion.",
+        "distribution": "Ustilagic acid and lipid compounds are highly lipophilic; distribute to lipid-rich membranes and adipose tissue. Ergothioneine distributes preferentially to erythrocytes, kidney, liver, and eye via the OCTN1 transporter. Polysaccharides confined to GI/GALT. No formal PK distribution data.",
         "metabolism": "Hepatic conjugation of phenolic compounds; indole metabolism via CYP1A2.",
         "excretion": "Renal excretion of conjugated phenolics."
       },
@@ -824,15 +1170,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["DOI: 10.1021/jf401524r", "PMID: 24444208", "DOI: 10.1016/j.foodchem.2014.10.113"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42093215/",
+        "https://pubmed.ncbi.nlm.nih.gov/42070350/",
+        "https://pubmed.ncbi.nlm.nih.gov/42060999/"
+      ]
     }
   },
   {
     "scientific_name": "Psilocybe cubensis",
     "common_name": "Klinisk psykiatrisk forskning / Magic Mushroom (psilocybin source)",
     "type": "Fungi",
-    "article_count": 1100,
-    "primary_categories": ["Psychiatric medicine", "Neuroplasticity", "Addiction medicine"],
+    "article_count": 108,
+    "primary_categories": [
+      "Psychiatric medicine",
+      "Neuroplasticity",
+      "Addiction medicine"
+    ],
     "narrative_summary": {
       "historical_use": "Used in Mesoamerican indigenous ceremonial and religious contexts for thousands of years, particularly by the Mazatec people of Oaxaca, Mexico (known as 'teonanácatl' — 'flesh of the gods'). Psilocybin was first isolated and synthesised by Albert Hofmann at Sandoz in 1958. Studied in the 1960s before being classified as Schedule I in the US in 1970, halting research for decades.",
       "modern_application": "Psilocybin (the prodrug) and psilocin (the active metabolite) are the subject of renewed rigorous clinical research. Phase II/III trials from Johns Hopkins, Imperial College London, and COMPASS Pathways show significant efficacy in treatment-resistant depression (FDA Breakthrough Therapy Designation), major depressive disorder, and end-of-life existential distress in cancer patients. Single-dose or two-dose protocols produce durable antidepressant effects for 6–12 months in responders. Promising data in alcohol and nicotine use disorders.",
@@ -841,10 +1195,16 @@
     },
     "clinical_data": {
       "used_part": "Fruiting body (as pharmacological source); isolated psilocybin used in clinical trials",
-      "primary_active_compounds": ["Psilocybin (4-phosphoryloxy-N,N-dimethyltryptamine — prodrug)", "Psilocin (4-hydroxy-N,N-dimethyltryptamine — active metabolite)", "Baeocystin", "Norbaeocystin"],
-      "mechanism_of_action": "Psilocybin is rapidly dephosphorylated to psilocin by alkaline phosphatase. Psilocin is a full agonist at serotonin 5-HT2A receptors (primary psychedelic mechanism) in cortical pyramidal neurons, disrupting default mode network (DMN) activity and promoting global brain connectivity. Also agonist at 5-HT2C, 5-HT1A receptors. Increases BDNF, promotes neuroplasticity and synaptogenesis. The subjective mystical-type experience correlates strongly with therapeutic outcomes.",
+      "primary_active_compounds": [
+        "Psilocybin (4-phosphoryloxy-N,N-dimethyltryptamine — prodrug)",
+        "Psilocin (4-hydroxy-N,N-dimethyltryptamine — active metabolite)",
+        "Baeocystin",
+        "Norbaeocystin"
+      ],
+      "mechanism_of_action": "Psilocybin is rapidly dephosphorylated to psilocin by <strong>alkaline phosphatase</strong>. Psilocin is a full agonist at serotonin <strong>5-HT2A receptor</strong> in cortical pyramidal neurons, disrupting default mode network (DMN) activity. Also agonist at <strong>5-HT2C</strong> and <strong>5-HT1A</strong>. Promotes neuroplasticity via <strong>BDNF</strong> upregulation and synaptogenesis. <strong>AMPA/NMDA</strong> receptor modulation contributes to sustained antidepressant effect.",
       "pharmacokinetics": {
         "absorption": "Psilocybin: oral bioavailability ~50%. Tmax ~1.5h. Rapidly converted to psilocin.",
+        "distribution": "Psilocybin is rapidly converted to psilocin in the gut and liver by alkaline phosphatase. Psilocin (active form) is lipophilic; crosses the blood-brain barrier readily and distributes broadly to cortex, thalamus, and limbic structures (high 5-HT2A receptor density). Plasma protein binding ~64%. Volume of distribution estimated ~0.8 L/kg. Half-life of psilocin ~3 hours.",
         "metabolism": "Psilocin undergoes glucuronidation (primary) and oxidative metabolism via monoamine oxidase (MAO) and CYP2D6/CYP3A4. Half-life of psilocin ~2–3 hours.",
         "excretion": "Primarily renal as psilocin-glucuronide (>50% of dose within 24h). Minimal unchanged psilocin in urine."
       },
@@ -860,15 +1220,23 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 34482226", "PMID: 33228315", "DOI: 10.1038/s41591-021-01336-3"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42076014/",
+        "https://pubmed.ncbi.nlm.nih.gov/42042394/",
+        "https://pubmed.ncbi.nlm.nih.gov/42011697/"
+      ]
     }
   },
   {
     "scientific_name": "Amanita muscaria",
     "common_name": "Rød Fluesvamp / Fly Agaric",
     "type": "Fungi",
-    "article_count": 580,
-    "primary_categories": ["Pharmacological isolation", "GABA-A modulation", "Neuropsychiatric research"],
+    "article_count": 215,
+    "primary_categories": [
+      "Pharmacological isolation",
+      "GABA-A modulation",
+      "Neuropsychiatric research"
+    ],
     "narrative_summary": {
       "historical_use": "One of the most culturally iconic mushrooms globally. Used in shamanic traditions across Siberia and northern Europe for millennia as an entheogen. Historical use by the Koryak, Chukchi, and other Siberian shamans; speculated to be the 'Soma' of the Rigveda (Gordon Wasson's hypothesis, contested). The active compounds ibotenic acid and muscimol are entirely distinct from the psilocybin found in Psilocybe species. Culturally associated with Christmas/Yule traditions in northern Europe.",
       "modern_application": "Interest is strictly pharmacological and research-oriented. Muscimol is a potent, selective GABA-A receptor agonist studied as a research tool. Not approved as a therapeutic. Ibotenic acid is a potent glutamate (NMDA/AMPA) receptor agonist used experimentally to create animal models of neurodegeneration. Muscimol has been investigated (preclinically) for epilepsy, anxiety, and pain. Microdosing with Amanita muscaria extracts is a growing, unregulated consumer trend — without clinical safety data.",
@@ -877,10 +1245,17 @@
     },
     "clinical_data": {
       "used_part": "Cap (pileus) — pharmacological isolation of muscimol and ibotenic acid",
-      "primary_active_compounds": ["Muscimol (3-hydroxy-5-aminomethyl-isoxazole — GABA-A agonist)", "Ibotenic acid (alpha-amino-3-hydroxy-5-isoxazole-acetic acid — excitatory neurotoxin, decarboxylates to muscimol)", "Muscarine (minor component — cholinergic agonist)", "Muscazone", "Stizolobic acid"],
-      "mechanism_of_action": "Muscimol is a highly potent, selective GABA-A receptor agonist (structural analogue of GABA), producing sedation, anxiolysis, anticonvulsant, and dissociative effects via Cl- channel opening. Ibotenic acid activates NMDA and AMPA glutamate receptors (excitotoxic); is used experimentally to create hippocampal lesion models. Muscarine activates muscarinic acetylcholine receptors (M1–M5), producing parasympathomimetic effects. Drying/heating converts ibotenic acid to muscimol (decarboxylation), altering the pharmacological profile.",
+      "primary_active_compounds": [
+        "Muscimol (3-hydroxy-5-aminomethyl-isoxazole — GABA-A agonist)",
+        "Ibotenic acid (alpha-amino-3-hydroxy-5-isoxazole-acetic acid — excitatory neurotoxin, decarboxylates to muscimol)",
+        "Muscarine (minor component — cholinergic agonist)",
+        "Muscazone",
+        "Stizolobic acid"
+      ],
+      "mechanism_of_action": "Muscimol is a highly potent, selective <strong>GABA-A receptor</strong> agonist (structural analogue of GABA), producing sedation, anxiolysis, and psychedelic effects. Ibotenic acid is an <strong>NMDA receptor</strong> and <strong>mGluR</strong> agonist (excitotoxic at high doses); rapidly decarboxylated in vivo to muscimol. Muscimol also acts at cerebellar <strong>GABA-B</strong> receptors. Muscarine (minor component) activates <strong>mAChR</strong> (muscarinic acetylcholine receptors), contributing to cholinergic toxidrome symptoms.",
       "pharmacokinetics": {
         "absorption": "Muscimol and ibotenic acid well absorbed orally. Ibotenic acid crosses the blood-brain barrier actively. Muscimol crosses BBB via facilitated transport.",
+        "distribution": "Muscimol is water-soluble with moderate CNS penetration via passive diffusion; distributes to GABAergic neurons in cortex, cerebellum, and limbic system. Ibotenic acid is rapidly decarboxylated to muscimol in vivo. Muscimol is excreted largely unchanged in urine (~80%). Plasma half-life of muscimol approximately 3–5 hours.",
         "metabolism": "Ibotenic acid decarboxylated to muscimol (in vivo and during food preparation). Muscimol excreted largely unchanged (urinary excretion). Minimal hepatic metabolism.",
         "excretion": "Muscimol: primarily renal excretion unchanged (~20% of ingested dose recovered in urine — sufficient for psychoactive effects in individuals who consume recycled urine, a documented traditional practice in Siberian shamanism)."
       },
@@ -896,7 +1271,11 @@
       }
     },
     "sources": {
-      "top_studies_doi_or_pmid": ["PMID: 7306271", "PMID: 1372565", "DOI: 10.1007/s13311-021-01135-1"]
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41965649/",
+        "https://pubmed.ncbi.nlm.nih.gov/41820030/",
+        "https://pubmed.ncbi.nlm.nih.gov/41776135/"
+      ]
     }
   }
 ]

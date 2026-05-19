@@ -8,8 +8,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" /></noscript>
+  <script src="/tailwind.js"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -282,10 +283,14 @@
             <!-- PK trio -->
             <div>
               <p class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-3">Pharmacokinetics</p>
-              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div class="bg-white border border-gray-200 rounded-xl p-4">
                   <p class="text-[10px] font-bold text-forest-700 uppercase tracking-widest mb-1.5">Absorption</p>
                   <p id="m-abs" class="text-xs text-gray-600 leading-relaxed"></p>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-xl p-4">
+                  <p class="text-[10px] font-bold text-forest-700 uppercase tracking-widest mb-1.5">Distribution</p>
+                  <p id="m-dist" class="text-xs text-gray-600 leading-relaxed"></p>
                 </div>
                 <div class="bg-white border border-gray-200 rounded-xl p-4">
                   <p class="text-[10px] font-bold text-forest-700 uppercase tracking-widest mb-1.5">Metabolism</p>
@@ -535,8 +540,9 @@
 
       /* Clinical */
       setText('m-used', cd.used_part);
-      setText('m-moa',  cd.mechanism_of_action);
+      setHTML('m-moa',  cd.mechanism_of_action);
       setText('m-abs',  pk.absorption);
+      setText('m-dist', pk.distribution);
       setText('m-met',  pk.metabolism);
       setText('m-exc',  pk.excretion);
       setText('m-interactions', si.drug_interactions);
@@ -553,13 +559,19 @@
       setText('m-ren',  sp.renal_impairment);
 
       /* Sources */
-      document.getElementById('m-sources').innerHTML = d.sources.top_studies_doi_or_pmid.map(s => {
-        const isLink = s.startsWith('DOI:') || s.startsWith('PMID:');
+      const srcList = d.sources.top_studies_urls || [];
+      document.getElementById('m-sources').innerHTML = srcList.map(s => {
+        const isUrl = s.startsWith('http');
+        const label = isUrl ? s.replace('https://pubmed.ncbi.nlm.nih.gov/', 'PubMed ').replace(/\/$/, '') : esc(s);
+        const inner = isUrl
+          ? `<a href="${esc(s)}" target="_blank" rel="noopener noreferrer"
+               class="hover:text-forest-600 underline underline-offset-2 break-all">${label}</a>`
+          : `<span class="break-all">${label}</span>`;
         return `<li class="flex items-start gap-2 text-xs text-gray-500 font-mono">
           <svg class="w-3 h-3 shrink-0 mt-0.5 text-forest-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"/>
           </svg>
-          ${esc(s)}
+          ${inner}
         </li>`;
       }).join('');
 
@@ -571,6 +583,11 @@
     function setText(id, val) {
       const el = document.getElementById(id);
       if (el) el.textContent = val || 'N/A';
+    }
+
+    function setHTML(id, val) {
+      const el = document.getElementById(id);
+      if (el) el.innerHTML = val || 'N/A';
     }
 
     function esc(str) {
