@@ -1,7 +1,23 @@
 services:
   web:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: bms-archive
     ports:
       - "80:80"
+    depends_on:
+      - api
     restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: bms-api
+    volumes:
+      - waitlist_data:/data
+    restart: unless-stopped
+
+volumes:
+  waitlist_data:

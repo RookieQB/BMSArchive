@@ -123,12 +123,14 @@
       </form>
 
       <!-- Success state -->
-      <div id="hero-success" class="hidden max-w-md mx-auto mb-4 flex items-center justify-center gap-2 p-4 bg-forest-50 border border-forest-200 rounded-lg text-forest-800 text-sm font-medium">
+      <div id="hero-success" class="hidden max-w-md mx-auto mb-4 flex items-center justify-center gap-2 p-4 bg-forest-800 rounded-lg text-white text-sm font-semibold">
         <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
         </svg>
-        You're on the list. We'll reach out before launch.
+        You're on the list! 🎉 We'll reach out before launch.
       </div>
+      <!-- Error state -->
+      <p id="hero-error" class="hidden max-w-md mx-auto mb-4 text-center text-red-500 text-xs font-medium"></p>
 
       <!-- Database CTA -->
       <div class="flex items-center justify-center gap-3 mt-2 mb-6">
@@ -356,12 +358,13 @@
         </button>
       </form>
 
-      <div id="cta-success" class="hidden mt-5 inline-flex items-center gap-2 text-forest-300 text-sm font-medium">
+      <div id="cta-success" class="hidden mt-5 inline-flex items-center gap-2 text-white text-sm font-semibold">
         <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
         </svg>
-        You're on the list. Talk soon.
+        You're on the list! 🎉 Talk soon.
       </div>
+      <p id="cta-error" class="hidden mt-3 text-red-300 text-xs font-medium"></p>
     </div>
   </section>
 
@@ -401,21 +404,53 @@
   </footer>
 
   <script>
-    function wireForm(formId, successId) {
-      const form = document.getElementById(formId);
+    function wireForm(formId, successId, errorId) {
+      const form    = document.getElementById(formId);
       const success = document.getElementById(successId);
+      const errEl   = document.getElementById(errorId);
       if (!form) return;
-      form.addEventListener('submit', function (e) {
+
+      form.addEventListener('submit', async function (e) {
         e.preventDefault();
-        // TODO: replace with your email service endpoint
-        // e.g. Formspree:  fetch('https://formspree.io/f/YOUR_ID', { method: 'POST', body: new FormData(form) })
-        // e.g. Mailchimp:  use their embedded form action URL
-        form.classList.add('hidden');
-        success.classList.remove('hidden');
+        const email  = form.querySelector('input[type="email"]').value.trim();
+        const btn    = form.querySelector('button[type="submit"]');
+
+        errEl.classList.add('hidden');
+        btn.disabled    = true;
+        btn.textContent = 'Submitting…';
+
+        try {
+          const res  = await fetch('/api/waitlist', {
+            method:  'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body:    JSON.stringify({ email }),
+          });
+          const data = await res.json();
+
+          if (res.ok) {
+            form.classList.add('hidden');
+            success.classList.remove('hidden');
+          } else {
+            errEl.textContent = data.error || 'Something went wrong. Please try again.';
+            errEl.classList.remove('hidden');
+            btn.disabled    = false;
+            btn.textContent = btn.dataset.label;
+          }
+        } catch {
+          errEl.textContent = 'Network error — please check your connection and try again.';
+          errEl.classList.remove('hidden');
+          btn.disabled    = false;
+          btn.textContent = btn.dataset.label;
+        }
       });
+
+      // Store original button label so we can restore it on error
+      const btn = form.querySelector('button[type="submit"]');
+      if (btn) btn.dataset.label = btn.textContent.trim();
     }
-    wireForm('hero-form', 'hero-success');
-    wireForm('cta-form', 'cta-success');
+
+    wireForm('hero-form', 'hero-success', 'hero-error');
+    wireForm('cta-form',  'cta-success',  'cta-error');
   </script>
 
 </body>
