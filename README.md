@@ -1,10 +1,18 @@
-# BMS Archive — v2
+# BMS Archive — v3
 
-**bmsarchive.com** — An evidence-based phytomedicine database linking clinical research to botanical medicines. Currently in pre-launch; Phase 1 is a static landing page + searchable database with an email waitlist.
+**bmsarchive.com** — An evidence-based phytomedicine database linking clinical research to botanical medicines. Currently in pre-launch; Phase 1 is a static landing page + searchable database with a functional email waitlist.
 
 Instagram: [@thebmsarchive](https://instagram.com/thebmsarchive)
 
 ---
+
+## What's new in v3
+
+- **Functional waitlist** — email form now submits via `fetch()` to a real Node.js backend; emails saved to a persistent `waitlist.txt` on the server
+- **Node.js API** (`server.js`) — lightweight HTTP server on port 3000, no npm dependencies, validates email format, appends timestamped entries to `/data/waitlist.txt`
+- **Nginx reverse proxy** — `/api/` traffic proxied to the Node.js container; everything on port 80, no CORS
+- **Two-container Docker setup** — `web` (Nginx) + `api` (Node.js) services via Docker Compose, named volume `waitlist_data` for persistence across rebuilds
+- **Polished form UX** — solid-green "You're on the list! 🎉" confirmation, inline error messages for invalid email or network failure, button disabled during submit
 
 ## What's new in v2
 
