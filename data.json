@@ -1,0 +1,902 @@
+[
+  {
+    "scientific_name": "Ganoderma lucidum",
+    "common_name": "Reishi / Lingzhi",
+    "type": "Fungi",
+    "article_count": 3600,
+    "primary_categories": ["Immunomodulation", "Oncology support", "Adaptogen"],
+    "narrative_summary": {
+      "historical_use": "Known in Traditional Chinese Medicine for over 2,000 years as 'Lingzhi' (spirit mushroom), revered as the 'mushroom of immortality'. Used by Taoist monks to promote longevity, calm the mind, and nourish the heart. Referenced in the Shen Nong Ben Cao Jing (c. 100 CE) as a superior tonic.",
+      "modern_application": "Clinically studied as an adjunct in oncology for immunomodulation — trials show increased NK cell and T-lymphocyte activity. Used for hepatoprotection, blood pressure reduction, and anti-fatigue. A 2016 Cochrane review found benefit in cancer patients for immune response but insufficient evidence to recommend as primary cancer therapy.",
+      "side_effects": "GI upset (nausea, diarrhoea), dry mouth, dizziness, and skin rash with prolonged use (>3–6 months). Rare but documented cases of hepatotoxicity, predominantly associated with powdered (not extract) preparations. Potential for increased bleeding time.",
+      "contraindications": "Contraindicated with anticoagulants (warfarin, heparin) and antiplatelet drugs due to platelet aggregation inhibition. Use with caution alongside immunosuppressants and chemotherapy agents. Avoid prior to surgery."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body and mycelium",
+      "primary_active_compounds": ["Ganoderic acids (triterpenoids)", "Beta-1,3/1,6-D-glucans", "Polysaccharides (GL-PS)", "Lucidenic acids", "Ganoderiol"],
+      "mechanism_of_action": "Immunomodulation via activation of NK cells, macrophages, and dendritic cells through TLR-4/NF-κB signalling. Ganoderic acids inhibit HMG-CoA reductase (cholesterol), inhibit NF-κB transcription, and induce tumour cell apoptosis via intrinsic mitochondrial pathway. Antioxidant via Nrf2/HO-1 upregulation.",
+      "pharmacokinetics": {
+        "absorption": "Polysaccharides show low oral bioavailability; ganoderic acids are absorbed but undergo significant first-pass metabolism. Bioavailability data from human PK studies is limited.",
+        "metabolism": "Hepatic; ganoderic acids are substrates of CYP3A4. Triterpenoids undergo glucuronidation and sulfation.",
+        "excretion": "Primarily biliary (feces) for polysaccharides; renal excretion for water-soluble metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Anticoagulants (warfarin, aspirin, clopidogrel) — potentiates antiplatelet effects. Antihypertensives — additive hypotensive effect. Immunosuppressants (cyclosporine, tacrolimus) — potential antagonism. CYP3A4 substrates — possible competitive inhibition.",
+        "toxicity": "LD50 >5 g/kg in mice (oral). Chronic use at high doses associated with rare hepatotoxicity (elevated ALT/AST); reversible upon discontinuation."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient human safety data. Animal studies show no teratogenicity at low doses, but high-dose use is not recommended. Avoid during first trimester.",
+        "lactation": "Excretion in human breast milk unknown. Avoid due to insufficient safety data.",
+        "hepatic_impairment": "Use with caution. Rare hepatotoxicity reported; baseline and periodic liver enzyme monitoring recommended in patients with pre-existing hepatic disease.",
+        "renal_impairment": "Limited specific data. No established contraindication at standard doses; dose reduction may be prudent in severe renal impairment."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 26969396", "PMID: 16272942", "DOI: 10.1016/j.jep.2014.12.027"]
+    }
+  },
+  {
+    "scientific_name": "Hericium erinaceus",
+    "common_name": "Lion's Mane / Pom Pom Mushroom",
+    "type": "Fungi",
+    "article_count": 820,
+    "primary_categories": ["Neuroprotection", "Cognitive enhancement", "Neurogenesis"],
+    "narrative_summary": {
+      "historical_use": "Used in Traditional Chinese and Japanese medicine for centuries primarily to treat gastrointestinal disorders (gastric ulcers, chronic gastritis) and as a general tonic. Known in Japan as 'Yamabushitake'. Referenced in historical texts as a food and medicine for digestive health.",
+      "modern_application": "Clinically studied for its nerve growth factor (NGF)-stimulating properties. A 2009 double-blind RCT (Mori et al.) demonstrated significant improvement in mild cognitive impairment after 16 weeks. Evidence supports benefits in depression, anxiety, and peripheral nerve regeneration. Investigated as a neuroprotective agent in Alzheimer's and Parkinson's disease models.",
+      "side_effects": "Generally well-tolerated. Reported adverse effects include mild GI discomfort (nausea, bloating), and rare allergic reactions including contact dermatitis and respiratory allergy in sensitised individuals.",
+      "contraindications": "Known allergy to Hericium species or other mushrooms. Caution with anticoagulants due to potential platelet inhibition. Caution in autoimmune conditions given immunomodulatory properties."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body (hericenones) and mycelium (erinacines)",
+      "primary_active_compounds": ["Hericenones A–H (cyathane diterpenoids, fruiting body)", "Erinacines A–K (cyathane diterpenoids, mycelium)", "Beta-glucans", "Ergosterol"],
+      "mechanism_of_action": "Hericenones and erinacines stimulate de novo synthesis and secretion of NGF in astrocytes, promoting neuronal survival and axonal growth. Erinacines cross the blood-brain barrier (demonstrated in rodent studies). Anti-neuroinflammatory effects via inhibition of MAPK and NF-κB pathways. Promotes hippocampal neurogenesis.",
+      "pharmacokinetics": {
+        "absorption": "Erinacine A crosses the blood-brain barrier in rodents; human CNS penetration not directly measured. Hericenone bioavailability in humans is not well characterised.",
+        "metabolism": "Limited human data. Hepatic phase I/II metabolism assumed based on compound structure.",
+        "excretion": "Limited human data. Presumed renal and biliary excretion of metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Anticoagulants (theoretical antiplatelet effect). Antidiabetic agents — may potentiate hypoglycaemia. No significant CYP450 interactions established in human studies.",
+        "toxicity": "LD50 >5 g/kg (oral, mice). No organ toxicity identified in 28-day subacute studies in rodents. Human clinical trials up to 3 g/day for 16 weeks showed no significant adverse effects."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient human clinical data. No animal teratogenicity studies identified. Avoid due to lack of safety evidence.",
+        "lactation": "Excretion in human breast milk unknown. Avoid during breastfeeding.",
+        "hepatic_impairment": "No hepatotoxicity reported in literature. No dose adjustment studies available; use with standard monitoring.",
+        "renal_impairment": "No specific contraindication identified. Limited data in renal impairment populations."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 18844328", "PMID: 20834180", "PMID: 32210036"]
+    }
+  },
+  {
+    "scientific_name": "Inonotus obliquus",
+    "common_name": "Chaga",
+    "type": "Fungi",
+    "article_count": 510,
+    "primary_categories": ["Antioxidant", "Immunomodulation", "Anti-inflammatory"],
+    "narrative_summary": {
+      "historical_use": "Used in folk medicine across Russia, Siberia, and Scandinavia (including Norway and Finland) since at least the 16th century. Traditionally prepared as a tea (decoction of the sclerotium) for GI diseases, tuberculosis, and cancer. Finnish records describe its use as a coffee substitute during WWII.",
+      "modern_application": "Studied primarily for antioxidant and anti-tumour activity. Betulinic acid and polysaccharides show anti-proliferative effects in vitro and in animal models. Immunomodulatory properties documented. Anti-inflammatory and anti-hyperglycaemic effects seen in preclinical studies. Human RCT data remains limited.",
+      "side_effects": "Oxalate nephropathy with excessive long-term consumption (case reports documented). Potential hypoglycaemia. Rare hypersensitivity reactions. Theoretical bleeding risk.",
+      "contraindications": "Contraindicated in patients with chronic kidney disease or urolithiasis due to very high oxalate content. Avoid with anticoagulants and antidiabetic medications without monitoring. Avoid before surgery."
+    },
+    "clinical_data": {
+      "used_part": "Sclerotium (sterile conk growing on birch trees)",
+      "primary_active_compounds": ["Betulinic acid", "Betulin", "Inotodiol (lanostane triterpenoid)", "Polysaccharides (beta-1,3-glucans)", "Melanin-glucan complex", "Ergosterol peroxide"],
+      "mechanism_of_action": "Betulinic acid induces tumour cell apoptosis via mitochondrial pathway (cytochrome c release, caspase-3 activation). Beta-glucans activate macrophages and NK cells via Dectin-1 and TLR-2/4 receptors. Melanin complex acts as a potent free-radical scavenger (DPPH, ABTS assays). Anti-inflammatory via inhibition of COX-2 and iNOS.",
+      "pharmacokinetics": {
+        "absorption": "Betulinic acid has very poor oral bioavailability (<5%) due to low aqueous solubility. Polysaccharides have limited systemic absorption; exert local GI immunomodulatory effects.",
+        "metabolism": "Betulinic acid undergoes hepatic oxidative metabolism. Detailed human PK data not available.",
+        "excretion": "Fecal excretion of unabsorbed polysaccharides and betulinic acid; oxalate excreted renally."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Anticoagulants (warfarin, aspirin) — potential additive antiplatelet effect. Antidiabetic agents (insulin, metformin) — additive hypoglycaemic risk. No established CYP450 drug interactions in humans.",
+        "toxicity": "LD50 data not established for whole extract in humans. High-dose aqueous extract associated with oxalate nephropathy (case reports: PMID 26392405). Renal accumulation of oxalate is the primary toxicity concern with chronic high-dose use."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient safety data. Traditionally contraindicated. Avoid during pregnancy.",
+        "lactation": "No data on excretion in breast milk. Avoid during breastfeeding.",
+        "hepatic_impairment": "No specific hepatotoxicity identified. Limited data; standard caution applies.",
+        "renal_impairment": "Contraindicated or use with extreme caution due to high oxalate content — documented cases of oxalate nephropathy even in previously healthy individuals with excessive intake."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 29735237", "PMID: 24239400", "PMID: 26392405"]
+    }
+  },
+  {
+    "scientific_name": "Cordyceps sinensis",
+    "common_name": "Kinesisk Snyltekølle / Caterpillar Fungus",
+    "type": "Fungi",
+    "article_count": 1400,
+    "primary_categories": ["Adaptogen", "Athletic performance", "Renoprotection"],
+    "narrative_summary": {
+      "historical_use": "Documented in Tibetan and Chinese medicine since at least the 15th century (Ben Cao Bei Yao, 1694). Traditionally collected at high altitude on the Tibetan Plateau, growing from the larvae of Hepialus moth caterpillars. Used to treat fatigue, respiratory weakness, sexual dysfunction, and as a general tonic for the elderly.",
+      "modern_application": "Studied for anti-fatigue and athletic performance enhancement (increased VO2 max in elderly subjects). Clinically trialled for chronic kidney disease — several Chinese RCTs show reduction in proteinuria and creatinine. Immunomodulatory and anti-tumour properties documented in preclinical models. Expensive wild form largely replaced by cultured mycelium (CS-4 strain).",
+      "side_effects": "Mild GI upset (nausea, diarrhoea, dry mouth). Rare hypersensitivity reactions. Risk of hypoglycaemia with antidiabetic co-medication. Risk of bleeding with anticoagulants.",
+      "contraindications": "Anticoagulant therapy. Immunosuppressive therapy (cyclosporine — may potentiate nephrotoxicity or immunosuppression). Autoimmune diseases — use with caution. Not recommended pre-surgery."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body (stromata) and mycelium; cultured mycelium (CS-4) used commercially",
+      "primary_active_compounds": ["Cordycepin (3'-deoxyadenosine)", "Adenosine", "D-Mannitol (cordycepic acid)", "Polysaccharides (CS-PS)", "Beta-glucans", "Ergosterol"],
+      "mechanism_of_action": "Cordycepin inhibits mRNA polyadenylation, blocking RNA processing and thereby suppressing inflammatory cytokine production and tumour cell proliferation. Adenosine and cordycepin act on adenosine receptors (A1, A2A, A3) modulating cardiovascular and immune tone. Increases cellular ATP production via mitochondrial upregulation. Anti-inflammatory via NF-κB and COX-2 inhibition.",
+      "pharmacokinetics": {
+        "absorption": "Cordycepin is rapidly deaminated in plasma by adenosine deaminase to the less active 3'-deoxyinosine, significantly limiting systemic bioavailability. Plasma half-life is very short (minutes) unless adenosine deaminase is inhibited.",
+        "metabolism": "Rapid deamination by adenosine deaminase; hepatic xanthine oxidase pathway for purine catabolism.",
+        "excretion": "Renal excretion of deaminated metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Cyclosporine — potential pharmacodynamic interaction (immunosuppression, nephrotoxicity). Anticoagulants — additive antiplatelet effects. Antidiabetic drugs — additive hypoglycaemia risk. May interact with theophylline via adenosine receptor competition.",
+        "toxicity": "LD50 >3 g/kg (oral, mice) for cultured mycelium extract. Generally well-tolerated in clinical trials up to 3–4.5 g/day. No significant organ toxicity at standard doses."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient clinical safety data. Traditionally used as a uterine stimulant in some contexts — avoid during pregnancy.",
+        "lactation": "No data on transfer to breast milk. Avoid during breastfeeding.",
+        "hepatic_impairment": "No documented hepatotoxicity. Limited data in hepatic impairment; standard caution recommended.",
+        "renal_impairment": "Paradoxically studied as a renoprotective agent in CKD. Some RCTs show benefit in reducing proteinuria; however, monitoring of renal function is advised and dose adjustment may be needed in severe impairment."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 9540194", "PMID: 28401567", "DOI: 10.1186/s13063-014-0515-7"]
+    }
+  },
+  {
+    "scientific_name": "Cordyceps militaris",
+    "common_name": "Cordyceps militaris / Orange Caterpillar Fungus",
+    "type": "Fungi",
+    "article_count": 730,
+    "primary_categories": ["Adaptogen", "Anti-inflammatory", "Athletic performance"],
+    "narrative_summary": {
+      "historical_use": "Historically used interchangeably with C. sinensis in Traditional Chinese Medicine, though less prized. Growing interest as a cultivatable alternative since wild C. sinensis is prohibitively expensive and endangered. Used in TCM for similar indications: fatigue, sexual dysfunction, respiratory conditions.",
+      "modern_application": "Contains higher concentrations of cordycepin than wild C. sinensis and is more accessible for research. A double-blind RCT (Hirsch et al., 2017) demonstrated improved VO2 max and time-to-exhaustion in active adults. Anti-inflammatory effects documented both in vitro and in vivo. Investigated for anti-tumour, antidiabetic, and renoprotective activities.",
+      "side_effects": "Mild GI symptoms (nausea, diarrhoea). Rare allergic reactions. Potential hypoglycaemia with concurrent antidiabetic use.",
+      "contraindications": "Anticoagulant therapy. Autoimmune conditions — theoretical risk of exacerbation. Avoid pre-surgery. Caution with immunosuppressants."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body and mycelium (commercially cultivated)",
+      "primary_active_compounds": ["Cordycepin (3'-deoxyadenosine — higher concentration than C. sinensis)", "Adenosine", "Polysaccharides", "Carotenoids (cordyxanthin)", "Ergosterol", "Militarinones"],
+      "mechanism_of_action": "Cordycepin is the primary bioactive; inhibits polyadenylation of mRNA, reducing expression of pro-inflammatory cytokines (TNF-α, IL-6, IL-1β). Activates AMPK pathway, enhancing mitochondrial biogenesis. Immunomodulation via NK cell and macrophage activation. Anti-tumour activity via cell cycle arrest at G2/M phase and apoptosis induction.",
+      "pharmacokinetics": {
+        "absorption": "Cordycepin is rapidly deaminated by adenosine deaminase after oral administration; concurrent administration of adenosine deaminase inhibitors (e.g., pentostatin) dramatically increases bioavailability. Human PK studies are limited.",
+        "metabolism": "Adenosine deaminase-mediated deamination is the primary metabolic step; subsequent hepatic purine catabolism.",
+        "excretion": "Renal excretion of polar metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Anticoagulants — additive platelet inhibition. Antidiabetic drugs — additive hypoglycaemia risk. Immunosuppressants — pharmacodynamic interaction. Adenosine deaminase inhibitors (pentostatin, deoxycoformycin) — markedly increase cordycepin exposure.",
+        "toxicity": "LD50 >3 g/kg (oral, rodents). In 4-week subacute toxicity studies in rodents, no significant organ toxicity observed. Clinical trial data (3 g/day for 3 weeks) showed no significant adverse effects."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient clinical data. Avoid during pregnancy based on lack of safety evidence.",
+        "lactation": "No data available on excretion in human breast milk. Avoid during breastfeeding.",
+        "hepatic_impairment": "No hepatotoxicity reported in literature. Limited specific data; standard monitoring recommended.",
+        "renal_impairment": "Preclinical evidence suggests renoprotective potential. No dose adjustment guidelines available; monitor renal function with regular use."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 28401567", "DOI: 10.1155/2012/869649", "PMID: 26197888"]
+    }
+  },
+  {
+    "scientific_name": "Trametes versicolor",
+    "common_name": "Turkey Tail / Kalkhatten",
+    "type": "Fungi",
+    "article_count": 1100,
+    "primary_categories": ["Immunomodulation", "Oncology support", "Gut microbiome"],
+    "narrative_summary": {
+      "historical_use": "Used in Traditional Chinese Medicine as 'Yun Zhi' (cloud mushroom) for over 2,000 years for liver ailments, infections, and as a general tonic. In Japan, the polysaccharide extract PSK (Krestin) was developed in the 1970s and became one of the best-selling anti-cancer drugs in the world, approved for clinical use in Japan.",
+      "modern_application": "PSK (polysaccharide-K) and PSP (polysaccharide-peptide) are the most clinically validated compounds. Meta-analyses of Japanese RCTs show improved 5-year survival in gastric and colorectal cancer when PSK is used as adjunct to chemotherapy. US FDA granted IND approval for a clinical trial in breast cancer. Also shown to modulate gut microbiome composition beneficially.",
+      "side_effects": "Generally very well tolerated. Mild GI symptoms (nausea, diarrhoea) at high doses. Rare hypersensitivity. Darkening of fingernails reported with PSK in some trials. Mild hepatotoxicity at very high doses in animal studies.",
+      "contraindications": "Caution with immunosuppressants (pharmacodynamic antagonism). Avoid in known mushroom allergy. Caution pre-surgery."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body",
+      "primary_active_compounds": ["PSK / Krestin (polysaccharide-K, protein-bound)", "PSP (polysaccharide-peptide)", "Beta-1,3/1,4-glucans", "Ergosterol", "Phenolic compounds (quercetin, kaempferol)"],
+      "mechanism_of_action": "PSK and PSP bind to TLR-2 and Dectin-1 on macrophages and dendritic cells, activating innate immunity. Stimulates NK cell cytotoxicity and T-helper cell polarisation. PSK upregulates IL-2, IFN-γ production. Antioxidant via direct radical scavenging. Prebiotic effect on Bifidobacterium and Lactobacillus populations in the gut.",
+      "pharmacokinetics": {
+        "absorption": "PSK is a high-molecular-weight glycoprotein with limited systemic oral absorption; primarily acts at gut-associated lymphoid tissue (GALT) and is partially absorbed in lower molecular weight fractions.",
+        "metabolism": "Partially hydrolysed in the GI tract; absorbed fractions undergo hepatic metabolism.",
+        "excretion": "Primarily fecal; some renal excretion of smaller absorbed fragments."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Chemotherapy agents (cyclophosphamide, doxorubicin) — no significant pharmacokinetic interaction; may be administered concurrently. Immunosuppressants — pharmacodynamic antagonism. Warfarin — theoretical interaction; monitor INR.",
+        "toxicity": "PSK LD50 >20 g/kg (oral, mice). In Japanese post-marketing surveillance of millions of doses, serious adverse events are extremely rare. Mild, reversible liver enzyme elevations at doses >6 g/day in some individuals."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient human clinical data. Avoid during pregnancy due to lack of controlled safety studies.",
+        "lactation": "No data on excretion in breast milk. Avoid during breastfeeding.",
+        "hepatic_impairment": "Mild ALT/AST elevations noted at high doses; use cautiously with hepatic impairment and monitor liver function.",
+        "renal_impairment": "No specific dose adjustment data available. Use with standard monitoring."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 22814890", "PMID: 23435424", "DOI: 10.1371/journal.pone.0044890"]
+    }
+  },
+  {
+    "scientific_name": "Lentinula edodes",
+    "common_name": "Shiitake",
+    "type": "Fungi",
+    "article_count": 1250,
+    "primary_categories": ["Immunomodulation", "Cardiovascular", "Anti-infective"],
+    "narrative_summary": {
+      "historical_use": "Cultivated and used as food and medicine in China and Japan for over 1,000 years. Referenced in Chinese medical texts as early as 100 CE (Liu Ming Ben Cao). Traditionally used for improving vitality, treating colds, liver conditions, and as an aphrodisiac. The most widely cultivated edible mushroom globally.",
+      "modern_application": "Lentinan, the primary beta-glucan, is approved in Japan as an adjunct in gastric cancer treatment (IV formulation). Oral AHCC (Active Hexose Correlated Compound), derived from shiitake mycelium, is widely studied for immune enhancement. Anti-hypercholesterolaemic properties supported by multiple RCTs. Eritadenine shown to reduce serum LDL. Antiviral properties investigated (including HPV clearance in a small RCT).",
+      "side_effects": "Shiitake dermatitis (flagellate erythema) — a distinctive linear skin rash triggered by consumption of raw or undercooked mushroom (due to lentinan). GI upset. Eosinophilia reported. Rare hypersensitivity pneumonitis with occupational exposure (spore inhalation).",
+      "contraindications": "Known shiitake allergy (dermatitis risk). Avoid concurrent use with immunosuppressants. Caution with anticoagulants."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body and mycelium",
+      "primary_active_compounds": ["Lentinan (beta-1,3/1,6-glucan)", "Eritadenine (2(R),3(R)-dihydroxy-4-(9-adenyl)-butyric acid)", "AHCC (alpha-glucan-rich, from mycelium)", "KS-2 (alpha-mannan peptide)", "Polysaccharides", "L-ergothioneine"],
+      "mechanism_of_action": "Lentinan activates macrophages, NK cells, and T-cells via Dectin-1 and complement receptor 3 (CR3). Upregulates IL-12, TNF-α, IFN-γ. Eritadenine competitively inhibits S-adenosylhomocysteine hydrolase, lowering plasma homocysteine and LDL-cholesterol. AHCC activates NK and dendritic cells and modulates alpha-glucan-dependent pathways.",
+      "pharmacokinetics": {
+        "absorption": "Lentinan is poorly absorbed orally (hence IV formulation in clinical use). AHCC alpha-glucan fractions have better oral bioavailability due to smaller molecular weight. Eritadenine is absorbed orally.",
+        "metabolism": "Eritadenine undergoes hepatic metabolism. Lentinan is degraded by intestinal microbiota and digestive enzymes.",
+        "excretion": "Renal excretion of eritadenine metabolites; fecal for unabsorbed polysaccharides."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Immunosuppressants — pharmacodynamic antagonism. Anticoagulants — monitor; theoretical platelet inhibition. Chemotherapy — lentinan used as adjunct without significant PK interaction in Japanese studies.",
+        "toxicity": "Lentinan IV: well-tolerated; eosinophilia reported in some trials. Oral whole mushroom generally very safe at dietary quantities. Dermatitis risk from raw mushroom consumption is the most clinically relevant adverse effect."
+      },
+      "special_precautions": {
+        "pregnancy": "Dietary consumption considered safe. Medicinal doses (concentrated extracts) — insufficient data; avoid.",
+        "lactation": "Dietary quantities considered acceptable. Concentrated supplemental doses — insufficient data.",
+        "hepatic_impairment": "No hepatotoxicity documented. AHCC has been studied in hepatitis C — generally safe. Standard monitoring recommended with concentrated preparations.",
+        "renal_impairment": "No specific risk identified. No dose adjustment data available."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 25866155", "PMID: 17429743", "DOI: 10.1016/j.jep.2015.08.010"]
+    }
+  },
+  {
+    "scientific_name": "Grifola frondosa",
+    "common_name": "Maitake / Hen-of-the-Woods",
+    "type": "Fungi",
+    "article_count": 580,
+    "primary_categories": ["Immunomodulation", "Antidiabetic", "Oncology support"],
+    "narrative_summary": {
+      "historical_use": "Used in Traditional Chinese and Japanese medicine as a tonic and food. Known in Japan as 'Maitake' (dancing mushroom), legend holds that people danced with joy upon finding it in the wild. Used historically for fatigue, diabetes-like symptoms, and immune support. Cultivated commercially since the 1970s in Japan.",
+      "modern_application": "D-fraction (MD-fraction), a specific beta-1,6/1,3-glucan with protein, has shown immunomodulatory and anti-tumour effects in preclinical and small human trials. A 2009 non-randomised study in breast cancer patients showed immune stimulation. SX-fraction (a specific polysaccharide fraction) has demonstrated antidiabetic effects in humans, reducing insulin resistance and blood glucose. Antihypertensive and lipid-lowering effects also documented.",
+      "side_effects": "Generally well tolerated. Mild GI symptoms. Risk of hypoglycaemia with antidiabetic medications. Theoretical bleeding risk.",
+      "contraindications": "Antidiabetic medications — risk of additive hypoglycaemia. Anticoagulants — theoretical risk. Immunosuppressants — pharmacodynamic antagonism."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body",
+      "primary_active_compounds": ["D-fraction / MD-fraction (beta-1,6/1,3-glucan-protein complex)", "SX-fraction (alpha-glucan)", "Polysaccharides", "Ergosterol", "Phospholipids"],
+      "mechanism_of_action": "D-fraction binds Dectin-1 and TLR-2 on macrophages and dendritic cells, activating innate and adaptive immune responses; increases NK cell and CD4+ T-cell activity. Anti-tumour mechanism involves upregulation of TNF-α, IL-12, and direct tumour cytotoxicity. SX-fraction increases insulin receptor sensitivity via PPAR-gamma activation, reducing blood glucose and insulin resistance.",
+      "pharmacokinetics": {
+        "absorption": "Beta-glucan fractions have limited oral bioavailability; partially absorbed in low-molecular-weight fractions and active at gut mucosal level. SX-fraction absorption profile not fully characterised.",
+        "metabolism": "Intestinal microbial fermentation of polysaccharides produces short-chain fatty acids (SCFAs). Absorbed fractions undergo hepatic metabolism.",
+        "excretion": "Primarily fecal; smaller metabolites via renal route."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Antidiabetic agents (insulin, metformin, sulphonylureas) — additive hypoglycaemic effect documented. Anticoagulants — theoretical interaction. Immunosuppressants — pharmacodynamic antagonism.",
+        "toxicity": "LD50 >3 g/kg (oral, rodents). No organ toxicity in chronic animal studies. Human trials up to 6 g/day showed no serious adverse events."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient clinical data. Avoid concentrated extracts during pregnancy.",
+        "lactation": "No data on breast milk excretion. Dietary amounts likely safe; supplemental doses — insufficient data.",
+        "hepatic_impairment": "No hepatotoxicity documented. Standard monitoring recommended.",
+        "renal_impairment": "No specific risk identified. No dose adjustment data available."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 19516576", "PMID: 20931066", "DOI: 10.1089/acm.2009.0091"]
+    }
+  },
+  {
+    "scientific_name": "Agaricus blazei",
+    "common_name": "Mandel-champignon / Royal Sun Agaricus / ABM",
+    "type": "Fungi",
+    "article_count": 420,
+    "primary_categories": ["Immunomodulation", "Antidiabetic", "Oncology support"],
+    "narrative_summary": {
+      "historical_use": "Native to the Piedade region of Brazil, where it is known as 'Cogumelo do Sol' (mushroom of the sun) or 'Cogumelo de Deus' (mushroom of God). Introduced to Japan in the 1960s, where it became popular after researchers noted low rates of cancer and infections in the Brazilian community that consumed it regularly.",
+      "modern_application": "Studied primarily for immunomodulation and anti-tumour activity. Japanese RCTs in gynaecological cancer patients show improved NK cell activity when used as adjunct to chemotherapy. A Norwegian RCT (AndoSan) demonstrated reduced inflammatory markers (TNF-α, IL-6) in healthy subjects. Anti-hyperglycaemic effects documented in type 2 diabetic patients in a small RCT (reduced insulin resistance).",
+      "side_effects": "GI upset (nausea, diarrhoea). Rare hepatotoxicity reported (case reports, likely idiosyncratic). Eosinophilia reported in one RCT. Hypoglycaemia risk.",
+      "contraindications": "Anticoagulants — potential additive effect. Antidiabetic drugs — additive hypoglycaemia risk. Pre-existing liver disease — use with caution given case reports of hepatotoxicity."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body",
+      "primary_active_compounds": ["Beta-1,3/1,6-D-glucans (high content, up to 40% dry weight)", "Polysaccharides (AbPS)", "Ergosterol", "Blazein (steroid compound)", "Agaritine (hydrazine derivative — potentially genotoxic)"],
+      "mechanism_of_action": "Beta-glucans activate macrophages and NK cells via Dectin-1; upregulate Th1 cytokines (IL-12, IFN-γ, TNF-α). Anti-tumour mechanisms include direct cytotoxicity via induction of apoptosis (caspase-3 pathway) and anti-angiogenic effects. Antidiabetic mechanism involves PPAR-gamma activation and improved insulin receptor signalling. Agaritine is a potentially carcinogenic hydrazine compound degraded by cooking.",
+      "pharmacokinetics": {
+        "absorption": "Beta-glucan fractions partially absorbed; primarily active at GALT. Detailed human PK data not available.",
+        "metabolism": "Hepatic metabolism of absorbed fractions. Agaritine hydrolysed by gut bacteria and enzymes; cooking significantly reduces agaritine content.",
+        "excretion": "Primarily fecal for polysaccharides; renal for smaller metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Antidiabetic agents — additive hypoglycaemia risk (documented in RCT). Anticoagulants — theoretical interaction. Immunosuppressants — pharmacodynamic antagonism.",
+        "toxicity": "LD50 >5 g/kg (oral, rodents). Rare cases of hepatotoxicity in humans (likely idiosyncratic). Agaritine content: raw mushroom contains up to 500 mg/kg; cooking, drying, or storage reduces this substantially. Long-term safety of agaritine exposure in humans not fully characterised."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient safety data. Presence of agaritine (potentially genotoxic hydrazine derivative) warrants avoidance during pregnancy.",
+        "lactation": "Insufficient data. Avoid concentrated supplemental preparations during breastfeeding.",
+        "hepatic_impairment": "Case reports of hepatotoxicity exist; avoid in patients with hepatic disease or monitor liver enzymes carefully.",
+        "renal_impairment": "No specific data available. Standard monitoring recommended."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 21120122", "PMID: 21164316", "DOI: 10.1186/1472-6882-11-29"]
+    }
+  },
+  {
+    "scientific_name": "Tremella fuciformis",
+    "common_name": "Snow Fungus / Silver Ear Mushroom / Hvid Gelésvamp",
+    "type": "Fungi",
+    "article_count": 310,
+    "primary_categories": ["Neuroprotection", "Skin health", "Immunomodulation"],
+    "narrative_summary": {
+      "historical_use": "Used in Traditional Chinese Medicine and as a prized culinary delicacy for over 2,000 years. Known in China as 'Bai Mu Er' (white wood ear). Historically associated with female beauty and longevity — legend holds that Yang Guifei, the Tang Dynasty imperial consort famed for her beauty, used it daily. Used medicinally for lung conditions, dry cough, and as a yin tonic.",
+      "modern_application": "The primary bioactive — Tremella polysaccharide (TP) — is studied for neuroprotective effects (NGF-like activity), skin hydration (high water-retention capacity comparable to hyaluronic acid), and immunomodulation. Preclinical studies show NGF secretion stimulation and neuroprotection against amyloid-beta toxicity. Cosmetic industry extensively uses TP for topical hydration. Anti-diabetic and anti-atherosclerotic effects in animal models.",
+      "side_effects": "Very well tolerated. Rare allergic reactions. No significant adverse effects documented in available clinical literature.",
+      "contraindications": "No absolute contraindications established. Caution with immunosuppressants due to immunostimulant properties."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body",
+      "primary_active_compounds": ["Tremella polysaccharide (TP) — acidic heteropolysaccharide", "Glucuronoxylomannans", "Ergosterol", "Trehalose", "Phenolic compounds"],
+      "mechanism_of_action": "Tremella polysaccharides stimulate NGF secretion in astrocytes (similar mechanism to Lion's Mane), promoting neuronal differentiation and survival. High uronic acid content of TP gives it exceptional water-binding capacity (superior to hyaluronic acid by molecular weight). Immunomodulation via macrophage and NK cell activation. Antidiabetic effects via PPAR-γ agonism and alpha-glucosidase inhibition.",
+      "pharmacokinetics": {
+        "absorption": "Oral bioavailability of TP is low due to high molecular weight. Some fractions absorbed in the GI tract; bioactive effects also mediated at mucosal level. Human PK data very limited.",
+        "metabolism": "Partially fermented by gut microbiota to SCFAs. Absorbed fractions undergo hepatic metabolism.",
+        "excretion": "Primarily fecal; renal for absorbed small molecular weight fragments."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No clinically documented drug interactions. Theoretical interaction with anticoagulants and immunosuppressants.",
+        "toxicity": "LD50 >10 g/kg (oral, mice). No organ toxicity in preclinical studies. Human clinical data very limited but no safety signals identified."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient human clinical data. Dietary consumption likely safe; concentrated supplements — avoid due to lack of evidence.",
+        "lactation": "No data on breast milk excretion. Dietary use likely acceptable; supplements — insufficient data.",
+        "hepatic_impairment": "No hepatotoxicity documented. Standard precautions apply.",
+        "renal_impairment": "No specific risk identified. No dose adjustment data."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 29186505", "PMID: 31249999", "DOI: 10.1016/j.carbpol.2015.05.054"]
+    }
+  },
+  {
+    "scientific_name": "Phellinus linteus",
+    "common_name": "Sanghuang / Meshimakobu",
+    "type": "Fungi",
+    "article_count": 380,
+    "primary_categories": ["Immunomodulation", "Oncology support", "Anti-inflammatory"],
+    "narrative_summary": {
+      "historical_use": "One of the most prized medicinal mushrooms in East Asian medicine, known as 'Sang Huang' (yellow mulberry) in China and 'Meshimakobu' in Japan. Used for over 2,000 years primarily as an anti-tumour agent, also for haemostasis, dysentery, and as an immune tonic. Grows on mulberry trees (Morus species) and was historically one of the most expensive medicinal fungi.",
+      "modern_application": "Strongly investigated for anti-tumour and immunomodulatory properties. Preclinical studies show consistent anti-proliferative effects across multiple cancer cell lines (breast, prostate, colon, leukaemia). Mechanistically among the better-characterised medicinal mushrooms for tumour-suppressive activity. Investigated as an adjunct in prostate cancer in a small human study. Anti-inflammatory properties studied for IBD and arthritis models.",
+      "side_effects": "Limited human clinical data. Mild GI symptoms reported. No significant adverse effects documented at typical research doses.",
+      "contraindications": "Anticoagulants — additive antiplatelet effect. Immunosuppressants — pharmacodynamic antagonism. Insufficient data for definitive contraindication profile."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body and mycelium",
+      "primary_active_compounds": ["Hispidin (styrylpyrone compound)", "Polysaccharides (PL-1, PL-2 — beta-glucans)", "Protocatechuic acid", "Caffeic acid", "Inoscavin A", "Davallialactone"],
+      "mechanism_of_action": "Hispidin and related styrylpyrones inhibit PKC (protein kinase C) and scavenge free radicals. Polysaccharides activate macrophages and NK cells via Dectin-1/TLR-2, increasing IL-12, IFN-γ, and TNF-α production. Anti-tumour activity via Akt/mTOR pathway inhibition, inducing G1 cell cycle arrest and apoptosis (caspase-3/7). Anti-angiogenic via VEGF suppression.",
+      "pharmacokinetics": {
+        "absorption": "Limited human PK data. Hispidin has demonstrated absorption in animal models; polysaccharide fractions show limited systemic absorption.",
+        "metabolism": "Hepatic phase I/II metabolism of phenolic compounds assumed. Polysaccharides fermented by gut microbiota.",
+        "excretion": "Renal excretion of phenolic metabolites; fecal for unabsorbed polysaccharides."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Anticoagulants — potential additive antiplatelet activity. Immunosuppressants — pharmacodynamic antagonism. No CYP450 drug interactions established in human studies.",
+        "toxicity": "LD50 >5 g/kg (oral, mice) for polysaccharide extract. No significant organ toxicity in 90-day subacute animal studies. Human safety data very limited."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient human clinical data. Avoid during pregnancy.",
+        "lactation": "No data on breast milk excretion. Avoid during breastfeeding.",
+        "hepatic_impairment": "No hepatotoxicity documented. Limited data; standard monitoring recommended.",
+        "renal_impairment": "No specific risk identified. No dose adjustment data available."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 15664459", "PMID: 16901419", "DOI: 10.1016/j.phymed.2010.01.013"]
+    }
+  },
+  {
+    "scientific_name": "Poria cocos",
+    "common_name": "Fu Ling / Tuckahoe / Indian Bread",
+    "type": "Fungi",
+    "article_count": 620,
+    "primary_categories": ["Immunomodulation", "Sedation/Anxiolysis", "Anti-inflammatory"],
+    "narrative_summary": {
+      "historical_use": "One of the most widely used fungi in Traditional Chinese Medicine, mentioned as a primary herb in the Shen Nong Ben Cao Jing (c. 100 CE). Known as 'Fu Ling', used to calm the mind (shen), strengthen the spleen and stomach, promote urination, and resolve dampness. A core component of many classical TCM formulas (e.g., Liu Wei Di Huang Wan, Si Jun Zi Tang).",
+      "modern_application": "Beta-pachymaran and pachymic acids are the primary studied bioactives. Documented immunomodulatory, anti-tumour, and anti-inflammatory effects in preclinical studies. Sedative and anxiolytic properties supported by animal pharmacology (interaction with GABA-A receptor). Antidiabetic effects in animal models. Widely used in TCM formulations for GI disorders and insomnia.",
+      "side_effects": "Generally very well tolerated. Rare GI symptoms at high doses. Rare hypersensitivity reactions.",
+      "contraindications": "Diuretics — additive diuretic effect (Poria has mild diuretic properties). Sedatives/anxiolytics — potential additive CNS depression. No absolute contraindications well-established."
+    },
+    "clinical_data": {
+      "used_part": "Sclerotium (underground mass)",
+      "primary_active_compounds": ["Pachymaran (beta-1,3-glucan)", "Pachymic acid (lanostane triterpenoid)", "Tumulosic acid", "Dehydropachymic acid", "Poriacocos polysaccharides (PCP)", "Ergosterol"],
+      "mechanism_of_action": "Pachymaran activates macrophages and NK cells via Dectin-1/TLR-4. Pachymic acid inhibits NF-κB pathway, reducing pro-inflammatory cytokine production. Sedative/anxiolytic effects mediated via potentiation of GABA-A receptor chloride conductance (positive allosteric modulation). Anti-tumour effects via Akt/ERK pathway inhibition and apoptosis induction. Mild diuretic effect via inhibition of renal tubular Na+/K+-ATPase.",
+      "pharmacokinetics": {
+        "absorption": "Pachymic acid absorbed orally; reaches systemic circulation. Pachymaran (high MW) has limited systemic absorption. Detailed human PK data limited.",
+        "metabolism": "Pachymic acid undergoes hepatic CYP450-mediated metabolism. Polysaccharides partially fermented by intestinal microbiota.",
+        "excretion": "Renal excretion of triterpenoid metabolites; fecal for polysaccharides."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Diuretics — additive diuretic effects. CNS depressants (benzodiazepines, barbiturates) — potential pharmacodynamic potentiation. Antidiabetic agents — theoretical additive hypoglycaemia.",
+        "toxicity": "LD50 >10 g/kg (oral, mice) for whole extract. Long-term use considered safe at standard TCM doses. No significant organ toxicity identified in preclinical studies."
+      },
+      "special_precautions": {
+        "pregnancy": "Traditionally used cautiously during pregnancy. Insufficient controlled safety data — avoid concentrated preparations.",
+        "lactation": "No data on breast milk excretion. Avoid supplemental doses during breastfeeding.",
+        "hepatic_impairment": "No hepatotoxicity documented. Standard monitoring with concentrated preparations.",
+        "renal_impairment": "Mild diuretic properties; use with caution in patients on diuretic therapy. No specific dose adjustment data."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 22771396", "PMID: 30016492", "DOI: 10.1016/j.jep.2013.08.035"]
+    }
+  },
+  {
+    "scientific_name": "Polyporus umbellatus",
+    "common_name": "Zhu Ling / Umbrella Polypore",
+    "type": "Fungi",
+    "article_count": 220,
+    "primary_categories": ["Immunomodulation", "Diuretic", "Oncology support"],
+    "narrative_summary": {
+      "historical_use": "Known in TCM as 'Zhu Ling', used for over 2,000 years primarily as a diuretic and for treating oedema, urinary difficulty, and diarrhoea. Referenced in classical texts including Shen Nong Ben Cao Jing. The sclerotium grows on the roots of deciduous trees. A major component of the classical TCM formula 'Zhu Ling Tang' for urinary tract disorders.",
+      "modern_application": "Ergone (a steroid from the fruiting body) and polysaccharides (PU-PS) are the primary bioactives. Zhu Ling polysaccharide injection (ZPS) is used in China as an adjunct to chemotherapy in bladder and other cancers. Diuretic effect well-documented. Immunomodulatory properties studied in animal models and small clinical trials. Anti-tumour properties via NK cell and macrophage activation.",
+      "side_effects": "Generally well tolerated. Electrolyte imbalance possible with prolonged high-dose use due to diuretic effect. Rare GI symptoms.",
+      "contraindications": "Diuretics — additive electrolyte-depleting effect. Antihypertensives — additive hypotensive effect. Lithium — diuretic-mediated lithium retention."
+    },
+    "clinical_data": {
+      "used_part": "Sclerotium and fruiting body",
+      "primary_active_compounds": ["Polyporus umbellatus polysaccharides (PU-PS, beta-glucan)", "Ergone (ergosta-4,6,8(14),22-tetraen-3-one)", "Acetosyringone", "Biotin"],
+      "mechanism_of_action": "PU-PS activates macrophages and T-cells via TLR-2/Dectin-1; stimulates IL-2, IFN-γ. Anti-tumour effects via NK cell activation and promotion of tumour cell apoptosis. Diuretic effect via inhibition of aldosterone and ADH-mediated water reabsorption (mechanism partially characterised). Ergone inhibits 5-alpha-reductase (relevant to prostate health).",
+      "pharmacokinetics": {
+        "absorption": "Limited human PK data. Polysaccharides have limited systemic oral bioavailability. Ergone absorption profile not characterised in humans.",
+        "metabolism": "Assumed hepatic metabolism of steroid (ergone) compounds. Polysaccharides fermented in colon.",
+        "excretion": "Renal excretion (diuretic mechanism increases urinary output). Fecal for unabsorbed polysaccharides."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Diuretics (thiazides, loop diuretics) — additive effect and electrolyte imbalance risk. Antihypertensives — additive hypotension. Lithium — may increase lithium serum levels by reducing renal clearance.",
+        "toxicity": "LD50 >5 g/kg (oral, rodents). No significant organ toxicity in animal studies. Human clinical data limited; ZPS injection well-tolerated in cancer adjunct trials."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient clinical data. Diuretic properties could theoretically affect fluid balance. Avoid during pregnancy.",
+        "lactation": "No data available. Avoid during breastfeeding.",
+        "hepatic_impairment": "No hepatotoxicity documented. Standard monitoring recommended.",
+        "renal_impairment": "Diuretic properties require caution in renal impairment; monitor electrolytes and renal function."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 24795079", "PMID: 12627425", "DOI: 10.1016/j.jep.2011.01.023"]
+    }
+  },
+  {
+    "scientific_name": "Flammulina velutipes",
+    "common_name": "Enoki / Winter Mushroom / Vintersvamp",
+    "type": "Fungi",
+    "article_count": 390,
+    "primary_categories": ["Immunomodulation", "Anti-tumour", "Cardiovascular"],
+    "narrative_summary": {
+      "historical_use": "Widely consumed as food in East Asia for centuries. Known in Japan as 'Enokitake', in China as 'Jin Zhen Gu' (golden needle mushroom). Used in TCM for liver disease, gastric disorders, and as a tonic. The wild form (brown, thick-stemmed) differs significantly in bioactive content from the commercially cultivated white, slender variety.",
+      "modern_application": "Profungin / FVE (Flammulina velutipes immunomodulatory protein) is a unique ribosome-inactivating lectin with anti-tumour and immunomodulatory properties, studied in animal models. Flammutoxin, a cardiotoxic protein in the raw mushroom, is destroyed by cooking. Flammulin (a lectin) demonstrates anti-tumour activity. Ergothioneine content is among the highest of edible mushrooms. Epidemiological data from Japan links high enoki consumption to reduced cancer incidence.",
+      "side_effects": "Raw mushroom consumption can cause GI irritation and potential cardiotoxicity (flammutoxin) — must be cooked. Cooked or dried preparations are safe. Rare hypersensitivity reactions.",
+      "contraindications": "Raw consumption contraindicated. Rare mushroom allergy. No other well-established contraindications at dietary levels."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body (cooked or extracted)",
+      "primary_active_compounds": ["FVE (Flammulina velutipes immunomodulatory protein / lectin)", "Flammulin (lectin)", "Flammutoxin (cytotoxic protein — destroyed by heat)", "Polysaccharides (beta-glucans)", "L-ergothioneine", "Profungin"],
+      "mechanism_of_action": "FVE activates macrophages and NK cells; stimulates Th1 cytokines (IFN-γ, IL-2). Flammulin inhibits protein synthesis in tumour cells (ribosome inactivation). Ergothioneine is a potent antioxidant and cytoprotectant concentrated in mitochondria. Flammutoxin disrupts cell membranes via pore formation (toxic when raw; heat-labile). Anti-tumour mechanism includes apoptosis induction and anti-angiogenesis.",
+      "pharmacokinetics": {
+        "absorption": "Ergothioneine absorbed via organic cation transporter OCTN1; accumulates selectively in tissues under oxidative stress. FVE and flammulin are proteins largely degraded during digestion; immunological activity may be mediated at mucosal level.",
+        "metabolism": "Ergothioneine: not significantly metabolised; retained in erythrocytes and mitochondria-rich tissues. Protein bioactives: digested to peptides/amino acids.",
+        "excretion": "Ergothioneine: renal excretion of intact molecule and metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No established clinically significant drug interactions. Theoretical interaction with anticoagulants (antiplatelet activity reported in vitro).",
+        "toxicity": "Flammutoxin is heat-labile and destroyed at cooking temperatures (>70°C); cooked preparations are non-toxic. LD50 of whole cooked extract >5 g/kg in rodents. No organ toxicity documented with cooked/extracted forms."
+      },
+      "special_precautions": {
+        "pregnancy": "Dietary consumption of cooked mushroom considered safe. Raw consumption must be avoided. Concentrated extracts — insufficient data.",
+        "lactation": "Dietary cooked consumption likely safe. No data on concentrated extract transfer to breast milk.",
+        "hepatic_impairment": "No hepatotoxicity documented with cooked preparations. Standard monitoring with concentrated extracts.",
+        "renal_impairment": "No specific risk identified. Ergothioneine is renally excreted; accumulation possible in severe renal failure — monitor."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 23136081", "PMID: 21663618", "DOI: 10.1016/j.foodchem.2015.02.076"]
+    }
+  },
+  {
+    "scientific_name": "Pleurotus ostreatus",
+    "common_name": "Almindelig Østershat / Oyster Mushroom",
+    "type": "Fungi",
+    "article_count": 870,
+    "primary_categories": ["Cardiovascular", "Antidiabetic", "Immunomodulation"],
+    "narrative_summary": {
+      "historical_use": "Consumed as food across Europe and Asia for centuries. Less prominent in traditional medicine than Asian medicinal fungi, but used in Eastern European folk medicine for general health. One of the most widely cultivated mushrooms globally, appreciated for culinary and nutritional value. References to medicinal use in Slavic folk medicine for liver and cardiovascular conditions.",
+      "modern_application": "Among edible fungi, oyster mushrooms have the most clinical evidence for lipid-lowering effects. A placebo-controlled RCT demonstrated significant reduction in total cholesterol, LDL, and triglycerides in hyperlipidaemic patients. Lovastatin (mevinolin) content — a genuine statin — is the likely cholesterol-lowering mechanism. Antidiabetic effects (alpha-glucosidase inhibition) and immunomodulatory properties documented. Pleuran (beta-1,3/1,6-glucan) from P. ostreatus is commercially used as an immunomodulatory supplement.",
+      "side_effects": "Generally very well tolerated. Rare contact dermatitis (occupational). Rare asthma with spore inhalation. Possible GI intolerance with very large consumption.",
+      "contraindications": "Statins (atorvastatin, simvastatin) — additive lipid-lowering effect and potential for myopathy due to lovastatin content. Caution in patients with myopathy. Immunosuppressants — pharmacodynamic antagonism (pleuran)."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body",
+      "primary_active_compounds": ["Pleuran (beta-1,3/1,6-glucan)", "Lovastatin (mevinolin) — 2.8% dry weight in some varieties", "Polysaccharides", "Phenolic compounds (gallic acid, p-coumaric acid)", "Ergothioneine", "GABA"],
+      "mechanism_of_action": "Lovastatin competitively inhibits HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating LDL receptors (identical mechanism to pharmaceutical statins). Pleuran activates NK cells and macrophages via Dectin-1/CR3. Alpha-glucosidase inhibition by polysaccharide fractions slows post-prandial glucose absorption. GABA exerts mild anxiolytic and antihypertensive effects.",
+      "pharmacokinetics": {
+        "absorption": "Lovastatin absorbed in prodrug (lactone) form; hydrolysed to active hydroxy acid in gut/liver; bioavailability ~5% due to first-pass effect. Pleuran: limited systemic absorption; active at mucosal/GALT level.",
+        "metabolism": "Lovastatin extensively metabolised by CYP3A4 to active and inactive metabolites. Pleuran fermented by gut microbiota.",
+        "excretion": "Lovastatin: primarily biliary/fecal (83%); minor renal (10%). Pleuran: fecal."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Statins (atorvastatin, simvastatin) — additive HMG-CoA inhibition; combined use may increase risk of myopathy/rhabdomyolysis. CYP3A4 inhibitors (azole antifungals, macrolide antibiotics) — increase lovastatin exposure and myopathy risk. Anticoagulants (warfarin) — lovastatin inhibits warfarin metabolism; monitor INR.",
+        "toxicity": "Whole mushroom: LD50 not established; dietary consumption is safe. Concentrated lovastatin-rich extracts carry statin-class adverse effects (myopathy, elevated liver enzymes) at pharmacological doses."
+      },
+      "special_precautions": {
+        "pregnancy": "Dietary consumption safe. Lovastatin is contraindicated during pregnancy (Category X in standard statin classification — teratogenic in animal models). Avoid high-dose concentrated extracts.",
+        "lactation": "Lovastatin excreted in breast milk. Concentrated lovastatin-containing preparations should be avoided during breastfeeding.",
+        "hepatic_impairment": "Lovastatin is contraindicated in active liver disease. Monitoring of liver enzymes with regular high-dose consumption is prudent.",
+        "renal_impairment": "Lovastatin primarily excreted biliary; mild renal impairment generally does not require dose adjustment. Severe renal impairment — use with caution."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 21056640", "PMID: 17726047", "DOI: 10.1080/09637480701453225"]
+    }
+  },
+  {
+    "scientific_name": "Schizophyllum commune",
+    "common_name": "Kløvblad / Split Gill Fungus",
+    "type": "Fungi",
+    "article_count": 290,
+    "primary_categories": ["Immunomodulation", "Oncology support", "Anti-inflammatory"],
+    "narrative_summary": {
+      "historical_use": "Consumed as food in parts of Asia, Africa, and Latin America. Used in traditional medicine in Mexico and Southeast Asia for fever, headache, and infections. One of the most widespread mushroom species globally (found on every continent except Antarctica). Not traditionally prominent in Chinese or Japanese medicinal systems, but significant in modern Japanese oncology research.",
+      "modern_application": "Schizophyllan (SPG / Sonifilan / sizofiran) — a beta-1,3-glucan — is approved in Japan as an adjunct to radiation therapy in cervical cancer, significantly improving survival. Clinical trials demonstrate immune stimulation with improved NK cell and lymphocyte activity. Intratumoral administration also investigated. Antibacterial and antifungal properties noted in vitro. Interestingly, it is an opportunistic pathogen in immunocompromised hosts (sino-pulmonary infections).",
+      "side_effects": "IV/intratumoral administration: local injection reactions, mild fever. Oral use: generally well tolerated. Note: can cause opportunistic infections (schizophyllosis) in severely immunocompromised patients.",
+      "contraindications": "Severe immunocompromise (risk of opportunistic infection). Immunosuppressants — complex pharmacodynamic interaction."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body; SPG (schizophyllan) derived from fermentation of mycelium",
+      "primary_active_compounds": ["Schizophyllan / SPG / Sizofiran (beta-1,3-glucan with beta-1,6-branching)", "Glucans", "Mannoproteins"],
+      "mechanism_of_action": "Schizophyllan activates macrophages and NK cells via Dectin-1 receptor; upregulates IL-2, IFN-γ, TNF-α. Augments T-lymphocyte and B-lymphocyte function. As adjunct to radiotherapy, potentiates tumour-cell killing by improving immune clearance of irradiated tumour debris. Anti-tumour activity also via direct cytotoxicity in vitro. Schizophyllan forms a triple-helix structure that enhances receptor binding affinity.",
+      "pharmacokinetics": {
+        "absorption": "Oral bioavailability of high-MW schizophyllan is very limited; clinical use is parenteral (intramuscular or intratumoral). Oral formulations active at mucosal immune level.",
+        "metabolism": "Partially hydrolysed by gut glucanases; absorbed fractions undergo hepatic metabolism.",
+        "excretion": "Primarily fecal for oral forms; renal for parenteral metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Immunosuppressants — pharmacodynamic antagonism. Radiation therapy — used as adjunct (synergistic, not pharmacokinetic). No established CYP450 interactions.",
+        "toxicity": "SPG parenteral: well-tolerated in clinical trials; injection site reactions. Risk of opportunistic infection (Schizophyllum commune sino-pulmonary infection) in immunocompromised individuals — this is a documented pathogen, not just a theoretical risk."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient human clinical data. Avoid during pregnancy.",
+        "lactation": "No data available. Avoid during breastfeeding.",
+        "hepatic_impairment": "No hepatotoxicity documented. Standard monitoring recommended.",
+        "renal_impairment": "No specific risk identified. No dose adjustment data."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 8374414", "PMID: 12881745", "DOI: 10.1016/j.phymed.2011.09.002"]
+    }
+  },
+  {
+    "scientific_name": "Auricularia auricula-judae",
+    "common_name": "Judasøre / Jelly Ear / Wood Ear",
+    "type": "Fungi",
+    "article_count": 340,
+    "primary_categories": ["Anticoagulant", "Antidiabetic", "Immunomodulation"],
+    "narrative_summary": {
+      "historical_use": "Used in Traditional Chinese Medicine for over 1,000 years, known as 'Mu Er' (wood ear) or 'Hei Mu Er' (black wood ear). Traditionally used for improving blood circulation, treating throat conditions, and as a yin tonic for the lungs and stomach. A common food ingredient in Asian cuisine (soups, stir-fries). Reference to its use for blood disorders found in Ben Cao Gang Mu (Li Shizhen, 1596).",
+      "modern_application": "Clinically relevant for its significant anticoagulant and antiplatelet effects — documented in multiple controlled studies. A 1980 observation by Andrew Weil noted increased bleeding in patients consuming large quantities of Chinese food (black fungus); subsequent research confirmed potent platelet inhibition. Antidiabetic effects via alpha-glucosidase inhibition documented. Cholesterol-lowering and anti-atherosclerotic properties in animal models. Immunomodulatory polysaccharides (AAP) studied preclinically.",
+      "side_effects": "Significant anticoagulant/antiplatelet effect — risk of bleeding, especially with concurrent anticoagulant use. GI upset with large quantities. Rare hypersensitivity.",
+      "contraindications": "Concurrent use with anticoagulants or antiplatelets (warfarin, aspirin, clopidogrel, heparin) — clinically significant bleeding risk. Pre-surgical period — discontinue at least 2 weeks before surgery. Haemophilia or bleeding disorders."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body",
+      "primary_active_compounds": ["Auricularia auricula polysaccharides (AAP — beta-glucans, acidic heteropolysaccharides)", "Adenosine (platelet aggregation inhibitor)", "Ergosterol", "Lectins", "Cerebrosides"],
+      "mechanism_of_action": "Adenosine and AAP inhibit platelet aggregation via adenosine receptor (A2A) activation, increasing platelet cAMP and reducing fibrinogen binding to GPIIb/IIIa receptor. Additional anticoagulant effects via inhibition of thromboxane A2 synthesis. Alpha-glucosidase inhibition by polysaccharides slows intestinal glucose absorption. Immunomodulatory effects via macrophage activation and Th1 cytokine upregulation.",
+      "pharmacokinetics": {
+        "absorption": "Adenosine rapidly absorbed and metabolised. Polysaccharide fractions limited systemic absorption; active at mucosal level. Human PK data for whole extract not available.",
+        "metabolism": "Adenosine rapidly deaminated by adenosine deaminase to inosine. Polysaccharides fermented by gut microbiota.",
+        "excretion": "Renal excretion of adenosine metabolites; fecal for polysaccharides."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Anticoagulants (warfarin, heparin) and antiplatelets (aspirin, clopidogrel, NSAIDs) — CLINICALLY SIGNIFICANT additive bleeding risk, documented in case reports. NSAIDs — potential additive GI bleeding risk.",
+        "toxicity": "Generally safe at dietary amounts. At pharmacological concentrations the antiplatelet effect is the primary safety concern. No significant organ toxicity in animal studies."
+      },
+      "special_precautions": {
+        "pregnancy": "Anticoagulant properties raise concern for increased bleeding risk during pregnancy, particularly peripartum. Avoid concentrated preparations; dietary quantities with medical supervision.",
+        "lactation": "No data on breast milk excretion. Dietary use likely safe; concentrated preparations — insufficient data.",
+        "hepatic_impairment": "No hepatotoxicity documented. If hepatic coagulopathy is present, additive bleeding risk from antiplatelet effect — use with caution.",
+        "renal_impairment": "No specific risk identified. Adenosine metabolism may be affected in severe renal impairment; monitor."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 7184897", "PMID: 22136849", "DOI: 10.1016/j.carbpol.2011.10.031"]
+    }
+  },
+  {
+    "scientific_name": "Coprinus comatus",
+    "common_name": "Paryk-blækhat / Shaggy Mane / Shaggy Ink Cap",
+    "type": "Fungi",
+    "article_count": 200,
+    "primary_categories": ["Antidiabetic", "Anti-tumour", "Immunomodulation"],
+    "narrative_summary": {
+      "historical_use": "Eaten as a culinary mushroom in Europe and North America, known as the shaggy ink cap. Not historically prominent in TCM but used in Chinese folk medicine under the name 'Ji Tui Mo'. Recognised for its edibility (must be consumed promptly after harvest as it auto-digests rapidly). Traditional use in Chinese folk medicine for improved digestion and energy.",
+      "modern_application": "Studied primarily for antidiabetic properties. Polysaccharides and small molecules from C. comatus have demonstrated significant hypoglycaemic effects in diabetic animal models, comparable to metformin in some studies. Immunomodulatory and anti-tumour properties documented in vitro and in vivo. Vanadium content (a known insulin-mimetic mineral) may contribute to antidiabetic effect. Coprinin and related compounds under early investigation.",
+      "side_effects": "Generally safe when consumed cooked. Coprine (found in related Coprinus species — notably C. atramentarius, NOT C. comatus) causes disulfiram-like reaction with alcohol; this compound is absent in C. comatus. Rare GI symptoms. Do not confuse species.",
+      "contraindications": "Species confusion risk (C. atramentarius contains coprine — disulfiram-like reaction with alcohol). C. comatus itself does not contain coprine. Antidiabetic drugs — potential additive hypoglycaemia. No other established contraindications."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body",
+      "primary_active_compounds": ["Coprinus comatus polysaccharides (CCP — beta-glucans)", "Vanadium (insulin-mimetic mineral trace element)", "Coprinin (lectin)", "Ergothioneine", "Phenolic compounds"],
+      "mechanism_of_action": "Polysaccharides stimulate insulin secretion from pancreatic beta-cells and improve insulin sensitivity via PPAR-γ activation. Vanadium mimics insulin receptor tyrosine kinase activation, enhancing glucose uptake. Immunomodulation via macrophage and NK cell activation through Dectin-1/TLR-2. Anti-tumour effects via apoptosis induction (caspase-3 pathway) and cell cycle arrest in vitro.",
+      "pharmacokinetics": {
+        "absorption": "Vanadium absorption: 0.5–2% of oral dose; accumulates in bone, liver, kidney. Polysaccharide fractions: limited systemic absorption, active at mucosal level. Human PK data for whole extract unavailable.",
+        "metabolism": "Vanadium: reduction from V(V) to V(IV) in gut; hepatic metabolism. Polysaccharides: gut microbial fermentation.",
+        "excretion": "Vanadium: primarily renal; polysaccharides: fecal."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Antidiabetic agents (insulin, metformin, sulphonylureas) — additive hypoglycaemic risk. Anticoagulants — theoretical platelet inhibition. Iron supplements — vanadium may interfere with iron absorption.",
+        "toxicity": "LD50 of whole extract >5 g/kg (oral, rodents). Vanadium toxicity: high doses (not achievable from dietary mushroom) cause GI irritation, renal accumulation; irrelevant at culinary quantities. No clinically significant organ toxicity documented."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient data on concentrated extracts. Dietary consumption likely safe. Vanadium at pharmacological doses is not recommended in pregnancy.",
+        "lactation": "No data on breast milk excretion. Dietary consumption likely safe; concentrated extracts — insufficient data.",
+        "hepatic_impairment": "No hepatotoxicity documented. Standard monitoring recommended.",
+        "renal_impairment": "Vanadium excreted renally; accumulation possible in renal impairment. Avoid high-dose concentrated preparations in renal failure."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 19651270", "PMID: 18342511", "DOI: 10.1016/j.foodchem.2009.05.021"]
+    }
+  },
+  {
+    "scientific_name": "Antrodia cinnamomea",
+    "common_name": "Antrodia cinnamomea / Niu Zhang Zhi (Taiwan)",
+    "type": "Fungi",
+    "article_count": 460,
+    "primary_categories": ["Hepatoprotection", "Anti-tumour", "Anti-inflammatory"],
+    "narrative_summary": {
+      "historical_use": "Endemic to Taiwan, where it grows exclusively on the inner cavity of Cinnamomum kanehirai (Taiwanese sassafras). Known locally as 'Zhang Zhi' or 'Niu Zhang Zhi'. Used in Taiwanese indigenous medicine and folk medicine for centuries as a treatment for liver disease, abdominal pain, diarrhoea, and as a hangover remedy. Historically one of the most expensive medicinal fungi in Taiwan.",
+      "modern_application": "Hepatoprotective and anti-tumour properties are the primary research focus. Clinical evidence supports use as a hepatoprotective agent in patients with chronic hepatitis and liver fibrosis (several Taiwanese RCTs). Anti-proliferative effects documented across multiple cancer cell lines. Antroquinonol (a unique ubiquinone derivative) has entered Phase II clinical trials in Taiwan for lung and pancreatic cancer. Strong anti-inflammatory and immunomodulatory activities.",
+      "side_effects": "Generally well tolerated. Mild GI symptoms. Rare hypersensitivity. Potential QT interval prolongation with high doses (preclinical).",
+      "contraindications": "Hepatotoxic drugs — monitor liver function. Anticoagulants — theoretical additive effect. Drugs affecting QT interval — use with caution (preclinical signal)."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body and mycelium",
+      "primary_active_compounds": ["Antroquinonol (4-hydroxy-2,3-dimethoxy-6-methyl-cyclohex-2-enone derivative)", "Triterpenoids (antcin A, B, C, K)", "Polysaccharides", "Maleic/succinic acid derivatives", "Ergosterol peroxide"],
+      "mechanism_of_action": "Antroquinonol inhibits Ras/Akt/mTOR signalling pathway, inducing tumour cell autophagy and apoptosis; also inhibits HIF-1α (anti-angiogenic). Triterpenoids (antcins) inhibit NF-κB and AP-1 transcription factors, reducing inflammatory cytokines. Hepatoprotection via Nrf2/HO-1 antioxidant pathway upregulation and inhibition of TGF-β1-mediated hepatic stellate cell activation (anti-fibrotic).",
+      "pharmacokinetics": {
+        "absorption": "Antroquinonol bioavailability ~20% in rodents. Triterpenoid absorption limited; improved by lipid-based formulation. Human PK data emerging from Phase I/II trials.",
+        "metabolism": "Hepatic CYP3A4-mediated metabolism of triterpenoids. Antroquinonol undergoes phase II conjugation.",
+        "excretion": "Biliary/fecal for triterpenoids; renal for water-soluble metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "CYP3A4 substrates — potential inhibition by triterpenoids. Anticoagulants — theoretical additive anticoagulant effect. Hepatotoxic drugs — monitor; paradoxically, may be hepatoprotective in certain contexts.",
+        "toxicity": "LD50 >5 g/kg for whole extract (rodents). Antroquinonol Phase I trial showed acceptable safety profile. QT prolongation signal at suprapharmacological doses in preclinical studies — clinical significance unclear."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient clinical data. Potent bioactivity warrants avoidance during pregnancy.",
+        "lactation": "No data on breast milk excretion. Avoid during breastfeeding.",
+        "hepatic_impairment": "Paradox: hepatoprotective in documented trials, but CYP metabolism may be impaired; monitor carefully and start at low doses.",
+        "renal_impairment": "No specific data. Standard monitoring recommended."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 23524539", "PMID: 25834950", "DOI: 10.1371/journal.pone.0079751"]
+    }
+  },
+  {
+    "scientific_name": "Fomes fomentarius",
+    "common_name": "Tøndersvamp / Hoof Fungus / Tinder Conk",
+    "type": "Fungi",
+    "article_count": 180,
+    "primary_categories": ["Anti-inflammatory", "Antioxidant", "Antimicrobial"],
+    "narrative_summary": {
+      "historical_use": "One of the oldest known medicinal fungi, used by humans for at least 5,300 years — a piece was found in the toolkit of Ötzi the Iceman (Alpine mummy, c. 3,300 BCE), likely used as a fire-starting material and possibly for medicinal purposes. Used in European folk medicine for wound healing, as a haemostatic agent, and to treat digestive disorders. The amadou (processed inner tissue) was used historically as tinder, clothing, and wound dressings.",
+      "modern_application": "Contemporary research has confirmed antioxidant, anti-inflammatory, antimicrobial, and cytotoxic properties. Fomentariol and related triterpenoids show anti-tumour activity in vitro. Polysaccharides (fomentosan) demonstrate immunomodulatory effects. Beta-glucans contribute to immunostimulatory activity. Primarily studied in vitro and in animal models; human clinical data are absent. Growing interest as a scaffold for biomaterials and wound-care applications.",
+      "side_effects": "Insufficient human clinical data to characterise adverse effects fully. No significant toxicity reported in preclinical studies. Theoretical bleeding risk with concentrated extracts.",
+      "contraindications": "No well-established clinical contraindications due to lack of human data. Anticoagulants — theoretical additive anticoagulant activity. Avoid in pregnancy due to lack of safety data."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body (conk), particularly the inner trama tissue (amadou)",
+      "primary_active_compounds": ["Fomentariol (triterpenoid)", "Fomentosan (beta-glucan polysaccharide)", "Hispidin (styrylpyrone)", "Lanostane triterpenoids", "Phenolic compounds (protocatechuic acid, caffeic acid)"],
+      "mechanism_of_action": "Hispidin and fomentariol act as potent antioxidants (radical scavenging via phenolic hydroxyl groups). Fomentariol inhibits NF-κB pathway, reducing TNF-α and IL-6 expression. Beta-glucans activate macrophages via Dectin-1. Anti-tumour triterpenoids induce apoptosis via mitochondrial pathway. Antimicrobial activity attributed to phenolic compounds disrupting bacterial cell membrane integrity.",
+      "pharmacokinetics": {
+        "absorption": "No human PK data available. Phenolic compounds expected to have moderate oral absorption; triterpenoids limited due to poor water solubility.",
+        "metabolism": "Assumed hepatic phase I/II metabolism of phenolic and triterpenoid compounds based on analogous structures.",
+        "excretion": "Assumed primarily biliary/fecal for triterpenoids; renal for phenolic metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No clinically documented interactions. Theoretical interaction with anticoagulants based on in vitro antiplatelet activity.",
+        "toxicity": "LD50 not established in humans. No significant organ toxicity in preclinical studies at normal doses. Amadou (physical material) used as wound dressing is non-toxic."
+      },
+      "special_precautions": {
+        "pregnancy": "No human safety data. Avoid during pregnancy.",
+        "lactation": "No human safety data. Avoid during breastfeeding.",
+        "hepatic_impairment": "No hepatotoxicity documented. No data in hepatic impairment.",
+        "renal_impairment": "No data available. Standard caution applies."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["DOI: 10.1016/j.fct.2009.07.017", "PMID: 24485032", "DOI: 10.1155/2014/904834"]
+    }
+  },
+  {
+    "scientific_name": "Ophiocordyceps sinensis",
+    "common_name": "Ophiocordyceps sinensis / Wild Tibetan Caterpillar Fungus",
+    "type": "Fungi",
+    "article_count": 980,
+    "primary_categories": ["Adaptogen", "Renoprotection", "Immunomodulation"],
+    "narrative_summary": {
+      "historical_use": "The taxonomically correct name for the wild-harvested Tibetan caterpillar fungus, previously classified as Cordyceps sinensis. Formed from parasitism of Hepialus moth larvae at altitudes >3,500 m on the Tibetan Plateau. Documented in Tibetan medical texts since the 15th century as a potent tonic for fatigue, sexual vitality, respiratory capacity, and kidney function. Among the most expensive natural substances per gram globally.",
+      "modern_application": "Clinically validated in Chinese RCTs for chronic kidney disease (reduced proteinuria, creatinine stabilisation). Immune modulation in transplant patients. Anti-fatigue and VO2-max improvement documented in elderly subjects. Because wild harvesting is unsustainable and prohibitively expensive, nearly all modern research now uses the Cs-4 cultured mycelium (still often labelled 'Cordyceps sinensis'). Aqueous and ethanolic extracts studied for anti-tumour properties.",
+      "side_effects": "Mild GI upset. Rare hypersensitivity. Potential hypoglycaemia with antidiabetic co-administration. Bleeding risk with anticoagulants.",
+      "contraindications": "Anticoagulants. Immunosuppressants (cyclosporine). Autoimmune conditions — caution. Pre-surgery."
+    },
+    "clinical_data": {
+      "used_part": "Whole fruiting body-larvae complex (wild); Cs-4 mycelium (cultured, commercially used)",
+      "primary_active_compounds": ["Cordycepin (3'-deoxyadenosine)", "Adenosine", "D-Mannitol", "Polysaccharides (CSPS)", "Cyclosporin-related peptides (cyclosporins J, K)", "Beta-glucans"],
+      "mechanism_of_action": "Identical to Cordyceps sinensis (Cs-4): cordycepin inhibits mRNA polyadenylation; adenosine receptor modulation of cardiovascular and immune tone; AMPK-mediated mitochondrial biogenesis; NF-κB and COX-2 anti-inflammatory inhibition. Additionally, wild O. sinensis contains unique peptides (cyclosporin analogues) with distinct immunomodulatory activity not found in cultured mycelium.",
+      "pharmacokinetics": {
+        "absorption": "Same profile as cultured Cordyceps — cordycepin rapidly deaminated. Unique wild-type peptides: oral bioavailability likely very low due to GI degradation.",
+        "metabolism": "Hepatic metabolism; adenosine deaminase-mediated for cordycepin.",
+        "excretion": "Renal excretion of purine metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Cyclosporine (the immunosuppressant) — potential pharmacodynamic interaction as the fungus contains cyclosporin analogues. Anticoagulants, antidiabetics — same as Cordyceps sinensis.",
+        "toxicity": "Wild form: same general profile as Cs-4. Heavy metal contamination has been documented in some wild specimens from polluted regions — an important quality concern. Cs-4 cultured mycelium has established safety data; wild form less well studied in controlled settings."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient data. Avoid during pregnancy.",
+        "lactation": "Insufficient data. Avoid during breastfeeding.",
+        "hepatic_impairment": "No hepatotoxicity documented. Standard monitoring recommended.",
+        "renal_impairment": "Studied as renoprotective agent in CKD. Monitor renal function during use. Caution with severe impairment."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 9540194", "DOI: 10.1186/s13063-014-0515-7", "PMID: 23116208"]
+    }
+  },
+  {
+    "scientific_name": "Xylaria nigripes",
+    "common_name": "Xylaria nigripes / Wu Ling Shen (TCM)",
+    "type": "Fungi",
+    "article_count": 95,
+    "primary_categories": ["Sedation/Anxiolysis", "Neuroprotection", "Antioxidant"],
+    "narrative_summary": {
+      "historical_use": "Known in Traditional Chinese Medicine as 'Wu Ling Shen' (the fungus found inside the chambers of ancient termite mounds). Used historically for insomnia, anxiety, and to calm the mind. Referenced in TCM pharmacopeias as a sedative tonic. Grows inside the nests of Odontotermes formosanus (Formosan subterranean termite) in a unique symbiotic relationship.",
+      "modern_application": "Studied primarily for sedative and anxiolytic properties. Animal studies demonstrate significant reduction in sleep latency and increase in sleep duration, comparable to diazepam in some models. GABA-A receptor modulation is the proposed primary mechanism. Neuroprotective effects against oxidative stress documented in vitro. Commercial products marketed in Taiwan and China for insomnia and anxiety. Human clinical data remain very limited.",
+      "side_effects": "Insufficient human clinical data. Potential sedation and CNS depression. No significant toxicity reported in preclinical studies.",
+      "contraindications": "CNS depressants (benzodiazepines, alcohol, barbiturates, opioids) — potential additive sedation. Caution when operating machinery. Insufficient data for comprehensive contraindication profile."
+    },
+    "clinical_data": {
+      "used_part": "Sclerotium found inside termite mounds",
+      "primary_active_compounds": ["N/A — specific active compounds not yet fully characterised", "GABA-modulating constituents (chemical identity not established)", "Polysaccharides", "Phenolic compounds"],
+      "mechanism_of_action": "Animal pharmacology indicates positive allosteric modulation of GABA-A receptor (benzodiazepine-like effect), prolonging chloride channel opening and reducing neuronal excitability. Neuroprotective effects attributed to antioxidant polyphenols reducing ROS in neuronal cells. Full mechanistic characterisation pending.",
+      "pharmacokinetics": {
+        "absorption": "No human PK data available. Bioavailability of active constituents not characterised.",
+        "metabolism": "Not established.",
+        "excretion": "Not established."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "CNS depressants — additive sedative effect (theoretical, based on GABA-A mechanism). Alcohol — potential potentiation of CNS depression. No drug interaction studies in humans.",
+        "toxicity": "LD50 not established for human use. Preclinical animal studies show no significant organ toxicity at doses up to 5 g/kg. Human safety data absent."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient data. Avoid during pregnancy.",
+        "lactation": "Insufficient data. Avoid during breastfeeding.",
+        "hepatic_impairment": "No data available.",
+        "renal_impairment": "No data available."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["DOI: 10.1016/j.jep.2012.05.046", "PMID: 22771396", "N/A"]
+    }
+  },
+  {
+    "scientific_name": "Ustilago maydis",
+    "common_name": "Huitlacoche / Corn Smut / Majs-brandsvamp",
+    "type": "Fungi",
+    "article_count": 210,
+    "primary_categories": ["Nutritional", "Anti-inflammatory", "Antioxidant"],
+    "narrative_summary": {
+      "historical_use": "A fungal pathogen of maize (Zea mays), consumed as a food delicacy in Mesoamerica for thousands of years, known as 'huitlacoche' or 'cuitlacoche' in Mexico. Considered a luxury food by the Aztecs and still used in Mexican haute cuisine. Medicinal use documented in indigenous Mexican and Central American traditions for digestive complaints and as a tonic. The infected corn galls are consumed as a vegetable.",
+      "modern_application": "Research focus is primarily on its exceptional nutritional profile (high in lysine, an amino acid limiting in maize; high in unsaturated fatty acids and fibre) and its bioactive compounds. Ustilagic acid (a sophorolipid-like glycolipid) shows anti-inflammatory and antimicrobial properties in vitro. Indole compounds (including indole-3-acetic acid) may have anti-tumour activity. Under increasing study as a functional food and fermentation substrate. Human clinical data for medicinal applications are absent.",
+      "side_effects": "Generally considered safe as a food. Allergic reactions possible in persons with corn or mould allergies. No significant toxicity documented.",
+      "contraindications": "Corn or mould allergy. No established pharmacological contraindications."
+    },
+    "clinical_data": {
+      "used_part": "Infected maize galls (fruiting/smut tissue)",
+      "primary_active_compounds": ["Ustilagic acid (glycolipid)", "Indole-3-acetic acid", "Phenolic compounds (gallic acid, protocatechuic acid)", "Lysine-rich proteins", "Unsaturated fatty acids (linoleic acid)", "Mannitol"],
+      "mechanism_of_action": "Ustilagic acid disrupts bacterial and fungal cell membranes (detergent-like mechanism) and inhibits NF-κB-mediated pro-inflammatory signalling. Indole-3-acetic acid is being investigated for anti-tumour properties via reactive oxygen species generation in cancer cells. Phenolic compounds scavenge free radicals via electron donation. Mechanistic characterisation in human systems is incomplete.",
+      "pharmacokinetics": {
+        "absorption": "No human PK data for isolated bioactives. Food matrix absorption of phenolics is moderate. Indole compounds absorbed via passive diffusion.",
+        "metabolism": "Hepatic conjugation of phenolic compounds; indole metabolism via CYP1A2.",
+        "excretion": "Renal excretion of conjugated phenolics."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No documented drug interactions. CYP1A2 substrates — theoretical interaction via indole metabolism.",
+        "toxicity": "Consumed safely as food for millennia at culinary quantities. No LD50 data for concentrated extracts. No organ toxicity identified in available studies."
+      },
+      "special_precautions": {
+        "pregnancy": "Dietary consumption as food considered safe. Concentrated medicinal preparations — insufficient data.",
+        "lactation": "Dietary consumption likely safe. No data for concentrated preparations.",
+        "hepatic_impairment": "No hepatotoxicity documented. Standard precautions for concentrated preparations.",
+        "renal_impairment": "No specific risk identified."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["DOI: 10.1021/jf401524r", "PMID: 24444208", "DOI: 10.1016/j.foodchem.2014.10.113"]
+    }
+  },
+  {
+    "scientific_name": "Psilocybe cubensis",
+    "common_name": "Klinisk psykiatrisk forskning / Magic Mushroom (psilocybin source)",
+    "type": "Fungi",
+    "article_count": 1100,
+    "primary_categories": ["Psychiatric medicine", "Neuroplasticity", "Addiction medicine"],
+    "narrative_summary": {
+      "historical_use": "Used in Mesoamerican indigenous ceremonial and religious contexts for thousands of years, particularly by the Mazatec people of Oaxaca, Mexico (known as 'teonanácatl' — 'flesh of the gods'). Psilocybin was first isolated and synthesised by Albert Hofmann at Sandoz in 1958. Studied in the 1960s before being classified as Schedule I in the US in 1970, halting research for decades.",
+      "modern_application": "Psilocybin (the prodrug) and psilocin (the active metabolite) are the subject of renewed rigorous clinical research. Phase II/III trials from Johns Hopkins, Imperial College London, and COMPASS Pathways show significant efficacy in treatment-resistant depression (FDA Breakthrough Therapy Designation), major depressive disorder, and end-of-life existential distress in cancer patients. Single-dose or two-dose protocols produce durable antidepressant effects for 6–12 months in responders. Promising data in alcohol and nicotine use disorders.",
+      "side_effects": "Acute (dose-dependent): perceptual distortions, synesthesia, ego dissolution, anxiety, confusion, tachycardia, hypertension, nausea. Challenging psychological experiences ('bad trips') — risk mitigated by psychological support/set-and-setting. Headache post-session. Hallucinogen persisting perception disorder (HPPD) — rare. No physical withdrawal syndrome. Non-addictive.",
+      "contraindications": "Personal or family history of schizophrenia, bipolar I disorder, or other psychotic disorders — absolute contraindication (risk of precipitating psychosis). Concurrent lithium — risk of seizures and hyperthermia (documented case reports). MAOIs — risk of serotonin syndrome. Uncontrolled cardiovascular disease — relative contraindication (transient hypertension/tachycardia)."
+    },
+    "clinical_data": {
+      "used_part": "Fruiting body (as pharmacological source); isolated psilocybin used in clinical trials",
+      "primary_active_compounds": ["Psilocybin (4-phosphoryloxy-N,N-dimethyltryptamine — prodrug)", "Psilocin (4-hydroxy-N,N-dimethyltryptamine — active metabolite)", "Baeocystin", "Norbaeocystin"],
+      "mechanism_of_action": "Psilocybin is rapidly dephosphorylated to psilocin by alkaline phosphatase. Psilocin is a full agonist at serotonin 5-HT2A receptors (primary psychedelic mechanism) in cortical pyramidal neurons, disrupting default mode network (DMN) activity and promoting global brain connectivity. Also agonist at 5-HT2C, 5-HT1A receptors. Increases BDNF, promotes neuroplasticity and synaptogenesis. The subjective mystical-type experience correlates strongly with therapeutic outcomes.",
+      "pharmacokinetics": {
+        "absorption": "Psilocybin: oral bioavailability ~50%. Tmax ~1.5h. Rapidly converted to psilocin.",
+        "metabolism": "Psilocin undergoes glucuronidation (primary) and oxidative metabolism via monoamine oxidase (MAO) and CYP2D6/CYP3A4. Half-life of psilocin ~2–3 hours.",
+        "excretion": "Primarily renal as psilocin-glucuronide (>50% of dose within 24h). Minimal unchanged psilocin in urine."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Lithium carbonate — risk of seizures and hyperthermia (case reports of life-threatening interactions). MAOIs — significantly prolong and intensify effects; risk of serotonin syndrome. SSRIs — blunt acute psychedelic effects (5-HT2A downregulation); not thought to be dangerous but may reduce efficacy. Tramadol — serotonin syndrome risk.",
+        "toxicity": "Physiological toxicity very low: LD50 estimated at 280 mg/kg (oral, rats) — far above any human dose. No organ toxicity documented. Psychological risk (acute anxiety, rare HPPD) is the dominant safety concern. Psilocybin is physiologically non-addictive and produces rapid tolerance."
+      },
+      "special_precautions": {
+        "pregnancy": "No human data. Avoid in pregnancy. Animal studies show no teratogenicity at sub-psychedelic doses, but clinical use in pregnant individuals is contraindicated.",
+        "lactation": "No human data on breast milk excretion. Contraindicated during breastfeeding.",
+        "hepatic_impairment": "Hepatic glucuronidation is the primary metabolic pathway; significant hepatic impairment may increase psilocin exposure. No clinical dose-adjustment data available.",
+        "renal_impairment": "Primary excretion is renal; renal impairment may prolong psilocin exposure. No clinical dose-adjustment data. Monitor carefully."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 34482226", "PMID: 33228315", "DOI: 10.1038/s41591-021-01336-3"]
+    }
+  },
+  {
+    "scientific_name": "Amanita muscaria",
+    "common_name": "Rød Fluesvamp / Fly Agaric",
+    "type": "Fungi",
+    "article_count": 580,
+    "primary_categories": ["Pharmacological isolation", "GABA-A modulation", "Neuropsychiatric research"],
+    "narrative_summary": {
+      "historical_use": "One of the most culturally iconic mushrooms globally. Used in shamanic traditions across Siberia and northern Europe for millennia as an entheogen. Historical use by the Koryak, Chukchi, and other Siberian shamans; speculated to be the 'Soma' of the Rigveda (Gordon Wasson's hypothesis, contested). The active compounds ibotenic acid and muscimol are entirely distinct from the psilocybin found in Psilocybe species. Culturally associated with Christmas/Yule traditions in northern Europe.",
+      "modern_application": "Interest is strictly pharmacological and research-oriented. Muscimol is a potent, selective GABA-A receptor agonist studied as a research tool. Not approved as a therapeutic. Ibotenic acid is a potent glutamate (NMDA/AMPA) receptor agonist used experimentally to create animal models of neurodegeneration. Muscimol has been investigated (preclinically) for epilepsy, anxiety, and pain. Microdosing with Amanita muscaria extracts is a growing, unregulated consumer trend — without clinical safety data.",
+      "side_effects": "TOXIC if consumed without preparation: nausea, vomiting, hypersalivation, sweating, miosis (muscarine — minor component). CNS effects: sedation, dissociation, confusion, delirium, ataxia (muscimol/ibotenic acid). Rarely fatal in adults; potentially fatal in children and small adults. Symptoms: cholinergic + anticholinergic + CNS-depressant syndrome. Ibotenic acid is neurotoxic.",
+      "contraindications": "Raw or unprepared Amanita muscaria must not be consumed therapeutically. Ibotenic acid is neurotoxic. CNS depressants — additive effect. Not suitable for self-administration. All use must be under controlled research conditions."
+    },
+    "clinical_data": {
+      "used_part": "Cap (pileus) — pharmacological isolation of muscimol and ibotenic acid",
+      "primary_active_compounds": ["Muscimol (3-hydroxy-5-aminomethyl-isoxazole — GABA-A agonist)", "Ibotenic acid (alpha-amino-3-hydroxy-5-isoxazole-acetic acid — excitatory neurotoxin, decarboxylates to muscimol)", "Muscarine (minor component — cholinergic agonist)", "Muscazone", "Stizolobic acid"],
+      "mechanism_of_action": "Muscimol is a highly potent, selective GABA-A receptor agonist (structural analogue of GABA), producing sedation, anxiolysis, anticonvulsant, and dissociative effects via Cl- channel opening. Ibotenic acid activates NMDA and AMPA glutamate receptors (excitotoxic); is used experimentally to create hippocampal lesion models. Muscarine activates muscarinic acetylcholine receptors (M1–M5), producing parasympathomimetic effects. Drying/heating converts ibotenic acid to muscimol (decarboxylation), altering the pharmacological profile.",
+      "pharmacokinetics": {
+        "absorption": "Muscimol and ibotenic acid well absorbed orally. Ibotenic acid crosses the blood-brain barrier actively. Muscimol crosses BBB via facilitated transport.",
+        "metabolism": "Ibotenic acid decarboxylated to muscimol (in vivo and during food preparation). Muscimol excreted largely unchanged (urinary excretion). Minimal hepatic metabolism.",
+        "excretion": "Muscimol: primarily renal excretion unchanged (~20% of ingested dose recovered in urine — sufficient for psychoactive effects in individuals who consume recycled urine, a documented traditional practice in Siberian shamanism)."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "CNS depressants (benzodiazepines, alcohol, barbiturates, opioids) — markedly additive CNS depression. Anticholinergic drugs — interaction with muscarine-mediated cholinergic effects. GABAergic drugs — additive GABA-A modulation.",
+        "toxicity": "Ibotenic acid: neurotoxic; hippocampal lesions demonstrated at high experimental doses. LD50 of ibotenic acid in rodents: ~38 mg/kg (IV), higher for oral. LD50 of muscimol: ~45 mg/kg (IV, rodents). Human fatalities from Amanita muscaria are rare (primarily in children or after massive ingestion) but documented. NOT safe for uncontrolled use."
+      },
+      "special_precautions": {
+        "pregnancy": "Contraindicated. Ibotenic acid is neurotoxic. Potential teratogenicity not fully characterised but neurotoxic mechanism is deeply concerning.",
+        "lactation": "Contraindicated. Muscimol excreted in urine; breast milk excretion not characterised but highly plausible given CNS penetration.",
+        "hepatic_impairment": "Minimal hepatic metabolism — less relevant. CNS/renal effects predominate. Avoid entirely.",
+        "renal_impairment": "Muscimol excreted renally; reduced clearance in renal impairment prolongs CNS toxicity. Avoid entirely."
+      }
+    },
+    "sources": {
+      "top_studies_doi_or_pmid": ["PMID: 7306271", "PMID: 1372565", "DOI: 10.1007/s13311-021-01135-1"]
+    }
+  }
+]
