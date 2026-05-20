@@ -1733,67 +1733,80 @@
     "type": "Plant",
     "article_count": 1407,
     "primary_categories": [
-      "Sedation & sleep",
+      "Sedative",
       "Anxiolytic",
-      "Antispasmodic"
+      "Sleep aid",
+      "GABAergic"
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/42152921/",
-        "https://pubmed.ncbi.nlm.nih.gov/42058246/",
-        "https://pubmed.ncbi.nlm.nih.gov/41995686/"
+        "https://pubmed.ncbi.nlm.nih.gov/39013429/",
+        "https://pubmed.ncbi.nlm.nih.gov/41995686/",
+        "https://pubmed.ncbi.nlm.nih.gov/41901246/",
+        "https://pubmed.ncbi.nlm.nih.gov/38743126/",
+        "https://pubmed.ncbi.nlm.nih.gov/41613780/"
+      ],
+      "cited_references": [
+        "[1] - Yang S, Zhang H, Chen L et al., \"Valeriana species and insomnia: multi-organ mechanisms and translational perspectives\", Pharmaceutical Biology, 2026, PMID: 41995686",
+        "[2] - Caus MN, Lupoae M, Chitescu CL, \"Efficacy and Safety of Herbal Supplements with Anxiolytic, Antidepressant, and Sedative Action\", Pharmaceuticals, 2026, PMID: 41901246",
+        "[3] - Nascimento ML, do Nascimento SB, Lima ESP et al., \"Evaluation of Extracts Containing Valeriana officinalis and Piper methysticum on Cytochrome P450 3A and P-Glycoprotein\", Planta Medica, 2024, PMID: 39013429",
+        "[4] - Velasquez ACA, Tsuji M, Dos Santos Cordeiro L et al., \"Effects of Passiflora incarnata and Valeriana officinalis in the control of anxiety due to tooth extraction: a randomized controlled clinical trial\", Oral and Maxillofacial Surgery, 2024, PMID: 38743126",
+        "[5] - Ma D, Yang H, Zhao M et al., \"Multi-target regulatory mechanisms of natural products for insomnia\", Frontiers in Pharmacology, 2026, PMID: 41613780",
+        "[6] - Bertollo AG, Spohr L, Bearzi AE et al., \"Medicinal Plants for Major Depressive Disorder\", Brain Sciences, 2026, PMID: 41750223",
+        "[7] - Oliveira MVB, Garguerra JA, Lamas CB et al., \"Unraveling the Effects of Melissa officinalis on Cognition and Sleep Quality\", International Journal of Molecular Sciences, 2025, PMID: 41226605",
+        "[8] - Cota BB, Alves JC, de Caux AA et al., \"Use of herbal medicinal products in primary health care in Brazil\", Einstein, 2024, PMID: 39536211"
       ]
     },
     "narrative_summary": {
-      "historical_use": "Used medicinally since at least ancient Greece and Rome; Hippocrates described its properties and Galen prescribed it for insomnia. The name 'valerian' may derive from the Latin 'valere' (to be strong/healthy) or from the Roman province of Valeria. Widely used in Europe throughout the medieval period as a sedative and antispasmodic. During World War I and II, valerian was used to treat shell shock and nerve tension in civilian populations.",
-      "modern_application": "European Medicines Agency (EMA) has approved valerian as a traditional herbal medicine for temporary relief of mild symptoms of stress and sleep difficulties. Meta-analyses of RCTs show modest but consistent improvement in subjective sleep quality, sleep latency, and sleep architecture. Most robust evidence is for aqueous root extract at 400–900 mg taken 30–60 minutes before sleep. Evidence for anxiety is less consistent but positive in some RCTs. Often combined with hops (Humulus lupulus) for synergistic sedation.",
-      "side_effects": "Generally well tolerated. Paradoxical stimulation (agitation, restlessness) in some individuals — particularly children and the elderly. Morning drowsiness ('hangover effect') at high doses. Headache and GI upset. Rare: hepatotoxicity with prolonged use of valepotriate-containing preparations (valepotriates are potentially alkylating — largely destroyed in aqueous extracts). Withdrawal effects reported after abrupt discontinuation following long-term use (insomnia rebound, anxiety).",
-      "contraindications": "Avoid concomitant use with CNS depressants (benzodiazepines, barbiturates, opioids, alcohol) — additive sedation. Avoid in hepatic disease (hepatotoxicity risk with valepotriate-rich preparations). Do not take before driving or operating machinery. Avoid in children under 3 years. Caution with anaesthesia — taper and discontinue ≥2 weeks before surgery."
+      "historical_use": "Valeriana officinalis has been used as a sedative and anxiolytic since antiquity — Hippocrates described its properties and Galen prescribed it for insomnia. The name derives from the Latin 'valere' (to be well). Widely used throughout medieval Europe for nervous disorders, it was listed in the US Pharmacopoeia until 1942 and remains among the most commonly used herbal medicinal products in primary care globally [8].",
+      "modern_application": "Valeriana officinalis demonstrates evidence-based efficacy for insomnia and anxiety through multi-organ, multi-target mechanisms [1]. A 2026 comprehensive review confirms its role as a GABAergic, serotonergic, and adenosinergic modulator with documented clinical benefits for insomnia [5]. A randomised controlled trial demonstrated significant reduction in anxiety scores compared to placebo in patients undergoing tooth extraction [4]. Valerian is the most commonly cited herbal product in Brazilian primary care settings, though clinical users face risk of herb-drug interactions [8].",
+      "side_effects": "Generally well tolerated. Paradoxical stimulant effects reported in some individuals, particularly children. Morning grogginess ('hangover effect') at higher doses. Rare: hepatotoxicity in case reports. Potential for additive CNS depression with concomitant sedative agents [2]. Abrupt discontinuation after prolonged use may cause withdrawal symptoms analogous to benzodiazepine discontinuation.",
+      "contraindications": "Contraindicated with benzodiazepines, barbiturates, and opioids due to additive CNS depression [2]. Avoid with CYP3A4-metabolised drugs with narrow therapeutic indices — direct CYP3A inhibition and P-glycoprotein modulation documented [3]. Avoid with alcohol. Caution in patients with hepatic impairment. Do not use in pregnancy or lactation."
     },
     "clinical_data": {
-      "used_part": "Root and rhizome (dried; aqueous or hydroethanolic extract)",
+      "used_part": "Root and rhizome (dried or as hydroethanolic extract)",
       "primary_active_compounds": [
-        "Valerenic acid (sesquiterpene carboxylic acid; primary marker)",
-        "Acetoxyvalerenol and hydroxyvalerenic acid (sesquiterpene metabolites)",
-        "Valepotriates: valtrate, didrovaltrate, isovaltrate (iridoid monoterpenes — unstable in aqueous extract)",
-        "Isovaleric acid (volatile; characteristic odour)",
-        "Linarin and hesperidin (flavonoids)",
-        "GABA (measurable amounts in root extract)"
+        "Valerenic acid and derivatives (sesquiterpenes)",
+        "Isovaleric acid",
+        "Valepotriates (iridoid esters: valtrate, isovaltrate)",
+        "Lignans (hydroxypinoresinol)",
+        "Flavonoids (linarin, hesperidin)",
+        "GABA and glutamine (free amino acids)"
       ],
-      "mechanism_of_action": "Valerenic acid is a positive allosteric modulator of the <strong>GABA-A receptor</strong>, binding selectively to the β3 subunit and potentiating chloride influx — distinct from the benzodiazepine binding site, which explains the lack of dependence and tolerance. Valerenic acid also inhibits <strong>GABA transaminase (GABA-T)</strong>, the enzyme responsible for GABA degradation, raising synaptic GABA concentrations. Partial agonist activity at the <strong>5-HT5a receptor</strong> may contribute to anxiolytic and circadian rhythm-modulating effects. Linarin and hesperidin inhibit <strong>adenosine deaminase</strong>, increasing extracellular adenosine (sleep-promoting). Isovaleric acid modulates <strong>GABA-A</strong> receptor directly.",
+      "mechanism_of_action": "Valerenic acid and its derivatives are direct partial agonists at the <strong>GABA-A receptor</strong> (beta-subunit), potentiating inhibitory neurotransmission and producing anxiolytic and sedative effects without full benzodiazepine-receptor occupancy [1]. The extract modulates <strong>serotonin (5-HT5a)</strong> receptor binding and inhibits synaptosomal serotonin reuptake, contributing to mood-stabilising effects [6]. Valepotriates act as adenosine receptor ligands and modulate <strong>adenosine A1</strong> receptors, promoting sleep through adenosinergic pathways [5]. Multi-organ actions include gastrointestinal spasmolysis via smooth muscle relaxation and autonomic nervous system dampening [1].",
       "pharmacokinetics": {
-        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Valerenic acid is absorbed rapidly; Cmax at approximately 1–2 hours after oral administration. Aqueous extract bioavailability is adequate for therapeutic effect. Valepotriates are poorly absorbed and largely hydrolysed in the gut to baldrinal (partially responsible for activity).",
-        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Valerenic acid crosses the blood-brain barrier. Distributes to CNS, liver, and kidney. Plasma protein binding estimated at ~60–80%. Lipophilic valepotriate metabolites accumulate in adipose tissue.",
-        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Hepatic oxidative metabolism of valerenic acid (CYP2C9 and CYP3A4). Valepotriates hydrolysed in gut to homobaldrinal and baldrinal (partially bioactive). Isovaleric acid undergoes β-oxidation. Linarin undergoes hepatic glucuronidation.",
-        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Urinary excretion of valerenic acid metabolites. Half-life of valerenic acid ~1.1 hours; short half-life necessitates pre-sleep dosing. Baldrinal metabolites excreted in both bile and urine."
+        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Valerenic acid is the primary monitored pharmacokinetic marker. Valepotriates are highly unstable and largely degrade in the GI tract prior to systemic absorption; their in vivo activity may be mediated by degradation products (baldrinals). Oral bioavailability of valerenic acid has not been formally characterised in a published human PK study.",
+        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Valerenic acid is lipophilic and expected to cross the blood-brain barrier, consistent with the observed central sedative and anxiolytic effects [1]. Protein binding and volume of distribution in humans are not established.",
+        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Valeriana officinalis extract inhibits CYP3A4 activity and modulates P-glycoprotein efflux transporter function, as demonstrated in direct experimental studies of intestinal metabolism of midazolam [3]. This interaction is clinically significant for drugs with high first-pass CYP3A4 metabolism.",
+        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Elimination routes and half-life of valerenic acid and active metabolites in humans are not established in published clinical pharmacokinetic studies."
       },
       "safety_and_interactions": {
-        "drug_interactions": "CNS depressants (benzodiazepines, barbiturates, opioids, zopiclone, alcohol) — additive sedation; respiratory depression risk at high combined doses. CYP3A4 substrates — possible mild inhibition increasing drug plasma levels. Antiepileptics (valproate) — theoretical GABA-T interaction; monitor. Loperamide and antispasmodics — additive GI motility reduction.",
-        "toxicity": "LD50 >3,000 mg/kg in mice. Valepotriates show in vitro alkylating and cytotoxic activity but are largely destroyed in standard aqueous and hydroethanolic extracts. No serious adverse events in RCTs at therapeutic doses. Long-term use (>4–6 weeks) not well studied; taper gradually to avoid rebound insomnia."
+        "drug_interactions": "CYP3A4 substrates and P-glycoprotein substrates: Valeriana officinalis extracts directly inhibit intestinal CYP3A4 metabolism and modulate P-glycoprotein, demonstrated by inhibition of midazolam intestinal metabolism in vitro [3]; drugs with narrow therapeutic windows metabolised by CYP3A4 (e.g. cyclosporine, tacrolimus, statins, benzodiazepines) require monitoring. CNS depressants (benzodiazepines, barbiturates, opioids, alcohol): Additive sedation through shared GABAergic mechanism is documented; combination increases risk of excessive CNS depression [2]. Antidepressants: Complex pharmacokinetic and pharmacodynamic interactions possible through serotonergic and CYP450 pathways [6]. High potential for herb-drug interactions documented in primary care surveillance data [8].",
+        "toxicity": "Valeriana officinalis has a favourable safety profile at standard doses. Rare case reports of hepatotoxicity exist, likely attributable to valepotriate alkylating activity at high doses. Paradoxical excitation reported particularly in paediatric populations [6]. No established LD50 in humans. Abrupt discontinuation after prolonged use may produce a withdrawal syndrome. Long-term use beyond 4-6 weeks has not been systematically evaluated in controlled trials."
       },
       "special_precautions": {
-        "pregnancy": "Insufficient human safety data. Valepotriates show cytotoxic activity in vitro and potential mutagenicity. Avoid during pregnancy.",
-        "lactation": "Excretion in breast milk unknown. Avoid due to insufficient data.",
-        "hepatic_impairment": "Valepotriate-rich preparations associated with hepatotoxicity in animal studies. Use only aqueous extracts (valepotriate-poor) with caution in hepatic disease. Monitor LFTs.",
-        "renal_impairment": "No specific contraindication. Urinary excretion of metabolites; monitoring recommended in severe renal impairment."
+        "pregnancy": "Valepotriates are cytotoxic and potentially mutagenic in vitro. Avoid during pregnancy.",
+        "lactation": "Excretion in breast milk unknown. Avoid during lactation due to insufficient safety data.",
+        "hepatic_impairment": "Rare hepatotoxicity cases documented. CYP3A4 inhibition [3] will be amplified in hepatic impairment. Contraindicated in active hepatic disease.",
+        "renal_impairment": "No formal studies in renal impairment. Use with caution; renal excretion of conjugated metabolites expected."
       }
     },
     "consumer_view": {
-      "tagline": "Natural sleep aid that calms the nervous system without next-day grogginess",
-      "what_it_does": "Valerian is one of the most widely used herbal sleep aids in Europe and North America. It works by boosting GABA — the brain's main calming signal — similar to how sleep medications work, but without the risk of dependence or strong morning drowsiness. It is best for difficulty falling asleep and restless, anxious minds at bedtime.",
+      "tagline": "Natural sleep aid and nerve calmer",
+      "what_it_does": "Valerian works like a gentle, natural version of anti-anxiety medication — it binds to the same brain receptors as benzodiazepines but more weakly, helping to calm an overactive nervous system and ease you into sleep. Clinical trials show it reduces anxiety in stressful situations and improves sleep quality.",
       "typical_uses": [
-        "Difficulty falling asleep",
-        "Stress-related sleep disruption",
-        "Mild anxiety and nervous tension",
-        "Restless legs (in combination products)",
-        "Menopausal sleep disturbance"
+        "Insomnia and poor sleep quality",
+        "Anxiety and nervous tension",
+        "Restlessness and irritability",
+        "Menopausal sleep disturbance",
+        "Mild stress and burnout"
       ],
-      "suggested_dose": "400–900 mg of aqueous root extract 30–60 minutes before bed. Results may take 2–4 weeks of nightly use to fully establish. Often combined with hops or lemon balm for enhanced effect.",
-      "onset": "Some individuals notice effects from the first night; most see reliable improvement after 2–4 weeks of consistent use.",
+      "suggested_dose": "300-600 mg of standardised root extract 30-60 minutes before bed. For anxiety: 120-200 mg up to 3x daily. Allow 2-4 weeks for full sleep benefits.",
+      "onset": "Single-dose anxiolytic effect: 30-60 minutes. Sleep quality improvement: 2-4 weeks of regular use.",
       "safety_snapshot": [
-        "Do not drive or operate machinery after taking",
-        "Do not combine with prescription sleep aids, benzodiazepines, or alcohol",
-        "Taper gradually after long-term use — abrupt stop can cause rebound insomnia"
+        "Do not combine with sleeping pills, benzodiazepines, or alcohol",
+        "Can cause morning drowsiness — avoid driving if affected",
+        "Do not take during pregnancy"
       ]
     }
   },
@@ -1803,71 +1816,81 @@
     "type": "Plant",
     "article_count": 958,
     "primary_categories": [
-      "Anxiolytic",
       "Anti-inflammatory",
-      "GI support",
+      "Anxiolytic",
+      "Spasmolytic",
       "Wound healing"
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/16407641/",
-        "https://pubmed.ncbi.nlm.nih.gov/27766890/",
-        "https://pubmed.ncbi.nlm.nih.gov/42148629/",
-        "https://pubmed.ncbi.nlm.nih.gov/42141424/",
-        "https://pubmed.ncbi.nlm.nih.gov/42122886/"
+        "https://pubmed.ncbi.nlm.nih.gov/41091411/",
+        "https://pubmed.ncbi.nlm.nih.gov/39836709/",
+        "https://pubmed.ncbi.nlm.nih.gov/40440968/",
+        "https://pubmed.ncbi.nlm.nih.gov/41767834/",
+        "https://pubmed.ncbi.nlm.nih.gov/41538720/"
+      ],
+      "cited_references": [
+        "[1] - Ikeda M, Tsurudome Y, Enrin M et al., \"German Chamomile (Matricaria chamomilla) Induces Cytochrome P450 Expression Through Increased BMAL1 Protein Expression in Liver Nuclei\", Biochemical Genetics, 2025, PMID: 41091411",
+        "[2] - Bukowska B, Grzegorowska A, Szczerkowska-Majchrzak E et al., \"Hazardous Interactions Between Food, Herbs, and Drugs in the First Stage of Biotransformation: Case Reports of Adverse Drug Interactions in Humans\", International Journal of Molecular Sciences, 2025, PMID: 40507996",
+        "[3] - Mohsenzadeh-Ledari F, Agajani Delavar M, Moghadamnia AA et al., \"Efficacy and safety of Matricaria chamomilla intervention in managing menopausal symptoms: a triple-blind clinical trial\", Menopause, 2025, PMID: 39836709",
+        "[4] - Amiri M, Imani MH, Imani AH et al., \"Topical chamomile oil as a novel therapeutic intervention for diabetic neuropathy: A randomized double-blind controlled clinical trial\", Explore, 2025, PMID: 40440968",
+        "[5] - Nikkhah N, Karbasforooshan H, Shahid Sales S et al., \"Evaluation of the protective effect of chamomile oral solution on the incidence of neurotoxicity caused by paclitaxel in breast cancer patients\", Anti-Cancer Drugs, 2026, PMID: 41538720",
+        "[6] - Firoozi Z, Molani-Gol R, Ebrahimzadeh-Attari V, Malek-Mahdavi A, \"Evaluating Potential Effects of Chamomile (Matricaria chamomilla L.) in Polycystic Ovary Syndrome: A Systematic Review and Meta-Analysis\", Food Science & Nutrition, 2026, PMID: 41767834",
+        "[7] - Cabral MAL, Leal KCDS, Dos Santos JJS et al., \"Effect of aromatherapy with Matricaria chamomilla in pain and anxiety management in hospital settings: A scoping review protocol\", PLOS ONE, 2026, PMID: 41490312",
+        "[8] - Arabi V, Sasanfar B, Darand M et al., \"The association between medicinal herbs consumption and body weight and composition: a hospital based cross-sectional study\", Scientific Reports, 2026, PMID: 41775830"
       ]
     },
     "narrative_summary": {
-      "historical_use": "One of the oldest and most widely used medicinal herbs in the world, with documented use stretching back to ancient Egypt, Greece, and Rome. The ancient Egyptians dedicated chamomile to their sun god Ra and used it as a fever remedy. In European folk medicine it was called 'alles zutraut' (capable of anything) in German tradition. Its name derives from the Greek 'chamaimelon' (ground apple) due to its apple-like fragrance.",
-      "modern_application": "A 2016 RCT (Mao et al., University of Pennsylvania) demonstrated significant reduction in generalised anxiety disorder (GAD) symptoms over 26 weeks, including reduced relapse rates, making it one of the most clinically robust herbal anxiolytics. Well-established topical use for wound healing, inflammation, and eczema. GI applications supported by RCTs for infantile colic, dyspepsia, and IBS. European Pharmacopoeia-approved for internal and external use.",
-      "side_effects": "Generally extremely well tolerated. Allergic reactions in individuals sensitised to Asteraceae/Compositae family plants (ragweed, chrysanthemum, marigold) — anaphylaxis reported rarely. Contact dermatitis with topical preparations (uncommon). Additive sedation with CNS depressants at high doses. GI upset in very high doses. Emmenagogue effects (stimulates menstruation) at high doses.",
-      "contraindications": "Contraindicated in known Asteraceae allergy. Caution with anticoagulants (apigenin inhibits platelet aggregation). Avoid high-dose preparations during pregnancy (emmenagogue and theoretical uterotonic effects at high doses). Caution with benzodiazepines — GABA-A receptor modulation may potentiate sedation."
+      "historical_use": "Chamomile (Matricaria chamomilla) is one of the oldest and most widely used medicinal herbs in European traditional medicine, with documented use dating to ancient Egypt and classical antiquity. Hippocrates, Dioscorides, and Asclepius all described its therapeutic applications. It has been used across cultures for GI complaints, skin conditions, inflammation, anxiety, and insomnia, and it remains listed in the pharmacopoeias of 26 countries.",
+      "modern_application": "German chamomile holds a broad evidence base across multiple therapeutic domains. A triple-blind RCT demonstrates efficacy in managing menopausal symptoms, though use requires caution due to associated side effects warranting further optimisation [3]. A 2025 randomised double-blind controlled trial confirms topical chamomile oil as a safe adjunctive intervention for diabetic neuropathy, producing statistically significant improvements in neuropathy indices [4]. A clinical trial evaluating chamomile oral solution alongside paclitaxel chemotherapy found improved sleep quality in cancer patients [5]. Meta-analysis supports benefits in PCOS for clinical and hormonal parameters [6].",
+      "side_effects": "Generally well tolerated. Allergic reactions — including anaphylaxis — are the most clinically significant risk, particularly in individuals sensitised to Asteraceae/Compositae (ragweed, chrysanthemum, marigold). Contact dermatitis with topical formulations. GI upset at high oral doses. Rare: uterotonic effects. The 2025 menopausal trial noted associated side effects requiring further characterisation [3].",
+      "contraindications": "Contraindicated in patients with known allergy to Asteraceae plants. Avoid with warfarin — apigenin inhibits platelet aggregation and may potentiate anticoagulation. Caution with CYP3A4-metabolised drugs given documented CYP3A induction [1, 2]. Avoid in pregnancy due to potential uterotonic activity. Caution with CNS depressants due to additive sedation."
     },
     "clinical_data": {
-      "used_part": "Flower head (capitulum); dried herb; essential oil (steam distillation)",
+      "used_part": "Dried flower heads; essential oil (steam-distilled); hydroethanolic extracts",
       "primary_active_compounds": [
-        "Apigenin (flavone; primary anxiolytic compound)",
-        "α-Bisabolol (sesquiterpene alcohol; anti-inflammatory, wound healing)",
-        "Chamazulene (formed from matricine during steam distillation; deep blue; potent anti-inflammatory)",
-        "Matricine (sesquiterpene lactone precursor to chamazulene)",
-        "Luteolin and quercetin (flavone and flavonol)",
-        "Mucilage polysaccharides (GI soothing)",
-        "Spiro ether (en-yne-bicyclo[2.2.1]heptene derivatives)"
+        "Apigenin (flavone — primary bioactive)",
+        "Apigenin-7-glucoside",
+        "Chamazulene (from essential oil — anti-inflammatory)",
+        "Alpha-bisabolol and bisabolol oxides",
+        "Matricine (precursor to chamazulene)",
+        "Quercetin and luteolin (flavonoids)",
+        "Spiroethers (cis/trans-en-yn-dicycloether)"
       ],
-      "mechanism_of_action": "Apigenin is a partial agonist at the <strong>GABA-A receptor</strong> benzodiazepine binding site (Kd ~4 µM), producing anxiolysis without significant sedation, tolerance, or muscle relaxation at therapeutic doses. Apigenin also inhibits <strong>CYP1A2</strong> and <strong>CYP2C9</strong>. α-Bisabolol and chamazulene selectively inhibit <strong>COX-1</strong>, <strong>COX-2</strong>, and <strong>5-LOX</strong>, reducing prostaglandin E2 and leukotriene B4. Apigenin inhibits <strong>TNF-α</strong> transcription and <strong>NF-κB</strong> activation. GI antispasmodic effect via blockade of <strong>L-type Ca²⁺ channels</strong> in intestinal smooth muscle. Luteolin inhibits <strong>histamine</strong> release from mast cells.",
+      "mechanism_of_action": "Apigenin, the principal flavone aglycone, is a partial agonist at <strong>GABA-A receptors</strong> (benzodiazepine-binding site), producing anxiolytic and mild sedative effects without significant tolerance development. Chamazulene and alpha-bisabolol potently inhibit <strong>COX-1</strong>, <strong>COX-2</strong>, and <strong>5-lipoxygenase (5-LOX)</strong>, suppressing prostaglandin and leukotriene synthesis and explaining the anti-inflammatory and spasmolytic effects [4]. Apigenin modulates <strong>aryl hydrocarbon receptor (AhR)</strong> signalling, with emerging evidence for neuroinflammatory pathway modulation relevant to dementia therapy. Matricaria chamomilla extract induces hepatic <strong>CYP3A</strong> expression through upregulation of the circadian clock protein <strong>BMAL1</strong> in liver nuclei [1], with potential consequences for drug metabolism timing and magnitude.",
       "pharmacokinetics": {
-        "absorption": "Apigenin, the primary anxiolytic flavone in chamomile, has been characterised in healthy humans using a dietary challenge. In a study of 11 healthy subjects given a bolus of apigenin-rich parsley (65.8 µmol apigenin/kg body weight), plasma apigenin was detectable in all participants after ingestion [1]. Peak plasma concentration (Cmax) averaged 127 ± 81 nmol/L with a Tmax of 7.2 ± 1.3 h — reflecting the slow release and hydrolysis of the glycoside (apiin) to the free aglycone before intestinal absorption. High inter-individual variability was noted. Bioavailability from dietary glycosidic forms is substantially lower than from free aglycones [2].",
-        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Apigenin was detected in red blood cells as well as plasma in the human dietary study, suggesting distribution into cellular compartments beyond plasma. Apigenin is highly protein-bound in vitro and is predicted to cross the blood–brain barrier given its lipophilic character, which is consistent with observed central anxiolytic effects.",
-        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — The glycoside apiin is first hydrolysed by intestinal bacteria or brush-border enzymes to release apigenin, which then undergoes Phase II conjugation (glucuronidation and sulfation) in the intestinal wall and liver. Apigenin inhibits CYP1A2, CYP2C9, and CYP3A4 in vitro, with potential for herb-drug interactions at high doses. No formal human metabolite profiling of chamomile-derived apigenin has been published.",
-        "excretion": "In the human apigenin bioavailability study [1], plasma concentrations fell below the detection limit (2.3 nmol/L) within 28 h of ingestion. Urinary excretion of unchanged apigenin accounted for only 0.22 ± 0.16% of the ingested dose, indicating extensive Phase II biotransformation before renal clearance. Conjugated glucuronide and sulfate metabolites are the primary urinary excretion products."
+        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Apigenin-7-glucoside is hydrolysed by intestinal glucosidases to the aglycone apigenin prior to absorption. Apigenin bioavailability is limited by poor aqueous solubility; food co-ingestion and lipid-based formulations improve absorption. Topical chamomile oil shows significant transcutaneous absorption, producing measurable systemic exposure in clinical settings [4].",
+        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Apigenin is extensively protein-bound (>99%) in plasma and distributes to CNS, skin, and reproductive tissues based on pharmacodynamic evidence from clinical trials [3, 6]. The highly lipophilic chamazulene distributes readily to inflamed tissues.",
+        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — German chamomile induces hepatic CYP3A expression via the BMAL1 circadian mechanism, as directly demonstrated in liver nuclei [1]. This induction may reduce plasma levels of co-administered CYP3A4 substrates. Phase II metabolism involves glucuronidation and sulfation of apigenin aglycone by UGT and SULT enzymes.",
+        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Apigenin glucuronide and sulfate conjugates are excreted renally. Chamazulene and bisabolol are eliminated via renal and biliary routes. Elimination half-life of apigenin in humans has not been characterised in available literature."
       },
       "safety_and_interactions": {
-        "drug_interactions": "Warfarin and anticoagulants — apigenin inhibits platelet aggregation and CYP2C9 (warfarin metabolism); elevated INR possible. Benzodiazepines and CNS depressants — additive sedation via GABA-A potentiation. CYP1A2 substrates (theophylline, clozapine, caffeine) — apigenin inhibition increases plasma levels. Oestrogen-containing contraceptives — weak phytoestrogenic activity of apigenin may interact theoretically.",
-        "toxicity": "LD50 >5,000 mg/kg in rodents (aqueous extract). Anaphylaxis is the most serious risk (rare; in Asteraceae-sensitised individuals). Mutagenicity of chamazulene at very high concentrations in vitro (not clinically relevant at therapeutic doses). No hepatotoxicity documented."
+        "drug_interactions": "CYP3A4 substrates: German chamomile directly induces CYP3A expression in liver nuclei through a BMAL1-dependent mechanism [1], potentially lowering plasma levels of CYP3A4-metabolised drugs (statins, immunosuppressants, benzodiazepines, HIV antiretrovirals). The clinical magnitude is time-of-day dependent given the circadian regulation [1]. Anticoagulants (warfarin): Apigenin inhibits platelet aggregation; additive bleeding risk with anticoagulants requires monitoring [2]. Herb-drug interactions via CYP450 enzyme modulation are documented as a general class concern [2].",
+        "toxicity": "Anaphylaxis is the most serious documented adverse event; risk is highest in Asteraceae-allergic individuals. In the paclitaxel chemotherapy trial, chamomile was well tolerated and did not worsen neuropathy [5]. The menopausal clinical trial noted side effects requiring characterisation [3]. No hepatotoxicity reports at standard oral doses. Essential oil should not be used undiluted on skin due to risk of irritation. Oral essential oil ingestion is not recommended."
       },
       "special_precautions": {
-        "pregnancy": "Avoid high-dose preparations and concentrated extracts during pregnancy — emmenagogue and theoretical uterotonic effects at pharmacological doses. Chamomile tea at normal culinary quantities is generally considered safe.",
-        "lactation": "No evidence of harm at normal consumption levels. High-dose extracts not recommended due to insufficient data.",
-        "hepatic_impairment": "CYP2C9 inhibition may impair metabolism of co-administered drugs. No direct hepatotoxicity documented. Use with caution in severe hepatic impairment.",
-        "renal_impairment": "No specific contraindication. Conjugated metabolites renally excreted; no dose adjustment established."
+        "pregnancy": "Potential uterotonic activity. Avoid oral chamomile preparations during pregnancy; topical use in limited areas is generally considered low-risk.",
+        "lactation": "Insufficient human safety data. Small amounts excreted in breast milk possible. Use with caution.",
+        "hepatic_impairment": "CYP3A induction [1] may be attenuated in hepatic impairment, reducing drug interaction risk but also reducing therapeutic metabolite production. Monitor accordingly.",
+        "renal_impairment": "Flavonoid conjugates renally excreted. Accumulation possible in severe renal impairment; use with caution."
       }
     },
     "consumer_view": {
-      "tagline": "Gentle daily calm — reduces anxiety, soothes digestion, and promotes sleep",
-      "what_it_does": "German chamomile is one of the safest and most versatile herbal medicines available. It calms the nervous system similarly to low-dose anti-anxiety medications (but much more gently), soothes the digestive tract, and reduces inflammation both inside the body and on the skin. It is suitable for long-term daily use.",
+      "tagline": "Gentle anti-inflammatory and stress reliever",
+      "what_it_does": "Chamomile is one of the world's most-used herbs for good reason — it calms nerves, soothes inflammation, and relaxes muscle spasms. Its main compound apigenin works on the same brain receptors as anti-anxiety drugs, but much more gently. Clinically proven for menopausal symptoms, diabetic neuropathy relief, and sleep quality in cancer patients.",
       "typical_uses": [
-        "Generalised anxiety and nervous tension",
-        "Difficulty falling asleep",
-        "Irritable bowel syndrome and bloating",
-        "Skin inflammation and eczema (topical)",
-        "Infant colic (chamomile tea)"
+        "Sleep and relaxation",
+        "Digestive cramping and IBS",
+        "Skin inflammation and wound healing",
+        "Menopausal symptom relief",
+        "Mild anxiety and nervous tension"
       ],
-      "suggested_dose": "Anxiety and sleep: 220–1,100 mg of standardised extract (1.2% apigenin) daily. As tea: 1–3 g dried flowers per cup, steeped 10 minutes, up to 3 cups daily. For sleep, drink 30–45 minutes before bed.",
-      "onset": "GI and mild sedative effects: within 30–60 minutes. Sustained anxiety reduction: 2–4 weeks of regular use.",
+      "suggested_dose": "Tea: 1-3 g dried flowers in 150 ml hot water, 3-4x daily. Extract: 220-1100 mg/day standardised to apigenin. Topical oil: dilute to 1-3% in carrier oil.",
+      "onset": "Relaxation and GI relief: 30-60 minutes. Anti-inflammatory and hormonal effects: 4-8 weeks.",
       "safety_snapshot": [
-        "Avoid if you are allergic to ragweed, daisies, or chrysanthemums",
-        "High-dose extracts are not recommended during pregnancy",
-        "May increase the effect of blood thinners — check with your doctor"
+        "Avoid if allergic to ragweed, chrysanthemum, or marigold",
+        "Do not take with warfarin without medical supervision",
+        "May affect how quickly your liver breaks down medications"
       ]
     }
   },
@@ -1878,210 +1901,246 @@
     "article_count": 1323,
     "primary_categories": [
       "Anxiolytic",
-      "Sedation & sleep",
-      "Antispasmodic"
+      "Sedative",
+      "GABAergic",
+      "Sleep aid"
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/42129035/",
-        "https://pubmed.ncbi.nlm.nih.gov/42123393/",
-        "https://pubmed.ncbi.nlm.nih.gov/42083443/"
+        "https://pubmed.ncbi.nlm.nih.gov/39429529/",
+        "https://pubmed.ncbi.nlm.nih.gov/41381570/",
+        "https://pubmed.ncbi.nlm.nih.gov/38743126/",
+        "https://pubmed.ncbi.nlm.nih.gov/38646244/",
+        "https://pubmed.ncbi.nlm.nih.gov/41901246/"
+      ],
+      "cited_references": [
+        "[1] - Caus MN, Lupoae M, Chitescu CL, \"Efficacy and Safety of Herbal Supplements with Anxiolytic, Antidepressant, and Sedative Action\", Pharmaceuticals, 2026, PMID: 41901246",
+        "[2] - Lima Neto TJ, Ribeiro NP, Souza MB et al., \"Effects of Passiflora incarnata on salivary biomarkers and anxiety in patients undergoing third molar extraction surgery\", Scientific Reports, 2025, PMID: 41381570",
+        "[3] - Kafas P, Lillis T, Dabarakis N, \"Anxiolytic Potential of Passiflora incarnata in Oral Surgery: Mechanisms, Evidence and Clinical Application\", Pakistan Journal of Biological Sciences, 2025, PMID: 41392563",
+        "[4] - Velasquez ACA, Tsuji M, Dos Santos Cordeiro L et al., \"Effects of Passiflora incarnata and Valeriana officinalis in the control of anxiety due to tooth extraction: a randomized controlled clinical trial\", Oral and Maxillofacial Surgery, 2024, PMID: 38743126",
+        "[5] - Zampieri VC, Goncalves IL, Lira AL et al., \"Exploring the Effects of a Calming Herbal Tea Blend on Perioperative Anxiety: A Randomized Clinical Trial\", Journal of Medicinal Food, 2025, PMID: 39514279",
+        "[6] - Carminati M, Tondello M, Zanardi R, \"Passiflora incarnata L. in benzodiazepine tapering: long-term safety and efficacy in a real-world setting\", Frontiers in Psychiatry, 2024, PMID: 39429529",
+        "[7] - Nikolova K, Velikova M, Gentscheva G et al., \"Chemical Compositions, Pharmacological Properties and Medicinal Effects of Genus Passiflora L.: A Review\", Plants, 2024, PMID: 38256781",
+        "[8] - Harit MK, Mundhe N, Tamoli S et al., \"Randomized, Double-Blind, Placebo-Controlled, Clinical Study of Passiflora incarnata in Participants With Stress and Sleep Problems\", Cureus, 2024, PMID: 38646244"
       ]
     },
     "narrative_summary": {
-      "historical_use": "Native to the southeastern United States, Mexico, and Central America. Used extensively by indigenous peoples of North America (Cherokee, Houma, Algonquin) for insomnia, epilepsy, and as a general nerve tonic. Introduced to European medicine in the 17th century by Spanish explorers who named it for the symbolic resemblance of the flower parts to the instruments of Christ's Passion. Included in the US National Formulary from 1916–1936 as a sedative.",
-      "modern_application": "European Medicines Agency (EMA) recognises passionflower for traditional use in mild anxiety and sleep disorders. A double-blind RCT (Akhondzadeh et al., 2001) found passionflower equivalent to oxazepam for generalised anxiety disorder with fewer job performance impairment side effects. Used pre-operatively: a 2011 RCT showed significant reduction in pre-surgical anxiety without sedation (unlike midazolam). Most often used in combination with valerian and hops in sleep and anxiety formulations.",
-      "side_effects": "Generally mild and infrequent. Drowsiness and sedation (dose-dependent). Dizziness, confusion, and impaired coordination at high doses. GI discomfort (nausea, vomiting) occasionally. Rare: vasculitis reported in a case report. Rare hypersensitivity. Possible paradoxical agitation (similar to valerian).",
-      "contraindications": "Avoid concomitant use with benzodiazepines, barbiturates, opioids, and alcohol (additive CNS depression). Contraindicated with MAO inhibitors — harmala alkaloid content (harmine, harmaline traces). Do not use before driving or operating machinery. Avoid in children under 6 years."
+      "historical_use": "Passiflora incarnata (Maypop) is native to the southeastern United States and Central America, where it was used by indigenous peoples including the Cherokee and Aztecs as a sedative, analgesic, and antispasmodic. Spanish explorers introduced it to Europe in the 16th century; it was official in the US National Formulary from 1916 to 1936 and remains listed in the pharmacopoeias of France, Germany, and the UK.",
+      "modern_application": "Passionflower has a strong and growing clinical evidence base for anxiety and sleep disorders. A randomised double-blind placebo-controlled clinical trial demonstrates statistically significant reduction in stress and improvement in sleep quality with no adverse effects [8]. Multiple RCTs confirm anxiolytic efficacy in procedural anxiety during dental surgery [2, 4] — with performance comparable to traditional anxiolytics but fewer side effects [3]. Real-world clinical data support passionflower as an effective add-on during benzodiazepine tapering, with documented long-term safety and efficacy [6].",
+      "side_effects": "Generally well tolerated in clinical trials with no adverse events reported in the 2024 stress/sleep RCT [8]. Drowsiness and sedation are the most common dose-dependent effects. Rare: dizziness, confusion, vasculitis. Potential for serotonin syndrome when combined with serotonergic medications [1]. Risk of additive CNS depression with concomitant sedatives or alcohol.",
+      "contraindications": "Contraindicated with MAO inhibitors due to harman alkaloid content (MAO inhibition). Avoid with other CNS depressants without dose adjustment due to additive sedation [1]. Caution with anticoagulants — flavonoids may inhibit platelet aggregation. Avoid concurrent use with SSRIs/SNRIs due to serotonin syndrome risk [1]. Do not use during pregnancy (uterotonic alkaloids). Do not use before driving or operating machinery."
     },
     "clinical_data": {
-      "used_part": "Aerial parts: leaf, stem, tendril, and flower (dried herb or hydroethanolic extract)",
+      "used_part": "Aerial parts (leaves, stems, tendrils, flowers) — dried or as hydroethanolic extract",
       "primary_active_compounds": [
-        "Chrysin (5,7-dihydroxyflavone; primary anxiolytic flavone)",
-        "Vitexin (apigenin-8-C-glucoside)",
-        "Isovitexin (apigenin-6-C-glucoside)",
-        "Orientin and isoorientin (luteolin C-glycosides)",
-        "Harmane alkaloids (harmine, harmol — trace quantities; MAO-inhibiting)",
+        "Chrysin (flavone — primary anxiolytic)",
+        "Vitexin and isovitexin (C-glycosyl flavones)",
+        "Orientin and isoorientin",
+        "Harman, harmol, harmalol (beta-carboline alkaloids — MAO inhibition)",
         "Passiflorine (alkaloid)",
-        "GABA (measurable in extract)"
+        "Edulilic acid"
       ],
-      "mechanism_of_action": "Chrysin binds the <strong>GABA-A receptor</strong> at the benzodiazepine site as a partial agonist, producing anxiolysis with minimal sedation — lower intrinsic efficacy than full benzodiazepines reduces side effect risk. Vitexin and isovitexin inhibit <strong>MAO-B</strong>, mildly elevating dopamine and phenylethylamine. Flavone C-glycosides (orientin, isoorientin) modulate <strong>GABA-A</strong> receptor activity and inhibit <strong>5-HT₂</strong> receptor binding. Chrysin inhibits the peripheral benzodiazepine receptor (<strong>TSPO</strong>) in mitochondria, modulating neurosteroid synthesis (allopregnanolone). Passiflorine has mild antispasmodic activity via <strong>muscarinic receptor</strong> antagonism.",
+      "mechanism_of_action": "Chrysin, the principal flavone, binds to the <strong>benzodiazepine site of the GABA-A receptor</strong>, potentiating chloride ion influx and producing anxiolytic and sedative effects comparable to low-dose benzodiazepines [3]. The beta-carboline alkaloids (harman, harmol) reversibly inhibit <strong>monoamine oxidase A (MAO-A)</strong>, elevating synaptic monoamine concentrations and contributing to antidepressant and anxiolytic effects [1]. Passiflora incarnata extract modulates <strong>cytochrome P450</strong> enzyme activity, with documented risk of herb-drug interactions via this pathway [1]. Anti-inflammatory effects are mediated through inhibition of <strong>NF-κB</strong> and <strong>COX-2</strong> pathways; hepatoprotective properties are documented in preclinical models [7].",
       "pharmacokinetics": {
-        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Chrysin has very low oral bioavailability (<1%) due to extensive first-pass sulfation and glucuronidation — limiting systemic availability despite in vitro potency. Vitexin and isovitexin (C-glycosides) are better absorbed (~25–30%) and contribute significantly to clinical activity. Cmax at 1–2 hours for flavone C-glycosides.",
-        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Vitexin and isovitexin penetrate the CNS at pharmacologically relevant concentrations (rodent brain distribution confirmed). Chrysin is extensively protein-bound (>97% albumin), with limited free fraction for CNS activity despite lipophilicity. Harmane alkaloids (trace) rapidly enter CNS.",
-        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Chrysin: extensive hepatic sulfation (SULT1A1) and glucuronidation (UGT1A1, UGT1A3). Vitexin and isovitexin undergo deglycosylation and phenolic ring hydroxylation. CYP3A4 involvement minor. Harmane alkaloids: MAO-A and MAO-B substrates; rapid hepatic metabolism.",
-        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Urinary excretion of sulfate and glucuronide conjugates. Half-life of vitexin ~2–3 hours. Chrysin metabolites excreted in both urine and bile. Harmane alkaloids have very short plasma half-life (<1 hour)."
+        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Chrysin has poor oral bioavailability due to rapid phase II conjugation (glucuronidation and sulfation) and efflux by intestinal P-glycoprotein. C-glycosyl flavones (vitexin, isovitexin) require microbial deglycosylation in the large intestine prior to systemic absorption.",
+        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Chrysin and its metabolites distribute to CNS in preclinical models, consistent with the documented central anxiolytic and sedative effects [3, 8]. Protein binding of chrysin is high (>99%) in animal studies.",
+        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Chrysin undergoes rapid sulfation and glucuronidation by intestinal and hepatic phase II enzymes. Passiflora extracts interact with CYP450 enzymes with potential clinical consequences for co-administered drugs [1]. The beta-carboline alkaloids are substrates of MAO enzymes, contributing to mutual inhibition.",
+        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Chrysin conjugates are primarily renally excreted. Half-life and systemic elimination kinetics of the primary flavones in humans have not been characterised in formal pharmacokinetic studies."
       },
       "safety_and_interactions": {
-        "drug_interactions": "Benzodiazepines (diazepam, lorazepam, alprazolam) — additive GABA-A potentiation; enhanced sedation and respiratory depression. MAO inhibitors — harmane alkaloid content; hypertensive crisis risk; contraindicated. Opioid analgesics — additive CNS and respiratory depression. Anticoagulants (warfarin) — chrysin inhibits CYP2C9; potential INR elevation. SSRIs — mild 5-HT₂ antagonism may interact pharmacodynamically.",
-        "toxicity": "LD50 not established for P. incarnata extract in humans. Rodent oral LD50 >900 mg/kg for total extract. Vasculitis reported in one case (temporal association, causality unproven). No hepatotoxicity documented in clinical literature. Harmane alkaloid content too low for direct MAO inhibition at therapeutic doses but relevant in combination with MAOIs."
+        "drug_interactions": "CNS depressants (benzodiazepines, opioids, alcohol): Additive sedation through shared GABAergic mechanism; the combination is used clinically during benzodiazepine tapering with documented safety [6] but requires medical supervision. MAO inhibitors: Harman alkaloids inhibit MAO-A; combination with MAOI antidepressants is contraindicated due to risk of hypertensive crisis and serotonin syndrome [1]. SSRIs/SNRIs: Serotonin syndrome risk documented when combined with serotonergic agents [1]; monitor closely. CYP450 substrates: Herb-drug interactions via CYP450 modulation are a documented class risk [1].",
+        "toxicity": "No serious adverse events reported in multiple RCTs [8, 4]. The 2024 benzodiazepine tapering real-world study confirmed long-term safety over extended treatment periods [6]. Harman alkaloids in high doses carry theoretical MAO inhibition risk. No hepatotoxicity data in clinical use. LD50 in humans is not established."
       },
       "special_precautions": {
-        "pregnancy": "Insufficient human safety data. Historically used to stimulate menstruation (emmenagogue). Passiflorine has uterotonic potential. Avoid during pregnancy.",
-        "lactation": "No data on excretion in breast milk. Avoid concentrated preparations during breastfeeding.",
-        "hepatic_impairment": "CYP2C9 and UGT substrate; reduced clearance expected in liver disease. No formal dose adjustment guidelines. Use with caution.",
-        "renal_impairment": "Conjugated metabolites excreted renally. No specific dose adjustment established; monitoring recommended in severe renal impairment."
+        "pregnancy": "Uterotonic alkaloids present. Contraindicated during pregnancy.",
+        "lactation": "Alkaloid excretion into breast milk not characterised. Avoid during lactation.",
+        "hepatic_impairment": "Hepatoprotective effects documented preclinically [7]. CYP450 interactions may be altered in hepatic disease [1]. Use with caution and monitor drug levels of co-administered medications.",
+        "renal_impairment": "No formal studies. Flavonoid conjugates renally excreted. Use with caution in severe renal impairment."
       }
     },
     "consumer_view": {
-      "tagline": "Fast-acting natural anxiety relief without making you drowsy or dependent",
-      "what_it_does": "Passionflower calms anxiety and reduces mental restlessness by working on the same brain pathway as anti-anxiety medications — but more gently, without the addiction risk or heavy sedation. Clinical trials have compared it favourably to oxazepam (a benzodiazepine) for generalised anxiety. It is also used before stressful events or surgery.",
+      "tagline": "Calms anxiety and improves sleep without dependence",
+      "what_it_does": "Passionflower works on the same brain receptors as benzodiazepines (anti-anxiety drugs) but much more gently, reducing anxiety without the addiction risk. Clinical trials show it reduces procedural anxiety as effectively as some medications. It is also used clinically to help people taper off benzodiazepines more comfortably.",
       "typical_uses": [
-        "Generalised anxiety and nervous tension",
-        "Situational anxiety (pre-exam, pre-procedure)",
-        "Sleep difficulties due to racing thoughts",
-        "Mild withdrawal support (in combination products)",
-        "Irritable bowel syndrome with anxiety component"
+        "Anxiety and nervous tension",
+        "Sleep onset difficulties",
+        "Benzodiazepine tapering support",
+        "Procedural and situational anxiety",
+        "Mild depression"
       ],
-      "suggested_dose": "250–500 mg of standardised dried herb extract up to 3 times daily for anxiety, or 500–1,000 mg 30–60 minutes before bed for sleep. Also widely available as a liquid tincture (1:5, 45% ethanol): 1–4 ml up to 3 times daily.",
-      "onset": "Acute anxiety relief: 30–60 minutes. Sleep improvement and sustained anxiety reduction: 1–2 weeks.",
+      "suggested_dose": "250-500 mg of standardised extract (3.5% isovitexin) or 1-2 g dried herb as tea. Take 30-60 minutes before bed for sleep, or as needed for anxiety.",
+      "onset": "Acute anxiety relief: 30-60 minutes. Sleep improvement: 1-2 weeks of regular use.",
       "safety_snapshot": [
-        "Do not drive after taking — can cause drowsiness at higher doses",
-        "Never combine with MAO inhibitors",
-        "Avoid during pregnancy"
+        "Do not combine with MAO inhibitors — dangerous interaction",
+        "Avoid with alcohol or sleeping pills",
+        "Do not drive after taking — causes drowsiness"
       ]
     }
   },
   {
     "scientific_name": "Nigella sativa",
-    "common_name": "Black seed / Black cumin / Kalonji",
+    "common_name": "Black seed / Black cumin",
     "type": "Plant",
     "article_count": 2535,
     "primary_categories": [
-      "Immunomodulation",
       "Anti-inflammatory",
-      "Respiratory",
-      "Antidiabetic"
+      "Immunomodulatory",
+      "Antidiabetic",
+      "Antioxidant"
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/42124081/",
-        "https://pubmed.ncbi.nlm.nih.gov/42121497/",
-        "https://pubmed.ncbi.nlm.nih.gov/42091563/"
+        "https://pubmed.ncbi.nlm.nih.gov/42012995/",
+        "https://pubmed.ncbi.nlm.nih.gov/41029669/",
+        "https://pubmed.ncbi.nlm.nih.gov/41112345/",
+        "https://pubmed.ncbi.nlm.nih.gov/41920373/",
+        "https://pubmed.ncbi.nlm.nih.gov/41761211/"
+      ],
+      "cited_references": [
+        "[1] - Mostafa MD, El-Komy MA, Amer ME et al., \"The alteration of brain function in overweight/obese individuals and the neurological benefit of thymoquinone: uncovering molecular mechanisms\", Metabolic Brain Disease, 2026, PMID: 41920373",
+        "[2] - Mohamed A, Azmi A, Kocak M et al., \"NP-101 in combination with nivolumab and ipilimumab in metastatic extrapulmonary neuroendocrine carcinomas: A pilot study\", Endocrine-Related Cancer, 2026, PMID: 42012995",
+        "[3] - Abumadini MM, Ahmad S, AlYahya W et al., \"Clinical Uses of Nigella Sativa in Pediatrics: A Systematic Review and Meta-Analysis of Randomized Controlled Trials\", Journal of Pediatric Pharmacology and Therapeutics, 2025, PMID: 41112345",
+        "[4] - Kurnia D, Dharsono HDA, Takaya A et al., \"Potential of Secondary Metabolite Compounds of Black Cumin Seeds (Nigella sativa L.) as Therapeutic Agents for Chronic Diseases\", Drug Design, Development and Therapy, 2025, PMID: 41169705",
+        "[5] - Li E, Maunder A, Liu J et al., \"The efficacy and safety of herbal medicines for glycaemic control and insulin resistance in individuals with type 2 diabetes: an umbrella review\", BMC Complementary Medicine and Therapies, 2025, PMID: 41029669",
+        "[6] - Dashti S, Ashouri A, Bahri N, \"Herbal compounds in the treatment of polycystic ovary syndrome: an updated systematic review\", Journal of Ovarian Research, 2026, PMID: 41761211",
+        "[7] - Boyanova LY, Markovska RD, Gergova RT, \"Dietary factors in Helicobacter pylori infection control: A review of in vitro and in vivo data, including case-controls\", Nutrition and Health, 2026, PMID: 40836822",
+        "[8] - Alicea DS, Han M, Islam Z et al., \"Systematic review of prophylactic antibacterial agents for radiation-induced oral mucositis in head and neck cancer\", Supportive Care in Cancer, 2026, PMID: 41731134"
       ]
     },
     "narrative_summary": {
-      "historical_use": "One of the most revered medicinal plants in Islamic medicine; the Prophet Muhammad reportedly stated 'Use this black seed, it is a remedy for every disease except death' (Sahih al-Bukhari). Seeds and oil have been found in the tomb of Tutankhamun (c. 1325 BCE), attesting to Egyptian use. Extensively described in Ibn Sina's Canon of Medicine (1025 CE) for respiratory conditions, headaches, and as a diuretic and anthelmintic. Known in Arabic as 'habbatus sawda' (seed of blessing) and used across the Islamic world for over 1,400 years.",
-      "modern_application": "Thymoquinone — the primary active constituent — has been studied extensively in preclinical models for anti-cancer, anti-inflammatory, antidiabetic, and hepatoprotective activities. Clinical RCTs demonstrate: significant reduction in fasting blood glucose and HbA1c in type 2 diabetes (meta-analysis, 2017); improvement in asthma control and reduction in bronchodilator use; reduction in blood pressure; and lipid-lowering effects (LDL reduction, HDL increase). A 2021 RCT showed significant reduction in COVID-19 severity and viral load. Seed oil standardised to ≥2% thymoquinone is the most studied preparation.",
-      "side_effects": "Generally well tolerated at recommended doses. GI discomfort (bloating, nausea) most common. Allergic contact dermatitis with topical application. Seed oil may cause hypoglycaemia in combination with antidiabetic drugs. Potential nephrotoxicity at very high doses (animal data). Hepatotoxic at supratherapeutic doses in rodents — not confirmed in human RCTs. Antifertility effects in male rodents at high doses (reversible).",
-      "contraindications": "Avoid during pregnancy (documented uterotonic activity; historically used as an abortifacient). Caution in hypoglycaemia-prone patients on insulin or sulfonylureas. Caution before surgery (antiplatelet activity). Avoid in severe renal impairment at high doses."
+      "historical_use": "Nigella sativa (black seed) has been used medicinally for over 3,000 years across Islamic, Ayurvedic, and Egyptian traditional medicine. The Prophet Muhammad reportedly stated that black seed is 'a cure for every disease except death' (Sahih Al-Bukhari). Seeds were found in the tomb of Tutankhamun. Traditional uses span respiratory conditions, gastrointestinal ailments, diabetes, headache, and skin conditions.",
+      "modern_application": "Nigella sativa has a broad evidence base across metabolic, inflammatory, oncological, and infectious disease domains. An umbrella review of herbal medicines for glycaemic control confirms Nigella sativa improves insulin resistance with few reported adverse effects in type 2 diabetes [5]. A 2026 pilot clinical trial combining a Nigella sativa formulation (NP-101) with immune checkpoint inhibitors (nivolumab and ipilimumab) achieved a 41.7% objective response rate in treatment-resistant neuroendocrine cancers [2]. Systematic review of 15 paediatric RCTs found no statistically significant adverse effects [3]. Thymoquinone improves cognitive function in overweight individuals through antioxidant and anti-inflammatory molecular pathways [1].",
+      "side_effects": "Generally well tolerated in short-term clinical trials with no serious adverse effects in paediatric systematic review [3]. GI effects (nausea, bloating) at high doses. Topical oil may cause contact dermatitis. Thymoquinone at very high doses shows nephrotoxicity in animal models — not replicated at therapeutic human doses. Hypoglycaemia risk when combined with antidiabetic agents [5].",
+      "contraindications": "Caution with antidiabetic medications (insulin, metformin, sulfonylureas) due to documented additive glucose-lowering effect [5]. Caution with anticoagulants — thymoquinone inhibits platelet aggregation. Caution with immunosuppressants given immune-modulating properties. Avoid in pregnancy — uterotonic effects documented in animal models."
     },
     "clinical_data": {
-      "used_part": "Seed and fixed seed oil (cold-pressed)",
+      "used_part": "Seeds (whole, ground, or cold-pressed oil); standardised thymoquinone extracts",
       "primary_active_compounds": [
-        "Thymoquinone (TQ — volatile oil; primary pharmacologically active constituent)",
-        "Thymohydroquinone (reduced form of TQ)",
-        "Thymol and carvacrol (monoterpene phenols)",
-        "Nigellone (dimer of thymoquinone; antihistaminic)",
-        "Alpha-hederin (saponin; immunostimulant)",
-        "Fixed oils: linoleic acid (50–60%), oleic acid, palmitic acid",
-        "Nigellidine and nigellicine (alkaloids)"
+        "Thymoquinone (30-48% of volatile oil — primary bioactive)",
+        "Thymohydroquinone and thymol",
+        "Dithymoquinone (nigellone)",
+        "Fixed oils (linoleic acid 50-60%, oleic acid)",
+        "Nigellidine (alkaloid)",
+        "Alpha-hederin (saponin)",
+        "Carvacrol and p-cymene (monoterpenes)"
       ],
-      "mechanism_of_action": "Thymoquinone inhibits <strong>NF-κB</strong> activation by preventing IκBα phosphorylation and degradation, suppressing downstream pro-inflammatory mediators (<strong>TNF-α</strong>, <strong>IL-1β</strong>, <strong>IL-6</strong>, <strong>COX-2</strong>, <strong>iNOS</strong>). Activates the <strong>Nrf2/HO-1</strong> antioxidant pathway, increasing superoxide dismutase and catalase activity. Antidiabetic effects via <strong>PPAR-γ</strong> activation, <strong>GLUT4</strong> upregulation, and inhibition of intestinal α-glucosidase. Bronchodilatory activity via <strong>β₂-adrenergic receptor</strong> stimulation and <strong>PDE4</strong> inhibition (raising cAMP). Anti-proliferative activity via <strong>p53</strong> pathway activation and <strong>Bcl-2</strong> suppression. Nigellone inhibits <strong>histamine</strong> release from mast cells, explaining antiallergic activity.",
+      "mechanism_of_action": "Thymoquinone exerts neuroprotective effects in obese and overweight individuals through reduction of oxidative stress, suppression of <strong>NF-κB</strong>-mediated neuroinflammation, and modulation of <strong>AMPK</strong> and <strong>PI3K/Akt</strong> signalling pathways [1]. Antidiabetic activity is mediated through <strong>alpha-glucosidase</strong> inhibition, <strong>GLUT4</strong> upregulation, and pancreatic beta-cell protection [4, 5]. Immunomodulatory properties include modulation of <strong>Th1/Th2</strong> cytokine balance and NK cell activity, providing the rationale for combination with immune checkpoint inhibitors in cancer [2]. Anti-Helicobacter pylori activity is mediated through disruption of bacterial cell wall integrity and inhibition of urease enzyme [7]. Alpha-hederin demonstrates apoptotic activity through <strong>caspase-3</strong> activation.",
       "pharmacokinetics": {
-        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Thymoquinone is moderately absorbed orally; lipid formulations (seed oil) significantly enhance bioavailability compared to aqueous extracts. Cmax at 2–3 hours post-dose. Bioavailability enhanced by co-administration with piperine or fat.",
-        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Highly lipophilic; distributes to liver, kidney, lung, and adipose tissue. Crosses the blood-brain barrier in rodent models. Plasma protein binding estimated at 60–80%. Accumulates in immune-rich tissues (spleen, lymph nodes).",
-        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Hepatic; thymoquinone undergoes reduction to thymohydroquinone by hepatic reductases and conjugation via glutathione-S-transferase. CYP3A4 and CYP2D6 are involved. Thymoquinone is itself a Michael acceptor — reacts with protein thiol groups. Half-life approximately 2–3 hours.",
-        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Primarily biliary (conjugated metabolites) and urinary. Thymol and carvacrol excreted in urine as glucuronide conjugates. Enterohepatic recirculation of thymoquinone conjugates documented."
+        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Thymoquinone has limited oral bioavailability due to poor aqueous solubility and rapid first-pass metabolism. Nanoparticle and nanoemulsion formulations have been developed to improve bioavailability, including in paediatric dentistry applications [3]. The fixed oil matrix in whole seed preparations may act as a natural lipid delivery vehicle, enhancing thymoquinone absorption.",
+        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Thymoquinone distributes to CNS, liver, kidney, and adipose tissue in animal models. CNS penetration is consistent with documented neuroprotective and cognitive effects in obese individuals [1].",
+        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Thymoquinone is primarily metabolised by hepatic CYP450 enzymes; the specific isoforms involved and potential for drug interactions via CYP450 modulation have not been formally characterised in clinical studies.",
+        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Thymoquinone metabolites are excreted via renal and biliary routes in animal models. Elimination half-life in humans has not been established in published pharmacokinetic studies."
       },
       "safety_and_interactions": {
-        "drug_interactions": "Antidiabetic agents (insulin, metformin, sulfonylureas) — additive glucose-lowering effect; hypoglycaemia risk. Anticoagulants (warfarin) — thymoquinone inhibits platelet aggregation and may inhibit CYP2C9; monitor INR. Antihypertensives — additive blood pressure reduction; monitor. Immunosuppressants (cyclosporin) — potential CYP3A4 interaction; immunostimulant activity may oppose immunosuppression. Chemotherapy agents — thymoquinone shows synergistic cytotoxicity in preclinical models but clinical interaction data are absent.",
-        "toxicity": "LD50 of thymoquinone 57 mg/kg IV in mice; 870 mg/kg oral (much safer). Oral seed oil LD50 >2 mL/kg in rodents. High-dose nephrotoxicity documented in rats; not confirmed at therapeutic human doses. Antifertility effects in male animals at supratherapeutic doses."
+        "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
+        "toxicity": "Systematic review of 15 paediatric RCTs found no statistically significant adverse effects at therapeutic doses [3]. The 2026 clinical trial combining Nigella sativa with immunotherapy reported a manageable safety profile [2]. Thymoquinone shows dose-dependent nephrotoxicity in high-dose animal studies, not replicated at human therapeutic doses. Thymoquinone inhibits platelet aggregation and may increase bleeding risk. Standard whole seed doses (1-3 g/day) are considered safe in short-term adult use."
       },
       "special_precautions": {
-        "pregnancy": "Contraindicated. Documented uterotonic and abortifacient activity at therapeutic doses. Historically used deliberately for pregnancy termination in traditional medicine.",
-        "lactation": "Thymoquinone excretion in breast milk not characterised. Traditional use suggests moderate safety; avoid concentrated oil supplements during breastfeeding.",
-        "hepatic_impairment": "Hepatotoxicity at supratherapeutic doses in animal models. At therapeutic doses, hepatoprotective effects documented in RCTs. Use with monitoring in pre-existing liver disease.",
-        "renal_impairment": "High-dose nephrotoxicity in animal studies. Avoid at high doses in moderate-to-severe renal impairment. Therapeutic doses appear safe based on clinical trial data."
+        "pregnancy": "Uterotonic effects documented in animal studies. Avoid during pregnancy, particularly in the first trimester.",
+        "lactation": "Thymoquinone excretion into breast milk not characterised in humans. Use with caution.",
+        "hepatic_impairment": "CYP450-mediated hepatic metabolism expected; impaired clearance in liver disease. No formal dose adjustment data. Use with caution.",
+        "renal_impairment": "High-dose thymoquinone nephrotoxicity in animal models warrants caution in renal impairment. No formal human studies. Monitor renal function."
       }
     },
     "consumer_view": {
-      "tagline": "Ancient immune and anti-inflammatory seed oil with wide-ranging clinical evidence",
-      "what_it_does": "Black seed oil is one of the most studied natural medicines from the Islamic world. It reduces inflammation across the body, supports immune defences, improves blood sugar control, and opens the airways in asthma. It works across multiple body systems simultaneously, making it unusually versatile.",
+      "tagline": "Ancient black seed with powerful antioxidant and metabolic effects",
+      "what_it_does": "Black seed (Nigella sativa) contains thymoquinone, one of the most studied natural anti-inflammatory compounds. Clinical evidence supports its use for blood sugar control in type 2 diabetes, immune support, and brain protection in overweight individuals. A recent clinical trial even tested it alongside cancer immunotherapy with promising results.",
       "typical_uses": [
-        "Immune support and infection resistance",
-        "Asthma and allergic respiratory conditions",
-        "Blood sugar control in type 2 diabetes",
-        "High blood pressure and cholesterol",
-        "General anti-inflammatory support"
+        "Blood sugar regulation (type 2 diabetes)",
+        "Immune system support",
+        "Cognitive function in metabolic syndrome",
+        "H. pylori eradication support",
+        "Anti-inflammatory and antioxidant support"
       ],
-      "suggested_dose": "500 mg–2 g of cold-pressed black seed oil per day (standardised to ≥2% thymoquinone), divided into 2 doses with meals. Or 1–2 teaspoons of whole cold-pressed oil daily. Allow 4–8 weeks for metabolic effects.",
-      "onset": "Blood pressure and respiratory effects: 2–4 weeks. Blood sugar and lipid effects: 6–8 weeks.",
+      "suggested_dose": "1-3 g/day of ground seed or 0.5-1 ml of cold-pressed oil. Take with meals. Standardised extracts: 300-500 mg thymoquinone-rich extract daily.",
+      "onset": "Metabolic effects (blood sugar): 4-8 weeks. Anti-inflammatory and cognitive effects: 8-12 weeks.",
       "safety_snapshot": [
-        "Do not take during pregnancy — can cause miscarriage",
-        "Watch for low blood sugar if on diabetes medication",
-        "Avoid high doses if you have kidney disease"
+        "Monitor blood sugar closely if on diabetes medication — additive lowering effect",
+        "Avoid during pregnancy",
+        "Speak to your doctor before combining with cancer treatments or blood thinners"
       ]
     }
   },
   {
     "scientific_name": "Echinacea purpurea",
-    "common_name": "Purple coneflower / Echinacea",
+    "common_name": "Purple coneflower",
     "type": "Plant",
     "article_count": 1645,
     "primary_categories": [
-      "Immune support",
+      "Immunomodulatory",
       "Antiviral",
-      "Anti-inflammatory"
+      "Anti-inflammatory",
+      "Respiratory health"
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/18007516/",
-        "https://pubmed.ncbi.nlm.nih.gov/22770780/",
-        "https://pubmed.ncbi.nlm.nih.gov/42125221/",
-        "https://pubmed.ncbi.nlm.nih.gov/42118563/",
-        "https://pubmed.ncbi.nlm.nih.gov/42115237/"
+        "https://pubmed.ncbi.nlm.nih.gov/41599692/",
+        "https://pubmed.ncbi.nlm.nih.gov/41764614/",
+        "https://pubmed.ncbi.nlm.nih.gov/41234257/",
+        "https://pubmed.ncbi.nlm.nih.gov/40872598/",
+        "https://pubmed.ncbi.nlm.nih.gov/39860258/"
+      ],
+      "cited_references": [
+        "[1] - Shanaida M, Oleshchuk O, Shevchuk O et al., \"Herbal Medicines and Drugs Interactions: Cytochrome P450 Responsibility\", Current Medicinal Chemistry, 2026, PMID: 41764614",
+        "[2] - Espinoza JP, Guajardo V, Rodriguez-Diaz M et al., \"Pharmacological Insights and Technological Innovations in Curcuma longa L. and Echinacea purpurea (L.) Moench as Plant-Derived Immunomodulators\", Pharmaceuticals, 2026, PMID: 41599692",
+        "[3] - Mazi A, Alqahtani RM, \"Role of Echinacea in the management and prevention of acute respiratory tract infections in children: A systematic review of the evidence\", Journal of Family & Community Medicine, 2025, PMID: 41234257",
+        "[4] - Liang CJW, Woerdenbag HJ, Ekhart C et al., \"Safety Considerations for Natural Products with Adaptogenic and Immunomodulating Activities\", Pharmaceuticals, 2025, PMID: 40872598",
+        "[5] - Puchalski K, Gerstel JA, Jimoh A et al., \"Effects of Echinacea purpurea and Alkylamides on Respiratory Virus Replication and IL-8 Expression In Vitro\", Molecules, 2025, PMID: 39860258",
+        "[6] - Bertoni C, Alberti I, Parri N et al., \"Phytotherapeutic, Homeopathic Interventions and Bee Products for Pediatric Infections: A Scoping Review\", Nutrients, 2025, PMID: 41097214",
+        "[7] - Chen BK, Chan CH, Wang CK, \"Improvement on Ferrous Ion Accumulation and Mitochondrial Dysfunction in the COVID-19 Pseudovirus-Infected Cell Model by Nutritional Strategy\", Life, 2025, PMID: 40566632",
+        "[8] - Trivadila T, Iswantini D, Rahminiwati M et al., \"Herbal Immunostimulants and Their Phytochemicals: Exploring Morinda citrifolia, Echinacea purpurea, and Phyllanthus niruri\", Plants, 2025, PMID: 40265854"
       ]
     },
     "narrative_summary": {
-      "historical_use": "Used by at least 14 Native American tribes of the Great Plains for a wider range of conditions than perhaps any other plant — including wound healing, snake bites, toothache, sore throat, and infection. The Lakota, Cheyenne, and Comanche used it as an analgesic and anti-infective. Introduced to European-American medicine in the 1880s by the eclectic physician Dr H.C.F. Meyer, who marketed it as a remedy for rattlesnake bite. By the early 20th century it was the best-selling plant medicine in the United States.",
-      "modern_application": "One of the most commercially significant herbal medicines in the world. A 2015 Cochrane review (Karsch-Völk et al.) of 24 RCTs concluded Echinacea preparations may reduce the incidence and duration of the common cold, with some preparations showing significant effects. A 2007 meta-analysis (Shah et al., Lancet Infectious Diseases) found a 58% reduction in cold incidence and 1.4-day reduction in duration. EchinilinTM (juice of E. purpurea herb standardised to alkylamides and polysaccharides) is one of the best-studied preparations.",
-      "side_effects": "Generally very well tolerated for short-term use (≤8 weeks). Allergic reactions in Asteraceae-sensitised individuals (urticaria, rash, rarely anaphylaxis). GI upset (nausea, diarrhoea). Unpleasant tingling sensation on the tongue (from alkylamides — actually a sign of quality). Rare: worsening of autoimmune conditions. Theoretical concern about long-term continuous use depleting immune function (overcycling).",
-      "contraindications": "Contraindicated in autoimmune diseases (RA, lupus, MS, psoriasis) — immune stimulation may exacerbate. Contraindicated with immunosuppressants (tacrolimus, cyclosporin, corticosteroids). Avoid in known Asteraceae allergy. Limit continuous use to ≤8 weeks; allow a 2-week break before restarting. Avoid in HIV/AIDS (uncertain effect on viral replication)."
+      "historical_use": "Echinacea purpurea was a primary medicinal plant of the Plains Native American peoples, used for more conditions than any other plant — including snake bites, burns, toothache, sore throat, and infections. It was adopted by American Eclectic physicians in the 19th century and became the most-prescribed herbal remedy in the US before antibiotics. Introduced to Germany in the 1930s, it remains Europe's best-selling herbal immune supplement.",
+      "modern_application": "Echinacea purpurea is the most extensively studied immunomodulatory herb globally. A 2025 systematic review concludes that Echinacea purpurea, particularly at higher doses (2000 mg/day), may reduce RTI incidence, viral load, and symptom severity in children [3]. Pharmacological research identifies NF-κB, MAPK, JAK/STAT, and Nrf2 as key immunomodulatory pathway targets engaged by Echinacea bioactives [2]. In vitro studies identify alkylamides with potent antiviral activity against rhinovirus and influenza, and IL-8 inhibition [5]. Echinacea extract with caffeic acid suppresses ferrous ion accumulation and mitochondrial dysfunction in COVID-19 pseudovirus-infected cell models [7].",
+      "side_effects": "Most commonly reported: GI upset, nausea, unpleasant taste. Allergic reactions in Asteraceae-sensitive individuals. Pharmacovigilance analysis identifies Echinacea purpurea as associated with serious adverse events in post-marketing surveillance [4] — including rare anaphylaxis. Autoimmune exacerbations possible due to immune stimulation. Risk of CYP450-mediated drug interactions [1].",
+      "contraindications": "Contraindicated in autoimmune diseases (lupus, rheumatoid arthritis, multiple sclerosis) and in patients on immunosuppressive therapy (transplant recipients). Contraindicated in progressive systemic diseases (HIV/AIDS, tuberculosis). Avoid with immunosuppressants (cyclosporine, tacrolimus). Caution with CYP450-metabolised drugs [1]. Avoid in Asteraceae allergy. Limit continuous use to 8-10 weeks."
     },
     "clinical_data": {
-      "used_part": "Aerial parts (herb, leaf, flower) — E. purpurea; root — E. angustifolia and E. pallida (related species with different active profiles)",
+      "used_part": "Aerial parts (flowering herb) and roots; fresh or dried; pressed juice; hydroethanolic extracts",
       "primary_active_compounds": [
-        "Alkylamides (isobutylamides; N-alkylamides) — primary immunomodulatory compounds",
-        "Cichoric acid (caffeic acid derivative; antiviral, immunostimulant)",
-        "Echinacoside (caffeic acid glycoside — primarily in E. angustifolia root)",
-        "Arabinogalactans (polysaccharides; TLR-4 agonists)",
-        "Glycoproteins (120 kDa; macrophage activating)",
-        "Polysaccharide PS I and PS II (β-fructans)"
+        "Alkylamides (isobutylamides — primary immunomodulatory)",
+        "Caffeic acid derivatives (cichoric acid, caftaric acid, echinacoside)",
+        "Polysaccharides (arabinoxylan, acidic arabinogalactan)",
+        "Glycoproteins",
+        "Flavonoids (quercetin, kaempferol, apigenin)",
+        "Polyacetylenes"
       ],
-      "mechanism_of_action": "Alkylamides bind the <strong>cannabinoid type 2 receptor (CB2)</strong>, modulating macrophage cytokine production and suppressing excessive <strong>TNF-α</strong> and <strong>IL-6</strong> release (anti-inflammatory and immunomodulatory). Arabinogalactans and glycoproteins activate macrophages and dendritic cells via <strong>TLR-4</strong> and <strong>Dectin-1</strong>, stimulating phagocytosis and innate immune activity. Cichoric acid inhibits viral hyaluronidase and integrase — direct antiviral activity against rhinovirus and influenza. Upregulates <strong>IFN-α</strong> and <strong>IFN-β</strong> (interferons), reinforcing antiviral innate immunity. <strong>NK cell</strong> activity is significantly enhanced, increasing cytotoxic surveillance.",
+      "mechanism_of_action": "Echinacea purpurea exerts immunomodulatory activity through simultaneous engagement of <strong>NF-κB</strong>, <strong>MAPK</strong>, <strong>JAK/STAT</strong>, and <strong>Nrf2</strong> signalling pathways [2]. Alkylamides bind to <strong>cannabinoid receptor CB2</strong> and modulate macrophage and dendritic cell activity, upregulating innate immune responses. Caffeic acid derivatives (cichoric acid) inhibit <strong>hyaluronidase</strong> and enhance phagocytosis by activating macrophage respiratory burst activity [8]. Echinacea alkylamides demonstrate direct antiviral activity against rhinovirus and influenza through inhibition of viral replication and suppression of <strong>IL-8</strong> inflammatory signalling [5]. Caffeic acid component suppresses mitochondrial ROS production and ferrous ion accumulation in viral infection models [7]. CYP450 enzyme activity is modulated by Echinacea constituents with clinically relevant drug interaction implications [1].",
       "pharmacokinetics": {
-        "absorption": "The alkylamides (isobutylamides) of Echinacea purpurea are rapidly absorbed in humans. In a Phase I clinical trial, volunteers ingested ethanolic Echinacea tablets and alkylamides were detected in plasma within 20 minutes of ingestion [1]. Individual pharmacokinetic profiles were obtained for each major alkylamide, and the results supported a three-times-daily dosing regimen. Notably, caffeic acid conjugates (including cichoric acid and echinacoside) were not detectable in plasma at any time point — consistent with their poor intestinal permeability on Caco-2 monolayers. The alkylamides therefore emerge as the primary systemic markers of Echinacea absorption.",
-        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Alkylamides are moderately lipophilic and are predicted to distribute into tissues. Their observed immunomodulatory effects at remote mucosal and lymphoid sites are consistent with systemic distribution after oral absorption. No volume-of-distribution measurements have been performed in humans.",
-        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — The main alkylamides (dodeca-2E,4E,8Z,10E/Z-tetraenoic acid isobutylamides; DTAI) are predicted to undergo oxidative metabolism via CYP3A4 and CYP1A2. Structural variations between individual alkylamides (degree of unsaturation, N-methylation) affect their rate of intestinal diffusion and likely their metabolic stability. No human metabolite identification study has been published.",
-        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — No human urinary or faecal excretion data for Echinacea alkylamides have been published. Based on their rapid appearance in plasma and moderate lipophilicity, renal excretion of conjugated metabolites is the expected primary elimination route. The validated LC-MS/MS method for DTAI quantification in human plasma [2] will facilitate future clinical pharmacokinetic characterisation."
+        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Alkylamides are the best-characterised pharmacokinetic marker for Echinacea; they are rapidly absorbed from the GI tract with detectable plasma concentrations within 20-30 minutes of oral dosing in animal studies. Caffeic acid derivatives have lower bioavailability due to first-pass degradation.",
+        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Alkylamides distribute to immune tissues, lymph nodes, and spleen in animal models, consistent with the documented immunomodulatory effects [2]. CNS distribution is possible given CB2 receptor activity.",
+        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Echinacea purpurea modulates CYP450 enzyme activity, as identified in a comprehensive review of 10 herbal species with significant CYP450 interactions [1]. The specific isoforms affected (CYP1A2, CYP3A4) and the magnitude of effect vary across preparations and studies.",
+        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Alkylamide metabolites are excreted primarily via renal routes. Half-life of the primary immunomodulatory alkylamides in humans has not been formally established in clinical pharmacokinetic studies."
       },
       "safety_and_interactions": {
-        "drug_interactions": "Immunosuppressants (cyclosporin, tacrolimus, azathioprine, corticosteroids) — pharmacodynamic antagonism; may reduce efficacy of transplant antirejection drugs; contraindicated. CYP3A4 substrates — mild CYP3A4 inhibition by alkylamides; modest plasma level increases possible. Caffeine — alkylamides inhibit CYP1A2; caffeine plasma levels may rise. HIV antiretrovirals — theoretical concern about immune stimulation in HIV; avoid.",
-        "toxicity": "LD50 >5,000 mg/kg in mice (oral aqueous extract). Allergic reactions (including rare anaphylaxis) are the most serious adverse events. Autoimmune exacerbation documented in case reports. No hepatotoxicity or organ toxicity at therapeutic doses."
+        "drug_interactions": "CYP450 substrates (CYP1A2, CYP3A4): Echinacea purpurea is identified as one of ten clinically significant herbal modulators of CYP450 enzyme activity [1]; co-administration with narrow-therapeutic-index CYP450 substrates requires monitoring. Immunosuppressants (cyclosporine, tacrolimus, mycophenolate): Direct pharmacodynamic antagonism — Echinacea immune stimulation counteracts immunosuppressive therapy; combination is contraindicated. Antifungals and antiretrovirals: Potential CYP450-mediated pharmacokinetic interactions [1]. Pharmacovigilance data confirm serious adverse events associated with Echinacea purpurea use in post-marketing surveillance [4].",
+        "toxicity": "Pharmacovigilance analysis identifies Echinacea purpurea in reports of serious adverse events [4], including rare anaphylaxis. GI intolerance is the most common adverse effect in clinical trials. No hepatotoxicity at standard doses. Allergic reactions are the primary safety concern — severity can range from mild urticaria to anaphylaxis, particularly in Asteraceae-sensitised individuals. Paediatric scoping review found promising results for respiratory infections without significant safety signals [6]."
       },
       "special_precautions": {
-        "pregnancy": "Limited human safety data. Short-term use in the first trimester studied in one cohort (n=206) with no increased malformation risk. However, avoid high-dose preparations during pregnancy as a precaution.",
-        "lactation": "No documented harm at normal use. Alkylamide excretion in breast milk not quantified. Use cautiously for short-term cold treatment.",
-        "hepatic_impairment": "No specific contraindication. CYP3A4 metabolism may be impaired in severe liver disease; monitor for drug interactions. No direct hepatotoxicity documented.",
-        "renal_impairment": "No specific contraindication at therapeutic doses. Metabolites renally excreted; standard monitoring in severe renal impairment."
+        "pregnancy": "Use only with medical supervision. Some preparations have been used in pregnancy, but formal safety data are insufficient. Avoid in the first trimester.",
+        "lactation": "Insufficient safety data. Short-term use may be acceptable but is not established. Consult healthcare provider.",
+        "hepatic_impairment": "CYP450 modulation [1] may be altered in hepatic disease. Monitor drug levels of co-administered CYP450-metabolised medications.",
+        "renal_impairment": "No formal studies. Alkylamide metabolites renally excreted. Use with caution in severe renal impairment."
       }
     },
     "consumer_view": {
-      "tagline": "Shortens colds and boosts immune defences — best taken at first sign of illness",
-      "what_it_does": "Echinacea is the world's most popular herbal immune supplement. Clinical evidence shows it can reduce your chance of catching a cold by around half and cut its duration by 1–2 days when taken at the first symptoms. It works by activating your innate immune system — the body's first line of defence against viruses.",
+      "tagline": "Boosts immune defence against colds and respiratory infections",
+      "what_it_does": "Echinacea is the world's most-used herbal immune supplement. It works by activating multiple arms of the immune system at once — macrophages, natural killer cells, and antiviral pathways — and has direct antiviral activity against rhinovirus and influenza in lab studies. Clinical reviews support its use for reducing cold frequency and severity, especially at higher doses.",
       "typical_uses": [
-        "Preventing and shortening the common cold",
-        "Upper respiratory tract infections",
-        "General immune support in winter",
-        "Post-illness recovery"
+        "Colds and upper respiratory infections",
+        "Influenza prevention and treatment",
+        "Immune system support in winter",
+        "RTI prevention in children",
+        "Viral respiratory illness"
       ],
-      "suggested_dose": "Prevention: 400–900 mg of standardised extract (containing alkylamides + cichoric acid) daily for up to 8 weeks. Acute treatment: higher doses at first sign of illness (e.g. 2,400 mg/day for 3 days, then standard dose). Take a 2-week break after every 8 weeks.",
-      "onset": "Immune activation: within hours of first dose. Clinical effects on cold duration and severity: 1–3 days.",
+      "suggested_dose": "1000-2000 mg/day of standardised extract (alkylamides + caffeic acid derivatives) at first sign of illness. Use for 7-10 days, then take a break. Long-term daily use not recommended beyond 8-10 weeks.",
+      "onset": "Immune activation: within 24-48 hours of starting. RTI symptom relief: 3-5 days of treatment.",
       "safety_snapshot": [
-        "Avoid if you have an autoimmune disease (lupus, RA, MS)",
-        "Do not take with transplant or immunosuppressant medication",
-        "Avoid if allergic to ragweed or daisies"
+        "Do not use if you have an autoimmune disease or are on immunosuppressants",
+        "Avoid if allergic to ragweed, daisies, or chrysanthemums",
+        "Do not use continuously for more than 10 weeks"
       ]
     }
   },
@@ -2097,47 +2156,55 @@
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/12044949/",
-        "https://pubmed.ncbi.nlm.nih.gov/16060394/",
-        "https://pubmed.ncbi.nlm.nih.gov/12406587/",
-        "https://pubmed.ncbi.nlm.nih.gov/42106747/",
-        "https://pubmed.ncbi.nlm.nih.gov/42101670/",
-        "https://pubmed.ncbi.nlm.nih.gov/42075018/"
+        "https://pubmed.ncbi.nlm.nih.gov/41665742/",
+        "https://pubmed.ncbi.nlm.nih.gov/41897140/",
+        "https://pubmed.ncbi.nlm.nih.gov/42075018/",
+        "https://pubmed.ncbi.nlm.nih.gov/40218964/"
+      ],
+      "cited_references": [
+        "[1] - Khalil AM, Kamal RM, El-Shiekh RA, Elbanna AH, Hamdy SA., \"Elderberry (Sambucus nigra L.): an ethnopharmacological, phytochemical and biological review for a prospective nutraceutical plant.\", Inflammopharmacology, 2026, PMID: 41665742",
+        "[2] - Olas B., \"Comparative Review of Cardioprotective Potential of Various Parts of Sambucus nigra L. and Their Products.\", International Journal of Molecular Sciences, 2026, PMID: 41516333",
+        "[3] - Calapai F, Ammendolia I, Mannucci C et al., \"Evaluation of the Effects of an Immune-Boosting Food Supplement on Paediatric Respiratory Tract Infections: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial.\", Children (Basel), 2026, PMID: 41897140",
+        "[4] - Setz C, Setz M, Rauch P et al., \"Synergistic Virus Neutralizing Activities of European Black Elderberry Fruit Extract and Iota-Carrageenan Against SARS-CoV-2, Influenza A Virus and RSV.\", Nutrients, 2026, PMID: 42075018",
+        "[5] - Setz C, Rauch P, Setz M et al., \"Synergistic Antiviral Activity of European Black Elderberry Fruit Extract and Quinine Against SARS-CoV-2 and Influenza A Viruses.\", Nutrients, 2025, PMID: 40218964",
+        "[6] - Ren Y, Meyer G, Anderson AT et al., \"Development of Potential Therapeutic Agents from Black Elderberries (the Fruits of Sambucus nigra L.).\", Molecules, 2024, PMID: 38998923",
+        "[7] - Teets C, Etter AJ, Solverson PM., \"One-Week Elderberry Juice Intervention Promotes Metabolic Flexibility in the Transcriptome of Overweight Adults During a Meal Challenge.\", Nutrients, 2025, PMID: 41097219",
+        "[8] - Cañedo-Figueroa DM et al., \"Natural Compounds with Antiviral Activity Against Clinically Relevant RNA Viruses: Advances of the Last Decade.\", Biomolecules, 2025, PMID: 41154696"
       ]
     },
     "narrative_summary": {
-      "historical_use": "The elder tree has occupied a central place in European folk medicine, mythology, and culture for millennia. Called 'the medicine chest of the country people' by the herbalist John Evelyn (1664). Hippocrates referred to elder as his 'medicine chest.' Both the flowers and berries were used extensively in traditional European medicine for colds, flu, fever, rheumatism, and skin conditions. The tree was sacred in Norse, Celtic, and Slavic traditions — in Denmark, the elder tree was inhabited by 'Hyldemor' (Elder Mother), a protective spirit.",
-      "modern_application": "A 2016 randomised, double-blind, placebo-controlled trial (Tiralongo et al.) showed standardised elderberry extract significantly reduced cold duration and severity in air travellers. A 2004 RCT (Zakay-Rones et al.) demonstrated a 4-day faster recovery from influenza B with elderberry syrup (Sambucol) versus placebo. A 2019 meta-analysis of 4 RCTs confirmed significant reductions in upper respiratory symptom duration and severity. Standardised extracts (Sambucol, Isorel) with documented anthocyanin content are the most clinically validated preparations.",
-      "side_effects": "Well tolerated when properly prepared. Raw unripe berries, bark, leaves, and seeds contain sambunigrin (a cyanogenic glycoside) — can cause nausea, vomiting, and diarrhoea if consumed raw. Commercially prepared extracts and cooked berries are safe. Potential excessive immune stimulation (cytokine storm amplification) is a theoretical concern in severe influenza — clinical evidence for this risk is not established. Rare allergic reactions in Asteraceae-sensitive individuals.",
-      "contraindications": "Never consume raw unripe berries, leaves, or bark — cyanogenic glycoside poisoning. Caution in autoimmune conditions — immune stimulation may exacerbate. Avoid with immunosuppressants. Potential interaction with diuretics and laxatives (elderberry has mild diuretic properties)."
+      "historical_use": "Sambucus nigra has been used medicinally across Europe and the Americas for millennia. Flowers (Flos Sambuci) were employed to reduce fever, soothe respiratory catarrh, and treat skin disorders; ripe berries (Fructus Sambuci) were made into syrups, wines, and decoctions for influenza, colds, and constipation. The plant features in the materia medica of Hippocrates, Dioscorides, and Galen, and was known as the 'medicine chest of the country people' in 17th-century England. Indigenous North American peoples used elderberry preparations for infections, pain relief, and as a purgative.",
+      "modern_application": "Elderberry extracts are among the most clinically studied herbal antivirals. A 2026 ethnopharmacological review confirms activity against influenza, SARS-CoV-2, RSV, and other RNA viruses through inhibition of viral surface proteins hemagglutinin and neuraminidase [1, 8]. In vitro studies demonstrate synergistic antiviral effects when combined with iota-carrageenan [4] and quinine [5]. A 2026 randomised, double-blind, placebo-controlled clinical trial found significant reductions in paediatric respiratory tract infection frequency and severity with an elderberry-containing supplement [3]. Reviews document additional cardioprotective [2], antidiabetic, antioxidant, and neuroprotective activities [1, 6]. A 2025 transcriptomic study in overweight adults showed one week of elderberry juice significantly altered gene expression toward enhanced metabolic flexibility and insulin signalling [7].",
+      "side_effects": "Processed elderberry preparations are generally well-tolerated at standard doses. Rare gastrointestinal effects (nausea, vomiting) with excessive intake. Raw unripe berries, seeds, bark, and leaves contain the cyanogenic glycoside sambunigrin, causing nausea and emesis if consumed raw; heating or processing eliminates this compound [1, 6]. Theoretical immunostimulatory activity may aggravate autoimmune conditions.",
+      "contraindications": "Raw, unprocessed plant material contraindicated in all populations. Caution warranted in patients on immunosuppressants (calcineurin inhibitors, corticosteroids) due to opposing immunostimulatory activity [1]. Avoid in known hypersensitivity to Sambucus species or the Adoxaceae family."
     },
     "clinical_data": {
-      "used_part": "Ripe berry (fruit; cooked or standardised extract); flower (elderflower — diaphoretic, anti-inflammatory)",
+      "used_part": "Ripe berries (Fructus Sambuci), flowers (Flos Sambuci)",
       "primary_active_compounds": [
-        "Cyanidin-3-O-glucoside (dominant anthocyanin; antiviral)",
-        "Cyanidin-3-O-sambubioside (anthocyanin)",
-        "Cyanidin-3-O-rutinoside and cyanidin-3,5-O-diglucoside",
-        "Quercetin, kaempferol, and isorhamnetin (flavonols)",
-        "Chlorogenic acids (caffeic acid esters; antioxidant)",
-        "Sambunigrin (cyanogenic glycoside — raw plant only; eliminated by cooking/processing)",
-        "Lectins (SNA-I, SNA-II; agglutinins — antiviral binding proteins)"
+        "Cyanidin-3-glucoside (anthocyanin)",
+        "Cyanidin-3-sambubioside (anthocyanin)",
+        "Quercetin",
+        "Rutin",
+        "Kaempferol",
+        "Chlorogenic acid",
+        "Sambunigrin (cyanogenic glycoside, raw plant only)"
       ],
-      "mechanism_of_action": "Anthocyanins (primarily cyanidin-3-glucoside) directly inhibit influenza viral <strong>hemagglutinin</strong>, preventing viral attachment and entry into respiratory epithelial cells. Flavonoids inhibit viral <strong>neuraminidase</strong> — the same target as oseltamivir (Tamiflu) — blocking viral release from infected cells. Lectins (SNA-I) bind sialic acid residues on viral surfaces. Stimulate early cytokine production (<strong>IL-6</strong>, <strong>TNF-α</strong>, <strong>IL-1β</strong>) in macrophages via <strong>TLR-4</strong> engagement, accelerating innate immune activation. Quercetin activates <strong>Nrf2/HO-1</strong> antioxidant pathway and inhibits <strong>NLRP3</strong> inflammasome assembly in later infection phases.",
+      "mechanism_of_action": "Antiviral activity mediated through direct binding to viral hemagglutinin and neuraminidase surface proteins, blocking host-cell sialic acid receptor recognition and viral entry [4, 5, 8]. Anthocyanins activate <strong>TLR4</strong>/<strong>NF-κB</strong> and <strong>MAPK</strong> signalling, stimulating innate immune cytokine production (TNF-α, IL-6, IL-1β) [1]. Antioxidant activity via <strong>Nrf2</strong>/<strong>HO-1</strong> pathway induction and direct free-radical scavenging by phenolic hydroxyl groups [6]. Cardioprotective effects involve eNOS upregulation, inhibition of LDL oxidation, and attenuation of <strong>NF-κB</strong>-driven vascular inflammation [2].",
       "pharmacokinetics": {
-        "absorption": "Elderberry anthocyanins are absorbed in humans as intact glycosides — an important finding that refutes older assumptions that anthocyanins require deglycosylation before intestinal uptake [1]. In healthy volunteers given 3.57 g total anthocyanins from concentrated elderberry juice, cyanidin glycosides were detectable in urine within 1 hour of ingestion [2]. In a separate study of 16 volunteers given 11 g elderberry concentrate, urinary excretion of intact cyanidin-3-glucoside and cyanidin-3-sambubioside was quantifiable, though absolute recovery was low (0.003–0.012% of dose), indicating that the majority undergoes intestinal metabolism before reaching systemic circulation [3]. Concurrent sucrose ingestion reduced anthocyanin absorption.",
-        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Anthocyanins were detected in both plasma and red blood cells in the human bioavailability study, suggesting distribution into cellular compartments. Their short plasma half-lives indicate limited tissue accumulation under typical dietary conditions.",
-        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — The large majority of ingested elderberry anthocyanins are not recovered intact in urine (<0.2% of dose), implying extensive gut microbial and hepatic biotransformation. Intestinal bacteria cleave glycosidic bonds to release cyanidin aglycone, which is further degraded to phenolic acids (protocatechuic acid, phloroglucinol aldehyde). Phase II conjugation of residual intact anthocyanins and phenolic acid metabolites produces the glucuronide and sulfate conjugates found in plasma.",
-        "excretion": "Urinary pharmacokinetics of elderberry cyanidin glycosides were characterised in 7 healthy volunteers [2]: elimination half-lives were 1.25 ± 0.25 h for cyanidin-3,5-diglucoside, 1.53 ± 0.36 h for cyanidin-3-glucoside, and 1.38 ± 0.20 h for cyanidin-3-sambubioside. Maximum urinary excretion rates occurred within 1 h of intake, and plasma anthocyanin clearance followed first-order kinetics with most compounds excreted within 4 h [1]. The very short half-lives and low urinary recovery (<0.2% intact) confirm rapid systemic clearance and extensive prior metabolic transformation."
+        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Elderberry anthocyanins are absorbed in the gastrointestinal tract with low absolute oral bioavailability. Cyanidin-3-glucoside and cyanidin-3-sambubioside demonstrate rapid absorption in animal models; peak plasma concentrations are reached within 0.5–1 hour post-administration. Bioavailability is limited (<5%) due to extensive presystemic metabolism by intestinal epithelium and colonic microbiota, converting anthocyanins to simpler phenolic acids [1, 6].",
+        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — In rodent models, anthocyanins and their phenolic acid metabolites distribute widely to vascular tissues, liver, kidneys, and bladder epithelium. Plasma protein binding of elderberry flavonoids (quercetin, rutin) exceeds 80–90%, predominantly to albumin [6].",
+        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Cyanidin glycosides undergo rapid hydrolysis by intestinal β-glucosidases and gut microbiota, releasing cyanidin aglycone, which is further ring-opened to protocatechuic acid and phloroglucinaldehyde. Phase II hepatic conjugation (glucuronidation, sulfation, O-methylation) generates circulating metabolites including quercetin-3-glucuronide and isorhamnetin [1, 6].",
+        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Elimination is primarily renal for phase II-conjugated phenolic metabolites; <1% of intact anthocyanins is recovered in urine. Biliary excretion accounts for elimination of high-molecular-weight glucuronide and sulfate conjugates [6]."
       },
       "safety_and_interactions": {
-        "drug_interactions": "Immunosuppressants (cyclosporin, tacrolimus) — pharmacodynamic antagonism via immune stimulation; avoid concurrent use. Diuretics — additive diuretic effect. Antidiabetic agents — anthocyanins improve insulin sensitivity; monitor blood glucose. Antiviral drugs (oseltamivir) — theoretical synergy via complementary neuraminidase inhibition; not formally studied.",
-        "toxicity": "Sambunigrin in raw berries, bark, and leaves: cyanide-equivalent doses cause nausea, vomiting, weakness (case series documented). Cooking or commercial preparation completely eliminates this risk. No toxicity documented with properly prepared commercial extracts."
+        "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
+        "toxicity": "Acute oral toxicity of processed elderberry preparations is low. Standardised elderberry extract has been administered across multiple clinical trials without hepatotoxic or haematological adverse signals [3]. Raw plant material containing sambunigrin is toxic; cooking or commercial processing eliminates this risk [1, 6]."
       },
       "special_precautions": {
-        "pregnancy": "Insufficient clinical safety data for high-dose supplements. Elderflower tea at culinary quantities is generally considered safe. Avoid concentrated berry extracts during pregnancy.",
-        "lactation": "No documented harm at normal dietary quantities. High-dose supplemental extracts not studied; avoid concentrated preparations.",
-        "hepatic_impairment": "No hepatotoxicity documented. Quercetin conjugation may be impaired in severe liver disease. No dose adjustment guidelines established.",
-        "renal_impairment": "No specific contraindication. Phenolic acid metabolites are renally excreted. No dose adjustment established for moderate impairment."
+        "pregnancy": "Insufficient clinical safety data. Processed berry extracts at normal dietary doses are likely low-risk, but medicinal-dose supplements are not recommended during pregnancy due to absence of controlled trials.",
+        "lactation": "Excretion of elderberry constituents in human breast milk is unstudied. Medicinal-dose supplements not recommended.",
+        "hepatic_impairment": "No specific clinical data. Standard hepatic precautions apply; avoid concentrated extracts in severe hepatic impairment.",
+        "renal_impairment": "No specific data. Standard precautions apply at normal supplement doses."
       }
     },
     "consumer_view": {
@@ -2171,43 +2238,55 @@
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/42068430/",
-        "https://pubmed.ncbi.nlm.nih.gov/42055533/",
-        "https://pubmed.ncbi.nlm.nih.gov/42009593/"
+        "https://pubmed.ncbi.nlm.nih.gov/41734824/",
+        "https://pubmed.ncbi.nlm.nih.gov/39692050/",
+        "https://pubmed.ncbi.nlm.nih.gov/39154580/",
+        "https://pubmed.ncbi.nlm.nih.gov/40287114/"
+      ],
+      "cited_references": [
+        "[1] - Jiang H et al., \"Discrimination of the significance of astragalosides in Astragalus radix based on in vivo exposure levels.\", Journal of Ethnopharmacology, 2026, PMID: 41734824",
+        "[2] - Wang H et al., \"Recent advances in the treatment of non-alcoholic fatty liver disease with astragaloside IV.\", Acta Pharmaceutica, 2025, PMID: 40668649",
+        "[3] - Zhuang SR et al., \"Effects of Astragalus membranaceus and Panax notoginseng Saponins Extract on Pharmacokinetics of whey protein components in older adults.\", Nutrients, 2026, PMID: 41683325",
+        "[4] - Xiang LH et al., \"Phenomenological pharmacokinetics of traditional Chinese medicines: A proof-of-concept study with Astragali Radix.\", Journal of Ethnopharmacology, 2025, PMID: 40287114",
+        "[5] - Wang T et al., \"Herb-drug interaction potential of Astragali Radix: a metabolic perspective.\", Drug Metabolism Reviews, 2025, PMID: 39692050",
+        "[6] - Du R et al., \"Pharmacokinetics of two triterpenoid saponins and three flavonoids in Astragalus membranaceus leaves in rats.\", Journal of Pharmaceutical and Biomedical Analysis, 2024, PMID: 39154580",
+        "[7] - Duan Y et al., \"A comprehensive pharmacokinetic strategy for systematic evaluation of whole interaction of Astragalus-Fructus Corni compatibility.\", Journal of Ethnopharmacology, 2025, PMID: 39603397",
+        "[8] - Zhang Y et al., \"The synergistic effect of Huangqi Gegen decoction on thrombosis relates to astragalus polysaccharide-improved oral delivery.\", Journal of Ethnopharmacology, 2024, PMID: 39053719"
       ]
     },
     "narrative_summary": {
-      "historical_use": "One of the most important tonic herbs in Traditional Chinese Medicine (TCM), first described in the Shen Nong Ben Cao Jing (c. 100 CE) as a superior-grade tonic for tonifying 'Wei Qi' (defensive vital energy) — the TCM concept roughly equivalent to immune function. The name 'Huang Qi' means 'yellow leader,' referring to the yellow root and its status as a leading tonic herb. Used for over 2,000 years as an immune tonic, adaptogen, and treatment for fatigue, night sweats, and general debility.",
-      "modern_application": "Clinically studied as an immunomodulatory adjunct in oncology — a meta-analysis of 34 RCTs (2006, Journal of Clinical Oncology) found astragalus injection combined with chemotherapy significantly improved survival in non-small cell lung cancer. Astragaloside IV (the primary saponin) received particular attention after the discovery that cycloastragenol (its aglycone, marketed as TA-65) activates telomerase, potentially extending cellular lifespan — studied in small human trials with preliminary positive results on immune cell telomere length. Widely used in integrative oncology and as a general immune tonic.",
-      "side_effects": "Exceptionally well tolerated; among the safest adaptogens available. Mild GI upset (nausea, loose stools) at high doses. Rare allergic reactions. Autoimmune exacerbation possible (immune-stimulating activity). Theoretical concern about immune-stimulating activity promoting graft rejection in transplant patients.",
-      "contraindications": "Contraindicated with immunosuppressants (transplant antirejection drugs) — pharmacodynamic antagonism. Caution in active autoimmune flares. Avoid with lithium (potential diuretic-like effect reducing renal clearance of lithium). Very high doses may interfere with blood pressure control (hypotensive at very high doses)."
+      "historical_use": "Astragalus (Huang Qi) has occupied a central position in Traditional Chinese Medicine for over 2,000 years, classified as a superior tonic herb in the Shen Nong Ben Cao Jing (c. 100 CE). Used to tonify the 'wei qi' (defensive energy), treat chronic fatigue, spontaneous sweating, prolapsed organs, and poor wound healing. It remains one of the most widely used herbs in Chinese herbal formulae and is a principal ingredient in Fu Zheng therapy — the TCM approach to immune restoration in oncology patients.",
+      "modern_application": "Astragalus root extracts demonstrate immunomodulatory, anti-fibrotic, cardioprotective, and anti-ageing properties. Astragaloside IV (ASIV) is extensively investigated for non-alcoholic fatty liver disease (NAFLD) via modulation of insulin resistance, lipid metabolism, and oxidative stress [2]. Detailed pharmacokinetic mapping in rat plasma identified 127 distinct in vivo existence forms of Astragali Radix components by UHPLC-Q-TOF-MS/MS [4]. Astragalus polysaccharides (APS) enhance amino acid absorption in older adults [3], and polysaccharide nanoparticles improve bioavailability of co-administered phytochemicals [8]. Cycloastragenol, generated from ASIV by gut microbial biotransformation, activates telomerase and is investigated for anti-ageing applications [1]. CYP450 and P-gp modulation by Astragali Radix creates clinically relevant herb-drug interaction potential [5].",
+      "side_effects": "Generally well-tolerated at standard doses (9–30 g crude root equivalent). Rare GI upset, bloating, and mild diuresis. Theoretical immunostimulatory activity may worsen autoimmune conditions or interact with immunosuppressive therapy. High-dose or prolonged use may dysregulate immune homeostasis.",
+      "contraindications": "Caution with immunosuppressants (cyclosporine, tacrolimus) due to opposing immunostimulatory activity. CYP2C9/CYP3A4 modulation raises concern with warfarin, cyclosporine, and statins [5]. Avoid in acute infections (risk of cytokine surge). Insufficient safety data in pregnancy; avoid medicinal doses."
     },
     "clinical_data": {
-      "used_part": "Root (4–7 years old; dried slices, decoction, or standardised extract)",
+      "used_part": "Dried root (Radix Astragali / Huang Qi)",
       "primary_active_compounds": [
-        "Astragalosides I–IV (lanostane-type triterpene saponins — primary active)",
-        "Cycloastragenol (aglycone of astragaloside IV; telomerase activator; TA-65 base compound)",
-        "Astragalus polysaccharides (APS — arabinogalactans, glucans; primary immunostimulant)",
-        "Formononetin and calycosin (isoflavones; phytoestrogenic, cardioprotective)",
-        "Astragalin (kaempferol-3-glucoside; antioxidant)",
-        "Canavanine (non-protein amino acid — trace; immunomodulatory)"
+        "Astragaloside IV (cycloartane saponin)",
+        "Astragaloside I, II, III",
+        "Astragalus polysaccharides (APS)",
+        "Cycloastragenol (aglycone metabolite)",
+        "Calycosin (isoflavone)",
+        "Formononetin (isoflavone)",
+        "Astragalin (flavonol glycoside)"
       ],
-      "mechanism_of_action": "Astragalus polysaccharides (APS) activate macrophages, dendritic cells, and <strong>NK cells</strong> via <strong>TLR-4</strong> and <strong>Dectin-1</strong> signalling, upregulating <strong>IL-2</strong>, <strong>IFN-γ</strong>, and <strong>TNF-α</strong> production. Astragaloside IV and cycloastragenol activate <strong>telomerase (hTERT)</strong> — the enzyme that maintains telomere length — by epigenetic derepression of the hTERT gene, potentially slowing cellular ageing. Cardioprotective via <strong>eNOS</strong> upregulation, NO production, and inhibition of cardiomyocyte apoptosis. Anti-tumour via <strong>NK cell</strong> activation and restoration of T-lymphocyte function suppressed by chemotherapy. APS modulate the <strong>Th1/Th2</strong> immune axis, correcting the Th2 dominance associated with chronic illness.",
+      "mechanism_of_action": "Immunomodulation via <strong>TLR4</strong>/<strong>NF-κB</strong> activation by astragalus polysaccharides, stimulating macrophage and NK-cell activity [2]. ASIV exerts anti-fibrotic effects through <strong>TGF-β1</strong>/<strong>Smad</strong> pathway suppression and <strong>AMPK</strong>-dependent lipid metabolism regulation in hepatocytes [2]. Cycloastragenol activates <strong>telomerase reverse transcriptase (TERT)</strong>, extending telomere length in senescent immune cells [1]. Flavonoids (calycosin, formononetin) act as phytoestrogens via <strong>ERα</strong>/<strong>ERβ</strong> agonism and modulate <strong>PI3K/Akt</strong> and <strong>MAPK</strong> survival pathways [5]. Saponin fractions improve intestinal amino acid absorption through gut microbiome modulation [3, 8].",
       "pharmacokinetics": {
-        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Astragalosides are poorly absorbed intact due to high molecular weight and hydrophilicity. Cycloastragenol (deglycosylated form) is significantly more bioavailable. APS act primarily in the GI tract and at mucosal surfaces; systemic absorption is limited. Formononetin and calycosin are well absorbed and undergo hepatic metabolism.",
-        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Astragalosides distribute to lymphoid organs (spleen, thymus, lymph nodes), bone marrow, and liver — consistent with immunomodulatory and haematopoietic effects. Cycloastragenol penetrates immune cell nuclei (evidence from telomerase activation studies). APS concentrate in GALT and spleen.",
-        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Astragalosides undergo gut microbial deglycosylation to cycloastragenol (primary bioactive form). Cycloastragenol is further hepatically hydroxylated. Formononetin converted to daidzein by gut bacteria; both conjugated in liver. Calycosin undergoes ring-opening.",
-        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Biliary (primary) and urinary. Cycloastragenol metabolites excreted in faeces via bile. Formononetin and calycosin metabolites in urine. Half-life of cycloastragenol metabolites not well established in humans."
+        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — UHPLC-Q-TOF-MS/MS mapping of rat plasma following oral administration identified 127 distinct in vivo existence forms of Astragali Radix components, including parent saponins, metabolites, and protein-bound adducts (Xiang LH et al., 2025) [4]. Astragaloside IV has poor oral bioavailability in rodents (<5%); partial conversion to the more bioavailable cycloastragenol occurs via gut microbial deglycosylation [1]. Flavonoids calycosin and formononetin show moderate absorption; pharmacokinetic parameters (t½, Cmax, AUC) characterised in rat plasma by UHPLC-MS/MS (Du R et al., 2024) [6].",
+        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — ASIV distributes to liver, kidney, and lung in rodent models following oral dosing; tissue concentrations peak at 1–2 hours post-administration [2]. Flavonoids exhibit moderate plasma protein binding and distribute to peripheral tissues including bone and cardiovascular tissue [6].",
+        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Astragalosides undergo stepwise deglycosylation by intestinal and hepatic β-glucosidases and gut microbiota, generating cycloastragenol as the principal active metabolite [1]. Flavonoids (calycosin, formononetin) are substrates of <strong>CYP3A4</strong> and undergo O-methylation; phase II glucuronidation and sulfation are the principal conjugation pathways [5, 6]. Astragali Radix modulates <strong>CYP2C9</strong>, <strong>CYP3A4</strong>, <strong>UGT1A6</strong>, and <strong>P-glycoprotein</strong> activity [5].",
+        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Saponin conjugates are primarily eliminated via biliary excretion; flavonoid glucuronides and sulfates are recovered in urine. Polysaccharide fractions are degraded by colonic microbiota with minimal systemic absorption [6, 8]."
       },
       "safety_and_interactions": {
-        "drug_interactions": "Immunosuppressants (cyclosporin, tacrolimus, mycophenolate, prednisone) — pharmacodynamic antagonism; may lead to graft rejection in transplant patients; contraindicated. Cyclophosphamide and other chemotherapy agents — APS may reduce myelosuppression (protective effect); clinically studied. Lithium — possible reduction in renal lithium clearance; monitor lithium levels. Antihypertensives — mild vasodilatory activity may have additive effect at very high doses.",
-        "toxicity": "LD50 >160 g/kg in mice (oral aqueous extract — extremely safe). No organ toxicity at therapeutic doses in any published clinical trial. Canavanine content in raw herb is negligible. Parenteral astragalus preparations (used in TCM hospitals) rarely associated with allergic reactions."
+        "drug_interactions": "Astragali Radix has documented herb-drug interaction potential from a metabolic perspective. Wang T et al. (2025) demonstrated modulation of <strong>CYP2C9</strong>, <strong>CYP3A4</strong>, <strong>UGT1A6</strong>, and <strong>P-glycoprotein (P-gp)</strong> activity in metabolic assays [5]. CYP2C9 modulation may alter plasma concentrations of warfarin, phenytoin, and NSAIDs; CYP3A4 interactions may affect cyclosporine, tacrolimus, statins, and macrolide antibiotics. P-gp inhibition may increase bioavailability of transported drugs (digoxin, dabigatran) [5]. Formal clinical pharmacokinetic interaction studies are not yet available; clinical significance of these interactions remains to be quantified in human trials.",
+        "toxicity": "Acute oral toxicity is low; LD50 for standardised Astragalus extracts exceeds 100 g/kg in rodents. Chronic use in clinical settings is generally well-tolerated without significant hepatic or haematological adverse effects [3]."
       },
       "special_precautions": {
-        "pregnancy": "Insufficient human safety data. Isoflavone content (formononetin) suggests caution due to phytoestrogenic activity. Avoid during pregnancy.",
-        "lactation": "No documented harm. Isoflavone excretion in breast milk is possible. Avoid high-dose standardised extracts during breastfeeding.",
-        "hepatic_impairment": "No specific dose adjustment required. Hepatoprotective effects demonstrated in clinical trials for viral hepatitis. Safe at standard doses in liver disease.",
-        "renal_impairment": "Mild diuretic-like activity at high doses; caution with lithium co-administration. No contraindication at standard therapeutic doses. Monitor renal function in severe CKD."
+        "pregnancy": "Insufficient human safety data. High-dose medicinal preparations not recommended. Low-dose dietary use likely low-risk; controlled data absent.",
+        "lactation": "Excretion in breast milk not studied. Medicinal-dose preparations should be avoided.",
+        "hepatic_impairment": "ASIV is under active investigation for NAFLD treatment [2]; use with caution in severe hepatic impairment due to altered first-pass metabolism and potential metabolite accumulation.",
+        "renal_impairment": "Limited data. Standard precautions apply; dose reduction may be appropriate in severe renal impairment."
       }
     },
     "consumer_view": {
@@ -2242,45 +2321,55 @@
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/9619120/",
-        "https://pubmed.ncbi.nlm.nih.gov/17999464/",
-        "https://pubmed.ncbi.nlm.nih.gov/42152667/",
-        "https://pubmed.ncbi.nlm.nih.gov/42142792/",
-        "https://pubmed.ncbi.nlm.nih.gov/42136296/"
+        "https://pubmed.ncbi.nlm.nih.gov/42075010/",
+        "https://pubmed.ncbi.nlm.nih.gov/41426786/",
+        "https://pubmed.ncbi.nlm.nih.gov/41901246/",
+        "https://pubmed.ncbi.nlm.nih.gov/41300526/"
+      ],
+      "cited_references": [
+        "[1] - Wang Z et al., \"Turmeric: A Comprehensive Review.\", Nutrients, 2026, PMID: 42075010",
+        "[2] - Malhotra VK et al., \"BioTurm™ Bioavailability Study: Randomized comparative study of turmeric extract formulations.\", Cureus, 2025, PMID: 41426786",
+        "[3] - Căuș MN et al., \"Herbal Supplements Review — cytochrome P450-mediated drug interactions identified for turmeric.\", Pharmaceuticals, 2026, PMID: 41901246",
+        "[4] - Bertollo AG et al., \"Medicinal plants for major depressive disorder: complex pharmacokinetics and herb-drug interaction risks.\", Brain Sciences, 2026, PMID: 41750223",
+        "[5] - Viudes DR et al., \"Randomized placebo-controlled study of turmeric on endothelial glycocalyx in type 2 diabetes.\", European Journal of Nutrition, 2026, PMID: 41984245",
+        "[6] - Kuzia N et al., \"Zingiberaceae plants for antidiabetic and anti-inflammatory use: bioavailability delivery systems.\", Molecules, 2026, PMID: 41599361",
+        "[7] - Sneha Sri R et al., \"Integration of traditional medicine approaches for Alzheimer's disease: curcumin neuroprotective effects.\", Frontiers in Pharmacology, 2025, PMID: 40661073",
+        "[8] - Ofori-Attah E et al., \"Systematic review of curcumin in kidney disease: curcumin-drug interactions and bioavailability.\", Antioxidants, 2025, PMID: 41300526"
       ]
     },
     "narrative_summary": {
-      "historical_use": "Turmeric has been used in Ayurvedic and traditional Chinese medicine for over 4,000 years. In Ayurveda it is known as 'haridra' or 'kanchani' (golden goddess) and is classified as a bitter tonic, blood purifier, and wound healer. Used extensively in Unani medicine and throughout South and Southeast Asia as a culinary spice, dye, and medicine for liver conditions, skin disorders, and inflammation. Marco Polo noted its similarities to saffron during his travels through China in 1280 CE.",
-      "modern_application": "Curcumin — the principal curcuminoid — is one of the most extensively studied plant compounds in biomedical research, with over 6,000 PubMed publications. Despite extraordinary preclinical breadth (anti-inflammatory, neuroprotective, anti-cancer, antidiabetic), clinical translation has been limited by extremely poor oral bioavailability (<1%). Advanced delivery systems (BCM-95, Theracurmin, Meriva phospholipid complex, nano-curcumin) achieve 10–20-fold higher plasma concentrations and have shown clinical benefit in osteoarthritis (non-inferior to ibuprofen in two RCTs), ulcerative colitis, depression (adjunct to antidepressants), and metabolic syndrome.",
-      "side_effects": "Generally very safe at culinary doses. At high supplemental doses (>8 g/day): GI upset, nausea, diarrhoea, flatulence. Rare: contact dermatitis. High-dose piperine combinations may cause GI irritation. Potential pro-oxidant at very high doses. Yellow staining of skin and stool. Oxalate content — high-dose chronic use may increase kidney stone risk in susceptible individuals.",
-      "contraindications": "Caution with anticoagulants (warfarin, heparin, aspirin) — curcumin has antiplatelet activity; INR monitoring required. Avoid high doses in cholelithiasis (gallstones) — curcumin stimulates bile duct contraction. Caution before surgery (antiplatelet effects). Avoid high doses in pregnancy (uterotonic at pharmacological doses). Caution with iron supplementation — curcumin chelates iron."
+      "historical_use": "Curcuma longa has been central to Ayurvedic (Haridra), Unani, and Traditional Chinese Medicine for over 4,000 years. Used in Ayurveda as an anti-inflammatory, wound healer, carminative, and hepatoprotective agent; applied topically for skin diseases and joint pain. Featured in the Sushruta Samhita (c. 600 BCE) and traditional Southeast Asian cooking as both spice and medicine. The yellow pigment curcumin was first isolated in 1815.",
+      "modern_application": "Curcumin (the principal bioactive curcuminoid) is one of the most extensively studied phytochemicals. A 2026 comprehensive review confirms regulatory roles on noncoding RNAs, epigenetic modifications, and multiple signalling cascades [1]. Clinical trials demonstrate anti-inflammatory benefit in osteoarthritis, inflammatory bowel disease, and metabolic syndrome. A 2026 RCT evaluated turmeric effects on endothelial function and redox-inflammatory pathways in type 2 diabetes [5]. Poor oral bioavailability of native curcumin — due to rapid metabolism and low aqueous solubility — is a central clinical challenge; enhanced formulations (piperine combinations, nanoparticles, micellar preparations) significantly improve systemic exposure in human bioavailability studies [2, 6]. CYP450-mediated drug interactions represent a clinically significant concern requiring monitoring [3, 8].",
+      "side_effects": "Well-tolerated at doses ≤8 g/day curcumin in clinical trials. Common adverse effects at higher doses: GI discomfort, nausea, diarrhoea, and flatulence. Rare hepatotoxicity with high-dose or adulterated preparations. Curcumin inhibits platelet aggregation, increasing bleeding risk. Yellow staining of skin and mucous membranes at high doses.",
+      "contraindications": "Avoid at medicinal doses in biliary tract obstruction and gallstones (stimulates bile secretion). Caution with anticoagulants (warfarin, heparin, DOACs) due to additive antiplatelet effects. CYP3A4/CYP1A2 inhibition risks interactions with narrow therapeutic index drugs (cyclosporine, tacrolimus, certain chemotherapy agents) [3]. Avoid high-dose supplements in pregnancy."
     },
     "clinical_data": {
-      "used_part": "Rhizome (dried and powdered; standardised curcuminoid extract)",
+      "used_part": "Rhizome (dried root)",
       "primary_active_compounds": [
-        "Curcumin (diferuloylmethane; primary curcuminoid — 77% of curcuminoid content)",
-        "Demethoxycurcumin (17% of curcuminoids)",
-        "Bisdemethoxycurcumin (6% of curcuminoids)",
-        "Ar-turmerone, α-turmerone, β-turmerone (sesquiterpene ketones in volatile oil)",
-        "Cyclocurcumin (minor curcuminoid)",
-        "Zingiberene (sesquiterpene shared with ginger)"
+        "Curcumin (diferuloylmethane)",
+        "Demethoxycurcumin",
+        "Bisdemethoxycurcumin",
+        "α-Turmerone (sesquiterpene)",
+        "β-Turmerone",
+        "ar-Turmerone",
+        "Curlone"
       ],
-      "mechanism_of_action": "Curcumin inhibits <strong>NF-κB</strong> transcription factor by preventing IκBα phosphorylation and proteasomal degradation, suppressing expression of <strong>COX-2</strong>, <strong>iNOS</strong>, <strong>TNF-α</strong>, <strong>IL-1β</strong>, and <strong>IL-6</strong>. Inhibits the <strong>JAK/STAT3</strong> signalling pathway, relevant to cancer cell survival and immune evasion. Activates <strong>Nrf2/HO-1</strong> antioxidant response element, upregulating superoxide dismutase and glutathione. Inhibits amyloid-β (<strong>Aβ</strong>) aggregation and tau phosphorylation via <strong>GSK-3β</strong> inhibition — neuroprotective in Alzheimer's models. Promotes cancer cell apoptosis via modulation of the <strong>Bcl-2/Bax</strong> ratio and inhibition of <strong>EGFR</strong> and <strong>VEGF</strong> receptor signalling. Upregulates <strong>BDNF</strong>, contributing to antidepressant effects.",
+      "mechanism_of_action": "Pleiotropic anti-inflammatory activity through simultaneous inhibition of <strong>NF-κB</strong>, <strong>AP-1</strong>, and <strong>STAT3</strong> transcription factors, suppressing COX-2, iNOS, and pro-inflammatory cytokine expression [1]. Antioxidant activity via direct free-radical scavenging and <strong>Nrf2</strong>/<strong>HO-1</strong> pathway induction, upregulating glutathione and catalase [6]. Epigenetic modulation — curcumin regulates miRNA expression and acts as a <strong>DNMT</strong> and <strong>HDAC</strong> inhibitor [1]. Metabolic effects include <strong>AMPK</strong>-dependent lipid metabolism regulation and insulin sensitisation [6]. Neuroprotective effects include inhibition of amyloid-β aggregation and tau hyperphosphorylation via <strong>GSK-3β</strong> inhibition [7].",
       "pharmacokinetics": {
-        "absorption": "Curcumin has extremely poor oral bioavailability in humans, which is well-characterised in clinical studies. At a single 2 g oral dose, serum curcumin levels were either undetectable or negligibly low in healthy human volunteers [1]. This was attributed to poor intestinal absorption, rapid first-pass metabolism, and rapid systemic elimination. However, co-administration of 20 mg piperine (black pepper alkaloid, a glucuronidation inhibitor) with 2 g curcumin produced a 2000% increase in bioavailability in the same human cohort [1]. Phase I clinical trials have confirmed curcumin is safe at doses up to 12 g/day but plasma levels remain low even at these high doses without bioavailability enhancers [2].",
-        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Curcumin is highly lipophilic and extensively protein-bound (>99% to serum albumin). Its poor aqueous solubility limits systemic distribution despite adequate tissue penetration when absorbed. Animal studies demonstrate high concentrations in the gastrointestinal wall and liver — the primary sites of first-pass metabolism — but low levels in systemic circulation.",
-        "metabolism": "Rapid conjugative metabolism in the intestinal wall and liver is the primary reason for curcumin's poor bioavailability [2]. Curcumin undergoes Phase II glucuronidation (UGT1A1, UGT1A8, UGT1A10) and sulfation, producing curcumin glucuronide and curcumin sulfate as the dominant circulating metabolites. Phase I reduction also produces tetrahydrocurcumin, hexahydrocurcumin, and octahydrocurcumin. Piperine significantly inhibits intestinal glucuronidation, explaining the dramatic bioavailability enhancement observed in human co-administration studies [1].",
-        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Curcumin and its conjugated metabolites are excreted primarily in bile and faeces rather than in urine. Biliary excretion of curcumin glucuronides establishes an enterohepatic cycle. The rapid systemic elimination observed in Phase I trials [2] is consistent with high hepatic clearance. Urinary recovery of curcumin is minimal, reflecting predominant non-renal elimination."
+        "absorption": "Oral bioavailability of native curcumin is inherently poor due to rapid intestinal metabolism, low aqueous solubility, and extensive presystemic elimination; peak plasma concentrations after standard doses are typically <10 ng/mL in human pharmacokinetic studies [1]. Enhanced formulations substantially improve systemic exposure: a 2025 randomised comparative human study (Malhotra VK et al.) demonstrated that BioTurm™ achieved significantly enhanced bioavailability versus standard curcumin-piperine combinations without requiring additional enhancers [2]. Nanoparticulate and micellar delivery systems increase Cmax and AUC by 2–10-fold in human subjects [6].",
+        "distribution": "Curcumin and its primary metabolites (tetrahydrocurcumin, curcumin glucuronide, curcumin sulfate) distribute to liver, intestine, kidney, and brain [1]. Highly lipophilic; plasma protein binding to albumin and α1-acid glycoprotein exceeds 90%. Blood-brain barrier penetration is supported by neuroprotection data and preclinical models [7].",
+        "metabolism": "Extensive first-pass metabolism in the intestinal wall and liver; curcumin undergoes reduction to dihydrocurcumin and tetrahydrocurcumin, followed by phase II glucuronidation and sulfation. <strong>CYP3A4</strong>, <strong>CYP1A2</strong>, and <strong>CYP2D6</strong> are involved in oxidative metabolism; curcumin concurrently inhibits these enzymes, creating potential for auto-inhibition and drug interactions [3]. Gut microbiota biotransformation generates additional metabolites including ferulic acid [1].",
+        "excretion": "Primarily faecal (>60%) as phase II conjugates and degradation products; renal excretion of glucuronide/sulfate metabolites accounts for <10% of absorbed dose. Elimination half-life is approximately 6–8 hours for curcumin metabolites in human pharmacokinetic studies [1, 2]."
       },
       "safety_and_interactions": {
-        "drug_interactions": "Anticoagulants (warfarin, heparin) — antiplatelet activity and possible CYP2C9 inhibition; monitor INR. Antiplatelet drugs (aspirin, clopidogrel) — additive bleeding risk. Chemotherapy agents (doxorubicin, cyclophosphamide) — preclinical evidence of both sensitisation and antagonism; clinical data insufficient; consult oncologist. Iron supplements — curcumin chelates iron, reducing absorption; separate by ≥2 hours. Piperine combinations — 20-fold increase in curcumin bioavailability also increases bioavailability of co-administered drugs (important drug interaction risk amplifier). CYP3A4, CYP2C9, CYP1A2 substrates — curcumin inhibits multiple CYPs at high doses.",
-        "toxicity": "LD50 >10 g/kg in mice (oral). Phase I clinical trials demonstrated tolerability up to 12 g/day. GI side effects dose-limiting at very high doses. Oxalate content in turmeric powder: ~91 mg per 100 g — high-dose chronic use increases urinary oxalate and stone risk in susceptible individuals. No clinically significant hepatotoxicity documented."
+        "drug_interactions": "Curcumin is a potent modulator of drug-metabolising enzymes with clinically significant interaction potential. Inhibition of <strong>CYP3A4</strong>, <strong>CYP1A2</strong>, and <strong>CYP2D6</strong> raises plasma concentrations of co-administered substrates including cyclosporine, tacrolimus, statins, certain chemotherapy agents, and psychotropics [3, 4]. P-glycoprotein (P-gp) inhibition enhances absorption of efflux transporter substrates (e.g. paclitaxel, digoxin). Additive antiplatelet effects with warfarin, heparin, and direct oral anticoagulants are clinically documented [1]. A 2025 systematic review of curcumin in kidney disease identified multiple curcumin-drug interactions affecting drug bioavailability and clinical efficacy [8]. Patients on narrow therapeutic index drugs or polypharmacy should be monitored closely.",
+        "toxicity": "Curcumin is classified as GRAS (Generally Recognised as Safe) at food use levels by the US FDA. In clinical trials, doses up to 8 g/day are generally tolerated; doses >10 g/day cause dose-dependent GI adverse effects. Rare hepatotoxicity reported with adulterated or high-dose preparations. No mutagenicity or genotoxicity detected in standard assays [1]."
       },
       "special_precautions": {
-        "pregnancy": "Culinary quantities are safe. High supplemental doses (≥500 mg curcumin extracts) should be avoided — uterotonic activity at pharmacological doses and insufficient safety data.",
-        "lactation": "No evidence of harm at dietary intake. High-dose extracts not studied; avoid during breastfeeding.",
-        "hepatic_impairment": "Hepatoprotective at standard doses. Caution at very high doses — extensive hepatic metabolism may be impaired. No formal dose adjustment guidelines. Monitor if using with other hepatically metabolised drugs.",
-        "renal_impairment": "High oxalate content in turmeric powder poses kidney stone risk with chronic high-dose use in CKD or stone-formers. Use purified curcumin extracts (low oxalate) rather than whole turmeric powder in renal impairment."
+        "pregnancy": "High-dose medicinal use not recommended. Curcumin may stimulate uterine contractions at pharmacological doses; controlled human data absent. Culinary use is considered safe.",
+        "lactation": "Limited data. Culinary use likely safe; medicinal-dose supplements should be avoided.",
+        "hepatic_impairment": "Use with caution due to extensive hepatic metabolism and rare hepatotoxicity reports with high-dose preparations. Baseline and periodic liver enzyme monitoring recommended.",
+        "renal_impairment": "Curcumin and metabolites predominantly eliminated via faeces; no specific renal dose adjustment established. Evidence suggests potential nephroprotective benefit in CKD populations [8]."
       }
     },
     "consumer_view": {
@@ -2315,46 +2404,55 @@
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/21638149/",
-        "https://pubmed.ncbi.nlm.nih.gov/35916113/",
-        "https://pubmed.ncbi.nlm.nih.gov/42153012/",
-        "https://pubmed.ncbi.nlm.nih.gov/42128790/",
-        "https://pubmed.ncbi.nlm.nih.gov/42126587/"
+        "https://pubmed.ncbi.nlm.nih.gov/41764614/",
+        "https://pubmed.ncbi.nlm.nih.gov/41754892/",
+        "https://pubmed.ncbi.nlm.nih.gov/41457469/",
+        "https://pubmed.ncbi.nlm.nih.gov/42153012/"
+      ],
+      "cited_references": [
+        "[1] - Shanaida M et al., \"Herbal Medicines and Drugs Interactions: Cytochrome P450 Responsibility.\", Current Medicinal Chemistry, 2026, PMID: 41764614",
+        "[2] - Varga T et al., \"Ginger and Its Purified Major Components Inhibit Clinically Relevant Uptake and Efflux Transporters In Vitro.\", Pharmaceutics, 2026, PMID: 41754892",
+        "[3] - Husain I et al., \"Ginger as a Modulator of Drug Metabolizing Enzymes and Transporters.\", Journal of Dietary Supplements, 2026, PMID: 41457469",
+        "[4] - Tolou-Ghamari Z., \"Tacrolimus, Cytochrome P450, Interactions with Food Variables.\", Current Drug Metabolism, 2025, PMID: 39757635",
+        "[5] - Bozorgvar M et al., \"Ginger Supplementation in Children with Oligoarticular Juvenile Idiopathic Arthritis: Triple-Blind Randomized Clinical Trial.\", Avicenna Journal of Phytomedicine, 2026, PMID: 42153012",
+        "[6] - Simeone P et al., \"Ginger Bioactives as Multi-Target Therapeutics.\", Nutrients, 2026, PMID: 41978129",
+        "[7] - Kuzia N et al., \"Antidiabetic and Anti-Inflammatory Potential of Zingiberaceae Plants.\", Molecules, 2026, PMID: 41599361",
+        "[8] - Nieoczym D et al., \"Studies on the Anticonvulsant Potential of 6-Gingerol.\", Frontiers in Pharmacology, 2026, PMID: 42110551"
       ]
     },
     "narrative_summary": {
-      "historical_use": "One of the most ancient and globally distributed medicinal spices, cultivated for over 5,000 years. First described in the Chinese pharmacopoeia Shennong Ben Cao Jing (c. 100 CE). The name 'ginger' derives from the Sanskrit 'srngaveram' (horn root). Traded along the Silk Road and Arab spice routes for millennia. In medieval Europe it was so highly valued it was used to pay rent and taxes. Hippocrates and Dioscorides both described its GI and warming properties. Ayurveda calls it 'vishwabhesaj' (universal medicine).",
-      "modern_application": "Among the best-evidenced herbal medicines for nausea and vomiting. A 2014 Cochrane review confirmed efficacy for nausea and vomiting of pregnancy (NVP) with a safety profile comparable to vitamin B6. Multiple RCTs confirm benefit for chemotherapy-induced nausea (CINV) as an adjunct to standard antiemetics. For pain, a 2015 systematic review of 5 RCTs found significant reduction in dysmenorrhoea; anti-inflammatory effects in osteoarthritis are equivalent to ibuprofen in some RCTs. Effective dose: 1–2 g of dried ginger or 250 mg of standardised extract (5% gingerols) twice daily.",
-      "side_effects": "Heartburn and gastric reflux are the most common complaints, especially at doses >2 g. Mouth and throat irritation from fresh ginger. Diarrhoea at high doses. Increased bleeding time (antiplatelet effect). Rare: allergic reactions. May potentiate hypoglycaemia in combination with antidiabetic drugs. Excessive consumption during pregnancy debated — therapeutic doses appear safe but very high doses should be avoided.",
-      "contraindications": "Caution with anticoagulants and antiplatelet drugs (additive bleeding risk). Avoid high doses (>4 g/day) in pregnancy. Caution in patients with active peptic ulcer disease or severe GERD (gastric irritation). Caution before surgery (antiplatelet activity — discontinue ≥1 week pre-operatively at high doses)."
+      "historical_use": "Zingiber officinale has been cultivated and used medicinally for over 3,000 years across Asia, the Middle East, and the Mediterranean. In Ayurveda it is known as 'Vishwabheshaj' (universal medicine) and applied for digestive disorders, nausea, arthritis, and respiratory ailments. Arabic and Greek physicians documented its carminative and diaphoretic properties. Traditional Chinese Medicine employs both fresh (Sheng Jiang) and dried (Gan Jiang) ginger for different clinical indications.",
+      "modern_application": "Ginger is among the most pharmacologically validated herbal medicines. The strongest clinical evidence supports antiemetic activity in pregnancy-related nausea and chemotherapy-induced nausea [6]. A 2026 triple-blind RCT in paediatric juvenile idiopathic arthritis (Bozorgvar et al.) demonstrated significant improvements in ACR-Pedi response criteria with ginger supplementation [5]. Ginger bioactives act as multi-target therapeutics across cardiovascular, inflammatory, neurological, and metabolic pathways [6]. Drug interaction potential is substantial: ginger inhibits 17 of 33 clinically relevant drug transporters in vitro through gingerol and shogaol components [2] and modulates multiple CYP450 isoforms [1, 3]. A documented tacrolimus-ginger interaction via CYP3A4/P-gp inhibition raises specific concerns in transplant recipients [4].",
+      "side_effects": "Well-tolerated at culinary doses. At higher supplemental doses (>2–4 g/day): heartburn, GI discomfort, belching, and mild diarrhoea. Antiplatelet activity at doses >2 g/day. Contact dermatitis with topical application. Drug interaction risk escalates at supplemental doses.",
+      "contraindications": "Caution with anticoagulants (warfarin, direct oral anticoagulants) and antiplatelet drugs due to additive antiplatelet effects. Contraindicated at high supplemental doses in transplant patients on tacrolimus or cyclosporine due to CYP3A4/P-gp inhibition [4]. Pre-operative cessation recommended (≥7 days). Avoid high-dose supplements with narrow therapeutic index substrates of CYP1A2, CYP3A4, or CYP2C9 [1, 3]."
     },
     "clinical_data": {
-      "used_part": "Rhizome (fresh — zingiber recens; dried — zingiber siccum; steam-distilled essential oil)",
+      "used_part": "Rhizome (fresh and dried)",
       "primary_active_compounds": [
-        "6-Gingerol (primary pungent compound in fresh ginger; anti-inflammatory, antiemetic)",
-        "8-Gingerol and 10-gingerol (homologous gingerols)",
-        "6-Shogaol (dehydrated gingerol; formed on drying/heating; more potent anti-inflammatory than gingerol)",
-        "Zingerone (formed from 6-gingerol on heating; milder, less pungent)",
-        "6-Paradol (formed from gingerols; antimicrobial)",
-        "Zingiberene and bisabolene (sesquiterpenes in essential oil)",
-        "Galanolactone (diterpenoid; 5-HT3 antagonist)"
+        "6-Gingerol",
+        "8-Gingerol",
+        "10-Gingerol",
+        "6-Shogaol (dehydration product of 6-gingerol)",
+        "Paradol",
+        "Zingerone",
+        "β-Bisabolene (essential oil terpene)"
       ],
-      "mechanism_of_action": "6-Gingerol and 6-shogaol dually inhibit <strong>COX-1</strong>/<strong>COX-2</strong> and <strong>5-LOX</strong> (lipoxygenase), reducing both prostaglandin E2 and leukotriene B4 synthesis — a combined anti-inflammatory mechanism distinct from NSAIDs (COX-only). Antiemetic activity via peripheral <strong>5-HT3 receptor</strong> antagonism in the gut (reducing afferent vagal signalling to the vomiting centre) and weak <strong>D2 receptor</strong> antagonism. Galanolactone is a competitive <strong>5-HT3</strong> antagonist. Gastric prokinetic via <strong>motilin receptor</strong> agonism, accelerating gastric emptying. Thermogenic via activation of <strong>TRPV1</strong> (transient receptor potential vanilloid 1 channel). Antiplatelet via suppression of <strong>thromboxane A2 (TXA2)</strong> synthesis and inhibition of <strong>COX-1</strong>-dependent platelet activation.",
+      "mechanism_of_action": "Anti-inflammatory activity via dual inhibition of <strong>COX-1/COX-2</strong> and <strong>5-LOX</strong> enzymes, suppressing prostaglandin E2 and leukotriene B4 synthesis; concurrent inhibition of <strong>NF-κB</strong> and <strong>MAPK</strong> signalling cascades reduces pro-inflammatory cytokine production [6]. Antiemetic mechanism involves antagonism of <strong>5-HT3 receptors</strong> in the GI tract and CNS, and modulation of <strong>NK1 receptors</strong> [6]. 6-Gingerol demonstrates anticonvulsant activity through selective modulation of voltage-gated sodium channels in preclinical seizure models [8]. Metabolic effects include <strong>PPAR-γ</strong> and <strong>AMPK</strong> activation, improving insulin sensitivity [7]. Ginger components inhibit 17 of 33 clinically relevant drug transporters including <strong>OATP1B1/1B3</strong> (hepatic uptake), <strong>OCT2</strong>, <strong>OAT1/3</strong>, <strong>MATE1/2-K</strong> (renal), and <strong>P-gp</strong> (efflux) [2].",
       "pharmacokinetics": {
-        "absorption": "The pharmacokinetics of ginger's active constituents have been directly characterised in humans. After oral ingestion of 2 g ginger extract, free 10-gingerol (Cmax 9.5 ± 2.2 ng/mL) and 6-shogaol (Cmax 13.6 ± 6.9 ng/mL) were detected in plasma at 1 h [1]. Notably, free 6-gingerol and 8-gingerol were not detectable as free forms at any time point, appearing only as glucuronide and sulfate conjugates — indicating rapid and near-complete presystemic conjugation of the more polar gingerols. A second human study in asthma patients given 1 g ginger extract twice daily for 56 days confirmed peak concentrations of all analytes were reached within 2 h, and long-term supplementation progressively increased plasma exposure [2].",
-        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Gingerols and shogaols are moderately lipophilic and are expected to distribute into tissues. Pharmacological activity in the gastrointestinal tract and at colon mucosa is plausible given the detection of 10-gingerol glucuronide and sulfate in colon tissue at low (2–3 ng/mL) concentrations in the human study [1]. No volume-of-distribution data have been published for humans.",
-        "metabolism": "Phase II conjugation (glucuronidation and sulfation) is the primary metabolic route for gingerols and shogaols in humans. Free 6- and 8-gingerols were undetectable in human plasma, with their glucuronide conjugates constituting the dominant circulating forms [1]. In asthma patients, ketone reduction was identified as the major Phase I pathway: gingerols are converted to gingerdiols, and 6-shogaol undergoes both double-bond and ketone reduction (metabolites M11, M9) as well as cysteine conjugation [2]. More than 90% of 6-shogaol is converted to its Phase I and cysteine-conjugated metabolites, underscoring the importance of active metabolites for pharmacological effects.",
-        "excretion": "Plasma half-lives of gingerols, shogaols, and their metabolites were 1–3 h in a 2 g single-dose human study [1], and 0.6–2.4 h in the asthma patient cohort [2]. No accumulation of free analytes or their conjugates was observed after multiple daily doses in the single-dose study. The short half-lives and the predominance of conjugated metabolites indicate rapid renal clearance as the primary elimination route for the circulating conjugated forms."
+        "absorption": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — 6-Gingerol is rapidly absorbed following oral administration in animal models; peak plasma concentrations achieved within 0.5–1 hour. Absolute bioavailability is limited by rapid first-pass metabolism and conversion to shogaols and conjugated gingerol metabolites in the gut wall and liver [3, 6]. In vitro transporter inhibition studies demonstrate that both gingerols and shogaols interact with 17 of 33 clinically relevant transport proteins (Varga T et al., 2026), suggesting transporter-mediated absorption is a significant component of disposition [2].",
+        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Gingerols and shogaols are highly lipophilic and distribute broadly to peripheral tissues including liver, kidney, brain, and gastrointestinal mucosa. Plasma protein binding is high (>90%) for gingerols [3]. Tissue distribution studies show preferential hepatic concentration, consistent with the site of principal CYP450-mediated metabolism [6].",
+        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — 6-Gingerol undergoes rapid hepatic biotransformation via reduction to 6-gingerol alcohol followed by glucuronidation and sulfation (phase II). Oxidative metabolism via <strong>CYP3A4</strong> and <strong>CYP1A2</strong> generates hydroxylated metabolites. Gingerols and shogaols concurrently inhibit these CYP enzymes at supplemental concentrations, creating potential for auto-inhibition and drug interactions [1, 3]. Gut microbiota further metabolise gingerol to zingerone and simple phenolics.",
+        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Primary elimination is renal for phase II-conjugated gingerol metabolites (glucuronides, sulfates). Biliary excretion accounts for high-molecular-weight conjugates. Elimination half-life of 6-gingerol and primary metabolites estimated at 3–5 hours in rodent models [3]."
       },
       "safety_and_interactions": {
-        "drug_interactions": "Anticoagulants (warfarin, heparin) — additive antiplatelet activity (TXA2 inhibition); monitor INR, especially at doses >2 g/day. Antiplatelet drugs (aspirin, clopidogrel) — additive bleeding risk. Antidiabetic agents (insulin, metformin, sulfonylureas) — additive glucose-lowering via AMPK pathway; hypoglycaemia risk. Antihypertensives — additive BP reduction via vasodilatory effects. Calcium channel blockers — 6-shogaol inhibits vascular smooth muscle Ca²⁺ channels; potentiation possible. Chemotherapy antiemetics (ondansetron) — additive 5-HT3 antagonism; potentially beneficial combination.",
-        "toxicity": "LD50 >5,000 mg/kg in mice (oral). No clinically significant toxicity at therapeutic doses (<4 g/day). GI irritation (heartburn, ulceration) at very high doses in susceptible individuals. No hepatotoxicity or nephrotoxicity documented. Mutagenicity assays negative for gingerols at therapeutic concentrations."
+        "drug_interactions": "Ginger has well-characterised drug interaction potential through multiple mechanisms. An in vitro pharmacological study (Varga T et al., 2026) demonstrated inhibition of 17 of 33 clinically relevant uptake and efflux transporters — including hepatic (<strong>OATP1B1</strong>, <strong>OATP1B3</strong>) and renal (<strong>OCT2</strong>, <strong>OAT1/3</strong>, <strong>MATE1/2-K</strong>) transporters — by gingerols and shogaols; prolonged high-dose consumption may pose clinically significant transporter-mediated herb-drug interactions [2]. Modulation of <strong>CYP1A2</strong>, <strong>CYP3A4</strong>, and <strong>CYP2C9</strong> affects metabolism of co-administered substrates including tacrolimus, cyclosporine, warfarin, and statins [1, 3]. Clinically documented tacrolimus-ginger interaction showed increased tacrolimus plasma concentrations through combined CYP3A4 and P-gp inhibition, with implications for therapeutic drug monitoring in transplant patients [4]. Additive antiplatelet effects with NSAIDs and anticoagulants at supplemental doses [6].",
+        "toxicity": "Acute oral LD50 for ginger extract >5 g/kg in rodents. GRAS status at food use levels (US FDA). Clinical trials at supplemental doses (1–4 g/day) demonstrate favourable safety profiles, including in paediatric RCTs [5]. No hepatotoxicity or haematological toxicity at standard doses."
       },
       "special_precautions": {
-        "pregnancy": "Therapeutic doses (1 g/day) are considered safe and effective for NVP based on multiple RCTs. Avoid doses >2 g/day during pregnancy; very high doses may have uterotonic effects. First trimester exposure in large observational studies shows no increased malformation risk.",
-        "lactation": "No documented harm at dietary or standard therapeutic doses. Excreted in breast milk in small amounts. Considered compatible with breastfeeding by most authorities.",
-        "hepatic_impairment": "Hepatoprotective effects documented in NAFLD models. No contraindication at therapeutic doses. Hepatic CYP1A2 and CYP3A4 involvement; drug interaction risk higher in severe liver disease.",
-        "renal_impairment": "No specific contraindication. Metabolites renally excreted; no dose adjustment guidelines established. Monitor in severe renal impairment."
+        "pregnancy": "Culinary use is safe. For nausea of pregnancy, ginger (1–1.5 g/day) is a first-line non-pharmacological option with clinical trial support; doses >1.5 g/day should be avoided. No evidence of teratogenicity at food doses.",
+        "lactation": "Culinary use considered safe. No controlled data on medicinal-dose supplementation; avoid high-dose preparations.",
+        "hepatic_impairment": "Use with caution. Extensive hepatic first-pass metabolism; CYP450 interactions are more pronounced with hepatic dysfunction. Avoid high-dose supplements.",
+        "renal_impairment": "Transporter-mediated interactions at the kidney (OCT2, OAT1/3, MATE1/2-K) documented in vitro [2]; caution warranted when co-administered with renally cleared drugs at supplemental doses."
       }
     },
     "consumer_view": {
@@ -2389,45 +2487,54 @@
     ],
     "sources": {
       "top_studies_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/21553931/",
-        "https://pubmed.ncbi.nlm.nih.gov/27329304/",
-        "https://pubmed.ncbi.nlm.nih.gov/42130642/",
-        "https://pubmed.ncbi.nlm.nih.gov/42102034/",
-        "https://pubmed.ncbi.nlm.nih.gov/42057627/"
+        "https://pubmed.ncbi.nlm.nih.gov/39033725/",
+        "https://pubmed.ncbi.nlm.nih.gov/41471392/",
+        "https://pubmed.ncbi.nlm.nih.gov/41341032/",
+        "https://pubmed.ncbi.nlm.nih.gov/39875757/"
+      ],
+      "cited_references": [
+        "[1] - Peng C, Yang Y, Wang Y et al., \"From bench to bedside, boswellic acids in anti-inflammatory therapy — mechanistic insights, bioavailability challenges, and optimization approaches.\", Frontiers in Pharmacology, 2025, PMID: 41341032",
+        "[2] - Schmiech M, Abdel-Kahaar E, Ulrich J et al., \"Single-dose comparative pharmacokinetic/pharmacodynamic study of a micellar formulation versus a native Boswellia serrata dry extract.\", Phytomedicine, 2024, PMID: 39033725",
+        "[3] - Salter D, Gupta SVB, Sairam B et al., \"A standardized combination of Boswellia serrata and Terminalia chebula extracts to improve cognition in adults with subjective memory complaints.\", Frontiers in Nutrition, 2025, PMID: 41438191",
+        "[4] - Giglio M, Mattia C, Sansone P et al., \"Efficacy and Safety of Acmella oleracea and Boswellia serrata Extract as Add-On Therapy for Chronic Low Back Pain.\", Pharmaceuticals, 2025, PMID: 41471392",
+        "[5] - Mamatha K, Prabhakaran P, Syam Das S et al., \"Full-spectrum Boswellia serrata extract with enhanced bioavailability and its co-delivered system with curcumin alleviate moderate spondylitis.\", Frontiers in Pharmacology, 2025, PMID: 40667507",
+        "[6] - Vaidya N, Agarwal R, Dipankar DG et al., \"Efficacy and Safety of Boswellia serrata and Apium graveolens L. Extract Against Knee Osteoarthritis and Cartilage Degeneration.\", Pharmaceutical Research, 2025, PMID: 39875757",
+        "[7] - Mungara AVVP, Shaik NR, M CK, Sureja VP., \"CL16019: A Combination of Cissus quadrangularis and Boswellia serrata Extracts Promotes Healing of Distal Radius Fractures.\", Journal of Integrative and Complementary Medicine, 2026, PMID: 41896193",
+        "[8] - Bonucci M, Fuggetta MP, Anelli L et al., \"New Approach for Enhancing Survival in Glioblastoma Patients: A Longitudinal Pilot Study on Integrative Oncology.\", Cancers, 2025, PMID: 40723205"
       ]
     },
     "narrative_summary": {
-      "historical_use": "Boswellia resin (frankincense) has been valued for millennia in Ayurvedic, Unani, and traditional African and Middle Eastern medicine. Among the world's oldest traded commodities — ancient Egyptian hieroglyphs document frankincense trade routes from the Punt region (present-day Somalia). In Ayurveda, Boswellia serrata (Shallaki) has been used for over 3,000 years for joint conditions, diarrhoea, skin diseases, and as a lung tonic. Mentioned in the Sushruta Samhita for musculoskeletal pain. Frankincense was one of the gifts brought to the infant Jesus — reflecting its immense historical value.",
-      "modern_application": "The most clinically distinctive feature of Boswellia is its selective inhibition of 5-lipoxygenase (5-LOX) — the enzyme responsible for leukotriene synthesis — rather than COX enzymes targeted by NSAIDs. This explains its efficacy without GI bleeding risk. A 2003 RCT (Kimmatkar et al.) demonstrated significant reduction in knee OA pain, swelling, and walking distance versus placebo. A 2011 RCT showed AKBA-enriched Boswellia extract (5-Loxin) superior to celecoxib for knee OA at 90 days. Evidence also supports benefit in asthma, Crohn's disease, and ulcerative colitis. Standardised extracts enriched in AKBA (3-O-acetyl-11-keto-β-boswellic acid) are the most clinically validated.",
-      "side_effects": "Well tolerated in clinical trials. GI discomfort (nausea, acid reflux) most common — reduced when taken with food. Diarrhoea and skin rash reported infrequently. No significant haematological, hepatic, or renal adverse effects in RCTs of up to 6 months. Less GI toxicity than NSAIDs at equivalent anti-inflammatory doses — a key clinical advantage.",
-      "contraindications": "Caution with anticoagulants — boswellic acids may have antiplatelet activity. Caution before surgery. Limited pregnancy data — avoid high-dose supplemental use in pregnancy (traditional use suggests safety at culinary exposure). Caution in patients with peptic ulcer or severe GERD at high doses."
+      "historical_use": "Boswellia serrata resin (Shallaki / Salai guggul) has been central to Ayurvedic medicine for over 3,000 years, used primarily for inflammatory joint diseases, respiratory conditions, and gastrointestinal disorders. The Charaka Samhita and Sushruta Samhita document its application for arthritis, diarrhoea, and skin diseases. Frankincense oleoresin has been burned as incense in ancient Egyptian, Jewish, and early Christian traditions, and used topically for wound healing across Mediterranean and South Asian cultures.",
+      "modern_application": "Boswellia serrata extracts standardised to boswellic acids (particularly AKBA) are clinically established for inflammatory conditions. The strongest clinical evidence is in osteoarthritis and chronic pain: a 2025 randomised, double-blind, placebo-controlled multicenter trial (Vaidya N et al.) confirmed significant efficacy in knee OA with favourable safety [6]; a 2025 observational cohort (n=103) demonstrated analgesic benefit as add-on therapy for chronic low back pain [4]. A 2025 RCT demonstrated cognitive improvement with a Boswellia-Terminalia chebula combination over 120 days [3]. Bioavailability is a central clinical challenge: a 2024 crossover pharmacokinetic trial in 20 healthy volunteers (Schmiech M et al.) showed micellar formulations achieve 1,720–4,291% higher boswellic acid bioavailability versus native dry extract, with comparable anti-inflammatory pharmacodynamics [2]. Pilot integrative oncology data suggest a survival benefit when Boswellia is combined with other phytochemicals in glioblastoma patients [8].",
+      "side_effects": "Generally well-tolerated in clinical trials up to 12 months. Most common adverse effects: GI symptoms (nausea, diarrhoea, acid reflux) in 5–10% of participants. Rare skin reactions (pruritus, rash) in 1–3%. No significant haematological or hepatic toxicity at standard doses [4, 6].",
+      "contraindications": "No absolute contraindications established at recommended doses. Theoretical antiplatelet activity warrants caution with anticoagulants. Avoid in known hypersensitivity to Burseraceae family members. Insufficient safety data for use in pregnancy and lactation."
     },
     "clinical_data": {
-      "used_part": "Oleo-gum resin (exudate from trunk incisions); standardised extract (enriched boswellic acids)",
+      "used_part": "Oleoresin gum (standardised extract)",
       "primary_active_compounds": [
-        "3-O-Acetyl-11-keto-β-boswellic acid (AKBA — most potent 5-LOX inhibitor)",
+        "3-O-Acetyl-11-keto-β-boswellic acid (AKBA)",
         "11-Keto-β-boswellic acid (KBA)",
-        "α-Boswellic acid and β-boswellic acid (principal boswellic acids by mass)",
-        "3-O-Acetyl-α-boswellic acid (AABA)",
-        "Incensole acetate (diterpene; anti-inflammatory, neuroprotective; TRPV3 agonist)",
-        "Lupeolic acid (triterpenoid)"
+        "α-Boswellic acid",
+        "β-Boswellic acid",
+        "Incensole acetate (diterpene)",
+        "Lupeolic acid"
       ],
-      "mechanism_of_action": "AKBA is a selective, non-competitive inhibitor of <strong>5-lipoxygenase (5-LOX)</strong>, blocking conversion of arachidonic acid to leukotriene A4 and downstream pro-inflammatory leukotrienes (LTB4, LTC4, LTD4). Unlike NSAIDs, Boswellia does not inhibit <strong>COX-1</strong> or <strong>COX-2</strong> — preserving gastric prostaglandin production and explaining its GI safety advantage. Also inhibits <strong>microsomal prostaglandin E synthase-1 (mPGES-1)</strong>, reducing PGE2. Prevents cartilage degradation by inhibiting <strong>matrix metalloprotease-3 (MMP-3)</strong> and <strong>MMP-13</strong>. Incensole acetate activates <strong>TRPV3</strong> receptor and modulates <strong>NF-κB</strong> signalling, with additional neuroprotective and anxiolytic activity in animal models. Inhibits complement activation via <strong>C3-convertase</strong> suppression.",
+      "mechanism_of_action": "Highly selective inhibition of <strong>5-lipoxygenase (5-LOX)</strong> by AKBA blocks leukotriene B4 (LTB4) and 5-HETE synthesis; this 5-LOX selectivity distinguishes Boswellia from COX-inhibiting NSAIDs and accounts for its favourable gastric tolerability profile [1]. Concurrent suppression of <strong>NF-κB</strong> transcription factor reduces downstream expression of pro-inflammatory cytokines (TNF-α, IL-1β, IL-6) and matrix metalloproteinases [1, 4]. Modest COX-2 inhibition occurs at higher concentrations. AKBA additionally promotes <strong>ROS</strong>-mediated intracellular clearance of periodontal pathogens in gingival epithelial cells, demonstrating antimicrobial activity. Incensole acetate exerts neuroprotective effects via <strong>TRPV3</strong> channel modulation and <strong>PPAR-γ</strong> agonism [3].",
       "pharmacokinetics": {
-        "absorption": "Human pharmacokinetic data reveal a striking discrepancy between the boswellic acids that are most pharmacologically potent in vitro and those that actually reach the systemic circulation. AKBA and KBA — the most potent 5-lipoxygenase inhibitors — are poorly absorbed after oral administration, with plasma concentrations far below the concentrations required for bioactivity in vitro [1]. In contrast, β-boswellic acid achieves plasma concentrations approximately 100-fold higher than AKBA and KBA, making it the dominant circulating boswellic acid in humans. This calls into question whether 5-LOX inhibition is the actual in vivo mechanism of action for oral Boswellia preparations [1].",
-        "distribution": "In animal studies, the brain-to-plasma ratios for KBA and AKBA were approximately 0.51 and 0.81 respectively, despite their lipophilicity — suggesting limited CNS penetration [1]. Human brain distribution data are unavailable. Boswellic acids appear to interact with P-glycoprotein (Pgp) in vitro, which may influence their intestinal absorption and blood–brain barrier transport, though the clinical relevance at the low plasma concentrations achieved in humans is uncertain.",
-        "metabolism": "The primary metabolic pathway for AKBA in human liver preparations is deacetylation to KBA, catalysed by carboxylesterase 2 (CES2) [2]. KBA then undergoes regioselective hydroxylation at positions 21 and 20 via CYP3A4 as the dominant enzyme. Four major metabolites have been characterised in human hepatocytes, three of which are novel hydroxylated species. Importantly, the deacetylation of AKBA to KBA is a human-specific metabolic reaction — it is not observed in rats or other rodents — which means animal studies cannot reliably predict AKBA disposition in humans [2].",
-        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — No formal human urinary or faecal excretion studies for boswellic acids have been published. Given the extensive hepatic first-pass metabolism of AKBA (to KBA and hydroxylated metabolites) and the high lipophilicity of boswellic acids, biliary/faecal excretion of phase II conjugates is the expected primary elimination route. Specific half-life data for AKBA or KBA in human plasma have not been determined due to the very low plasma concentrations achieved after oral dosing."
+        "absorption": "Human pharmacokinetic data are available for Boswellia serrata. A 2024 crossover PK/PD trial in 20 healthy volunteers (Schmiech M et al.) compared single-dose native Boswellia serrata dry extract with a micellar (LipiSperse®) formulation [2]. Native extract showed poor oral bioavailability for all major boswellic acids (KBA, AKBA, α-BA, β-BA) due to high lipophilicity and low aqueous solubility. The micellar formulation achieved relative bioavailability increases of 1,720% to 4,291% for individual boswellic acids versus native extract, establishing formulation-dependent absorption as the primary pharmacokinetic variable [2]. A 2025 RCT of enhanced full-spectrum Boswellia extract confirmed superior bioavailability of optimised preparations in a clinical setting [5].",
+        "distribution": "High lipophilicity results in preferential distribution to fatty tissues, liver, and articular cartilage in animal models [1]. AKBA accumulates in inflamed joint tissue, consistent with its clinical efficacy in osteoarthritis. Plasma protein binding is high (>95%) for all major boswellic acids.",
+        "metabolism": "Primarily hepatic; boswellic acids undergo glucuronidation and sulfation (phase II conjugation) as principal metabolic pathways. Limited CYP450-mediated oxidative metabolism reported for AKBA at clinical concentrations [1]. Gut microbial hydrolysis of ester bonds generates deacetylated metabolites (11-keto-β-boswellic acid from AKBA). No significant CYP450 auto-inhibition or induction has been reported at standard clinical doses.",
+        "excretion": "Biliary excretion of phase II conjugates is the predominant elimination route. Renal excretion of water-soluble glucuronide/sulfate conjugates accounts for a minor fraction. Elimination half-life of AKBA is approximately 4–6 hours following administration of enhanced bioavailability formulations in human volunteers [2]."
       },
       "safety_and_interactions": {
-        "drug_interactions": "Anticoagulants (warfarin) — possible additive antiplatelet activity; monitor INR. NSAIDs — additive anti-inflammatory effect via complementary pathways (COX + 5-LOX inhibition); combination may enhance efficacy with reduced NSAID dose requirements. P-glycoprotein substrates — boswellic acids inhibit P-gp; possible increased absorption of co-administered P-gp substrates (digoxin, loperamide, certain chemotherapy agents). CYP3A4 substrates — minor inhibition; clinically relevant at high doses only.",
-        "toxicity": "LD50 >5,000 mg/kg in rodents (oral). No clinically significant toxicity in RCTs of up to 6 months at 1,000–3,600 mg/day. No haematological, hepatic, or renal toxicity documented. GI side effects dose-dependent and manageable."
+        "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
+        "toxicity": "Oral acute toxicity is low; LD50 for Boswellia extracts >2 g/kg in rodents. Across multiple RCTs and observational studies spanning OA, chronic back pain, cognition, and integrative oncology, Boswellia has been consistently well-tolerated without clinically significant liver enzyme elevations, haematological changes, or serious adverse events [3, 4, 6, 8]."
       },
       "special_precautions": {
-        "pregnancy": "Insufficient clinical safety data. Traditionally used in Ayurvedic medicine during pregnancy, but high-dose extracts not validated for safety. Avoid concentrated AKBA-enriched supplements in pregnancy.",
-        "lactation": "No data on excretion in breast milk. Avoid high-dose supplements during breastfeeding.",
-        "hepatic_impairment": "UGT-mediated glucuronidation impaired in severe liver disease; boswellic acid exposure may increase. No formal dose adjustment guidelines. Use with monitoring.",
-        "renal_impairment": "No specific renal toxicity documented. Glucuronide conjugates partly renally excreted. No dose adjustment guidelines established; standard monitoring in severe renal impairment."
+        "pregnancy": "Insufficient human safety data. Traditionally avoided during pregnancy. Medicinal-dose preparations not recommended.",
+        "lactation": "No human data on excretion in breast milk. Avoid medicinal-dose supplements during lactation.",
+        "hepatic_impairment": "No specific data. Hepatic glucuronidation is the primary metabolic pathway; dose reduction and monitoring may be appropriate in severe hepatic impairment.",
+        "renal_impairment": "No specific data. Predominantly biliary elimination suggests renal dose adjustment is likely not required at standard doses."
       }
     },
     "consumer_view": {
