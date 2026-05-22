@@ -65,7 +65,10 @@ BMS website/
 ├── nginx.conf          # Nginx config: gzip, cache headers, security headers
 ├── Dockerfile          # FROM nginx:1.27-alpine; copies all site assets
 ├── docker-compose.yml  # Single service, port 80:80, restart: unless-stopped
-└── update_sources.py   # NCBI eSearch script — refreshes PMIDs and article counts
+└── scripts/
+    └── data-seeding/   # Offline data scripts (not deployed)
+        ├── add_plants_batch1.py … add_plants_batch6.py
+        └── update_sources.py   # NCBI eSearch script — refreshes PMIDs and article counts
 ```
 
 ---
@@ -124,7 +127,7 @@ Each of the 25 entries follows this structure:
 
 ```bash
 cd "BMS website"
-python3 update_sources.py
+python3 scripts/data-seeding/update_sources.py
 ```
 
 ---
