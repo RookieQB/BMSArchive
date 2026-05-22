@@ -11,7 +11,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Known in Traditional Chinese Medicine for over 2,000 years as 'Lingzhi' (spirit mushroom), revered as the 'mushroom of immortality'. Used by Taoist monks to promote longevity, calm the mind, and nourish the heart. Referenced in the Shen Nong Ben Cao Jing (c. 100 CE) as a superior tonic.",
-      "modern_application": "Clinically studied as an adjunct in oncology for immunomodulation — trials show increased NK cell and T-lymphocyte activity. Used for hepatoprotection, blood pressure reduction, and anti-fatigue. A 2016 Cochrane review found benefit in cancer patients for immune response but insufficient evidence to recommend as primary cancer therapy.",
+      "modern_application": "Clinically studied as an adjunct in oncology for immunomodulation — trials show increased NK cell and T-lymphocyte activity [1]. Hepatoprotective and anti-fatigue properties documented in preclinical and clinical contexts [1]. Beta-glucan polysaccharides demonstrate anti-proliferative activity against multiple cancer cell lines in vitro [2]. Gut microbiome modulation has been documented in murine models [3]. Anti-cancer potential in breast and colorectal cancer is supported by in vitro and network pharmacology studies [4][5].",
       "side_effects": "GI upset (nausea, diarrhoea), dry mouth, dizziness, and skin rash with prolonged use (>3–6 months). Rare but documented cases of hepatotoxicity, predominantly associated with powdered (not extract) preparations. Potential for increased bleeding time.",
       "contraindications": "Contraindicated with anticoagulants (warfarin, heparin) and antiplatelet drugs due to platelet aggregation inhibition. Use with caution alongside immunosuppressants and chemotherapy agents. Avoid prior to surgery."
     },
@@ -49,6 +49,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42142826/",
         "https://pubmed.ncbi.nlm.nih.gov/37625759/",
         "https://pubmed.ncbi.nlm.nih.gov/30989848/"
+      ],
+      "cited_references": [
+        "[1] - Ahmad R., \"Ganoderma lucidum (Reishi) an edible mushroom; a comprehensive and critical review of its nutritional, cosmeceutical, mycochemical, pharmacological, clinical, and toxicological properties.\", Phytother Res, 2021, PMID: 34411377",
+        "[2] - Sohretoglu D., \"Ganoderma lucidum Polysaccharides as An Anti-cancer Agent.\", Anticancer Agents Med Chem, 2018, PMID: 29141563",
+        "[3] - Chang CJ., \"Ganoderma lucidum reduces obesity in mice by modulating the composition of the gut microbiota.\", Nat Commun, 2015, PMID: 26102296",
+        "[4] - Gariboldi MB., \"Anti-Cancer Potential of Edible/Medicinal Mushrooms in Breast Cancer.\", Int J Mol Sci, 2023, PMID: 37373268",
+        "[5] - Zhao X., \"Network Pharmacology and Bioinformatics Study of Six Medicinal Food Homologous Plants Against Colorectal Cancer.\", Int J Mol Sci, 2025, PMID: 39940699"
       ]
     }
   },
@@ -63,7 +70,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese and Japanese medicine for centuries primarily to treat gastrointestinal disorders (gastric ulcers, chronic gastritis) and as a general tonic. Known in Japan as 'Yamabushitake'. Referenced in historical texts as a food and medicine for digestive health.",
-      "modern_application": "Clinically studied for its nerve growth factor (NGF)-stimulating properties. A 2009 double-blind RCT (Mori et al.) demonstrated significant improvement in mild cognitive impairment after 16 weeks. Evidence supports benefits in depression, anxiety, and peripheral nerve regeneration. Investigated as a neuroprotective agent in Alzheimer's and Parkinson's disease models.",
+      "modern_application": "Clinically studied for its nerve growth factor (NGF)-stimulating properties. A 2009 double-blind RCT demonstrated significant improvement in mild cognitive impairment after 16 weeks of supplementation [1]. A 4-week pilot study documented reduction in depression and anxiety scores [4]. Neuroprotective mechanisms include antioxidant and anti-inflammatory activity mediated by hericenones and erinacines [2][3]. Evidence supports investigation as a neuroprotective agent in Alzheimer's and Parkinson's disease models [2][3].",
       "side_effects": "Generally well-tolerated. Reported adverse effects include mild GI discomfort (nausea, bloating), and rare allergic reactions including contact dermatitis and respiratory allergy in sensitised individuals.",
       "contraindications": "Known allergy to Hericium species or other mushrooms. Caution with anticoagulants due to potential platelet inhibition. Caution in autoimmune conditions given immunomodulatory properties."
     },
@@ -98,6 +105,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42125535/",
         "https://pubmed.ncbi.nlm.nih.gov/42082841/",
         "https://pubmed.ncbi.nlm.nih.gov/42074246/"
+      ],
+      "cited_references": [
+        "[1] - Mori K., \"Improving effects of the mushroom Yamabushitake (Hericium erinaceus) on mild cognitive impairment: a double-blind placebo-controlled clinical trial.\", Phytother Res, 2009, PMID: 18844328",
+        "[2] - Contato AG., \"Lion's Mane Mushroom (Hericium erinaceus): A Neuroprotective Fungus with Antioxidant, Anti-Inflammatory, and Antimicrobial Potential-A Narrative Review.\", Nutrients, 2025, PMID: 40284172",
+        "[3] - Chong PS., \"Therapeutic Potential of Hericium erinaceus for Depressive Disorder.\", Int J Mol Sci, 2019, PMID: 31881712",
+        "[4] - Nagano M., \"Reduction of depression and anxiety by 4 weeks Hericium erinaceus intake.\", Biomed Res, 2010, PMID: 20834180",
+        "[5] - Łysakowska P., \"Medicinal Mushrooms: Their Bioactive Components, Nutritional Value and Application in Functional Food Production-A Review.\", Molecules, 2023, PMID: 37513265"
       ]
     }
   },
@@ -113,7 +127,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Used in folk medicine across Russia, Siberia, and Scandinavia (including Norway and Finland) since at least the 16th century. Traditionally prepared as a tea (decoction of the sclerotium) for GI diseases, tuberculosis, and cancer. Finnish records describe its use as a coffee substitute during WWII.",
-      "modern_application": "Studied primarily for antioxidant and anti-tumour activity. Betulinic acid and polysaccharides show anti-proliferative effects in vitro and in animal models. Immunomodulatory properties documented. Anti-inflammatory and anti-hyperglycaemic effects seen in preclinical studies. Human RCT data remains limited.",
+      "modern_application": "Studied primarily for antioxidant and anti-tumour activity [1][2]. Betulinic acid and polysaccharides show anti-proliferative effects in vitro and in animal models [2]. Anti-inflammatory and anti-hyperglycaemic effects have been observed in preclinical studies, including inhibition of intestinal inflammation and insulin metabolism impairment in Drosophila models [3]. Application in diabetic kidney disease is under investigation [4]. Human RCT data remains limited [1][5].",
       "side_effects": "Oxalate nephropathy with excessive long-term consumption (case reports documented). Potential hypoglycaemia. Rare hypersensitivity reactions. Theoretical bleeding risk.",
       "contraindications": "Contraindicated in patients with chronic kidney disease or urolithiasis due to very high oxalate content. Avoid with anticoagulants and antidiabetic medications without monitoring. Avoid before surgery."
     },
@@ -150,6 +164,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42102927/",
         "https://pubmed.ncbi.nlm.nih.gov/42096018/",
         "https://pubmed.ncbi.nlm.nih.gov/41978174/"
+      ],
+      "cited_references": [
+        "[1] - Szychowski KA., \"Inonotus obliquus - from folk medicine to clinical use.\", J Tradit Complement Med, 2021, PMID: 34195023",
+        "[2] - Tee PYE., \"A review on the cultivation, bioactive compounds, health-promoting factors and clinical trials of medicinal mushrooms Taiwanofungus camphoratus, Inonotus obliquus and Tropicoporus linteus.\", Fungal Biol Biotechnol, 2024, PMID: 38987829",
+        "[3] - Yu S., \"Inonotus obliquus aqueous extract inhibits intestinal inflammation and insulin metabolism defects in Drosophila.\", Toxicol Mech Methods, 2024, PMID: 38872277",
+        "[4] - Wang S., \"Research Progress on Application of Inonotus obliquus in Diabetic Kidney Disease.\", J Inflamm Res, 2023, PMID: 38161352",
+        "[5] - Łysakowska P., \"Medicinal Mushrooms: Their Bioactive Components, Nutritional Value and Application in Functional Food Production-A Review.\", Molecules, 2023, PMID: 37513265"
       ]
     }
   },
@@ -165,7 +186,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Documented in Tibetan and Chinese medicine since at least the 15th century (Ben Cao Bei Yao, 1694). Traditionally collected at high altitude on the Tibetan Plateau, growing from the larvae of Hepialus moth caterpillars. Used to treat fatigue, respiratory weakness, sexual dysfunction, and as a general tonic for the elderly.",
-      "modern_application": "Studied for anti-fatigue and athletic performance enhancement (increased VO2 max in elderly subjects). Clinically trialled for chronic kidney disease — several Chinese RCTs show reduction in proteinuria and creatinine. Immunomodulatory and anti-tumour properties documented in preclinical models. Expensive wild form largely replaced by cultured mycelium (CS-4 strain).",
+      "modern_application": "Studied for anti-fatigue, athletic performance enhancement, and immunomodulation [1][5]. A systematic review of RCTs demonstrated that Cordyceps sinensis mycelium used as adjuvant in lung cancer treatment was associated with improved clinical outcomes [3]. Bidirectional cardiac-regulatory effects have been described in clinical evaluations using network pharmacology [2]. A randomised controlled trial demonstrated efficacy for primary insomnia [4]. The expensive wild-harvested form is largely replaced by cultured mycelium (CS-4 strain) in research contexts [5].",
       "side_effects": "Mild GI upset (nausea, diarrhoea, dry mouth). Rare hypersensitivity reactions. Risk of hypoglycaemia with antidiabetic co-medication. Risk of bleeding with anticoagulants.",
       "contraindications": "Anticoagulant therapy. Immunosuppressive therapy (cyclosporine — may potentiate nephrotoxicity or immunosuppression). Autoimmune diseases — use with caution. Not recommended pre-surgery."
     },
@@ -203,6 +224,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42114627/",
         "https://pubmed.ncbi.nlm.nih.gov/42113971/",
         "https://pubmed.ncbi.nlm.nih.gov/31673018/"
+      ],
+      "cited_references": [
+        "[1] - Das G., \"Cordyceps spp.: A Review on Its Immune-Stimulatory and Other Biological Potentials.\", Front Pharmacol, 2020, PMID: 33628175",
+        "[2] - Wang L., \"Bidirectional regulatory effects of Cordyceps on arrhythmia: Clinical evaluations and network pharmacology.\", Front Pharmacol, 2022, PMID: 36059969",
+        "[3] - Wang C., \"Adjuvant treatment with Cordyceps sinensis for lung cancer: A systematic review and meta-analysis of randomized controlled trials.\", J Ethnopharmacol, 2024, PMID: 38484953",
+        "[4] - Zhao S., \"Effectiveness of fermentation broth of Cordyceps sinensis for primary insomnia: a randomized clinical trial with digital health tool.\", Front Neurol, 2025, PMID: 40726627",
+        "[5] - Łysakowska P., \"Medicinal Mushrooms: Their Bioactive Components, Nutritional Value and Application in Functional Food Production-A Review.\", Molecules, 2023, PMID: 37513265"
       ]
     }
   },
@@ -218,7 +246,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Historically used interchangeably with C. sinensis in Traditional Chinese Medicine, though less prized. Growing interest as a cultivatable alternative since wild C. sinensis is prohibitively expensive and endangered. Used in TCM for similar indications: fatigue, sexual dysfunction, respiratory conditions.",
-      "modern_application": "Contains higher concentrations of cordycepin than wild C. sinensis and is more accessible for research. A double-blind RCT (Hirsch et al., 2017) demonstrated improved VO2 max and time-to-exhaustion in active adults. Anti-inflammatory effects documented both in vitro and in vivo. Investigated for anti-tumour, antidiabetic, and renoprotective activities.",
+      "modern_application": "Contains higher concentrations of cordycepin than wild C. sinensis and is more accessible for research [3]. A randomised controlled trial demonstrated significant improvements in immune response markers in healthy adults following supplementation [1]. Safety has been assessed in randomised clinical trials with cultured Cordyceps preparations [2]. Immunomodulatory, anti-inflammatory, and anti-tumour activities are supported by both in vitro and in vivo evidence [3][4]. Properties including antidiabetic and renoprotective effects remain under active investigation [5].",
       "side_effects": "Mild GI symptoms (nausea, diarrhoea). Rare allergic reactions. Potential hypoglycaemia with concurrent antidiabetic use.",
       "contraindications": "Anticoagulant therapy. Autoimmune conditions — theoretical risk of exacerbation. Avoid pre-surgery. Caution with immunosuppressants."
     },
@@ -256,6 +284,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42114627/",
         "https://pubmed.ncbi.nlm.nih.gov/42113971/",
         "https://pubmed.ncbi.nlm.nih.gov/31673018/"
+      ],
+      "cited_references": [
+        "[1] - Ontawong A., \"A randomized controlled clinical trial examining the effects of Cordyceps militaris beverage on the immune response in healthy adults.\", Sci Rep, 2024, PMID: 38580687",
+        "[2] - Tsai YS., \"Safety Assessment of HEA-Enriched Cordyceps cicadae Mycelium: A Randomized Clinical Trial.\", J Am Coll Nutr, 2021, PMID: 32702252",
+        "[3] - Yang EJ., \"An Immunomodulatory Mushroom, Cordyceps militaris, and Its Constituents: A Review of In Vitro/In Vivo Studies and Clinical Trials.\", Phytother Res, 2026, PMID: 41432716",
+        "[4] - Das G., \"Cordyceps spp.: A Review on Its Immune-Stimulatory and Other Biological Potentials.\", Front Pharmacol, 2020, PMID: 33628175",
+        "[5] - Łysakowska P., \"Medicinal Mushrooms: Their Bioactive Components, Nutritional Value and Application in Functional Food Production-A Review.\", Molecules, 2023, PMID: 37513265"
       ]
     }
   },
@@ -271,7 +306,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese Medicine as 'Yun Zhi' (cloud mushroom) for over 2,000 years for liver ailments, infections, and as a general tonic. In Japan, the polysaccharide extract PSK (Krestin) was developed in the 1970s and became one of the best-selling anti-cancer drugs in the world, approved for clinical use in Japan.",
-      "modern_application": "PSK (polysaccharide-K) and PSP (polysaccharide-peptide) are the most clinically validated compounds. Meta-analyses of Japanese RCTs show improved 5-year survival in gastric and colorectal cancer when PSK is used as adjunct to chemotherapy. US FDA granted IND approval for a clinical trial in breast cancer. Also shown to modulate gut microbiome composition beneficially.",
+      "modern_application": "PSK (polysaccharide-K) and PSP (polysaccharide-peptide) are the most clinically studied compounds [2]. A Phase 1 clinical trial in women with breast cancer demonstrated safety and immune enhancement following oral administration [1]. PSP shows anti-proliferative activity against colorectal cancer cells via multiple molecular targets [3]. Immunomodulatory potential in the context of cancer and infectious disease is under continued investigation [4]. Clinical data supports its role as an adjunct in oncology when used alongside conventional chemotherapy [2][5].",
       "side_effects": "Generally very well tolerated. Mild GI symptoms (nausea, diarrhoea) at high doses. Rare hypersensitivity. Darkening of fingernails reported with PSK in some trials. Mild hepatotoxicity at very high doses in animal studies.",
       "contraindications": "Caution with immunosuppressants (pharmacodynamic antagonism). Avoid in known mushroom allergy. Caution pre-surgery."
     },
@@ -307,6 +342,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42129476/",
         "https://pubmed.ncbi.nlm.nih.gov/42110815/",
         "https://pubmed.ncbi.nlm.nih.gov/42105680/"
+      ],
+      "cited_references": [
+        "[1] - Torkelson CJ., \"Phase 1 Clinical Trial of Trametes versicolor in Women with Breast Cancer.\", ISRN Oncol, 2012, PMID: 22701186",
+        "[2] - Habtemariam S., \"Trametes versicolor (Synn. Coriolus versicolor) Polysaccharides in Cancer Therapy: Targets and Efficacy.\", Biomedicines, 2020, PMID: 32466253",
+        "[3] - He Z., \"Polysaccharide-Peptide from Trametes versicolor: The Potential Medicine for Colorectal Cancer Treatment.\", Biomedicines, 2022, PMID: 36359361",
+        "[4] - Jędrzejewski T., \"COVID-19 and Cancer Diseases-The Potential of Coriolus versicolor Mushroom to Combat Global Health Challenges.\", Int J Mol Sci, 2023, PMID: 36902290",
+        "[5] - Łysakowska P., \"Medicinal Mushrooms: Their Bioactive Components, Nutritional Value and Application in Functional Food Production-A Review.\", Molecules, 2023, PMID: 37513265"
       ]
     }
   },
@@ -322,7 +364,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Cultivated and used as food and medicine in China and Japan for over 1,000 years. Referenced in Chinese medical texts as early as 100 CE (Liu Ming Ben Cao). Traditionally used for improving vitality, treating colds, liver conditions, and as an aphrodisiac. The most widely cultivated edible mushroom globally.",
-      "modern_application": "Lentinan, the primary beta-glucan, is approved in Japan as an adjunct in gastric cancer treatment (IV formulation). Oral AHCC (Active Hexose Correlated Compound), derived from shiitake mycelium, is widely studied for immune enhancement. Anti-hypercholesterolaemic properties supported by multiple RCTs. Eritadenine shown to reduce serum LDL. Antiviral properties investigated (including HPV clearance in a small RCT).",
+      "modern_application": "Lentinan, the primary beta-glucan, is approved in Japan as an adjunct in gastric cancer treatment (IV formulation) [5]. AHCC (Active Hexose Correlated Compound), derived from shiitake mycelium, is studied for NK and T-cell enhancement [2] and has demonstrated tumour growth inhibitory activity in patient-derived xenograft models [3]. A randomised controlled trial evaluated AHCC supplementation for clearance of persistent HPV infections [1]. Adjuvant use following hepatic resection for hepatocellular carcinoma has been investigated [4]. Immunomodulatory polysaccharides engage innate immune pathways via pattern recognition receptors [5].",
       "side_effects": "Shiitake dermatitis (flagellate erythema) — a distinctive linear skin rash triggered by consumption of raw or undercooked mushroom (due to lentinan). GI upset. Eosinophilia reported. Rare hypersensitivity pneumonitis with occupational exposure (spore inhalation).",
       "contraindications": "Known shiitake allergy (dermatitis risk). Avoid concurrent use with immunosuppressants. Caution with anticoagulants."
     },
@@ -362,6 +404,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/27488221/",
         "https://pubmed.ncbi.nlm.nih.gov/2711382/",
         "https://pubmed.ncbi.nlm.nih.gov/34132531/"
+      ],
+      "cited_references": [
+        "[1] - Smith JA., \"AHCC® Supplementation to Support Immune Function to Clear Persistent Human Papillomavirus Infections.\", Front Oncol, 2022, PMID: 35814366",
+        "[2] - Shin MS., \"The Effects of AHCC®, a Standardized Extract of Cultured Lentinura edodes Mycelia, on Natural Killer and T Cells in Health and Disease: Reviews on Human and Animal Studies.\", J Immunol Res, 2019, PMID: 31930148",
+        "[3] - Yoshii R., \"The Tumor Growth Inhibitory Effect of a Standardized Extract of Cultured Lentinula edodes Mycelia Using Patient Derived Xenograft Model.\", Biol Pharm Bull, 2024, PMID: 38417905",
+        "[4] - Kamiyama T., \"Preventing Recurrence of Hepatocellular Carcinoma After Curative Hepatectomy With Active Hexose-correlated Compound Derived From Lentinula edodes Mycelia.\", Integr Cancer Ther, 2022, PMID: 35075934",
+        "[5] - Roszczyk A., \"Immunomodulatory Properties of Polysaccharides from Lentinula edodes.\", Int J Mol Sci, 2022, PMID: 36012249"
       ]
     }
   },
@@ -377,7 +426,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese and Japanese medicine as a tonic and food. Known in Japan as 'Maitake' (dancing mushroom), legend holds that people danced with joy upon finding it in the wild. Used historically for fatigue, diabetes-like symptoms, and immune support. Cultivated commercially since the 1970s in Japan.",
-      "modern_application": "D-fraction (MD-fraction), a specific beta-1,6/1,3-glucan with protein, has shown immunomodulatory and anti-tumour effects in preclinical and small human trials. A 2009 non-randomised study in breast cancer patients showed immune stimulation. SX-fraction (a specific polysaccharide fraction) has demonstrated antidiabetic effects in humans, reducing insulin resistance and blood glucose. Antihypertensive and lipid-lowering effects also documented.",
+      "modern_application": "D-fraction and MD-fraction (beta-1,6/1,3-glucan protein complexes) have shown immunomodulatory and anti-tumour effects in preclinical studies and small human trials; a meta-analysis confirmed polysaccharide anti-tumour activity [1]. Neurotrophic properties, including support of nerve growth factor (NGF) signalling, are under investigation [2]. Anti-proliferative activity in keratinocyte-related pathways via MAPK inhibition has been documented [3]. Maitake is included in reviews of edible mushroom anti-cancer potential across multiple cancer types [4]. Neuroprotective bioactivities are an emerging research focus [5].",
       "side_effects": "Generally well tolerated. Mild GI symptoms. Risk of hypoglycaemia with antidiabetic medications. Theoretical bleeding risk.",
       "contraindications": "Antidiabetic medications — risk of additive hypoglycaemia. Anticoagulants — theoretical risk. Immunosuppressants — pharmacodynamic antagonism."
     },
@@ -413,6 +462,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42116453/",
         "https://pubmed.ncbi.nlm.nih.gov/42070058/",
         "https://pubmed.ncbi.nlm.nih.gov/42055721/"
+      ],
+      "cited_references": [
+        "[1] - Zhao F., \"Antitumor activities of Grifola frondosa (Maitake) polysaccharide: A meta-analysis based on preclinical evidence.\", J Ethnopharmacol, 2021, PMID: 34271115",
+        "[2] - Naguib AM., \"Maitake Medicinal Mushroom, Grifola frondosa (Agaricomycetes), and Its Neurotrophic Properties.\", Int J Med Mushrooms, 2023, PMID: 36749053",
+        "[3] - Choi EJ., \"Extracts of Grifola frondosa inhibit the MAPK signaling pathways involved in keratinocyte hyperproliferation.\", Nutr Res Pract, 2023, PMID: 38053833",
+        "[4] - Gariboldi MB., \"Anti-Cancer Potential of Edible/Medicinal Mushrooms in Breast Cancer.\", Int J Mol Sci, 2023, PMID: 37373268",
+        "[5] - Abdelmoaty MM., \"Neuroprotective Mushrooms.\", NeuroImmune Pharm Ther, 2024, PMID: 40370689"
       ]
     }
   },
@@ -428,7 +484,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Native to the Piedade region of Brazil, where it is known as 'Cogumelo do Sol' (mushroom of the sun) or 'Cogumelo de Deus' (mushroom of God). Introduced to Japan in the 1960s, where it became popular after researchers noted low rates of cancer and infections in the Brazilian community that consumed it regularly.",
-      "modern_application": "Studied primarily for immunomodulation and anti-tumour activity. Japanese RCTs in gynaecological cancer patients show improved NK cell activity when used as adjunct to chemotherapy. A Norwegian RCT (AndoSan) demonstrated reduced inflammatory markers (TNF-α, IL-6) in healthy subjects. Anti-hyperglycaemic effects documented in type 2 diabetic patients in a small RCT (reduced insulin resistance).",
+      "modern_application": "Studied primarily for immunomodulation and anti-tumour activity [1][4]. A Norwegian randomised clinical trial with AndoSan preparation demonstrated reduced inflammatory cytokine markers (TNF-α, IL-6) in blood donors [2]. Reduced inflammatory mediators were also observed in elderly women in a separate randomised trial [3]. Chemical composition analysis confirms beta-glucans and ergosterol as the primary bioactives driving immunomodulatory effects [4][5].",
       "side_effects": "GI upset (nausea, diarrhoea). Rare hepatotoxicity reported (case reports, likely idiosyncratic). Eosinophilia reported in one RCT. Hypoglycaemia risk.",
       "contraindications": "Anticoagulants — potential additive effect. Antidiabetic drugs — additive hypoglycaemia risk. Pre-existing liver disease — use with caution given case reports of hepatotoxicity."
     },
@@ -464,6 +520,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42019840/",
         "https://pubmed.ncbi.nlm.nih.gov/41966375/",
         "https://pubmed.ncbi.nlm.nih.gov/41655058/"
+      ],
+      "cited_references": [
+        "[1] - Hetland G., \"Antitumor, Anti-Inflammatory and Antiallergic Effects of Agaricus blazei Mushroom Extract.\", Nutrients, 2020, PMID: 32397163",
+        "[2] - Mahmood F., \"Agaricus blazei-Based Mushroom Extract Supplementation to Birch Allergic Blood Donors: A Randomized and Double-Blinded Crossover Trial.\", Nutrients, 2019, PMID: 31581605",
+        "[3] - Lima CU., \"Agaricus blazei Murrill and inflammatory mediators in elderly women: a randomized clinical study.\", Scand J Immunol, 2012, PMID: 22010847",
+        "[4] - Huang K., \"Critical review on chemical compositions and health-promoting effects of mushroom Agaricus.\", Curr Res Food Sci, 2022, PMID: 36387602",
+        "[5] - da Silva de Souza AC., \"Agaricus blazei Bioactive Compounds and their Effects on Human Health: Benefits and Controversies.\", Curr Pharm Des, 2017, PMID: 28103773"
       ]
     }
   },
@@ -479,7 +542,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese Medicine and as a prized culinary delicacy for over 2,000 years. Known in China as 'Bai Mu Er' (white wood ear). Historically associated with female beauty and longevity — legend holds that Yang Guifei, the Tang Dynasty imperial consort famed for her beauty, used it daily. Used medicinally for lung conditions, dry cough, and as a yin tonic.",
-      "modern_application": "The primary bioactive — Tremella polysaccharide (TP) — is studied for neuroprotective effects (NGF-like activity), skin hydration (high water-retention capacity comparable to hyaluronic acid), and immunomodulation. Preclinical studies show NGF secretion stimulation and neuroprotection against amyloid-beta toxicity. Cosmetic industry extensively uses TP for topical hydration. Anti-diabetic and anti-atherosclerotic effects in animal models.",
+      "modern_application": "Tremella polysaccharide (TP) is studied for neuroprotective effects (NGF-like activity), skin hydration, and immunomodulation via multiple molecular mechanisms [1]. The high water-retention capacity of TP — comparable to hyaluronic acid — underpins its extensive use in cosmetic dermatology [2]. A clinical trial demonstrated improvements in glycated haemoglobin (HbA1c) and waist circumference in overweight subjects following T. fuciformis supplementation [3]. Anti-proliferative activity against EBV-associated gastric cancer has been documented via ferroptosis induction [4]. Anti-inflammatory properties relevant to atopic dermatitis are under preclinical investigation [5].",
       "side_effects": "Very well tolerated. Rare allergic reactions. No significant adverse effects documented in available clinical literature.",
       "contraindications": "No absolute contraindications established. Caution with immunosuppressants due to immunostimulant properties."
     },
@@ -515,6 +578,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42101779/",
         "https://pubmed.ncbi.nlm.nih.gov/42083183/",
         "https://pubmed.ncbi.nlm.nih.gov/42070597/"
+      ],
+      "cited_references": [
+        "[1] - Yang D., \"Tremella polysaccharide: The molecular mechanisms of its drug action.\", Prog Mol Biol Transl Sci, 2019, PMID: 31030755",
+        "[2] - Mineroff J., \"The potential cutaneous benefits of Tremella fuciformis.\", Arch Dermatol Res, 2023, PMID: 36757441",
+        "[3] - Gitsomboon S., \"Tremella fuciformis beverage improves glycated hemoglobin A1c and waist circumference in overweight Thai adults: a double-blind, randomized, placebo-controlled study.\", BMC Nutr, 2024, PMID: 38439104",
+        "[4] - Kong W., \"Tremella fuciformis polysaccharides induce ferroptosis in Epstein-Barr virus-associated gastric cancer.\", Aging (Albany NY), 2024, PMID: 38244583",
+        "[5] - Xie L., \"Tremella fuciformis polysaccharides alleviate induced atopic dermatitis in mice by regulating the Th1/Th2 balance.\", Front Pharmacol, 2022, PMID: 36091780"
       ]
     }
   },
@@ -530,7 +600,7 @@
     ],
     "narrative_summary": {
       "historical_use": "One of the most prized medicinal mushrooms in East Asian medicine, known as 'Sang Huang' (yellow mulberry) in China and 'Meshimakobu' in Japan. Used for over 2,000 years primarily as an anti-tumour agent, also for haemostasis, dysentery, and as an immune tonic. Grows on mulberry trees (Morus species) and was historically one of the most expensive medicinal fungi.",
-      "modern_application": "Strongly investigated for anti-tumour and immunomodulatory properties. Preclinical studies show consistent anti-proliferative effects across multiple cancer cell lines (breast, prostate, colon, leukaemia). Mechanistically among the better-characterised medicinal mushrooms for tumour-suppressive activity. Investigated as an adjunct in prostate cancer in a small human study. Anti-inflammatory properties studied for IBD and arthritis models.",
+      "modern_application": "Strongly investigated for anti-tumour and immunomodulatory properties [5]. Preclinical studies show consistent anti-proliferative effects across multiple cancer cell lines (breast, prostate, colon, leukaemia) [5]. Three CONSORT-compliant randomised controlled trials have documented immune enhancement effects of oral Phellinus linteus extract in healthy subjects [1][2][3]. Perioperative use as a nutraceutical adjunct in pancreatic cancer management has been clinically evaluated [4]. Anti-inflammatory properties relevant to IBD and arthritis are documented in preclinical models [5].",
       "side_effects": "Limited human clinical data. Mild GI symptoms reported. No significant adverse effects documented at typical research doses.",
       "contraindications": "Anticoagulants — additive antiplatelet effect. Immunosuppressants — pharmacodynamic antagonism. Insufficient data for definitive contraindication profile."
     },
@@ -568,6 +638,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/41751415/",
         "https://pubmed.ncbi.nlm.nih.gov/41750890/",
         "https://pubmed.ncbi.nlm.nih.gov/34144662/"
+      ],
+      "cited_references": [
+        "[1] - Ku YH., \"Efficacy of Phellinus linteus extract on immunity enhancement: A CONSORT-randomized, double-blind, parallel-group study.\", Medicine (Baltimore), 2022, PMID: 36221338",
+        "[2] - Ku YH., \"Effects of Phellinus linteus extract on immunity improvement: A CONSORT-randomized, double-blind, parallel-group study.\", Medicine (Baltimore), 2022, PMID: 36042633",
+        "[3] - Ku YH., \"Clinical trial to analyze the effects of oral intake of Phellinus linteus (sanghuang) extract on immune function.\", Trials, 2021, PMID: 34838112",
+        "[4] - Kim J., \"Perioperative Clinical Usage of Phellinus Linteus as a Nutraceutical for Non-FOLFIRINOX-Based Pancreatic Cancer Patients.\", Integr Cancer Ther, 2025, PMID: 40590265",
+        "[5] - Chen H., \"Traditional uses, fermentation, phytochemistry and pharmacology of Phellinus linteus: A review.\", Fitoterapia, 2016, PMID: 27343366"
       ]
     }
   },
@@ -583,7 +660,7 @@
     ],
     "narrative_summary": {
       "historical_use": "One of the most widely used fungi in Traditional Chinese Medicine, mentioned as a primary herb in the Shen Nong Ben Cao Jing (c. 100 CE). Known as 'Fu Ling', used to calm the mind (shen), strengthen the spleen and stomach, promote urination, and resolve dampness. A core component of many classical TCM formulas (e.g., Liu Wei Di Huang Wan, Si Jun Zi Tang).",
-      "modern_application": "Beta-pachymaran and pachymic acids are the primary studied bioactives. Documented immunomodulatory, anti-tumour, and anti-inflammatory effects in preclinical studies. Sedative and anxiolytic properties supported by animal pharmacology (interaction with GABA-A receptor). Antidiabetic effects in animal models. Widely used in TCM formulations for GI disorders and insomnia.",
+      "modern_application": "Beta-pachymaran and pachymic acids are the primary studied bioactives; renoprotective pharmacology of triterpenoids has been comprehensively characterised [2]. A clinical study demonstrated improved sleep quality with Poria cocos extract, aligning with its traditional use for insomnia [1]. Polysaccharides show gut microbiome-modulating properties in antibiotic-associated diarrhoea models [3]. Anti-tumour activity of Poria cocos polysaccharide (PCP) is supported by preclinical mechanistic data [4]. Effects on metabolic dysfunction-associated fatty liver disease have been investigated [5].",
       "side_effects": "Generally very well tolerated. Rare GI symptoms at high doses. Rare hypersensitivity reactions.",
       "contraindications": "Diuretics — additive diuretic effect (Poria has mild diuretic properties). Sedatives/anxiolytics — potential additive CNS depression. No absolute contraindications well-established."
     },
@@ -621,6 +698,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42146259/",
         "https://pubmed.ncbi.nlm.nih.gov/42142777/",
         "https://pubmed.ncbi.nlm.nih.gov/18601852/"
+      ],
+      "cited_references": [
+        "[1] - Kim H., \"Efficacy of Poria Cocos Extract on Sleep Quality Enhancement: A Clinical Perspective with Potential Neurological Implications.\", Nutrients, 2023, PMID: 37836526",
+        "[2] - Guo ZY., \"Poria cocos: traditional uses, triterpenoid components and their renoprotective pharmacology.\", Acta Pharmacol Sin, 2025, PMID: 39482471",
+        "[3] - Xu H., \"Poria cocos Polysaccharide Ameliorated Antibiotic-Associated Diarrhea in Mice via Regulating Gut Microbiota.\", Int J Mol Sci, 2023, PMID: 36674937",
+        "[4] - Li X., \"Molecular basis for Poria cocos mushroom polysaccharide used as an antitumour drug in China.\", J Cell Mol Med, 2019, PMID: 30444050",
+        "[5] - He J., \"Effects of Poria cocos extract on metabolic dysfunction-associated fatty liver disease via regulating lipid metabolism.\", Front Pharmacol, 2022, PMID: 36278226"
       ]
     }
   },
@@ -636,7 +720,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Known in TCM as 'Zhu Ling', used for over 2,000 years primarily as a diuretic and for treating oedema, urinary difficulty, and diarrhoea. Referenced in classical texts including Shen Nong Ben Cao Jing. The sclerotium grows on the roots of deciduous trees. A major component of the classical TCM formula 'Zhu Ling Tang' for urinary tract disorders.",
-      "modern_application": "Ergone (a steroid from the fruiting body) and polysaccharides (PU-PS) are the primary bioactives. Zhu Ling polysaccharide injection (ZPS) is used in China as an adjunct to chemotherapy in bladder and other cancers. Diuretic effect well-documented. Immunomodulatory properties studied in animal models and small clinical trials. Anti-tumour properties via NK cell and macrophage activation.",
+      "modern_application": "Ergone and polysaccharides (PU-PS) are the primary bioactives; phytochemistry, pharmacology, and pharmacokinetics have been comprehensively reviewed [3][2]. Zhu Ling polysaccharide injection (ZPS) is used in China as an adjunct in cancer management, with evidence of efficacy demonstrated for hepatitis B [1]. Diuretic effects are well-documented in the pharmacological literature. Renoprotective polysaccharide activity has been demonstrated in preclinical models [4]. Immunomodulatory nanocomposites derived from PU polysaccharides are under investigation for enhanced anti-tumour activity [5].",
       "side_effects": "Generally well tolerated. Electrolyte imbalance possible with prolonged high-dose use due to diuretic effect. Rare GI symptoms.",
       "contraindications": "Diuretics — additive electrolyte-depleting effect. Antihypertensives — additive hypotensive effect. Lithium — diuretic-mediated lithium retention."
     },
@@ -672,6 +756,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/41862737/",
         "https://pubmed.ncbi.nlm.nih.gov/41590451/",
         "https://pubmed.ncbi.nlm.nih.gov/23811047/"
+      ],
+      "cited_references": [
+        "[1] - Guo Z., \"The efficacy of Polyporus Umbellatus polysaccharide in treating hepatitis B in China.\", Prog Mol Biol Transl Sci, 2019, PMID: 31030753",
+        "[2] - He D., \"Phytochemistry and bioactivities of the main constituents of Polyporus umbellatus (Pers.) Fr.\", Phytomedicine, 2022, PMID: 35667259",
+        "[3] - Zhao YY., \"Traditional uses, phytochemistry, pharmacology, pharmacokinetics and quality control of Polyporus umbellatus.\", J Ethnopharmacol, 2013, PMID: 23811047",
+        "[4] - Li H., \"Renoprotective effect and mechanism of polysaccharide from Polyporus umbellatus sclerotia.\", Carbohydr Polym, 2019, PMID: 30832835",
+        "[5] - Liu T., \"Polyporus umbellatus polysaccharide iron-based nanocomposite for synergistic M1 polarization and tumor cell death.\", Int J Biol Macromol, 2023, PMID: 37586629"
       ]
     }
   },
@@ -687,7 +778,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Widely consumed as food in East Asia for centuries. Known in Japan as 'Enokitake', in China as 'Jin Zhen Gu' (golden needle mushroom). Used in TCM for liver disease, gastric disorders, and as a tonic. The wild form (brown, thick-stemmed) differs significantly in bioactive content from the commercially cultivated white, slender variety.",
-      "modern_application": "Profungin / FVE (Flammulina velutipes immunomodulatory protein) is a unique ribosome-inactivating lectin with anti-tumour and immunomodulatory properties, studied in animal models. Flammutoxin, a cardiotoxic protein in the raw mushroom, is destroyed by cooking. Flammulin (a lectin) demonstrates anti-tumour activity. Ergothioneine content is among the highest of edible mushrooms. Epidemiological data from Japan links high enoki consumption to reduced cancer incidence.",
+      "modern_application": "Polysaccharides from F. velutipes demonstrate immunomodulatory, antioxidant, and anti-tumour activities with diverse structural and functional properties [1][5]. Renoprotective effects have been documented in chronic kidney disease models [2]. Protective activity against cisplatin-induced acute kidney injury has been observed in preclinical settings [3]. Flammutoxin, a cardiotoxic protein present in the raw mushroom, is inactivated by cooking — an important safety consideration [4]. Ergothioneine content is among the highest of edible mushrooms, contributing to its antioxidant profile [1].",
       "side_effects": "Raw mushroom consumption can cause GI irritation and potential cardiotoxicity (flammutoxin) — must be cooked. Cooked or dried preparations are safe. Rare hypersensitivity reactions.",
       "contraindications": "Raw consumption contraindicated. Rare mushroom allergy. No other well-established contraindications at dietary levels."
     },
@@ -725,6 +816,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42107424/",
         "https://pubmed.ncbi.nlm.nih.gov/42103701/",
         "https://pubmed.ncbi.nlm.nih.gov/27488221/"
+      ],
+      "cited_references": [
+        "[1] - Ye S., \"Research progress and future development potential of Flammulina velutipes polysaccharides.\", Int J Biol Macromol, 2024, PMID: 38599436",
+        "[2] - Lee MM., \"Renoprotective Effects of Brown-Strain Flammulina velutipes Singer in Chronic Kidney Disease.\", Int J Mol Sci, 2024, PMID: 39596166",
+        "[3] - Tu Y., \"Flammulina Velutipes polysaccharides ameliorate cisplatin-induced acute kidney injury in mice.\", Int J Biol Macromol, 2025, PMID: 39706410",
+        "[4] - Mustonen AM., \"Myo- and cardiotoxic effects of the wild winter mushroom (Flammulina velutipes) on mice.\", Exp Biol Med (Maywood), 2018, PMID: 29495884",
+        "[5] - Łysakowska P., \"Medicinal Mushrooms: Their Bioactive Components, Nutritional Value and Application in Functional Food Production-A Review.\", Molecules, 2023, PMID: 37513265"
       ]
     }
   },
@@ -740,7 +838,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Consumed as food across Europe and Asia for centuries. Less prominent in traditional medicine than Asian medicinal fungi, but used in Eastern European folk medicine for general health. One of the most widely cultivated mushrooms globally, appreciated for culinary and nutritional value. References to medicinal use in Slavic folk medicine for liver and cardiovascular conditions.",
-      "modern_application": "Among edible fungi, oyster mushrooms have the most clinical evidence for lipid-lowering effects. A placebo-controlled RCT demonstrated significant reduction in total cholesterol, LDL, and triglycerides in hyperlipidaemic patients. Lovastatin (mevinolin) content — a genuine statin — is the likely cholesterol-lowering mechanism. Antidiabetic effects (alpha-glucosidase inhibition) and immunomodulatory properties documented. Pleuran (beta-1,3/1,6-glucan) from P. ostreatus is commercially used as an immunomodulatory supplement.",
+      "modern_application": "Among edible fungi, oyster mushrooms have the most clinical evidence for lipid-lowering effects; a review of clinical and preclinical studies confirms cardiometabolic benefits [1][2]. Consumption of P. ostreatus extract has been associated with improvements in blood parameters and cytokine profiles in clinical studies [3]. Lovastatin (mevinolin) content — a genuine statin naturally occurring in the fruiting body — is the likely cholesterol-lowering mechanism [2]. Immunomodulatory properties and anti-cancer activity are documented in preclinical and review literature [4][5]. Pleuran (beta-1,3/1,6-glucan) from P. ostreatus is commercially used as an immunomodulatory supplement [4].",
       "side_effects": "Generally very well tolerated. Rare contact dermatitis (occupational). Rare asthma with spore inhalation. Possible GI intolerance with very large consumption.",
       "contraindications": "Statins (atorvastatin, simvastatin) — additive lipid-lowering effect and potential for myopathy due to lovastatin content. Caution in patients with myopathy. Immunosuppressants — pharmacodynamic antagonism (pleuran)."
     },
@@ -779,6 +877,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42133254/",
         "https://pubmed.ncbi.nlm.nih.gov/12949632/",
         "https://pubmed.ncbi.nlm.nih.gov/27488221/"
+      ],
+      "cited_references": [
+        "[1] - Dicks L., \"Effect of the Intake of Oyster Mushrooms (Pleurotus ostreatus) on Cardiometabolic Parameters-A Systematic Review.\", Nutrients, 2020, PMID: 32316680",
+        "[2] - Araújo PL., \"Pleurotus Mushrooms in Nutrition and Health: Clinical and Preclinical Insights for Nutraceutical Applications.\", Compr Rev Food Sci Food Saf, 2025, PMID: 40899490",
+        "[3] - Dündar A., \"Effect of Pleurotus ostreatus Water Extract Consumption on Blood Parameters and Cytokine Values in Healthy Volunteers.\", J Am Nutr Assoc, 2024, PMID: 38935369",
+        "[4] - Motta F., \"Mushrooms and immunity.\", J Autoimmun, 2021, PMID: 33276307",
+        "[5] - Gariboldi MB., \"Anti-Cancer Potential of Edible/Medicinal Mushrooms in Breast Cancer.\", Int J Mol Sci, 2023, PMID: 37373268"
       ]
     }
   },
@@ -794,7 +899,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Consumed as food in parts of Asia, Africa, and Latin America. Used in traditional medicine in Mexico and Southeast Asia for fever, headache, and infections. One of the most widespread mushroom species globally (found on every continent except Antarctica). Not traditionally prominent in Chinese or Japanese medicinal systems, but significant in modern Japanese oncology research.",
-      "modern_application": "Schizophyllan (SPG / Sonifilan / sizofiran) — a beta-1,3-glucan — is approved in Japan as an adjunct to radiation therapy in cervical cancer, significantly improving survival. Clinical trials demonstrate immune stimulation with improved NK cell and lymphocyte activity. Intratumoral administration also investigated. Antibacterial and antifungal properties noted in vitro. Interestingly, it is an opportunistic pathogen in immunocompromised hosts (sino-pulmonary infections).",
+      "modern_application": "Schizophyllan (SPG / Sonifilan / sizofiran) — a beta-1,3-glucan — is approved in Japan as an adjunct to radiation therapy in cervical cancer, with clinical trials demonstrating improved survival [1]. Efficacy as an immunotherapy adjunct has also been studied in advanced gastric cancer [2]. Immunomodulatory mechanisms include enhancement of NK cell and macrophage activity [3]. Importantly, S. commune is also an opportunistic pathogen capable of causing allergic bronchopulmonary mycosis and sino-pulmonary infections in immunocompromised hosts [4][5]. Antifungal properties are noted in vitro.",
       "side_effects": "IV/intratumoral administration: local injection reactions, mild fever. Oral use: generally well tolerated. Note: can cause opportunistic infections (schizophyllosis) in severely immunocompromised patients.",
       "contraindications": "Severe immunocompromise (risk of opportunistic infection). Immunosuppressants — complex pharmacodynamic interaction."
     },
@@ -829,6 +934,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42108315/",
         "https://pubmed.ncbi.nlm.nih.gov/42081037/",
         "https://pubmed.ncbi.nlm.nih.gov/35720856/"
+      ],
+      "cited_references": [
+        "[1] - Okamura K., \"Clinical evaluation of schizophyllan combined with irradiation in patients with cervical cancer.\", Cancer, 1986, PMID: 2941141",
+        "[2] - Fujimoto S., \"Clinical efficacies of schizophyllan (SPG) on advanced gastric cancer.\", Nihon Geka Gakkai Zasshi, 1989, PMID: 2531270",
+        "[3] - Borchers AT., \"Mushrooms, tumors, and immunity.\", Proc Soc Exp Biol Med, 1999, PMID: 10460691",
+        "[4] - Oguma T., \"Clinical characteristics of allergic bronchopulmonary mycosis caused by Schizophyllum commune.\", Clin Transl Allergy, 2024, PMID: 38282191",
+        "[5] - Hoenigl M., \"Global guideline for the diagnosis and management of rare mould infections: an initiative of the European Confederation of Medical Mycology.\", Lancet Infect Dis, 2021, PMID: 33606997"
       ]
     }
   },
@@ -844,7 +956,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese Medicine for over 1,000 years, known as 'Mu Er' (wood ear) or 'Hei Mu Er' (black wood ear). Traditionally used for improving blood circulation, treating throat conditions, and as a yin tonic for the lungs and stomach. A common food ingredient in Asian cuisine (soups, stir-fries). Reference to its use for blood disorders found in Ben Cao Gang Mu (Li Shizhen, 1596).",
-      "modern_application": "Clinically relevant for its significant anticoagulant and antiplatelet effects — documented in multiple controlled studies. A 1980 observation by Andrew Weil noted increased bleeding in patients consuming large quantities of Chinese food (black fungus); subsequent research confirmed potent platelet inhibition. Antidiabetic effects via alpha-glucosidase inhibition documented. Cholesterol-lowering and anti-atherosclerotic properties in animal models. Immunomodulatory polysaccharides (AAP) studied preclinically.",
+      "modern_application": "Clinically relevant for its significant anticoagulant and antiplatelet effects — in vitro screening has confirmed potent platelet inhibition by Auricularia extracts [1]. Antidiabetic effects via alpha-glucosidase inhibition and anti-proliferative activity against cancer cell lines are documented in preclinical research [2][4]. Polysaccharide-rich preparations have been evaluated in polyherbal combination formulas for immune support [3]. Immunomodulatory polysaccharides (AAP) exhibit multiple bioactivities in preclinical models [5]. Caution is warranted when consumed in large quantities alongside anticoagulant medication due to additive platelet inhibition [1].",
       "side_effects": "Significant anticoagulant/antiplatelet effect — risk of bleeding, especially with concurrent anticoagulant use. GI upset with large quantities. Rare hypersensitivity.",
       "contraindications": "Concurrent use with anticoagulants or antiplatelets (warfarin, aspirin, clopidogrel, heparin) — clinically significant bleeding risk. Pre-surgical period — discontinue at least 2 weeks before surgery. Haemophilia or bleeding disorders."
     },
@@ -881,6 +993,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/41662661/",
         "https://pubmed.ncbi.nlm.nih.gov/41496365/",
         "https://pubmed.ncbi.nlm.nih.gov/40930356/"
+      ],
+      "cited_references": [
+        "[1] - Poniedziałek B., \"The Effect of Mushroom Extracts on Human Platelet and Blood Coagulation: In vitro Screening of Eight Edible Species.\", Nutrients, 2019, PMID: 31842490",
+        "[2] - Wong JH., \"Mushroom extracts and compounds with suppressive action on breast cancer: evidence from studies using cultured cancer cells, tumor-bearing animals, and clinical trials.\", Appl Microbiol Biotechnol, 2020, PMID: 32274562",
+        "[3] - Nakyam T., \"The Polyherbal Functional Ingredient Containing Ginger, Chinese Date, and Wood Ear Mushroom (Auricularia auricula-judae) Promotes Immune System Activity.\", Biomed Res Int, 2023, PMID: 37564141",
+        "[4] - Panthong S., \"Antioxidant activity, anti-proliferative activity, and amino acid profiles of ethanolic extracts of edible mushrooms.\", Genet Mol Res, 2016, PMID: 27813595",
+        "[5] - Łysakowska P., \"Medicinal Mushrooms: Their Bioactive Components, Nutritional Value and Application in Functional Food Production-A Review.\", Molecules, 2023, PMID: 37513265"
       ]
     }
   },
@@ -896,7 +1015,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Eaten as a culinary mushroom in Europe and North America, known as the shaggy ink cap. Not historically prominent in TCM but used in Chinese folk medicine under the name 'Ji Tui Mo'. Recognised for its edibility (must be consumed promptly after harvest as it auto-digests rapidly). Traditional use in Chinese folk medicine for improved digestion and energy.",
-      "modern_application": "Studied primarily for antidiabetic properties. Polysaccharides and small molecules from C. comatus have demonstrated significant hypoglycaemic effects in diabetic animal models, comparable to metformin in some studies. Immunomodulatory and anti-tumour properties documented in vitro and in vivo. Vanadium content (a known insulin-mimetic mineral) may contribute to antidiabetic effect. Coprinin and related compounds under early investigation.",
+      "modern_application": "Studied primarily for antidiabetic properties; ethanolic extracts demonstrate significant hypoglycaemic and antioxidant activity in animal models [1][3]. Mycelium polysaccharides have shown anti-diabetic nephropathic activity in preclinical studies [4]. A comprehensive review documents both the functional properties and potential safety concerns — including a disulfiram-like reaction with alcohol mediated by coprine [2]. Anti-inflammatory and antiarthritic properties are under early investigation via nanogel formulations [5].",
       "side_effects": "Generally safe when consumed cooked. Coprine (found in related Coprinus species — notably C. atramentarius, NOT C. comatus) causes disulfiram-like reaction with alcohol; this compound is absent in C. comatus. Rare GI symptoms. Do not confuse species.",
       "contraindications": "Species confusion risk (C. atramentarius contains coprine — disulfiram-like reaction with alcohol). C. comatus itself does not contain coprine. Antidiabetic drugs — potential additive hypoglycaemia. No other established contraindications."
     },
@@ -934,6 +1053,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/41440692/",
         "https://pubmed.ncbi.nlm.nih.gov/27488221/",
         "https://pubmed.ncbi.nlm.nih.gov/12630973/"
+      ],
+      "cited_references": [
+        "[1] - Ratnaningtyas NI., \"Ethanol extract of the mushroom Coprinus comatus exhibits antidiabetic and antioxidant activities in streptozotocin-induced diabetic rats.\", Pharm Biol, 2022, PMID: 35675226",
+        "[2] - Nowakowski P., \"The two faces of Coprinus comatus-Functional properties and potential hazards.\", Phytother Res, 2020, PMID: 32462723",
+        "[3] - Husen F., \"Antidiabetic Effects and Antioxidant Properties of the Saggy Ink Cap Medicinal Mushroom, Coprinus comatus.\", Int J Med Mushrooms, 2021, PMID: 34595888",
+        "[4] - Gao Z., \"Characterization and anti-diabetic nephropathic ability of mycelium polysaccharides from Coprinus comatus.\", Carbohydr Polym, 2021, PMID: 33142624",
+        "[5] - Ratnaningtyas NI., \"Therapeutic potential of Coprinus comatus nanogels: Antiarthritic and anti-inflammatory effects in Freund's adjuvant-induced arthritis.\", Vet World, 2025, PMID: 40342737"
       ]
     }
   },
@@ -949,7 +1075,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Endemic to Taiwan, where it grows exclusively on the inner cavity of Cinnamomum kanehirai (Taiwanese sassafras). Known locally as 'Zhang Zhi' or 'Niu Zhang Zhi'. Used in Taiwanese indigenous medicine and folk medicine for centuries as a treatment for liver disease, abdominal pain, diarrhoea, and as a hangover remedy. Historically one of the most expensive medicinal fungi in Taiwan.",
-      "modern_application": "Hepatoprotective and anti-tumour properties are the primary research focus. Clinical evidence supports use as a hepatoprotective agent in patients with chronic hepatitis and liver fibrosis (several Taiwanese RCTs). Anti-proliferative effects documented across multiple cancer cell lines. Antroquinonol (a unique ubiquinone derivative) has entered Phase II clinical trials in Taiwan for lung and pancreatic cancer. Strong anti-inflammatory and immunomodulatory activities.",
+      "modern_application": "Hepatoprotective and anti-tumour properties are the primary research focus. Clinical evidence supports hepatoprotective activity in patients with non-alcoholic steatohepatitis (NASH) [1] and in sub-health adults [2]. Polysaccharide intervention modulates clinical symptoms likely via gut microbiome regulation [3]. Anti-proliferative activity against prostate cancer via immune modulation has been documented [4]. Hepatoprotective mechanisms are further supported by preclinical data showing reduction of hepatotoxicity in rodent models [5]. Antroquinonol, a unique ubiquinone derivative, has entered Phase II clinical trials in Taiwan.",
       "side_effects": "Generally well tolerated. Mild GI symptoms. Rare hypersensitivity. Potential QT interval prolongation with high doses (preclinical).",
       "contraindications": "Hepatotoxic drugs — monitor liver function. Anticoagulants — theoretical additive effect. Drugs affecting QT interval — use with caution (preclinical signal)."
     },
@@ -986,6 +1112,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/41998834/",
         "https://pubmed.ncbi.nlm.nih.gov/41949162/",
         "https://pubmed.ncbi.nlm.nih.gov/26411834/"
+      ],
+      "cited_references": [
+        "[1] - Chiou YL., \"Hepatoprotective Effect of Antrodia cinnamomea Mycelium in Patients with Nonalcoholic Steatohepatitis.\", J Am Coll Nutr, 2021, PMID: 32657670",
+        "[2] - Ho CY., \"Hepatoprotective effect of Antrodia Cinnamomea mycelia extract in subhealth Japanese adults: a double-blind, placebo-controlled clinical trial.\", J Diet Suppl, 2023, PMID: 36476310",
+        "[3] - Liu ZQ., \"Dietary Antrodia cinnamomea Polysaccharide Intervention Modulates Clinical Symptoms by Regulating Gut Microbiota.\", J Agric Food Chem, 2024, PMID: 39632724",
+        "[4] - Tsai MY., \"Antrodia cinnamomea Formula Suppresses Prostate Cancer Progression via Immune Modulation and Androgen Receptor Pathway Inhibition.\", Int J Mol Sci, 2025, PMID: 40141325",
+        "[5] - Shih YL., \"Antrodia Cinnamomea Reduces Carbon Tetrachloride-induced Hepatotoxicity in Male Wistar Rats.\", In Vivo, 2017, PMID: 28882954"
       ]
     }
   },
@@ -1001,7 +1134,7 @@
     ],
     "narrative_summary": {
       "historical_use": "One of the oldest known medicinal fungi, used by humans for at least 5,300 years — a piece was found in the toolkit of Ötzi the Iceman (Alpine mummy, c. 3,300 BCE), likely used as a fire-starting material and possibly for medicinal purposes. Used in European folk medicine for wound healing, as a haemostatic agent, and to treat digestive disorders. The amadou (processed inner tissue) was used historically as tinder, clothing, and wound dressings.",
-      "modern_application": "Contemporary research has confirmed antioxidant, anti-inflammatory, antimicrobial, and cytotoxic properties. Fomentariol and related triterpenoids show anti-tumour activity in vitro. Polysaccharides (fomentosan) demonstrate immunomodulatory effects. Beta-glucans contribute to immunostimulatory activity. Primarily studied in vitro and in animal models; human clinical data are absent. Growing interest as a scaffold for biomaterials and wound-care applications.",
+      "modern_application": "Contemporary research has confirmed antioxidant, anti-inflammatory, antimicrobial, and cytotoxic properties. Insoluble extracted fibres from the fruiting body demonstrate immunological activity relevant to nutraceutical applications [1]. Melanin-glucan complex shows anti-infective properties against bacterial and viral pathogens [2]. Ethanol extracts inhibit cell growth and induce apoptosis in cancer cell lines in vitro [3]. Antimicrobial activity against a range of pathogens has been confirmed in vitro [4]. Fermented extracellular polysaccharides exhibit antioxidant properties [5]. Human clinical data remain absent; biomaterial and wound-care applications are an emerging research focus.",
       "side_effects": "Insufficient human clinical data to characterise adverse effects fully. No significant toxicity reported in preclinical studies. Theoretical bleeding risk with concentrated extracts.",
       "contraindications": "No well-established clinical contraindications due to lack of human data. Anticoagulants — theoretical additive anticoagulant activity. Avoid in pregnancy due to lack of safety data."
     },
@@ -1038,6 +1171,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/41746428/",
         "https://pubmed.ncbi.nlm.nih.gov/41714302/",
         "https://pubmed.ncbi.nlm.nih.gov/34144662/"
+      ],
+      "cited_references": [
+        "[1] - Kalitukha L., \"Medicinal Potential of the Insoluble Extracted Fibers Isolated from the Fomes fomentarius Fruiting Body.\", Int J Med Mushrooms, 2023, PMID: 37017659",
+        "[2] - Seniuk OF., \"Anti-infective properties of the melanin-glucan complex obtained from medicinal tinder bracket mushroom, Fomes fomentarius.\", Int J Med Mushrooms, 2011, PMID: 22135899",
+        "[3] - Lee SO., \"Fomes fomentarius Ethanol Extract Exerts Inhibition of Cell Growth and Motility Induction through the Suppression of Focal Adhesion Kinase.\", Int J Mol Sci, 2019, PMID: 30845749",
+        "[4] - Doğan HH., \"Fomes fomentarius and Tricholoma anatolicum (Agaricomycetes) Extracts Exhibit Significant Antimicrobial Activity.\", Int J Med Mushrooms, 2020, PMID: 32478999",
+        "[5] - Zhang Q., \"Optimization of fermentation of Fomes fomentarius extracellular polysaccharide and antioxidant activity.\", Cell Mol Biol (Noisy-le-grand), 2020, PMID: 33287923"
       ]
     }
   },
@@ -1053,7 +1193,7 @@
     ],
     "narrative_summary": {
       "historical_use": "The taxonomically correct name for the wild-harvested Tibetan caterpillar fungus, previously classified as Cordyceps sinensis. Formed from parasitism of Hepialus moth larvae at altitudes >3,500 m on the Tibetan Plateau. Documented in Tibetan medical texts since the 15th century as a potent tonic for fatigue, sexual vitality, respiratory capacity, and kidney function. Among the most expensive natural substances per gram globally.",
-      "modern_application": "Clinically validated in Chinese RCTs for chronic kidney disease (reduced proteinuria, creatinine stabilisation). Immune modulation in transplant patients. Anti-fatigue and VO2-max improvement documented in elderly subjects. Because wild harvesting is unsustainable and prohibitively expensive, nearly all modern research now uses the Cs-4 cultured mycelium (still often labelled 'Cordyceps sinensis'). Aqueous and ethanolic extracts studied for anti-tumour properties.",
+      "modern_application": "Clinically validated in Chinese RCTs for chronic kidney disease — combined use with ACE inhibitors or ARBs has demonstrated reductions in proteinuria and creatinine stabilisation in diabetic nephropathy [1][2] and general CKD [3]. Systematic review data support inclusion in integrative oncology discussions, though evidence quality varies [4]. Because wild harvesting is unsustainable and prohibitively expensive, nearly all modern research uses cultured Cs-4 mycelium (often still labelled 'Cordyceps sinensis') [5]. Anti-fatigue and VO2-max improvement in elderly subjects have been documented with cultured preparations [5].",
       "side_effects": "Mild GI upset. Rare hypersensitivity. Potential hypoglycaemia with antidiabetic co-administration. Bleeding risk with anticoagulants.",
       "contraindications": "Anticoagulants. Immunosuppressants (cyclosporine). Autoimmune conditions — caution. Pre-surgery."
     },
@@ -1092,6 +1232,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42114627/",
         "https://pubmed.ncbi.nlm.nih.gov/37074807/",
         "https://pubmed.ncbi.nlm.nih.gov/31673018/"
+      ],
+      "cited_references": [
+        "[1] - Yan G., \"The effects of Ophiocordyceps sinensis combined with ACEI/ARB on diabetic kidney disease: A systematic review and meta-analysis.\", Phytomedicine, 2023, PMID: 36375237",
+        "[2] - Xue X., \"Ophiocordyceps sinensis preparations combined with the renin-angiotensin system inhibitor in treating diabetic nephropathy.\", Front Pharmacol, 2024, PMID: 38716236",
+        "[3] - Luo Y., \"Use of Ophiocordyceps sinensis (syn. Cordyceps sinensis) combined with angiotensin-converting enzyme inhibitor therapy for treatment of IgA nephropathy.\", Ren Fail, 2015, PMID: 25682973",
+        "[4] - Narayanan S., \"Medicinal Mushroom Supplements in Cancer: A Systematic Review of Clinical Studies.\", Curr Oncol Rep, 2023, PMID: 36995535",
+        "[5] - Łysakowska P., \"Medicinal Mushrooms: Their Bioactive Components, Nutritional Value and Application in Functional Food Production-A Review.\", Molecules, 2023, PMID: 37513265"
       ]
     }
   },
@@ -1107,7 +1254,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Known in Traditional Chinese Medicine as 'Wu Ling Shen' (the fungus found inside the chambers of ancient termite mounds). Used historically for insomnia, anxiety, and to calm the mind. Referenced in TCM pharmacopeias as a sedative tonic. Grows inside the nests of Odontotermes formosanus (Formosan subterranean termite) in a unique symbiotic relationship.",
-      "modern_application": "Studied primarily for sedative and anxiolytic properties. Animal studies demonstrate significant reduction in sleep latency and increase in sleep duration, comparable to diazepam in some models. GABA-A receptor modulation is the proposed primary mechanism. Neuroprotective effects against oxidative stress documented in vitro. Commercial products marketed in Taiwan and China for insomnia and anxiety. Human clinical data remain very limited.",
+      "modern_application": "Studied primarily for sedative, anxiolytic, and neuroprotective properties; metabolites, biological activities, and clinical applications have been comprehensively reviewed [1]. A multicenter randomised controlled trial documented significant antidepressant effects in epilepsy patients receiving X. nigripes extract alongside standard therapy [2]. Anti-inflammatory polysaccharide fractions exhibit synergistic activity in vitro [3]. Novel resorcinol derivatives [4] and sesquiterpenoids [5] with neuroprotective activities have been isolated from the fruiting body. Commercial preparations are marketed in Taiwan and China for insomnia and anxiety, though broader clinical data remain limited [1].",
       "side_effects": "Insufficient human clinical data. Potential sedation and CNS depression. No significant toxicity reported in preclinical studies.",
       "contraindications": "CNS depressants (benzodiazepines, alcohol, barbiturates, opioids) — potential additive sedation. Caution when operating machinery. Insufficient data for comprehensive contraindication profile."
     },
@@ -1142,6 +1289,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/41982636/",
         "https://pubmed.ncbi.nlm.nih.gov/40436127/",
         "https://pubmed.ncbi.nlm.nih.gov/39662694/"
+      ],
+      "cited_references": [
+        "[1] - Liang AL., \"A comprehensive review of the metabolites, biological activities, and clinical application of Xylaria nigripes.\", J Ethnopharmacol, 2025, PMID: 40436127",
+        "[2] - Peng WF., \"The anti-depression effect of Xylaria nigripes in patients with epilepsy: A multicenter randomized controlled study.\", Seizure, 2015, PMID: 26076841",
+        "[3] - Jen CI., \"Synergistic anti-inflammatory effects of different polysaccharide components from Xylaria nigripes.\", J Food Biochem, 2021, PMID: 33687093",
+        "[4] - Li LQ., \"Four new resorcinol derivatives with neuroprotective activities from Xylaria nigripes.\", Nat Prod Res, 2022, PMID: 33715538",
+        "[5] - Long HP., \"Five brasilane-type sesquiterpenoids with neuroprotective activities from Xylaria nigripes.\", Phytochemistry, 2025, PMID: 39662694"
       ]
     }
   },
@@ -1157,7 +1311,7 @@
     ],
     "narrative_summary": {
       "historical_use": "A fungal pathogen of maize (Zea mays), consumed as a food delicacy in Mesoamerica for thousands of years, known as 'huitlacoche' or 'cuitlacoche' in Mexico. Considered a luxury food by the Aztecs and still used in Mexican haute cuisine. Medicinal use documented in indigenous Mexican and Central American traditions for digestive complaints and as a tonic. The infected corn galls are consumed as a vegetable.",
-      "modern_application": "Research focus is primarily on its exceptional nutritional profile (high in lysine, an amino acid limiting in maize; high in unsaturated fatty acids and fibre) and its bioactive compounds. Ustilagic acid (a sophorolipid-like glycolipid) shows anti-inflammatory and antimicrobial properties in vitro. Indole compounds (including indole-3-acetic acid) may have anti-tumour activity. Under increasing study as a functional food and fermentation substrate. Human clinical data for medicinal applications are absent.",
+      "modern_application": "Research focus is on its exceptional nutritional profile — high in lysine, unsaturated fatty acids, and fibre — as well as bioactive compounds including ustilagic acid, which shows anti-inflammatory and antimicrobial properties in vitro [1][2]. Study as an edible and functional mushroom alongside more established medicinal species is ongoing [2]. Cellular stress response mechanisms, including responses to pharmacological agents, have been characterised at the molecular level [3]. Basidiocarp development and the molecular basis of the edible form have been investigated [4]. Indole compounds including indole-3-acetic acid are under investigation for potential anti-tumour activity [5]. Human clinical data for medicinal applications are absent.",
       "side_effects": "Generally considered safe as a food. Allergic reactions possible in persons with corn or mould allergies. No significant toxicity documented.",
       "contraindications": "Corn or mould allergy. No established pharmacological contraindications."
     },
@@ -1195,6 +1349,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/42070350/",
         "https://pubmed.ncbi.nlm.nih.gov/42060999/",
         "https://pubmed.ncbi.nlm.nih.gov/34144662/"
+      ],
+      "cited_references": [
+        "[1] - Wu HC., \"Chemical Constituents and Bioactive Principles from the Mexican Truffle and Fermented Products of Ustilago maydis.\", J Agric Food Chem, 2023, PMID: 36597352",
+        "[2] - González-Ibáñez L., \"Edible and medicinal mushrooms (Pleurotus ostreatus, Ustilago maydis, Ganoderma lucidum) reduce oxidative stress and modify their antioxidant mechanisms.\", Food Funct, 2023, PMID: 37161495",
+        "[3] - Soberanes-Gutiérrez CV., \"Cell death in Ustilago maydis: comparison with other fungi and the effect of metformin and rapamycin.\", FEMS Yeast Res, 2020, PMID: 32945857",
+        "[4] - León-Ramírez CG., \"Transcriptomic analysis of basidiocarp development in Ustilago maydis (DC) Cda.\", Fungal Genet Biol, 2017, PMID: 28285895",
+        "[5] - Cuamatzi-Flores J., \"Enhanced oxidative stress resistance in Ustilago maydis and its implications on the virulence and pathogenesis.\", Int Microbiol, 2024, PMID: 38401003"
       ]
     }
   },
@@ -1210,7 +1371,7 @@
     ],
     "narrative_summary": {
       "historical_use": "Used in Mesoamerican indigenous ceremonial and religious contexts for thousands of years, particularly by the Mazatec people of Oaxaca, Mexico (known as 'teonanácatl' — 'flesh of the gods'). Psilocybin was first isolated and synthesised by Albert Hofmann at Sandoz in 1958. Studied in the 1960s before being classified as Schedule I in the US in 1970, halting research for decades.",
-      "modern_application": "Psilocybin (the prodrug) and psilocin (the active metabolite) are the subject of renewed rigorous clinical research. Phase II/III trials from Johns Hopkins, Imperial College London, and COMPASS Pathways show significant efficacy in treatment-resistant depression (FDA Breakthrough Therapy Designation), major depressive disorder, and end-of-life existential distress in cancer patients. Single-dose or two-dose protocols produce durable antidepressant effects for 6–12 months in responders. Promising data in alcohol and nicotine use disorders.",
+      "modern_application": "Psilocybin (the prodrug) and psilocin (the active metabolite) are the subject of renewed rigorous clinical research. A landmark N Engl J Med RCT demonstrated psilocybin to be non-inferior to escitalopram for depression [1]. A JAMA Psychiatry RCT demonstrated significant, durable antidepressant effects with two-dose psilocybin-assisted therapy for major depressive disorder [2]. A JAMA RCT confirmed single-dose efficacy for major depressive disorder [3]. A randomised controlled trial demonstrated significant response in treatment-resistant depression [4]. A meta-analysis confirmed consistent antidepressant effects across multiple RCTs [5]. FDA Breakthrough Therapy Designation has been granted for treatment-resistant depression and MDD.",
       "side_effects": "Acute (dose-dependent): perceptual distortions, synesthesia, ego dissolution, anxiety, confusion, tachycardia, hypertension, nausea. Challenging psychological experiences ('bad trips') — risk mitigated by psychological support/set-and-setting. Headache post-session. Hallucinogen persisting perception disorder (HPPD) — rare. No physical withdrawal syndrome. Non-addictive.",
       "contraindications": "Personal or family history of schizophrenia, bipolar I disorder, or other psychotic disorders — absolute contraindication (risk of precipitating psychosis). Concurrent lithium — risk of seizures and hyperthermia (documented case reports). MAOIs — risk of serotonin syndrome. Uncontrolled cardiovascular disease — relative contraindication (transient hypertension/tachycardia)."
     },
@@ -1249,6 +1410,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/40284409/",
         "https://pubmed.ncbi.nlm.nih.gov/28074670/",
         "https://pubmed.ncbi.nlm.nih.gov/9204776/"
+      ],
+      "cited_references": [
+        "[1] - Carhart-Harris R., \"Trial of Psilocybin versus Escitalopram for Depression.\", N Engl J Med, 2021, PMID: 33852780",
+        "[2] - Davis AK., \"Effects of Psilocybin-Assisted Therapy on Major Depressive Disorder: A Randomized Clinical Trial.\", JAMA Psychiatry, 2021, PMID: 33146667",
+        "[3] - Raison CL., \"Single-Dose Psilocybin Treatment for Major Depressive Disorder: A Randomized Clinical Trial.\", JAMA, 2023, PMID: 37651119",
+        "[4] - Rosenblat JD., \"Psilocybin-assisted psychotherapy for treatment resistant depression: A randomized clinical trial.\", Med, 2024, PMID: 38359838",
+        "[5] - Haikazian S., \"Psilocybin-assisted therapy for depression: A systematic review and meta-analysis.\", Psychiatry Res, 2023, PMID: 37844352"
       ]
     }
   },
@@ -1264,7 +1432,7 @@
     ],
     "narrative_summary": {
       "historical_use": "One of the most culturally iconic mushrooms globally. Used in shamanic traditions across Siberia and northern Europe for millennia as an entheogen. Historical use by the Koryak, Chukchi, and other Siberian shamans; speculated to be the 'Soma' of the Rigveda (Gordon Wasson's hypothesis, contested). The active compounds ibotenic acid and muscimol are entirely distinct from the psilocybin found in Psilocybe species. Culturally associated with Christmas/Yule traditions in northern Europe.",
-      "modern_application": "Interest is strictly pharmacological and research-oriented. Muscimol is a potent, selective GABA-A receptor agonist studied as a research tool. Not approved as a therapeutic. Ibotenic acid is a potent glutamate (NMDA/AMPA) receptor agonist used experimentally to create animal models of neurodegeneration. Muscimol has been investigated (preclinically) for epilepsy, anxiety, and pain. Microdosing with Amanita muscaria extracts is a growing, unregulated consumer trend — without clinical safety data.",
+      "modern_application": "Interest is primarily pharmacological and research-oriented. Muscimol is a potent, selective GABA-A receptor agonist and is reviewed among classic neuroscience compounds [2]. Chemistry, biology, toxicology, and ethnomycology have been comprehensively reviewed [1]. Ibotenic acid is a potent glutamate (NMDA/AMPA) receptor agonist used experimentally to create animal models of neurodegeneration [1]. Analytical characterisation of ibotenic acid, muscimol, and ergosterol content in A. muscaria hydrolysate preparations has been published [5]. Accidental poisoning cases are documented clinically [3]. Microdosing with A. muscaria extracts is a growing unregulated consumer trend studied via online community analysis [4]; clinical safety data are absent.",
       "side_effects": "TOXIC if consumed without preparation: nausea, vomiting, hypersalivation, sweating, miosis (muscarine — minor component). CNS effects: sedation, dissociation, confusion, delirium, ataxia (muscimol/ibotenic acid). Rarely fatal in adults; potentially fatal in children and small adults. Symptoms: cholinergic + anticholinergic + CNS-depressant syndrome. Ibotenic acid is neurotoxic.",
       "contraindications": "Raw or unprepared Amanita muscaria must not be consumed therapeutically. Ibotenic acid is neurotoxic. CNS depressants — additive effect. Not suitable for self-administration. All use must be under controlled research conditions."
     },
@@ -1300,6 +1468,13 @@
         "https://pubmed.ncbi.nlm.nih.gov/41965649/",
         "https://pubmed.ncbi.nlm.nih.gov/41820030/",
         "https://pubmed.ncbi.nlm.nih.gov/41776135/"
+      ],
+      "cited_references": [
+        "[1] - Michelot D., \"Amanita muscaria: chemistry, biology, toxicology, and ethnomycology.\", Mycol Res, 2003, PMID: 12747324",
+        "[2] - Rivera-Illanes D., \"Classics in Chemical Neuroscience: Muscimol.\", ACS Chem Neurosci, 2024, PMID: 39254100",
+        "[3] - Rampolli FI., \"The Deceptive Mushroom: Accidental Amanita muscaria Poisoning.\", Eur J Case Rep Intern Med, 2021, PMID: 33768066",
+        "[4] - Hartwig J., \"Exploring User Experiences with Amanita muscaria: A Thematic Analysis of Reddit Online Forum Discussions.\", Subst Use Misuse, 2025, PMID: 40057818",
+        "[5] - Dushkov A., \"Analysis of the Ibotenic Acid, Muscimol, and Ergosterol Content of an Amanita Muscaria Hydrolysate.\", Molecules, 2023, PMID: 37836667"
       ]
     }
   },
