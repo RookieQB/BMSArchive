@@ -155,7 +155,7 @@
   },
   {
     "scientific_name": "Cordyceps sinensis",
-    "common_name": "Kinesisk Snyltekølle / Caterpillar Fungus",
+    "common_name": "Caterpillar Fungus",
     "type": "Fungi",
     "article_count": 2836,
     "primary_categories": [
@@ -208,7 +208,7 @@
   },
   {
     "scientific_name": "Cordyceps militaris",
-    "common_name": "Cordyceps militaris / Orange Caterpillar Fungus",
+    "common_name": "Orange Caterpillar Fungus",
     "type": "Fungi",
     "article_count": 2836,
     "primary_categories": [
@@ -261,7 +261,7 @@
   },
   {
     "scientific_name": "Trametes versicolor",
-    "common_name": "Turkey Tail / Kalkhatten",
+    "common_name": "Turkey Tail",
     "type": "Fungi",
     "article_count": 1346,
     "primary_categories": [
@@ -418,7 +418,7 @@
   },
   {
     "scientific_name": "Agaricus blazei",
-    "common_name": "Mandel-champignon / Royal Sun Agaricus / ABM",
+    "common_name": "Royal Sun Agaricus / ABM",
     "type": "Fungi",
     "article_count": 357,
     "primary_categories": [
@@ -469,7 +469,7 @@
   },
   {
     "scientific_name": "Tremella fuciformis",
-    "common_name": "Snow Fungus / Silver Ear Mushroom / Hvid Gelésvamp",
+    "common_name": "Snow Fungus / Silver Ear Mushroom",
     "type": "Fungi",
     "article_count": 227,
     "primary_categories": [
@@ -677,7 +677,7 @@
   },
   {
     "scientific_name": "Flammulina velutipes",
-    "common_name": "Enoki / Winter Mushroom / Vintersvamp",
+    "common_name": "Enoki / Winter Mushroom",
     "type": "Fungi",
     "article_count": 642,
     "primary_categories": [
@@ -730,7 +730,7 @@
   },
   {
     "scientific_name": "Pleurotus ostreatus",
-    "common_name": "Almindelig Østershat / Oyster Mushroom",
+    "common_name": "Oyster Mushroom",
     "type": "Fungi",
     "article_count": 4056,
     "primary_categories": [
@@ -784,7 +784,7 @@
   },
   {
     "scientific_name": "Schizophyllum commune",
-    "common_name": "Kløvblad / Split Gill Fungus",
+    "common_name": "Split Gill Fungus",
     "type": "Fungi",
     "article_count": 1174,
     "primary_categories": [
@@ -834,7 +834,7 @@
   },
   {
     "scientific_name": "Auricularia auricula-judae",
-    "common_name": "Judasøre / Jelly Ear / Wood Ear",
+    "common_name": "Jelly Ear / Wood Ear",
     "type": "Fungi",
     "article_count": 154,
     "primary_categories": [
@@ -886,7 +886,7 @@
   },
   {
     "scientific_name": "Coprinus comatus",
-    "common_name": "Paryk-blækhat / Shaggy Mane / Shaggy Ink Cap",
+    "common_name": "Shaggy Mane / Shaggy Ink Cap",
     "type": "Fungi",
     "article_count": 206,
     "primary_categories": [
@@ -939,7 +939,7 @@
   },
   {
     "scientific_name": "Antrodia cinnamomea",
-    "common_name": "Antrodia cinnamomea / Niu Zhang Zhi (Taiwan)",
+    "common_name": "Niu Zhang Zhi",
     "type": "Fungi",
     "article_count": 390,
     "primary_categories": [
@@ -991,7 +991,7 @@
   },
   {
     "scientific_name": "Fomes fomentarius",
-    "common_name": "Tøndersvamp / Hoof Fungus / Tinder Conk",
+    "common_name": "Hoof Fungus / Tinder Conk",
     "type": "Fungi",
     "article_count": 121,
     "primary_categories": [
@@ -1043,7 +1043,7 @@
   },
   {
     "scientific_name": "Ophiocordyceps sinensis",
-    "common_name": "Ophiocordyceps sinensis / Wild Tibetan Caterpillar Fungus",
+    "common_name": "Wild Tibetan Caterpillar Fungus",
     "type": "Fungi",
     "article_count": 3026,
     "primary_categories": [
@@ -1097,7 +1097,7 @@
   },
   {
     "scientific_name": "Xylaria nigripes",
-    "common_name": "Xylaria nigripes / Wu Ling Shen (TCM)",
+    "common_name": "Wu Ling Shen",
     "type": "Fungi",
     "article_count": 35,
     "primary_categories": [
@@ -1147,7 +1147,7 @@
   },
   {
     "scientific_name": "Ustilago maydis",
-    "common_name": "Huitlacoche / Corn Smut / Majs-brandsvamp",
+    "common_name": "Huitlacoche / Corn Smut",
     "type": "Fungi",
     "article_count": 1332,
     "primary_categories": [
@@ -1200,7 +1200,7 @@
   },
   {
     "scientific_name": "Psilocybe cubensis",
-    "common_name": "Klinisk psykiatrisk forskning / Magic Mushroom (psilocybin source)",
+    "common_name": "Magic Mushroom / Psilocybin Mushroom",
     "type": "Fungi",
     "article_count": 108,
     "primary_categories": [
@@ -1254,7 +1254,7 @@
   },
   {
     "scientific_name": "Amanita muscaria",
-    "common_name": "Rød Fluesvamp / Fly Agaric",
+    "common_name": "Fly Agaric",
     "type": "Fungi",
     "article_count": 215,
     "primary_categories": [
