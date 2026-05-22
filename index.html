@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="BMS Archive — Evidence-based clinical research and data on botanical medicines. Join the waitlist for early access." />
-  <meta property="og:title" content="BMS Archive — Evidence-Based Botanical Medicine Database" />
-  <meta property="og:description" content="Evidence-based clinical research and data on botanical medicines — rigorously sourced, peer-reviewed, and structured for researchers and practitioners." />
+  <meta name="description" content="BMS Archive — A scientific botanical and fungal archive for educational and research purposes only. Not medical advice." />
+  <meta property="og:title" content="BMS Archive — Botanical & Fungal Scientific Archive" />
+  <meta property="og:description" content="An educational and scientific archive of botanical and fungal monographs sourced from peer-reviewed literature. For research purposes only — not medical advice." />
   <meta property="og:url" content="https://bmsarchive.com" />
-  <title>BMS Archive — Evidence-Based Botanical Medicine Database</title>
+  <title>BMS Archive — Botanical & Fungal Scientific Archive</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,6 +41,19 @@
   </script>
 </head>
 <body class="bg-white text-gray-900 antialiased">
+
+  <!-- ═══════════════════════ DISCLAIMER BANNER ════════════════════ -->
+  <div class="bg-amber-50 border-b border-amber-200" role="note" aria-label="Disclaimer">
+    <div class="max-w-6xl mx-auto px-6 py-3 flex items-start gap-3">
+      <svg class="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
+      </svg>
+      <p class="text-xs text-amber-900 leading-relaxed">
+        <span class="font-bold uppercase tracking-wide">Disclaimer:</span>
+        This archive is for educational, historical, and scientific research purposes only. The information provided does not constitute medical advice. None of the listed botanicals, fungi, or compounds are evaluated or approved to prevent, treat, diagnose, or cure any disease or medical condition.
+      </p>
+    </div>
+  </div>
 
   <!-- ═══════════════════════════════════ NAV ═══════════════════════════════════ -->
   <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
@@ -135,11 +148,11 @@
       <!-- Database CTA -->
       <div class="flex items-center justify-center gap-3 mt-2 mb-6">
         <a href="/database.html"
-           class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-forest-200 bg-forest-50 text-forest-800 text-sm font-semibold hover:bg-forest-100 hover:border-forest-300 transition-all duration-200">
+           class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-forest-700 text-white text-sm font-semibold shadow-md hover:bg-forest-800 hover:shadow-lg transition-all duration-200">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 2.625c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/>
           </svg>
-          Browse the Database — 25 profiles live
+          Browse the Database — 50 Bioactive Monographs
         </a>
       </div>
 
@@ -163,16 +176,16 @@
     <div class="max-w-4xl mx-auto px-6 py-10">
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
         <div>
-          <p class="text-3xl font-bold text-forest-800 tracking-tight">500+</p>
-          <p class="text-sm text-gray-500 mt-1.5">Botanical monographs planned</p>
+          <p class="text-lg font-bold text-forest-800 tracking-tight">Data Matters</p>
+          <p class="text-sm text-gray-500 mt-1.5">Aggregated from multiple peer-reviewed databases, including PubMed, to ensure absolute clinical precision.</p>
         </div>
         <div class="sm:border-x border-gray-200">
-          <p class="text-3xl font-bold text-forest-800 tracking-tight">1,000+</p>
-          <p class="text-sm text-gray-500 mt-1.5">Peer-reviewed sources to be indexed</p>
+          <p class="text-lg font-bold text-forest-800 tracking-tight">50 Bioactives</p>
+          <p class="text-sm text-gray-500 mt-1.5">Thoroughly detailed monographs across plant and fungal species, continuously verified and expanding.</p>
         </div>
         <div>
-          <p class="text-3xl font-bold text-forest-800 tracking-tight">100%</p>
-          <p class="text-sm text-gray-500 mt-1.5">Evidence-graded, cited data</p>
+          <p class="text-lg font-bold text-forest-800 tracking-tight">Interaction Checking</p>
+          <p class="text-sm text-gray-500 mt-1.5">Identify critical herb-drug interactions, CYP-enzyme pathways, and contraindications in seconds.</p>
         </div>
       </div>
     </div>
@@ -365,6 +378,40 @@
         You're on the list! 🎉 Talk soon.
       </div>
       <p id="cta-error" class="hidden mt-3 text-red-300 text-xs font-medium"></p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ DISCLAIMER ══════════════════════════════ -->
+  <section class="bg-gray-50 border-t border-gray-200 py-16">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="flex items-start gap-3 mb-6">
+        <svg class="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
+        </svg>
+        <h2 class="text-sm font-semibold text-gray-700 uppercase tracking-widest">Medical Disclaimer &amp; Terms of Use</h2>
+      </div>
+      <div class="space-y-5 text-sm text-gray-500 leading-relaxed">
+        <div>
+          <p class="font-semibold text-gray-700 mb-1">For Educational Purposes Only</p>
+          <p>The information provided in The BMS Archive, including all bioactive monographs and simplified summaries, is for informational and educational purposes only. It does not constitute professional medical advice, diagnosis, or treatment.</p>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-700 mb-1">Data Accuracy &amp; Independent Verification</p>
+          <p>While we strive for high clinical accuracy by utilising peer-reviewed literature, errors in data compilation, translation, or interpretation may occur. Users must independently verify all pharmacological claims, mechanisms, and safety profiles by consulting the primary PubMed sources provided within each monograph before making any health decisions.</p>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-700 mb-1">Vulnerable Populations</p>
+          <p>We strictly advise against the use of, or experimentation with, phytomedicines and mycomedicines by pregnant or nursing women, children, and adolescents. The vast majority of these bioactive compounds lack sufficient clinical safety data, teratological studies, and established paediatric dosing.</p>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-700 mb-1">Herb-Drug Interactions &amp; Medical Conditions</p>
+          <p>Natural therapeutics and plant-based compounds can cause severe pharmacokinetic interactions with prescription medications (e.g., via CYP450 enzyme pathways or P-glycoprotein modulation). Never initiate the use of a new bioactive compound without first consulting your primary healthcare provider or a qualified pharmacist, especially if you have a pre-existing medical condition.</p>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-700 mb-1">Limitation of Liability</p>
+          <p>By using this database, you explicitly acknowledge and agree that the authors, developers, and hosting entities of The BMS Archive hold no personal, professional, or legal liability for any direct or indirect damages, adverse health effects, or medical complications arising from the reliance on, or use of, the information provided on this platform.</p>
+        </div>
+      </div>
     </div>
   </section>
 
