@@ -5,9 +5,9 @@
     "type": "Fungi",
     "article_count": 3033,
     "primary_categories": [
-      "Immunomodulation",
-      "Oncology support",
-      "Adaptogen"
+      "Immunological Research",
+      "Cellular & Immune Studies",
+      "Stress Response Research"
     ],
     "narrative_summary": {
       "historical_use": "Known in Traditional Chinese Medicine for over 2,000 years as 'Lingzhi' (spirit mushroom), revered as the 'mushroom of immortality'. Used by Taoist monks to promote longevity, calm the mind, and nourish the heart. Referenced in the Shen Nong Ben Cao Jing (c. 100 CE) as a superior tonic.",
@@ -58,9 +58,8 @@
     "type": "Fungi",
     "article_count": 556,
     "primary_categories": [
-      "Neuroprotection",
-      "Cognitive enhancement",
-      "Neurogenesis"
+      "Neurological & Cognitive Research",
+      "Cognitive Function Research"
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese and Japanese medicine for centuries primarily to treat gastrointestinal disorders (gastric ulcers, chronic gastritis) and as a general tonic. Known in Japan as 'Yamabushitake'. Referenced in historical texts as a food and medicine for digestive health.",
@@ -108,9 +107,9 @@
     "type": "Fungi",
     "article_count": 437,
     "primary_categories": [
-      "Antioxidant",
-      "Immunomodulation",
-      "Anti-inflammatory"
+      "Oxidative Stress Research",
+      "Immunological Research",
+      "Inflammatory Pathways"
     ],
     "narrative_summary": {
       "historical_use": "Used in folk medicine across Russia, Siberia, and Scandinavia (including Norway and Finland) since at least the 16th century. Traditionally prepared as a tea (decoction of the sclerotium) for GI diseases, tuberculosis, and cancer. Finnish records describe its use as a coffee substitute during WWII.",
@@ -156,13 +155,13 @@
   },
   {
     "scientific_name": "Cordyceps sinensis",
-    "common_name": "Kinesisk Snyltekølle / Caterpillar Fungus",
+    "common_name": "Caterpillar Fungus",
     "type": "Fungi",
     "article_count": 2836,
     "primary_categories": [
-      "Adaptogen",
-      "Athletic performance",
-      "Renoprotection"
+      "Stress Response Research",
+      "Exercise & Physical Performance Research",
+      "Renal Mechanisms"
     ],
     "narrative_summary": {
       "historical_use": "Documented in Tibetan and Chinese medicine since at least the 15th century (Ben Cao Bei Yao, 1694). Traditionally collected at high altitude on the Tibetan Plateau, growing from the larvae of Hepialus moth caterpillars. Used to treat fatigue, respiratory weakness, sexual dysfunction, and as a general tonic for the elderly.",
@@ -209,13 +208,13 @@
   },
   {
     "scientific_name": "Cordyceps militaris",
-    "common_name": "Cordyceps militaris / Orange Caterpillar Fungus",
+    "common_name": "Orange Caterpillar Fungus",
     "type": "Fungi",
     "article_count": 2836,
     "primary_categories": [
-      "Adaptogen",
-      "Anti-inflammatory",
-      "Athletic performance"
+      "Stress Response Research",
+      "Inflammatory Pathways",
+      "Exercise & Physical Performance Research"
     ],
     "narrative_summary": {
       "historical_use": "Historically used interchangeably with C. sinensis in Traditional Chinese Medicine, though less prized. Growing interest as a cultivatable alternative since wild C. sinensis is prohibitively expensive and endangered. Used in TCM for similar indications: fatigue, sexual dysfunction, respiratory conditions.",
@@ -262,13 +261,13 @@
   },
   {
     "scientific_name": "Trametes versicolor",
-    "common_name": "Turkey Tail / Kalkhatten",
+    "common_name": "Turkey Tail",
     "type": "Fungi",
     "article_count": 1346,
     "primary_categories": [
-      "Immunomodulation",
-      "Oncology support",
-      "Gut microbiome"
+      "Immunological Research",
+      "Cellular & Immune Studies",
+      "Gut Microbiota Research"
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese Medicine as 'Yun Zhi' (cloud mushroom) for over 2,000 years for liver ailments, infections, and as a general tonic. In Japan, the polysaccharide extract PSK (Krestin) was developed in the 1970s and became one of the best-selling anti-cancer drugs in the world, approved for clinical use in Japan.",
@@ -317,9 +316,9 @@
     "type": "Fungi",
     "article_count": 1607,
     "primary_categories": [
-      "Immunomodulation",
-      "Cardiovascular",
-      "Anti-infective"
+      "Immunological Research",
+      "Cardiovascular System",
+      "Microbial Research"
     ],
     "narrative_summary": {
       "historical_use": "Cultivated and used as food and medicine in China and Japan for over 1,000 years. Referenced in Chinese medical texts as early as 100 CE (Liu Ming Ben Cao). Traditionally used for improving vitality, treating colds, liver conditions, and as an aphrodisiac. The most widely cultivated edible mushroom globally.",
@@ -372,9 +371,9 @@
     "type": "Fungi",
     "article_count": 588,
     "primary_categories": [
-      "Immunomodulation",
-      "Antidiabetic",
-      "Oncology support"
+      "Immunological Research",
+      "Glucose & Metabolic Research",
+      "Cellular & Immune Studies"
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese and Japanese medicine as a tonic and food. Known in Japan as 'Maitake' (dancing mushroom), legend holds that people danced with joy upon finding it in the wild. Used historically for fatigue, diabetes-like symptoms, and immune support. Cultivated commercially since the 1970s in Japan.",
@@ -419,13 +418,13 @@
   },
   {
     "scientific_name": "Agaricus blazei",
-    "common_name": "Mandel-champignon / Royal Sun Agaricus / ABM",
+    "common_name": "Royal Sun Agaricus / ABM",
     "type": "Fungi",
     "article_count": 357,
     "primary_categories": [
-      "Immunomodulation",
-      "Antidiabetic",
-      "Oncology support"
+      "Immunological Research",
+      "Glucose & Metabolic Research",
+      "Cellular & Immune Studies"
     ],
     "narrative_summary": {
       "historical_use": "Native to the Piedade region of Brazil, where it is known as 'Cogumelo do Sol' (mushroom of the sun) or 'Cogumelo de Deus' (mushroom of God). Introduced to Japan in the 1960s, where it became popular after researchers noted low rates of cancer and infections in the Brazilian community that consumed it regularly.",
@@ -470,13 +469,13 @@
   },
   {
     "scientific_name": "Tremella fuciformis",
-    "common_name": "Snow Fungus / Silver Ear Mushroom / Hvid Gelésvamp",
+    "common_name": "Snow Fungus / Silver Ear Mushroom",
     "type": "Fungi",
     "article_count": 227,
     "primary_categories": [
-      "Neuroprotection",
-      "Skin health",
-      "Immunomodulation"
+      "Neurological & Cognitive Research",
+      "Dermatological Research",
+      "Immunological Research"
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese Medicine and as a prized culinary delicacy for over 2,000 years. Known in China as 'Bai Mu Er' (white wood ear). Historically associated with female beauty and longevity — legend holds that Yang Guifei, the Tang Dynasty imperial consort famed for her beauty, used it daily. Used medicinally for lung conditions, dry cough, and as a yin tonic.",
@@ -525,9 +524,9 @@
     "type": "Fungi",
     "article_count": 307,
     "primary_categories": [
-      "Immunomodulation",
-      "Oncology support",
-      "Anti-inflammatory"
+      "Immunological Research",
+      "Cellular & Immune Studies",
+      "Inflammatory Pathways"
     ],
     "narrative_summary": {
       "historical_use": "One of the most prized medicinal mushrooms in East Asian medicine, known as 'Sang Huang' (yellow mulberry) in China and 'Meshimakobu' in Japan. Used for over 2,000 years primarily as an anti-tumour agent, also for haemostasis, dysentery, and as an immune tonic. Grows on mulberry trees (Morus species) and was historically one of the most expensive medicinal fungi.",
@@ -578,9 +577,9 @@
     "type": "Fungi",
     "article_count": 889,
     "primary_categories": [
-      "Immunomodulation",
-      "Sedation/Anxiolysis",
-      "Anti-inflammatory"
+      "Immunological Research",
+      "CNS Depression Research",
+      "Inflammatory Pathways"
     ],
     "narrative_summary": {
       "historical_use": "One of the most widely used fungi in Traditional Chinese Medicine, mentioned as a primary herb in the Shen Nong Ben Cao Jing (c. 100 CE). Known as 'Fu Ling', used to calm the mind (shen), strengthen the spleen and stomach, promote urination, and resolve dampness. A core component of many classical TCM formulas (e.g., Liu Wei Di Huang Wan, Si Jun Zi Tang).",
@@ -631,9 +630,9 @@
     "type": "Fungi",
     "article_count": 136,
     "primary_categories": [
-      "Immunomodulation",
-      "Diuretic",
-      "Oncology support"
+      "Immunological Research",
+      "Renal & Fluid Regulation Research",
+      "Cellular & Immune Studies"
     ],
     "narrative_summary": {
       "historical_use": "Known in TCM as 'Zhu Ling', used for over 2,000 years primarily as a diuretic and for treating oedema, urinary difficulty, and diarrhoea. Referenced in classical texts including Shen Nong Ben Cao Jing. The sclerotium grows on the roots of deciduous trees. A major component of the classical TCM formula 'Zhu Ling Tang' for urinary tract disorders.",
@@ -678,13 +677,13 @@
   },
   {
     "scientific_name": "Flammulina velutipes",
-    "common_name": "Enoki / Winter Mushroom / Vintersvamp",
+    "common_name": "Enoki / Winter Mushroom",
     "type": "Fungi",
     "article_count": 642,
     "primary_categories": [
-      "Immunomodulation",
-      "Anti-tumour",
-      "Cardiovascular"
+      "Immunological Research",
+      "Cellular & Immune Studies",
+      "Cardiovascular System"
     ],
     "narrative_summary": {
       "historical_use": "Widely consumed as food in East Asia for centuries. Known in Japan as 'Enokitake', in China as 'Jin Zhen Gu' (golden needle mushroom). Used in TCM for liver disease, gastric disorders, and as a tonic. The wild form (brown, thick-stemmed) differs significantly in bioactive content from the commercially cultivated white, slender variety.",
@@ -731,13 +730,13 @@
   },
   {
     "scientific_name": "Pleurotus ostreatus",
-    "common_name": "Almindelig Østershat / Oyster Mushroom",
+    "common_name": "Oyster Mushroom",
     "type": "Fungi",
     "article_count": 4056,
     "primary_categories": [
-      "Cardiovascular",
-      "Antidiabetic",
-      "Immunomodulation"
+      "Cardiovascular System",
+      "Glucose & Metabolic Research",
+      "Immunological Research"
     ],
     "narrative_summary": {
       "historical_use": "Consumed as food across Europe and Asia for centuries. Less prominent in traditional medicine than Asian medicinal fungi, but used in Eastern European folk medicine for general health. One of the most widely cultivated mushrooms globally, appreciated for culinary and nutritional value. References to medicinal use in Slavic folk medicine for liver and cardiovascular conditions.",
@@ -785,13 +784,13 @@
   },
   {
     "scientific_name": "Schizophyllum commune",
-    "common_name": "Kløvblad / Split Gill Fungus",
+    "common_name": "Split Gill Fungus",
     "type": "Fungi",
     "article_count": 1174,
     "primary_categories": [
-      "Immunomodulation",
-      "Oncology support",
-      "Anti-inflammatory"
+      "Immunological Research",
+      "Cellular & Immune Studies",
+      "Inflammatory Pathways"
     ],
     "narrative_summary": {
       "historical_use": "Consumed as food in parts of Asia, Africa, and Latin America. Used in traditional medicine in Mexico and Southeast Asia for fever, headache, and infections. One of the most widespread mushroom species globally (found on every continent except Antarctica). Not traditionally prominent in Chinese or Japanese medicinal systems, but significant in modern Japanese oncology research.",
@@ -835,13 +834,13 @@
   },
   {
     "scientific_name": "Auricularia auricula-judae",
-    "common_name": "Judasøre / Jelly Ear / Wood Ear",
+    "common_name": "Jelly Ear / Wood Ear",
     "type": "Fungi",
     "article_count": 154,
     "primary_categories": [
-      "Anticoagulant",
-      "Antidiabetic",
-      "Immunomodulation"
+      "Coagulation Research",
+      "Glucose & Metabolic Research",
+      "Immunological Research"
     ],
     "narrative_summary": {
       "historical_use": "Used in Traditional Chinese Medicine for over 1,000 years, known as 'Mu Er' (wood ear) or 'Hei Mu Er' (black wood ear). Traditionally used for improving blood circulation, treating throat conditions, and as a yin tonic for the lungs and stomach. A common food ingredient in Asian cuisine (soups, stir-fries). Reference to its use for blood disorders found in Ben Cao Gang Mu (Li Shizhen, 1596).",
@@ -887,13 +886,13 @@
   },
   {
     "scientific_name": "Coprinus comatus",
-    "common_name": "Paryk-blækhat / Shaggy Mane / Shaggy Ink Cap",
+    "common_name": "Shaggy Mane / Shaggy Ink Cap",
     "type": "Fungi",
     "article_count": 206,
     "primary_categories": [
-      "Antidiabetic",
-      "Anti-tumour",
-      "Immunomodulation"
+      "Glucose & Metabolic Research",
+      "Cellular & Immune Studies",
+      "Immunological Research"
     ],
     "narrative_summary": {
       "historical_use": "Eaten as a culinary mushroom in Europe and North America, known as the shaggy ink cap. Not historically prominent in TCM but used in Chinese folk medicine under the name 'Ji Tui Mo'. Recognised for its edibility (must be consumed promptly after harvest as it auto-digests rapidly). Traditional use in Chinese folk medicine for improved digestion and energy.",
@@ -940,13 +939,13 @@
   },
   {
     "scientific_name": "Antrodia cinnamomea",
-    "common_name": "Antrodia cinnamomea / Niu Zhang Zhi (Taiwan)",
+    "common_name": "Niu Zhang Zhi",
     "type": "Fungi",
     "article_count": 390,
     "primary_categories": [
-      "Hepatoprotection",
-      "Anti-tumour",
-      "Anti-inflammatory"
+      "Hepatic / Liver Mechanisms",
+      "Cellular & Immune Studies",
+      "Inflammatory Pathways"
     ],
     "narrative_summary": {
       "historical_use": "Endemic to Taiwan, where it grows exclusively on the inner cavity of Cinnamomum kanehirai (Taiwanese sassafras). Known locally as 'Zhang Zhi' or 'Niu Zhang Zhi'. Used in Taiwanese indigenous medicine and folk medicine for centuries as a treatment for liver disease, abdominal pain, diarrhoea, and as a hangover remedy. Historically one of the most expensive medicinal fungi in Taiwan.",
@@ -992,13 +991,13 @@
   },
   {
     "scientific_name": "Fomes fomentarius",
-    "common_name": "Tøndersvamp / Hoof Fungus / Tinder Conk",
+    "common_name": "Hoof Fungus / Tinder Conk",
     "type": "Fungi",
     "article_count": 121,
     "primary_categories": [
-      "Anti-inflammatory",
-      "Antioxidant",
-      "Antimicrobial"
+      "Inflammatory Pathways",
+      "Oxidative Stress Research",
+      "Microbial Research"
     ],
     "narrative_summary": {
       "historical_use": "One of the oldest known medicinal fungi, used by humans for at least 5,300 years — a piece was found in the toolkit of Ötzi the Iceman (Alpine mummy, c. 3,300 BCE), likely used as a fire-starting material and possibly for medicinal purposes. Used in European folk medicine for wound healing, as a haemostatic agent, and to treat digestive disorders. The amadou (processed inner tissue) was used historically as tinder, clothing, and wound dressings.",
@@ -1044,13 +1043,13 @@
   },
   {
     "scientific_name": "Ophiocordyceps sinensis",
-    "common_name": "Ophiocordyceps sinensis / Wild Tibetan Caterpillar Fungus",
+    "common_name": "Wild Tibetan Caterpillar Fungus",
     "type": "Fungi",
     "article_count": 3026,
     "primary_categories": [
-      "Adaptogen",
-      "Renoprotection",
-      "Immunomodulation"
+      "Stress Response Research",
+      "Renal Mechanisms",
+      "Immunological Research"
     ],
     "narrative_summary": {
       "historical_use": "The taxonomically correct name for the wild-harvested Tibetan caterpillar fungus, previously classified as Cordyceps sinensis. Formed from parasitism of Hepialus moth larvae at altitudes >3,500 m on the Tibetan Plateau. Documented in Tibetan medical texts since the 15th century as a potent tonic for fatigue, sexual vitality, respiratory capacity, and kidney function. Among the most expensive natural substances per gram globally.",
@@ -1098,13 +1097,13 @@
   },
   {
     "scientific_name": "Xylaria nigripes",
-    "common_name": "Xylaria nigripes / Wu Ling Shen (TCM)",
+    "common_name": "Wu Ling Shen",
     "type": "Fungi",
     "article_count": 35,
     "primary_categories": [
-      "Sedation/Anxiolysis",
-      "Neuroprotection",
-      "Antioxidant"
+      "CNS Depression Research",
+      "Neurological & Cognitive Research",
+      "Oxidative Stress Research"
     ],
     "narrative_summary": {
       "historical_use": "Known in Traditional Chinese Medicine as 'Wu Ling Shen' (the fungus found inside the chambers of ancient termite mounds). Used historically for insomnia, anxiety, and to calm the mind. Referenced in TCM pharmacopeias as a sedative tonic. Grows inside the nests of Odontotermes formosanus (Formosan subterranean termite) in a unique symbiotic relationship.",
@@ -1148,13 +1147,13 @@
   },
   {
     "scientific_name": "Ustilago maydis",
-    "common_name": "Huitlacoche / Corn Smut / Majs-brandsvamp",
+    "common_name": "Huitlacoche / Corn Smut",
     "type": "Fungi",
     "article_count": 1332,
     "primary_categories": [
       "Nutritional",
-      "Anti-inflammatory",
-      "Antioxidant"
+      "Inflammatory Pathways",
+      "Oxidative Stress Research"
     ],
     "narrative_summary": {
       "historical_use": "A fungal pathogen of maize (Zea mays), consumed as a food delicacy in Mesoamerica for thousands of years, known as 'huitlacoche' or 'cuitlacoche' in Mexico. Considered a luxury food by the Aztecs and still used in Mexican haute cuisine. Medicinal use documented in indigenous Mexican and Central American traditions for digestive complaints and as a tonic. The infected corn galls are consumed as a vegetable.",
@@ -1201,13 +1200,13 @@
   },
   {
     "scientific_name": "Psilocybe cubensis",
-    "common_name": "Klinisk psykiatrisk forskning / Magic Mushroom (psilocybin source)",
+    "common_name": "Magic Mushroom / Psilocybin Mushroom",
     "type": "Fungi",
     "article_count": 108,
     "primary_categories": [
-      "Psychiatric medicine",
-      "Neuroplasticity",
-      "Addiction medicine"
+      "Psychiatric Research",
+      "Neurological & Cognitive Research",
+      "Substance Dependence Research"
     ],
     "narrative_summary": {
       "historical_use": "Used in Mesoamerican indigenous ceremonial and religious contexts for thousands of years, particularly by the Mazatec people of Oaxaca, Mexico (known as 'teonanácatl' — 'flesh of the gods'). Psilocybin was first isolated and synthesised by Albert Hofmann at Sandoz in 1958. Studied in the 1960s before being classified as Schedule I in the US in 1970, halting research for decades.",
@@ -1255,13 +1254,13 @@
   },
   {
     "scientific_name": "Amanita muscaria",
-    "common_name": "Rød Fluesvamp / Fly Agaric",
+    "common_name": "Fly Agaric",
     "type": "Fungi",
     "article_count": 215,
     "primary_categories": [
       "Pharmacological isolation",
       "GABA-A modulation",
-      "Neuropsychiatric research"
+      "Neurological & Cognitive Research"
     ],
     "narrative_summary": {
       "historical_use": "One of the most culturally iconic mushrooms globally. Used in shamanic traditions across Siberia and northern Europe for millennia as an entheogen. Historical use by the Koryak, Chukchi, and other Siberian shamans; speculated to be the 'Soma' of the Rigveda (Gordon Wasson's hypothesis, contested). The active compounds ibotenic acid and muscimol are entirely distinct from the psilocybin found in Psilocybe species. Culturally associated with Christmas/Yule traditions in northern Europe.",
@@ -1310,9 +1309,9 @@
     "type": "Plant",
     "article_count": 5758,
     "primary_categories": [
-      "Cognitive enhancement",
-      "Neuroprotection",
-      "Peripheral circulation"
+      "Cognitive Function Research",
+      "Neurological & Cognitive Research",
+      "Cardiovascular System"
     ],
     "sources": {
       "top_studies_urls": [
@@ -1397,10 +1396,10 @@
     "type": "Plant",
     "article_count": 11595,
     "primary_categories": [
-      "Adaptogen",
-      "Cognitive enhancement",
-      "Metabolic support",
-      "Anti-fatigue"
+      "Stress Response Research",
+      "Cognitive Function Research",
+      "Metabolic Research",
+      "Fatigue & Energy Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -1481,10 +1480,10 @@
     "type": "Plant",
     "article_count": 544,
     "primary_categories": [
-      "Nootropic",
-      "Neuroprotection",
-      "Adaptogen",
-      "Anti-inflammatory"
+      "Cognitive Function Research",
+      "Neurological & Cognitive Research",
+      "Stress Response Research",
+      "Inflammatory Pathways"
     ],
     "sources": {
       "top_studies_urls": [
@@ -1566,10 +1565,10 @@
     "type": "Plant",
     "article_count": 1508,
     "primary_categories": [
-      "Adaptogen",
-      "Anti-fatigue",
-      "Neuroprotection",
-      "Anti-inflammatory"
+      "Stress Response Research",
+      "Fatigue & Energy Research",
+      "Neurological & Cognitive Research",
+      "Inflammatory Pathways"
     ],
     "sources": {
       "top_studies_urls": [
@@ -1649,10 +1648,10 @@
     "type": "Plant",
     "article_count": 1974,
     "primary_categories": [
-      "Adaptogen",
-      "Anxiolytic",
-      "Neuroprotection",
-      "Hormonal support"
+      "Stress Response Research",
+      "Stress & Anxiety Research",
+      "Neurological & Cognitive Research",
+      "Endocrine Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -1733,9 +1732,9 @@
     "type": "Plant",
     "article_count": 1407,
     "primary_categories": [
-      "Sedative",
-      "Anxiolytic",
-      "Sleep aid",
+      "CNS Depression Research",
+      "Stress & Anxiety Research",
+      "Sleep Research",
       "GABAergic"
     ],
     "sources": {
@@ -1816,10 +1815,10 @@
     "type": "Plant",
     "article_count": 958,
     "primary_categories": [
-      "Anti-inflammatory",
-      "Anxiolytic",
-      "Spasmolytic",
-      "Wound healing"
+      "Inflammatory Pathways",
+      "Stress & Anxiety Research",
+      "Smooth Muscle Research",
+      "Tissue Repair Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -1900,10 +1899,10 @@
     "type": "Plant",
     "article_count": 1323,
     "primary_categories": [
-      "Anxiolytic",
-      "Sedative",
+      "Stress & Anxiety Research",
+      "CNS Depression Research",
       "GABAergic",
-      "Sleep aid"
+      "Sleep Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -1983,10 +1982,10 @@
     "type": "Plant",
     "article_count": 2535,
     "primary_categories": [
-      "Anti-inflammatory",
-      "Immunomodulatory",
-      "Antidiabetic",
-      "Antioxidant"
+      "Inflammatory Pathways",
+      "Immunological Research",
+      "Glucose & Metabolic Research",
+      "Oxidative Stress Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2067,10 +2066,10 @@
     "type": "Plant",
     "article_count": 1645,
     "primary_categories": [
-      "Immunomodulatory",
-      "Antiviral",
-      "Anti-inflammatory",
-      "Respiratory health"
+      "Immunological Research",
+      "Viral Mechanisms Research",
+      "Inflammatory Pathways",
+      "Respiratory Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2150,9 +2149,9 @@
     "type": "Plant",
     "article_count": 1132,
     "primary_categories": [
-      "Antiviral",
-      "Immune support",
-      "Anti-inflammatory"
+      "Viral Mechanisms Research",
+      "Immunological Research",
+      "Inflammatory Pathways"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2231,10 +2230,10 @@
     "type": "Plant",
     "article_count": 1476,
     "primary_categories": [
-      "Immunomodulation",
-      "Adaptogen",
-      "Cardioprotection",
-      "Anti-ageing"
+      "Immunological Research",
+      "Stress Response Research",
+      "Cardiovascular System",
+      "Cellular Ageing Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2314,10 +2313,10 @@
     "type": "Plant",
     "article_count": 6753,
     "primary_categories": [
-      "Anti-inflammatory",
-      "Neuroprotection",
-      "Oncology support",
-      "Antioxidant"
+      "Inflammatory Pathways",
+      "Neurological & Cognitive Research",
+      "Cellular & Immune Studies",
+      "Oxidative Stress Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2397,10 +2396,9 @@
     "type": "Plant",
     "article_count": 3808,
     "primary_categories": [
-      "Anti-inflammatory",
-      "Antiemetic",
-      "GI support",
-      "Analgesic"
+      "Inflammatory Pathways",
+      "Gastrointestinal Research",
+      "Pain Signaling Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2480,10 +2478,10 @@
     "type": "Plant",
     "article_count": 1149,
     "primary_categories": [
-      "Anti-inflammatory",
-      "Analgesic",
-      "Neuroprotection",
-      "Respiratory"
+      "Inflammatory Pathways",
+      "Pain Signaling Research",
+      "Neurological & Cognitive Research",
+      "Respiratory Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2562,9 +2560,9 @@
     "type": "Plant",
     "article_count": 4072,
     "primary_categories": [
-      "Analgesic",
-      "Anti-inflammatory",
-      "Antipyretic"
+      "Pain Signaling Research",
+      "Inflammatory Pathways",
+      "Thermoregulation Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2634,10 +2632,10 @@
     "type": "Plant",
     "article_count": 280,
     "primary_categories": [
-      "Antidiabetic",
-      "Cardiovascular",
-      "Antimicrobial",
-      "Hepatoprotection"
+      "Glucose & Metabolic Research",
+      "Cardiovascular System",
+      "Microbial Research",
+      "Hepatic / Liver Mechanisms"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2708,10 +2706,10 @@
     "type": "Plant",
     "article_count": 1483,
     "primary_categories": [
-      "Hepatoprotection",
-      "Antioxidant",
-      "Oncology support",
-      "Detoxification"
+      "Hepatic / Liver Mechanisms",
+      "Oxidative Stress Research",
+      "Cellular & Immune Studies",
+      "Xenobiotic Metabolism Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2781,10 +2779,10 @@
     "type": "Plant",
     "article_count": 9782,
     "primary_categories": [
-      "Cardiovascular",
-      "Antimicrobial",
-      "Antihypertensive",
-      "Antidiabetic"
+      "Cardiovascular System",
+      "Microbial Research",
+      "Blood Pressure Mechanisms",
+      "Glucose & Metabolic Research"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2854,10 +2852,10 @@
     "type": "Plant",
     "article_count": 1865,
     "primary_categories": [
-      "Antidiabetic",
-      "Anti-inflammatory",
-      "Antimicrobial",
-      "Cardiovascular"
+      "Glucose & Metabolic Research",
+      "Inflammatory Pathways",
+      "Microbial Research",
+      "Cardiovascular System"
     ],
     "sources": {
       "top_studies_urls": [
@@ -2924,9 +2922,8 @@
     "common_name": "Hawthorn",
     "scientific_name": "Crataegus monogyna",
     "tags": [
-      "cardiovascular",
-      "antioxidant",
-      "cardiotonic",
+      "Cardiovascular System",
+      "Oxidative Stress Research",
       "traditional"
     ],
     "overview": {
@@ -3035,9 +3032,8 @@
     },
     "type": "Plant",
     "primary_categories": [
-      "cardiovascular",
-      "antioxidant",
-      "cardiotonic",
+      "Cardiovascular System",
+      "Oxidative Stress Research",
       "traditional"
     ],
     "article_count": 1507
@@ -3047,9 +3043,9 @@
     "common_name": "Chaste Tree",
     "scientific_name": "Vitex agnus-castus",
     "tags": [
-      "hormonal",
-      "women's health",
-      "premenstrual",
+      "Endocrine Research",
+      "Female Endocrine Research",
+      "Menstrual Cycle Research",
       "prolactin",
       "traditional"
     ],
@@ -3159,9 +3155,9 @@
     },
     "type": "Plant",
     "primary_categories": [
-      "hormonal",
-      "women's health",
-      "premenstrual",
+      "Endocrine Research",
+      "Female Endocrine Research",
+      "Menstrual Cycle Research",
       "prolactin",
       "traditional"
     ],
@@ -3172,10 +3168,9 @@
     "common_name": "Saw Palmetto",
     "scientific_name": "Serenoa repens",
     "tags": [
-      "men's health",
-      "prostate",
-      "BPH",
-      "anti-androgenic",
+      "Male Endocrine Research",
+      "Prostate & Urological Research",
+      "Androgen Research",
       "traditional"
     ],
     "overview": {
@@ -3283,10 +3278,9 @@
     },
     "type": "Plant",
     "primary_categories": [
-      "men's health",
-      "prostate",
-      "BPH",
-      "anti-androgenic",
+      "Male Endocrine Research",
+      "Prostate & Urological Research",
+      "Androgen Research",
       "traditional"
     ],
     "article_count": 576
@@ -3296,10 +3290,10 @@
     "common_name": "Puncture Vine",
     "scientific_name": "Tribulus terrestris",
     "tags": [
-      "men's health",
-      "adaptogen",
+      "Male Endocrine Research",
+      "Stress Response Research",
       "testosterone",
-      "athletic performance",
+      "Exercise & Physical Performance Research",
       "traditional"
     ],
     "overview": {
@@ -3407,10 +3401,10 @@
     },
     "type": "Plant",
     "primary_categories": [
-      "men's health",
-      "adaptogen",
+      "Male Endocrine Research",
+      "Stress Response Research",
       "testosterone",
-      "athletic performance",
+      "Exercise & Physical Performance Research",
       "traditional"
     ],
     "article_count": 669
@@ -3420,10 +3414,10 @@
     "common_name": "Stinging Nettle",
     "scientific_name": "Urtica dioica",
     "tags": [
-      "anti-inflammatory",
-      "allergic rhinitis",
-      "BPH",
-      "joint health",
+      "Inflammatory Pathways",
+      "Allergen Response Research",
+      "Prostate & Urological Research",
+      "Joint & Connective Tissue Research",
       "nutritional",
       "traditional"
     ],
@@ -3537,10 +3531,10 @@
     },
     "type": "Plant",
     "primary_categories": [
-      "anti-inflammatory",
-      "allergic rhinitis",
-      "BPH",
-      "joint health",
+      "Inflammatory Pathways",
+      "Allergen Response Research",
+      "Prostate & Urological Research",
+      "Joint & Connective Tissue Research",
       "nutritional",
       "traditional"
     ],

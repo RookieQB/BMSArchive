@@ -40,7 +40,7 @@ http.createServer((req, res) => {
           console.error('Write error:', err);
           return send(res, 500, { error: 'Could not save your email. Please try again.' });
         }
-        console.log('Waitlist:', clean);
+        console.log('Newsletter subscription:', clean);
         send(res, 200, { ok: true });
       });
     });

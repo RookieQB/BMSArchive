@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="BMS Archive — Evidence-based clinical profiles for medicinal plants and fungi. Sourced from peer-reviewed literature." />
-  <title>BMS Archive — Phytomedicine Database</title>
+  <meta name="description" content="BMS Archive — Scientific botanical and fungal monographs for educational and research purposes only. Sourced from peer-reviewed literature." />
+  <title>BMS Archive — Botanical & Fungal Scientific Archive</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -75,14 +75,30 @@
     /* Compound badge truncation safety */
     .compound-badge { max-width: 100%; word-break: break-word; }
 
-    /* Sticky search bar overlap fix */
-    .sticky-controls { top: 64px; }
+    /* Sticky search bar overlap fix — 36px disclaimer + 64px nav */
+    .sticky-controls { top: 100px; }
   </style>
 </head>
 <body class="bg-white text-gray-900 antialiased min-h-screen flex flex-col">
 
+  <!-- ══════════ STICKY HEADER (disclaimer + nav) ══════════ -->
+  <div class="sticky top-0 z-50">
+
+    <!-- Disclaimer banner -->
+    <div class="bg-amber-50 border-b border-amber-200" role="note" aria-label="Disclaimer">
+      <div class="max-w-6xl mx-auto px-6 py-1.5 flex items-center gap-2.5">
+        <svg class="w-4 h-4 text-amber-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
+        </svg>
+        <p class="text-[11px] text-amber-900">
+          <span class="font-bold uppercase tracking-wide">Disclaimer:</span>
+          For educational and scientific research only. Not medical advice. No compound listed is approved to prevent, treat, diagnose, or cure any disease.
+        </p>
+      </div>
+    </div>
+
   <!-- ═══════════════════════════ NAV ═══════════════════════════ -->
-  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+  <header class="bg-white/95 backdrop-blur-sm border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2.5" aria-label="BMS Archive home">
         <span class="font-bold text-forest-950 text-lg tracking-tight">BMS</span>
@@ -101,19 +117,20 @@
       </div>
     </div>
   </header>
+  </div><!-- /sticky header wrapper -->
 
   <!-- ═══════════════════════════ PAGE HEADER ════════════════════ -->
   <div class="bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6 pt-12 pb-10">
       <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
         <div>
-          <p class="text-xs font-semibold text-forest-600 uppercase tracking-widest mb-3">Phytomedicine Database</p>
+          <p class="text-xs font-semibold text-forest-600 uppercase tracking-widest mb-3">Scientific Archive</p>
           <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight mb-2">
-            Clinical Profiles
+            Botanical & Fungal Monographs
           </h1>
           <p class="text-gray-500 text-base max-w-xl">
-            Evidence-based monographs sourced from peer-reviewed literature.
-            Every claim is cited. Known interactions are documented.
+            Research monographs sourced from peer-reviewed literature.
+            Every claim is cited. For educational and research purposes only.
           </p>
         </div>
         <div class="flex items-center gap-2 shrink-0">
@@ -238,7 +255,7 @@
               <p id="m-history" class="text-sm text-gray-700 leading-relaxed"></p>
             </div>
             <div>
-              <p class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Modern Application</p>
+              <p class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Modern Research Context</p>
               <p id="m-modern" class="text-sm text-gray-700 leading-relaxed"></p>
             </div>
             <div>
@@ -260,7 +277,7 @@
 
         <!-- 2. CLINICAL DATA -->
         <section class="px-7 py-6 bg-gray-50/70 border-b border-gray-100">
-          <p class="text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-5">Clinical Data</p>
+          <p class="text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-5">Phytochemical Data</p>
           <div class="space-y-5">
 
             <div class="grid grid-cols-2 gap-4">
