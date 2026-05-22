@@ -42,21 +42,24 @@
 </head>
 <body class="bg-white text-gray-900 antialiased">
 
-  <!-- ═══════════════════════ DISCLAIMER BANNER ════════════════════ -->
-  <div class="bg-amber-50 border-b border-amber-200" role="note" aria-label="Disclaimer">
-    <div class="max-w-6xl mx-auto px-6 py-3 flex items-start gap-3">
-      <svg class="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
-      </svg>
-      <p class="text-xs text-amber-900 leading-relaxed">
-        <span class="font-bold uppercase tracking-wide">Disclaimer:</span>
-        This archive is for educational, historical, and scientific research purposes only. The information provided does not constitute medical advice. None of the listed botanicals, fungi, or compounds are evaluated or approved to prevent, treat, diagnose, or cure any disease or medical condition.
-      </p>
+  <!-- ══════════ STICKY HEADER (disclaimer + nav) ══════════ -->
+  <div class="sticky top-0 z-50">
+
+    <!-- Disclaimer banner -->
+    <div class="bg-amber-50 border-b border-amber-200" role="note" aria-label="Disclaimer">
+      <div class="max-w-6xl mx-auto px-6 py-1.5 flex items-center gap-2.5">
+        <svg class="w-4 h-4 text-amber-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
+        </svg>
+        <p class="text-[11px] text-amber-900">
+          <span class="font-bold uppercase tracking-wide">Disclaimer:</span>
+          For educational and scientific research only. Not medical advice. No compound listed is approved to prevent, treat, diagnose, or cure any disease.
+        </p>
+      </div>
     </div>
-  </div>
 
   <!-- ═══════════════════════════════════ NAV ═══════════════════════════════════ -->
-  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+  <header class="bg-white/95 backdrop-blur-sm border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
 
       <!-- Wordmark -->
@@ -89,6 +92,7 @@
       </div>
     </div>
   </header>
+  </div><!-- /sticky header wrapper -->
 
   <!-- ═══════════════════════════════════ HERO ══════════════════════════════════ -->
   <section class="relative overflow-hidden bg-white">
