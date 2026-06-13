@@ -1,0 +1,57 @@
+name: BMS Archive CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate archive data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check JSON syntax
+        run: |
+          python3 -c "
+          import json, sys
+          try:
+              with open('data.json') as f:
+                  data = json.load(f)
+              print(f'data.json valid — {len(data)} entries')
+          except json.JSONDecodeError as e:
+              print(f'ERROR: Invalid JSON at line {e.lineno}, col {e.colno}: {e.msg}')
+              sys.exit(1)
+          "
+
+      - name: Run validation script
+        run: python3 scripts/validate_archive_data.py
+
+      - name: Check for secrets in committed files
+        run: |
+          # Fail if any file contains a real Anthropic API key (sk-ant- followed by alphanumeric chars)
+          # Excludes: build_plants.py and .env.example (contain placeholder sk-ant-... strings)
+          if grep -rn "sk-ant-[A-Za-z0-9]" --include="*.json" --include="*.html" --include="*.js" --include="*.py" --include="*.md" --include="*.yml" --exclude-dir=".git" --exclude="build_plants.py" --exclude=".env.example" .; then
+            echo "ERROR: Potential API key found in committed file"
+            exit 1
+          else
+            echo "No secrets detected"
+          fi
+
+      - name: Check admin tools not in Dockerfile
+        run: |
+          if grep -q "admin\.html\|admin_server\.py" Dockerfile 2>/dev/null; then
+            echo "ERROR: Admin tools found in Dockerfile — these must never be deployed"
+            exit 1
+          else
+            echo "Admin tools correctly excluded from Dockerfile"
+          fi

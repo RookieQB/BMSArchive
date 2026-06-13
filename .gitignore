@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+plants_progress.json
+
+# Environment
+.env
+*.env.local
+
+# Local data seeding output
+/data/waitlist.txt
+
+# Node
+node_modules/
+
+# Editor
+.vscode/
+.idea/
+*.swp

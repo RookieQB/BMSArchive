@@ -387,12 +387,12 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
-        "toxicity": "Lentinan IV: well-tolerated; eosinophilia reported in some trials. Oral whole mushroom generally very safe at dietary quantities. Dermatitis risk from raw mushroom consumption is the most clinically relevant adverse effect."
+        "toxicity": "Lentinan IV: well tolerated; eosinophilia reported in some trials. Oral whole mushroom is well tolerated at dietary quantities, with dermatitis from raw mushroom consumption being the most clinically relevant adverse effect. Long-term safety data for concentrated extract preparations are limited."
       },
       "special_precautions": {
         "pregnancy": "Dietary consumption considered safe. Medicinal doses (concentrated extracts) — insufficient data; avoid.",
         "lactation": "Dietary quantities considered acceptable. Concentrated supplemental doses — insufficient data.",
-        "hepatic_impairment": "No hepatotoxicity documented. AHCC has been studied in hepatitis C — generally safe. Standard monitoring recommended with concentrated preparations.",
+        "hepatic_impairment": "No hepatotoxicity has been documented in available clinical studies. AHCC has been studied as an adjunct in hepatitis C patients without evidence of hepatic adverse effects; standard monitoring is recommended with concentrated preparations due to limited long-term data in the setting of hepatic disease.",
         "renal_impairment": "No specific risk identified. No dose adjustment data available."
       }
     },
@@ -506,7 +506,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
-        "toxicity": "LD50 >5 g/kg (oral, rodents). Rare cases of hepatotoxicity in humans (likely idiosyncratic). Agaritine content: raw mushroom contains up to 500 mg/kg; cooking, drying, or storage reduces this substantially. Long-term safety of agaritine exposure in humans not fully characterised."
+        "toxicity": "LD50 >5 g/kg (oral, rodents). Rare cases of hepatotoxicity in humans (likely idiosyncratic). Agaritine content: raw mushroom contains up to 500 mg/kg; cooking, drying, or storage reduces this substantially. Long-term human clinical data on agaritine exposure are insufficient to fully characterise the risk."
       },
       "special_precautions": {
         "pregnancy": "Insufficient safety data. Presence of agaritine (potentially genotoxic hydrazine derivative) warrants avoidance during pregnancy.",
@@ -683,7 +683,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
-        "toxicity": "LD50 >10 g/kg (oral, mice) for whole extract. Long-term use considered safe at standard TCM doses. No significant organ toxicity identified in preclinical studies."
+        "toxicity": "LD50 >10 g/kg (oral, mice) for whole extract. Long-term traditional use at standard TCM doses has not been associated with documented serious adverse effects; formal long-term human clinical data are insufficient. No significant organ toxicity has been identified in preclinical studies."
       },
       "special_precautions": {
         "pregnancy": "Traditionally used cautiously during pregnancy. Insufficient controlled safety data — avoid concentrated preparations.",
@@ -779,7 +779,7 @@
     "narrative_summary": {
       "historical_use": "Widely consumed as food in East Asia for centuries. Known in Japan as 'Enokitake', in China as 'Jin Zhen Gu' (golden needle mushroom). Used in TCM for liver disease, gastric disorders, and as a tonic. The wild form (brown, thick-stemmed) differs significantly in bioactive content from the commercially cultivated white, slender variety.",
       "modern_application": "Polysaccharides from F. velutipes demonstrate immunomodulatory, antioxidant, and anti-tumour activities with diverse structural and functional properties [1][5]. Renoprotective effects have been documented in chronic kidney disease models [2]. Protective activity against cisplatin-induced acute kidney injury has been observed in preclinical settings [3]. Flammutoxin, a cardiotoxic protein present in the raw mushroom, is inactivated by cooking — an important safety consideration [4]. Ergothioneine content is among the highest of edible mushrooms, contributing to its antioxidant profile [1].",
-      "side_effects": "Raw mushroom consumption can cause GI irritation and potential cardiotoxicity (flammutoxin) — must be cooked. Cooked or dried preparations are safe. Rare hypersensitivity reactions.",
+      "side_effects": "Raw mushroom consumption can cause GI irritation and potential cardiotoxicity (flammutoxin) — cooking is required to inactivate flammutoxin. Cooked or dried preparations are well tolerated based on long-standing culinary use; rare hypersensitivity reactions have been reported.",
       "contraindications": "Raw consumption contraindicated. Rare mushroom allergy. No other well-established contraindications at dietary levels."
     },
     "clinical_data": {
@@ -864,7 +864,7 @@
         "toxicity": "Whole mushroom: LD50 not established; dietary consumption is safe. Concentrated lovastatin-rich extracts carry statin-class adverse effects (myopathy, elevated liver enzymes) at pharmacological doses."
       },
       "special_precautions": {
-        "pregnancy": "Dietary consumption safe. Lovastatin is contraindicated during pregnancy (Category X in standard statin classification — teratogenic in animal models). Avoid high-dose concentrated extracts.",
+        "pregnancy": "Dietary consumption of culinary amounts carries no documented risk based on long traditional food use; no teratogenicity has been demonstrated at food-level doses. However, Lovastatin (a secondary metabolite present at low levels in the fruiting body) is contraindicated during pregnancy (Category X statin classification — teratogenic in animal models). High-dose concentrated extracts should be avoided due to insufficient clinical safety data during pregnancy.",
         "lactation": "Lovastatin excreted in breast milk. Concentrated lovastatin-containing preparations should be avoided during breastfeeding.",
         "hepatic_impairment": "Lovastatin is contraindicated in active liver disease. Monitoring of liver enzymes with regular high-dose consumption is prudent.",
         "renal_impairment": "Lovastatin primarily excreted biliary; mild renal impairment generally does not require dose adjustment. Severe renal impairment — use with caution."
@@ -978,7 +978,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
-        "toxicity": "Generally safe at dietary amounts. At pharmacological concentrations the antiplatelet effect is the primary safety concern. No significant organ toxicity in animal studies."
+        "toxicity": "Well tolerated at dietary amounts based on extensive culinary use. At pharmacological concentrations, the antiplatelet effect is the primary clinical concern; caution is warranted with concurrent anticoagulant therapy. No significant organ toxicity has been identified in animal studies."
       },
       "special_precautions": {
         "pregnancy": "Anticoagulant properties raise concern for increased bleeding risk during pregnancy, particularly peripartum. Avoid concentrated preparations; dietary quantities with medical supervision.",
@@ -1016,7 +1016,7 @@
     "narrative_summary": {
       "historical_use": "Eaten as a culinary mushroom in Europe and North America, known as the shaggy ink cap. Not historically prominent in TCM but used in Chinese folk medicine under the name 'Ji Tui Mo'. Recognised for its edibility (must be consumed promptly after harvest as it auto-digests rapidly). Traditional use in Chinese folk medicine for improved digestion and energy.",
       "modern_application": "Studied primarily for antidiabetic properties; ethanolic extracts demonstrate significant hypoglycaemic and antioxidant activity in animal models [1][3]. Mycelium polysaccharides have shown anti-diabetic nephropathic activity in preclinical studies [4]. A comprehensive review documents both the functional properties and potential safety concerns — including a disulfiram-like reaction with alcohol mediated by coprine [2]. Anti-inflammatory and antiarthritic properties are under early investigation via nanogel formulations [5].",
-      "side_effects": "Generally safe when consumed cooked. Coprine (found in related Coprinus species — notably C. atramentarius, NOT C. comatus) causes disulfiram-like reaction with alcohol; this compound is absent in C. comatus. Rare GI symptoms. Do not confuse species.",
+      "side_effects": "Well tolerated when consumed cooked, with rare GI symptoms reported. Coprine (found in related Coprinus species — notably C. atramentarius, NOT C. comatus) causes a disulfiram-like reaction with alcohol; this compound is absent in C. comatus. Species identification is critical — do not confuse with related species.",
       "contraindications": "Species confusion risk (C. atramentarius contains coprine — disulfiram-like reaction with alcohol). C. comatus itself does not contain coprine. Antidiabetic drugs — potential additive hypoglycaemia. No other established contraindications."
     },
     "clinical_data": {
@@ -1097,7 +1097,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
-        "toxicity": "LD50 >5 g/kg for whole extract (rodents). Antroquinonol Phase I trial showed acceptable safety profile. QT prolongation signal at suprapharmacological doses in preclinical studies — clinical significance unclear."
+        "toxicity": "LD50 >5 g/kg for whole extract (rodents). Antroquinonol demonstrated an acceptable tolerability profile in Phase I clinical evaluation. QT prolongation was observed at suprapharmacological doses in preclinical studies — clinical significance at therapeutic doses is unclear; long-term safety data are limited to early-phase clinical experience."
       },
       "special_precautions": {
         "pregnancy": "Insufficient clinical data. Potent bioactivity warrants avoidance during pregnancy.",
@@ -1136,7 +1136,7 @@
       "historical_use": "One of the oldest known medicinal fungi, used by humans for at least 5,300 years — a piece was found in the toolkit of Ötzi the Iceman (Alpine mummy, c. 3,300 BCE), likely used as a fire-starting material and possibly for medicinal purposes. Used in European folk medicine for wound healing, as a haemostatic agent, and to treat digestive disorders. The amadou (processed inner tissue) was used historically as tinder, clothing, and wound dressings.",
       "modern_application": "Contemporary research has confirmed antioxidant, anti-inflammatory, antimicrobial, and cytotoxic properties. Insoluble extracted fibres from the fruiting body demonstrate immunological activity relevant to nutraceutical applications [1]. Melanin-glucan complex shows anti-infective properties against bacterial and viral pathogens [2]. Ethanol extracts inhibit cell growth and induce apoptosis in cancer cell lines in vitro [3]. Antimicrobial activity against a range of pathogens has been confirmed in vitro [4]. Fermented extracellular polysaccharides exhibit antioxidant properties [5]. Human clinical data remain absent; biomaterial and wound-care applications are an emerging research focus.",
       "side_effects": "Insufficient human clinical data to characterise adverse effects fully. No significant toxicity reported in preclinical studies. Theoretical bleeding risk with concentrated extracts.",
-      "contraindications": "No well-established clinical contraindications due to lack of human data. Anticoagulants — theoretical additive anticoagulant activity. Avoid in pregnancy due to lack of safety data."
+      "contraindications": "No well-established clinical contraindications have been identified, primarily due to the absence of human clinical data. Anticoagulants — theoretical additive anticoagulant activity warrants avoidance of concurrent use. Use during pregnancy and lactation is not recommended due to insufficient clinical safety data."
     },
     "clinical_data": {
       "used_part": "Fruiting body (conk), particularly the inner trama tissue (amadou)",
@@ -1159,8 +1159,8 @@
         "toxicity": "LD50 not established in humans. No significant organ toxicity in preclinical studies at normal doses. Amadou (physical material) used as wound dressing is non-toxic."
       },
       "special_precautions": {
-        "pregnancy": "No human safety data. Avoid during pregnancy.",
-        "lactation": "No human safety data. Avoid during breastfeeding.",
+        "pregnancy": "No human clinical safety data are available. Use during pregnancy is not recommended due to the absence of established safety information.",
+        "lactation": "No human clinical safety data are available. Excretion of constituents into breast milk has not been studied. Use during breastfeeding is not recommended due to insufficient safety information.",
         "hepatic_impairment": "No hepatotoxicity documented. No data in hepatic impairment.",
         "renal_impairment": "No data available. Standard caution applies."
       }
@@ -1216,7 +1216,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Cyclosporine (the immunosuppressant) — potential pharmacodynamic interaction as the fungus contains cyclosporin analogues. Anticoagulants, antidiabetics — same as Cordyceps sinensis.",
-        "toxicity": "Wild form: same general profile as Cs-4. Heavy metal contamination has been documented in some wild specimens from polluted regions — an important quality concern. Cs-4 cultured mycelium has established safety data; wild form less well studied in controlled settings."
+        "toxicity": "Wild form: same general profile as Cs-4. Heavy metal contamination has been documented in some wild specimens from polluted regions — an important quality concern. Cs-4 cultured mycelium has a characterised tolerability profile from clinical studies; the wild form has limited controlled safety data and additional quality concerns regarding contamination."
       },
       "special_precautions": {
         "pregnancy": "Insufficient data. Avoid during pregnancy.",
@@ -1280,8 +1280,8 @@
       "special_precautions": {
         "pregnancy": "Insufficient data. Avoid during pregnancy.",
         "lactation": "Insufficient data. Avoid during breastfeeding.",
-        "hepatic_impairment": "No data available.",
-        "renal_impairment": "No data available."
+        "hepatic_impairment": "No clinical data are available in hepatic impairment. No hepatotoxicity has been identified in preclinical studies. The GABA-A modulating activity of nigrigenin may theoretically be potentiated in hepatic encephalopathy due to altered GABAergic tone; use with caution and standard monitoring.",
+        "renal_impairment": "No clinical data are available in renal impairment. No specific nephrotoxicity has been identified in preclinical studies. Standard monitoring is recommended; renal excretion pathway for nigrigenin metabolites has not been characterised."
       }
     },
     "sources": {
@@ -1312,7 +1312,7 @@
     "narrative_summary": {
       "historical_use": "A fungal pathogen of maize (Zea mays), consumed as a food delicacy in Mesoamerica for thousands of years, known as 'huitlacoche' or 'cuitlacoche' in Mexico. Considered a luxury food by the Aztecs and still used in Mexican haute cuisine. Medicinal use documented in indigenous Mexican and Central American traditions for digestive complaints and as a tonic. The infected corn galls are consumed as a vegetable.",
       "modern_application": "Research focus is on its exceptional nutritional profile — high in lysine, unsaturated fatty acids, and fibre — as well as bioactive compounds including ustilagic acid, which shows anti-inflammatory and antimicrobial properties in vitro [1][2]. Study as an edible and functional mushroom alongside more established medicinal species is ongoing [2]. Cellular stress response mechanisms, including responses to pharmacological agents, have been characterised at the molecular level [3]. Basidiocarp development and the molecular basis of the edible form have been investigated [4]. Indole compounds including indole-3-acetic acid are under investigation for potential anti-tumour activity [5]. Human clinical data for medicinal applications are absent.",
-      "side_effects": "Generally considered safe as a food. Allergic reactions possible in persons with corn or mould allergies. No significant toxicity documented.",
+      "side_effects": "Ustilago maydis has a long culinary history in Mesoamerican cuisines without documented serious adverse effects; this historical food use does not constitute clinical evidence of tolerability at pharmacological doses. Allergic reactions are possible in persons with corn or mould allergies. No significant toxicity has been documented in available literature.",
       "contraindications": "Corn or mould allergy. No established pharmacological contraindications."
     },
     "clinical_data": {
@@ -1334,11 +1334,11 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "No documented drug interactions. CYP1A2 substrates — theoretical interaction via indole metabolism.",
-        "toxicity": "Consumed safely as food for millennia at culinary quantities. No LD50 data for concentrated extracts. No organ toxicity identified in available studies."
+        "toxicity": "Consumed as food for millennia at culinary quantities without documented serious adverse effects; this historical food use does not constitute formal clinical evidence of tolerability at pharmacological doses. No LD50 data exist for concentrated extracts. No organ toxicity has been identified in available studies."
       },
       "special_precautions": {
-        "pregnancy": "Dietary consumption as food considered safe. Concentrated medicinal preparations — insufficient data.",
-        "lactation": "Dietary consumption likely safe. No data for concentrated preparations.",
+        "pregnancy": "Dietary consumption as a traditional food has not been associated with documented reproductive harm; no teratogenicity data exist for culinary amounts. Concentrated medicinal preparations lack clinical safety data and are not recommended during pregnancy.",
+        "lactation": "Dietary consumption has a long culinary tradition in Mesoamerican cuisines without documented adverse effects during lactation; however, no controlled clinical safety data during breastfeeding exist. Concentrated preparations are not recommended due to insufficient data.",
         "hepatic_impairment": "No hepatotoxicity documented. Standard precautions for concentrated preparations.",
         "renal_impairment": "No specific risk identified."
       }
@@ -1392,7 +1392,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Lithium carbonate — risk of seizures and hyperthermia (case reports of life-threatening interactions). MAOIs — significantly prolong and intensify effects; risk of serotonin syndrome. SSRIs — blunt acute psychedelic effects (5-HT2A downregulation); not thought to be dangerous but may reduce efficacy. Tramadol — serotonin syndrome risk.",
-        "toxicity": "Physiological toxicity very low: LD50 estimated at 280 mg/kg (oral, rats) — far above any human dose. No organ toxicity documented. Psychological risk (acute anxiety, rare HPPD) is the dominant safety concern. Psilocybin is physiologically non-addictive and produces rapid tolerance."
+        "toxicity": "Physiological toxicity very low: LD50 estimated at 280 mg/kg (oral, rats) — far above any human dose. No organ toxicity documented. Psychological risk (acute anxiety, rare HPPD) is the dominant clinical risk. Psilocybin is physiologically non-addictive and produces rapid tolerance; formal long-term safety data are limited to early-phase clinical research."
       },
       "special_precautions": {
         "pregnancy": "No human data. Avoid in pregnancy. Animal studies show no teratogenicity at sub-psychedelic doses, but clinical use in pregnant individuals is contraindicated.",
@@ -1706,11 +1706,11 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
-        "toxicity": "Bacopa monnieri demonstrates a favourable preclinical safety profile at therapeutic doses. Rat studies demonstrate hepatorenal protective effects against cisplatin-induced oxidative toxicity, with Bacopa extract reducing Kidney Injury Molecule-1 (KIM-1) levels and preserving hepatic architecture [10]. GI tolerability is dose-dependent; nausea and diarrhoea are the most consistently reported adverse effects in clinical trials, resolving with dose reduction or administration with food [7]. No serious adverse events were reported in ADHD supplement trials at standard doses [6]. Long-term safety in humans beyond 12 weeks has not been formally established."
+        "toxicity": "Bacopa monnieri demonstrates a favourable preclinical tolerability profile at therapeutic doses. Rat studies demonstrate hepatorenal protective effects against cisplatin-induced oxidative toxicity, with Bacopa extract reducing Kidney Injury Molecule-1 (KIM-1) levels and preserving hepatic architecture [10]. GI tolerability is dose-dependent; nausea and diarrhoea are the most consistently reported adverse effects in clinical trials, resolving with dose reduction or administration with food [7]. No serious adverse events were reported in ADHD supplement trials at standard doses [6]. Long-term human data beyond 12 weeks are not available from published clinical trials; extended-use recommendations cannot be made based on current evidence."
       },
       "special_precautions": {
         "pregnancy": "Insufficient human safety data available. Uterotonic effects reported in animal studies. Avoid during pregnancy.",
-        "lactation": "Bacoside excretion into breast milk has not been studied. Avoid during lactation due to lack of safety data.",
+        "lactation": "Bacoside excretion into breast milk has not been studied. Medicinal-dose use during lactation is not recommended due to insufficient clinical safety data.",
         "hepatic_impairment": "Hepatic biotransformation of bacosides is expected to be impaired in liver disease [7]. Preclinical data show hepatoprotective properties at therapeutic doses [10]; however, altered metabolism may lead to unpredictable plasma levels. Use with caution.",
         "renal_impairment": "Preclinical evidence demonstrates renoprotective effects at therapeutic doses [10]. No formal human pharmacokinetic or dose adjustment studies are available. Use with caution in severe renal impairment."
       }
@@ -1851,7 +1851,7 @@
     "narrative_summary": {
       "historical_use": "Withania somnifera (Ashwagandha) has been a cornerstone of Ayurvedic medicine for over 3,000 years, classified as a 'rasayana' (rejuvenating tonic) and 'balya' (strength-promoting). Its Latin species name 'somnifera' (sleep-inducing) reflects its traditional use as a sedative and anxiolytic. Historical texts describe its use for debility, emaciation, nervous exhaustion, and as an aphrodisiac. The Sanskrit name 'Ashwagandha' (smell of horse) refers both to the root's odour and the traditional belief that it confers equine strength.",
       "modern_application": "Ashwagandha is one of the most clinically investigated adaptogens in modern phytomedicine. A 2026 randomised trial demonstrates significant reductions in anxiety scores and cortisol levels in patients with stress, anxiety, and hypertension [3]. An 8-week RCT confirms improvements in VO2max and reduced exercise-induced fatigue at low doses [4], and a 2026 study shows improvements in quality of life and sleep parameters in elderly adults [5]. Ashwagandha modulates the HPA and HPG axes with documented relevance for PCOS and PMS through hormonal normalisation [6]. Its multi-targeted monoaminergic and neurotrophic mechanisms support a role as a novel antidepressant supplement [9].",
-      "side_effects": "A 2026 critical review of preclinical and clinical evidence documents gastrointestinal effects (nausea, diarrhoea), sedation, and hepatic adverse effects as the primary safety concerns [7]. Thyroid hormone elevation has been reported in susceptible individuals, particularly in those with pre-existing thyroid dysfunction [8]. Sedation and drowsiness are expected at higher doses given GABAergic mechanisms. Rare but serious adverse events include drug-induced liver injury (DILI) — multiple case reports exist of hepatotoxicity requiring medical attention [7].",
+      "side_effects": "A 2026 critical review of preclinical and clinical evidence documents gastrointestinal effects (nausea, diarrhoea), sedation, and hepatic adverse effects as primary adverse effects of clinical concern [7]. Thyroid hormone elevation has been reported in susceptible individuals, particularly those with pre-existing thyroid dysfunction [8]. Sedation and drowsiness are expected at higher doses given GABAergic mechanisms. Rare but serious adverse events include drug-induced liver injury (DILI) — multiple case reports of hepatotoxicity requiring medical attention have been documented [7]. Long-term safety data beyond 12 weeks are limited.",
       "contraindications": "Contraindicated in patients with autoimmune disease (systemic lupus erythematosus, rheumatoid arthritis, multiple sclerosis) due to potential immune stimulation. Contraindicated in thyroid disease or concurrent thyroid medication use given documented thyroid hormone modulation [8]. Avoid with barbiturates, benzodiazepines, and other CNS depressants due to additive sedation [2]. Caution with immunosuppressants. Contraindicated in pregnancy (traditional abortifacient). Caution with CYP450-metabolised drugs [2]."
     },
     "clinical_data": {
@@ -1877,7 +1877,7 @@
       },
       "special_precautions": {
         "pregnancy": "Contraindicated. Ashwagandha is a traditional abortifacient; uterotonic alkaloids are present in the root. Avoid throughout pregnancy.",
-        "lactation": "Withanolide excretion into breast milk has not been characterised. Avoid during lactation due to lack of safety data and potential hormonal effects.",
+        "lactation": "Withanolide excretion into breast milk has not been characterised. Medicinal-dose use during lactation is not recommended due to insufficient clinical safety data and the potential for hormonal effects from withanolide activity.",
         "hepatic_impairment": "Hepatotoxicity risk is documented [7]; CYP450-dependent metabolism is hepatically expressed [2]. Contraindicated in patients with active hepatic disease. Liver function monitoring is strongly advisable in all patients using Ashwagandha beyond 8 weeks.",
         "renal_impairment": "No formal studies in renal impairment. Conjugated withanolide metabolites are renally excreted. Use with caution in severe renal impairment and monitor."
       }
@@ -1956,7 +1956,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "CYP3A4 substrates and P-glycoprotein substrates: Valeriana officinalis extracts directly inhibit intestinal CYP3A4 metabolism and modulate P-glycoprotein, demonstrated by inhibition of midazolam intestinal metabolism in vitro [3]; drugs with narrow therapeutic windows metabolised by CYP3A4 (e.g. cyclosporine, tacrolimus, statins, benzodiazepines) require monitoring. CNS depressants (benzodiazepines, barbiturates, opioids, alcohol): Additive sedation through shared GABAergic mechanism is documented; combination increases risk of excessive CNS depression [2]. Antidepressants: Complex pharmacokinetic and pharmacodynamic interactions possible through serotonergic and CYP450 pathways [6]. High potential for herb-drug interactions documented in primary care surveillance data [8].",
-        "toxicity": "Valeriana officinalis has a favourable safety profile at standard doses. Rare case reports of hepatotoxicity exist, likely attributable to valepotriate alkylating activity at high doses. Paradoxical excitation reported particularly in paediatric populations [6]. No established LD50 in humans. Abrupt discontinuation after prolonged use may produce a withdrawal syndrome. Long-term use beyond 4-6 weeks has not been systematically evaluated in controlled trials."
+        "toxicity": "Valeriana officinalis is well tolerated at standard doses in available clinical studies; adverse effects are generally mild. Rare case reports of hepatotoxicity exist, likely attributable to valepotriate alkylating activity at high doses. Paradoxical excitation reported particularly in paediatric populations [6]. No established LD50 in humans. Abrupt discontinuation after prolonged use may produce a withdrawal syndrome. Long-term use beyond 4–6 weeks has not been systematically evaluated in controlled trials; long-term safety data are accordingly limited."
       },
       "special_precautions": {
         "pregnancy": "Valepotriates are cytotoxic and potentially mutagenic in vitro. Avoid during pregnancy.",
@@ -2122,7 +2122,7 @@
         "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. — Chrysin conjugates are primarily renally excreted. Half-life and systemic elimination kinetics of the primary flavones in humans have not been characterised in formal pharmacokinetic studies."
       },
       "safety_and_interactions": {
-        "drug_interactions": "CNS depressants (benzodiazepines, opioids, alcohol): Additive sedation through shared GABAergic mechanism; the combination is used clinically during benzodiazepine tapering with documented safety [6] but requires medical supervision. MAO inhibitors: Harman alkaloids inhibit MAO-A; combination with MAOI antidepressants is contraindicated due to risk of hypertensive crisis and serotonin syndrome [1]. SSRIs/SNRIs: Serotonin syndrome risk documented when combined with serotonergic agents [1]; monitor closely. CYP450 substrates: Herb-drug interactions via CYP450 modulation are a documented class risk [1].",
+        "drug_interactions": "CNS depressants (benzodiazepines, opioids, alcohol): Additive sedation through shared GABAergic mechanism; the combination has been used clinically during benzodiazepine tapering without serious adverse events reported in the cited real-world study [6], but requires medical supervision. MAO inhibitors: Harman alkaloids inhibit MAO-A; combination with MAOI antidepressants is contraindicated due to risk of hypertensive crisis and serotonin syndrome [1]. SSRIs/SNRIs: Serotonin syndrome risk documented when combined with serotonergic agents [1]; monitor closely. CYP450 substrates: Herb-drug interactions via CYP450 modulation are a documented class risk [1].",
         "toxicity": "No serious adverse events reported in multiple RCTs [8, 4]. The 2024 benzodiazepine tapering real-world study confirmed long-term safety over extended treatment periods [6]. Harman alkaloids in high doses carry theoretical MAO inhibition risk. No hepatotoxicity data in clinical use. LD50 in humans is not established."
       },
       "special_precautions": {
@@ -2207,7 +2207,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Lack of clinical studies prevents interaction grading. Unknown safety profile with concomitant drug use.",
-        "toxicity": "Systematic review of 15 paediatric RCTs found no statistically significant adverse effects at therapeutic doses [3]. The 2026 clinical trial combining Nigella sativa with immunotherapy reported a manageable safety profile [2]. Thymoquinone shows dose-dependent nephrotoxicity in high-dose animal studies, not replicated at human therapeutic doses. Thymoquinone inhibits platelet aggregation and may increase bleeding risk. Standard whole seed doses (1-3 g/day) are considered safe in short-term adult use."
+        "toxicity": "Systematic review of 15 paediatric RCTs found no statistically significant adverse effects at therapeutic doses [3]. The 2026 clinical trial combining Nigella sativa with immunotherapy reported a manageable safety profile [2]. Thymoquinone shows dose-dependent nephrotoxicity in high-dose animal studies, not replicated at human therapeutic doses. Thymoquinone inhibits platelet aggregation and may increase bleeding risk. Standard whole seed doses (1–3 g/day) have demonstrated a favourable adverse effect profile in short-term adult clinical trials; long-term safety data are limited."
       },
       "special_precautions": {
         "pregnancy": "Uterotonic effects documented in animal studies. Avoid during pregnancy, particularly in the first trimester.",
@@ -2290,7 +2290,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "CYP450 substrates (CYP1A2, CYP3A4): Echinacea purpurea is identified as one of ten clinically significant herbal modulators of CYP450 enzyme activity [1]; co-administration with narrow-therapeutic-index CYP450 substrates requires monitoring. Immunosuppressants (cyclosporine, tacrolimus, mycophenolate): Direct pharmacodynamic antagonism — Echinacea immune stimulation counteracts immunosuppressive therapy; combination is contraindicated. Antifungals and antiretrovirals: Potential CYP450-mediated pharmacokinetic interactions [1]. Pharmacovigilance data confirm serious adverse events associated with Echinacea purpurea use in post-marketing surveillance [4].",
-        "toxicity": "Pharmacovigilance analysis identifies Echinacea purpurea in reports of serious adverse events [4], including rare anaphylaxis. GI intolerance is the most common adverse effect in clinical trials. No hepatotoxicity at standard doses. Allergic reactions are the primary safety concern — severity can range from mild urticaria to anaphylaxis, particularly in Asteraceae-sensitised individuals. Paediatric scoping review found promising results for respiratory infections without significant safety signals [6]."
+        "toxicity": "Pharmacovigilance analysis identifies Echinacea purpurea in reports of serious adverse events [4], including rare anaphylaxis. GI intolerance is the most common adverse effect in clinical trials. No hepatotoxicity at standard doses. Allergic reactions are the primary clinical concern — severity can range from mild urticaria to anaphylaxis, particularly in Asteraceae-sensitised individuals. Long-term safety data are limited. Paediatric scoping review found promising results for respiratory infections without significant adverse events reported [6]."
       },
       "special_precautions": {
         "pregnancy": "Use only with medical supervision. Some preparations have been used in pregnancy, but formal safety data are insufficient. Avoid in the first trimester.",
@@ -2537,7 +2537,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Curcumin is a potent modulator of drug-metabolising enzymes with clinically significant interaction potential. Inhibition of <strong>CYP3A4</strong>, <strong>CYP1A2</strong>, and <strong>CYP2D6</strong> raises plasma concentrations of co-administered substrates including cyclosporine, tacrolimus, statins, certain chemotherapy agents, and psychotropics [3, 4]. P-glycoprotein (P-gp) inhibition enhances absorption of efflux transporter substrates (e.g. paclitaxel, digoxin). Additive antiplatelet effects with warfarin, heparin, and direct oral anticoagulants are clinically documented [1]. A 2025 systematic review of curcumin in kidney disease identified multiple curcumin-drug interactions affecting drug bioavailability and clinical efficacy [8]. Patients on narrow therapeutic index drugs or polypharmacy should be monitored closely.",
-        "toxicity": "Curcumin is classified as GRAS (Generally Recognised as Safe) at food use levels by the US FDA. In clinical trials, doses up to 8 g/day are generally tolerated; doses >10 g/day cause dose-dependent GI adverse effects. Rare hepatotoxicity reported with adulterated or high-dose preparations. No mutagenicity or genotoxicity detected in standard assays [1]."
+        "toxicity": "Curcumin holds GRAS status (Generally Recognised as Safe) at food use levels per US FDA classification, applicable to culinary doses — this designation does not extend to suprapharmacological supplement doses. In clinical trials, doses up to 8 g/day are generally tolerated; doses >10 g/day cause dose-dependent GI adverse effects. Rare hepatotoxicity reported with adulterated or high-dose preparations. No mutagenicity or genotoxicity detected in standard assays [1]. Long-term safety data beyond the studied trial durations are limited."
       },
       "special_precautions": {
         "pregnancy": "High-dose medicinal use not recommended. Curcumin may stimulate uterine contractions at pharmacological doses; controlled human data absent. Culinary use is considered safe.",
@@ -2619,11 +2619,11 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Ginger has well-characterised drug interaction potential through multiple mechanisms. An in vitro pharmacological study (Varga T et al., 2026) demonstrated inhibition of 17 of 33 clinically relevant uptake and efflux transporters — including hepatic (<strong>OATP1B1</strong>, <strong>OATP1B3</strong>) and renal (<strong>OCT2</strong>, <strong>OAT1/3</strong>, <strong>MATE1/2-K</strong>) transporters — by gingerols and shogaols; prolonged high-dose consumption may pose clinically significant transporter-mediated herb-drug interactions [2]. Modulation of <strong>CYP1A2</strong>, <strong>CYP3A4</strong>, and <strong>CYP2C9</strong> affects metabolism of co-administered substrates including tacrolimus, cyclosporine, warfarin, and statins [1, 3]. Clinically documented tacrolimus-ginger interaction showed increased tacrolimus plasma concentrations through combined CYP3A4 and P-gp inhibition, with implications for therapeutic drug monitoring in transplant patients [4]. Additive antiplatelet effects with NSAIDs and anticoagulants at supplemental doses [6].",
-        "toxicity": "Acute oral LD50 for ginger extract >5 g/kg in rodents. GRAS status at food use levels (US FDA). Clinical trials at supplemental doses (1–4 g/day) demonstrate favourable safety profiles, including in paediatric RCTs [5]. No hepatotoxicity or haematological toxicity at standard doses."
+        "toxicity": "Acute oral LD50 for ginger extract >5 g/kg in rodents. GRAS status at food use levels (US FDA). Clinical trials at supplemental doses (1–4 g/day) demonstrate a favourable tolerability profile, including in paediatric RCTs [5]. No hepatotoxicity or haematological toxicity documented at standard doses; long-term safety data beyond the studied durations are limited."
       },
       "special_precautions": {
-        "pregnancy": "Culinary use is safe. For nausea of pregnancy, ginger (1–1.5 g/day) is a first-line non-pharmacological option with clinical trial support; doses >1.5 g/day should be avoided. No evidence of teratogenicity at food doses.",
-        "lactation": "Culinary use considered safe. No controlled data on medicinal-dose supplementation; avoid high-dose preparations.",
+        "pregnancy": "Culinary use has a long traditional food history and no teratogenicity has been demonstrated at culinary doses. For nausea of pregnancy, ginger (1–1.5 g/day) is a first-line non-pharmacological option with clinical trial support; doses >1.5 g/day should be avoided due to insufficient safety data at higher doses. Medicinal-dose supplementation should be discussed with a healthcare provider.",
+        "lactation": "Culinary use is accepted based on extensive traditional food history; culinary-level consumption is not expected to pose a significant risk, though controlled clinical safety data during lactation are limited. Avoid high-dose supplemental preparations.",
         "hepatic_impairment": "Use with caution. Extensive hepatic first-pass metabolism; CYP450 interactions are more pronounced with hepatic dysfunction. Avoid high-dose supplements.",
         "renal_impairment": "Transporter-mediated interactions at the kidney (OCT2, OAT1/3, MATE1/2-K) documented in vitro [2]; caution warranted when co-administered with renally cleared drugs at supplemental doses."
       }
@@ -2783,7 +2783,7 @@
       },
       "special_precautions": {
         "pregnancy": "Avoid in the third trimester — salicylates cause premature closure of the ductus arteriosus and may prolong labour. Use in early pregnancy only under medical supervision.",
-        "lactation": "Salicylate excreted in breast milk. Occasional use at low doses generally considered safe; avoid regular high-dose use during breastfeeding.",
+        "lactation": "Salicylate is excreted in breast milk. Occasional use at low dietary doses has not been associated with documented harm in available case-level data; however, no controlled clinical safety data during breastfeeding exist; safety evidence during lactation is insufficient. Regular or high-dose use should be avoided.",
         "hepatic_impairment": "Salicylate conjugation (glycine, glucuronide) impaired in liver disease; accumulation risk. Reduce dose and monitor plasma salicylate levels in severe hepatic impairment.",
         "renal_impairment": "Salicylate primarily renally excreted; significant accumulation in renal failure. NSAIDs and salicylates reduce renal prostaglandin synthesis — may precipitate acute kidney injury. Avoid in moderate-to-severe renal impairment."
       }
@@ -2937,13 +2937,13 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Indinavir and HIV antiretrovirals (CYP3A4 substrates) — silibinin inhibition may increase plasma levels; monitor. Irinotecan (chemotherapy) — UGT1A1 inhibition increases active SN-38 metabolite; toxicity risk; consult oncologist. Warfarin — CYP2C9 inhibition possible; monitor INR. Metronidazole and other hepatically metabolised antibiotics — potential interaction. Oestrogen-containing contraceptives — theoretical oestrogenic interaction; not confirmed clinically at standard doses.",
-        "toxicity": "LD50 >5,000 mg/kg in rodents (oral). Exceptionally safe profile — no serious adverse events in any published clinical trial. IV silibinin (Legalon SIL) for Amanita poisoning: transient mild haemolysis reported at very high parenteral doses. No carcinogenicity, mutagenicity, or reproductive toxicity documented."
+        "toxicity": "LD50 >5,000 mg/kg in rodents (oral). No serious adverse events have been reported in any published clinical trial; the available evidence is insufficient to establish long-term safety beyond the studied durations. IV silibinin (Legalon SIL) for Amanita poisoning: transient mild haemolysis reported at very high parenteral doses. No carcinogenicity, mutagenicity, or reproductive toxicity documented."
       },
       "special_precautions": {
         "pregnancy": "Insufficient human safety data. Mild oestrogenic activity — avoid high-dose supplemental use during pregnancy. Traditional use as a galactagogue (milk promoter) historically considered safe at low doses.",
         "lactation": "Traditionally used to promote milk production. Limited safety data on neonatal exposure via breast milk at supplemental doses. Culinary use considered safe; avoid concentrated extracts.",
         "hepatic_impairment": "The primary indication. Hepatoprotective and regenerative at therapeutic doses. Consider dose reduction in severe cirrhosis (reduced first-pass metabolism increases plasma exposure). Generally well tolerated even in advanced liver disease.",
-        "renal_impairment": "Minor renal excretion of metabolites. No specific contraindication. No dose adjustment guidelines established. Safe at standard doses in moderate renal impairment."
+        "renal_impairment": "Minor renal excretion of metabolites. No specific contraindication has been identified. No formal dose adjustment guidelines have been established. At standard doses, no clinically significant adverse renal outcomes have been reported in available data; monitoring is reasonable in severe impairment."
       }
     },
     "consumer_view": {
@@ -3022,7 +3022,7 @@
       },
       "special_precautions": {
         "pregnancy": "Culinary use is universally considered safe in pregnancy. High-dose supplements (>900 mg garlic extract/day) not formally studied; avoid as a precaution given antiplatelet activity.",
-        "lactation": "Garlic flavour transfers to breast milk and may affect infant feeding behaviour — some infants feed more readily, others refuse. Culinary quantities considered safe.",
+        "lactation": "Garlic compounds transfer to breast milk, altering flavour and potentially affecting infant feeding behaviour — variable responses have been reported. Culinary quantities have an extensive history of use during breastfeeding without documented harm; formal clinical safety data during lactation are limited.",
         "hepatic_impairment": "Hepatoprotective at standard doses. CYP3A4 induction by high-dose garlic may alter metabolism of co-administered hepatically cleared drugs. No direct hepatotoxicity documented.",
         "renal_impairment": "No specific contraindication. Thiol metabolites renally excreted; accumulation possible in severe CKD. No dose adjustment guidelines established."
       }
@@ -3075,7 +3075,7 @@
     "narrative_summary": {
       "historical_use": "Ceylon cinnamon is one of the world's oldest traded spices, mentioned in Chinese writing as early as 2700 BCE and in the Ebers Papyrus (c. 1550 BCE). Among the first commodities traded on spice routes from Sri Lanka (formerly Ceylon) to Egypt, Arabia, and Rome. So highly valued in ancient times that it was presented as gifts to kings and gods. Pliny the Elder (77 CE) noted its extraordinary price. In medieval Europe it flavoured food, masked the smell of decay, and was used medicinally for digestive complaints, fever, and menstrual problems. The distinction between true Ceylon cinnamon (C. verum) and Cassia cinnamon (C. aromaticum or C. cassia) is medically important due to dramatically different coumarin content.",
       "modern_application": "A 2013 meta-analysis of 10 RCTs (n=543) found cinnamon supplementation significantly reduced FPG (−24.6 mg/dL) and improved lipid profiles (LDL-C −12.7 mg/dL; TG −29.6 mg/dL) in T2DM and prediabetes patients versus placebo [2]. A 2016 systematic review of 11 RCTs in T2DM confirmed glycaemic lowering but noted heterogeneity in preparation quality and dose [1]. A 2013 RCT (n=140, 12 weeks) demonstrated significant HbA1c reduction (−0.83%) with Cinnamomum zeylanicum 3 g/day versus placebo [3]. Critically, C. verum (Ceylon) contains <0.004% coumarin versus 0.3–6.97% in C. cassia (Chinese cinnamon); this distinction is clinically important given hepatotoxic risk of high-dose coumarin, particularly in CYP2A6-poor metabolisers [5]. Antimicrobial and antifungal activity of cinnamaldehyde against Candida biofilms, MRSA, and foodborne pathogens (E. coli, Salmonella) is well-established in vitro [4]. Insulin-sensitising proanthocyanidins (type A) enhance GLUT4 translocation via IRS-1 and PI3K pathway activation [1].",
-      "side_effects": "Ceylon cinnamon is very safe at culinary and therapeutic doses. GI irritation at high doses. Allergic contact stomatitis and cheilitis (topical cinnamon allergy — from cinnamon oil in toothpastes, gum). Cinnamaldehyde is a sensitiser — occupational dermatitis in bakery workers. Coumarin content in Ceylon cinnamon is negligible; hepatotoxicity from cassia cinnamon (NOT C. verum) is the relevant concern. Drug interactions are the main clinical consideration.",
+      "side_effects": "Ceylon cinnamon is well tolerated at culinary and therapeutic doses in available clinical studies; no serious adverse events have been reported at standard therapeutic doses. GI irritation at high doses. Allergic contact stomatitis and cheilitis (topical cinnamon allergy — from cinnamon oil in toothpastes, gum). Cinnamaldehyde is a sensitiser — occupational dermatitis in bakery workers. Coumarin content in Ceylon cinnamon is negligible; hepatotoxicity from cassia cinnamon (NOT C. verum) is the relevant concern. Drug interactions are the main clinical consideration.",
       "contraindications": "Caution with antidiabetic medications (additive glucose lowering; hypoglycaemia risk). Caution with anticoagulants. Avoid high doses in pregnancy (uterotonic activity of cinnamaldehyde at pharmacological doses). Caution with CYP2A6 substrates (cinnamaldehyde inhibits CYP2A6). Important: do not substitute cassia cinnamon for Ceylon in high-dose supplementation — hepatotoxic coumarin content."
     },
     "clinical_data": {
@@ -3097,12 +3097,12 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Antidiabetic agents (metformin, insulin, sulfonylureas, SGLT2 inhibitors, GLP-1 agonists) — additive glucose lowering; hypoglycaemia risk; monitor blood glucose. Anticoagulants (warfarin) — coumarin interaction only relevant with cassia cinnamon; Ceylon cinnamon has negligible coumarin; cinnamaldehyde has mild antiplatelet activity — monitor INR. CYP2A6 substrates (nicotine, letrozole, some cancer drugs) — cinnamaldehyde inhibition may alter drug metabolism. Antibiotics (for H. pylori) — cinnamaldehyde has additive antimicrobial activity; potential synergy.",
-        "toxicity": "Cinnamaldehyde is the primary sensitiser and causes contact allergy (skin and oral mucosa) — not systemic toxicity. LD50 of cinnamaldehyde ~1.85 g/kg (rodent oral). The critical safety issue for cinnamon supplementation is coumarin: C. cassia contains up to 6.97% coumarin (hepatotoxic threshold 0.1 mg/kg/day in humans); C. verum is safe (<0.004% coumarin). European Food Safety Authority warns against daily high-dose cassia supplementation."
+        "toxicity": "Cinnamaldehyde is the primary sensitiser and causes contact allergy (skin and oral mucosa) — not systemic toxicity. LD50 of cinnamaldehyde ~1.85 g/kg (rodent oral). The critical clinical concern for cinnamon supplementation is coumarin content: C. cassia contains up to 6.97% coumarin (hepatotoxic threshold 0.1 mg/kg/day in humans); C. verum has negligible coumarin content (<0.004%) and is not associated with coumarin-related hepatotoxicity. European Food Safety Authority warns against daily high-dose cassia supplementation. Long-term safety data at supplemental doses are limited."
       },
       "special_precautions": {
-        "pregnancy": "Culinary use of Ceylon cinnamon is considered safe throughout pregnancy. High-dose supplemental cinnamaldehyde (>3 g/day equivalent) avoided due to theoretical uterotonic activity. Cassia cinnamon high-dose use contraindicated.",
+        "pregnancy": "Culinary use of Ceylon cinnamon has a long traditional food history; no teratogenicity has been demonstrated at dietary amounts. High-dose supplemental cinnamaldehyde (>3 g/day equivalent) should be avoided due to theoretical uterotonic activity and insufficient clinical safety data at medicinal doses. Cassia cinnamon high-dose use is contraindicated during pregnancy.",
         "lactation": "No documented harm at culinary or standard therapeutic doses. Cinnamic acid excreted in breast milk in small quantities. Considered compatible with breastfeeding.",
-        "hepatic_impairment": "Ceylon cinnamon: safe at therapeutic doses; hepatoprotective properties documented. Cassia cinnamon: coumarin is directly hepatotoxic at high doses — do not use cassia supplements in hepatic impairment.",
+        "hepatic_impairment": "Ceylon cinnamon: No hepatotoxicity has been reported at therapeutic doses; hepatoprotective properties have been documented in preclinical studies. Cassia cinnamon: coumarin is directly hepatotoxic at high doses — do not use cassia supplements in hepatic impairment.",
         "renal_impairment": "Hippuric acid (primary urinary metabolite) accumulates in renal failure. No specific contraindication established for standard doses. High-dose use not studied in severe CKD."
       }
     },
@@ -3162,7 +3162,7 @@
       },
       "safety_and_interactions": {
         "drug_interactions": "Digoxin — additive positive inotropic and chronotropic effects; monitor digoxin levels. Antihypertensives — additive hypotensive effect; monitor BP. Nitrates and PDE-5 inhibitors — additive vasodilation; risk of hypotension. Anticoagulants — theoretical interaction via platelet OPC effects; monitor [1, 4].",
-        "toxicity": "No significant hepatotoxicity or haematological toxicity signals in the SPICE trial at 900 mg/day over 24 months (n=2,681) [3]. Doses well above the therapeutic range may cause hypotension and sedation. No LD50 data in humans. Considered generally safe at pharmacopoeial doses."
+        "toxicity": "No significant hepatotoxicity or haematological toxicity signals in the SPICE trial at 900 mg/day over 24 months (n=2,681) [3]. Doses well above the therapeutic range may cause hypotension and sedation. No LD50 data in humans. At pharmacopoeial doses, no serious adverse events have been identified in available clinical data; long-term safety data beyond 24 months are limited."
       },
       "special_precautions": {
         "pregnancy": "Insufficient safety data. Avoid medicinal-dose preparations during pregnancy.",
@@ -3310,7 +3310,7 @@
       },
       "special_precautions": {
         "pregnancy": "Avoid — 5α-reductase inhibition may affect foetal androgen-dependent development.",
-        "lactation": "No data. Avoid during lactation.",
+        "lactation": "No human clinical safety data are available during lactation. Saw palmetto's 5α-reductase inhibitory and anti-androgenic activity may theoretically affect the hormonal milieu required to sustain lactation; prolactin suppression is a theoretical concern. Avoid during breastfeeding due to insufficient safety data and potential hormonal interference.",
         "hepatic_impairment": "Rare hepatotoxicity case reports. Monitor LFTs with prolonged use in patients with pre-existing liver disease.",
         "renal_impairment": "No specific data. Standard dose precautions apply."
       }
@@ -3382,7 +3382,7 @@
       },
       "special_precautions": {
         "pregnancy": "Contraindicated. Animal models show neural tube defects and teratogenicity at high doses.",
-        "lactation": "No human data. Avoid during lactation.",
+        "lactation": "No human clinical safety data are available during lactation. The androgenic saponins (protodioscin) in Tribulus terrestris may theoretically affect the hormonal milieu during breastfeeding; potential transfer to breast milk has not been studied. Avoid during lactation due to insufficient safety data and potential androgenic effects on the infant.",
         "hepatic_impairment": "Use with caution. Saponin-related hepatotoxicity reported at high doses in animal studies.",
         "renal_impairment": "Use with caution. Nephrotoxic potential at high doses; avoid in moderate-severe renal impairment."
       }

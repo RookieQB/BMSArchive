@@ -4,8 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="BMS Archive — Scientific botanical and fungal monographs for educational and research purposes only. Sourced from peer-reviewed literature." />
+  <meta property="og:title" content="BMS Archive — Botanical & Fungal Scientific Archive" />
+  <meta property="og:description" content="Searchable database of 50 botanical and fungal monographs. Evidence-based profiles sourced from peer-reviewed literature." />
+  <meta property="og:url" content="https://bmsarchive.com/database.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://bmsarchive.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <title>BMS Archive — Botanical & Fungal Scientific Archive</title>
 
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
@@ -135,7 +143,7 @@
         </div>
         <div class="flex items-center gap-2 shrink-0">
           <span class="w-2 h-2 rounded-full bg-forest-400 animate-pulse"></span>
-          <span class="text-xs text-gray-400 font-medium">Live — 25 profiles</span>
+          <span class="text-xs text-gray-400 font-medium">Live — 50 profiles</span>
         </div>
       </div>
     </div>
@@ -245,6 +253,17 @@
 
       <!-- SCROLLABLE CONTENT -->
       <div id="modal-scroll" class="overflow-y-auto" style="max-height: calc(100vh - 280px);">
+
+        <!-- Modal disclaimer -->
+        <div class="flex items-start gap-2.5 px-7 py-3 bg-amber-50 border-b border-amber-200" role="note" aria-label="Disclaimer">
+          <svg class="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
+          </svg>
+          <p class="text-[11px] text-amber-900">
+            <span class="font-bold uppercase tracking-wide">Disclaimer:</span>
+            For educational and research purposes only. Not medical advice. No compound listed is approved to prevent, treat, diagnose, or cure any disease.
+          </p>
+        </div>
 
         <!-- 1. NARRATIVE SUMMARY -->
         <section class="px-7 py-6 border-b border-gray-100">

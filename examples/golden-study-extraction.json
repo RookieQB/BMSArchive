@@ -1,0 +1,106 @@
+{
+  "_note": "This is a structural example only. All values are placeholders. Do not use as real scientific data. See docs/templates/STUDY_EXTRACTION_TEMPLATE.json for the blank template.",
+
+  "citation": "Placeholder Author A, Placeholder Author B. Effect of [Species] extract on [Outcome] in [Population]: A randomized, double-blind, placebo-controlled trial. Journal of Phytomedicine. 2024;12(3):45-58.",
+  "pmid": "00000000",
+  "doi": "10.0000/placeholder.2024.00000",
+  "study_type": "RCT",
+  "evidence_level": "B",
+
+  "plant_or_fungus": {
+    "accepted_latin_name": "Genus species Author",
+    "synonyms_used_in_study": ["Genus species var. example", "Former synonym if applicable"],
+    "common_names": ["Common Name 1", "Common Name 2"],
+    "family": "Familyaceae",
+    "part_used": "Fruiting body / Root / Leaf / Seed"
+  },
+
+  "preparation": {
+    "type": "Standardized ethanolic extract",
+    "extract_ratio": "4:1 (drug to extract)",
+    "solvent": "70% ethanol",
+    "standardization": "Standardized to X% [active compound]",
+    "active_compounds": ["Primary active compound 1", "Primary active compound 2"]
+  },
+
+  "intervention": {
+    "dose": "500 mg extract (equivalent to 2000 mg dried plant material)",
+    "frequency": "Twice daily with meals",
+    "duration": "8 weeks",
+    "route": "Oral"
+  },
+
+  "population_or_model": {
+    "type": "Human — adults with [specific condition]",
+    "sample_size": "n=60 (30 treatment, 30 placebo)",
+    "age_range": "25–65 years",
+    "sex": "Mixed (60% female)",
+    "condition": "[Primary condition studied, e.g. mild cognitive impairment / chronic stress / specific disease]"
+  },
+
+  "comparator": "Identical placebo capsule",
+  "blinding": "Double-blind — participants and investigators blinded",
+
+  "outcomes": {
+    "primary": ["[Primary outcome measure, e.g. Change in validated scale score from baseline to week 8]"],
+    "secondary": [
+      "[Secondary outcome 1, e.g. Serum biomarker levels]",
+      "[Secondary outcome 2, e.g. Quality of life score]",
+      "[Secondary outcome 3, e.g. Adverse event frequency]"
+    ]
+  },
+
+  "results": {
+    "primary_outcome_result": "[Treatment group showed X% improvement vs Y% in placebo group. Statistical significance: p=[value]. Effect size (Cohen's d): [value]. Confidence interval: [95% CI: lower–upper].]",
+    "secondary_outcome_results": "[Secondary outcomes: Biomarker Z decreased by X% in treatment group vs Y% in placebo (p=[value]). Quality of life score: no significant difference between groups (p=[value]).]",
+    "statistical_significance": "Primary endpoint: p<0.05 / p=0.xxx. Note: multiple secondary endpoints should be interpreted with caution due to lack of multiple comparison correction.",
+    "effect_size": "Cohen's d = [value] — [small / medium / large effect]"
+  },
+
+  "adverse_events": "Adverse events were mild and transient. Treatment group: [N] reported GI discomfort (n=[X], [X]%), headache (n=[X], [X]%). Placebo group: GI discomfort (n=[X], [X]%). No serious adverse events were reported. No withdrawals due to adverse events.",
+  "withdrawals": "[N] participants withdrew from treatment group ([reason]), [N] from placebo ([reason]). Analysed by intention-to-treat.",
+
+  "limitations": [
+    "Small sample size limits generalizability",
+    "Short duration (8 weeks) — no long-term data",
+    "Single-centre study — replication needed",
+    "Extract preparation not commercially available — limits real-world applicability",
+    "Funded by [source — note if industry-funded]",
+    "Primary outcome measure is subjective / validated scale — note if not objective biomarker"
+  ],
+
+  "funding_source": "[Funding body — note if industry funded or independent]",
+  "conflict_of_interest": "[Authors' declaration — note any conflicts]",
+
+  "author_conclusion": "The authors concluded that [species] extract at [dose] for [duration] produced statistically significant improvements in [primary outcome] compared to placebo, with a favorable safety profile in the study population. The authors call for larger, longer-term trials to confirm these findings.",
+
+  "bms_archive_interpretation": "This RCT provides Level B evidence for [specific indication] in [specific population] using [specific extract and dose]. The finding should not be generalized to other preparations, doses, or populations without replication. Safety data from this study are limited by short duration and small sample size.",
+
+  "maps_to_data_json": {
+    "narrative_summary.historical_use": false,
+    "narrative_summary.modern_application": true,
+    "narrative_summary.side_effects": true,
+    "narrative_summary.contraindications": false,
+    "clinical_data.used_part": true,
+    "clinical_data.primary_active_compounds": true,
+    "clinical_data.mechanism_of_action": false,
+    "clinical_data.pharmacokinetics.absorption": false,
+    "clinical_data.pharmacokinetics.distribution": false,
+    "clinical_data.pharmacokinetics.metabolism": false,
+    "clinical_data.pharmacokinetics.excretion": false,
+    "clinical_data.safety_and_interactions.drug_interactions": false,
+    "clinical_data.safety_and_interactions.toxicity": false,
+    "clinical_data.special_precautions.pregnancy": false,
+    "clinical_data.special_precautions.lactation": false,
+    "clinical_data.special_precautions.hepatic_impairment": false,
+    "clinical_data.special_precautions.renal_impairment": false,
+    "sources.top_studies_urls": true,
+    "sources.cited_references": true
+  },
+
+  "qa_notes": "SEND TO scientific-qa-evidence-agent BEFORE USE. Verify: (1) PMID corresponds to this exact study. (2) Dose and extract match what is claimed in data.json. (3) Level B is appropriate — confirm RCT design is adequate. (4) Safety data is insufficient for long-term claims. (5) Confirm authors' conclusion language is not overstated in data.json narrative.",
+  "requires_full_text": true,
+  "full_text_reason": "Adverse event data and complete statistical methods require full text for verification. Abstract alone is insufficient for safety claims.",
+  "last_reviewed": "YYYY-MM-DD",
+  "reviewed_by": "extraction-synthesis-agent"
+}

@@ -1,0 +1,94 @@
+{
+  "_instructions": "Complete all fields. Write 'Unknown / not reported' for any field not found in the source. Never infer or estimate missing values. Send completed extraction to scientific-qa-evidence-agent before use in data.json.",
+  "_study_type_options": ["SR-MA", "RCT", "CCT", "OBS", "CASE", "MONO", "ANIMAL", "IN-VITRO", "REVIEW", "TRAD"],
+  "_evidence_level_options": ["A", "B", "C", "D", "E", "T", "U"],
+
+  "citation": "",
+  "pmid": "",
+  "doi": "",
+  "study_type": "",
+  "evidence_level": "",
+
+  "plant_or_fungus": {
+    "accepted_latin_name": "",
+    "synonyms_used_in_study": [],
+    "common_names": [],
+    "family": "",
+    "part_used": ""
+  },
+
+  "preparation": {
+    "type": "",
+    "extract_ratio": "",
+    "solvent": "",
+    "standardization": "",
+    "active_compounds": []
+  },
+
+  "intervention": {
+    "dose": "",
+    "frequency": "",
+    "duration": "",
+    "route": ""
+  },
+
+  "population_or_model": {
+    "type": "",
+    "sample_size": "",
+    "age_range": "",
+    "sex": "",
+    "condition": ""
+  },
+
+  "comparator": "",
+  "blinding": "",
+
+  "outcomes": {
+    "primary": [],
+    "secondary": []
+  },
+
+  "results": {
+    "primary_outcome_result": "",
+    "secondary_outcome_results": "",
+    "statistical_significance": "",
+    "effect_size": ""
+  },
+
+  "adverse_events": "",
+  "withdrawals": "",
+  "limitations": [],
+  "funding_source": "",
+  "conflict_of_interest": "",
+
+  "author_conclusion": "",
+  "bms_archive_interpretation": "",
+
+  "maps_to_data_json": {
+    "narrative_summary.historical_use": false,
+    "narrative_summary.modern_application": false,
+    "narrative_summary.side_effects": false,
+    "narrative_summary.contraindications": false,
+    "clinical_data.used_part": false,
+    "clinical_data.primary_active_compounds": false,
+    "clinical_data.mechanism_of_action": false,
+    "clinical_data.pharmacokinetics.absorption": false,
+    "clinical_data.pharmacokinetics.distribution": false,
+    "clinical_data.pharmacokinetics.metabolism": false,
+    "clinical_data.pharmacokinetics.excretion": false,
+    "clinical_data.safety_and_interactions.drug_interactions": false,
+    "clinical_data.safety_and_interactions.toxicity": false,
+    "clinical_data.special_precautions.pregnancy": false,
+    "clinical_data.special_precautions.lactation": false,
+    "clinical_data.special_precautions.hepatic_impairment": false,
+    "clinical_data.special_precautions.renal_impairment": false,
+    "sources.top_studies_urls": false,
+    "sources.cited_references": false
+  },
+
+  "qa_notes": "",
+  "requires_full_text": false,
+  "full_text_reason": "",
+  "last_reviewed": "",
+  "reviewed_by": "extraction-synthesis-agent"
+}
