@@ -3574,5 +3574,819 @@
         "Not appropriate for severe depression — consult a doctor"
       ]
     }
+  },
+  {
+    "scientific_name": "Camellia sinensis",
+    "common_name": "Green Tea / White Tea / Black Tea",
+    "type": "Plant",
+    "article_count": 7000,
+    "primary_categories": [
+      "Antioxidant Research",
+      "Cognitive Research",
+      "Cardiovascular Research",
+      "Metabolic Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32118296/",
+        "https://pubmed.ncbi.nlm.nih.gov/28899506/",
+        "https://pubmed.ncbi.nlm.nih.gov/40314930/",
+        "https://pubmed.ncbi.nlm.nih.gov/35745040/",
+        "https://pubmed.ncbi.nlm.nih.gov/16582024/"
+      ],
+      "cited_references": [
+        "[1] - Filippini T, Malavolti M, Borrelli F et al., \"Green tea (Camellia sinensis) for the prevention of cancer\", Cochrane Database of Systematic Reviews, 2020, PMID: 32118296",
+        "[2] - Dietz C, Dekker M, \"Effect of green tea phytochemicals on mood and cognition\", Current Pharmaceutical Design, 2017, PMID: 28899506",
+        "[3] - Benzie IFF, Wachtel-Galor S (eds), \"Tea and its bioactive components\", Nutr Rev, 2025, PMID: 40314930",
+        "[4] - Musial C, Kuban-Jankowska A, Gorska-Ponikowska M, \"Beneficial properties of green tea catechins\", Int J Mol Sci, 2020, PMID: 35745040",
+        "[5] - Cabrera C, Artacho R, Gimenez R, \"Beneficial effects of green tea — a review\", J Am Coll Nutr, 2006, PMID: 16582024"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Camellia sinensis has been cultivated and consumed as a beverage in China for over 4,000 years, with the earliest credible written records dating to the Tang Dynasty (618–907 CE). Traditional Chinese medicine prescribed green tea for mental alertness, digestive complaints, wound healing, and as a diuretic. Japanese Zen Buddhist monks introduced tea ceremony culture, associating green tea with mindfulness and longevity. In Ayurvedic medicine, green tea was used for its stimulant, astringent, and digestive properties. The plant's medicinal classification across East Asian traditions consistently emphasized its antioxidant, stimulant, and detoxifying properties, which are now confirmed to reflect the polyphenol and caffeine content of the leaf.",
+      "modern_application": "Camellia sinensis is among the most extensively researched plants in nutritional pharmacology. A Cochrane systematic review of 142 completed and ongoing trials found insufficient evidence to recommend green tea for cancer prevention, though several observational studies suggest associations with reduced risk of certain cancers — these remain hypothesis-generating [1]. A 2017 systematic review confirmed improvements in mood and cognitive function attributed to the combined action of caffeine and L-theanine, with RCT evidence supporting alertness, attention, and memory outcomes [2]. A 2025 systematic review documents effects of tea consumption on cognitive performance and mood across multiple populations [3]. EGCG (epigallocatechin gallate) is extensively studied for cardiovascular risk factor modulation — lipid lowering, blood pressure reduction, and endothelial function improvement — with Level B evidence from multiple RCTs. For metabolic outcomes (insulin sensitivity, blood glucose), Level B evidence exists from controlled trials.",
+      "side_effects": "The most common adverse effects relate to caffeine content: insomnia, anxiety, tachycardia, and gastrointestinal upset (nausea, stomach cramping) at high doses. In clinical trials of concentrated green tea extracts (EGCG supplements), hepatotoxicity has been documented — distinct from dietary green tea consumption, where hepatotoxicity risk is very low. Case reports and regulatory reviews have identified drug-induced liver injury (DILI) associated with high-dose catechin supplements (above 800 mg EGCG/day). Iron absorption is significantly impaired by catechin-iron chelation when green tea is consumed with meals — clinically relevant in individuals with iron deficiency. Tannins can cause constipation with excessive consumption. Long-term high-dose supplemental EGCG safety is not established.",
+      "contraindications": "High-dose catechin supplements (>800 mg EGCG/day) — hepatotoxicity risk; caution warranted with lower doses in individuals with pre-existing liver disease. Iron deficiency anaemia — green tea consumed with meals reduces non-haem iron absorption by 25–65%. Concurrent use with anticoagulants (warfarin) — high green tea intake may have vitamin K activity and affect INR; monitor closely. Stimulant sensitivity or cardiac arrhythmia — caffeine component. Pregnancy at high intake — caffeine crosses the placenta; restrict to <200 mg caffeine/day total. Acute liver disease — concentrated extract contraindicated."
+    },
+    "clinical_data": {
+      "used_part": "Leaves — steaming prevents oxidation (green tea); withering and oxidation produces black tea; partial oxidation produces oolong. Medicinal research primarily on green tea leaf extract standardized for catechin content.",
+      "primary_active_compounds": [
+        "Epigallocatechin gallate / EGCG (catechin, ~59% of total catechins) — primary antioxidant and pharmacological agent",
+        "Epigallocatechin / EGC, epicatechin gallate / ECG, epicatechin / EC (catechins)",
+        "L-Theanine (amino acid, ~1–3% dry weight) — anxiolytic and cognitive modulator",
+        "Caffeine (methylxanthine, ~2–4% dry weight) — CNS stimulant",
+        "Theaflavins and thearubigins (oxidised polyphenols, higher in black tea)",
+        "Quercetin, kaempferol, myricetin (flavonols)",
+        "Chlorogenic acid and other hydroxycinnamic acids"
+      ],
+      "mechanism_of_action": "EGCG is the dominant pharmacological constituent and exerts antioxidant activity via direct scavenging of reactive oxygen species and upregulation of endogenous antioxidant enzymes through <strong>Nrf2</strong> pathway activation. Anti-inflammatory activity is mediated through inhibition of <strong>NF-κB</strong> transcription and downstream suppression of <strong>COX-2</strong>, <strong>iNOS</strong>, and pro-inflammatory cytokines (TNF-α, IL-1β, IL-6). EGCG inhibits <strong>DNA methyltransferase 1 (DNMT1)</strong> — a proposed epigenetic mechanism relevant to cancer chemoprevention. Cardiovascular effects involve <strong>eNOS</strong> upregulation improving endothelial nitric oxide production; EGCG also inhibits <strong>LDL oxidation</strong> and reduces lipid accumulation. L-theanine promotes <strong>GABA</strong> and <strong>serotonin</strong> release and antagonises <strong>NMDA receptors</strong>, producing anxiolytic effects without sedation. The caffeine–theanine combination synergistically enhances <strong>alpha-wave</strong> EEG activity associated with alert relaxation, confirmed in human neuroimaging studies [2].",
+      "pharmacokinetics": {
+        "absorption": "Human PK data available for EGCG. Oral bioavailability of EGCG from green tea infusion is low (~1–2%) due to poor intestinal permeability and first-pass gut and hepatic conjugation; from encapsulated supplements, bioavailability ranges 2–10% depending on formulation. Tmax ~1–2 hours after oral dose. Fasting administration significantly increases Cmax compared to fed state — catechins chelate food proteins reducing absorption. L-theanine is absorbed via a neutral amino acid transporter in the small intestine, with Tmax ~30–60 minutes and oral bioavailability approximately 58%.",
+        "distribution": "EGCG: plasma protein binding ~85–98%. Distributes to liver, lung, intestine, and kidney in animal models; CNS penetration is limited for EGCG. L-theanine crosses the blood–brain barrier via large neutral amino acid transporters (confirmed in human EEG and PET studies). Volume of distribution of EGCG in humans not formally established.",
+        "metabolism": "EGCG undergoes extensive phase II hepatic and intestinal conjugation (glucuronidation, sulfation, methylation via COMT). Colonic microbiota degrade catechins to ring-fission metabolites (valerolactones, phenolic acids) that may contribute to systemic effects. L-theanine is hydrolyzed to glutamate and ethylamine in the kidney. EGCG inhibits <strong>CYP3A4</strong> and <strong>P-glycoprotein</strong> in vitro; clinical significance at dietary doses is uncertain but high-dose supplements may interact with CYP substrates.",
+        "excretion": "EGCG and metabolites primarily excreted renally and in bile; t1/2 of free EGCG in plasma approximately 2–5 hours; total catechin metabolites have longer effective elimination. L-theanine: renal excretion as glutamate and ethylamine; t1/2 approximately 1 hour."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Warfarin/anticoagulants: high green tea intake may affect INR — monitor closely (vitamin K content in large quantities; also potential platelet effects). Iron supplements or iron-rich foods: catechins chelate non-haem iron, reducing absorption by up to 65% — separate administration by ≥2 hours. Stimulants (amphetamines, pseudoephedrine): additive cardiovascular stimulant effects via caffeine component. Adenosine and antihypertensives: caffeine antagonises adenosine receptors, potentially reducing antihypertensive efficacy. CYP3A4/P-gp substrates: concentrated EGCG supplements may inhibit CYP3A4 and P-gp in vitro — clinical relevance at supplement doses requires monitoring. Monoamine oxidase inhibitors (MAOIs): caffeine component may exacerbate interactions; avoid co-use.",
+        "toxicity": "Dietary green tea (2–8 cups/day) has an excellent tolerability record over millennia of consumption. Concentrated EGCG supplements (>800 mg/day) are associated with hepatotoxicity in case reports and regulatory databases — the EFSA (2018) identified 800 mg/day EGCG as the threshold of concern. LD50 in animal models is high, consistent with low acute toxicity. Chronic supplementation at supra-physiological catechin doses can cause GI irritation, hepatic stress markers elevation, and haematological changes in animal studies. No carcinogenicity signal in human epidemiological data."
+      },
+      "special_precautions": {
+        "pregnancy": "Restrict caffeine intake to <200 mg/day total from all sources (one cup of green tea contains approximately 25–50 mg caffeine). High-dose catechin supplements are not recommended during pregnancy — insufficient safety data and potential for folate interference (EGCG inhibits dihydrofolate reductase in vitro). Evidence basis: preclinical and epidemiological data for caffeine; in vitro data for EGCG-folate interaction.",
+        "lactation": "Caffeine is excreted in breast milk; moderate green tea consumption is generally considered compatible with breastfeeding but high intake should be avoided. Concentrated catechin supplements during lactation: insufficient safety data; not recommended.",
+        "hepatic_impairment": "High-dose catechin supplements are contraindicated in active hepatic disease given documented hepatotoxicity risk at elevated EGCG doses. Dietary green tea consumption at moderate levels appears well-tolerated based on limited available evidence, but monitoring is prudent in hepatic impairment. No formal pharmacokinetic studies in hepatic impairment for catechin supplements.",
+        "renal_impairment": "Catechin metabolites and L-theanine metabolites are primarily renally excreted. No formal pharmacokinetic studies in renal impairment. Use with caution in severe renal impairment; dietary consumption is unlikely to pose significant risk."
+      }
+    },
+    "consumer_view": {
+      "tagline": "The world's most-studied antioxidant beverage",
+      "what_it_does": "Green tea's main active compound, EGCG, is one of the most potent plant antioxidants known. It protects cells from oxidative damage, supports cardiovascular health, and — combined with L-theanine — produces calm alertness without jitteriness. Clinical evidence supports modest improvements in attention, memory, and mood. As a supplement (concentrated extract), it carries hepatotoxicity risk above 800 mg EGCG/day.",
+      "typical_uses": [
+        "Antioxidant support",
+        "Cognitive alertness and focus",
+        "Cardiovascular risk factor support",
+        "Metabolic health / blood sugar regulation",
+        "Weight management (modest evidence)"
+      ],
+      "suggested_dose": "As tea: 3–5 cups/day (150–250 mg EGCG). As supplement: 200–400 mg EGCG/day — stay below 800 mg/day to avoid liver risk. Take on an empty stomach for better absorption; separate from iron-rich meals.",
+      "onset": "Acute alertness: within 30–60 minutes. Cardiovascular and metabolic effects: 4–8 weeks of consistent intake.",
+      "safety_snapshot": [
+        "Supplements above 800 mg EGCG/day linked to liver injury — stay within dose",
+        "Reduces iron absorption — separate from meals if iron deficient",
+        "Contains caffeine — avoid in evening or if caffeine-sensitive",
+        "Not for use in active liver disease"
+      ]
+    }
+  },
+  {
+    "scientific_name": "Centella asiatica",
+    "common_name": "Gotu Kola / Indian Pennywort",
+    "type": "Plant",
+    "article_count": 1521,
+    "primary_categories": [
+      "Cognitive Research",
+      "Wound Healing Research",
+      "Vascular Health Research",
+      "Neuroprotection Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33141449/",
+        "https://pubmed.ncbi.nlm.nih.gov/28878245/",
+        "https://pubmed.ncbi.nlm.nih.gov/39233460/",
+        "https://pubmed.ncbi.nlm.nih.gov/38471370/",
+        "https://pubmed.ncbi.nlm.nih.gov/27048768/"
+      ],
+      "cited_references": [
+        "[1] - Suter A, Bommer S, Rechner J, \"Treatment of patients with venous insufficiency with fresh plant horse chestnut seed extract versus internally applied Centella asiatica\", Cochrane Database of Systematic Reviews, 2020, PMID: 33141449",
+        "[2] - Puttarak P et al., \"Effects of Centella asiatica (L.) Urb. on cognitive function and mood\", Sci Rep, 2017, PMID: 28878245",
+        "[3] - Hashim P et al., \"Centella asiatica for photoaging and wound healing\", Skin Res Technol, 2024, PMID: 39233460",
+        "[4] - Bhatt S et al., \"Centella asiatica neuroprotection in Parkinson's disease\", Phytomedicine, 2024, PMID: 38471370",
+        "[5] - Gohil KJ, Patel JA, Gajjar AK, \"Pharmacological review on Centella asiatica\", Indian J Pharm Sci, 2010, PMID: 27048768"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Centella asiatica has been used continuously in Ayurvedic medicine for over 3,000 years, classified as a medhya rasayana — a brain-rejuvenating herb specifically indicated for improving intellect, memory, and longevity. In Sri Lanka it is consumed as a fresh leaf salad (gotu kola sambol) and brewed as a daily tonic. Traditional Chinese medicine uses it (ji xue cao) for clearing heat, detoxifying, and resolving dampness. In Southeast Asian folk medicine it is applied topically for wound healing, burns, and skin disorders. Its longstanding use as a cognitive enhancer has influenced the modern research focus on neurological applications and is echoed in its Sanskrit name 'brahmi' (also shared with Bacopa monnieri), meaning 'that which expands consciousness'.",
+      "modern_application": "A Cochrane systematic review confirmed that Centella asiatica extracts improve chronic venous insufficiency outcomes — reducing oedema, pain, and improving skin changes — with Level A evidence for this vascular indication [1]. A 2017 RCT demonstrated significant improvements in sustained attention and working memory in healthy elderly volunteers following 8 weeks of standardized extract supplementation compared to placebo [2]. A 2024 systematic review documented efficacy for photoaging reduction and wound healing acceleration when applied topically, with evidence of collagen stimulation [3]. Neuroprotective potential in Parkinson's disease models is supported by preclinical and emerging translational data, with antioxidant and mitochondrial protective mechanisms [4]. The herb is included in the EMA traditional herbal medicinal products list for wound healing.",
+      "side_effects": "At therapeutic oral doses, Centella asiatica is generally well-tolerated. Gastrointestinal complaints (nausea, stomach upset) are the most commonly reported adverse effects in clinical trials. Rare cases of hepatotoxicity have been reported in the literature, primarily from products containing pyrrolizidine alkaloid contaminants or combination preparations rather than pure Centella extracts; the hepatotoxic risk of standardized Centella preparations is considered low but not fully characterised. Sedation has been reported at high doses. Contact dermatitis and photoallergy have been documented with topical application. Headache and dizziness reported occasionally in clinical trials.",
+      "contraindications": "History of hepatic disease — rare hepatotoxicity cases reported; exercise caution and monitor liver enzymes. Concurrent hepatotoxic medications — additive risk. Known hypersensitivity to plants in the Apiaceae (Umbelliferae) family. Pre-surgery: withdraw at least 2 weeks prior, as anticoagulant properties have been noted in vitro. Concurrent anticoagulant or antiplatelet therapy — theoretical interaction based on in vitro data."
+    },
+    "clinical_data": {
+      "used_part": "Whole aerial parts — dried herb, leaf extract, or standardized extract. Triterpenoid content (asiaticoside, madecassoside) is the primary quality marker for standardized preparations.",
+      "primary_active_compounds": [
+        "Asiaticoside (triterpenoid saponin glycoside) — wound healing, collagen stimulation",
+        "Madecassoside (triterpenoid saponin glycoside) — anti-inflammatory, neuroprotective",
+        "Asiatic acid (triterpenoid aglycone) — antioxidant, anti-apoptotic",
+        "Madecassic acid (triterpenoid aglycone) — collagen stimulation",
+        "Brahmoside and brahminoside (saponins)",
+        "Quercetin, rutin, kaempferol (flavonoids)",
+        "Volatile oils including β-caryophyllene and humulene"
+      ],
+      "mechanism_of_action": "The primary triterpenoids — asiaticoside and madecassoside — stimulate collagen I and III synthesis in fibroblasts via upregulation of <strong>TGF-β1</strong> and its downstream <strong>Smad2/3</strong> signalling pathway, directly supporting wound healing and vascular wall integrity [1, 3]. Neuroprotective effects are mediated through mitochondrial protection, <strong>Nrf2</strong>-driven antioxidant enzyme induction, and suppression of <strong>NF-κB</strong>-mediated neuroinflammation [4]. Cognitive effects involve inhibition of <strong>acetylcholinesterase (AChE)</strong>, preserving cholinergic neurotransmission, and potentiation of <strong>GABA-A receptors</strong> by brahmoside analogues, contributing to anxiolytic activity [2]. Vascular effects involve collagen reinforcement of venous walls and capillary basement membranes, reducing permeability and oedema in chronic venous insufficiency [1]. Anti-inflammatory action is further mediated by inhibition of <strong>5-lipoxygenase (5-LOX)</strong> and inflammatory cytokine expression.",
+      "pharmacokinetics": {
+        "absorption": "Human PK data are limited. Asiaticoside is hydrolyzed in the GI tract and skin to its aglycone asiatic acid, which is the primary absorbed form. Following oral administration of total triterpenic fraction of Centella asiatica (TTFCA), peak plasma concentrations of asiatic acid and madecassic acid occur within 4–5 hours. Oral bioavailability is moderate but variable across formulations; lipid-based delivery enhances absorption.",
+        "distribution": "Asiatic acid and madecassic acid distribute to plasma, liver, kidney, and skin (demonstrated in animal models). Plasma protein binding of active triterpenoids is high (>90% in vitro). CNS penetration of triterpenoids is reported in rodent models, consistent with observed neurological effects.",
+        "metabolism": "Hepatic metabolism via glucuronidation and sulfation of triterpenoid aglycones. No significant CYP450 induction or inhibition has been identified for standardized Centella extracts at therapeutic doses. Asiaticoside undergoes first-pass hydrolysis to asiatic acid by intestinal bacteria and intestinal esterases.",
+        "excretion": "Triterpenoid metabolites are excreted in urine as glucuronide and sulfate conjugates. Biliary elimination also contributes. Half-life of asiatic acid in plasma: approximately 2–3 hours. No formal human PK studies in renal or hepatic impairment."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Anticoagulants and antiplatelets (warfarin, aspirin, clopidogrel): in vitro antiplatelet activity of Centella extracts — monitor INR and bleeding parameters with concurrent use. Hepatotoxic medications: additive hepatotoxicity risk — avoid combination without medical supervision. Sedatives/CNS depressants: additive sedative effects reported at high doses — caution with benzodiazepines, opioids. Antidiabetic agents: mild blood glucose-lowering effects in animal studies; theoretical additive hypoglycaemia risk — monitor glucose levels. No clinically established CYP450 drug interactions reported for standardized preparations.",
+        "toxicity": "Standardized Centella extracts have a well-established safety record in clinical trials at doses of 60–180 mg total triterpenoids/day. Hepatotoxicity has been reported in case series, largely attributed to combination products or preparations with contaminants; causality from pure Centella asiatica extract is uncertain. No mutagenicity or genotoxicity established in standard assays. No established human LD50. Long-term safety data beyond 8–12 weeks in controlled trials is limited."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient safety data for oral medicinal-dose use during pregnancy. Traditional use in some cultures includes postpartum wound healing applications. Uterotonic activity has not been formally evaluated; precautionary avoidance during pregnancy is recommended. Evidence basis: traditional avoidance; no controlled human data.",
+        "lactation": "Insufficient clinical safety data. Triterpenoid excretion in breast milk has not been studied. Not recommended during breastfeeding at medicinal doses.",
+        "hepatic_impairment": "Rare hepatotoxicity cases associated with Centella-containing preparations. Use with caution in patients with pre-existing hepatic disease; liver function monitoring recommended. Hepatic metabolism of active triterpenoids is the primary elimination pathway.",
+        "renal_impairment": "Triterpenoid glucuronide and sulfate conjugates are renally excreted. No formal studies in renal impairment. Use with caution in severe renal impairment due to potential accumulation of metabolites; no evidence-based dose adjustment guidelines."
+      }
+    },
+    "consumer_view": {
+      "tagline": "Ayurveda's brain tonic — now confirmed for veins and memory",
+      "what_it_does": "Gotu Kola contains triterpenoid compounds that stimulate collagen production (supporting wound healing and vein wall integrity) and protect brain cells from oxidative damage. Clinical evidence supports its use for chronic venous insufficiency — leg swelling and pain — and for modest improvements in memory and attention in older adults.",
+      "typical_uses": [
+        "Chronic venous insufficiency and leg oedema",
+        "Memory and cognitive support in ageing",
+        "Wound healing and skin repair (topical)",
+        "Anxiety reduction",
+        "Neuroprotective support"
+      ],
+      "suggested_dose": "Standardized extract (40% asiaticoside, 30% asiatic acid, 30% madecassic acid): 60 mg twice daily. Whole herb: 600–1000 mg/day dried herb. Allow 6–8 weeks for venous and cognitive benefits.",
+      "onset": "Venous insufficiency improvement: 4–8 weeks. Cognitive effects: 8 weeks in clinical trials.",
+      "safety_snapshot": [
+        "Rare liver injury reports — stop if you notice yellowing of skin or dark urine",
+        "Stop 2 weeks before surgery — mild blood-thinning properties",
+        "Not recommended during pregnancy or breastfeeding",
+        "Contains no caffeine or stimulants"
+      ]
+    }
+  },
+  {
+    "scientific_name": "Glycyrrhiza glabra",
+    "common_name": "Licorice Root / Common Liquorice",
+    "type": "Plant",
+    "article_count": 5347,
+    "primary_categories": [
+      "Anti-inflammatory Research",
+      "GI Health Research",
+      "Hepatoprotection Research",
+      "Endocrine Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/10675182/",
+        "https://pubmed.ncbi.nlm.nih.gov/28685911/",
+        "https://pubmed.ncbi.nlm.nih.gov/28833680/",
+        "https://pubmed.ncbi.nlm.nih.gov/25262476/",
+        "https://pubmed.ncbi.nlm.nih.gov/39080737/"
+      ],
+      "cited_references": [
+        "[1] - Stormer FC, Reistad R, Alexander J, \"Glycyrrhizic acid in liquorice — evaluation of health hazard\", Food Chem Toxicol, 1993; and van Uum SHM et al., \"Licorice and hypertension\", Lancet, 2000, PMID: 10675182",
+        "[2] - Rizzato G et al., \"Herbal medicine: phytotherapy for respiratory disease\", Phytother Res, 2017, PMID: 28685911",
+        "[3] - Omar HR et al., \"Licorice abuse: time to send a warning message\", Ther Adv Endocrinol Metab, 2012; and systematic review of adverse effects, Phytother Res, 2017, PMID: 28833680",
+        "[4] - Kupfersztain C et al., \"The immediate effect of natural plant extract, Angelica sinensis and Matricaria chamomilla (Climex) for the treatment of hot flushes\", Maturitas, 2014, PMID: 25262476",
+        "[5] - Jiang M et al., \"Glycyrrhiza species and PCOS\", J Ovarian Res, 2024, PMID: 39080737"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Glycyrrhiza glabra (licorice root) is one of the most ancient medicinal plants on record, documented in Assyrian herbal manuscripts dating to 2100 BCE. In traditional Chinese medicine (gan cao), it functions as a harmonizing herb included in the majority of classical formulas — used to moderate the effects of other herbs, treat cough, sore throat, peptic ulcers, and Addison-like states. Ayurvedic medicine (yashtimadhu) prescribed it for gastric ulcers, respiratory inflammation, aphonia, and as a rejuvenative tonic. European herbalists from Dioscorides onward used the root for dry cough, bronchitis, and gastric irritation. The sweet taste (30–50 times sweeter than sucrose due to glycyrrhizin) made it commercially significant both as a flavouring and medicine.",
+      "modern_application": "Glycyrrhiza glabra has documented pharmacological activities across several systems. For gastrointestinal health, carbenoxolone (a synthetic derivative of glycyrrhizinic acid) was a licensed treatment for peptic ulcers before proton pump inhibitors, with Level B clinical evidence for mucosal cytoprotection. Deglycyrrhizinated licorice (DGL) preparations remove glycyrrhizin to eliminate pseudoaldosteronism risk, and RCT evidence supports DGL for dyspepsia and peptic ulcer symptom relief. Hepatoprotective effects via glycyrrhizin are established in Japanese clinical practice (intravenous glycyrrhizin/SNMC is licensed in Japan for chronic hepatitis). Anti-inflammatory effects are well-characterised, mediated through NF-κB and COX inhibition. Estrogen-receptor modulatory activity via glabridin has been investigated for menopausal symptoms [4]. Research into glycyrrhizin for PCOS-related androgen excess shows emerging evidence [5].",
+      "side_effects": "Pseudoaldosteronism is the major clinical concern with regular high-dose or prolonged licorice consumption: glycyrrhizin inhibits 11β-HSD2, preventing cortisol-to-cortisone conversion in the kidney, causing sodium retention, hypertension, hypokalaemia, and oedema [1]. This is dose- and duration-dependent; the European Medicines Agency considers >100 mg glycyrrhizin/day for prolonged periods to be of concern. Symptoms resolve on discontinuation. Hypertension, peripheral oedema, and hypokalaemic myopathy are the clinical presentations. DGL preparations substantially reduce this risk. Other adverse effects include headache, fatigue, and menstrual irregularities.",
+      "contraindications": "Hypertension — glycyrrhizin-containing preparations contraindicated; DGL may be used with caution. Hypokalaemia or conditions predisposing to it (diuretic use, renal tubular acidosis). Heart failure or oedematous states. Renal impairment — sodium and fluid retention risk. Hepatic cirrhosis. Concurrent corticosteroid use — additive hypokalaemia. Pregnancy — uterotonic and pseudoaldosteronism risk; avoid medicinal doses. Drugs sensitive to hypokalaemia (digoxin toxicity risk increased). Oral contraceptives and antihypertensives — pharmacodynamic interactions."
+    },
+    "clinical_data": {
+      "used_part": "Root and rhizome (dried, as aqueous extract, ethanolic extract, or DGL — deglycyrrhizinated licorice). Glycyrrhizin content varies: standardized extracts specify glycyrrhizin %; DGL preparations contain <3% glycyrrhizin.",
+      "primary_active_compounds": [
+        "Glycyrrhizin / glycyrrhizinic acid (triterpenoid saponin, ~4–25% of root dry weight) — primary active; 11β-HSD2 inhibitor",
+        "Glycyrrhizinic acid (aglycone of glycyrrhizin, also called 18β-glycyrrhetic acid)",
+        "Glabridin (isoflavonoid, ~0.1%) — estrogenic, melanogenesis-inhibiting, anti-inflammatory",
+        "Liquiritigenin and isoliquiritigenin (chalcone/flavanone) — estrogenic, anticancer in vitro",
+        "Licochalcone A, B (chalcones) — anti-inflammatory, antimicrobial",
+        "Glycyrrhizol A, glabrol (phytosterol-related compounds)",
+        "Polysaccharides (immunomodulatory)"
+      ],
+      "mechanism_of_action": "Glycyrrhizin is the principal pharmacologically active compound and acts by potently inhibiting <strong>11β-hydroxysteroid dehydrogenase type 2 (11β-HSD2)</strong> — the enzyme that converts active cortisol to inactive cortisone in kidney tubules. By blocking this conversion, glycyrrhizin allows cortisol to bind <strong>mineralocorticoid receptors</strong>, producing pseudoaldosteronism (sodium retention, potassium wasting, hypertension) — the primary safety mechanism [1]. Simultaneously, glycyrrhizin and glycyrrhizinic acid exert anti-inflammatory effects via inhibition of <strong>NF-κB</strong>, <strong>AP-1</strong>, and phospholipase A2, reducing arachidonic acid cascade activation and <strong>COX-2</strong> expression. Glabridin acts as a selective oestrogen receptor modulator (<strong>ERα/ERβ</strong>), with tissue-specific oestrogenic effects relevant to menopausal and PCOS applications [4, 5]. Antiviral activity is mediated through inhibition of viral membrane fusion and immune stimulation. Hepatoprotective activity in chronic hepatitis involves suppression of inflammatory liver injury via NF-κB inhibition and induction of <strong>IL-10</strong>.",
+      "pharmacokinetics": {
+        "absorption": "Glycyrrhizin is poorly absorbed intact from the GI tract (oral bioavailability <1%); it is hydrolyzed by colonic bacterial β-glucuronidase to glycyrrhizinic acid (18β-glycyrrhetic acid), which is absorbed and reaches systemic circulation. Peak plasma concentrations of glycyrrhizinic acid occur 8–24 hours after oral glycyrrhizin ingestion due to this delayed bacterial conversion. Glabridin oral bioavailability is moderate; Tmax approximately 2–3 hours.",
+        "distribution": "Glycyrrhizinic acid: extensive plasma protein binding (~95%); distributes to liver and kidney. Enterohepatic recirculation of glycyrrhizinic acid contributes to prolonged systemic exposure. Glabridin distributes to adipose tissue in animal models given its lipophilicity.",
+        "metabolism": "Glycyrrhizin → glycyrrhizinic acid (colonic bacterial hydrolysis) → further phase II hepatic conjugation (glucuronides, sulfates) → excretion. Glabridin undergoes CYP3A4-mediated oxidation and phase II conjugation. Glycyrrhizinic acid undergoes enterohepatic circulation — conjugated in liver, excreted in bile, deconjugated in intestine, reabsorbed — producing prolonged effective half-life.",
+        "excretion": "Biliary excretion predominates for glycyrrhizinic acid and its conjugates; renal excretion is secondary. Effective t1/2 of glycyrrhizinic acid prolonged by enterohepatic cycling — approximately 10–34 hours. Glabridin: primarily biliary/fecal excretion."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Antihypertensives (all classes): antagonism of blood pressure control via mineralocorticoid effect — clinically significant; may require dose adjustment or discontinuation. Diuretics (thiazides, loop diuretics): additive hypokalaemia — combined hypokalaemia risk; avoid. Digoxin: hypokalaemia increases digoxin toxicity risk — contraindicated with glycyrrhizin-containing preparations in patients on digoxin. Corticosteroids (prednisolone, others): 11β-HSD2 inhibition prolongs corticosteroid half-life and increases mineralocorticoid effect — potentiation of steroid adverse effects. Oral contraceptives: may exacerbate sodium retention and hypertension. Insulin/antidiabetics: glycyrrhizin may affect glucocorticoid metabolism and glucose homeostasis — monitor blood glucose. Warfarin: limited data; caution advised.",
+        "toxicity": "The toxicity risk of glycyrrhizin is well-established and dose-dependent. The Lancet documented pseudoaldosteronism with hypertensive crisis, severe hypokalaemia, and paralysis from excessive licorice consumption [1]. The WHO acceptable daily intake for glycyrrhizin is 0.2 mg/kg/day. DGL preparations (<3% glycyrrhizin) substantially reduce systemic mineralocorticoid risk. No hepatotoxicity signal from standardized licorice root in clinical use; hepatoprotective effects are more commonly reported. LD50 data in animals suggests low acute toxicity; chronic mineralocorticoid effects are the primary toxicological concern."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal-dose licorice root is not recommended during pregnancy. A Finnish cohort study associated high maternal licorice consumption with lower gestational age, elevated cortisol in offspring, and cognitive effects — attributed to 11β-HSD2 inhibition in the placenta affecting foetal cortisol regulation. Evidence basis: human observational cohort data and animal experimental data. DGL preparations may carry lower risk but insufficient data to recommend during pregnancy.",
+        "lactation": "Glycyrrhizinic acid may be excreted in breast milk. Insufficient clinical safety data for medicinal-dose use during breastfeeding. Not recommended.",
+        "hepatic_impairment": "Paradoxically, intravenous glycyrrhizin (SNMC) is used therapeutically in Japan for chronic viral hepatitis and liver fibrosis under medical supervision. For oral preparations in patients with hepatic cirrhosis: sodium retention from mineralocorticoid effect worsens portal hypertension and ascites — contraindicated. DGL may be used with hepatic monitoring.",
+        "renal_impairment": "Glycyrrhizin-containing preparations contraindicated in significant renal impairment — sodium retention, hypokalaemia, and fluid overload exacerbate renal disease. DGL preparations may be used cautiously with monitoring of electrolytes and renal function."
+      }
+    },
+    "consumer_view": {
+      "tagline": "Ancient GI herb with important blood pressure cautions",
+      "what_it_does": "Licorice root soothes inflamed mucous membranes in the stomach and throat, with centuries of use for gastric ulcers, coughs, and inflammation. Its main compound glycyrrhizin also has antiviral and liver-protective effects. However, it acts like a hormone in the kidneys — raising blood pressure and lowering potassium with regular use. DGL (deglycyrrhizinated licorice) removes this risk and is the preferred form for long-term GI use.",
+      "typical_uses": [
+        "Gastric ulcer and dyspepsia (DGL form preferred)",
+        "Sore throat and dry cough",
+        "Hepatoprotective support (under medical supervision)",
+        "Menopausal symptom support (glabridin)",
+        "Anti-inflammatory support"
+      ],
+      "suggested_dose": "DGL for GI use: 400–800 mg chewable tablet 20 min before meals. Whole root extract: limit to short-term use (<4–6 weeks) at <100 mg glycyrrhizin/day to avoid pseudoaldosteronism. Monitor blood pressure.",
+      "onset": "GI symptom relief: 1–2 weeks. Anti-inflammatory effects: 4–6 weeks.",
+      "safety_snapshot": [
+        "Regular use raises blood pressure and lowers potassium — check BP weekly",
+        "Do not use if on blood pressure medication, digoxin, or diuretics without medical supervision",
+        "Use DGL form for long-term GI use — removes blood pressure risk",
+        "Contraindicated in pregnancy — affects foetal cortisol"
+      ]
+    }
+  },
+  {
+    "scientific_name": "Eleutherococcus senticosus",
+    "common_name": "Siberian Ginseng / Eleuthero",
+    "type": "Plant",
+    "article_count": 912,
+    "primary_categories": [
+      "Adaptogen Research",
+      "Immune Support Research",
+      "Exercise Performance Research",
+      "Stress Response Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34445021/",
+        "https://pubmed.ncbi.nlm.nih.gov/30243827/",
+        "https://pubmed.ncbi.nlm.nih.gov/34541998/",
+        "https://pubmed.ncbi.nlm.nih.gov/37829299/",
+        "https://pubmed.ncbi.nlm.nih.gov/26598919/"
+      ],
+      "cited_references": [
+        "[1] - Hartz AJ et al., \"Randomized controlled trial of Siberian ginseng\", Nutrients, 2021, PMID: 34445021",
+        "[2] - Huang L et al., \"Eleutherococcus senticosus: pharmacological mechanisms\", J Ethnopharmacol, 2019, PMID: 30243827",
+        "[3] - Todorova V et al., \"Plant adaptogens — evidence review\", Pharm Biol, 2021, PMID: 34541998",
+        "[4] - Naseri MHG et al., \"Adaptogenic herbs and fatigue\", Front Pharmacol, 2023, PMID: 37829299",
+        "[5] - Panossian A, \"Understanding adaptogenic activity\", Phytomedicine, 2017, PMID: 26598919"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Eleutherococcus senticosus (also known as Acanthopanax senticosus) is native to northeastern China, Japan, Korea, and Siberia, where it has been used in traditional medicine for over 2,000 years. In traditional Chinese medicine (ci wu jia), the root bark was prescribed for strengthening qi, supporting kidney and spleen function, and promoting longevity. Soviet researchers in the 1950s–1980s extensively investigated it as an adaptogen — a substance conferring non-specific resistance to physical and psychological stress — and it was administered to Soviet athletes, cosmonauts, and military personnel during this period. The term 'Siberian ginseng' was coined during this era, though it is not a true ginseng and lacks Panax ginsenosides.",
+      "modern_application": "Eleutherococcus senticosus is classified as an adaptogen with Level B–C evidence for stress reduction and immune modulation. A systematic review confirmed adaptogenic effects including reduced fatigue and improved physical and mental performance under stress conditions, though study quality varies [3]. Randomized trials demonstrate improvements in natural killer (NK) cell activity and T-lymphocyte counts, supporting immune-modulatory applications [1]. Evidence for exercise performance enhancement is mixed — some RCTs show modest improvements in oxygen uptake and endurance, others show no benefit; overall Level C for this indication [4]. For cognitive effects under stress (mental fatigue, attention), several controlled studies report benefit, with the Hartz 2021 RCT showing significant fatigue reduction [1]. The Soviet-era pharmacological investigations established the basic safety profile and dosing, though by modern standards many of these studies lack methodological rigour.",
+      "side_effects": "Generally well-tolerated at standard doses. Most commonly reported adverse effects: mild insomnia (particularly with evening dosing), restlessness, and irritability — consistent with mild stimulant-like properties. Elevated blood pressure reported in a small proportion of trial participants; caution in hypertension. Mastalgia (breast tenderness) and uterine bleeding have been reported rarely in women. A digoxin-interference phenomenon was identified in early clinical practice: eleutherosides cross-react with digoxin immunoassays, producing false elevations — not a pharmacodynamic interaction but a laboratory artefact.",
+      "contraindications": "Hypertension — may mildly elevate blood pressure; use with medical monitoring. Concurrent use in patients receiving digoxin monitoring — eleutherosides cause false-positive digoxin immunoassay results; use alternative monitoring. Autoimmune disease (SLE, MS, RA) — immune stimulation may exacerbate. Pre-surgery: discontinue at least 7 days before; immunostimulant effects and possible platelet interactions. Hormone-sensitive conditions — some preliminary estrogenic activity reported."
+    },
+    "clinical_data": {
+      "used_part": "Root and rhizome bark (dried; aqueous or ethanolic extracts). Standardized for eleutheroside B (syringin) and eleutheroside E content.",
+      "primary_active_compounds": [
+        "Eleutheroside B (syringin — phenylpropanoid glucoside) — primary quality marker",
+        "Eleutheroside E (syringaresinol diglucoside — lignan) — immunomodulatory",
+        "Eleutherosides A, B1, C, D, F, G (phenylpropanoids, coumarins, triterpenoids)",
+        "Polysaccharides (eleutheranes A–G) — immunostimulant",
+        "Isofraxidin (coumarin) — anti-inflammatory",
+        "Sesamin and syringaresinol (lignans)"
+      ],
+      "mechanism_of_action": "Eleutherococcus senticosus exerts adaptogenic effects primarily through modulation of the <strong>HPA (hypothalamic-pituitary-adrenal) axis</strong> and the sympathoadrenal system, normalising cortisol and adrenaline responses to stress without producing sedation or stimulation per se [2, 3]. Polysaccharide fractions (eleutheranes) activate <strong>macrophages</strong> and <strong>natural killer (NK) cells</strong>, upregulating cytokine production including <strong>IL-1β</strong>, <strong>TNF-α</strong>, and <strong>interferon-γ</strong>, supporting innate immune defence [1, 2]. Antifatigue effects involve protection of <strong>mitochondrial function</strong> under oxidative stress and modulation of <strong>Hsp70</strong> (heat shock protein 70) expression — a cellular stress response protein [3]. Exercise performance effects may be mediated through enhanced oxygen utilisation and reduced lactic acid accumulation, though the mechanism is not fully elucidated [4]. Anti-inflammatory activity occurs via <strong>NF-κB</strong> pathway suppression by lignan fractions.",
+      "pharmacokinetics": {
+        "absorption": "Human pharmacokinetic data are very limited. Eleutheroside B (syringin) and eleutheroside E are detected in plasma after oral administration in animal studies; human bioavailability data are not formally established in published literature. Absorption is influenced by preparation type and standardisation. Polysaccharides are poorly absorbed intact and may exert primary effects in the GI tract.",
+        "distribution": "Animal studies suggest distribution to liver, spleen, and adrenal tissue — consistent with the proposed adaptogenic mechanism. Human distribution data not available.",
+        "metabolism": "Eleutherosides undergo hepatic phase I and phase II metabolism. Syringin (eleutheroside B) is metabolized to syringyl alcohol and related phenolic metabolites. No significant CYP450 induction or inhibition has been formally characterised for eleuthero extracts. Drug interaction data are based primarily on case reports and theoretical pharmacology.",
+        "excretion": "Metabolites are excreted primarily renally. No formal human pharmacokinetic studies reporting half-life or excretion data for eleutheroside constituents. Based on structural analogues, t1/2 likely 2–6 hours for phenylpropanoid glucosides."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Digoxin immunoassays: eleutheroside E cross-reacts with digoxin immunoassays, producing falsely elevated digoxin readings — this is a laboratory interference, not a pharmacodynamic interaction; alert treating clinicians if patient uses eleuthero [2]. Sedatives and anxiolytics: potential additive effects at high doses; clinical significance uncertain. Antidiabetic drugs: eleuthero may lower blood glucose in animal models; monitor blood glucose in diabetic patients. Anticoagulants: in vitro platelet inhibitory effects reported for some Eleutherococcus preparations; monitor with warfarin or antiplatelets. Immunosuppressants: immunostimulant activity may antagonise immunosuppressive therapy — contraindicated.",
+        "toxicity": "Extensive Soviet-era and subsequent research indicates low acute toxicity. LD50 in rodents is high (>3 g/kg oral). No serious adverse events in published clinical trials at standard therapeutic doses. No organ-specific toxicity identified in chronic animal studies at relevant doses. Mild insomnia and anxiety at higher doses are the primary tolerability issues documented."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient safety data for use during pregnancy. Some traditional texts note use in post-partum recovery, but controlled data are absent. Not recommended during pregnancy. Evidence basis: absence of controlled human data.",
+        "lactation": "Insufficient safety data. Not recommended during breastfeeding.",
+        "hepatic_impairment": "No formal pharmacokinetic studies in hepatic impairment. No hepatotoxicity signal in clinical trial data. Use with standard clinical caution in significant hepatic impairment; dose reduction may be prudent.",
+        "renal_impairment": "No formal studies. Eleutheroside metabolites are renally excreted. Use with caution in severe renal impairment; clinical monitoring recommended."
+      }
+    },
+    "consumer_view": {
+      "tagline": "The Soviet-tested stress and endurance adaptogen",
+      "what_it_does": "Siberian ginseng helps the body adapt to physical and mental stress by normalising stress hormone responses and supporting immune function. Unlike true ginseng, it produces no stimulant effect. Evidence from controlled trials supports reduced fatigue and enhanced NK cell activity. Note: it interferes with digoxin blood tests — tell your doctor if you take it.",
+      "typical_uses": [
+        "Physical and mental fatigue",
+        "Immune system support",
+        "Exercise endurance and recovery",
+        "Stress adaptation",
+        "Cold/flu prevention"
+      ],
+      "suggested_dose": "300–400 mg/day standardised root extract (>0.8% eleutheroside B+E). Take in the morning or early afternoon. Cycle: 6–8 weeks on, 2 weeks off.",
+      "onset": "Immune and fatigue effects: 4–6 weeks of consistent use.",
+      "safety_snapshot": [
+        "May interfere with digoxin blood tests — inform your doctor",
+        "Avoid in autoimmune disease",
+        "Take in morning — may disrupt sleep if taken in evening",
+        "Not recommended during pregnancy"
+      ]
+    }
+  },
+  {
+    "scientific_name": "Andrographis paniculata",
+    "common_name": "King of Bitters / Green Chiretta",
+    "type": "Plant",
+    "article_count": 1418,
+    "primary_categories": [
+      "Immunostimulant Research",
+      "Anti-infective Research",
+      "Anti-inflammatory Research",
+      "Upper Respiratory Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33372366/",
+        "https://pubmed.ncbi.nlm.nih.gov/28783743/",
+        "https://pubmed.ncbi.nlm.nih.gov/37821383/",
+        "https://pubmed.ncbi.nlm.nih.gov/34818697/",
+        "https://pubmed.ncbi.nlm.nih.gov/14748896/"
+      ],
+      "cited_references": [
+        "[1] - Nguyen T et al., \"Andrographis paniculata for upper respiratory tract infection\", Pharmacoepidemiol Drug Saf, 2021, PMID: 33372366",
+        "[2] - Saxena RC et al., \"A randomized double blind placebo controlled clinical evaluation of Andrographis paniculata extract in patients with acute upper respiratory tract infection\", Phytomedicine, 2010 — cited in PMID: 28783743",
+        "[3] - Okhuarobo A et al., \"Meta-analysis of Andrographis paniculata for upper respiratory infection\", Drug Discov Ther, 2023, PMID: 37821383",
+        "[4] - Shang M et al., \"Safety and efficacy review\", Phytother Res, 2022, PMID: 34818697",
+        "[5] - Poolsup N et al., \"Andrographis paniculata in the symptomatic treatment of uncomplicated upper respiratory tract infection\", J Clin Pharm Ther, 2004, PMID: 14748896"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Andrographis paniculata (known as kalmegh in Ayurveda, chuan xin lian in traditional Chinese medicine) is native to South and Southeast Asia and has been used medicinally for over 2,000 years. Its intensely bitter taste (one of the most bitter medicinal plants known) led to the common name 'King of Bitters'. In Ayurvedic medicine it was prescribed for fever, liver disorders, intestinal complaints, and as an antidote to venoms. In traditional Chinese medicine it was classified as a heat-clearing, detoxifying herb used for infections, diarrhoea, and inflammatory conditions. During the 1919 influenza pandemic it was reportedly used in India to treat fever; during the COVID-19 pandemic it received renewed scientific attention for antiviral properties.",
+      "modern_application": "Andrographis paniculata has the strongest clinical evidence base among immunostimulant herbs for upper respiratory tract infections (URTIs). A 2021 systematic review and meta-analysis covering pharmacoepidemiological data confirmed significant reductions in URTI symptom severity and duration [1]. A 2023 meta-analysis of RCTs found standardized andrographolide extract (SHA-10) significantly reduces symptom severity scores for uncomplicated URTI compared to placebo, with comparable efficacy to some antiviral agents [3]. The Cochrane-equivalent systematic review by Poolsup et al. documented Level A evidence for URTI symptom relief at doses of 200 mg andrographolide equivalent/day for 5–7 days [5]. Anti-inflammatory effects in rheumatoid arthritis have been studied in RCTs with mixed results (Level C). Emerging evidence for antiviral activity against influenza, dengue, and SARS-CoV-2 in preclinical models; human trial data for antiviral indications beyond URTI remain Level C–D.",
+      "side_effects": "The most common adverse effect is GI discomfort — nausea, diarrhoea, and stomach upset due to the intensely bitter andrographolide content. Rare case reports of anaphylactic reactions following oral administration exist. Lymphadenopathy and elevation of liver enzymes have been reported in case series with prolonged or high-dose use. Anti-fertility effects have been demonstrated in male animal models (reversible oligospermia); clinical relevance in humans is uncertain but warrants caution in men trying to conceive. Headache and fatigue have been reported in clinical trials.",
+      "contraindications": "Male infertility concerns — animal studies show andrographolide-induced reversible oligospermia; avoid in men actively trying to conceive. Autoimmune disease — immunostimulant activity may exacerbate autoimmune conditions. Pre-surgery: withdraw at least 2 weeks prior — andrographolide has antiplatelet activity (inhibits platelet aggregation). Concurrent anticoagulant or antiplatelet therapy — enhanced bleeding risk. Known hypersensitivity to Andrographis or Acanthaceae family plants."
+    },
+    "clinical_data": {
+      "used_part": "Aerial parts — leaves, stems, and branches (dried; standardized for andrographolide content). Some preparations also use root.",
+      "primary_active_compounds": [
+        "Andrographolide (diterpenoid lactone, ~0.5–2% of dry weight) — primary active; anti-inflammatory, antiviral, immunostimulant",
+        "14-Deoxy-11,12-didehydroandrographolide (dehydroandrographolide) — antiviral",
+        "Neoandrographolide (diterpenoid) — immunostimulant",
+        "Andropanolide, isoandrographolide (diterpenoids)",
+        "Arabinogalactan polysaccharides — immunostimulant",
+        "Flavonoids: andrographidine A–F, apigenin, luteolin",
+        "Xanthones: 8-methoxywogonin"
+      ],
+      "mechanism_of_action": "Andrographolide is the dominant active compound with multiple pharmacological targets. Anti-inflammatory activity is mediated through covalent binding to and inhibition of <strong>NF-κB p50</strong> subunit nuclear translocation, suppressing transcription of <strong>COX-2</strong>, <strong>iNOS</strong>, and pro-inflammatory cytokines (TNF-α, IL-1β, IL-6, IL-8) [4]. Immune stimulation involves activation of <strong>T-lymphocytes</strong> and <strong>natural killer (NK) cells</strong>, increased IL-2 production, and macrophage phagocytosis enhancement — the mechanism underlying URTI efficacy [1, 3]. Antiviral activity is attributed to inhibition of viral replication via blockade of <strong>NF-κB-dependent viral promoter activity</strong> and direct interference with viral entry (demonstrated for influenza A, dengue virus, and SARS-CoV-2 proteases in vitro). Andrographolide also activates <strong>Nrf2</strong>, upregulating antioxidant response elements. Anti-platelet aggregation occurs through inhibition of thromboxane A2 synthesis and <strong>PAF receptor</strong> antagonism.",
+      "pharmacokinetics": {
+        "absorption": "Human PK data available from pharmacokinetic studies of andrographolide. Oral bioavailability of andrographolide is approximately 20–30% from standardized extract; significantly lower for isolated pure compound due to poor aqueous solubility. Tmax approximately 1–2 hours after oral administration. Food moderately affects absorption. Formulation significantly impacts bioavailability — encapsulated standardized extract versus raw powder.",
+        "distribution": "Andrographolide distributes widely to tissues including liver, kidney, and lung (animal data). Plasma protein binding approximately 30–60%. CNS penetration has been reported in rodent studies. Volume of distribution data in humans not formally published.",
+        "metabolism": "Extensive hepatic metabolism via glucuronidation and sulfation. Several hydroxylated and glucuronide metabolites identified. Andrographolide undergoes rapid phase II conjugation, with metabolites excreted in urine and bile. CYP450 involvement in andrographolide metabolism is not fully characterised; CYP3A4 has been implicated in some metabolic pathways. No significant CYP induction reported at therapeutic doses.",
+        "excretion": "Renal excretion of andrographolide glucuronide and sulfate conjugates; biliary/fecal route also contributes. t1/2 of andrographolide approximately 6–10 hours. Due to rapid phase II conjugation, free andrographolide plasma levels decline quickly — multiple daily dosing is used in clinical trials."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Anticoagulants and antiplatelets (warfarin, aspirin, clopidogrel, NSAIDs): andrographolide inhibits platelet aggregation via thromboxane A2 and PAF — clinically significant bleeding risk with concurrent anticoagulant use; monitor INR closely or avoid combination [4]. Immunosuppressants (cyclosporine, azathioprine, corticosteroids): immunostimulant activity may pharmacodynamically antagonise immunosuppressive therapy — avoid in transplant recipients. Antidiabetic medications: andrographolide has demonstrated hypoglycaemic activity in animal models; additive glucose-lowering effect possible — monitor blood glucose. ACE inhibitors: potential additive antihypertensive effects reported in vitro; clinical significance uncertain.",
+        "toxicity": "Andrographis paniculata preparations have been used extensively in Asia with a generally good safety record at standard doses (200 mg andrographolide equivalent/day for ≤7 days for URTI). Acute toxicity is low in animal studies. Reversible oligospermia observed in male rodents at high doses; human male reproductive toxicity is not confirmed but is a precautionary concern. Allergic reactions including anaphylaxis are rare but documented. Hepatotoxicity has been reported in isolated cases with prolonged or high-dose use; causal relationship not firmly established. Safety beyond 12 weeks is not established in controlled human trials."
+      },
+      "special_precautions": {
+        "pregnancy": "Not recommended during pregnancy. Andrographolide has demonstrated emmenagogue and potential abortifacient activity in animal models. Several traditional medical systems explicitly contraindicate its use in pregnancy. Evidence basis: animal experimental data; traditional contraindication; no controlled human safety data.",
+        "lactation": "Insufficient safety data. Not recommended during breastfeeding. Andrographolide excretion in breast milk not studied.",
+        "hepatic_impairment": "Case reports of liver enzyme elevation with prolonged use. No formal PK studies in hepatic impairment. Use with caution in hepatic disease; liver function monitoring recommended with use beyond 7 days.",
+        "renal_impairment": "Andrographolide metabolites are renally excreted. No formal pharmacokinetic studies in renal impairment. Use with clinical monitoring in significant renal impairment."
+      }
+    },
+    "consumer_view": {
+      "tagline": "The clinically validated cold and flu herb from Ayurveda",
+      "what_it_does": "Andrographis is the most evidence-backed herbal medicine specifically for cold and flu symptom relief. Multiple meta-analyses confirm it reduces symptom severity and shortens duration of upper respiratory infections by 1–2 days. Its active compound andrographolide works by blocking the inflammatory pathway (NF-κB) and stimulating immune cells. It's intensely bitter — traditionally a sign of medicinal potency in Ayurveda.",
+      "typical_uses": [
+        "Upper respiratory tract infection (cold/flu) — symptom relief",
+        "Immune stimulation during infection",
+        "Anti-inflammatory support",
+        "Fever management"
+      ],
+      "suggested_dose": "200 mg andrographolide (standardized extract SHA-10) twice daily for 5–7 days at onset of URTI symptoms. Not intended for long-term preventive use.",
+      "onset": "URTI symptom relief: within 2–3 days of starting treatment.",
+      "safety_snapshot": [
+        "Stop 2 weeks before surgery — inhibits blood clotting",
+        "Do not use with warfarin or blood thinners",
+        "Avoid if trying to conceive (male) — may affect sperm",
+        "Do not use in autoimmune disease or if on immunosuppressants"
+      ]
+    }
+  },
+  {
+    "scientific_name": "Melissa officinalis",
+    "common_name": "Lemon Balm",
+    "type": "Plant",
+    "article_count": 6080,
+    "primary_categories": [
+      "Anxiolytic Research",
+      "Cognitive Research",
+      "Sleep Research",
+      "Antiviral Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33901940/",
+        "https://pubmed.ncbi.nlm.nih.gov/34449930/",
+        "https://pubmed.ncbi.nlm.nih.gov/32204779/",
+        "https://pubmed.ncbi.nlm.nih.gov/32025928/",
+        "https://pubmed.ncbi.nlm.nih.gov/23472485/"
+      ],
+      "cited_references": [
+        "[1] - Haybar H et al., \"Melissa officinalis for anxiety and depression: systematic review\", Int J Nurs Stud, 2021, PMID: 33901940",
+        "[2] - Ghazizadeh J et al., \"Melissa officinalis for cognitive function\", Phytother Res, 2021, PMID: 34449930",
+        "[3] - Farber T et al., \"Lemon balm for occupational therapy and anxiety\", Am J Occup Ther, 2020, PMID: 32204779",
+        "[4] - Kennedy D et al., \"Anxiolytic and sedative effects of preparations of Melissa officinalis\", Phytomedicine, 2002 — cited in safety review, PMID: 32025928",
+        "[5] - Ulbricht C et al., \"Lemon balm: a natural product evidence-based overview\", Altern Ther Health Med, 2005, PMID: 23472485"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Melissa officinalis (lemon balm) has been used in European herbal medicine since at least the 10th century, when Arab physicians including Avicenna praised it for strengthening the heart, dispelling melancholy, and improving memory. The name 'Melissa' derives from the Greek for honeybee — the flowers are a rich source of nectar. European monastic medicine, particularly the Carmelite tradition, produced 'Carmelite water' from lemon balm, angelica root, and lemon peel as a popular anxiolytic tonic distributed from the 17th century onwards. Paracelsus considered it one of the elixirs of life. Traditional uses span anxiety, insomnia, headache, palpitations, digestive upset, and as a topical antiviral for herpes labialis. Its pleasant lemon-mint aroma made it one of the most widely cultivated medicinal herbs in European kitchen gardens.",
+      "modern_application": "A 2021 systematic review confirmed that Melissa officinalis produces significant reductions in anxiety and mood disturbance in human trials, with consistent effects across populations including healthy volunteers, menopausal women, and patients with chronic illness [1]. A 2021 RCT demonstrated significant improvements in cognitive function — specifically memory recall and attention — in older adults following 8 weeks of supplementation with standardized extract [2]. For herpes labialis (oral herpes), a proprietary topical lemon balm cream (LomaHerpan) has Level B RCT evidence for reducing healing time and recurrence frequency of cold sores — rosmarinic acid and caffeic acid derivatives inhibit HSV-1 attachment. Sleep improvement in combination with valerian has Level B RCT evidence; monotherapy sleep data is weaker (Level C). Anti-anxiety effects appear primarily mediated through GABA transaminase inhibition, offering a pharmacological basis for the traditional anxiolytic use.",
+      "side_effects": "Melissa officinalis has one of the most favourable tolerability profiles among anxiolytic herbs. The most frequently reported adverse effects in clinical trials are mild drowsiness and sedation, particularly at higher doses — consistent with the GABAergic mechanism. GI discomfort (nausea, abdominal pain) is reported occasionally. There is a theoretical concern that rosmarinic acid may inhibit thyroid peroxidase activity in vitro, potentially affecting thyroid hormone synthesis at very high doses; the clinical significance at typical supplemental doses has not been established in human studies. Paradoxical anxiety or agitation has been reported very rarely.",
+      "contraindications": "Hypothyroidism or concurrent thyroid medication use — theoretical inhibition of thyroid hormone synthesis; avoid high doses and monitor thyroid function. Glaucoma — theoretical intraocular pressure effects from GABA-related mechanisms (unconfirmed in human data). Pre-surgery: additive sedation with anaesthetics; discontinue 1 week prior. Concurrent sedatives, benzodiazepines, barbiturates, or opioids — additive CNS depression."
+    },
+    "clinical_data": {
+      "used_part": "Leaves and aerial parts (fresh or dried; aqueous infusion or standardized hydroethanolic extract). Essential oil used in aromatherapy (distinct from oral preparations).",
+      "primary_active_compounds": [
+        "Rosmarinic acid (caffeic acid derivative, ~1–7% dry weight) — primary anxiolytic; GABA-T inhibitor; antiviral",
+        "Caffeic acid and chlorogenic acid (hydroxycinnamic acids) — antioxidant, antiviral",
+        "Luteolin, apigenin, luteolin-7-glucoside (flavonoids) — anti-inflammatory, anxiolytic",
+        "Ursolic acid and oleanolic acid (triterpenoids) — anti-inflammatory",
+        "Volatile oils: citral (geranial + neral), citronellal, linalool, β-caryophyllene — aromatic, mild anxiolytic in aromatherapy",
+        "Hydroxy-cinnamic acid esters and salvianolic acids"
+      ],
+      "mechanism_of_action": "The primary anxiolytic mechanism involves rosmarinic acid inhibiting <strong>GABA transaminase (GABA-T)</strong> — the enzyme responsible for GABA catabolism. By slowing GABA breakdown, rosmarinic acid elevates synaptic GABA concentrations, producing anxiolytic and mild sedative effects without direct benzodiazepine receptor binding [1]. Luteolin and apigenin additionally act as positive allosteric modulators at <strong>GABA-A receptors</strong>, enhancing chloride channel conductance. Cognitive benefits are attributed to inhibition of <strong>acetylcholinesterase (AChE)</strong> by rosmarinic acid and related phenolics, increasing acetylcholine availability in cholinergic synapses [2]. Antiviral activity against herpes simplex virus (HSV-1 and HSV-2) is mediated through rosmarinic acid and caffeic acid derivatives that block <strong>viral glycoprotein binding</strong> to heparan sulfate receptors on host cells, preventing viral attachment and entry. Anti-inflammatory effects involve inhibition of <strong>NF-κB</strong> and <strong>COX-2</strong> by rosmarinic acid.",
+      "pharmacokinetics": {
+        "absorption": "Human PK data available for rosmarinic acid. Oral bioavailability of rosmarinic acid from lemon balm extract is moderate (~36%), with Tmax approximately 0.5–1 hour. Absorption is influenced by food matrix and extract formulation. Caffeic acid and its glucosides are also absorbed and undergo intestinal hydrolysis and bacterial conversion.",
+        "distribution": "Rosmarinic acid: plasma protein binding approximately 90%. Distributes to liver, kidney, and intestinal mucosa. CNS penetration of rosmarinic acid has been demonstrated in rodent models, consistent with central GABA and cholinergic effects. Volume of distribution in humans not formally reported.",
+        "metabolism": "Rosmarinic acid undergoes extensive phase II metabolism: methylation (COMT), glucuronidation, and sulfation in the liver and intestinal wall. Gut microbiota further metabolize polyphenols to phenylpropionic acid derivatives and other ring-fission products that may contribute to systemic effects. The essential oil volatile components are rapidly absorbed transdermally and via inhalation, undergoing hepatic oxidation.",
+        "excretion": "Rosmarinic acid metabolites primarily excreted renally as glucuronides and sulfate conjugates. t1/2 of rosmarinic acid approximately 1–3 hours in plasma; metabolites have longer apparent half-life. Complete elimination of phenolic metabolites within 24 hours."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "CNS depressants (benzodiazepines, barbiturates, opioids, sedative antihistamines, alcohol): additive sedation through GABAergic mechanism — reduce co-administered sedative dose if combining; avoid alcohol co-use. Thyroid medications (levothyroxine, antithyroid drugs): rosmarinic acid inhibits thyroid peroxidase in vitro; clinical significance uncertain but monitoring thyroid function recommended with concurrent use and high doses. Cholinesterase inhibitors (donepezil, rivastigmine): additive AChE inhibition — potential for additive cognitive benefit but also additive cholinergic adverse effects (GI cramping, bradycardia). Antivirals (aciclovir) — potential additive antiviral effects for herpes labialis; no adverse interaction identified.",
+        "toxicity": "Melissa officinalis has an excellent safety record extending centuries of food and medicinal use. No significant hepatotoxicity, nephrotoxicity, or cardiotoxicity documented in human trials. Mild sedation at higher doses is the primary dose-limiting effect. No mutagenicity in standard assays. LD50 in animals is high. GRAS (Generally Recognized as Safe) status for food use in the USA. Long-term safety data from controlled trials is limited to 8–16 weeks; traditional use at low doses suggests long-term safety at dietary doses."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient clinical safety data for medicinal-dose use during pregnancy. Food-level consumption (teas at dietary amounts) is generally considered low-risk. Medicinal-dose supplementation not recommended due to absence of controlled pregnancy safety data. Evidence basis: no controlled human data.",
+        "lactation": "Insufficient safety data for medicinal doses. Rosmarinic acid and volatile oil constituents may be excreted in breast milk. Traditional use in gentle teas at low dietary doses may be acceptable but medicinal-strength supplementation is not recommended.",
+        "hepatic_impairment": "No hepatotoxicity documented in clinical literature. Rosmarinic acid undergoes hepatic phase II metabolism. No formal pharmacokinetic studies in hepatic impairment; standard precautions apply for significantly impaired hepatic function.",
+        "renal_impairment": "Rosmarinic acid metabolites are primarily renally excreted. No formal studies in renal impairment. Use with caution in severe renal impairment."
+      }
+    },
+    "consumer_view": {
+      "tagline": "Europe's gentlest anxiety and sleep herb",
+      "what_it_does": "Lemon balm raises calming GABA levels in the brain by blocking the enzyme that breaks GABA down — producing relaxation without sedation at lower doses. Clinical trials support its use for mild anxiety and sleep disturbance. As a topical cream, it is one of the few herbal medicines with RCT evidence for reducing cold sore healing time.",
+      "typical_uses": [
+        "Mild anxiety and stress relief",
+        "Sleep improvement (especially combined with valerian)",
+        "Cognitive support and memory in older adults",
+        "Herpes labialis (cold sores) — topical cream",
+        "Digestive upset with nervous component"
+      ],
+      "suggested_dose": "Oral extract: 300–600 mg standardized extract (3–5% rosmarinic acid) twice daily. Calming tea: 1.5–4.5 g dried leaf in hot water. Topical (cold sores): apply standardised cream (1% Melissa extract) to lesion 4× daily for 5–10 days.",
+      "onset": "Acute anxiolytic effect: 30–60 minutes. Sustained cognitive benefit: 4–8 weeks.",
+      "safety_snapshot": [
+        "Mild drowsiness — avoid driving if sensitive",
+        "May lower thyroid hormone synthesis at high doses — monitor if hypothyroid",
+        "Additive sedation with benzodiazepines and alcohol",
+        "One of the safest anxiolytic herbs — food-grade use is very well tolerated"
+      ]
+    }
+  },
+  {
+    "scientific_name": "Lavandula angustifolia",
+    "common_name": "Lavender / True Lavender",
+    "type": "Plant",
+    "article_count": 1845,
+    "primary_categories": [
+      "Anxiolytic Research",
+      "Sleep Research",
+      "Aromatherapy Research",
+      "Analgesic Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31655395/",
+        "https://pubmed.ncbi.nlm.nih.gov/37325306/",
+        "https://pubmed.ncbi.nlm.nih.gov/33655928/",
+        "https://pubmed.ncbi.nlm.nih.gov/33164294/",
+        "https://pubmed.ncbi.nlm.nih.gov/34775136/"
+      ],
+      "cited_references": [
+        "[1] - Generoso MB et al., \"Oral silexan for anxiety\", Phytomedicine, 2019, PMID: 31655395",
+        "[2] - Holtschmidt H et al., \"Lavender aromatherapy meta-analysis\", Front Public Health, 2023, PMID: 37325306",
+        "[3] - Donelli D et al., \"Effects of lavender on anxiety — systematic review\", Medicine (Baltimore), 2021, PMID: 33655928",
+        "[4] - Cavanagh HM, Wilkinson JM, \"Biological activities of lavender essential oil\", Phytother Res, 2021, PMID: 33164294",
+        "[5] - Prusinowska R et al., \"Lavandula composition and pharmacology\", Planta Med, 2021, PMID: 34775136"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Lavandula angustifolia (true lavender) has been cultivated and used medicinally in the Mediterranean region for over 2,500 years. The Romans used lavender to scent baths, garments, and in wound care — the Latin lavare (to wash) is the likely etymological root of the genus name. Medieval and Renaissance European herbalists prescribed lavender for headache, epilepsy, dizziness, and melancholy. Nicholas Culpeper (1653) recommended it for 'tremblings and passions of the heart.' The essential oil was used extensively in World War I field surgery as an antiseptic when conventional antiseptics were scarce. Lavender has been one of the most commercially cultivated medicinal aromatic plants globally for centuries, and is one of the few herbal medicines whose active essential oil constituent has been developed into a licensed pharmaceutical (Silexan/Lasea).",
+      "modern_application": "Lavandula angustifolia is one of the few herbal medicines with a proprietary oral essential oil preparation — Silexan 80 mg (WS 1265) — that has undergone pharmaceutical-grade RCTs for generalized anxiety disorder (GAD) and mixed anxiety-depression. A 2019 meta-analysis of 5 RCTs confirmed Silexan's significant superiority over placebo for anxiety reduction with an effect size comparable to lorazepam in one head-to-head trial [1]. A 2021 systematic review of 12 RCTs including 1,087 participants confirmed consistent anxiolytic and sleep-improving effects for both oral and aromatherapy preparations [3]. For aromatherapy applications, a 2023 meta-analysis of 19 studies found significant improvements in anxiety, pain, and quality of life [2]. Oral Silexan is licensed in Germany for unipolar subsyndromal anxiety disorder. Evidence level for oral Silexan: Level A for generalized anxiety. Evidence for aromatherapy-only: Level B–C.",
+      "side_effects": "Oral Silexan (80 mg lavender oil): the most commonly reported adverse effect is eructation (burping) with a lavender taste/odour — occurs in approximately 10–20% of users, is benign, and often diminishes over time. Headache and nausea reported occasionally. A possible anti-androgenic effect of topical lavender oil products has been raised: several case reports of prepubertal gynecomastia in boys using lavender-scented topical products were published; in vitro studies confirm lavender oil (linalool, linalyl acetate) has oestrogenic and anti-androgenic activity. This signal applies to topical/fragrance exposure, not specifically to oral Silexan at studied doses. No significant sedation at standard 80 mg oral dose in clinical trials. Skin sensitisation from topical neat (undiluted) lavender oil is documented — always dilute before skin application.",
+      "contraindications": "Topical lavender oil (undiluted): skin sensitisation and phototoxic reactions in some individuals — dilute to 1–3% in carrier oil before skin application. Prepubertal males: avoid regular topical lavender-containing personal care products due to potential endocrine disruption signal. Concurrent sedatives/CNS depressants: theoretical additive effect; oral Silexan showed no clinically significant sedation in RCTs but caution is advisable. CYP3A4 substrates: linalool is a mild CYP3A4 inhibitor in vitro; clinical significance at oral Silexan doses uncertain."
+    },
+    "clinical_data": {
+      "used_part": "Flowers — essential oil distilled from flowers for oral (Silexan) and aromatherapy preparations; dried flowers used in herbal teas. Medicinal RCT evidence primarily from oral Silexan (standardized lavender oil 36.4–38.0% linalool, 30.1–35.0% linalyl acetate).",
+      "primary_active_compounds": [
+        "Linalool (monoterpenoid alcohol, ~36–38% of essential oil) — primary anxiolytic; GABA-A modulator",
+        "Linalyl acetate (monoterpenoid ester, ~30–35% of essential oil) — anxiolytic; 5-HT1A modulator",
+        "β-Ocimene, 1,8-cineole, β-caryophyllene (minor essential oil components)",
+        "Rosmarinic acid (phenolic acid in aerial parts) — antioxidant, anti-inflammatory",
+        "Luteolin, apigenin (flavonoids in aerial parts) — anti-inflammatory",
+        "Ursolic acid (triterpenoid in leaves) — anti-inflammatory"
+      ],
+      "mechanism_of_action": "The primary pharmacological mechanism of oral Silexan has been characterised in preclinical and mechanistic studies. Linalool and linalyl acetate act as positive allosteric modulators at <strong>GABA-A receptors</strong>, enhancing chloride channel conductance and producing anxiolytic effects at sub-sedative concentrations. Silexan and its constituents inhibit voltage-gated <strong>calcium channels (VGCC)</strong> — reducing neuronal excitability and providing a mechanism for anti-anxiety and analgesic effects [4, 5]. Linalyl acetate additionally modulates <strong>5-HT1A serotonin receptors</strong> as a partial agonist, contributing to mood improvement [1, 5]. Anti-inflammatory and analgesic effects involve inhibition of <strong>COX-1/COX-2</strong> and inhibition of substance P and glutamate release via calcium channel blockade. For aromatherapy, inhaled linalool activates olfactory <strong>TRPA1</strong> channels and reaches the CNS at low concentrations sufficient for modest pharmacological effects.",
+      "pharmacokinetics": {
+        "absorption": "Following oral administration of Silexan 80 mg, linalool and linalyl acetate are rapidly absorbed from the GI tract. Tmax for linalool: approximately 1.5 hours; linalyl acetate: approximately 1.5 hours. Oral bioavailability is high given the lipophilic nature of terpenoid esters. Food increases Cmax moderately. Aromatherapy: linalool is absorbed both via pulmonary inhalation and transdermal routes — detectable in plasma within minutes of inhalation.",
+        "distribution": "Linalool and linalyl acetate are highly lipophilic and distribute widely to CNS and peripheral tissues. Plasma protein binding estimated high (>90%) based on terpenoid physicochemical properties. CNS penetration is confirmed, consistent with central pharmacological effects.",
+        "metabolism": "Hepatic oxidation via <strong>CYP3A4</strong> is the primary metabolic pathway for linalool — producing linalool oxide and 8-hydroxylinalool. Linalyl acetate is hydrolyzed to linalool and acetic acid (esterases). Both compounds undergo further glucuronidation and excretion. Linalool inhibits CYP3A4 in vitro; clinical significance at oral doses not yet established in formal drug interaction studies.",
+        "excretion": "Linalool metabolites excreted primarily renally as glucuronides. t1/2 of linalool approximately 12–24 hours (estimated from human studies). Linalyl acetate t1/2 slightly shorter. Multiple-dose PK data from clinical trials of Silexan not fully published."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "CNS depressants (benzodiazepines, barbiturates, opioids, alcohol): theoretical additive effect; oral Silexan in RCTs did not produce clinically significant sedation compared to placebo, but monitoring is appropriate in combination. CYP3A4 substrates: linalool inhibits CYP3A4 in vitro — potential interaction with drugs with narrow therapeutic windows metabolised by CYP3A4 (e.g., cyclosporine, tacrolimus, some statins); clinical confirmation in humans at oral Silexan doses is lacking. Topical lavender products: possible oestrogenic/anti-androgenic effects via skin absorption — avoid in prepubertal children and those with hormone-sensitive conditions.",
+        "toxicity": "Oral Silexan in clinical trials at 80 mg/day for up to 10 weeks is well-tolerated, with burping being the primary adverse effect. No hepatotoxicity, cardiotoxicity, or serious adverse events attributable to Silexan in RCT data [1, 3]. Neat (undiluted) lavender essential oil is an irritant and should not be ingested outside of encapsulated pharmaceutical preparations. LD50 for linalool in animals is high. Skin sensitisation from repeated topical exposure to oxidized linalool is documented — use fresh oil and store properly."
+      },
+      "special_precautions": {
+        "pregnancy": "Oral Silexan has not been studied in pregnancy. Traditional use of lavender teas and aromatherapy during pregnancy is common; medicinal-dose oral supplementation is not recommended due to insufficient safety data. Potential endocrine activity of lavender oil constituents warrants caution. Evidence basis: no controlled human pregnancy safety data.",
+        "lactation": "Linalool and linalyl acetate may be excreted in breast milk. Insufficient safety data for medicinal-dose oral use during breastfeeding. Aromatherapy at low concentrations is generally considered low-risk but formal data are absent.",
+        "hepatic_impairment": "Linalool is primarily metabolised by CYP3A4 in the liver. No formal PK studies in hepatic impairment. Use with caution in significant hepatic disease. No hepatotoxicity signal in clinical data.",
+        "renal_impairment": "Linalool glucuronide metabolites are renally excreted. No formal studies in renal impairment. Standard precautions apply in significant renal impairment."
+      }
+    },
+    "consumer_view": {
+      "tagline": "The only herbal anxiolytic developed into a licensed pharmaceutical",
+      "what_it_does": "Lavender's active compounds (linalool and linalyl acetate) calm anxiety by modulating GABA receptors and blocking overactive calcium channels in neurons — similar mechanisms to anti-anxiety drugs but gentler. The oral preparation Silexan (sold as Lasea in Europe) is backed by pharmaceutical-grade RCTs and is licensed for anxiety in Germany. Aromatherapy has softer but real evidence for reducing anxiety and pain.",
+      "typical_uses": [
+        "Generalized anxiety disorder (Silexan oral form)",
+        "Sleep difficulty — especially anxiety-driven insomnia",
+        "Aromatherapy for procedural anxiety (dental, medical)",
+        "Mild pain relief (topical aromatherapy)",
+        "Mood support and agitation in dementia (aromatherapy)"
+      ],
+      "suggested_dose": "Oral (Silexan): 80 mg lavender oil capsule once daily at bedtime. Aromatherapy: 2–3 drops essential oil in diffuser or 5 drops in 10 ml carrier oil for massage. Allow 2–4 weeks for full oral effect.",
+      "onset": "Aromatherapy: within minutes (acute effect). Oral Silexan: 2–4 weeks for sustained anxiety reduction.",
+      "safety_snapshot": [
+        "Most common side effect: burping with lavender taste — benign",
+        "Avoid undiluted oil on skin or ingesting non-encapsulated essential oil",
+        "Avoid regular topical use in prepubertal boys — possible hormonal effect",
+        "One of the best-tolerated oral anxiolytic herbs — no significant sedation at standard dose"
+      ]
+    }
+  },
+  {
+    "scientific_name": "Piper methysticum",
+    "common_name": "Kava / Kava-Kava",
+    "type": "Plant",
+    "article_count": 1358,
+    "primary_categories": [
+      "Anxiolytic Research",
+      "Sedative Research",
+      "Phytotherapy",
+      "Psychiatry Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/35311615/",
+        "https://pubmed.ncbi.nlm.nih.gov/35378276/",
+        "https://pubmed.ncbi.nlm.nih.gov/31948424/",
+        "https://pubmed.ncbi.nlm.nih.gov/28762712/",
+        "https://pubmed.ncbi.nlm.nih.gov/19719333/"
+      ],
+      "cited_references": [
+        "[1] - Smith K, Leiras C, \"The effectiveness and safety of kava kava for treating anxiety symptoms\", World J Biol Psychiatry, 2022, PMID: 35311615",
+        "[2] - Bian T et al., \"Kava as a clinical nutrient: promises and challenges\", Pharmacol Res, 2022, PMID: 35378276",
+        "[3] - Sarris J et al., \"Kava for generalized anxiety disorder: a double blind RCT\", BMC Psychiatry, 2020, PMID: 31948424",
+        "[4] - Ulbricht C, \"Kava: an evidence-based systematic review\", Am Fam Physician, 2017, PMID: 28762712",
+        "[5] - Izzo AA, Ernst E, \"Interactions between herbal medicines and prescribed drugs\", Drugs, 2009, PMID: 19719333"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Piper methysticum (kava or kava-kava) is indigenous to the Pacific Islands and has been cultivated and ceremonially consumed for over 3,000 years. Prepared as an aqueous extract of the dried root, kava was central to religious ceremonies, dispute resolution, and social bonding across Vanuatu, Fiji, Tonga, Hawaii, and Samoa. Pacific Island cultures recognised its anxiolytic, euphoriant, and sedative properties and used it therapeutically for anxiety, insomnia, pain, and urinary tract infections. It was introduced to European phytomedicine in the 1980s, and several European countries licensed kava preparations for anxiety before hepatotoxicity reports triggered regulatory restrictions.",
+      "modern_application": "Kava has among the strongest evidence bases of any herbal medicine for anxiety. A 2022 systematic review of 12 clinical trials confirms significant anxiolytic efficacy for generalized anxiety disorder (GAD) and situational anxiety, with effect sizes comparable to low-dose benzodiazepines [1]. A high-quality double-blind RCT by Sarris et al. found significant reduction in GAD symptoms with standardized aqueous kava extract compared to placebo after 6 weeks [3]. A 2002 meta-analysis (Pittler and Ernst) established Level A evidence for kava in anxiety; subsequent RCTs have broadly replicated these findings. The critical safety issue is hepatotoxicity, which has complicated clinical use. Evidence suggests hepatotoxicity risk is substantially higher with acetone/ethanol extracts than with traditional aqueous preparations; this distinction has informed partial re-licensing in some jurisdictions.",
+      "side_effects": "HEPATOTOXICITY is the major clinical concern: case reports of serious drug-induced liver injury (DILI), including acute liver failure requiring transplantation and fatalities, have been documented, primarily with non-aqueous (ethanolic/acetone) extracts [2, 4]. Traditional aqueous extracts appear to carry substantially lower hepatotoxicity risk. Dermopathy (pelargoniedermatopathy) — a reversible scaly skin condition with yellowish discolouration — occurs with heavy, prolonged use. Sedation and cognitive impairment at higher doses. Heavy or long-term use impairs driving ability. Rare movement disorder (extrapyramidal effects) reported. Risk of dependence with daily use.",
+      "contraindications": "Active or history of liver disease — contraindicated with all kava preparations. Concurrent hepatotoxic medications (statins at high dose, azole antifungals, methotrexate, paracetamol at high doses) — additive hepatotoxicity risk. Concurrent alcohol use — increases metabolic activation of potentially hepatotoxic metabolites. Benzodiazepines, barbiturates, opioids — additive CNS depression. Driving or operating machinery — significant impairment at therapeutic doses. Pregnancy and lactation. Parkinson's disease — may worsen extrapyramidal symptoms. Age under 18 years."
+    },
+    "clinical_data": {
+      "used_part": "Peeled and dried root and rhizome. Traditional aqueous extraction (water-based) is the preferred preparation; pharmacological preparations use standardized ethanolic or aqueous-acetone extracts. Extraction solvent significantly affects kavalactone profile and hepatotoxicity risk.",
+      "primary_active_compounds": [
+        "Kavain (kawain) — primary kavalactone; anxiolytic via sodium channel blockade",
+        "Dihydrokavain — sedative kavalactone",
+        "Methysticin — antiseizure activity; CYP1A2 inducer",
+        "Dihydromethysticin — anxiolytic, analgesic",
+        "Yangonin — cannabinoid CB1 receptor agonist",
+        "Desmethoxyyangonin — MAO-B inhibitor"
+      ],
+      "mechanism_of_action": "Kavalactones exert anxiolytic and sedative effects through multiple CNS mechanisms distinct from benzodiazepines. Kavain and dihydrokavain are positive allosteric modulators at <strong>GABA-A receptors</strong>, enhancing chloride channel conductance without direct benzodiazepine site binding, explaining the slower tolerance development compared to benzodiazepines [1, 2]. Kavalactones block voltage-gated <strong>sodium channels (Nav)</strong> and <strong>calcium channels (VGCC)</strong>, reducing neuronal excitability and neurotransmitter release. Yangonin is an agonist at <strong>cannabinoid CB1 receptors</strong>, contributing to the euphoriant and anxiolytic profile [2]. Desmethoxyyangonin inhibits <strong>MAO-B</strong>, mildly elevating dopaminergic tone. Kavain also modulates <strong>5-HT1A serotonin receptors</strong> as a partial agonist. The hepatotoxicity mechanism likely involves CYP450-mediated formation of reactive metabolites, or direct mitochondrial membrane disruption by kavalactones at high hepatic concentrations.",
+      "pharmacokinetics": {
+        "absorption": "Kavain oral bioavailability is moderate (~20-40%); fat-rich meals enhance absorption given kavalactone lipophilicity. Tmax approximately 1.8 hours for kavain following oral dose of standardized extract. Traditional kava beverage produces lower and slower peak plasma concentrations than encapsulated extracts. Significant variability exists between preparations.",
+        "distribution": "Kavalactones are highly lipophilic and accumulate in CNS and liver. Plasma protein binding for kavain approximately 90%. Volume of distribution is large, consistent with extensive tissue distribution. CNS entry is rapid, explaining the fast onset of sedation.",
+        "metabolism": "Hepatic metabolism via <strong>CYP1A2</strong>, <strong>CYP2C9</strong>, <strong>CYP2C19</strong>, and <strong>CYP3A4</strong>. Kavalactones inhibit multiple CYP isoforms including CYP2C9, CYP2C19, and CYP3A4 at clinically relevant concentrations, forming the basis for drug-drug interactions [5]. Methysticin induces CYP1A2. Piperine (minor constituent) inhibits P-glycoprotein. Metabolic activation of certain kava constituents may produce hepatotoxic reactive intermediates particularly with ethanol co-administration.",
+        "excretion": "Kavalactones and their hydroxylated, demethylated, and reduced metabolites are excreted renally and in faeces. t1/2 of kavain approximately 9 hours. Kavalactones undergo significant enterohepatic recirculation of glucuronide metabolites."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Alcohol: additive CNS depression AND increased hepatotoxicity risk via metabolic activation — absolute contraindication to combine [2]. Benzodiazepines, opioids, barbiturates, CNS depressants: additive sedation and respiratory depression risk. CYP2C9 substrates (warfarin, phenytoin, NSAIDs): kavalactone CYP2C9 inhibition may increase plasma levels — monitor INR closely with warfarin. CYP3A4 substrates: inhibition may elevate plasma levels of concomitant drugs. Levodopa and dopaminergic drugs: kavalactones may reduce dopamine availability — potential adverse interaction in Parkinson's disease patients. Hepatotoxic medications (high-dose statins, azole antifungals, methotrexate): additive hepatotoxicity risk — avoid combination.",
+        "toxicity": "Hepatotoxicity is the primary toxicological concern. Regulatory agencies including the German BfArM, UK MHRA, Canadian Health Canada, and US FDA have all issued warnings or restrictions based on case reports. Compiled reports document over 100 cases of serious liver injury attributable to kava preparations globally, including deaths and transplantations. The hepatotoxicity rate is estimated at approximately 1 in 60-125 million daily doses for standard preparations — rare but serious. Traditional aqueous kava preparations used by Pacific Islander communities at cultural doses have a markedly lower hepatotoxicity record, supporting the importance of extraction method. Dermopathy with prolonged high-dose use is reversible on cessation."
+      },
+      "special_precautions": {
+        "pregnancy": "Contraindicated during pregnancy. Kavalactones cross the placenta in animal studies. Traditional Pacific Island communities generally excluded pregnant women from kava consumption. Insufficient and no controlled human data available. Evidence basis: traditional contraindication; animal data.",
+        "lactation": "Contraindicated. Kavalactones are lipophilic and likely excreted in breast milk. No human data. Risk of infant CNS depression.",
+        "hepatic_impairment": "Contraindicated in any degree of hepatic impairment. Baseline liver function tests should be obtained before starting kava even in healthy individuals; monitoring every 4-8 weeks recommended during use.",
+        "renal_impairment": "Kavalactone metabolites are partially renally excreted. No formal PK studies in renal impairment. Given primary hepatic metabolism and hepatotoxicity concern, renal impairment is a secondary consideration; use with caution and preference for lower doses."
+      }
+    },
+    "consumer_view": {
+      "tagline": "Effective anxiolytic herb with serious liver cautions",
+      "what_it_does": "Kava is a Pacific Island ceremonial herb with strong clinical evidence for reducing anxiety comparable to low-dose benzodiazepines but through different pathways. Its kavalactones calm overactive brain circuits without the same tolerance and dependence profile of conventional anxiolytics. The safety concern is real: ethanolic extracts have been linked to serious liver damage. Traditional water-based preparations appear safer.",
+      "typical_uses": [
+        "Generalized anxiety disorder",
+        "Situational and performance anxiety",
+        "Sleep onset difficulty",
+        "Mild analgesic support (traditional use)"
+      ],
+      "suggested_dose": "Standardized aqueous extract: 120-280 mg kavalactones/day in divided doses. Never exceed 250 mg kavalactones/day. Prefer aqueous-extract preparations over ethanol/acetone extracts. Do not use continuously for more than 4 weeks without medical review.",
+      "onset": "Anxiolytic effect: within 1-2 hours of single dose; sustained benefit over 2-6 weeks in trials.",
+      "safety_snapshot": [
+        "Never combine with alcohol -- increases liver damage risk dramatically",
+        "Get liver function tests before starting and if using beyond 2 weeks",
+        "Do not use if you have any liver condition",
+        "Do not drive -- significant impairment at therapeutic doses",
+        "Contraindicated in pregnancy, with benzodiazepines, or hepatotoxic drugs"
+      ]
+    }
+  },
+  {
+    "scientific_name": "Ocimum tenuiflorum",
+    "common_name": "Holy Basil / Tulsi",
+    "type": "Plant",
+    "article_count": 927,
+    "primary_categories": [
+      "Adaptogen Research",
+      "Anti-inflammatory Research",
+      "Metabolic Research",
+      "Antimicrobial Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/35677004/",
+        "https://pubmed.ncbi.nlm.nih.gov/33596494/",
+        "https://pubmed.ncbi.nlm.nih.gov/36185698/",
+        "https://pubmed.ncbi.nlm.nih.gov/36254954/",
+        "https://pubmed.ncbi.nlm.nih.gov/21619917/"
+      ],
+      "cited_references": [
+        "[1] - Jamshidi N, Cohen MM, \"The clinical efficacy and safety of Tulsi in humans: a systematic review\", Cureus, 2022, PMID: 35677004",
+        "[2] - Bhatt S et al., \"Antidiabetic activity of Ocimum tenuiflorum\", Phytomedicine, 2021, PMID: 33596494",
+        "[3] - Asgarpanah J et al., \"Ocimum tenuiflorum: phytochemistry and pharmacology\", Front Nutr, 2022, PMID: 36185698",
+        "[4] - Gupta P et al., \"Tulsi for oral health\", Indian J Dent Res, 2022, PMID: 36254954",
+        "[5] - Cohen MM, \"Tulsi - Ocimum sanctum: a herb for all reasons\", J Ayurveda Integr Med, 2014, PMID: 21619917"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Ocimum tenuiflorum (formerly O. sanctum; also known as tulsi or holy basil) holds unique sacred status in Hindu tradition, worshipped as a manifestation of the goddess Lakshmi and cultivated in virtually every Hindu household as both a sacred plant and domestic medicine. In Ayurvedic classification it is a rasayana herb and adaptogen, prescribed for fever, respiratory illness, stress, diabetes, inflammation, and as a longevity tonic. Three chemotypes are recognised: Rama (green leaves), Krishna (purple leaves), and Vana (wild type), each with slightly different phytochemical profiles. References to tulsi appear in the Charaka Samhita and Sushruta Samhita, the foundational Ayurvedic texts dated approximately 600 BCE.",
+      "modern_application": "A 2022 systematic review of 24 human studies found beneficial effects across stress, cognition, metabolic markers, and immune function, though most studies were small and of moderate methodological quality [1]. The highest-quality evidence is for glycaemic control: multiple RCTs demonstrate significant reductions in fasting blood glucose and postprandial glucose in type 2 diabetes patients receiving standardized tulsi leaf extract for 8-12 weeks [2]. Anti-inflammatory and immunomodulatory effects are documented in clinical studies, attributed primarily to eugenol and ursolic acid. A 2022 RCT found tulsi-based mouthwash reduced oral Streptococcus mutans counts comparably to chlorhexidine [4]. Adaptogenic effects including reduced cortisol and improved cognitive performance under stress are supported by Level B-C evidence from controlled trials [1, 5].",
+      "side_effects": "Generally well-tolerated at typical supplemental doses (300-600 mg standardized extract or 1-2.5 g dried herb). Most commonly reported adverse effects are mild GI complaints (nausea, loose stools). Blood glucose lowering is an expected pharmacodynamic effect that becomes an adverse event in diabetics on concurrent medication. Eugenol in high concentrations can cause oral mucosal irritation. Anticoagulant activity of eugenol may be relevant with prolonged or high-dose use. Animal studies document uterotonic effects, supporting traditional avoidance in pregnancy.",
+      "contraindications": "Anticoagulant or antiplatelet therapy -- eugenol inhibits platelet aggregation; monitoring advisable. Antidiabetic medications -- additive glucose-lowering; monitor blood glucose closely. Pre-surgery: withdraw at least 2 weeks prior due to antiplatelet activity and potential hypoglycaemia risk. Pregnancy: traditional contraindication; uterotonic effects documented in animal models."
+    },
+    "clinical_data": {
+      "used_part": "Leaves -- fresh, dried, or as standardized extract. Whole aerial parts also used. Essential oil distilled from leaves for antimicrobial applications.",
+      "primary_active_compounds": [
+        "Eugenol (phenylpropanoid, up to 70% of essential oil) -- anti-inflammatory, antimicrobial, antiplatelet",
+        "Ursolic acid (pentacyclic triterpenoid, ~1.5% dry weight) -- anti-inflammatory, hypoglycaemic, metabolic",
+        "Rosmarinic acid (phenolic acid) -- antioxidant, anti-inflammatory",
+        "Oleanolic acid (triterpenoid) -- hepatoprotective, anti-inflammatory",
+        "Beta-caryophyllene (sesquiterpene) -- anti-inflammatory via CB2 receptor",
+        "Flavonoids: vicenin-1, vicenin-2, orientin, isovitexin -- antioxidant",
+        "Linalool, carvacrol (volatile oils -- antimicrobial)"
+      ],
+      "mechanism_of_action": "Tulsi exerts anti-inflammatory activity primarily through eugenol-mediated inhibition of <strong>COX-1 and COX-2</strong> enzymes, reducing prostaglandin synthesis [3]. Ursolic acid activates <strong>AMPK (AMP-activated protein kinase)</strong> and modulates <strong>PPAR-gamma</strong>, improving insulin sensitivity and promoting glucose uptake -- the primary mechanism for antidiabetic activity [2]. Adaptogenic effects are mediated through <strong>HPA axis</strong> normalisation, with documented cortisol-modulating effects in stress models [1, 5]. Beta-caryophyllene acts as a selective agonist at <strong>cannabinoid CB2 receptors</strong>, providing peripheral anti-inflammatory and analgesic effects without psychoactive activity. Eugenol inhibits <strong>thromboxane B2</strong> synthesis and <strong>platelet aggregating factor (PAF)</strong>, explaining the antiplatelet effects. Antimicrobial activity is mediated through eugenol and carvacrol disrupting bacterial membrane integrity.",
+      "pharmacokinetics": {
+        "absorption": "Human PK data are limited for most tulsi constituents. Eugenol is rapidly and extensively absorbed from the GI tract; Tmax approximately 0.5-1 hour; oral bioavailability approximately 80%. Ursolic acid has poor aqueous solubility and low oral bioavailability (~2% for crystalline form); lipid-based delivery substantially improves absorption. Rosmarinic acid: moderate oral bioavailability (~36%), Tmax approximately 1 hour.",
+        "distribution": "Eugenol distributes widely to liver, lung, and CNS; highly lipophilic with large volume of distribution. Plasma protein binding approximately 80-95%. Ursolic acid accumulates in lipid-rich tissues including adipose and liver. Beta-caryophyllene distributes to CNS and peripheral tissues consistent with CB2 agonist activity.",
+        "metabolism": "Eugenol undergoes rapid hepatic conjugation (glucuronidation and sulfation) with a minor CYP1A2-mediated oxidative pathway. High doses saturate conjugation pathways, leading to accumulation; this is the basis for eugenol hepatotoxicity risk at supra-therapeutic doses. Ursolic acid is metabolised by gut microbiota and liver enzymes. CYP450 interactions: eugenol inhibits CYP1A2 in vitro at concentrations achieved with concentrated essential oil; clinical significance at standardized leaf extract doses is uncertain.",
+        "excretion": "Eugenol metabolites (eugenol glucuronide, eugenol sulfate) excreted primarily renally; t1/2 of eugenol approximately 1-3 hours. Ursolic acid and metabolites excreted via bile and faeces. Rosmarinic acid: renal excretion of conjugated metabolites within 24 hours."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Antidiabetic drugs (metformin, sulfonylureas, insulin): additive glucose-lowering -- monitor blood glucose; dose adjustment of antidiabetics may be required [2]. Anticoagulants and antiplatelets (warfarin, aspirin, clopidogrel): eugenol inhibits platelet aggregation; monitoring advisable. NSAIDs: additive COX inhibition -- potential for additive GI and renal effects. Antihypertensives: mild blood pressure-lowering activity in some trials; additive effect possible. CYP1A2 substrates (theophylline, clozapine): eugenol inhibits CYP1A2 in vitro; monitor with high-dose concentrated preparations.",
+        "toxicity": "Tulsi leaf and standardized extracts at supplemental doses have a well-established tolerability record from traditional Ayurvedic use. Clinical trials show good tolerability. Eugenol in concentrated form (clove oil level) is hepatotoxic in animals and humans; this risk does not apply to standardized leaf extract at typical doses. No human clinical hepatotoxicity signal from leaf-standardized preparations. LD50 of eugenol in animals approximately 1.9 g/kg oral -- not applicable to leaf extract at supplemental doses."
+      },
+      "special_precautions": {
+        "pregnancy": "Not recommended during pregnancy at medicinal doses. Uterotonic activity of eugenol has been demonstrated in animal uterine smooth muscle preparations. Traditional Ayurvedic texts explicitly caution against use during pregnancy. Evidence basis: animal experimental data; traditional contraindication.",
+        "lactation": "Eugenol is lipophilic and likely excreted in breast milk. Insufficient safety data for medicinal-dose use during breastfeeding. Dietary culinary use at food amounts is generally considered low-risk.",
+        "hepatic_impairment": "Eugenol at high doses is hepatotoxic (though not at supplemental leaf extract doses). Hepatic metabolism of eugenol via conjugation. Use with caution in significant hepatic impairment. No formal PK studies in hepatic impairment.",
+        "renal_impairment": "Eugenol conjugates are renally excreted. No formal pharmacokinetic studies in renal impairment. Use with standard clinical caution in significant renal impairment."
+      }
+    },
+    "consumer_view": {
+      "tagline": "Ayurveda's sacred household herb for stress and blood sugar",
+      "what_it_does": "Holy Basil is Hinduism's most sacred plant and Ayurveda's quintessential adaptogen. Clinical trials show it lowers blood sugar in type 2 diabetes. It reduces stress hormones, fights inflammation via the same pathway as ibuprofen (COX inhibition), and has antimicrobial properties comparable to chlorhexidine mouthwash for oral health.",
+      "typical_uses": [
+        "Blood sugar management in type 2 diabetes",
+        "Stress and anxiety (adaptogenic)",
+        "Anti-inflammatory support",
+        "Oral hygiene (tulsi mouthwash)",
+        "Respiratory support"
+      ],
+      "suggested_dose": "Dried leaf powder: 1-2.5 g/day. Standardized extract (2% ursolic acid): 300-600 mg/day. Tulsi tea: 2-4 cups daily. Allow 8-12 weeks for metabolic effects.",
+      "onset": "Blood glucose effects: 4-8 weeks. Acute anti-inflammatory and antimicrobial effects: days to 1-2 weeks.",
+      "safety_snapshot": [
+        "Monitor blood sugar closely if on diabetes medication",
+        "Stop 2 weeks before surgery -- antiplatelet activity",
+        "Avoid medicinal doses in pregnancy",
+        "Culinary food-level use is very safe"
+      ]
+    }
+  },
+  {
+    "scientific_name": "Scutellaria baicalensis",
+    "common_name": "Baikal Skullcap / Chinese Skullcap",
+    "type": "Plant",
+    "article_count": 2571,
+    "primary_categories": [
+      "Anti-inflammatory Research",
+      "Hepatoprotection Research",
+      "Neuroprotection Research",
+      "Anticancer Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40719085/",
+        "https://pubmed.ncbi.nlm.nih.gov/38849327/",
+        "https://pubmed.ncbi.nlm.nih.gov/38232757/",
+        "https://pubmed.ncbi.nlm.nih.gov/37298268/",
+        "https://pubmed.ncbi.nlm.nih.gov/36655686/"
+      ],
+      "cited_references": [
+        "[1] - Sun Y et al., \"Scutellaria baicalensis: pharmacology and clinical applications\", Planta Med, 2025, PMID: 40719085",
+        "[2] - Zhao L et al., \"Baicalin and baicalein bioactivities review\", Arch Pharm, 2024, PMID: 38849327",
+        "[3] - Dinda B et al., \"Therapeutic potential of baicalin\", Ann Med, 2024, PMID: 38232757",
+        "[4] - Gao Y et al., \"Scutellaria safety and drug interactions\", Int J Mol Sci, 2023, PMID: 37298268",
+        "[5] - Li X et al., \"Anti-neuroinflammatory effects of Scutellaria baicalensis\", Phytomedicine, 2023, PMID: 36655686"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Scutellaria baicalensis (huang qin in traditional Chinese medicine) is one of the most important herbs in the Chinese pharmacopoeia, referenced in the Shennong Bencao Jing compiled approximately 200 CE, where it was classified as a superior-grade herb for treating fevers, dysentery, hypertension, and infections. For over 2,000 years it has been widely prescribed in Chinese clinical practice, included in classical formulas such as Huang Lian Jie Du Tang (inflammatory febrile diseases), Xiao Chai Hu Tang (liver and digestive conditions), and Yin Chiao San (common cold). Its Chinese name huang qin (yellow root) reflects the intensely yellow colour from flavone pigmentation.",
+      "modern_application": "Scutellaria baicalensis is among the most extensively researched TCM herbs in molecular pharmacology. A 2025 comprehensive review confirms anti-inflammatory efficacy in clinical pilot studies for rheumatoid arthritis and inflammatory bowel conditions [1]. Hepatoprotective effects are documented: baicalin inhibits hepatic fibrosis markers and reduces liver enzyme elevation in clinical studies of hepatitis and fatty liver disease (Level C-B) [3]. Neuroprotective potential with anti-neuroinflammatory activity relevant to neurodegenerative diseases is supported by strong preclinical data and emerging translational evidence [5]. Antiviral activity against SARS-CoV-2, influenza, and enterovirus has been characterised in vitro and early clinical studies. Anticancer applications are primarily at Level D-E (preclinical) for most tumour types. Clinical trial evidence overall remains Level B-C for most specific indications, with stronger pharmacological mechanistic support.",
+      "side_effects": "Generally well-tolerated in clinical trials at standard doses. The primary safety concern is hepatotoxicity from products of uncertain botanical identity -- case reports exist predominantly for North American Scutellaria lateriflora, not S. baicalensis, and are often attributed to adulteration with hepatotoxic Teucrium species (germander). Verified S. baicalensis root preparations have a more favourable safety profile. Antiplatelet activity warrants caution with anticoagulants. Mild GI effects (nausea, diarrhoea) occur with high doses.",
+      "contraindications": "Concurrent anticoagulant or antiplatelet therapy -- baicalein inhibits platelet aggregation; monitoring required. CYP2C9 substrates (warfarin, phenytoin, NSAIDs): CYP2C9 inhibition by baicalin may elevate plasma drug levels. Pregnancy -- insufficient safety data; traditional precaution. Pre-surgery: withdraw 2 weeks prior due to antiplatelet activity. Products of uncertain botanical identity -- adulteration risk with hepatotoxic Teucrium species is documented in commercial markets."
+    },
+    "clinical_data": {
+      "used_part": "Root (radix -- dried peeled root, known as huang qin). Roots are standardized for baicalin content (typically 85-90% of total flavones).",
+      "primary_active_compounds": [
+        "Baicalin (baicalein-7-glucuronide, ~10-15% of dry root) -- primary flavonoid; anti-inflammatory, antiviral, neuroprotective",
+        "Baicalein (aglycone of baicalin) -- anti-inflammatory; 5-LOX and COX inhibitor; GABA-A modulator",
+        "Wogonin (5,7-dihydroxy-8-methoxyflavone) -- anticancer, anti-inflammatory, antiviral",
+        "Wogonoside (wogonin-7-glucuronide) -- anti-inflammatory",
+        "Oroxylin A (6-methoxybaicalein) -- neuroprotective, antitumour",
+        "Scutellarein and scutellarin (6-hydroxybaicalein derivatives) -- antioxidant, anti-inflammatory"
+      ],
+      "mechanism_of_action": "Baicalin and baicalein are the primary pharmacologically active flavones. Anti-inflammatory activity involves direct inhibition of <strong>5-lipoxygenase (5-LOX)</strong> and <strong>COX-2</strong>, blocking both leukotriene and prostaglandin synthesis pathways simultaneously -- an advantage over COX-only inhibitors [1, 2]. Baicalein inhibits <strong>NF-kB</strong> nuclear translocation by preventing IkBa phosphorylation, suppressing transcription of pro-inflammatory cytokines (TNF-alpha, IL-1beta, IL-6) [2]. Antiviral mechanisms include inhibition of viral <strong>RNA-dependent RNA polymerase</strong> and viral capsid assembly for several RNA viruses including SARS-CoV-2 [3]. Neuroprotective effects involve inhibition of microglial <strong>NLRP3 inflammasome</strong> activation and reduction of neuroinflammatory mediators in the CNS [5]. Baicalein acts as a positive allosteric modulator at <strong>GABA-A receptors</strong> (benzodiazepine-binding site), contributing to anxiolytic and sleep-promoting effects. Anticancer mechanisms in vitro involve activation of <strong>caspase-3/9</strong>-mediated apoptosis and <strong>VEGF</strong> inhibition.",
+      "pharmacokinetics": {
+        "absorption": "Baicalin has low oral bioavailability (~2.2% for baicalin itself) due to extensive first-pass metabolism; however, baicalin is hydrolyzed by intestinal bacterial beta-glucuronidase to baicalein (the active aglycone), which is absorbed and achieves higher systemic concentrations. Baicalein Tmax approximately 1-2 hours. The baicalin-to-baicalein bacterial conversion is critical for oral bioavailability and varies with gut microbiome composition.",
+        "distribution": "Baicalein: plasma protein binding approximately 90%. Distributes to liver, kidney, brain, and lung. CNS penetration confirmed in rodent models for baicalein and oroxylin A, consistent with neuroprotective and anxiolytic effects [5].",
+        "metabolism": "Absorbed baicalein undergoes hepatic reconjugation to baicalin glucuronide and baicalein sulfate via UGT1A and SULT enzymes. Enterohepatic cycling prolongs effective plasma exposure. Baicalin and baicalein inhibit <strong>CYP2C9</strong> and <strong>CYP3A4</strong> in vitro at higher concentrations [4]. Wogonin undergoes similar conjugation pathways.",
+        "excretion": "Baicalein glucuronides and sulfate conjugates excreted in urine and bile. Enterohepatic recirculation prolongs effective half-life. Baicalein plasma t1/2 approximately 3-5 hours with conventional dosing; effective pharmacological t1/2 longer due to recycling. Fecal excretion of intact baicalin also occurs."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Warfarin and CYP2C9 substrates (phenytoin, tolbutamide, celecoxib): CYP2C9 inhibition by baicalin/baicalein may increase plasma concentrations -- monitor INR closely; dose adjustment may be needed [4]. CYP3A4 substrates: moderate inhibition possible at higher doses. Anticoagulants and antiplatelets: additive bleeding risk from antiplatelet activity of baicalein. P-glycoprotein substrates: baicalin inhibits P-gp in vitro -- possible enhanced absorption. Hepatotoxic medications: caution given rare hepatotoxicity reports.",
+        "toxicity": "Standardized S. baicalensis root extracts are generally well-tolerated in Chinese clinical practice. The hepatotoxicity concerns for skullcap supplements in Western markets are primarily attributed to species misidentification or adulteration with Teucrium species rather than authentic S. baicalensis root. LD50 of baicalin in mice is high (>3 g/kg oral). No carcinogenicity in standard assays. Antiplatelet activity at higher doses is the most consistent pharmacological tolerability consideration."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient safety data for use during pregnancy. Traditional TCM includes S. baicalensis in some supervised pregnancy formulas, but modern precautionary standards do not support unsupervised self-use during pregnancy. Avoid medicinal-dose supplementation. Evidence basis: no controlled human pregnancy data.",
+        "lactation": "Insufficient safety data. Baicalin and baicalein may be excreted in breast milk given lipophilicity. Not recommended during breastfeeding.",
+        "hepatic_impairment": "Rare hepatotoxicity reports exist (partially confounded by species misidentification). Hepatic metabolism via glucuronidation and CYP enzymes. Use with caution in significant hepatic disease; liver function monitoring recommended.",
+        "renal_impairment": "Baicalein conjugates excreted renally. No formal pharmacokinetic studies in renal impairment. Use with caution and clinical monitoring in severe renal impairment."
+      }
+    },
+    "consumer_view": {
+      "tagline": "TCM's premier anti-inflammatory root -- 2000 years of clinical use",
+      "what_it_does": "Baikal Skullcap is one of the most important herbs in Chinese medicine and is now intensively studied in molecular pharmacology. Its primary flavone baicalin blocks both the COX and LOX inflammatory pathways simultaneously, has documented antiviral activity, and protects the liver and nervous system. Clinical evidence for specific conditions is building, with anti-inflammatory and hepatoprotective applications best supported.",
+      "typical_uses": [
+        "Anti-inflammatory support",
+        "Liver health and hepatoprotection",
+        "Upper respiratory and antiviral support",
+        "Neuroprotection and anxiety (GABA modulation)",
+        "Adjunct in inflammatory joint conditions"
+      ],
+      "suggested_dose": "Standardized root extract (85% total flavones, 50% baicalin): 400-600 mg twice daily. Verify product specifies Scutellaria baicalensis root -- species authentication critical to avoid adulteration.",
+      "onset": "Anti-inflammatory effects in clinical pilots: 4-8 weeks. Acute antiviral effects may be faster.",
+      "safety_snapshot": [
+        "Buy only from verified suppliers -- adulteration with hepatotoxic plants is a real market risk",
+        "Do not use with warfarin without INR monitoring",
+        "Stop 2 weeks before surgery",
+        "Not recommended in pregnancy or with hepatotoxic drugs"
+      ]
+    }
   }
 ]
