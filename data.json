@@ -3490,5 +3490,89 @@
         "https://pubmed.ncbi.nlm.nih.gov/10807448/"
       ]
     }
+  },
+  {
+    "scientific_name": "Hypericum perforatum",
+    "common_name": "St. John's Wort / Klamath Weed",
+    "type": "Plant",
+    "article_count": 3819,
+    "primary_categories": [
+      "Antidepressant Research",
+      "Anxiolytic Research",
+      "Phytotherapy",
+      "Psychiatry Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/18843608/",
+        "https://pubmed.ncbi.nlm.nih.gov/28064110/",
+        "https://pubmed.ncbi.nlm.nih.gov/36226689/",
+        "https://pubmed.ncbi.nlm.nih.gov/31742659/",
+        "https://pubmed.ncbi.nlm.nih.gov/19719333/"
+      ],
+      "cited_references": [
+        "[1] - Linde K, Berner MM, Kriston L, \"St John's wort for major depression\", Cochrane Database of Systematic Reviews, 2008, PMID: 18843608",
+        "[2] - Ng QX, Venkatanarayanan N, Ho CY, \"Clinical use of Hypericum perforatum (St John's wort) in depression: A meta-analysis\", Journal of Affective Disorders, 2017, PMID: 28064110",
+        "[3] - Zhao X, Zhang H, Wu Y, Yu C, \"The efficacy and safety of St. John's wort extract in depression therapy compared to SSRIs in adults: A meta-analysis of randomized clinical trials\", Advances in Clinical and Experimental Medicine, 2023, PMID: 36226689",
+        "[4] - Nicolussi S, Drewe J, Butterweck V, Meyer Zu Schwabedissen HE, \"Clinical relevance of St. John's wort drug interactions revisited\", British Journal of Pharmacology, 2020, PMID: 31742659",
+        "[5] - Izzo AA, Ernst E, \"Interactions between herbal medicines and prescribed drugs: an updated systematic review\", Drugs, 2009, PMID: 19719333",
+        "[6] - Henderson L, Yue QY, Bergquist C, Gerden B, Arlett P, \"St John's wort (Hypericum perforatum): drug interactions and clinical outcomes\", British Journal of Clinical Pharmacology, 2002, PMID: 12392581",
+        "[7] - Russo E, Scicchitano F, Whalley BJ et al., \"Hypericum perforatum: pharmacokinetic, mechanism of action, tolerability, and clinical drug-drug interactions\", Phytotherapy Research, 2014, PMID: 23897801",
+        "[8] - Caccia S, \"Antidepressant-like components of Hypericum perforatum extracts: an overview of their pharmacokinetics and metabolism\", Current Drug Metabolism, 2005, PMID: 16379667"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Hypericum perforatum has a documented history of medicinal use spanning over 2,000 years. In ancient Greece, Hippocrates and Dioscorides recorded its application for nerve conditions and wound healing. The name 'St. John's Wort' derives from the plant's characteristic flowering around the feast of St. John the Baptist (June 24th), coinciding with the summer solstice harvest. Medieval European herbalists widely prescribed it for 'melancholy' — the historical term for depression — and for neuralgic pains. Traditional European folk medicine employed the red-pigmented oil infusion of fresh flowers topically for burns, nerve pain, and wounds. The plant appeared in German and Swiss pharmacopoeias from the 16th century onward, prescribed for anxiety, insomnia, and emotional disturbances. Native to Europe, western Asia, and North Africa, it is now naturalized globally and remains one of the most commercially significant medicinal plants in Western herbal traditions.",
+      "modern_application": "Hypericum perforatum is one of the most extensively investigated medicinal plants for psychiatric indications. The strongest evidence base addresses mild-to-moderate depression: a Cochrane systematic review of 29 randomized controlled trials (n=5,489) demonstrated that hypericum extracts are superior to placebo and produce response rates statistically equivalent to tricyclic antidepressants and SSRIs, with patients receiving hypericum discontinuing treatment due to adverse effects significantly less often [1]. A 2017 meta-analysis of 27 trials (n=3,808) confirmed comparable response and remission rates to SSRIs, with a substantially lower dropout rate [2]. A 2023 meta-analysis of 14 RCTs (n=2,270) provides further corroborating evidence [3]. A comprehensive psychiatric phytotherapy review identifies high-quality evidence for SJW in major depressive disorder alongside only a small number of herbal medicines with equivalent evidence quality [Sarris 2018]. For severe depression, evidence is insufficient and standard pharmacotherapy is indicated. The standardized extract LI 160 (0.3% hypericin, 5% hyperforin) is the most widely studied preparation. SJW holds licensed phytomedicine status for mild-to-moderate depression in multiple European countries.",
+      "side_effects": "The most clinically significant adverse effect is photosensitivity: hypericin is a photosensitizing naphthodianthrone and produces phototoxic reactions (erythema, burning, vesiculation in severe cases) in fair-skinned individuals during sun or UV exposure, particularly at higher doses. In RCTs comparing SJW to SSRIs, SJW consistently shows a significantly lower overall adverse effect burden [1, 2, 3]. Most common adverse effects in trials: mild gastrointestinal complaints (nausea, stomach discomfort), dizziness, dry mouth, and fatigue. Hypomania or manic episodes have been reported in case reports, primarily in individuals with underlying or unrecognized bipolar disorder — a pharmacodynamic risk. Serotonin syndrome has been documented when SJW is combined with serotonergic drugs and represents a drug interaction adverse event rather than an intrinsic toxicity. Anxiety and restlessness have been reported occasionally. Long-term safety data beyond 12 weeks are limited in available clinical trial literature.",
+      "contraindications": "Bipolar disorder — risk of inducing hypomania or mania. Concurrent use with cyclosporine or tacrolimus — contraindicated (documented acute organ rejections in transplant recipients) [4, 6]. HIV antiretroviral therapy (indinavir, nevirapine, ritonavir, others) — CYP3A4 induction may produce therapeutic failure [5]. Warfarin or oral anticoagulants — CYP2C9 induction reduces anticoagulant effect; contraindicated without close INR monitoring [5, 6]. Oral combined hormonal contraceptives — reduced efficacy; contraceptive failure risk [5, 6]. Concurrent SSRIs, MAOIs, or serotonergic agents — serotonin syndrome risk [5]. Severe depression or depression with suicidal ideation — insufficient evidence; standard pharmacotherapy required. Known hypersensitivity to Hypericum species. Pediatric use (under 12 years) — insufficient data. Preoperative period: discontinue at least 5–7 days before surgery due to CYP induction effects on anaesthetic drug metabolism."
+    },
+    "clinical_data": {
+      "used_part": "Aerial parts — dried flowering herb (stems, leaves, buds, and flowers) harvested at peak flowering. Topical preparations traditionally use oil-infused fresh flowers.",
+      "primary_active_compounds": [
+        "Hyperforin (acylphloroglucinol, ~2–5% in standardized extracts) — primary antidepressant constituent; TRPC6 activator; PXR agonist and CYP3A4 inducer",
+        "Hypericin and pseudohypericin (naphthodianthrones, ~0.1–0.3%) — photosensitizing agents; weak MAO inhibition in vitro",
+        "Adhyperforin (acylphloroglucinol) — minor antidepressant contribution",
+        "Flavonoids: rutin, hyperoside, quercitrin, quercetin, isorhamnetin, kaempferol",
+        "Biflavonoids: amentoflavone, biapigenin",
+        "Xanthones: 1,3,6,7-tetrahydroxyxanthone (MAO-A inhibitor in vitro)",
+        "Procyanidins and condensed tannins"
+      ],
+      "mechanism_of_action": "The antidepressant activity of Hypericum perforatum is primarily attributed to hyperforin, which inhibits neuronal reuptake of <strong>serotonin (5-HT)</strong>, <strong>dopamine</strong>, <strong>norepinephrine</strong>, <strong>GABA</strong>, and <strong>glutamate</strong> through activation of <strong>TRPC6</strong> (transient receptor potential cation channel C6): Na⁺/Ca²⁺ influx via TRPC6 collapses the Na⁺ electrochemical gradient that drives monoamine transporters, blocking reuptake without direct high-affinity binding to individual transporter proteins — a mechanism distinct from conventional SSRIs or SNRIs [7]. This explains broad-spectrum monoamine reuptake inhibition. Hypericin weakly inhibits <strong>MAO-A</strong> and <strong>MAO-B</strong> in vitro; this contributes minimally to antidepressant activity at clinically relevant concentrations. Hyperforin is a potent activator of the nuclear receptor <strong>PXR (pregnane X receptor)</strong>, which transcriptionally upregulates <strong>CYP3A4</strong>, <strong>CYP2C9</strong>, <strong>CYP1A2</strong>, and <strong>P-glycoprotein (ABCB1)</strong> — the primary mechanism underlying clinically significant pharmacokinetic drug interactions [4]. The degree of CYP3A4 induction correlates directly with hyperforin content of the preparation [4]. Anti-inflammatory activity via inhibition of pro-inflammatory cytokine release has been documented in in vitro and animal models; clinical anti-inflammatory relevance is not established.",
+      "pharmacokinetics": {
+        "absorption": "Human pharmacokinetic data for standardized extract LI 160 — Hypericin: absolute oral bioavailability approximately 21%; Tmax approximately 4–6 hours after oral dosing. Hyperforin: rapidly absorbed with Tmax approximately 3.5 hours; plasma concentrations are dose-dependent but exhibit non-linear pharmacokinetics at higher doses. Bioavailability is influenced by extract standardization, hyperforin content, and food intake. The full extract contains multiple pharmacokinetically distinct active constituents with different absorption profiles [7, 8].",
+        "distribution": "Hypericin: extensive plasma protein binding (~99%). Hyperforin: plasma protein binding approximately 90% [8]. In rodent models, both hypericin and hyperforin demonstrate limited CNS penetration in animal studies; direct CNS pharmacology may be mediated by peripheral mechanisms or CNS-active metabolites [8]. Volume of distribution in humans has not been formally characterized in published pharmacokinetic studies.",
+        "metabolism": "Primarily hepatic. CYP3A4 and CYP2C9 are involved in metabolism of active constituents. Critically, hyperforin is a potent PXR activator that transcriptionally induces CYP3A4, CYP2C9, CYP1A2, and P-glycoprotein, producing sustained enzyme induction and forming the mechanistic basis for the extensive clinically documented drug–drug interactions [4, 5]. The extent of CYP3A4 induction is directly proportional to hyperforin content in the preparation [4]. Low-hyperforin standardized extracts produce substantially less enzyme induction. Flavonoid constituents (quercetin, glycosides) undergo phase II glucuronidation and sulfation [8].",
+        "excretion": "Biliary and fecal elimination is the predominant excretion route for hypericin and hyperforin; renal excretion of unchanged active compounds is minor [8]. Half-life of hypericin in human studies: approximately 25–43 hours, consistent with once- or twice-daily dosing schedules used in clinical trials [8]. Hyperforin half-life: approximately 9–10 hours."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Hypericum perforatum produces clinically significant pharmacokinetic drug interactions via CYP3A4, CYP2C9, CYP1A2 induction and P-glycoprotein upregulation through PXR activation; interaction magnitude correlates with extract hyperforin content [4]. Contraindicated combinations: cyclosporine/tacrolimus (severe reduction in immunosuppressant levels; acute organ rejections documented) [4, 6]; HIV antiretrovirals including indinavir and nevirapine (therapeutic failure and resistance risk) [5]; warfarin/phenprocoumon (reduced anticoagulant effect via CYP2C9 induction; thromboembolism risk) [5, 6]; oral combined hormonal contraceptives (contraceptive failure, breakthrough bleeding) [5, 6]; imatinib (markedly reduced plasma levels) [5]. Significant interactions requiring monitoring: SSRIs and MAOIs — additive serotonergic activity producing serotonin syndrome risk (pharmacodynamic) [5]; triptans (5-HT1 agonists) — serotonin syndrome risk [6]; digoxin — P-gp induction reduces AUC by approximately 25% [5]; simvastatin/atorvastatin — CYP3A4 induction reduces statin levels; midazolam/alprazolam — CYP3A4 induction reduces anxiolytic effect [5]; methadone — CYP3A4/P-gp induction risks opioid withdrawal; omeprazole, voriconazole — CYP induction reduces plasma levels [5]. The full documented drug interaction list encompasses over 30 conventional drugs [5].",
+        "toxicity": "No established human LD50. Photosensitivity is the most consistently documented intrinsic adverse event: hypericin produces phototoxic reactions (erythema, vesiculation) in fair-skinned individuals, primarily at higher doses with prolonged UV/sun exposure. In the Cochrane review (n=5,489), overall adverse event rates in SJW groups were significantly lower than in tricyclic antidepressant comparators (dropout OR 0.24) and SSRIs (dropout OR 0.53) [1]. No hepatotoxicity signal has been identified in clinical trial data, distinguishing SJW from other herbal medicines with hepatotoxic risk. Case reports of hypomania and mania exist in patients with unrecognized bipolar disorder. Maximum doses in human RCTs: 900 mg/day of standardized extract (0.3% hypericin). Long-term safety data beyond 12 weeks are limited."
+      },
+      "special_precautions": {
+        "pregnancy": "Not recommended during pregnancy. Human clinical safety data are insufficient. Preclinical (animal) studies indicate potential uterotonic effects from Hypericum alkaloid and phloroglucinol constituents. No controlled human trials have evaluated safety during pregnancy. Traditional avoidance during pregnancy is longstanding. Evidence basis: animal and in vitro data only; no human clinical safety data available.",
+        "lactation": "Not recommended during breastfeeding. Hypericin and other Hypericum constituents have been detected in human breast milk following maternal oral consumption in a small pharmacokinetic study; infant exposure via breast milk is considered low based on available data but clinical safety of infant exposure has not been formally evaluated. Insufficient clinical safety data to establish a safety conclusion.",
+        "hepatic_impairment": "Active constituents undergo extensive hepatic metabolism via CYP3A4 and CYP2C9 [7, 8]. No formal pharmacokinetic studies in patients with hepatic impairment are available. No hepatotoxicity signal has been identified in clinical trial data. In patients with active liver disease or significantly impaired hepatic function, use with caution: reduced metabolic capacity may alter plasma concentrations of active constituents and modify the CYP enzyme induction profile relevant to co-medications. No evidence-based dose adjustment guidelines exist.",
+        "renal_impairment": "Primary active compounds are eliminated predominantly via biliary and fecal routes; renal excretion of unchanged hypericin and hyperforin is minor [8]. No formal pharmacokinetic studies in renal impairment exist. No specific dose adjustment guidelines available. Use with clinical monitoring in severe renal impairment due to absence of formal pharmacokinetic studies in this population."
+      }
+    },
+    "consumer_view": {
+      "tagline": "The clinically validated herbal antidepressant",
+      "what_it_does": "St. John's Wort is the most rigorously studied herbal medicine for depression. Its active compound hyperforin prevents the brain from reabsorbing serotonin, dopamine, and norepinephrine — working similarly to antidepressants but through a different molecular mechanism. Three independent systematic reviews covering over 11,000 patient-trials confirm it performs as well as SSRIs for mild-to-moderate depression with significantly fewer side effects. However, it reduces the effectiveness of many common medications through enzyme induction — always check interactions with a pharmacist or doctor before using.",
+      "typical_uses": [
+        "Mild-to-moderate depression",
+        "Low mood and emotional resilience",
+        "Anxiety (limited evidence)",
+        "Menopausal mood changes (combined preparations)"
+      ],
+      "suggested_dose": "300 mg three times daily (900 mg/day total) of standardized extract (0.3% hypericin, 3–5% hyperforin). Effects typically require 4–6 weeks of consistent use. Do not combine with SSRIs, MAOIs, oral contraceptives, warfarin, cyclosporine, or HIV antiretrovirals without medical supervision.",
+      "onset": "Antidepressant effect: 4–6 weeks of consistent use. Superiority over placebo is typically established by week 6 in clinical trials.",
+      "safety_snapshot": [
+        "Do not combine with SSRIs, MAOIs, or triptans — serotonin syndrome risk",
+        "Reduces effectiveness of oral contraceptives, cyclosporine, HIV medications, and warfarin",
+        "Avoid prolonged sun exposure — photosensitivity in fair-skinned individuals",
+        "Not appropriate for severe depression — consult a doctor"
+      ]
+    }
   }
 ]
