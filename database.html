@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBD3M92K2X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QBD3M92K2X');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="BMS Archive — Scientific botanical and fungal monographs for educational and research purposes only. Sourced from peer-reviewed literature." />
@@ -111,6 +119,16 @@
     /* ── Search input focus ── */
     #search-input:focus { outline: none; border-color: #1B5138; box-shadow: 0 0 0 3px rgba(27,81,56,.1); }
 
+    /* ── Mobile area chips (hidden on desktop, shown via media query) ── */
+    #mobile-area-chips { display: none; overflow-x: auto; white-space: nowrap; padding: 8px 14px; gap: 7px; background: rgba(250,251,250,0.97); border-bottom: 1px solid #ECEFEC; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    #mobile-area-chips::-webkit-scrollbar { display: none; }
+    .mobile-area-chip { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; font-size: 13px; font-weight: 600; padding: 7px 13px; border-radius: 999px; border: 1px solid #DDE3DE; background: #fff; color: #3C4A42; white-space: nowrap; flex-shrink: 0; font-family: 'Hanken Grotesk', sans-serif; }
+    .mobile-area-chip.active { background: #1B5138; border-color: #1B5138; color: #fff; }
+    .mobile-area-chip .chip-count { font-family: 'Spline Sans Mono', monospace; font-size: 11px; opacity: 0.65; }
+
+    /* ── Mobile study count in list view (hidden on desktop) ── */
+    .mobile-study-count { display: none; }
+
     /* ══ RESPONSIVE ══════════════════════════════════════════════ */
 
     /* Tablet: sidebar collapses, 2-col grid */
@@ -132,8 +150,18 @@
 
       /* Toolbar */
       .toolbar-inner { gap: 10px !important; padding: 10px 14px !important; }
-      .toolbar-sort-group { display: none !important; }
+      .toolbar-sort-group > span { display: none; }
+      .sort-btn { padding: 7px 10px; font-size: 13px; }
       .kingdom-pill { padding: 9px 13px; font-size: 13px; }
+
+      /* Mobile area chips row */
+      #mobile-area-chips { display: flex; }
+
+      /* Modal close button — minimum 44×44px tap target */
+      #modal-close { width: 44px !important; height: 44px !important; }
+
+      /* List view study count on mobile */
+      .mobile-study-count { display: flex; align-items: center; gap: 5px; margin-top: 3px; }
 
       /* DB outer */
       .db-outer { padding-left: 10px !important; padding-right: 10px !important; }
@@ -259,6 +287,9 @@
       </div>
     </div>
   </div>
+
+  <!-- ═══════════════════════════ MOBILE AREA CHIPS ═══════════ -->
+  <div id="mobile-area-chips" role="group" aria-label="Filter by research area"></div>
 
   <!-- ═══════════════════════════ DB BODY ══════════════════════ -->
   <div class="db-outer max-w-7xl mx-auto w-full flex-1 px-6 pb-12" style="padding-top:0;">
@@ -610,6 +641,8 @@
     /* ── Sidebar ── */
     function renderSidebar() {
       const sorted = Object.entries(areaCounts).sort((a, b) => b[1] - a[1]).slice(0, 12);
+
+      /* Desktop sidebar */
       const areaList = document.getElementById('area-list');
       areaList.innerHTML = sorted.map(([name, count]) =>
         `<div class="area-item${state.area === name ? ' active' : ''}" data-area="${esc(name)}">
@@ -620,6 +653,20 @@
       areaList.querySelectorAll('.area-item').forEach(el => {
         el.addEventListener('click', () => {
           state.area = state.area === el.dataset.area ? 'All' : el.dataset.area;
+          render();
+        });
+      });
+
+      /* Mobile horizontal chip row */
+      const mobileChips = document.getElementById('mobile-area-chips');
+      const allChip = `<button class="mobile-area-chip${state.area === 'All' ? ' active' : ''}" data-area="All">All areas</button>`;
+      const chips = sorted.map(([name, count]) =>
+        `<button class="mobile-area-chip${state.area === name ? ' active' : ''}" data-area="${esc(name)}">${esc(name)}<span class="chip-count"> ${count}</span></button>`
+      ).join('');
+      mobileChips.innerHTML = allChip + chips;
+      mobileChips.querySelectorAll('.mobile-area-chip').forEach(el => {
+        el.addEventListener('click', () => {
+          state.area = el.dataset.area === 'All' ? 'All' : (state.area === el.dataset.area ? 'All' : el.dataset.area);
           render();
         });
       });
@@ -763,6 +810,11 @@
             <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;">
               <span class="sci" style="font-size:18px;color:#0F1A28;">${esc(item.scientific_name)}</span>
               <span style="font-size:13px;color:#8A968F;">${esc(item.common_name)}</span>
+            </div>
+            <div class="mobile-study-count">
+              <span class="mono" style="font-size:13px;font-weight:800;color:${p.accent};">${(item.article_count||0).toLocaleString()}</span>
+              <span style="font-size:11px;color:#8A968F;">studies</span>
+              <div class="study-bar" style="width:48px;height:4px;flex-shrink:0;"><div class="study-bar-fill" style="width:${pct};background:${p.accent};"></div></div>
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:6px;">
               ${cats.map(c => `<span style="font-size:12px;color:#5B6B7A;border:1px solid #E6EBE7;border-radius:6px;padding:3px 8px;">${esc(c)}</span>`).join('')}
