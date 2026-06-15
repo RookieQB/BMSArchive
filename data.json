@@ -4391,5 +4391,318 @@
         "Not recommended in pregnancy or with hepatotoxic drugs"
       ]
     }
+  },
+  {
+    "scientific_name": "Tanacetum parthenium",
+    "common_name": "Feverfew / Santa Maria",
+    "type": "Plant",
+    "article_count": 339,
+    "primary_categories": [
+      "Migraine Prophylaxis",
+      "Anti-inflammatory Research",
+      "Neurology",
+      "Platelet Biology"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/25892430/",
+        "https://pubmed.ncbi.nlm.nih.gov/12230594/",
+        "https://pubmed.ncbi.nlm.nih.gov/2899663/",
+        "https://pubmed.ncbi.nlm.nih.gov/22096324/"
+      ],
+      "cited_references": [
+        "[1] - Wider B, Pittler MH, Ernst E. Feverfew for preventing migraine. Cochrane Database Syst Rev. 2015;(4):CD002286. PMID: 25892430",
+        "[2] - Pfaffenrath V, Diener HC, Fischer M, Friede M, Henneicke-von Zepelin HH. The efficacy and safety of Tanacetum parthenium (feverfew) in migraine prophylaxis — a double-blind, multicentre, randomized placebo-controlled dose-response study. Cephalalgia. 2002;22(7):523-32. PMID: 12230594",
+        "[3] - Murphy JJ, Heptinstall S, Mitchell JR. Randomised double-blind placebo-controlled trial of feverfew in migraine prevention. Lancet. 1988;2(8604):189-92. PMID: 2899663",
+        "[4] - Pareek A, Suthar M, Rathore GS, Bansal V. Feverfew (Tanacetum parthenium L.): A systematic review. Pharmacognosy Rev. 2011;5(9):103-10. PMID: 22096324"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Tanacetum parthenium (feverfew) has been used in European folk medicine since at least the first century CE, with records in Dioscorides' De Materia Medica describing it for fevers, headaches, and menstrual irregularities. Medieval herbalists employed it as an emmenagogue and for arthritis, and it was a common cottage-garden remedy in Britain through the 18th and 19th centuries. Pre-1990 literature often catalogued it under the synonym Chrysanthemum parthenium.",
+      "modern_application": "Feverfew is primarily investigated as a prophylactic agent for migraine. A 2015 Cochrane systematic review of 6 RCTs (n=561) found low-quality evidence of a reduction in migraine frequency, with Murphy et al. (1988) — the landmark RCT included in the review — reporting approximately 0.6 fewer attacks per month versus placebo [1][3]. A multicentre RCT of the standardized CO2 extract MIG-99 (6.25 mg three times daily) found a significant reduction in attack frequency in a pre-specified subgroup of patients with ≥4 attacks per month at baseline (−1.8 attacks/28 days vs. −0.3 for placebo, P=0.02), though the overall intention-to-treat population did not reach statistical significance [2]. Anti-inflammatory activity attributed to parthenolide-mediated suppression of the <strong>NF-κB</strong> pathway has been documented in preclinical models, providing a mechanistic basis for the observed clinical signal [4].",
+      "side_effects": "The most commonly reported adverse effects in clinical trials include mouth ulceration (approximately 11% of users), gastrointestinal disturbances (nausea, diarrhea), and mild tachycardia in some participants [4]. An abrupt discontinuation syndrome ('post-feverfew syndrome') involving rebound headache, anxiety, and musculoskeletal symptoms has been described in long-term users [1][4]; gradual dose tapering is advisable.",
+      "contraindications": "Feverfew is contraindicated in pregnancy due to documented emmenagogue activity and the theoretical risk of uterine stimulation [4]. It should not be used in patients with known hypersensitivity to members of the Asteraceae (Compositae) family, a class effect documented across sesquiterpene lactone-containing plants of this family [4]. Concurrent use with anticoagulant or antiplatelet agents requires caution given its platelet-inhibitory mechanisms [4]."
+    },
+    "clinical_data": {
+      "used_part": "Leaves (dried)",
+      "primary_active_compounds": [
+        "Parthenolide (sesquiterpene lactone; 0.2–0.5% in leaf glands)",
+        "Chrysanthemyl acetate",
+        "Camphor",
+        "Luteolin (flavonoid)",
+        "Apigenin (flavonoid)",
+        "Spiroketal enol ethers"
+      ],
+      "mechanism_of_action": "The primary proposed mechanism of action involves parthenolide, a germacranolide sesquiterpene lactone, acting via two convergent pathways. First, parthenolide alkylates sulfhydryl groups on proteins in and around platelets, inhibiting stimulus-induced release of serotonin — a vasoactive mediator implicated in migraine initiation, as reviewed in the pharmacognosy literature [4]. Second, parthenolide specifically inhibits <strong>IKκβ</strong> (IκB kinase beta), blocking phosphorylation and degradation of IκB, thereby preventing nuclear translocation of <strong>NF-κB</strong> and suppressing downstream transcription of pro-inflammatory cytokines including <strong>COX-2</strong>, <strong>TNF-α</strong>, and <strong>IL-1β</strong> [4]. The net effect is inhibition of platelet aggregation and reduction of neurogenic inflammation at the trigeminovascular level. Flavonoid constituents (luteolin, apigenin) may contribute additional antioxidant and phosphodiesterase-inhibitory activity, though their contribution to the clinical migraine effect has not been established in isolation.",
+      "pharmacokinetics": {
+        "absorption": "No dedicated human pharmacokinetic studies for parthenolide or other Tanacetum parthenium constituents have been identified in the peer-reviewed literature as of this entry. Phytochemical data indicate parthenolide concentrations of 0.2–0.5% in superficial leaf glands, with higher concentrations in fresh versus dried preparations; bioavailability differences between preparations have not been formally quantified in humans [4]. All pharmacokinetic statements below are derived from general sesquiterpene lactone chemistry and phytochemical inference, not from clinical PK studies.",
+        "distribution": "No human distribution data are available. Parthenolide is lipophilic (consistent with sesquiterpene lactone class), suggesting potential for tissue partitioning; however, human volume of distribution, plasma protein binding, or tissue concentration data have not been reported in the accessible literature.",
+        "metabolism": "No human metabolic data are available. Parthenolide contains an alpha-methylene-gamma-lactone moiety and an epoxide group, which are chemically reactive toward nucleophilic thiol groups; rapid conjugation with glutathione is anticipated based on in vitro chemistry, but CYP450 involvement and human metabolite identification have not been formally characterized.",
+        "excretion": "No human excretion data are available. Elimination route and half-life have not been established in clinical pharmacokinetic studies. Given the reactive nature of parthenolide and anticipated rapid hepatic conjugation, urinary excretion of conjugated metabolites is plausible but unconfirmed."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Evidence for specific drug interactions derives primarily from pharmacological inference rather than controlled clinical interaction studies. Parthenolide inhibits platelet aggregation via sulfhydryl alkylation [4]; concurrent use with anticoagulants (e.g., warfarin) or antiplatelet agents (e.g., aspirin, clopidogrel) may additively increase bleeding risk — clinical monitoring is advisable if co-administration occurs. The alpha-methylene-gamma-lactone group of parthenolide has theoretical reactivity with other sulfhydryl-containing drugs, but no formal clinical interaction data are available. Interaction potential with CYP450 substrates has not been established.",
+        "toxicity": "No serious adverse events were reported across six RCTs included in the 2015 Cochrane review (n=561) [1]. Adverse effects in clinical trials were described as mild and reversible, including mouth ulcers (~11%), GI disturbance, and mild tachycardia in some participants [4]. Post-feverfew syndrome on abrupt withdrawal has been described but is not classified as a serious adverse event. No formal LD50 data in humans are available; animal and in vitro toxicology data were not systematically reviewed in the identified sources."
+      },
+      "special_precautions": {
+        "pregnancy": "Contraindicated. Feverfew has documented emmenagogue activity in traditional and pharmacological literature, and in vitro data suggest uterine-stimulating properties attributed to parthenolide [4]. No controlled human safety data in pregnancy exist. Avoid throughout pregnancy.",
+        "lactation": "Insufficient safety data. Excretion of parthenolide or its metabolites into human breast milk has not been studied. Given the reactive chemical nature of parthenolide and lack of neonatal safety data, use during lactation is not recommended.",
+        "hepatic_impairment": "No specific clinical data in hepatically impaired patients have been identified. Given the anticipated hepatic metabolism of parthenolide via glutathione conjugation, reduced metabolic clearance is theoretically possible in severe hepatic impairment, but no dose adjustment guidance is available in the literature.",
+        "renal_impairment": "No specific clinical data in renally impaired patients have been identified. No established contraindication based on available evidence; however, formal pharmacokinetic studies in this population have not been conducted."
+      }
+    }
+  },
+  {
+    "scientific_name": "Trigonella foenum-graecum",
+    "common_name": "Fenugreek / Methi",
+    "type": "Plant",
+    "article_count": 1571,
+    "primary_categories": [
+      "Glycaemic & Metabolic Research",
+      "Lipid Metabolism Research",
+      "Lactation & Women's Health Research",
+      "Endocrine Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24438170/",
+        "https://pubmed.ncbi.nlm.nih.gov/11868855/",
+        "https://pubmed.ncbi.nlm.nih.gov/29193352/",
+        "https://pubmed.ncbi.nlm.nih.gov/29184266/",
+        "https://pubmed.ncbi.nlm.nih.gov/19337956/"
+      ],
+      "cited_references": [
+        "[1] - Neelakantan N et al. Effect of fenugreek intake on glycemia: a meta-analysis of clinical trials. Nutrition Journal, 2014. PMID: 24438170",
+        "[2] - Gupta A et al. Effect of Trigonella foenum-graecum seeds on glycaemic control and insulin resistance in type 2 diabetes mellitus. JAPI, 2001. PMID: 11868855",
+        "[3] - Khan TM et al. Effectiveness of fenugreek as a galactagogue: A network meta-analysis. Phytotherapy Research, 2018. PMID: 29193352",
+        "[4] - Chen Z et al. Effects of Saponin from Trigonella Foenum-Graecum Seeds on Dyslipidemia. Iran J Med Sci, 2017. PMID: 29184266",
+        "[5] - Jetté L et al. 4-Hydroxyisoleucine: a plant-derived treatment for metabolic syndrome. Curr Opin Investig Drugs, 2009. PMID: 19337956",
+        "[6] - Kassaee SM et al. Ameliorative Effect of Trigonella Foenum Graecum L. on Lipid Profile, Liver Histology and LDL-Receptor Gene Expression in High Cholesterol-Fed Hamsters. Acta Endocrinologica (Bucharest), 2021. PMC8417498"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Trigonella foenum-graecum (fenugreek) has been used in Ayurvedic, Unani, and Egyptian traditional medicine for millennia, with references in the Ebers Papyrus (c. 1550 BCE) and classical Ayurvedic texts. Known as 'Methi' in the Indian subcontinent, the seeds were employed as a galactagogue to increase milk production in nursing mothers, as a digestive bitter, and as a general restorative tonic for debility. In the Middle East and South Asia, seeds are used as both a culinary spice and a medicinal preparation for managing blood sugar and digestive complaints.",
+      "modern_application": "Fenugreek seeds are among the most extensively studied phytomedicines for glycaemic management. A 2014 meta-analysis of 10 clinical trials found supplementation was associated with significant reductions in fasting blood glucose (-0.96 mmol/L), 2-hour postload glucose (-2.19 mmol/L), and HbA1c (-0.85%), with effects most pronounced in diabetic populations receiving medium to high doses [1]. A double-blind, placebo-controlled RCT in 25 newly diagnosed type 2 diabetic patients documented significant improvements in insulin sensitivity (HOMA model) and lipid profiles after 2 months of 1 g/day seed extract [2]. A 2018 network meta-analysis of 5 trials (n=122 lactating women) found fenugreek significantly increased breast milk volume versus placebo (weighted mean difference 11.11 mL, 95% CI 6.77–15.46), though the effect magnitude was inferior to certain botanical comparators including Coleus amboinicus and palm date [3]. The NLM LactMed database notes that the galactagogue effect of fenugreek may be primarily psychological in humans, and some analyses have found no good evidence of efficacy; the clinical evidence base is heterogeneous and should be interpreted cautiously.",
+      "side_effects": "The most commonly reported adverse effects in clinical studies are gastrointestinal in nature — nausea, diarrhoea, bloating, and flatulence — attributed to the high soluble fibre and saponin content of the seeds. Hypoglycaemia risk is present when combined with antidiabetic medications; blood glucose monitoring is advisable. Preclinical data (rat study, PMID: 28407664) suggest high-dose fenugreek extract may suppress central thyroid hormone signalling via leptin-mediated pathways, though this has not been confirmed in human clinical trials. Maple syrup-like body odour has been frequently reported and is attributed to the volatile compound sotolon.",
+      "contraindications": "Contraindicated in pregnancy in medicinal doses — fenugreek has demonstrated uterotonic activity in preclinical studies and is traditionally documented as an emmenagogue; culinary quantities in food are not formally evaluated in human pregnancy safety studies, and the distinction from medicinal doses is based on traditional practice and regulatory convention, not clinical evidence. Caution is warranted in patients taking oral hypoglycaemic agents or insulin due to additive glucose-lowering effects. Patients with thyroid disorders should exercise caution pending confirmation of preclinical thyroid signalling data in human studies. Contraindicated in known allergy to Fabaceae (legume family) — cross-reactivity with peanut and chickpea has been documented."
+    },
+    "clinical_data": {
+      "used_part": "Seeds (dried, mature)",
+      "primary_active_compounds": [
+        "4-Hydroxyisoleucine (non-protein amino acid; 0.015–0.4% of seed dry weight depending on cultivar and extraction method)",
+        "Diosgenin (steroidal saponin precursor)",
+        "Trigonelline (alkaloid, niacin precursor)",
+        "Galactomannan (soluble dietary fibre)",
+        "Furostanol saponins (fenugreekine, protodioscin)",
+        "Mucilage polysaccharides",
+        "Volatile oils (sotolon — responsible for characteristic odour)"
+      ],
+      "mechanism_of_action": "The primary insulin-sensitising mechanism of fenugreek seeds is attributed to <strong>4-hydroxyisoleucine</strong>, a non-protein amino acid that directly stimulates glucose-dependent insulin secretion from pancreatic beta cells by potentiating <strong>glucose-stimulated insulin release</strong> in a concentration-dependent manner [5]. In adipocyte models, 4-hydroxyisoleucine has been shown to improve insulin signalling by reducing <strong>TNF-α</strong>-mediated suppression of the <strong>insulin receptor substrate-1 (IRS-1)</strong> pathway, ameliorating high-glucose-induced insulin resistance. Fibre fractions — principally <strong>galactomannan</strong> — slow gastric emptying and reduce the rate of intestinal glucose absorption, contributing to postprandial glucose attenuation. Lipid-lowering effects are mediated by fenugreek saponins, which accelerate cholesterol catabolism, upregulate <strong>LDL receptor</strong> gene expression (demonstrated at 7.8-fold induction in hypercholesterolaemic hamster models [6]), and facilitate reverse cholesterol transport through modulation of bile acid enterohepatic cycling [4]. The mechanism underlying any galactagogue activity remains unestablished. One speculative hypothesis proposes that diosgenin's structural similarity to oestrogens may permit interaction at <strong>oestrogen receptors</strong>, but this has not been confirmed at receptor level in human lactation studies, and the NLM LactMed database notes the effect may be primarily psychological.",
+      "pharmacokinetics": {
+        "absorption": "No formal human pharmacokinetic studies characterising systemic absorption of fenugreek's primary bioactive compounds are available in the published literature. The following reflects preclinical and in vitro data only. 4-Hydroxyisoleucine is a water-soluble amino acid and is expected to be absorbed via intestinal amino acid transporters; oral bioavailability in humans has not been formally quantified. Galactomannan is not systemically absorbed and exerts its glucose-attenuating effects intraluminally by increasing chyme viscosity and slowing nutrient absorption.",
+        "distribution": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. 4-Hydroxyisoleucine reaches peak plasma concentrations in rodent models after oral administration and distributes to pancreatic tissue, consistent with its insulin secretagogue activity [5]. Furostanol saponins and diosgenin are lipophilic and distribute to hepatic and intestinal compartments in animal models. Human tissue distribution data are not established.",
+        "metabolism": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. Trigonelline undergoes hepatic metabolism to nicotinic acid (niacin), constituting a documented pathway for this alkaloid. Diosgenin undergoes hepatic conjugation. Galactomannan is fermented by colonic microbiota to short-chain fatty acids. The metabolic fate of 4-hydroxyisoleucine in humans beyond standard amino acid catabolism has not been formally characterised.",
+        "excretion": "No human pharmacokinetic data are available for this species. The following is derived from preclinical animal studies and in vitro data only, and may not reflect human pharmacology. Water-soluble metabolites including trigonelline-derived compounds are expected to undergo renal elimination. Galactomannan and unabsorbed fibre fractions are eliminated via the faecal route. Elimination half-lives for fenugreek bioactives in human subjects have not been published."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Antidiabetic agents (metformin, sulfonylureas, insulin): Fenugreek seed extracts demonstrate additive blood glucose-lowering effects via complementary mechanisms; co-administration requires blood glucose monitoring and may necessitate antidiabetic dose adjustment to avoid hypoglycaemia [1, 2]. Anticoagulants and antiplatelet agents: Fenugreek seeds contain coumarin compounds (including scopoletin) with theoretical anticoagulant potential. One case report documented increased INR in a patient taking a combined boldo-fenugreek preparation alongside warfarin [PMID: 11310527]; the individual contribution of fenugreek cannot be isolated from boldo in this report, and a controlled RCT did not demonstrate significant platelet aggregation effects from fenugreek alone. Evidence level is very low (single case report, mixed herbal product); clinical significance is unestablished. Caution is nonetheless warranted in patients on warfarin or other anticoagulants. Thyroid medications: Preclinical data (rat study) suggest fenugreek may suppress central thyroid signalling via leptin-mediated downregulation of TRH gene expression [PMID: 28407664]; the clinical relevance in humans on levothyroxine or antithyroid therapy is unknown but warrants caution. Iron absorption: Galactomannan fibre may reduce bioavailability of co-administered oral iron supplements when taken simultaneously.",
+        "toxicity": "Fenugreek seeds have a long record of culinary use at low doses without significant toxicity signal. In clinical trials, adverse effects are predominantly mild and gastrointestinal. Preclinical toxicology in rodents indicates a wide safety margin at culinary-range doses; high-dose chronic exposure (exceeding medicinal ranges) is associated with reproductive effects in animal studies, including disruption of reproductive hormone levels. A preclinical study (rat model, PMID: 28407664) documents the potential for central hypothyroidism at high doses via leptin-mediated suppression of TRH mRNA expression; this finding has not been reproduced in human clinical trials. Allergic reactions, including anaphylaxis, have been reported in individuals with Fabaceae allergy. No established human LD50 data are available."
+      },
+      "special_precautions": {
+        "pregnancy": "Contraindicated in medicinal doses during pregnancy. Fenugreek has documented uterotonic activity in preclinical models and is classified as an emmenagogue in traditional medicine. Culinary quantities in food are not formally evaluated in human pregnancy safety studies; the distinction from medicinal doses is based on traditional practice and regulatory convention, not clinical evidence.",
+        "lactation": "Fenugreek is among the most widely used botanical galactagogues. A 2018 network meta-analysis of 5 RCTs (n=122) found significant increases in breast milk volume compared to placebo (weighted mean difference 11.11 mL, 95% CI 6.77–15.46) [3], though fenugreek was inferior to other botanical comparators. The NLM LactMed database notes that this galactagogue effect may be primarily psychological in humans, and not all reviews support efficacy. Additionally, sotolon (the primary volatile compound) is excreted in breast milk and causes a maple syrup-like odour in the infant's urine and sweat. Safety for the breastfed infant has not been established in rigorous clinical studies; use at medicinal doses requires monitoring of both maternal and infant response.",
+        "hepatic_impairment": "No formal studies in patients with hepatic impairment are available. Diosgenin and furostanol saponins undergo hepatic conjugation; impaired hepatic function may alter their disposition. Fenugreek is not associated with hepatotoxicity in the published clinical literature at conventional doses, but evidence in patients with active hepatic disease is absent. Use with caution and monitor liver enzymes in patients with pre-existing hepatic disease.",
+        "renal_impairment": "No formal data in renal impairment. Water-soluble metabolites including trigonelline-derived nicotinic acid derivatives are renally eliminated. No specific contraindication at culinary doses; use at medicinal doses in patients with severe renal impairment should be approached with caution due to absence of safety data in this population."
+      }
+    }
+  },
+  {
+    "scientific_name": "Uncaria tomentosa",
+    "common_name": "Cat's Claw / Uña de Gato",
+    "type": "Plant",
+    "article_count": 298,
+    "primary_categories": [
+      "Immunomodulation Research",
+      "Anti-inflammatory Research",
+      "Antioxidant Research",
+      "Rheumatology Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/11950006/",
+        "https://pubmed.ncbi.nlm.nih.gov/19995599/",
+        "https://pubmed.ncbi.nlm.nih.gov/9882039/",
+        "https://pubmed.ncbi.nlm.nih.gov/10328636/",
+        "https://pubmed.ncbi.nlm.nih.gov/40725012/"
+      ],
+      "cited_references": [
+        "[1] - Mur E et al. Randomized double blind trial of an extract from the pentacyclic alkaloid-chemotype of uncaria tomentosa for the treatment of rheumatoid arthritis. J Rheumatol, 2002. PMID: 11950006",
+        "[2] - Allen-Hall L et al. Uncaria tomentosa acts as a potent TNF-alpha inhibitor through NF-kappaB. J Ethnopharmacol, 2010. PMID: 19995599",
+        "[3] - Sandoval-Chacón M et al. Antiinflammatory actions of cat's claw: the role of NF-kappaB. Aliment Pharmacol Ther, 1998. PMID: 9882039",
+        "[4] - Reinhard KH. Uncaria tomentosa (Willd.) DC.: cat's claw, uña de gato, or saventaro. J Altern Complement Med, 1999. PMID: 10328636",
+        "[5] - Rizzi R et al. Mutagenic and antimutagenic activities of Uncaria tomentosa and its extracts. J Ethnopharmacol, 1993. PMID: 8479203",
+        "[6] - Valerio LG Jr, Gonzales GF. Toxicological aspects of the South American herbs cat's claw and Maca. Toxicol Rev, 2005. PMID: 16042502",
+        "[7] - Marques O et al. Uncaria tomentosa as a Promising Natural Source. Int J Mol Sci, 2025. PMID: 40725012"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Uncaria tomentosa has been used medicinally for at least 2,000 years by indigenous Amazonian peoples of Peru and other parts of South America, particularly the Asháninka and related communities of the Peruvian rainforest, who prepared decoctions of the root bark and inner bark (cortex) to address inflammation, arthritis, gastric disorders, and infections. The plant derives its common name 'cat's claw' from the curved, claw-like thorns on its woody vine stems. Traditional use was primarily directed at joint pain, wound healing, and conditions associated with general immune weakness [4, 7].",
+      "modern_application": "Contemporary research on Uncaria tomentosa has focused primarily on two biological activities supported by laboratory and early clinical evidence: immunomodulation mediated by pentacyclic oxindole alkaloids (POAs), and anti-inflammatory activity involving inhibition of the <strong>NF-κB</strong> transcription factor and downstream suppression of <strong>TNF-α</strong>, as demonstrated in cell culture and animal models [2, 3]. A randomised, double-blind, placebo-controlled trial (n=40) in rheumatoid arthritis patients receiving background sulfasalazine or hydroxychloroquine therapy demonstrated a statistically significant reduction in tender joint count (53.2% vs 24.1%, p=0.044) at 24 weeks; the authors characterised this as a modest result from a small preliminary study [1]. Antimutagenic activity has been described in in vitro bacterial assay systems [5]. Importantly, two natural chemotypes of U. tomentosa exist — the pentacyclic oxindole alkaloid (POA) chemotype, associated with immune modulation, and the tetracyclic oxindole alkaloid (TOA) chemotype, which acts on the central nervous system; based on preclinical evidence reviewed by Reinhard (1999), preparations containing both chemotypes are considered therapeutically inferior for immune applications, and POA-standardised extracts are conventionally preferred — though controlled human trials comparing chemotype formulations are lacking [4]. All available evidence for specific clinical indications is preliminary; large-scale independent RCTs are absent [7].",
+      "side_effects": "Uncaria tomentosa was generally well tolerated in the 24-week RCT at doses used for rheumatoid arthritis, with only minor adverse effects reported [1]. Toxicological review indicates low acute toxicity in animal models; however, formal long-term clinical safety data are limited and standardisation of preparations is emphasised as essential to meaningful safety assessment [6]. A single case of allergic interstitial nephritis attributed to cat's claw has been described in the herb nephrotoxicity literature; the original case report has not been independently verified at time of writing and causal attribution is uncertain. Adulteration with the distinct species Uncaria guianensis in commercial markets is a documented risk and may contribute to variable safety and efficacy profiles [7].",
+      "contraindications": "Use during pregnancy is contraindicated based on traditional precaution and absence of controlled safety data; the plant has been used historically as an abortifacient in some South American traditional contexts, and no controlled clinical data exist to establish fetal safety [4, 7]. Concurrent use with immunosuppressant therapy requires medical supervision given documented immunomodulatory activity. Patients awaiting organ transplant or on anti-rejection medications should avoid use. Do not conflate with Uncaria rhynchophylla (Gou Teng, used in TCM for neurological applications) — the two species have different phytochemical profiles and distinct therapeutic and safety considerations [4, 7]."
+    },
+    "clinical_data": {
+      "used_part": "Root bark and inner bark (cortex). Bark from the woody vine stem is used in some preparations but root bark is the primary part used in pharmacological research and traditional medicine. Note: U. guianensis is a distinct species commonly adulterated into commercial cat's claw products — species verification is essential.",
+      "primary_active_compounds": [
+        "Pentacyclic oxindole alkaloids (POAs): isopteropodine, pteropodine, isomitraphylline, uncarine F, mitraphylline — primary immunomodulatory constituents",
+        "Tetracyclic oxindole alkaloids (TOAs): rhynchophylline, isorhynchophylline, corynoxeine — act on central nervous system; antagonise POA immunomodulatory effects",
+        "Quinovic acid glycosides (triterpenoid saponins) — anti-inflammatory, antiviral activity documented in vitro",
+        "Procyanidins and catechins — antioxidant activity",
+        "Sterols (beta-sitosterol, stigmasterol, campesterol)",
+        "Tannins (including epicatechin)"
+      ],
+      "mechanism_of_action": "Based on in vitro and animal model evidence, the primary anti-inflammatory mechanism of Uncaria tomentosa involves inhibition of <strong>NF-κB</strong> nuclear translocation, suppressing transcription of pro-inflammatory cytokines including <strong>TNF-α</strong>, <strong>IL-1β</strong>, and <strong>IL-6</strong> [2, 3]. Allen-Hall et al. demonstrated in THP-1 monocyte-like cells that U. tomentosa extract inhibits <strong>TNF-α</strong> production specifically through an <strong>NF-κB</strong>-dependent mechanism [2]. Immunomodulatory activity is attributed to the pentacyclic oxindole alkaloid (POA) fraction: POAs are proposed to stimulate the cellular immune system, potentially via effects on <strong>lymphocyte proliferation</strong> and phagocytic activity of macrophages. Critically, tetracyclic oxindole alkaloids (TOAs) act on the <strong>central nervous system</strong> through distinct receptor targets and are reported to pharmacologically antagonise the immunomodulatory effects of POAs in preclinical models — preparations that contain both chemotypes are considered therapeutically inferior for immune applications [4]. Antimutagenic activity in vitro has been demonstrated in bacterial assay systems (Salmonella typhimurium), though the precise mechanism has not been fully characterised and no human pharmacological mechanism studies have been conducted [5].",
+      "pharmacokinetics": {
+        "absorption": "Formal in vivo human pharmacokinetic studies for the POA fraction of Uncaria tomentosa have not been identified in the published literature. Based on the physicochemical properties of oxindole alkaloids as a class, variable and potentially incomplete oral absorption is anticipated, but bioavailability data in humans are not available.",
+        "distribution": "No formal human distribution data identified. Based on the lipophilic character of oxindole alkaloids and preclinical animal pharmacology, CNS penetration of TOA alkaloids is plausible and consistent with their documented CNS effects. Distribution volume for POA alkaloids in humans has not been characterised.",
+        "metabolism": "No formal human hepatic metabolism studies identified for the U. tomentosa POA alkaloid fraction. CYP3A4 involvement is plausible given structural similarity to other Rubiaceae indole alkaloids, but this has not been confirmed in human studies and drug interaction risk cannot be quantified from available evidence.",
+        "excretion": "No dedicated renal or biliary excretion data identified for U. tomentosa alkaloids in humans. Based on the lipophilic nature of oxindole alkaloids, partial faecal elimination is anticipated, but elimination half-life in humans is not established."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Immunosuppressant drugs (cyclosporine, tacrolimus, corticosteroids, biologic DMARDs): documented immunostimulatory activity of POA alkaloids may theoretically antagonise immunosuppression — concurrent use requires medical supervision and is not recommended without specialist oversight. Anticoagulants and antiplatelet agents: preclinical data suggest antiplatelet-like activity of quinovic acid glycosides and catechins; additive bleeding risk is a theoretical concern requiring monitoring. CYP enzyme and transporter interactions: based on the structural class of oxindole alkaloids, interactions with CYP3A4 and drug efflux transporters are theoretically possible; clinical significance in humans has not been established in controlled studies. All interaction claims are based on pharmacological mechanism and general alkaloid class data; controlled clinical interaction studies are absent.",
+        "toxicity": "Toxicological review (Valerio and Gonzales, PMID 16042502) concludes that cat's claw demonstrates low acute toxicity in animal studies. No genotoxicity was detected in bacterial mutagenicity assays (Rizzi et al., PMID 8479203). A single case of allergic interstitial nephritis has been attributed to cat's claw in the herb nephrotoxicity literature; the original case report citation has not been independently confirmed at time of writing and causality is not established. Long-term human safety data from controlled trials are absent."
+      },
+      "special_precautions": {
+        "pregnancy": "Contraindicated during pregnancy. Uncaria tomentosa has been used historically as an abortifacient in some South American traditional contexts [4, 7]. No controlled human safety data exist. Avoid all use during pregnancy.",
+        "lactation": "Insufficient safety data for use during breastfeeding. Oxindole alkaloids may be excreted in breast milk given their lipophilic character. Avoidance is recommended in the absence of safety data.",
+        "hepatic_impairment": "No formal pharmacokinetic or clinical safety studies in hepatic impairment have been identified. Alkaloid metabolism is expected to be hepatic. Caution is warranted in significant liver disease; use should be under medical supervision with liver function monitoring.",
+        "renal_impairment": "A single case report of allergic interstitial nephritis attributed to cat's claw has been noted in the literature; causal attribution is uncertain and the original case report citation has not been independently confirmed at time of writing. No formal pharmacokinetic data in renal impairment are available. Caution is warranted in pre-existing renal disease; clinical monitoring recommended."
+      }
+    }
+  },
+  {
+    "scientific_name": "Taraxacum officinale",
+    "common_name": "Dandelion",
+    "type": "Plant",
+    "article_count": 1326,
+    "primary_categories": [
+      "Hepatoprotection",
+      "Diuretic Research",
+      "Antioxidant & Anti-inflammatory",
+      "Prebiotic & GI Research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/19678785/",
+        "https://pubmed.ncbi.nlm.nih.gov/20519172/",
+        "https://pubmed.ncbi.nlm.nih.gov/29187173/",
+        "https://pubmed.ncbi.nlm.nih.gov/38351703/",
+        "https://pubmed.ncbi.nlm.nih.gov/39338278/"
+      ],
+      "cited_references": [
+        "[1] - Clare BA, Conroy RS, Spelman K. The diuretic effect in human subjects of an extract of Taraxacum officinale folium over a single day. J Altern Complement Med, 2009. PMID: 19678785",
+        "[2] - Mahesh A et al. Hepatocurative potential of sesquiterpene lactones of Taraxacum officinale on carbon tetrachloride induced liver toxicity in mice. Acta Biol Hung, 2010. PMID: 20519172",
+        "[3] - Jeon D et al. Anti-inflammatory evaluation of Taraxacum officinale in LPS-stimulated human umbilical vein endothelial cells. BMC Complement Altern Med, 2017. PMID: 29187173",
+        "[4] - Hao F et al. Taraxacum: A Review of Ethnopharmacology, Phytochemistry and Pharmacological Activity. Am J Chin Med, 2024. PMID: 38351703",
+        "[5] - Wu J et al. Botany, Traditional Use, Phytochemistry, Pharmacology of Taraxaci herba. Pharmaceuticals (Basel), 2024. PMID: 39338278"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Taraxacum officinale has been used in European, North American, and East Asian traditional medicine for centuries as a bitter digestive tonic, cholagogue, and diuretic. The root was employed to stimulate bile production and support liver and gallbladder function, while the leaf was used as a diuretic for oedema and urinary complaints. Its traditional diuretic use has been formally recognised by the European Medicines Agency (EMA) under the traditional herbal medicinal product designation (Taraxaci folium monograph) and in the German Commission E monograph.",
+      "modern_application": "Preclinical evidence supports hepatoprotective activity of the root, with sesquiterpene lactones and taraxasterol demonstrating attenuation of CCl4-induced liver injury in mouse models [2]; broader hepatoprotective activity across additional toxic challenge models is reported in preclinical reviews [4,5], though no human clinical trial data for hepatoprotective efficacy are available. A pilot clinical study (n=17) found that a single-day protocol of fresh leaf hydroethanolic extract (8 mL three times daily) produced significant increases in urinary frequency and excretion ratio after the first and second doses (with no significant effect observed after the third dose), suggesting diuretic activity with a potentially favourable electrolyte profile due to the leaf's high natural potassium content [1]. Anti-inflammatory effects have been documented in vitro via suppression of <strong>NF-κB</strong> nuclear translocation and inhibition of pro-inflammatory cytokines (IL-6, IL-8, TNF-α, VCAM-1) in endothelial cell models [3]. Large-scale human RCT data are lacking; clinical claims remain preliminary.",
+      "side_effects": "Generally well tolerated at conventional food and herbal supplement doses in the absence of comorbidities flagged under contraindications and special precautions. Adverse effects reported include mild gastrointestinal upset (nausea, diarrhoea), and rarely, allergic contact dermatitis and respiratory hypersensitivity reactions — particularly in individuals with documented sensitivity to Asteraceae family plants. Infrequent GI adverse effects have been noted in post-marketing surveillance.",
+      "contraindications": "Contraindicated in individuals with known hypersensitivity to Taraxacum officinale or other members of the Asteraceae family. Use with caution in individuals with bile duct obstruction, cholangitis, or gallbladder empyema, as the cholagogue action may exacerbate these conditions. Due to the high potassium content of the leaf, caution is warranted in patients taking medications that raise serum potassium — including potassium-sparing diuretics, ACE inhibitors, beta-blockers, digitalis, tacrolimus, cyclosporine, and trimethoprim — as clinically relevant hyperkalaemia may result. Caution is also warranted when co-administered with antidiabetic medications given preclinical glucose-lowering evidence."
+    },
+    "clinical_data": {
+      "used_part": "Root (Taraxaci radix) and leaf/herb (Taraxaci herba) — used separately or combined depending on preparation; root primarily used for hepatic and digestive applications, leaf primarily used for diuretic applications",
+      "primary_active_compounds": [
+        "Sesquiterpene lactones: taraxacin, taraxacerin, lactucopicrin (root — primary bitter principles, hepatocurative)",
+        "Triterpenes/sterols: taraxasterol, taraxasteryl acetate, taraxerol, β-sitosterol, lupeol, α-amyrin, β-amyrin",
+        "Flavonoids: luteolin, quercetin, apigenin, rutin, isoquercitrin, isorhamnetin",
+        "Phenolic acids: chlorogenic acid, chicoric acid, caffeic acid, ferulic acid, caftaric acid",
+        "Polysaccharides: inulin (root — up to 40% of dry root weight in autumn harvest; prebiotic fructan)",
+        "Vitamins and minerals: potassium (leaf — contributes to diuretic profile), vitamins A, C, K"
+      ],
+      "mechanism_of_action": "Hepatoprotection mediated primarily by <strong>taraxasterol</strong> and <strong>sesquiterpene lactones</strong>, which modulate the <strong>JAK2/STAT3</strong> and <strong>JNK</strong> signalling pathways and activate the <strong>Nrf2/HO-1</strong> antioxidant response element, reducing oxidative stress-mediated hepatocyte injury in preclinical models [4, 5]. Anti-inflammatory activity proceeds through suppression of <strong>NF-κB</strong> nuclear translocation, inhibiting downstream production of iNOS, VCAM-1, MCP-1, IL-6, IL-8, and TNF-α [3]. Antioxidant activity involves restoration of glutathione (GSH) and elevation of superoxide dismutase (SOD), catalase, and GSH-peroxidase. Diuretic activity of the leaf is attributed in part to its high natural <strong>potassium</strong> content; the EMA assessment of Taraxaci folium notes that this potassium content may offset kaliuresis associated with the plant's own diuretic action — this has not been confirmed in a controlled pharmacodynamic trial. The root's <strong>inulin</strong> content functions as a prebiotic fructan, selectively stimulating growth of Bifidobacterium and Lactobacillus species in the colon. Cholagogue and choleretic activity is attributed to bitter sesquiterpene lactones stimulating bile secretion.",
+      "pharmacokinetics": {
+        "absorption": "No human pharmacokinetic studies are available for Taraxacum officinale preparations. The following is inferred from in vitro and preclinical data only and may not reflect human pharmacology. Phenolic compounds (chlorogenic acid, chicoric acid, luteolin glycosides) are expected to be absorbed in the small intestine following partial hydrolysis by gut enzymes; bioavailability is influenced by food matrix and gut microbiota composition. Inulin (root) is not absorbed in the small intestine and passes intact to the colon where it undergoes fermentation.",
+        "distribution": "No human distribution data are available. Lipophilic triterpenes (taraxasterol, β-sitosterol) are expected to distribute to lipid-rich tissues including the liver, consistent with hepatoprotective activity observed in animal models. Flavonoids are likely distributed as glucuronide and sulfate conjugates following hepatic phase II metabolism.",
+        "metabolism": "No human metabolic data are available for Taraxacum-specific compounds. Phenolic acids and flavonoids are expected to undergo hepatic phase II metabolism (glucuronidation, sulfation) and colonic microbial biotransformation. Sesquiterpene lactones may interact with cytochrome P450 enzymes; no specific CYP inhibition data for T. officinale are established in humans.",
+        "excretion": "No human excretion data are available. Water-soluble phenolic metabolites are expected to be excreted renally; inulin fermentation products (short-chain fatty acids) are largely absorbed in the colon."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No formal clinical drug interaction studies are available for Taraxacum officinale. The EMA assessment of Taraxaci folium identifies a significant potassium-mediated interaction class: due to the high potassium content of the leaf, concomitant use with medications that raise serum potassium should be avoided or closely monitored. Documented interactions from the EMA assessment include: potassium-sparing diuretics, ACE inhibitors, beta-blockers, cyclosporine, tacrolimus, digitalis (digoxin), heparin, trimethoprim, pentamidine, and NSAIDs — all of which may cause clinically relevant hyperkalaemia when combined with high-potassium botanical preparations. Additional theoretical interactions include: (1) additive hypotensive/diuretic effect with loop diuretics and thiazides; (2) possible potentiation of hypoglycaemic agents — preclinical antidiabetic activity has been reported; (3) increased lithium serum levels due to diuretic-mediated reduction in renal lithium clearance; (4) possible effect of leaf vitamin K content on anticoagulant (warfarin) stability, though clinical magnitude is unknown. Patients on any of these medication classes should consult a healthcare provider before use.",
+        "toxicity": "In a comprehensive review (Wu et al., 2024, PMID: 39338278), only three adverse reaction case reports were identified in the published literature, all associated with doses substantially exceeding the conventional therapeutic range. No adverse reactions were reported at normal doses in that review. Animal studies indicate low acute toxicity at conventional experimental doses. Contact sensitisation reactions have been documented in individuals with Asteraceae hypersensitivity."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient human safety data exist to establish a safety profile during pregnancy. Due to its diuretic and cholagogue activity and the absence of reproductive toxicity data in humans, use of medicinal-dose preparations during pregnancy is not recommended without medical supervision.",
+        "lactation": "The NCBI LactMed database states that T. officinale is classified as Generally Recognised as Safe (GRAS) as a food by the FDA. No data exist on excretion of active compounds into breast milk at medicinal doses. Use as a herbal supplement (rather than as a food) during lactation should be discussed with a healthcare provider.",
+        "hepatic_impairment": "Despite preclinical hepatoprotective findings, the cholagogue activity of the root warrants caution in patients with bile duct obstruction, cholangitis, or cholecystitis. No clinical pharmacokinetic data exist for patients with impaired hepatic function. Use in hepatic disease should only be considered under medical supervision.",
+        "renal_impairment": "The EMA assessment of Taraxaci folium explicitly excludes patients with renal failure from its safety statement, citing the risk of clinically significant elevation of serum potassium (hyperkalaemia) due to the leaf's high potassium content. Patients with any degree of renal impairment should not use medicinal-dose Taraxacum leaf preparations without direct medical supervision. No human pharmacokinetic data exist for this population."
+      }
+    }
+  },
+  {
+    "scientific_name": "Vitis vinifera",
+    "common_name": "Grape / Grape Seed Extract",
+    "type": "Plant",
+    "article_count": 4215,
+    "primary_categories": [
+      "Cardiovascular System",
+      "Oxidative Stress Research",
+      "Blood Pressure Mechanisms",
+      "Venous & Peripheral Circulation"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/27537554/",
+        "https://pubmed.ncbi.nlm.nih.gov/31757033/",
+        "https://pubmed.ncbi.nlm.nih.gov/33671310/",
+        "https://pubmed.ncbi.nlm.nih.gov/36401399/",
+        "https://pubmed.ncbi.nlm.nih.gov/12834296/"
+      ],
+      "cited_references": [
+        "[1] - Zhang H et al. The impact of grape seed extract treatment on blood pressure changes: A meta-analysis of 16 randomized controlled trials. Medicine (Baltimore), 2016. PMID: 27537554",
+        "[2] - Odai T et al. Effects of Grape Seed Proanthocyanidin Extract on Vascular Endothelial Function in Participants with Prehypertension. Nutrients, 2019. PMID: 31757033",
+        "[3] - Schon C et al. Grape Seed Extract Positively Modulates Blood Pressure and Perceived Stress: A Randomized, Double-Blind, Placebo-Controlled Study in Healthy Volunteers. Nutrients, 2021. PMID: 33671310",
+        "[4] - Jung HJ, Choo KS. Pilot study on the effect of grape seed proanthocyanidin extract on inferior vena cava blood flow in patients with chronic venous insufficiency using 4D flow MRI. Medicine (Baltimore), 2022. PMID: 36401399",
+        "[5] - Sano A et al. Procyanidin B1 is detected in human serum after intake of proanthocyanidin-rich grape seed extract. Biosci Biotechnol Biochem, 2003. PMID: 12834296"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Grape seeds have been present in Mediterranean viticulture for over 6,000 years, though their deliberate medicinal use as a seed extract is a modern development. Traditional European viticulture regarded grape skins and seeds as by-products of wine production. The French paradox — the observation that wine-drinking Mediterranean populations showed lower cardiovascular mortality despite high saturated fat intake — prompted systematic investigation of grape polyphenols in the 1980s and 1990s. Grape seed proanthocyanidin extracts (GSPE) were subsequently standardised for pharmaceutical and nutraceutical use, with OPC-rich preparations achieving regulatory recognition in France as phlebotonics for venous insufficiency.",
+      "modern_application": "Grape seed extract standardised to oligomeric proanthocyanidins (OPCs, ≥95%) is among the most extensively studied botanical antioxidants in clinical cardiovascular research. A 2016 meta-analysis of 16 randomised controlled trials (n=810) found grape seed extract produced a significant mean reduction in systolic BP of 6.1 mmHg and diastolic BP of 2.8 mmHg, with the greatest effect in younger and obese participants [1]. (Note: individual constituent trials within this meta-analysis were labelled 'grape seed extract'; species-level confirmation of all 16 trials as exclusively Vitis vinifera was not verifiable from the published abstract.) A 2019 randomised, double-blind, placebo-controlled trial in prehypertensive adults (n=30, aged 40–64) demonstrated that high-dose GSPE (400 mg/day, 12 weeks) significantly reduced systolic BP by 13 mmHg and improved vascular stiffness parameters in non-smokers [2]. A 2021 randomised, double-blind, placebo-controlled trial (Enovita standardised V. vinifera seed extract, 300 mg/day, 16 weeks; exact n not reported in the published abstract) in healthy volunteers confirmed blood pressure modulation and reductions in perceived stress scores; reductions in endothelin-1 and soluble ICAM-1 were observed in complementary in vitro endothelial cell experiments reported within the same study [3]. A 2022 non-randomised pilot study (n=23) in patients with chronic venous insufficiency found that combined compression stocking and GSPE therapy produced a statistically significant increase in inferior vena cava peak blood flow velocity (P < 0.001), whereas stocking therapy alone did not reach significance; GSPE dose and duration for this trial were not reported in the published abstract [4].",
+      "side_effects": "No serious adverse events were reported in the randomised controlled trials cited in this monograph, which used doses up to 400 mg/day for up to 16 weeks. Adverse effects reported in the broader clinical literature include dry or itchy scalp, dizziness, headache, nausea, and indigestion; these are not documented in the five primary references cited here and derive from the wider published GSE tolerability literature. Antiplatelet activity has been reported with grape seed OPC preparations, which may increase bleeding tendency; a specific dose threshold for this effect in humans has not been established in controlled trials. Long-term safety data beyond 16 weeks from well-controlled human trials are limited.",
+      "contraindications": "Exercise caution with anticoagulant and antiplatelet medications (warfarin, aspirin, clopidogrel, NSAIDs) due to additive antiplatelet activity of OPCs. Insufficient safety data exist for use during pregnancy and lactation; avoid medicinal-dose preparations in these populations. Patients with known hypersensitivity to grape or grape derivatives should avoid Vitis vinifera seed preparations."
+    },
+    "clinical_data": {
+      "used_part": "Seed (grape seed extract, standardised to ≥95% OPC content)",
+      "primary_active_compounds": [
+        "Oligomeric proanthocyanidins (OPCs) — procyanidins B1, B2, B3, B4 (dimers and trimers of catechin/epicatechin)",
+        "Procyanidin C1 (trimer)",
+        "Catechin (flavan-3-ol monomer)",
+        "Epicatechin (flavan-3-ol monomer)",
+        "Gallic acid and gallic acid esters (including epicatechin gallate)",
+        "Resveratrol (stilbene; minor component in seed extract)",
+        "Tocopherols (vitamin E isomers; present in seed oil fraction)"
+      ],
+      "mechanism_of_action": "Grape seed OPCs exert cardiovascular protection through multiple convergent mechanisms. Direct free-radical scavenging targets reactive oxygen species (ROS) and reactive nitrogen species; OPC oligomers are among the most potent plant-derived antioxidants by ORAC assay. Anti-inflammatory activity is mediated through suppression of <strong>NF-κB</strong> signalling: OPCs inhibit IκBα phosphorylation and p65 nuclear translocation, reducing downstream expression of pro-inflammatory cytokines (TNF-α, IL-1β, IL-6), <strong>COX-2</strong>, and cell adhesion molecules (ICAM-1, VCAM-1) on vascular endothelium (demonstrated in vitro in cultured human endothelial cells [3]). Endothelial vasoprotection involves upregulation of <strong>eNOS (endothelial nitric oxide synthase)</strong> via the <strong>AMPK/SIRT1/KLF2</strong> pathway, increasing nitric oxide bioavailability and promoting vasodilation; simultaneous suppression of <strong>endothelin-1 (ET-1)</strong> reduces vasoconstrictor tone (in vitro, within the same study [3]). Antioxidant defence is further reinforced through activation of the <strong>Nrf2/HO-1</strong> pathway, upregulating endogenous antioxidant enzymes (superoxide dismutase, glutathione peroxidase, catalase) — demonstrated in preclinical models; supporting citation not included in this monograph's primary reference set. OPCs also modulate platelet aggregation through effects on <strong>PECAM-1</strong> (platelet/endothelial cell adhesion molecule-1) signalling, based on preclinical data; supporting citation not included in this monograph's primary reference set. Venous tone enhancement through collagen cross-link stabilisation and inhibition of <strong>collagenase/elastase</strong> activity is postulated as a mechanism underlying phlebotonic effects in venous insufficiency.",
+      "pharmacokinetics": {
+        "absorption": "Limited human pharmacokinetic data are available for grape seed OPCs. In a controlled human study (n=4 healthy volunteers), oral administration of 2.0 g of proanthocyanidin-rich grape seed extract resulted in detection of procyanidin B1 in serum at 2 hours post-dose at a mean concentration of 10.6 ± 2.5 nmol/L, demonstrating systemic absorption of intact dimeric proanthocyanidins [5]. The very small sample size (n=4) limits the generalisability of these findings. Monomeric flavan-3-ols (catechin, epicatechin) are absorbed more readily in the small intestine than higher-molecular-weight oligomers, which are poorly absorbed intact and undergo substantial colonic microbial catabolism prior to absorption. Overall oral bioavailability is low-to-moderate and highly dependent on molecular weight, gut transit time, and microbiome composition.",
+        "distribution": "No formal human pharmacokinetic distribution studies are available for Vitis vinifera seed extract OPCs beyond the serum detection reported in the n=4 pilot study [5]. In animal models, OPCs and their phenolic acid metabolites distribute to vascular endothelium, liver, kidney, and intestinal wall. Plasma protein binding of monomeric catechins is estimated at 60–70% in vitro. Volume-of-distribution data in humans have not been published for the OPC fraction.",
+        "metabolism": "Grape seed OPCs undergo two-phase metabolism. Higher-molecular-weight proanthocyanidins are hydrolysed by colonic microbiota to monomeric flavan-3-ols, which are further catabolised to hydroxyphenylpropionic acid, hydroxyphenylacetic acid, and hydroxyphenylvaleric acid derivatives — the dominant circulating and urinary metabolites in humans. Monomeric catechin and epicatechin undergo hepatic Phase II conjugation (glucuronidation, sulfation, O-methylation via COMT). No significant inhibition of CYP450 isoforms has been reported for grape seed OPCs at clinical supplemental doses.",
+        "excretion": "Phenolic acid metabolites of grape seed OPC catabolism are excreted primarily in urine, confirmed by human dietary intervention studies showing significant increases in urinary 3-hydroxyphenylpropionic acid (3-HPP) excretion following grape seed polyphenol intake. Biliary excretion of glucuronide conjugates contributes to faecal elimination. Exact elimination half-lives for specific OPC monomers and dimers in humans have not been established."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Anticoagulants (warfarin) and antiplatelet agents (aspirin, clopidogrel, NSAIDs): additive antiplatelet activity via PECAM-1 modulation is mechanistically plausible; pharmacodynamic interaction cannot be excluded, though no clinically documented pharmacokinetic INR-altering interaction specific to grape seed extract has been identified in the reviewed literature. CYP450 interactions: no significant CYP inhibition has been documented at clinical doses in human studies; pharmacokinetic interactions with CYP substrates appear low-risk at standard supplemental doses. Additive antihypertensive effects are possible when combined with blood pressure-lowering medications; monitor blood pressure accordingly [1, 2, 3].",
+        "toxicity": "In 90-day rodent oral toxicity studies (regulatory preclinical safety literature; not directly cited in this monograph's five primary references), grape seed extract demonstrated a no-observed-adverse-effect level (NOAEL) of approximately 1,400–1,500 mg/kg/day. No evidence of mutagenicity was found in bacterial reverse mutation assays (regulatory preclinical data). No serious adverse events were reported in any of the clinical trials cited in this monograph. Grape seed extract preparations standardised to ≥95% OPCs are generally well tolerated in short-term trials up to 16 weeks; available clinical evidence does not support a significant hepatotoxic or nephrotoxic risk at supplemental doses up to 400 mg/day."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient human safety data for medicinal-dose grape seed extract preparations during pregnancy. Animal studies have not identified teratogenic effects of OPCs at standard doses, but adequate human data are lacking. Avoid medicinal-dose preparations during pregnancy as a precautionary measure.",
+        "lactation": "Excretion of OPC metabolites into breast milk is unknown. Insufficient safety data for medicinal-dose preparations during lactation. Avoid as a precautionary measure.",
+        "hepatic_impairment": "No formal studies in patients with hepatic impairment. Phase II hepatic conjugation is the primary metabolic route for monomeric catechin metabolites; impaired liver function may alter OPC metabolite clearance. Grape seed extract has not been associated with hepatotoxicity in available clinical data. Use with caution in severe hepatic impairment; no dose adjustment guidelines have been established.",
+        "renal_impairment": "Primary elimination route for OPC-derived metabolites is renal. Accumulation of phenolic acid metabolites is possible in severe renal impairment. No specific adverse renal outcomes have been documented at supplemental doses in available clinical data. No dose adjustment guidelines have been established; use with caution in severe renal impairment."
+      }
+    }
   }
 ]
