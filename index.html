@@ -26,6 +26,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" /></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <script src="/tailwind.js"></script>
   <script>
     tailwind.config = {
@@ -53,16 +54,34 @@
     };
   </script>
   <style>
-    .cta-btn {
-      transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
-    }
-    .cta-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 12px 32px -6px rgba(28,82,53,0.30);
-    }
+    .cta-btn { transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease; }
+    .cta-btn:hover { transform: translateY(-2px); }
+    .lift { transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, color 0.18s ease, border-color 0.18s ease; }
+    .lift:hover { transform: translateY(-2px); }
+    .mono { font-family: 'Spline Sans Mono', monospace; }
+    @keyframes riseIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+    .rise { animation: riseIn 0.5s ease both; }
   </style>
 </head>
 <body class="bg-white text-gray-900 antialiased">
+
+<!-- ═══ REUSABLE SPRIG SVG SYMBOLS ═══ -->
+<svg width="0" height="0" style="position:absolute;" aria-hidden="true">
+  <defs>
+    <g id="lf">
+      <path d="M0 0 Q 11 -15 0 -34 Q -11 -15 0 0 Z"></path>
+      <path d="M0 -4 L0 -29"></path>
+    </g>
+    <g id="sprig">
+      <path d="M0 0 C -9 -48 7 -100 0 -156"></path>
+      <use href="#lf" transform="translate(-2 -34) rotate(-42) scale(.8)"></use>
+      <use href="#lf" transform="translate(2 -64) rotate(40) scale(.92)"></use>
+      <use href="#lf" transform="translate(-2 -96) rotate(-38) scale(.85)"></use>
+      <use href="#lf" transform="translate(1 -126) rotate(34) scale(.7)"></use>
+      <use href="#lf" transform="translate(0 -150) rotate(0) scale(.6)"></use>
+    </g>
+  </defs>
+</svg>
 
   <!-- ══════════ STICKY HEADER (disclaimer + nav) ══════════ -->
   <div class="sticky top-0 z-50">
@@ -128,55 +147,59 @@
   </div><!-- /sticky header wrapper -->
 
   <!-- ═══════════════════════════════════ HERO ══════════════════════════════════ -->
-  <section class="relative overflow-hidden bg-white">
-    <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_55%_at_50%_-10%,rgba(28,82,53,0.07),transparent)]" aria-hidden="true"></div>
+  <section style="position:relative;overflow:hidden;padding:88px 24px 72px;text-align:center;background:radial-gradient(125% 100% at 50% -18%,#C6ECD4 0%,#E4F5EB 36%,#FFFFFF 74%);">
+    <!-- Dot grid -->
+    <div aria-hidden="true" style="position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,rgba(30,142,78,.13) 1px,transparent 0);background-size:26px 26px;opacity:.75;pointer-events:none;"></div>
+    <!-- Green glow blob -->
+    <div aria-hidden="true" style="position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:680px;height:380px;background:radial-gradient(closest-side,rgba(45,196,123,.22),transparent);pointer-events:none;"></div>
+    <!-- Botanical sprigs -->
+    <svg viewBox="0 0 1280 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.5;" fill="none" stroke="#1E9E57" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <use href="#sprig" transform="translate(78 600) rotate(7) scale(1.3)"></use>
+      <use href="#sprig" transform="translate(1206 612) rotate(-12) scale(1.45)"></use>
+      <use href="#sprig" transform="translate(1120 -20) rotate(176) scale(1.15)"></use>
+      <use href="#sprig" transform="translate(178 -34) rotate(184) scale(1)"></use>
+    </svg>
 
-    <div class="relative max-w-4xl mx-auto px-6 pt-20 pb-16 text-center">
+    <div style="position:relative;max-width:860px;margin:0 auto;">
+      <!-- Badge -->
+      <span class="mono rise" style="display:inline-block;font-size:12px;letter-spacing:0.2em;color:#1A8E4E;text-transform:uppercase;border:1px solid #9FD9B5;background:#E7F7EE;border-radius:999px;padding:6px 14px;margin-bottom:26px;box-shadow:0 1px 0 rgba(45,196,123,.25);">Peer-reviewed · cited to the study</span>
 
       <!-- Headline -->
-      <h1 class="text-5xl sm:text-6xl font-bold text-gray-900 leading-[1.1] tracking-tight mb-5">
-        Botanical Medicine,<br />
-        <span class="text-forest-800">Evidence First.</span>
+      <h1 style="font-size:clamp(44px,7vw,80px);line-height:0.97;font-weight:800;letter-spacing:-0.035em;color:#0F1A28;margin:0 auto;max-width:15ch;">
+        Botanical Medicine,<br>
+        <span style="background:linear-gradient(102deg,#34C77B 0%,#1E9E57 42%,#15633F 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">Evidence First.</span>
       </h1>
 
       <!-- Sub-headline -->
-      <p class="text-xl text-gray-500 font-light max-w-2xl mx-auto mb-10 leading-relaxed">
-        A structured, peer-reviewed archive of botanical and fungal monographs —
-        sourced from primary literature, cited down to the study.
+      <p style="font-size:clamp(16px,2vw,21px);line-height:1.55;color:#5B6B7A;max-width:46ch;margin:28px auto 0;">
+        A structured, peer-reviewed archive of botanical and fungal monographs — sourced from primary literature, cited down to the study.
       </p>
 
-      <!-- Primary CTA — database link -->
-      <a href="/database.html"
-         class="cta-btn inline-flex items-center gap-3 px-8 py-4 bg-forest-800 text-white font-semibold rounded-xl text-base shadow-lg mb-5">
-        <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 2.625c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/>
-        </svg>
-        Explore the Database — 50+ Bioactive Monographs
-        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/>
-        </svg>
-      </a>
-
-      <!-- Secondary CTA — e-books -->
-      <div class="mb-4">
-        <a href="#ebooks"
-           class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-gray-200 text-gray-700 font-semibold text-sm hover:border-forest-700 hover:text-forest-800 transition-colors duration-200">
-          <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>
-          </svg>
-          Browse E-Books
+      <!-- CTAs -->
+      <div style="display:flex;flex-direction:column;align-items:center;gap:16px;margin-top:42px;">
+        <!-- Grow Your Own — top, prominent -->
+        <a href="/grow.html" class="lift" style="display:inline-flex;align-items:center;gap:11px;background:linear-gradient(135deg,#3E9E63 0%,#247A47 52%,#155A34 100%);color:#fff;font-size:18px;font-weight:700;padding:18px 32px;border-radius:14px;box-shadow:0 20px 42px -14px rgba(20,90,52,.5);text-decoration:none;" aria-label="Grow Your Own — learn to grow medicinal plants">
+          <svg viewBox="-22 -160 44 168" width="14" height="50" fill="none" stroke="rgba(255,255,255,.92)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#sprig"></use></svg>
+          Grow Your Own →
         </a>
+        <!-- Database + E-Books — same row -->
+        <div style="display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;">
+          <a href="/database.html" class="lift" style="display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#1C5A4A 0%,#103E33 52%,#0A2A22 100%);color:#fff;font-size:17px;font-weight:700;padding:18px 28px;border-radius:13px;box-shadow:0 20px 42px -14px rgba(12,42,34,.55);text-decoration:none;">
+            🗄 Explore the Database →
+          </a>
+          <a href="#ebooks" class="lift" style="display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#C0824A 0%,#9A5F30 52%,#71421E 100%);color:#fff;font-size:17px;font-weight:700;padding:17px 26px;border-radius:13px;box-shadow:0 20px 42px -14px rgba(120,70,30,.5);text-decoration:none;">
+            📘 Browse E-Books
+          </a>
+        </div>
       </div>
 
-      <!-- Secondary: Instagram -->
-      <div>
-        <a href="https://instagram.com/thebmsarchive" target="_blank" rel="noopener noreferrer"
-           class="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-forest-700 transition-colors duration-200">
-          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
-          </svg>
-          Follow on Instagram for updates
-        </a>
+      <!-- Stats strip -->
+      <div class="mono" style="display:flex;align-items:center;justify-content:center;gap:22px;flex-wrap:wrap;margin-top:34px;font-size:14px;color:#6E8579;letter-spacing:0.04em;">
+        <span><strong style="color:#178A4D;font-weight:600;">66</strong> monographs</span>
+        <span style="color:#9FCBB0;">/</span>
+        <span><strong style="color:#178A4D;font-weight:600;">1,200+</strong> citations</span>
+        <span style="color:#9FCBB0;">/</span>
+        <span><strong style="color:#178A4D;font-weight:600;">6</strong> field guides</span>
       </div>
     </div>
   </section>
@@ -212,14 +235,149 @@
     </div>
   </div>
 
+  <!-- ═══════════════════════════════ E-BOOKS ════════════════════════════════ -->
+  <section id="ebooks" class="py-20 bg-white relative overflow-hidden">
+    <!-- Very subtle green tint grid -->
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true"
+         style="background-image:radial-gradient(circle at 1px 1px,rgba(30,142,78,.06) 1px,transparent 0);background-size:28px 28px;"></div>
+
+    <div class="relative max-w-6xl mx-auto px-6">
+
+      <!-- Section header -->
+      <div class="mb-12">
+        <p class="mono text-xs uppercase mb-3" style="letter-spacing:0.2em;color:#178A4D;">E-Books · Evidence-Based Relief</p>
+        <h2 class="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 leading-tight mb-3">The archive, made portable.</h2>
+        <p class="text-lg max-w-xl leading-relaxed text-gray-500">
+          Fully-cited field guides you buy once and keep. No subscription, no paywalled citations.
+        </p>
+      </div>
+
+      <!-- Featured spotlight: Complete Field Guide -->
+      <div class="rounded-2xl overflow-hidden mb-10 flex flex-col sm:flex-row gap-0" style="border:1px solid #E5EDE9;box-shadow:0 4px 32px -8px rgba(28,82,53,.1);">
+        <!-- Book cover -->
+        <div class="sm:w-56 flex-shrink-0 flex items-center justify-center p-8" style="background:linear-gradient(150deg,#193E2D,#0D2519);">
+          <div class="w-36 aspect-[3/4] rounded-lg p-4 flex flex-col justify-between relative overflow-hidden"
+               style="background:linear-gradient(150deg,#27543E,#143A2A);box-shadow:0 16px 40px -10px rgba(0,0,0,0.7);">
+            <div class="absolute inset-0" aria-hidden="true"
+                 style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.06) 0 1px,transparent 1px 10px);"></div>
+            <p class="relative text-[7px] font-mono uppercase" style="letter-spacing:0.18em;color:rgba(255,255,255,0.55);">BMS Archive</p>
+            <div class="relative">
+              <p class="text-sm font-bold text-white leading-tight">The Complete<br>Field Guide</p>
+              <div class="w-5 h-px my-2" style="background:rgba(255,255,255,0.4);"></div>
+              <p class="text-[8px] font-mono" style="color:rgba(255,255,255,0.5);">Full Archive</p>
+            </div>
+          </div>
+        </div>
+        <!-- Description -->
+        <div class="flex-1 p-8 flex flex-col justify-between">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold mb-4"
+                 style="background:#E7F7EE;border:1px solid #9FD9B5;color:#178A4D;">Featured</div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">The Complete Field Guide to Botanical Medicine</h3>
+            <p class="text-gray-500 leading-relaxed mb-6">All 66 monographs in one volume — fungi and plant profiles, full ADME pharmacokinetics, drug interaction tables, cited to the study. The definitive reference for practitioners and researchers.</p>
+            <ul class="space-y-1.5 text-sm text-gray-600 mb-6">
+              <li class="flex items-center gap-2"><span style="color:#178A4D;">✓</span> 320 pages · 66 profiles</li>
+              <li class="flex items-center gap-2"><span style="color:#178A4D;">✓</span> 1,200+ primary citations</li>
+              <li class="flex items-center gap-2"><span style="color:#178A4D;">✓</span> Safety &amp; interaction tables</li>
+            </ul>
+          </div>
+          <div class="flex items-center gap-4">
+            <span class="text-3xl font-bold text-gray-900">$39</span>
+            <div class="px-5 py-2.5 rounded-xl text-sm font-semibold cursor-default select-none"
+                 style="background:#F1F5F2;border:1px solid #D4E4DB;color:#6E8579;">Coming Soon</div>
+            <div class="flex items-center gap-1.5 ml-1">
+              <span class="w-1.5 h-1.5 rounded-full animate-pulse" style="background:#7FB596;"></span>
+              <span class="text-xs text-gray-400">Launching soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3-card grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+
+        <!-- Book: Medicinal Fungi -->
+        <div class="rounded-2xl p-5 flex flex-col bg-gray-50" style="border:1px solid #E5EDE9;">
+          <div class="aspect-[3/4] rounded-xl p-4 flex flex-col justify-between relative overflow-hidden mb-4"
+               style="background:linear-gradient(150deg,#1E4A35,#0F2D1E);box-shadow:0 12px 28px -10px rgba(0,0,0,0.55);">
+            <div class="absolute inset-0" aria-hidden="true"
+                 style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 11px);"></div>
+            <p class="relative text-[8px] font-mono uppercase" style="letter-spacing:0.18em;color:rgba(255,255,255,0.55);">BMS Archive</p>
+            <div class="relative">
+              <p class="text-base font-bold text-white leading-tight">Medicinal Fungi</p>
+              <div class="w-6 h-px my-2" style="background:rgba(255,255,255,0.4);"></div>
+              <p class="text-[9px] font-mono" style="color:rgba(255,255,255,0.5);">Mycology</p>
+            </div>
+          </div>
+          <div class="flex items-baseline justify-between gap-2 mb-1">
+            <p class="text-sm font-bold text-gray-900 leading-tight">Medicinal Fungi</p>
+            <p class="text-sm font-bold text-gray-900 whitespace-nowrap">$24</p>
+          </div>
+          <p class="text-xs text-gray-400 mb-4">140 pp · 25 fungal monographs</p>
+          <div class="mt-auto text-center py-2.5 rounded-xl text-xs font-semibold cursor-default select-none"
+               style="background:#F1F5F2;border:1px solid #D4E4DB;color:#8FA89B;">Coming Soon</div>
+        </div>
+
+        <!-- Book: Medicinal Plants -->
+        <div class="rounded-2xl p-5 flex flex-col bg-gray-50" style="border:1px solid #E5EDE9;">
+          <div class="aspect-[3/4] rounded-xl p-4 flex flex-col justify-between relative overflow-hidden mb-4"
+               style="background:linear-gradient(150deg,#2E5040,#192E22);box-shadow:0 12px 28px -10px rgba(0,0,0,0.55);">
+            <div class="absolute inset-0" aria-hidden="true"
+                 style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 11px);"></div>
+            <p class="relative text-[8px] font-mono uppercase" style="letter-spacing:0.18em;color:rgba(255,255,255,0.55);">BMS Archive</p>
+            <div class="relative">
+              <p class="text-base font-bold text-white leading-tight">Medicinal Plants</p>
+              <div class="w-6 h-px my-2" style="background:rgba(255,255,255,0.4);"></div>
+              <p class="text-[9px] font-mono" style="color:rgba(255,255,255,0.5);">Botanical Medicine</p>
+            </div>
+          </div>
+          <div class="flex items-baseline justify-between gap-2 mb-1">
+            <p class="text-sm font-bold text-gray-900 leading-tight">Medicinal Plants</p>
+            <p class="text-sm font-bold text-gray-900 whitespace-nowrap">$24</p>
+          </div>
+          <p class="text-xs text-gray-400 mb-4">140 pp · 41 botanical monographs</p>
+          <div class="mt-auto text-center py-2.5 rounded-xl text-xs font-semibold cursor-default select-none"
+               style="background:#F1F5F2;border:1px solid #D4E4DB;color:#8FA89B;">Coming Soon</div>
+        </div>
+
+        <!-- Book: Grow Your Own -->
+        <div class="rounded-2xl p-5 flex flex-col bg-gray-50" style="border:1px solid #E5EDE9;">
+          <div class="aspect-[3/4] rounded-xl p-4 flex flex-col justify-between relative overflow-hidden mb-4"
+               style="background:linear-gradient(150deg,#3E6B36,#24401F);box-shadow:0 12px 28px -10px rgba(0,0,0,0.55);">
+            <div class="absolute inset-0" aria-hidden="true"
+                 style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 11px);"></div>
+            <p class="relative text-[8px] font-mono uppercase" style="letter-spacing:0.18em;color:rgba(255,255,255,0.55);">BMS Archive</p>
+            <div class="relative">
+              <p class="text-base font-bold text-white leading-tight">Grow Your Own</p>
+              <div class="w-6 h-px my-2" style="background:rgba(255,255,255,0.4);"></div>
+              <p class="text-[9px] font-mono" style="color:rgba(255,255,255,0.5);">Cultivation Guide</p>
+            </div>
+          </div>
+          <div class="flex items-baseline justify-between gap-2 mb-1">
+            <p class="text-sm font-bold text-gray-900 leading-tight">Grow Your Own</p>
+            <p class="text-sm font-bold text-gray-900 whitespace-nowrap">$19</p>
+          </div>
+          <p class="text-xs text-gray-400 mb-4">90 pp · cultivation &amp; harvest guide</p>
+          <div class="mt-auto text-center py-2.5 rounded-xl text-xs font-semibold cursor-default select-none"
+               style="background:#F1F5F2;border:1px solid #D4E4DB;color:#8FA89B;">Coming Soon</div>
+        </div>
+
+      </div><!-- /book grid -->
+    </div>
+  </section>
+
   <!-- ══════════════════════════ NEWSLETTER ════════════════════════════ -->
-  <section class="py-20 bg-white">
-    <div class="max-w-lg mx-auto px-6 text-center">
-      <p class="text-xs font-semibold text-forest-600 uppercase tracking-widest mb-4">Research Digest</p>
-      <h2 class="text-2xl font-bold text-gray-900 mb-3 leading-snug">
+  <section class="relative overflow-hidden py-20" style="background:#0E2A20;">
+    <!-- Dot grid -->
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true"
+         style="background-image:radial-gradient(circle at 1px 1px,rgba(255,255,255,0.045) 1px,transparent 0);background-size:26px 26px;"></div>
+
+    <div class="relative max-w-lg mx-auto px-6 text-center">
+      <p class="mono text-xs uppercase mb-4" style="letter-spacing:0.2em;color:#7FB596;">Research Digest</p>
+      <h2 class="text-3xl font-bold text-white mb-3 leading-snug">
         Stay Updated with Latest Research
       </h2>
-      <p class="text-gray-500 text-sm leading-relaxed mb-8">
+      <p class="text-sm leading-relaxed mb-8" style="color:rgba(255,255,255,0.55);">
         A monthly digest of newly published peer-reviewed studies on botanical compounds —
         straight to your inbox, no noise.
       </p>
@@ -230,131 +388,30 @@
           type="email"
           id="newsletter-email"
           name="email"
-          placeholder="Enter your email for research updates"
+          placeholder="Enter your email"
           required
           autocomplete="email"
-          class="flex-1 px-4 py-3 rounded-lg border border-gray-200 text-gray-900 placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-forest-700 focus:border-transparent transition"
+          class="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-forest-700 transition"
+          style="background:rgba(255,255,255,0.97);border:1px solid rgba(255,255,255,0.15);"
         />
         <button
           type="submit"
-          class="px-6 py-3 bg-forest-800 hover:bg-forest-900 text-white font-semibold rounded-lg transition-colors duration-200 text-sm whitespace-nowrap shadow-sm"
+          class="px-6 py-3 font-semibold rounded-lg transition-colors duration-200 text-sm whitespace-nowrap shadow-sm"
+          style="background:#1C5235;color:#fff;border:1px solid rgba(255,255,255,0.1);"
         >
           Subscribe
         </button>
       </form>
 
-      <div id="newsletter-success" class="hidden mt-5 flex items-center justify-center gap-2 text-forest-700 text-sm font-semibold">
+      <div id="newsletter-success" class="hidden mt-5 flex items-center justify-center gap-2 text-sm font-semibold" style="color:#7FB596;">
         <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
         </svg>
         Subscribed. You'll receive the next research digest.
       </div>
-      <p id="newsletter-error" class="hidden mt-3 text-red-500 text-xs font-medium"></p>
+      <p id="newsletter-error" class="hidden mt-3 text-red-400 text-xs font-medium"></p>
 
-      <p class="text-xs text-gray-400 mt-4">No spam. Unsubscribe anytime.</p>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════ E-BOOKS ════════════════════════════════ -->
-  <section id="ebooks" class="py-20 relative overflow-hidden" style="background:#0c2519;">
-    <!-- dot grid texture -->
-    <div class="absolute inset-0 pointer-events-none" aria-hidden="true"
-         style="background-image:radial-gradient(circle at 1px 1px,rgba(255,255,255,0.04) 1px,transparent 0);background-size:26px 26px;"></div>
-
-    <div class="relative max-w-6xl mx-auto px-6">
-
-      <!-- Section header -->
-      <div class="mb-12">
-        <p class="text-xs font-mono uppercase mb-4" style="letter-spacing:0.2em;color:#7FB596;">E-Books · Evidence-Based Relief</p>
-        <h2 class="text-4xl sm:text-5xl font-bold tracking-tight text-white leading-tight mb-4">The archive, made portable.</h2>
-        <p class="text-lg max-w-2xl leading-relaxed mb-6" style="color:rgba(255,255,255,0.65);">
-          Fully-cited field guides you buy once and keep. No subscription, no paywalled citations.
-        </p>
-        <!-- Availability notice -->
-        <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full text-sm font-semibold"
-             style="background:rgba(127,181,150,0.12);border:1px solid rgba(127,181,150,0.35);color:#CDEBD8;">
-          <span class="w-1.5 h-1.5 rounded-full animate-pulse" style="background:#7FB596;"></span>
-          Unavailable at the moment — launching soon
-        </div>
-      </div>
-
-      <!-- Book cards grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-        <!-- Book 1: Complete Field Guide -->
-        <div class="rounded-2xl p-5 flex flex-col" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">
-          <!-- Typographic cover -->
-          <div class="aspect-[3/4] rounded-xl p-5 flex flex-col justify-between relative overflow-hidden mb-5"
-               style="background:linear-gradient(150deg,#27543E,#143A2A);box-shadow:0 20px 36px -18px rgba(0,0,0,0.7);">
-            <div class="absolute inset-0" aria-hidden="true"
-                 style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 11px);"></div>
-            <p class="relative text-[9px] font-mono uppercase" style="letter-spacing:0.2em;color:rgba(255,255,255,0.6);">EVIDENCE-BASED RELIEF</p>
-            <div class="relative">
-              <p class="text-xl font-bold text-white leading-tight">The Complete<br>Field Guide</p>
-              <div class="w-7 h-px my-3" style="background:rgba(255,255,255,0.4);"></div>
-              <p class="text-[10px] font-mono" style="color:rgba(255,255,255,0.6);">Full Archive</p>
-            </div>
-          </div>
-          <div class="flex items-baseline justify-between gap-3 mb-1">
-            <p class="text-base font-bold text-white leading-tight">The Complete Field Guide</p>
-            <p class="text-base font-bold whitespace-nowrap" style="color:rgba(127,181,150,0.6);">$39</p>
-          </div>
-          <p class="text-xs mb-5" style="color:rgba(255,255,255,0.4);">320 pp · Fungi &amp; Plants — full archive</p>
-          <div class="mt-auto text-center py-3 rounded-xl text-sm font-semibold cursor-default select-none"
-               style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.09);color:rgba(255,255,255,0.35);">
-            Coming Soon
-          </div>
-        </div>
-
-        <!-- Book 2: Medicinal Fungi -->
-        <div class="rounded-2xl p-5 flex flex-col" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">
-          <div class="aspect-[3/4] rounded-xl p-5 flex flex-col justify-between relative overflow-hidden mb-5"
-               style="background:linear-gradient(150deg,#1E4A35,#0F2D1E);box-shadow:0 20px 36px -18px rgba(0,0,0,0.7);">
-            <div class="absolute inset-0" aria-hidden="true"
-                 style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 11px);"></div>
-            <p class="relative text-[9px] font-mono uppercase" style="letter-spacing:0.2em;color:rgba(255,255,255,0.6);">EVIDENCE-BASED RELIEF</p>
-            <div class="relative">
-              <p class="text-xl font-bold text-white leading-tight">Medicinal Fungi</p>
-              <div class="w-7 h-px my-3" style="background:rgba(255,255,255,0.4);"></div>
-              <p class="text-[10px] font-mono" style="color:rgba(255,255,255,0.6);">Mycology</p>
-            </div>
-          </div>
-          <div class="flex items-baseline justify-between gap-3 mb-1">
-            <p class="text-base font-bold text-white leading-tight">Medicinal Fungi</p>
-            <p class="text-base font-bold whitespace-nowrap" style="color:rgba(127,181,150,0.6);">$24</p>
-          </div>
-          <p class="text-xs mb-5" style="color:rgba(255,255,255,0.4);">140 pp · 25 fungal monographs</p>
-          <div class="mt-auto text-center py-3 rounded-xl text-sm font-semibold cursor-default select-none"
-               style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.09);color:rgba(255,255,255,0.35);">
-            Coming Soon
-          </div>
-        </div>
-
-        <!-- Book 3: Medicinal Plants -->
-        <div class="rounded-2xl p-5 flex flex-col" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">
-          <div class="aspect-[3/4] rounded-xl p-5 flex flex-col justify-between relative overflow-hidden mb-5"
-               style="background:linear-gradient(150deg,#2E5040,#192E22);box-shadow:0 20px 36px -18px rgba(0,0,0,0.7);">
-            <div class="absolute inset-0" aria-hidden="true"
-                 style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 11px);"></div>
-            <p class="relative text-[9px] font-mono uppercase" style="letter-spacing:0.2em;color:rgba(255,255,255,0.6);">EVIDENCE-BASED RELIEF</p>
-            <div class="relative">
-              <p class="text-xl font-bold text-white leading-tight">Medicinal Plants</p>
-              <div class="w-7 h-px my-3" style="background:rgba(255,255,255,0.4);"></div>
-              <p class="text-[10px] font-mono" style="color:rgba(255,255,255,0.6);">Botanical Medicine</p>
-            </div>
-          </div>
-          <div class="flex items-baseline justify-between gap-3 mb-1">
-            <p class="text-base font-bold text-white leading-tight">Medicinal Plants</p>
-            <p class="text-base font-bold whitespace-nowrap" style="color:rgba(127,181,150,0.6);">$24</p>
-          </div>
-          <p class="text-xs mb-5" style="color:rgba(255,255,255,0.4);">140 pp · 36 botanical monographs</p>
-          <div class="mt-auto text-center py-3 rounded-xl text-sm font-semibold cursor-default select-none"
-               style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.09);color:rgba(255,255,255,0.35);">
-            Coming Soon
-          </div>
-        </div>
-
-      </div><!-- /book grid -->
+      <p class="text-xs mt-4" style="color:rgba(255,255,255,0.3);">No spam. Unsubscribe anytime.</p>
     </div>
   </section>
 
