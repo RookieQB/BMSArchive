@@ -61,6 +61,53 @@
     .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 32px -6px rgba(28,82,53,0.30); }
     .mono { font-family: 'Spline Sans Mono', monospace; }
     .italic-serif { font-family: 'Newsreader', serif; font-style: italic; }
+
+    /* ── MOBILE ── */
+    @media (max-width: 640px) {
+      .pg-section      { padding-left: 20px !important; padding-right: 20px !important; }
+      .pg-header-inner { padding-left: 18px !important; padding-right: 18px !important; }
+      .pg-nav          { gap: 12px !important; }
+      .pg-nav-ebooks   { display: none !important; }
+      .pg-nav-current  { display: none !important; }
+      .pg-hero         { padding: 52px 20px 44px !important; }
+      .pg-hero-sub     { font-size: 17px !important; max-width: none !important; }
+      .pg-hero-links > a { padding: 11px 13px !important; }
+      .pg-matcher-inner { padding: 22px 16px !important; border-radius: 14px !important; }
+      #grow-cards      { grid-template-columns: 1fr !important; }
+      .grow-card-info  { grid-template-columns: 1fr !important; gap: 10px 0 !important; }
+      .use-row-grid    { grid-template-columns: 1fr !important; gap: 18px !important; }
+      .match-grid      { grid-template-columns: 1fr !important; }
+      .match-grid > div:first-child { padding: 22px 20px !important; }
+      .match-grid > div:last-child  { padding: 22px 20px !important; }
+      .match-card-grid { grid-template-columns: 1fr !important; }
+      .match-detail-grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+      .match-actions   { align-items: stretch !important; gap: 12px !important; }
+      .match-actions > button:first-child { justify-content: center !important; width: 100% !important; }
+      .modal-care-grid { grid-template-columns: 1fr 1fr !important; gap: 10px !important; }
+      .modal-use-grid  { grid-template-columns: 1fr !important; gap: 14px !important; }
+      #modal-overlay   { padding: 18px 12px !important; }
+      #modal-panel     { border-radius: 18px !important; }
+      .modal-body-pad  { padding: 18px 16px 22px !important; }
+      .pg-cta-inner    { padding: 28px 20px !important; border-radius: 16px !important; }
+      .pg-cta-actions  { width: 100% !important; }
+      .pg-cta-actions > a { justify-content: center !important; width: 100% !important; box-sizing: border-box !important; }
+      footer           { padding: 20px !important; }
+    }
+
+    @media (max-width: 420px) {
+      .pg-brand-archive { display: none !important; }
+      .pg-header-inner  { height: 58px !important; }
+      .pg-hero-links > a { width: 100% !important; box-sizing: border-box !important; }
+      .grow-card        { flex-direction: column !important; }
+      .grow-card-strip  { width: 100% !important; height: 52px !important; }
+      .grow-card-strip svg { width: 18px !important; height: 48px !important; transform: rotate(90deg); }
+      .grow-card-body   { padding: 18px !important; }
+      .use-row-card     { padding: 20px !important; }
+      .modal-care-grid  { grid-template-columns: 1fr !important; }
+      .modal-hero       { padding: 24px 20px !important; }
+      .modal-plant-name { font-size: 30px !important; }
+      .modal-use-card   { padding: 22px 20px !important; }
+    }
   </style>
 </head>
 <body style="background:#EAE3D6;font-family:'Inter',system-ui,sans-serif;margin:0;-webkit-font-smoothing:antialiased;">
@@ -87,7 +134,7 @@
 <div style="position:sticky;top:0;z-index:50;">
   <!-- Disclaimer banner -->
   <div style="background:#fffbeb;border-bottom:1px solid #fde68a;" role="note" aria-label="Disclaimer">
-    <div style="max-width:72rem;margin:0 auto;padding:6px 24px;display:flex;align-items:center;gap:10px;">
+    <div class="pg-header-inner" style="max-width:72rem;margin:0 auto;padding:6px 24px;display:flex;align-items:center;gap:10px;">
       <svg style="width:16px;height:16px;color:#d97706;flex-shrink:0;" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
       </svg>
@@ -96,19 +143,19 @@
   </div>
   <!-- Nav -->
   <header style="background:rgba(250,248,241,.92);backdrop-filter:blur(8px);border-bottom:1px solid #DDD6C5;">
-    <div style="max-width:72rem;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;justify-content:space-between;">
+    <div class="pg-header-inner" style="max-width:72rem;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;justify-content:space-between;">
       <a href="/" style="display:flex;align-items:center;gap:11px;text-decoration:none;">
         <span style="font-weight:800;font-size:18px;letter-spacing:-0.02em;color:#0c2519;">BMS</span>
         <span style="width:1px;height:16px;background:#8dd0ac;display:block;"></span>
-        <span style="font-weight:300;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;color:#1c5235;">Archive</span>
+        <span class="pg-brand-archive" style="font-weight:300;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;color:#1c5235;">Archive</span>
       </a>
-      <nav style="display:flex;align-items:center;gap:24px;">
+      <nav class="pg-nav" style="display:flex;align-items:center;gap:24px;">
         <a href="/database.html" class="lift" style="font-size:14px;font-weight:600;color:#1c5235;text-decoration:none;display:inline-flex;align-items:center;gap:6px;">
           Browse Database
           <svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
         </a>
-        <a href="#ebooks" style="font-size:14px;font-weight:600;color:#5E6A60;text-decoration:none;" class="lift">E-Books</a>
-        <span style="font-size:14px;font-weight:600;color:#1B5138;display:inline-flex;align-items:center;gap:7px;">
+        <a href="/#ebooks" style="font-size:14px;font-weight:600;color:#5E6A60;text-decoration:none;" class="lift pg-nav-ebooks">E-Books</a>
+        <span class="pg-nav-current" style="font-size:14px;font-weight:600;color:#1B5138;display:inline-flex;align-items:center;gap:7px;">
           <svg viewBox="-22 -160 44 168" width="11" height="42" fill="none" stroke="#2C7A4E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#sprig"></use></svg>
           Grow Your Own
         </span>
@@ -118,7 +165,7 @@
 </div>
 
 <!-- ═══ HERO ═══ -->
-<section style="position:relative;overflow:hidden;padding:80px 48px 66px;background:radial-gradient(120% 110% at 50% -14%,#D7E7D2 0%,#E8E8D8 40%,#EFEADD 78%);">
+<section class="pg-hero pg-section" style="position:relative;overflow:hidden;padding:80px 48px 66px;background:radial-gradient(120% 110% at 50% -14%,#D7E7D2 0%,#E8E8D8 40%,#EFEADD 78%);">
   <div style="position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,rgba(43,122,78,.11) 1px,transparent 0);background-size:26px 26px;opacity:.7;pointer-events:none;" aria-hidden="true"></div>
   <svg viewBox="0 0 1280 560" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.4;" fill="none" stroke="#3E7A52" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <use href="#sprig" transform="translate(96 560) rotate(8) scale(1.35)"></use>
@@ -132,8 +179,8 @@
       Grow your own<br>
       <span style="background:linear-gradient(102deg,#34C77B 0%,#1E9E57 44%,#15633F 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">phytomedicine.</span>
     </h1>
-    <p style="font-size:20px;line-height:1.55;color:#5E6A60;max-width:54ch;margin:26px auto 0;">A handful of beginner-friendly plants, straight from the archive. See what fits your space, learn how to grow it, and use it safely — cited to the evidence, never overstated.</p>
-    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:40px;">
+    <p class="pg-hero-sub" style="font-size:20px;line-height:1.55;color:#5E6A60;max-width:54ch;margin:26px auto 0;">A handful of beginner-friendly plants, straight from the archive. See what fits your space, learn how to grow it, and use it safely — cited to the evidence, never overstated.</p>
+    <div class="pg-hero-links" style="display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:40px;">
       <a href="#why" class="lift" style="cursor:pointer;display:flex;align-items:center;gap:12px;background:#FBF8F1;border:1px solid #E0D9C7;border-radius:14px;padding:14px 18px;text-align:left;text-decoration:none;">
         <span class="mono" style="font-size:13px;font-weight:500;color:#1B5138;background:#E6F2E9;border-radius:8px;width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center;">01</span>
         <span><span style="display:block;font-size:15px;font-weight:700;color:#15281D;">Why grow your own</span><span style="display:block;font-size:13px;color:#8A8270;">the short case</span></span>
@@ -151,7 +198,7 @@
 </section>
 
 <!-- ═══ WHY ═══ -->
-<section id="why" style="padding:78px 48px 18px;">
+<section id="why" class="pg-section" style="padding:78px 48px 18px;">
   <div style="max-width:1180px;margin:0 auto;">
     <div class="mono" style="font-size:12px;letter-spacing:0.2em;color:#2C7A4E;text-transform:uppercase;margin-bottom:14px;">Why grow your own</div>
     <h2 style="font-size:clamp(28px,3.5vw,40px);line-height:1.04;font-weight:800;letter-spacing:-0.03em;color:#142318;margin:0;max-width:24ch;">A windowsill is a surprisingly good pharmacy.</h2>
@@ -177,13 +224,13 @@
 </section>
 
 <!-- ═══ INTERACTIVE MATCHER ═══ -->
-<section id="matcher" style="padding:64px 48px 72px;">
-  <div style="max-width:1180px;margin:0 auto;background:linear-gradient(150deg,#EAF1E6 0%,#F4F0E6 60%,#F0EADC 100%);border:1px solid #DCE2D4;border-radius:24px;padding:42px;position:relative;overflow:hidden;">
+<section id="matcher" class="pg-section" style="padding:64px 48px 72px;">
+  <div class="pg-matcher-inner" style="max-width:1180px;margin:0 auto;background:linear-gradient(150deg,#EAF1E6 0%,#F4F0E6 60%,#F0EADC 100%);border:1px solid #DCE2D4;border-radius:24px;padding:42px;position:relative;overflow:hidden;">
     <div style="position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,rgba(43,122,78,.08) 1px,transparent 0);background-size:24px 24px;pointer-events:none;" aria-hidden="true"></div>
     <div style="position:relative;">
       <div class="mono" style="font-size:12px;letter-spacing:0.2em;color:#2C7A4E;text-transform:uppercase;margin-bottom:12px;">Can I grow this?</div>
       <h2 style="font-size:clamp(24px,3vw,34px);line-height:1.06;font-weight:800;letter-spacing:-0.02em;color:#142318;margin:0;max-width:26ch;">Tell us your space and your goal — we'll match you a plant.</h2>
-      <p style="font-size:16px;line-height:1.6;color:#5E6A60;margin:12px 0 0;max-width:58ch;">A two-tap demo. Pick where it'll live and what you want help with, and we'll suggest a starter plant with a simple tea plan.</p>
+    <p style="font-size:16px;line-height:1.6;color:#5E6A60;margin:12px 0 0;max-width:58ch;">A two-tap demo. Pick the light you have and what you want support with, and we'll suggest a short list of growable starter plants.</p>
 
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px;margin-top:34px;">
         <!-- Space chips -->
@@ -205,17 +252,17 @@
 </section>
 
 <!-- ═══ HOW TO GROW ═══ -->
-<section id="grow" style="padding:34px 48px 18px;">
+<section id="grow" class="pg-section" style="padding:34px 48px 18px;">
   <div style="max-width:1180px;margin:0 auto;">
     <div class="mono" style="font-size:12px;letter-spacing:0.2em;color:#2C7A4E;text-transform:uppercase;margin-bottom:14px;">How to grow</div>
-    <h2 style="font-size:clamp(28px,3.5vw,40px);line-height:1.04;font-weight:800;letter-spacing:-0.03em;color:#142318;margin:0;max-width:24ch;">Four plants, four pots, no garden required.</h2>
-    <p style="font-size:18px;line-height:1.6;color:#5E6A60;margin:16px 0 36px;max-width:62ch;">All four start happily from seed or a small plant on a sill or balcony. Here's the care each one wants.</p>
+    <h2 style="font-size:clamp(28px,3.5vw,40px);line-height:1.04;font-weight:800;letter-spacing:-0.03em;color:#142318;margin:0;max-width:24ch;">Twelve plants, many useful growing niches.</h2>
+    <p style="font-size:18px;line-height:1.6;color:#5E6A60;margin:16px 0 36px;max-width:62ch;">From shade-tolerant leaf herbs to full-sun Mediterranean shrubs, these options give the matcher enough range to respond to your actual space.</p>
     <div id="grow-cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:20px;"></div>
   </div>
 </section>
 
 <!-- ═══ HOW TO USE ═══ -->
-<section id="use" style="padding:64px 48px 24px;">
+<section id="use" class="pg-section" style="padding:64px 48px 24px;">
   <div style="max-width:1180px;margin:0 auto;">
     <div class="mono" style="font-size:12px;letter-spacing:0.2em;color:#2C7A4E;text-transform:uppercase;margin-bottom:14px;">How to use it</div>
     <h2 style="font-size:clamp(28px,3.5vw,40px);line-height:1.04;font-weight:800;letter-spacing:-0.03em;color:#142318;margin:0;max-width:26ch;">The active compounds, the evidence, and the cautions.</h2>
@@ -225,31 +272,31 @@
 </section>
 
 <!-- ═══ FURTHER READING / CITATIONS ═══ -->
-<section style="padding:40px 48px 0;">
+<section class="pg-section" style="padding:40px 48px 0;">
   <div style="max-width:1180px;margin:0 auto;">
     <div style="background:#FBF8F1;border:1px solid #E3DBC9;border-radius:18px;padding:28px 32px;">
       <div class="mono" style="font-size:12px;letter-spacing:0.2em;color:#2C7A4E;text-transform:uppercase;margin-bottom:14px;">Primary literature &amp; further reading</div>
-      <p style="font-size:15px;line-height:1.6;color:#5E6A60;margin:0 0 18px;">Evidence notes on this page draw from the primary literature listed below. For full citations, ADME pharmacokinetics, drug interaction data, and clinical dosing tables, open the complete monograph in the database.</p>
+      <p style="font-size:15px;line-height:1.6;color:#5E6A60;margin:0 0 18px;">Evidence notes on this page draw from conservative public health summaries, EMA/HMPC traditional-use monographs, and extension growing references. Home-grown tea, salve, or culinary use is not assumed to equal the extracts used in trials.</p>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;">
         <div style="background:#fff;border:1px solid #ECE4D2;border-radius:12px;padding:16px 18px;">
-          <div style="font-size:13px;font-weight:800;color:#15281D;margin-bottom:8px;">Peppermint</div>
-          <div style="font-size:12px;line-height:1.6;color:#7A8472;">Khanna R et al. (2014) Peppermint oil for IBS. <em>Am J Gastroenterol.</em> PMID: 24100754<br>EMA/HMPC monograph on <em>Mentha × piperita</em> folium (2020)</div>
-          <a href="/database.html" style="display:inline-block;margin-top:10px;font-size:12px;font-weight:700;color:#1B5138;text-decoration:none;">Full monograph →</a>
+          <div style="font-size:13px;font-weight:800;color:#15281D;margin-bottom:8px;">NCCIH safety summaries</div>
+          <div style="font-size:12px;line-height:1.6;color:#7A8472;">Used for conservative wording on peppermint oil, chamomile, ginger, turmeric, lavender, and echinacea. These summaries separate supplement evidence from food or tea use.</div>
+          <a href="https://www.nccih.nih.gov/health/herbsataglance" style="display:inline-block;margin-top:10px;font-size:12px;font-weight:700;color:#1B5138;text-decoration:none;">Open NCCIH herbs →</a>
         </div>
         <div style="background:#fff;border:1px solid #ECE4D2;border-radius:12px;padding:16px 18px;">
-          <div style="font-size:13px;font-weight:800;color:#15281D;margin-bottom:8px;">Holy Basil (Tulsi)</div>
-          <div style="font-size:12px;line-height:1.6;color:#7A8472;">Jamshidi N &amp; Cohen MM (2017) Adaptogenic properties of tulsi. <em>J Evid Based Complementary Altern Med.</em> PMID: 28075251<br>Saxena RC et al. (2012) Efficacy of Ocimum tenuiflorum. <em>J Ayurveda Integr Med.</em> PMID: 22661879</div>
-          <a href="/database.html" style="display:inline-block;margin-top:10px;font-size:12px;font-weight:700;color:#1B5138;text-decoration:none;">Full monograph →</a>
+          <div style="font-size:13px;font-weight:800;color:#15281D;margin-bottom:8px;">EMA/HMPC traditional use</div>
+          <div style="font-size:12px;line-height:1.6;color:#7A8472;">Used where the best support is long-standing medicinal use rather than strong clinical-trial evidence, including thyme and rosemary leaf.</div>
+          <a href="https://www.ema.europa.eu/en/human-regulatory-overview/herbal-medicinal-products" style="display:inline-block;margin-top:10px;font-size:12px;font-weight:700;color:#1B5138;text-decoration:none;">Open EMA herbal products →</a>
         </div>
         <div style="background:#fff;border:1px solid #ECE4D2;border-radius:12px;padding:16px 18px;">
-          <div style="font-size:13px;font-weight:800;color:#15281D;margin-bottom:8px;">Chamomile</div>
-          <div style="font-size:12px;line-height:1.6;color:#7A8472;">Hieu TH et al. (2019) Chamomile for anxiety — meta-analysis. <em>Phytother Res.</em> PMID: 30758067<br>Adib-Hajbaghery M &amp; Mousavi SN (2017) Sleep quality RCT. <em>Complement Ther Med.</em> PMID: 29080639</div>
-          <a href="/database.html" style="display:inline-block;margin-top:10px;font-size:12px;font-weight:700;color:#1B5138;text-decoration:none;">Full monograph →</a>
+          <div style="font-size:13px;font-weight:800;color:#15281D;margin-bottom:8px;">Growing references</div>
+          <div style="font-size:12px;line-height:1.6;color:#7A8472;">Light, soil, water, and container notes were checked against extension-style plant references, especially for lavender, rosemary, ginger, turmeric, aloe, thyme, and echinacea.</div>
+          <a href="https://plants.ces.ncsu.edu/" style="display:inline-block;margin-top:10px;font-size:12px;font-weight:700;color:#1B5138;text-decoration:none;">Open NC State Plant Toolbox →</a>
         </div>
         <div style="background:#fff;border:1px solid #ECE4D2;border-radius:12px;padding:16px 18px;">
-          <div style="font-size:13px;font-weight:800;color:#15281D;margin-bottom:8px;">Calendula</div>
-          <div style="font-size:12px;line-height:1.6;color:#7A8472;">Pommier P et al. (2004) Calendula topical RCT. <em>J Clin Oncol.</em> PMID: 15169803<br>EMA/HMPC monograph on <em>Calendula officinalis</em> flos (2008)</div>
-          <a href="/database.html" style="display:inline-block;margin-top:10px;font-size:12px;font-weight:700;color:#1B5138;text-decoration:none;">Full monograph →</a>
+          <div style="font-size:13px;font-weight:800;color:#15281D;margin-bottom:8px;">Full archive monographs</div>
+          <div style="font-size:12px;line-height:1.6;color:#7A8472;">For deeper pharmacology, citations, contraindications, and evidence hierarchy, use the BMS Archive database entries instead of this starter growing page.</div>
+          <a href="/database.html" style="display:inline-block;margin-top:10px;font-size:12px;font-weight:700;color:#1B5138;text-decoration:none;">Open database →</a>
         </div>
       </div>
     </div>
@@ -257,8 +304,8 @@
 </section>
 
 <!-- ═══ CTA + DISCLAIMER ═══ -->
-<section style="padding:60px 48px 70px;">
-  <div style="max-width:1180px;margin:0 auto;background:#0E2A20;border-radius:22px;padding:54px 48px;position:relative;overflow:hidden;">
+<section class="pg-section" style="padding:60px 48px 70px;">
+  <div class="pg-cta-inner" style="max-width:1180px;margin:0 auto;background:#0E2A20;border-radius:22px;padding:54px 48px;position:relative;overflow:hidden;">
     <div style="position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,rgba(255,255,255,.05) 1px,transparent 0);background-size:24px 24px;" aria-hidden="true"></div>
     <svg viewBox="0 0 1180 300" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.22;" fill="none" stroke="#7FB596" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
       <use href="#sprig" transform="translate(1090 320) rotate(-12) scale(1.5)"></use>
@@ -269,7 +316,7 @@
         <h2 style="font-size:34px;line-height:1.08;font-weight:800;letter-spacing:-0.02em;color:#fff;margin:0;">Want the depth behind the cup?</h2>
         <p style="font-size:17px;line-height:1.55;color:rgba(255,255,255,.7);margin:14px 0 0;">Every plant here has a fully-cited monograph in the archive, and our field guides go deeper on dosing, preparation and the primary literature.</p>
       </div>
-      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+      <div class="pg-cta-actions" style="display:flex;gap:14px;flex-wrap:wrap;">
         <a href="/database.html" class="lift" style="display:inline-flex;align-items:center;gap:9px;background:#7FB596;color:#0E2A20;font-weight:700;font-size:16px;padding:16px 24px;border-radius:12px;text-decoration:none;">Open the database →</a>
         <a href="/#ebooks" class="lift" style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);color:#fff;font-weight:700;font-size:16px;padding:16px 24px;border-radius:12px;text-decoration:none;">Browse e-books</a>
       </div>
@@ -310,20 +357,30 @@ const TINTS = {
   tulsi:     'linear-gradient(150deg,#3C5A47,#243C2D)',
   chamomile: 'linear-gradient(150deg,#8A6D3B,#574121)',
   calendula: 'linear-gradient(150deg,#B4754A,#7A4326)',
+  lemonbalm: 'linear-gradient(150deg,#5A8F56,#2C5B39)',
+  lavender:  'linear-gradient(150deg,#7565A7,#3F376D)',
+  rosemary:  'linear-gradient(150deg,#4C6B78,#243F49)',
+  ginger:    'linear-gradient(150deg,#B88A3D,#765020)',
+  turmeric:  'linear-gradient(150deg,#C26B2B,#793A1D)',
+  aloe:      'linear-gradient(150deg,#5E9C88,#2E5E53)',
+  thyme:     'linear-gradient(150deg,#67764C,#384225)',
+  echinacea: 'linear-gradient(150deg,#9A5A83,#5C3153)',
 };
 
 const PLANTS = [
   {
     key: 'gut', name: 'Peppermint', binomial: 'Mentha × piperita',
-    goalKey: 'gut', goalLabel: 'Gut health', tint: TINTS.mint,
+    goalKey: 'gut', goalKeys: ['gut', 'stress'], goalLabel: 'Gut health', tint: TINTS.mint,
     gLight: 'Bright; 4–6h sun, tolerates part shade', gWater: 'Keep soil evenly moist',
     gSpace: 'Its own pot — roots run fast', gTime: 'Snip leaves in 6–8 weeks', gDifficulty: 'Very easy — hard to kill',
     bioactive: 'Menthol, menthone & rosmarinic acid', evLevel: 2, evLabel: 'Moderate', evColor: '#2C7A4E',
-    evNote: 'RCT evidence for IBS is strong — but for enteric-coated oil capsules, not leaf tea. The tea is a traditional preparation; controlled evidence for home-brewed leaf infusions specifically is limited.',
+    evNote: 'Enteric-coated peppermint oil has some human evidence for IBS symptom relief. Peppermint leaf tea is a traditional digestive preparation; clinical evidence for home-brewed tea is limited.',
     teaBrew: '1 tbsp fresh leaves, just-boiled water', teaSteep: '5–7 min, covered', teaCups: 'Up to 2–3 cups/day, after meals (traditional use dose — not clinically validated for tea form)',
     safety: 'Avoid if you have acid reflux or a hiatal hernia — menthol relaxes the lower oesophageal sphincter, which can worsen reflux. Avoid menthol preparations near the face of children under 2. May inhibit liver enzymes (CYP2C19, CYP3A4) — check with your doctor if you take cyclosporine, certain antidepressants, or other medications metabolised by the liver. Culinary amounts during pregnancy are generally considered low-risk; high-dose oil preparations should be avoided. Consult a healthcare provider before combining with prescription medications.',
     fit: {
       windowsill: ['great', 'A bright sill suits it perfectly — one of the best indoor herbs there is.'],
+      normal:     ['great', 'Bright normal indoor light suits peppermint well, and it tolerates a little inconsistency.'],
+      fullsun:    ['good',  'It can take sun if the pot stays moist; hot afternoon sun can scorch tender leaves.'],
       balcony:    ['great', 'Loves a balcony pot. Just give it its own container, since it spreads vigorously.'],
       lowlight:   ['good',  'Copes with part shade better than most herbs; growth simply slows a little.'],
       easy:       ['great', 'About the hardest herb to kill — the perfect first plant.'],
@@ -346,7 +403,7 @@ const PLANTS = [
   },
   {
     key: 'stress', name: 'Holy Basil (Tulsi)', binomial: 'Ocimum tenuiflorum',
-    goalKey: 'stress', goalLabel: 'Stress', tint: TINTS.tulsi,
+    goalKey: 'stress', goalKeys: ['stress'], goalLabel: 'Stress', tint: TINTS.tulsi,
     gLight: 'Full sun, 6+ h, likes warmth', gWater: 'Water when top inch is dry',
     gSpace: 'Medium free-draining pot', gTime: 'Leaves in 8–10 weeks from seed', gDifficulty: 'Easy once it\'s warm',
     bioactive: 'Eugenol, ursolic acid & ocimumosides', evLevel: 2, evLabel: 'Moderate', evColor: '#2C7A4E',
@@ -355,6 +412,8 @@ const PLANTS = [
     safety: 'May lower blood sugar — monitor closely if taking insulin, metformin, or other antidiabetic medications, as effects may add up. Best avoided in pregnancy (animal studies show anti-fertility effects; animal data on clotting). Avoid during breastfeeding — safety not established. Eugenol can interact with blood-thinning medications; consult your doctor before use if on anticoagulants.',
     fit: {
       windowsill: ['good',   'Happy indoors at your brightest, warmest window.'],
+      normal:     ['good',   'Doable with bright normal light, but it performs best in warmth and stronger sun.'],
+      fullsun:    ['great',  'This is where tulsi shines: warm, sunny, and protected from cold drafts.'],
       balcony:    ['great',  'A sunny, sheltered balcony is ideal — it thrives on heat.'],
       lowlight:   ['tricky', 'Struggles in shade; it really wants 6+ hours of direct sun.'],
       easy:       ['good',   'Easy once warm — just don\'t let it get cold or sit soggy.'],
@@ -377,15 +436,17 @@ const PLANTS = [
   },
   {
     key: 'sleep', name: 'Chamomile', binomial: 'Matricaria chamomilla',
-    goalKey: 'sleep', goalLabel: 'Sleep', tint: TINTS.chamomile,
+    goalKey: 'sleep', goalKeys: ['sleep', 'stress'], goalLabel: 'Sleep', tint: TINTS.chamomile,
     gLight: 'Full sun, 5–6 h', gWater: 'Let it dry out between waterings',
     gSpace: 'Wide, shallow pot', gTime: 'Flowers in ~10 weeks', gDifficulty: 'Easy; self-sows',
     bioactive: 'Apigenin, alpha-bisabolol & chamazulene', evLevel: 2, evLabel: 'Moderate', evColor: '#2C7A4E',
-    evNote: 'Small but consistent trial support for sleep quality and mild anxiety, mainly from standardised extracts. Apigenin binds GABA-A receptors in vitro; whether tea concentrations reach pharmacologically active levels in humans is uncertain.',
+    evNote: 'Chamomile tea is a traditional bedtime preparation; clinical evidence for insomnia is limited. Preliminary evidence is stronger for mild anxiety than for sleep.',
     teaBrew: '2 tbsp fresh flowers (or 1 tbsp dried)', teaSteep: '5–10 min, covered', teaCups: '1 cup, 30–45 min before bed (traditional use dose — not clinically validated for tea form)',
-    safety: 'Avoid during pregnancy — insufficient safety data; EMA/HMPC guidance advises against use (possible uterine-stimulant effects at higher doses). Avoid during breastfeeding — safety not established. In the daisy/ragweed family — individuals with Asteraceae allergy may experience reactions ranging from contact dermatitis to anaphylaxis; do not use if allergic. May increase sedation when combined with sleep medications, benzodiazepines, or alcohol. Mild coumarin content — check with your doctor if you take warfarin or other blood thinners.',
+    safety: 'Avoid during pregnancy — insufficient safety data; EMA/HMPC guidance advises against use (possible uterine-stimulant effects at higher doses). Avoid during breastfeeding — safety not established. In the daisy/ragweed family — individuals with Asteraceae allergy may experience reactions ranging from contact dermatitis to anaphylaxis; do not use if allergic. May increase sedation when combined with sleep medications, benzodiazepines, or alcohol. Check with a clinician if you take blood thinners, hormonal therapy, or have an estrogen-sensitive condition.',
     fit: {
       windowsill: ['good',   'Grows on a bright sill, though indoor blooms run a little smaller.'],
+      normal:     ['good',   'Bright normal light can work, though flowers are smaller than in outdoor sun.'],
+      fullsun:    ['great',  'Full sun gives the most flowers, and the flowers are the part you harvest.'],
       balcony:    ['great',  'A perfect balcony plant — sunny spot, free-draining pot.'],
       lowlight:   ['tricky', 'Needs sun to flower; shade gives you leaves, not the blossoms you brew.'],
       easy:       ['good',   'Easy from seed and forgiving — just wants sun and not-too-wet feet.'],
@@ -408,15 +469,17 @@ const PLANTS = [
   },
   {
     key: 'inflammation', name: 'Calendula', binomial: 'Calendula officinalis',
-    goalKey: 'inflammation', goalLabel: 'Skin & inflammation', tint: TINTS.calendula,
+    goalKey: 'inflammation', goalKeys: ['skin', 'inflammation'], goalLabel: 'Skin & inflammation', tint: TINTS.calendula,
     gLight: 'Full sun to light shade', gWater: 'Moderate; deadhead often',
     gSpace: 'Any pot 20cm+ across', gTime: 'Flowers in 6–8 weeks', gDifficulty: 'Very easy from seed',
     bioactive: 'Triterpenoid saponins & flavonoids', evLevel: 1, evLabel: 'Emerging', evColor: '#2C7A4E',
-    evNote: 'Anti-inflammatory evidence is strongest applied to skin; internal use is gentler and less studied.',
-    teaBrew: '1–2 tsp dried petals', teaSteep: '8–10 min, covered', teaCups: '1–2 cups/day',
+    evNote: 'Evidence and regulatory tradition are strongest for external skin use. Calendula tea is traditional only and has much weaker direct evidence for skin outcomes.',
+    teaBrew: 'Dried petals infused in carrier oil', teaSteep: 'Topical salve route; tea is traditional only', teaCups: 'Not a primary tea recommendation for skin goals',
     safety: 'Asteraceae (daisy family) allergy applies — reactions can range from contact dermatitis to anaphylaxis. Avoid during pregnancy (possible emmenagogue effects; EMA/HMPC recommends against use). Avoid during breastfeeding — insufficient safety data for internal use. The evidence base for Calendula is primarily for topical application; internal safety over prolonged periods is not established from clinical trials. For skin inflammation, a petal-infused oil has substantially more evidence than the tea.',
     fit: {
       windowsill: ['good',   'A bright sill works — turn the pot so it doesn\'t lean to the light.'],
+      normal:     ['great',  'Bright normal light is enough for a compact, productive pot.'],
+      fullsun:    ['great',  'Full sun gives the heaviest flower crop for topical oils and salves.'],
       balcony:    ['great',  'A balcony favourite — cheerful, fast, and very forgiving.'],
       lowlight:   ['tricky', 'Fewer flowers in low light — and the flowers are the medicine.'],
       easy:       ['great',  'About the easiest flower to grow from seed — a real confidence-builder.'],
@@ -427,9 +490,9 @@ const PLANTS = [
     dWater: 'Moderate — let the surface dry slightly between waterings, and deadhead spent blooms often.',
     dFeed: 'A light monthly feed keeps blooms coming, but it flowers happily with little.',
     dHarvest: 'Pick whole flowerheads on a dry morning when fully open — the sticky, resinous petals hold the actives.',
-    useForm: 'A skin oil (+ a light tea)', useIcon: '🧴',
-    usePrep: 'Dry the petals, then either steep 1–2 tsp as a tea (8–10 min) or infuse them in oil for a skin salve.',
-    useNote: 'For inflammation, a petal-infused oil applied to the skin has more evidence than drinking the tea.',
+    useForm: 'A topical petal oil', useIcon: '🧴',
+    usePrep: 'Dry the petals fully, infuse in a neutral carrier oil, then strain for use in a simple salve.',
+    useNote: 'For minor skin comfort, topical preparations are the better-supported traditional route; tea is not the main evidence-based use.',
     steps: [
       { t: 'Sow direct', d: 'Sow seeds ~1 cm deep straight into the pot; one of the easiest of all from seed.' },
       { t: 'Thin out', d: 'Thin to one strong plant per ~15 cm of space.' },
@@ -437,19 +500,278 @@ const PLANTS = [
       { t: 'Deadhead often', d: 'Remove faded flowers to keep new buds forming all season long.' },
     ],
   },
+  {
+    key: 'lemonbalm', name: 'Lemon Balm', binomial: 'Melissa officinalis',
+    goalKeys: ['stress', 'sleep', 'gut'], goalLabel: 'Stress & sleep', tint: TINTS.lemonbalm,
+    gLight: 'Bright normal light to part shade', gWater: 'Even moisture; forgiving',
+    gSpace: '20cm+ pot; prune often', gTime: 'Leaves in 6–8 weeks', gDifficulty: 'Very easy — mint-family vigorous',
+    bioactive: 'Rosmarinic acid, citral & citronellal', evLevel: 2, evLabel: 'Moderate', evColor: '#2C7A4E',
+    evNote: 'Small clinical studies and a meta-analysis suggest possible anxiety and mood support. Evidence is still limited and often uses extracts rather than home tea.',
+    teaBrew: '1 tbsp fresh leaves or 1 tsp dried', teaSteep: '5–8 min, covered', teaCups: '1–2 cups/day as a traditional calming tea',
+    safety: 'May add to sedative effects from alcohol, sleep medicines, benzodiazepines, or other calming herbs. Use caution with thyroid conditions or thyroid medication. Avoid medicinal use during pregnancy or breastfeeding unless advised by a clinician.',
+    fit: {
+      normal:   ['great', 'One of the best normal-light herbs: bright indoor light, steady moisture, and regular pruning are enough.'],
+      fullsun:  ['good',  'Sun works if the pot stays moist; hot dry balconies can make leaves coarse.'],
+      balcony:  ['great', 'Happy outdoors in a pot, especially with morning sun and afternoon shade.'],
+      lowlight: ['good',  'Tolerates part shade better than most medicinal herbs, though it grows leggier.'],
+      easy:     ['great', 'Very forgiving and rebounds well after pruning.'],
+    },
+    dSun: 'Bright normal light or part shade. Morning sun is ideal; intense afternoon sun is optional.',
+    dSoil: 'Rich, moisture-retentive potting mix with decent drainage.',
+    dPot: 'A 20–25 cm pot is enough, but give it room — it wants to become a bush.',
+    dWater: 'Keep lightly moist. It wilts when dry but usually recovers after watering.',
+    dFeed: 'Light feeding monthly in active growth; too much feed weakens aroma.',
+    dHarvest: 'Cut leafy stems before flowering. Frequent trimming keeps the plant compact and fragrant.',
+    useForm: 'A fresh-leaf tea', useIcon: '🍵',
+    usePrep: 'Bruise or tear fresh leaves, cover with just-boiled water, and steep 5–8 min.',
+    useNote: 'Best as a gentle evening or after-meal tea. This is a traditional preparation, not a substitute for care for anxiety or insomnia.',
+    steps: [
+      { t: 'Start from seed or plant', d: 'Seed is easy, but a small nursery plant gives you usable leaves faster.' },
+      { t: 'Keep it clipped', d: 'Trim stems often so it branches instead of flowering early.' },
+      { t: 'Do not bake it dry', d: 'Normal light is enough; if it gets full sun, water more often.' },
+      { t: 'Refresh the pot', d: 'Repot or divide yearly if roots fill the container.' },
+    ],
+  },
+  {
+    key: 'lavender', name: 'Lavender', binomial: 'Lavandula angustifolia',
+    goalKeys: ['stress', 'sleep'], goalLabel: 'Stress & sleep', tint: TINTS.lavender,
+    gLight: 'Full sun; bright indoor light at minimum', gWater: 'Dry side; never soggy',
+    gSpace: 'Terracotta pot, gritty mix', gTime: 'Harvest sprigs in first summer', gDifficulty: 'Easy if kept dry and sunny',
+    bioactive: 'Linalool & linalyl acetate', evLevel: 1, evLabel: 'Limited', evColor: '#8A6D2B',
+    evNote: 'Some studies suggest oral lavender oil products may help anxiety, but research has limitations. Aromatherapy and tea evidence for sleep is less certain.',
+    teaBrew: 'A few culinary-grade flowers', teaSteep: '3–5 min; use lightly', teaCups: 'Occasional mild tea or aroma use only',
+    safety: 'Oral lavender can cause nausea, headache, diarrhea, or burping in some people. May add to sedatives or anesthesia; stop before surgery if advised. Topical products can cause allergy. Pregnancy and breastfeeding safety are not established.',
+    fit: {
+      normal:   ['good', 'Possible at the brightest window, but it gets sparse without strong light.'],
+      fullsun:  ['great', 'Full sun and sharp drainage are exactly what lavender wants.'],
+      balcony:  ['great', 'Excellent in a terracotta balcony pot if rain does not keep it wet.'],
+      lowlight: ['tricky', 'Low light usually means weak growth and few flowers.'],
+      easy:     ['good', 'Easy only if you resist overwatering and use a gritty mix.'],
+    },
+    dSun: 'Full sun, 6+ hours. Indoors, use the brightest south-facing window you have.',
+    dSoil: 'Very free-draining, gritty mix; neutral to slightly alkaline is ideal.',
+    dPot: 'Terracotta 20–25 cm wide with drainage holes. Avoid oversized wet pots.',
+    dWater: 'Let the top several cm dry before watering. Wet roots are the common failure point.',
+    dFeed: 'Little to none. Rich feeding makes soft growth and fewer aromatic flowers.',
+    dHarvest: 'Cut flower stems just as the lower blossoms open; dry in small bundles out of direct sun.',
+    useForm: 'Aromatic flowers', useIcon: '🌾',
+    usePrep: 'Use a very small pinch of dried culinary lavender in tea, or keep dried stems nearby for aroma.',
+    useNote: 'Treat this as gentle sensory support. Evidence for home aromatherapy or tea is preliminary and not a medical treatment.',
+    steps: [
+      { t: 'Choose the sunniest spot', d: 'Lavender is a Mediterranean plant; shade makes it lanky.' },
+      { t: 'Use a gritty pot', d: 'Mix potting soil with sand, grit, or perlite so water runs through fast.' },
+      { t: 'Water sparingly', d: 'Water deeply, then wait until the pot is clearly drying.' },
+      { t: 'Trim after bloom', d: 'Clip lightly after flowering without cutting into old bare wood.' },
+    ],
+  },
+  {
+    key: 'rosemary', name: 'Rosemary', binomial: 'Salvia rosmarinus',
+    goalKeys: ['inflammation', 'gut'], goalLabel: 'Joints & digestion', tint: TINTS.rosemary,
+    gLight: 'Full sun; tolerates bright part shade', gWater: 'Dry to medium; hates wet roots',
+    gSpace: 'Deep pot, free-draining mix', gTime: 'Snip tips once established', gDifficulty: 'Easy in sun; tricky if overwatered',
+    bioactive: 'Rosmarinic acid, carnosic acid & essential oil', evLevel: 1, evLabel: 'Traditional', evColor: '#8A6D2B',
+    evNote: 'EMA/HMPC recognises rosemary leaf as traditional use for dyspepsia and minor muscular or joint discomfort. This is long-standing use, not clinical proof.',
+    teaBrew: '1 tsp fresh leaves, lightly crushed', teaSteep: '5 min, covered', teaCups: 'Occasional culinary tea; do not use as high-dose medicine',
+    safety: 'Avoid medicinal use during pregnancy or breastfeeding. Do not use rosemary leaf medicines with bile duct obstruction, gallbladder inflammation, gallstones, or liver disease. Do not apply to broken or irritated skin. Allergy or contact dermatitis can occur.',
+    fit: {
+      normal:   ['good', 'Bright normal light can keep a compact plant alive; stronger sun gives better growth.'],
+      fullsun:  ['great', 'Full sun and dry air are ideal for rosemary.'],
+      balcony:  ['great', 'A sunny balcony pot is one of the easiest ways to grow it.'],
+      lowlight: ['tricky', 'Low light plus damp soil is a common way to lose rosemary.'],
+      easy:     ['good', 'Easy if you water less than you think and give it sharp drainage.'],
+    },
+    dSun: 'Full sun is best; bright part shade is acceptable outdoors.',
+    dSoil: 'Light, gritty, well-drained mix. It tolerates poorer soil better than soggy soil.',
+    dPot: 'Use a deep 25–30 cm pot. Terracotta helps prevent wet roots.',
+    dWater: 'Water thoroughly, then let the mix dry on top. Never leave it standing in water.',
+    dFeed: 'Minimal feeding. A small spring feed is enough.',
+    dHarvest: 'Snip soft tips once the plant is established; never remove more than a third at once.',
+    useForm: 'A culinary leaf tea or rub', useIcon: '🌿',
+    usePrep: 'Crush a small sprig for tea or infuse leaves into oil for culinary use; avoid concentrated essential oil ingestion.',
+    useNote: 'Best kept in culinary-strength amounts. Traditional-use evidence does not mean proven treatment.',
+    steps: [
+      { t: 'Start with a plant', d: 'Rosemary seed is slow; a small plant or cutting is more reliable.' },
+      { t: 'Drainage first', d: 'Use terracotta and gritty mix so roots breathe.' },
+      { t: 'Give it air', d: 'Place where air circulates; humid still corners invite disease.' },
+      { t: 'Prune lightly', d: 'Pinch tips for bushiness, but avoid cutting into old bare wood.' },
+    ],
+  },
+  {
+    key: 'ginger', name: 'Ginger', binomial: 'Zingiber officinale',
+    goalKeys: ['gut', 'inflammation'], goalLabel: 'Gut & inflammation', tint: TINTS.ginger,
+    gLight: 'Warm part shade or bright indirect light', gWater: 'Moist, humid, never cold',
+    gSpace: 'Wide pot for rhizomes', gTime: 'Baby ginger in 4–6 months', gDifficulty: 'Easy if warm',
+    bioactive: 'Gingerols & shogaols', evLevel: 2, evLabel: 'Moderate', evColor: '#2C7A4E',
+    evNote: 'Human evidence is strongest for some nausea contexts and menstrual cramps. Evidence for joint discomfort comes mostly from supplements and is lower quality.',
+    teaBrew: '3–5 thin slices fresh rhizome', teaSteep: '8–10 min, covered', teaCups: '1 cup as a culinary-strength tea',
+    safety: 'Can cause heartburn, abdominal discomfort, diarrhea, or mouth/throat irritation. If pregnant, taking medication, using blood thinners, or breastfeeding, check with a clinician before medicinal use.',
+    fit: {
+      normal:   ['great', 'Bright normal indoor light and warmth suit ginger very well.'],
+      fullsun:  ['tricky', 'Direct hot sun can scorch leaves unless humidity and water are high.'],
+      balcony:  ['good', 'Works on a warm sheltered balcony in summer; bring indoors before cold nights.'],
+      lowlight: ['good', 'Part shade is natural for ginger, but very dark corners slow rhizome growth.'],
+      easy:     ['good', 'Easy once warm; the main trick is patience and steady moisture.'],
+    },
+    dSun: 'Bright indirect light or 2–6 hours of soft sun. Avoid cold windows.',
+    dSoil: 'Rich, high-organic potting mix that stays moist but drains.',
+    dPot: 'A wide 25–30 cm pot gives rhizomes room to spread sideways.',
+    dWater: 'Keep evenly moist during active growth, then reduce when leaves yellow back.',
+    dFeed: 'Feed lightly every 3–4 weeks once shoots are growing strongly.',
+    dHarvest: 'Harvest small side rhizomes after 4–6 months, or wait until foliage dies back for mature ginger.',
+    useForm: 'A fresh rhizome tea', useIcon: '🍵',
+    usePrep: 'Slice or grate fresh ginger, cover with hot water, and steep 8–10 min.',
+    useNote: 'Use as a culinary-strength digestive tea. Supplement evidence should not be assumed to equal home tea effects.',
+    steps: [
+      { t: 'Start with a plump rhizome', d: 'Choose organic ginger with visible eyes; soak briefly if it looks dry.' },
+      { t: 'Plant shallow', d: 'Lay pieces just under the soil with buds facing up.' },
+      { t: 'Keep warm', d: 'Warmth matters more than direct sun; aim for steady indoor warmth.' },
+      { t: 'Harvest gently', d: 'Dig around the edge for baby ginger without uprooting the whole plant.' },
+    ],
+  },
+  {
+    key: 'turmeric', name: 'Turmeric', binomial: 'Curcuma longa',
+    goalKeys: ['inflammation'], goalLabel: 'Joint comfort', tint: TINTS.turmeric,
+    gLight: 'Bright light to part shade', gWater: 'Moist, warm, high organic matter',
+    gSpace: 'Large pot; long season', gTime: 'Rhizomes in 8–10 months', gDifficulty: 'Medium — patient grower',
+    bioactive: 'Curcuminoids, especially curcumin', evLevel: 1, evLabel: 'Emerging', evColor: '#8A6D2B',
+    evNote: 'Positive joint findings involve oral turmeric or curcumin products, often formulated for absorption. Home turmeric tea has much weaker and less direct evidence.',
+    teaBrew: 'Small culinary rhizome slices', teaSteep: '10 min simmer or steep', teaCups: 'Food-level use; not high-dose curcumin',
+    safety: 'High-bioavailability curcumin products have been linked to liver injury in some people. Oral turmeric can cause reflux, stomach upset, nausea, diarrhea, or constipation. Avoid medicinal-dose supplements during pregnancy; breastfeeding safety above food amounts is unclear. Check with a clinician if taking medicines.',
+    fit: {
+      normal:   ['good', 'Bright normal light works if the room is warm and the season is long.'],
+      fullsun:  ['good', 'Can take sun with moisture, but hot dry pots stress it.'],
+      balcony:  ['good', 'Good in warm summer weather, then bring inside before cool nights.'],
+      lowlight: ['good', 'Part shade is acceptable; very low light slows rhizome development.'],
+      easy:     ['tricky', 'Not hard, but it needs warmth, space, and patience.'],
+    },
+    dSun: 'Bright light to part shade. Warmth and a long growing season matter most.',
+    dSoil: 'Rich, high-organic soil that drains but stays consistently moist.',
+    dPot: 'Use a large, wide pot; foliage can reach 90 cm or more indoors.',
+    dWater: 'Keep moist during growth. Reduce watering when leaves naturally yellow back.',
+    dFeed: 'Monthly balanced feed during active leafy growth.',
+    dHarvest: 'Harvest rhizomes when foliage dies back, usually after 8–10 months.',
+    useForm: 'A culinary rhizome', useIcon: '🥄',
+    usePrep: 'Use fresh grated rhizome in food or a mild drink; pair with fat in meals for culinary absorption.',
+    useNote: 'Keep this in food-level territory. Supplement evidence and risk do not translate cleanly to a home-grown tea.',
+    steps: [
+      { t: 'Plant a rhizome piece', d: 'Place buds upward under a few cm of rich soil.' },
+      { t: 'Keep it tropical', d: 'Warmth, humidity, and steady moisture drive growth.' },
+      { t: 'Give it room', d: 'Move to a larger pot once leaves are strong.' },
+      { t: 'Wait for dieback', d: 'The harvest comes when leaves yellow and the plant rests.' },
+    ],
+  },
+  {
+    key: 'aloe', name: 'Aloe Vera', binomial: 'Aloe vera',
+    goalKeys: ['skin', 'inflammation'], goalLabel: 'Skin comfort', tint: TINTS.aloe,
+    gLight: 'Bright indirect light; some sun', gWater: 'Sparse; dry between waterings',
+    gSpace: 'Small succulent pot', gTime: 'Gel from mature leaves', gDifficulty: 'Very easy if dry',
+    bioactive: 'Polysaccharides & anthraquinones in leaf latex', evLevel: 1, evLabel: 'Limited', evColor: '#8A6D2B',
+    evNote: 'Topical aloe gel has some evidence for minor burn and wound contexts, but findings vary. Oral aloe latex or whole-leaf products raise safety concerns.',
+    teaBrew: 'Fresh inner gel for topical use only', teaSteep: 'No tea; avoid latex/whole-leaf oral use', teaCups: 'Apply thinly to intact minor irritated skin',
+    safety: 'Use topical inner gel only on minor intact skin. Do not ingest aloe latex or whole-leaf preparations. Avoid oral aloe during pregnancy or breastfeeding. Stop if rash, burning, or allergy occurs; seek care for serious burns or wounds.',
+    fit: {
+      normal:   ['great', 'Bright normal indoor light is perfect for aloe.'],
+      fullsun:  ['good', 'Sun is fine after gradual acclimation; sudden hot sun can scorch leaves.'],
+      balcony:  ['good', 'Great outdoors in warm weather, but bring in before cold nights or heavy rain.'],
+      lowlight: ['good', 'Survives lower light better than most, though growth slows.'],
+      easy:     ['great', 'One of the easiest medicinal plants if you avoid overwatering.'],
+    },
+    dSun: 'Bright indirect light with optional gentle sun. Rotate the pot so growth stays even.',
+    dSoil: 'Cactus or succulent mix with sharp drainage.',
+    dPot: 'A small heavy pot with drainage. Aloe prefers being slightly snug.',
+    dWater: 'Water deeply, then let the soil dry out fully before watering again.',
+    dFeed: 'Feed very lightly, if at all, in spring or summer.',
+    dHarvest: 'Take an outer mature leaf, drain yellow latex away, and use only the clear inner gel topically.',
+    useForm: 'Topical inner gel', useIcon: '🧴',
+    usePrep: 'Cut an outer leaf, rinse away yellow latex, and apply a small amount of clear gel to intact skin.',
+    useNote: 'For minor skin comfort only. Do not use on deep wounds, serious burns, or infected skin.',
+    steps: [
+      { t: 'Use succulent soil', d: 'Fast drainage prevents root rot.' },
+      { t: 'Water rarely', d: 'Let the pot dry fully before watering again.' },
+      { t: 'Give bright light', d: 'A bright windowsill is enough; acclimate slowly to direct sun.' },
+      { t: 'Harvest outer leaves', d: 'Leave the center growing point intact so the plant keeps producing.' },
+    ],
+  },
+  {
+    key: 'thyme', name: 'Thyme', binomial: 'Thymus vulgaris',
+    goalKeys: ['respiratory'], goalLabel: 'Seasonal respiratory', tint: TINTS.thyme,
+    gLight: 'Full sun; bright normal light minimum', gWater: 'Dry side; very well drained',
+    gSpace: 'Small pot or trough', gTime: 'Snip tips in 8–10 weeks', gDifficulty: 'Very easy in sun',
+    bioactive: 'Thymol, carvacrol & rosmarinic acid', evLevel: 1, evLabel: 'Traditional', evColor: '#8A6D2B',
+    evNote: 'EMA/HMPC supports traditional use of thyme preparations for productive coughs associated with colds. This is traditional-use evidence, not proof from strong clinical trials.',
+    teaBrew: '1–2 tsp fresh leaves', teaSteep: '5–8 min, covered', teaCups: 'Short-term traditional tea; seek care if symptoms persist',
+    safety: 'Avoid if allergic to thyme or other Lamiaceae plants. Stomach upset can occur. Use caution in pregnancy, breastfeeding, children, or with chronic respiratory symptoms; seek medical care for persistent or worsening cough, fever, or breathing difficulty.',
+    fit: {
+      normal:   ['good', 'A very bright window can work, but fuller sun makes denser growth.'],
+      fullsun:  ['great', 'Full sun, lean soil, and dry roots are thyme territory.'],
+      balcony:  ['great', 'Excellent in a sunny balcony trough with drainage.'],
+      lowlight: ['tricky', 'Low light makes thyme thin and prone to rot.'],
+      easy:     ['great', 'A small, sturdy herb if you do not overwater it.'],
+    },
+    dSun: 'Full sun, 6+ hours. Indoors, place at the brightest window.',
+    dSoil: 'Lean, sandy or gritty mix; avoid rich wet soil.',
+    dPot: 'A shallow 15–20 cm pot or trough with excellent drainage.',
+    dWater: 'Let the soil dry between waterings. Thyme dislikes wet feet.',
+    dFeed: 'Little or no feed; too much makes floppy growth.',
+    dHarvest: 'Snip leafy tips before flowering. Harvest lightly but often.',
+    useForm: 'A short-term leaf tea', useIcon: '🍵',
+    usePrep: 'Steep fresh or dried leaves covered, then strain well.',
+    useNote: 'Use as traditional seasonal support only. Persistent cough or breathing symptoms need medical advice.',
+    steps: [
+      { t: 'Sow or buy small', d: 'Seed works, but a small plant is faster and sturdier.' },
+      { t: 'Keep it lean', d: 'Use gritty soil and skip heavy feeding.' },
+      { t: 'Water lightly', d: 'Dry cycles keep roots healthy and flavor concentrated.' },
+      { t: 'Trim after bloom', d: 'A light trim keeps the mound compact.' },
+    ],
+  },
+  {
+    key: 'echinacea', name: 'Echinacea', binomial: 'Echinacea purpurea',
+    goalKeys: ['respiratory'], goalLabel: 'Seasonal respiratory', tint: TINTS.echinacea,
+    gLight: 'Full sun to bright normal light', gWater: 'Moderate; drought tolerant later',
+    gSpace: 'Large deep pot or garden tub', gTime: 'Leaves first year; roots later', gDifficulty: 'Easy outdoors; needs space',
+    bioactive: 'Alkamides, caffeic acid derivatives & polysaccharides', evLevel: 1, evLabel: 'Mixed', evColor: '#8A6D2B',
+    evNote: 'NCCIH describes echinacea evidence as mixed and product-dependent. Any cold-season benefit appears small and uncertain, and home-grown tea should be framed as traditional seasonal use only.',
+    teaBrew: 'Leaves/flowers as a traditional tea', teaSteep: '10 min, covered', teaCups: 'Short-term seasonal use only',
+    safety: 'Asteraceae allergy can be severe. Use caution with autoimmune conditions, immunosuppressants, caffeine sensitivity, or medicines metabolised by the liver. Pregnancy and breastfeeding safety are uncertain; consult a clinician. Do not give to children without medical guidance.',
+    fit: {
+      normal:   ['good', 'Possible in very bright normal light, though flowers are better outdoors.'],
+      fullsun:  ['great', 'Full sun gives the strongest plants and blooms.'],
+      balcony:  ['good', 'Works in a large, deep balcony pot with room for roots.'],
+      lowlight: ['tricky', 'Shade gives weak growth and few flowers.'],
+      easy:     ['good', 'Easy once established, but it needs more space than the small herbs.'],
+    },
+    dSun: 'Full sun is best; very bright part sun can work.',
+    dSoil: 'Average, well-drained potting mix. Avoid constantly wet soil.',
+    dPot: 'Use a deep 30 cm+ pot; this is a perennial with a serious root system.',
+    dWater: 'Water regularly while young; established plants tolerate some dryness.',
+    dFeed: 'Light spring feed only. Too much fertility makes floppy stems.',
+    dHarvest: 'Harvest flowers when newly open; roots are traditionally harvested from mature plants, not first-year pots.',
+    useForm: 'A traditional flower tea', useIcon: '🍵',
+    usePrep: 'Use fresh or dried flowers/leaves for a short steep; avoid concentrated DIY extracts.',
+    useNote: 'Best framed as seasonal tradition with mixed evidence. Do not use as a substitute for infection care.',
+    steps: [
+      { t: 'Start early', d: 'Sow seed early or buy a young plant; perennials take time.' },
+      { t: 'Use a big pot', d: 'Give roots depth so the plant does not stall.' },
+      { t: 'Give full sun', d: 'Strong light produces better flowers.' },
+      { t: 'Leave some blooms', d: 'Keep flowers for pollinators and seedheads if you want it to return.' },
+    ],
+  },
 ];
 
 const SPACES = [
-  { key: 'windowsill', label: 'Windowsill / indoors', hint: 'a pot by a window', icon: '☀️' },
-  { key: 'balcony',    label: 'Balcony / small outdoor', hint: 'some open-air space', icon: '🪟' },
-  { key: 'lowlight',   label: 'Low sunlight', hint: 'a shadier spot', icon: '🌥️' },
-  { key: 'easy',       label: 'Just keep it easy', hint: 'hard to kill, please', icon: '🌱' },
+  { key: 'lowlight', label: 'Low sunlight', hint: 'part shade or indirect light', icon: '🌥️' },
+  { key: 'normal',   label: 'Normal sunlight', hint: 'bright window or soft sun', icon: '☀️' },
+  { key: 'fullsun',  label: 'A lot of sunlight', hint: '6+ hours direct sun', icon: '🔆' },
+  { key: 'balcony',  label: 'Balcony / outdoor pot', hint: 'open air, small space', icon: '🪟' },
+  { key: 'easy',     label: 'Just keep it easy', hint: 'hard to kill, please', icon: '🌱' },
 ];
 const GOALS = [
-  { key: 'gut',          label: 'Gut health', hint: 'digestion & bloating', icon: '🌿' },
-  { key: 'stress',       label: 'Stress', hint: 'calm & stress support', icon: '🍃' },
-  { key: 'sleep',        label: 'Sleep', hint: 'winding down at night', icon: '🌙' },
-  { key: 'inflammation', label: 'Skin & inflammation', hint: 'skin irritation & topical relief', icon: '🌸' },
+  { key: 'gut',          label: 'Gut health', hint: 'digestion & comfort', icon: '🌿' },
+  { key: 'stress',       label: 'Stress', hint: 'calm support', icon: '🍃' },
+  { key: 'sleep',        label: 'Sleep', hint: 'evening wind-down', icon: '🌙' },
+  { key: 'skin',         label: 'Skin / topical', hint: 'minor skin comfort', icon: '🧴' },
+  { key: 'inflammation', label: 'Inflammation', hint: 'joints, skin & comfort', icon: '🌸' },
+  { key: 'respiratory',  label: 'Seasonal respiratory', hint: 'traditional cold-season use', icon: '🍯' },
 ];
 
 // ═══ STATE ═══
@@ -491,6 +813,15 @@ const FEAS = {
   good:   { label: 'Doable, with a little care', bg: '#F6EEDD', color: '#8A6D2B' },
   tricky: { label: 'Tricky in this spot',       bg: '#F2E6DC', color: '#A75F38' },
 };
+const FIT_RANK = { great: 0, good: 1, tricky: 2 };
+
+function plantGoals(p) {
+  return p.goalKeys || [p.goalKey];
+}
+
+function fitFor(p, space) {
+  return p.fit[space] || p.fit.normal || p.fit.windowsill || ['tricky', 'No fit note available for this setup yet.'];
+}
 
 function renderMatch() {
   const el = document.getElementById('match-result');
@@ -501,41 +832,61 @@ function renderMatch() {
     </div>`;
     return;
   }
-  const p = PLANTS.find(x => x.goalKey === selectedGoal);
-  const [level, note] = p.fit[selectedSpace];
-  const f = FEAS[level];
-  el.innerHTML = `<div class="rise" style="display:grid;grid-template-columns:clamp(200px,28%,300px) 1fr;gap:0;background:#FBF8F1;border:1px solid #E1DAC8;border-radius:18px;overflow:hidden;box-shadow:0 24px 50px -30px rgba(20,42,30,.45);">
-    <div style="background:${p.tint};padding:30px 28px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;">
-      <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 1px,transparent 1px 11px);" aria-hidden="true"></div>
-      <div style="position:relative;display:flex;align-items:center;justify-content:space-between;">
-        <span class="mono" style="font-size:10px;letter-spacing:0.2em;color:rgba(255,255,255,.65);text-transform:uppercase;">Your match · ${p.goalLabel}</span>
-        <svg viewBox="-22 -160 44 168" width="20" height="68" fill="none" stroke="rgba(255,255,255,.8)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#sprig"></use></svg>
-      </div>
-      <div style="position:relative;">
-        <div style="font-size:28px;line-height:1.02;font-weight:800;color:#fff;letter-spacing:-0.01em;">${p.name}</div>
-        <div class="italic-serif" style="font-size:17px;color:rgba(255,255,255,.78);margin-top:6px;">${p.binomial}</div>
-        <div style="width:30px;height:2px;background:rgba(255,255,255,.45);margin:16px 0;"></div>
-        <span style="display:inline-flex;align-items:center;gap:8px;background:${f.bg};color:${f.color};font-size:13px;font-weight:700;padding:7px 12px;border-radius:9px;">${f.label}</span>
-      </div>
-    </div>
-    <div style="padding:30px 32px;">
-      <p style="font-size:16px;line-height:1.6;color:#4F5A50;margin:0 0 20px;">${note}</p>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 26px;">
-        <div>
-          <div style="font-size:12px;font-weight:700;letter-spacing:0.06em;color:#9A917D;text-transform:uppercase;margin-bottom:6px;">Starter tea plan</div>
-          <div style="font-size:15px;line-height:1.55;color:#15281D;">${p.teaBrew}<br><span style="color:#5E6A60;">Steep ${p.teaSteep}</span><br><span style="color:#5E6A60;">${p.teaCups}</span></div>
+  const matches = PLANTS
+    .filter(p => plantGoals(p).includes(selectedGoal))
+    .map(p => ({ plant: p, fit: fitFor(p, selectedSpace) }))
+    .sort((a, b) => (FIT_RANK[a.fit[0]] ?? 9) - (FIT_RANK[b.fit[0]] ?? 9) || a.plant.name.localeCompare(b.plant.name));
+  const bestMatches = matches.filter(m => m.fit[0] !== 'tricky');
+  const visible = (bestMatches.length >= 2 ? bestMatches : matches).slice(0, 3);
+  const goalLabel = GOALS.find(g => g.key === selectedGoal)?.label || visible[0]?.plant.goalLabel || 'Plant';
+  const choiceLabel = visible.length === 1 ? '1 plant option' : `${visible.length} plant options`;
+  const matchCards = visible.map(({ plant, fit }, i) => {
+    const [level, note] = fit;
+    const f = FEAS[level];
+    const rankLabel = i === 0 ? 'Best fit' : 'Good alternative';
+    return `<div class="match-option-card" style="background:#FBF8F1;border:1px solid #E1DAC8;border-radius:18px;overflow:hidden;box-shadow:0 18px 40px -30px rgba(20,42,30,.45);display:flex;flex-direction:column;">
+      <div style="background:${plant.tint};padding:24px 24px 22px;position:relative;overflow:hidden;min-height:174px;display:flex;flex-direction:column;justify-content:space-between;">
+        <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 1px,transparent 1px 11px);" aria-hidden="true"></div>
+        <div style="position:relative;display:flex;align-items:center;justify-content:space-between;gap:16px;">
+          <span class="mono" style="font-size:10px;letter-spacing:0.2em;color:rgba(255,255,255,.65);text-transform:uppercase;">${rankLabel} · ${goalLabel}</span>
+          <svg viewBox="-22 -160 44 168" width="18" height="62" fill="none" stroke="rgba(255,255,255,.8)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#sprig"></use></svg>
         </div>
-        <div>
-          <div style="font-size:12px;font-weight:700;letter-spacing:0.06em;color:#9A917D;text-transform:uppercase;margin-bottom:6px;">Good to know</div>
-          <div style="font-size:15px;line-height:1.55;color:#15281D;"><strong>Difficulty:</strong> ${p.gDifficulty}<br><strong>First harvest:</strong> ${p.gTime}<br><strong>Active:</strong> ${p.bioactive}</div>
+        <div style="position:relative;">
+          <div style="font-size:27px;line-height:1.02;font-weight:800;color:#fff;letter-spacing:-0.01em;">${plant.name}</div>
+          <div class="italic-serif" style="font-size:16px;color:rgba(255,255,255,.78);margin-top:6px;">${plant.binomial}</div>
+          <div style="width:30px;height:2px;background:rgba(255,255,255,.45);margin:14px 0;"></div>
+          <span style="display:inline-flex;align-items:center;gap:8px;background:${f.bg};color:${f.color};font-size:13px;font-weight:700;padding:7px 12px;border-radius:9px;">${f.label}</span>
         </div>
       </div>
-      <div style="display:flex;align-items:center;gap:18px;margin-top:24px;flex-wrap:wrap;">
-        <button onclick="openModal('${p.key}')" class="lift" style="cursor:pointer;display:inline-flex;align-items:center;gap:9px;background:#1B5138;color:#fff;font-weight:700;font-size:15px;padding:13px 20px;border-radius:11px;box-shadow:0 14px 26px -16px rgba(27,81,56,.7);border:none;">
+      <div style="padding:22px 24px;display:flex;flex-direction:column;gap:18px;flex:1;">
+        <p style="font-size:15px;line-height:1.58;color:#4F5A50;margin:0;">${note}</p>
+        <div class="match-detail-grid" style="display:grid;grid-template-columns:1fr;gap:16px;">
+          <div>
+            <div style="font-size:12px;font-weight:700;letter-spacing:0.06em;color:#9A917D;text-transform:uppercase;margin-bottom:6px;">Starter use plan</div>
+            <div style="font-size:15px;line-height:1.55;color:#15281D;">${plant.teaBrew}<br><span style="color:#5E6A60;">${plant.teaSteep}</span><br><span style="color:#5E6A60;">${plant.teaCups}</span></div>
+          </div>
+          <div>
+            <div style="font-size:12px;font-weight:700;letter-spacing:0.06em;color:#9A917D;text-transform:uppercase;margin-bottom:6px;">Good to know</div>
+            <div style="font-size:15px;line-height:1.55;color:#15281D;"><strong>Difficulty:</strong> ${plant.gDifficulty}<br><strong>First harvest:</strong> ${plant.gTime}<br><strong>Active:</strong> ${plant.bioactive}</div>
+          </div>
+        </div>
+        <button onclick="openModal('${plant.key}')" class="lift" style="cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:9px;background:#1B5138;color:#fff;font-weight:700;font-size:15px;padding:13px 18px;border-radius:11px;box-shadow:0 14px 26px -16px rgba(27,81,56,.7);border:none;margin-top:auto;">
           <span style="font-size:17px;line-height:1;">🌱</span> How to grow &amp; use this plant →
         </button>
-        <button onclick="resetMatcher()" class="lift" style="cursor:pointer;font-size:15px;font-weight:600;color:#1B5138;background:none;border:none;padding:0;">Start over</button>
       </div>
+    </div>`;
+  }).join('');
+
+  el.innerHTML = `<div class="rise">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:16px;">
+      <div>
+        <div class="mono" style="font-size:11px;letter-spacing:0.18em;color:#7A8472;text-transform:uppercase;margin-bottom:5px;">${choiceLabel} for this setup</div>
+        <div style="font-size:17px;line-height:1.45;color:#4F5A50;">Choose the plant you actually want to grow.</div>
+      </div>
+      <button onclick="resetMatcher()" class="lift" style="cursor:pointer;font-size:15px;font-weight:700;color:#1B5138;background:#FBF8F1;border:1px solid #D9D3C3;border-radius:11px;padding:11px 16px;">Start over</button>
+    </div>
+    <div class="match-card-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;">
+      ${matchCards}
     </div>
   </div>`;
 }
@@ -546,12 +897,12 @@ function resetMatcher() { selectedSpace = null; selectedGoal = null; renderChips
 function renderGrowCards() {
   const el = document.getElementById('grow-cards');
   el.innerHTML = PLANTS.map(p => `
-    <div style="background:#FBF8F1;border:1px solid #E3DBC9;border-radius:18px;overflow:hidden;display:flex;">
-      <div style="width:88px;flex-shrink:0;background:${p.tint};display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
+    <div class="grow-card" style="background:#FBF8F1;border:1px solid #E3DBC9;border-radius:18px;overflow:hidden;display:flex;">
+      <div class="grow-card-strip" style="width:88px;flex-shrink:0;background:${p.tint};display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
         <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.06) 0 1px,transparent 1px 11px);" aria-hidden="true"></div>
         <svg viewBox="-22 -160 44 168" width="26" height="88" fill="none" stroke="rgba(255,255,255,.85)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" style="position:relative;" aria-hidden="true"><use href="#sprig"></use></svg>
       </div>
-      <div style="padding:22px 24px;flex:1;">
+      <div class="grow-card-body" style="padding:22px 24px;flex:1;">
         <div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;">
           <div>
             <div style="font-size:20px;font-weight:800;color:#15281D;letter-spacing:-0.01em;">${p.name}</div>
@@ -559,7 +910,7 @@ function renderGrowCards() {
           </div>
           <span style="font-size:12px;font-weight:700;color:#2C7A4E;background:#E6F2E9;border:1px solid #CBE2D1;border-radius:7px;padding:5px 9px;white-space:nowrap;">${p.goalLabel}</span>
         </div>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;margin-top:18px;">
+        <div class="grow-card-info" style="display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;margin-top:18px;">
           <div><div style="font-size:11px;font-weight:700;letter-spacing:0.06em;color:#A89E89;text-transform:uppercase;margin-bottom:3px;">Light</div><div style="font-size:14px;line-height:1.4;color:#3F4A41;">${p.gLight}</div></div>
           <div><div style="font-size:11px;font-weight:700;letter-spacing:0.06em;color:#A89E89;text-transform:uppercase;margin-bottom:3px;">Water</div><div style="font-size:14px;line-height:1.4;color:#3F4A41;">${p.gWater}</div></div>
           <div><div style="font-size:11px;font-weight:700;letter-spacing:0.06em;color:#A89E89;text-transform:uppercase;margin-bottom:3px;">Container</div><div style="font-size:14px;line-height:1.4;color:#3F4A41;">${p.gSpace}</div></div>
@@ -579,8 +930,8 @@ function evDots(n) {
 function renderUseRows() {
   const el = document.getElementById('use-rows');
   el.innerHTML = PLANTS.map(p => `
-    <div style="background:#FBF8F1;border:1px solid #E3DBC9;border-radius:18px;padding:26px 28px;">
-      <div style="display:grid;grid-template-columns:minmax(180px,220px) 1fr 1fr minmax(160px,1.1fr);gap:28px;align-items:start;">
+    <div class="use-row-card" style="background:#FBF8F1;border:1px solid #E3DBC9;border-radius:18px;padding:26px 28px;">
+      <div class="use-row-grid" style="display:grid;grid-template-columns:minmax(180px,220px) 1fr 1fr minmax(160px,1.1fr);gap:28px;align-items:start;">
         <!-- identity -->
         <div style="display:flex;align-items:center;gap:14px;">
           <div style="width:52px;height:52px;border-radius:12px;background:${p.tint};flex-shrink:0;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
@@ -603,10 +954,10 @@ function renderUseRows() {
           </div>
           <div style="font-size:13px;line-height:1.45;color:#7E867A;margin-top:7px;">${p.evNote}</div>
         </div>
-        <!-- tea plan -->
+        <!-- use plan -->
         <div>
-          <div style="font-size:11px;font-weight:700;letter-spacing:0.06em;color:#A89E89;text-transform:uppercase;margin-bottom:6px;">Starter tea plan</div>
-          <div style="font-size:15px;line-height:1.6;color:#15281D;">${p.teaBrew}<br><span style="color:#5E6A60;">Steep ${p.teaSteep}</span><br><span style="color:#5E6A60;">${p.teaCups}</span></div>
+          <div style="font-size:11px;font-weight:700;letter-spacing:0.06em;color:#A89E89;text-transform:uppercase;margin-bottom:6px;">Starter use plan</div>
+          <div style="font-size:15px;line-height:1.6;color:#15281D;">${p.teaBrew}<br><span style="color:#5E6A60;">${p.teaSteep}</span><br><span style="color:#5E6A60;">${p.teaCups}</span></div>
         </div>
         <!-- safety -->
         <div style="background:#F6EEDD;border:1px solid #E8D9B8;border-radius:13px;padding:16px 18px;">
@@ -635,13 +986,13 @@ function openModal(key) {
 
   mc.innerHTML = `
     <!-- header band -->
-    <div style="background:${p.tint};padding:30px 34px;position:relative;overflow:hidden;">
+    <div class="modal-hero" style="background:${p.tint};padding:30px 34px;position:relative;overflow:hidden;">
       <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.06) 0 1px,transparent 1px 12px);" aria-hidden="true"></div>
       <svg viewBox="-30 -170 60 178" width="100" height="296" fill="none" stroke="rgba(255,255,255,.34)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="340" stroke-dashoffset="340" style="position:absolute;right:24px;top:-40px;animation:drawLine 1.3s ease .15s forwards;" aria-hidden="true"><use href="#sprig"></use></svg>
       <div style="position:relative;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
         <div>
           <span class="mono" style="font-size:11px;letter-spacing:0.22em;color:rgba(255,255,255,.7);text-transform:uppercase;">Full grow &amp; use guide</span>
-          <div style="font-size:36px;line-height:1.02;font-weight:800;color:#fff;letter-spacing:-0.02em;margin-top:8px;">${p.name}</div>
+          <div class="modal-plant-name" style="font-size:36px;line-height:1.02;font-weight:800;color:#fff;letter-spacing:-0.02em;margin-top:8px;">${p.name}</div>
           <div class="italic-serif" style="font-size:18px;color:rgba(255,255,255,.8);margin-top:5px;">${p.binomial}</div>
           <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
             <span style="font-size:12px;font-weight:700;color:#fff;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.28);border-radius:7px;padding:5px 10px;">For ${p.goalLabel}</span>
@@ -652,13 +1003,13 @@ function openModal(key) {
       </div>
     </div>
     <!-- body -->
-    <div style="padding:32px 34px 38px;overflow-y:auto;max-height:70vh;">
+    <div class="modal-body-pad" style="padding:32px 34px 38px;overflow-y:auto;max-height:70vh;">
       <!-- HOW TO GROW -->
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px;">
         <span class="mono" style="font-size:12px;letter-spacing:0.2em;color:#2C7A4E;text-transform:uppercase;">How to grow it</span>
         <span style="flex:1;height:1px;background:#E3DBC9;"></span>
       </div>
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;">
+      <div class="modal-care-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;">
         ${[
           ['☀️','Sunlight',p.dSun,'05s'],['🪨','Soil',p.dSoil,'.12s'],['🪴','Pot size',p.dPot,'.19s'],
           ['💧','Watering',p.dWater,'.26s'],['🌿','Feeding',p.dFeed,'.33s'],['✂️','First harvest',p.gTime,'.40s']
@@ -685,7 +1036,7 @@ function openModal(key) {
         <span class="mono" style="font-size:12px;letter-spacing:0.2em;color:#2C7A4E;text-transform:uppercase;">Eat it or drink it?</span>
         <span style="flex:1;height:1px;background:#E3DBC9;"></span>
       </div>
-      <div style="background:${p.tint};border-radius:18px;padding:26px 28px;position:relative;overflow:hidden;">
+      <div class="modal-use-card" style="background:${p.tint};border-radius:18px;padding:26px 28px;position:relative;overflow:hidden;">
         <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 1px,transparent 1px 12px);" aria-hidden="true"></div>
         <div style="position:relative;">
           <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;">
@@ -695,7 +1046,7 @@ function openModal(key) {
               <div style="font-size:22px;font-weight:800;color:#fff;letter-spacing:-0.01em;">${p.useForm}</div>
             </div>
           </div>
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+          <div class="modal-use-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
             <div>
               <div style="font-size:11px;font-weight:700;letter-spacing:0.06em;color:rgba(255,255,255,.6);text-transform:uppercase;margin-bottom:6px;">How to prepare it</div>
               <div style="font-size:15px;line-height:1.6;color:rgba(255,255,255,.95);">${p.usePrep}</div>
