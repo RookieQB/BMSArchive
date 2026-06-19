@@ -1,0 +1,14 @@
+.git
+.github
+.claude
+.env
+.DS_Store
+node_modules
+admin.html
+admin_server.py
+build_plants.py
+docs
+examples
+scripts
+E-books/*
+!E-books/*.pdf

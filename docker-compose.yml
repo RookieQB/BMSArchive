@@ -19,6 +19,8 @@ services:
       context: .
       dockerfile: Dockerfile.api
     container_name: bms-api
+    env_file:
+      - .env
     volumes:
       - waitlist_data:/data
     restart: unless-stopped
