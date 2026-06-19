@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBD3M92K2X"></script>
+  <!-- Google Analytics — loaded only after cookie consent -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-QBD3M92K2X');
+    var GA_ID = 'G-QBD3M92K2X';
+    function loadGA() {
+      if (window._gaLoaded) return;
+      window._gaLoaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', GA_ID);
+    }
+    if (localStorage.getItem('bms_analytics_consent') === 'accepted') { loadGA(); }
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -1005,6 +1015,35 @@
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;');
     }
+  </script>
+
+  <!-- ══════════════════════════ COOKIE BANNER ════════════════════════════ -->
+  <div id="cookie-banner" role="region" aria-label="Cookie consent" style="position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#0E2A20;border-top:1px solid rgba(159,217,181,.18);">
+    <div style="max-width:72rem;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;">
+      <p style="color:rgba(255,255,255,.75);font-size:13px;line-height:1.5;margin:0;flex:1;min-width:240px;">
+        We use analytics cookies (Google Analytics) to understand how visitors use BMS Archive. No personal data is collected before you consent.
+        <a href="/privacy.html" style="color:#7FB596;text-decoration:underline;margin-left:4px;">Privacy Policy</a>
+      </p>
+      <div style="display:flex;gap:10px;flex-shrink:0;">
+        <button id="cookie-decline" type="button" style="padding:8px 18px;border-radius:8px;font-size:13px;font-weight:600;border:1px solid rgba(159,217,181,.3);background:transparent;color:rgba(255,255,255,.65);cursor:pointer;">Decline</button>
+        <button id="cookie-accept" type="button" style="padding:8px 18px;border-radius:8px;font-size:13px;font-weight:600;background:#1F6640;color:#fff;border:none;cursor:pointer;">Accept analytics</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function() {
+      var banner = document.getElementById('cookie-banner');
+      if (localStorage.getItem('bms_analytics_consent')) { banner.style.display = 'none'; return; }
+      document.getElementById('cookie-accept').addEventListener('click', function() {
+        localStorage.setItem('bms_analytics_consent', 'accepted');
+        banner.style.display = 'none';
+        if (typeof loadGA === 'function') loadGA();
+      });
+      document.getElementById('cookie-decline').addEventListener('click', function() {
+        localStorage.setItem('bms_analytics_consent', 'declined');
+        banner.style.display = 'none';
+      });
+    })();
   </script>
 </body>
 </html>

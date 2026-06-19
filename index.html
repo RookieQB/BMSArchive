@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBD3M92K2X"></script>
+  <!-- Google Analytics — loaded only after cookie consent -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-QBD3M92K2X');
+    var GA_ID = 'G-QBD3M92K2X';
+    function loadGA() {
+      if (window._gaLoaded) return;
+      window._gaLoaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', GA_ID);
+    }
+    if (localStorage.getItem('bms_analytics_consent') === 'accepted') { loadGA(); }
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -258,23 +268,23 @@
         <p class="mono text-xs uppercase mb-3" style="letter-spacing:0.2em;color:#178A4D;">E-Books · Evidence-Based Relief</p>
         <h2 class="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 leading-tight mb-3">The archive, made portable.</h2>
         <p class="text-lg max-w-xl leading-relaxed text-gray-500">
-          Fully-cited field guides you buy once and keep. No subscription, no paywalled citations.
+          Practical, evidence-informed guides you can download and keep. No subscription, no paywalled citations.
         </p>
       </div>
 
-      <!-- Featured spotlight: Complete Field Guide -->
+      <!-- Featured spotlight: The Little Guide -->
       <div class="rounded-2xl overflow-hidden mb-10 flex flex-col sm:flex-row gap-0" style="border:1px solid #E5EDE9;box-shadow:0 4px 32px -8px rgba(28,82,53,.1);">
         <!-- Book cover -->
-        <div class="sm:w-56 flex-shrink-0 flex items-center justify-center p-8" style="background:linear-gradient(150deg,#193E2D,#0D2519);">
+        <div class="sm:w-56 flex-shrink-0 flex items-center justify-center p-8" style="background:linear-gradient(150deg,#315B2B,#182E17);">
           <div class="w-36 aspect-[3/4] rounded-lg p-4 flex flex-col justify-between relative overflow-hidden"
-               style="background:linear-gradient(150deg,#27543E,#143A2A);box-shadow:0 16px 40px -10px rgba(0,0,0,0.7);">
+               style="background:linear-gradient(150deg,#4A7A40,#294924);box-shadow:0 16px 40px -10px rgba(0,0,0,0.7);">
             <div class="absolute inset-0" aria-hidden="true"
                  style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.06) 0 1px,transparent 1px 10px);"></div>
             <p class="relative text-[7px] font-mono uppercase" style="letter-spacing:0.18em;color:rgba(255,255,255,0.55);">BMS Archive</p>
             <div class="relative">
-              <p class="text-sm font-bold text-white leading-tight">The Complete<br>Field Guide</p>
+              <p class="text-sm font-bold text-white leading-tight">The Little<br>Guide</p>
               <div class="w-5 h-px my-2" style="background:rgba(255,255,255,0.4);"></div>
-              <p class="text-[8px] font-mono" style="color:rgba(255,255,255,0.5);">Full Archive</p>
+              <p class="text-[8px] font-mono" style="color:rgba(255,255,255,0.5);">Everyday Relief</p>
             </div>
           </div>
         </div>
@@ -283,22 +293,20 @@
           <div>
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold mb-4"
                  style="background:#E7F7EE;border:1px solid #9FD9B5;color:#178A4D;">Featured</div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-2">The Complete Field Guide to Botanical Medicine</h3>
-            <p class="text-gray-500 leading-relaxed mb-6">All 66 monographs in one volume — fungi and plant profiles, full ADME pharmacokinetics, drug interaction tables, cited to the study. The definitive reference for practitioners and researchers.</p>
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">The Little Guide</h3>
+            <p class="text-gray-500 leading-relaxed mb-6">A concise, safety-first introduction to common phytomedicine options for everyday complaints — practical, evidence-informed and easy to use.</p>
             <ul class="space-y-1.5 text-sm text-gray-600 mb-6">
-              <li class="flex items-center gap-2"><span style="color:#178A4D;">✓</span> 320 pages · 66 profiles</li>
-              <li class="flex items-center gap-2"><span style="color:#178A4D;">✓</span> 1,200+ primary citations</li>
-              <li class="flex items-center gap-2"><span style="color:#178A4D;">✓</span> Safety &amp; interaction tables</li>
+              <li class="flex items-center gap-2"><span style="color:#178A4D;">✓</span> 10 practical chapters</li>
+              <li class="flex items-center gap-2"><span style="color:#178A4D;">✓</span> Clear safety guidance</li>
+              <li class="flex items-center gap-2"><span style="color:#178A4D;">✓</span> Free PDF to download and keep</li>
             </ul>
           </div>
           <div class="flex items-center gap-4">
-            <span class="text-3xl font-bold text-gray-900">$39</span>
-            <div class="px-5 py-2.5 rounded-xl text-sm font-semibold cursor-default select-none"
-                 style="background:#F1F5F2;border:1px solid #D4E4DB;color:#6E8579;">Coming Soon</div>
-            <div class="flex items-center gap-1.5 ml-1">
-              <span class="w-1.5 h-1.5 rounded-full animate-pulse" style="background:#7FB596;"></span>
-              <span class="text-xs text-gray-400">Launching soon</span>
-            </div>
+            <span class="text-base text-gray-400 line-through">$10</span>
+            <span class="text-3xl font-extrabold" style="color:#178A4D;">FREE</span>
+            <button type="button" data-add-product="little-guide" data-product-name="The Little Guide" data-product-price="0"
+                    class="px-5 py-2.5 rounded-xl text-sm font-bold text-white transition hover:opacity-90"
+                    style="background:#1C5235;">Get it free</button>
           </div>
         </div>
       </div>
@@ -350,34 +358,32 @@
                style="background:#F1F5F2;border:1px solid #D4E4DB;color:#8FA89B;">Coming Soon</div>
         </div>
 
-        <!-- Book: The Little Guide -->
+        <!-- Book: The Complete Field Guide -->
         <div class="rounded-2xl p-5 flex flex-col bg-gray-50" style="border:1px solid #E5EDE9;">
           <div class="aspect-[3/4] rounded-xl p-4 flex flex-col justify-between relative overflow-hidden mb-4"
-               style="background:linear-gradient(150deg,#3E6B36,#24401F);box-shadow:0 12px 28px -10px rgba(0,0,0,0.55);">
+               style="background:linear-gradient(150deg,#27543E,#143A2A);box-shadow:0 12px 28px -10px rgba(0,0,0,0.55);">
             <div class="absolute inset-0" aria-hidden="true"
                  style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 11px);"></div>
             <p class="relative text-[8px] font-mono uppercase" style="letter-spacing:0.18em;color:rgba(255,255,255,0.55);">BMS Archive</p>
             <div class="relative">
-              <p class="text-base font-bold text-white leading-tight">The Little Guide</p>
+              <p class="text-base font-bold text-white leading-tight">The Complete<br>Field Guide</p>
               <div class="w-6 h-px my-2" style="background:rgba(255,255,255,0.4);"></div>
-              <p class="text-[9px] font-mono" style="color:rgba(255,255,255,0.5);">Everyday Relief</p>
+              <p class="text-[9px] font-mono" style="color:rgba(255,255,255,0.5);">Full Archive</p>
             </div>
           </div>
           <div class="flex items-baseline justify-between gap-2 mb-1">
-            <p class="text-sm font-bold text-gray-900 leading-tight">The Little Guide</p>
-            <p class="text-sm font-bold text-gray-900 whitespace-nowrap">$1</p>
+            <p class="text-sm font-bold text-gray-900 leading-tight">The Complete Field Guide</p>
+            <p class="text-sm font-bold text-gray-900 whitespace-nowrap">$39</p>
           </div>
-          <p class="text-xs text-gray-400 mb-4">Safety-first guide · 10 practical chapters</p>
-          <button type="button" data-add-product="little-guide" data-product-name="The Little Guide" data-product-price="1"
-                  class="mt-auto text-center py-2.5 rounded-xl text-xs font-bold text-white transition hover:opacity-90"
-                  style="background:#1C5235;">Add to basket</button>
+          <div class="mt-auto text-center py-2.5 rounded-xl text-xs font-semibold cursor-default select-none"
+               style="background:#F1F5F2;border:1px solid #D4E4DB;color:#8FA89B;">Coming Soon</div>
         </div>
 
       </div><!-- /book grid -->
     </div>
   </section>
 
-  <!-- E-book basket. Stripe securely collects the payment details. -->
+  <!-- E-book basket. Stripe securely confirms free orders and handles paid checkouts. -->
   <div id="cart-overlay" class="cart-overlay hidden" aria-hidden="true"></div>
   <aside id="cart-panel" class="cart-panel hidden" role="dialog" aria-modal="true" aria-labelledby="cart-title">
     <div class="p-6 sm:p-8">
@@ -407,17 +413,17 @@
             <input id="checkout-email" name="email" type="email" autocomplete="email" required class="w-full rounded-xl border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-forest-700" placeholder="you@example.com">
             <p class="text-[11px] text-gray-400 mt-1.5">Your purchased PDF will be sent here.</p>
           </div>
-          <div>
-            <label for="checkout-phone" class="block text-xs font-bold text-gray-700 mb-1.5">Phone number</label>
-            <input id="checkout-phone" name="phone" type="tel" autocomplete="tel" required maxlength="30" class="w-full rounded-xl border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-forest-700" placeholder="+45 12 34 56 78">
-          </div>
           <label class="flex items-start gap-3 text-[11px] leading-relaxed text-gray-500">
             <input name="digitalConsent" type="checkbox" required class="mt-0.5 h-4 w-4 shrink-0 accent-green-800">
             <span>I request immediate delivery of the digital content and acknowledge that my right of withdrawal ends when delivery begins.</span>
           </label>
+          <label class="flex items-start gap-3 text-[11px] leading-relaxed text-gray-500">
+            <input name="gdprConsent" type="checkbox" required class="mt-0.5 h-4 w-4 shrink-0 accent-green-800">
+            <span>I consent to BMS Archive processing my name and email address to fulfill this order and deliver the purchased PDF by email. My data may be shared with Stripe (order processing) and Resend (email delivery) as data processors, and will not be used for marketing without separate consent. See our <a href="/privacy.html" class="underline hover:text-gray-700">Privacy Policy</a> for details on your rights and how to request access, correction, or deletion of your data.</span>
+          </label>
           <p id="checkout-error" class="hidden rounded-lg px-3 py-2 text-xs font-semibold text-red-700" style="background:#FDECEC;"></p>
-          <button id="checkout-button" type="submit" class="w-full rounded-xl px-5 py-3.5 text-sm font-bold text-white shadow-sm transition hover:opacity-95 disabled:opacity-60" style="background:#173F2D;">Continue to secure payment</button>
-          <p class="text-center text-[11px] leading-relaxed text-gray-400">Payment is completed securely on Stripe. We never receive or store your card details.</p>
+          <button id="checkout-button" type="submit" class="w-full rounded-xl px-5 py-3.5 text-sm font-bold text-white shadow-sm transition hover:opacity-95 disabled:opacity-60" style="background:#173F2D;">Continue to free download</button>
+          <p class="text-center text-[11px] leading-relaxed text-gray-400">Stripe securely confirms your free order. No card or payment is required.</p>
         </form>
       </div>
     </div>
@@ -541,7 +547,7 @@
   <script>
     (() => {
       const catalog = {
-        'little-guide': { name: 'The Little Guide', price: 1 },
+        'little-guide': { name: 'The Little Guide', price: 0 },
       };
       const storageKey = 'bms-ebook-cart';
       const overlay = document.getElementById('cart-overlay');
@@ -600,7 +606,7 @@
           actions.className = 'text-right';
           const price = document.createElement('p');
           price.className = 'text-sm font-bold text-gray-900';
-          price.textContent = `$${product.price}`;
+          price.textContent = product.price === 0 ? 'FREE' : `$${product.price}`;
           const remove = document.createElement('button');
           remove.type = 'button';
           remove.className = 'text-[11px] text-red-600 mt-1';
@@ -646,7 +652,7 @@
         if (!checkoutForm.reportValidity() || cart.length === 0) return;
 
         checkoutButton.disabled = true;
-        checkoutButton.textContent = 'Opening secure payment…';
+        checkoutButton.textContent = 'Opening your free checkout…';
         const formData = new FormData(checkoutForm);
 
         try {
@@ -657,8 +663,8 @@
               productIds: cart,
               name: formData.get('name'),
               email: formData.get('email'),
-              phone: formData.get('phone'),
               digitalConsent: formData.get('digitalConsent') === 'on',
+              gdprConsent: formData.get('gdprConsent') === 'on',
             }),
           });
           const result = await response.json();
@@ -668,7 +674,7 @@
           checkoutError.textContent = error.message || 'Checkout could not be opened. Please try again.';
           checkoutError.classList.remove('hidden');
           checkoutButton.disabled = false;
-          checkoutButton.textContent = 'Continue to secure payment';
+          checkoutButton.textContent = 'Continue to free download';
         }
       });
 
@@ -717,5 +723,33 @@
     });
   </script>
 
+  <!-- ══════════════════════════ COOKIE BANNER ════════════════════════════ -->
+  <div id="cookie-banner" role="region" aria-label="Cookie consent" style="position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#0E2A20;border-top:1px solid rgba(159,217,181,.18);">
+    <div style="max-width:72rem;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;">
+      <p style="color:rgba(255,255,255,.75);font-size:13px;line-height:1.5;margin:0;flex:1;min-width:240px;">
+        We use analytics cookies (Google Analytics) to understand how visitors use BMS Archive. No personal data is collected before you consent.
+        <a href="/privacy.html" style="color:#7FB596;text-decoration:underline;margin-left:4px;">Privacy Policy</a>
+      </p>
+      <div style="display:flex;gap:10px;flex-shrink:0;">
+        <button id="cookie-decline" type="button" style="padding:8px 18px;border-radius:8px;font-size:13px;font-weight:600;border:1px solid rgba(159,217,181,.3);background:transparent;color:rgba(255,255,255,.65);cursor:pointer;">Decline</button>
+        <button id="cookie-accept" type="button" style="padding:8px 18px;border-radius:8px;font-size:13px;font-weight:600;background:#1F6640;color:#fff;border:none;cursor:pointer;">Accept analytics</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function() {
+      var banner = document.getElementById('cookie-banner');
+      if (localStorage.getItem('bms_analytics_consent')) { banner.style.display = 'none'; return; }
+      document.getElementById('cookie-accept').addEventListener('click', function() {
+        localStorage.setItem('bms_analytics_consent', 'accepted');
+        banner.style.display = 'none';
+        if (typeof loadGA === 'function') loadGA();
+      });
+      document.getElementById('cookie-decline').addEventListener('click', function() {
+        localStorage.setItem('bms_analytics_consent', 'declined');
+        banner.style.display = 'none';
+      });
+    })();
+  </script>
 </body>
 </html>

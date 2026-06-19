@@ -9,7 +9,7 @@ const EBOOK_DIR = process.env.EBOOK_DIR || path.join(__dirname, 'E-books');
 const WAITLIST_FILE = path.join(DATA_DIR, 'waitlist.txt');
 const FULFILLED_FILE = path.join(DATA_DIR, 'fulfilled-orders.jsonl');
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const PHONE_RE = /^[+()\d\s.-]{6,30}$/;
+const PHONE_RE = /^[+()\d\s.-]{6,30}$/; // kept for reference — no longer used in checkout
 const MAX_BODY_BYTES = 256 * 1024;
 
 let stripe = null;
@@ -40,11 +40,16 @@ const PRODUCTS = Object.freeze({
   },
   'little-guide': {
     name: 'The Little Guide',
-    priceCents: 100,
+    priceCents: 0,
     currency: 'usd',
     filename: 'BMS_Archive_The_Little_Guide.pdf',
   },
 });
+
+function isCompletedOrder(session) {
+  return session?.status === 'complete'
+    && (session.payment_status === 'paid' || session.payment_status === 'no_payment_required');
+}
 
 function ebookPath(product) {
   return path.join(EBOOK_DIR, product.filename);
@@ -122,14 +127,14 @@ async function createCheckout(req, res) {
     const products = selectedProducts(body?.productIds);
     const name = String(body?.name || '').trim();
     const email = String(body?.email || '').trim().toLowerCase();
-    const phone = String(body?.phone || '').trim();
     const digitalConsent = body?.digitalConsent === true;
+    const gdprConsent = body?.gdprConsent === true;
 
     if (!products) return sendJson(res, 400, { error: 'One or more selected e-books are unavailable.' });
     if (name.length < 2 || name.length > 120) return sendJson(res, 400, { error: 'Please enter your name.' });
     if (!EMAIL_RE.test(email)) return sendJson(res, 400, { error: 'Please enter a valid email.' });
-    if (!PHONE_RE.test(phone)) return sendJson(res, 400, { error: 'Please enter a valid phone number.' });
     if (!digitalConsent) return sendJson(res, 400, { error: 'Please accept immediate digital delivery.' });
+    if (!gdprConsent) return sendJson(res, 400, { error: 'Please accept the data processing consent to continue.' });
 
     try {
       const session = await stripe.checkout.sessions.create({
@@ -146,7 +151,6 @@ async function createCheckout(req, res) {
         metadata: {
           product_ids: products.map(product => product.id).join(','),
           customer_name: name,
-          customer_phone: phone,
           digital_delivery_consent: 'yes',
         },
         success_url: `${SITE_URL}/checkout-success.html?session_id={CHECKOUT_SESSION_ID}`,
@@ -167,7 +171,7 @@ async function sendOrderEmail(session, products) {
   }
 
   const email = session.customer_details?.email || session.customer_email;
-  if (!email || !EMAIL_RE.test(email)) throw new Error('Paid session has no valid email');
+  if (!email || !EMAIL_RE.test(email)) throw new Error('Completed session has no valid email');
 
   const attachments = products.map(product => ({
     filename: product.filename,
@@ -203,13 +207,13 @@ async function sendOrderEmail(session, products) {
   }
 }
 
-async function fulfillPaidSession(session, eventId) {
-  if (session.payment_status !== 'paid') return;
+async function fulfillCompletedSession(session, eventId) {
+  if (!isCompletedOrder(session)) return;
   if (fulfilledSessions.has(session.id) || fulfillmentInProgress.has(session.id)) return;
 
   const productIds = String(session.metadata?.product_ids || '').split(',').filter(Boolean);
   const products = selectedProducts(productIds);
-  if (!products) throw new Error(`Invalid products in paid session ${session.id}`);
+  if (!products) throw new Error(`Invalid products in completed session ${session.id}`);
 
   fulfillmentInProgress.add(session.id);
   try {
@@ -251,7 +255,7 @@ async function handleStripeWebhook(req, res) {
 
     try {
       if (event.type === 'checkout.session.completed' || event.type === 'checkout.session.async_payment_succeeded') {
-        await fulfillPaidSession(event.data.object, event.id);
+        await fulfillCompletedSession(event.data.object, event.id);
       }
       sendJson(res, 200, { received: true });
     } catch (error) {
@@ -275,6 +279,7 @@ async function getSessionStatus(req, res, url) {
     sendJson(res, 200, {
       status: session.status,
       paymentStatus: session.payment_status,
+      amountTotal: session.amount_total,
       email: session.customer_details?.email || session.customer_email || '',
       delivered: fulfilledSessions.has(session.id),
       products: products.map(product => ({ id: product.id, name: product.name })),
@@ -296,8 +301,8 @@ async function downloadPurchasedProduct(req, res, url) {
 
   try {
     const session = await stripe.checkout.sessions.retrieve(sessionId);
-    if (session.status !== 'complete' || session.payment_status !== 'paid') {
-      return sendJson(res, 403, { error: 'Payment has not been completed.' });
+    if (!isCompletedOrder(session)) {
+      return sendJson(res, 403, { error: 'The order has not been completed.' });
     }
 
     const purchasedIds = String(session.metadata?.product_ids || '').split(',').filter(Boolean);
@@ -320,7 +325,7 @@ async function downloadPurchasedProduct(req, res, url) {
     });
     fs.createReadStream(filePath).pipe(res);
   } catch (error) {
-    console.warn('Paid download error:', error.message);
+    console.warn('Order download error:', error.message);
     if (!res.headersSent) sendJson(res, 404, { error: 'Purchased file could not be retrieved.' });
     else res.destroy();
   }
