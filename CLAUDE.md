@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-BMS Archive is a static, evidence-based phytomedicine website hosted at **bmsarchive.com**. It is a two-page public archive of botanical and fungal monographs sourced from peer-reviewed literature (PubMed), combined with a functional email waitlist/newsletter backend.
+BMS Archive is an evidence-based phytomedicine website hosted at **bmsarchive.com**. It combines a public botanical and fungal monograph archive, a grow-your-own plant matcher, a newsletter backend, and a Stripe-powered e-book storefront.
 
-The site is currently in Phase 1: a landing page with a newsletter subscription form, and a searchable database of 50 bioactive monographs (25 medicinal fungi + 25 medicinal plants). There is no framework, no build step, and no npm dependencies — the site is plain HTML5 with a locally bundled Tailwind CSS file.
+The public archive contains 66 bioactive monographs (25 medicinal fungi + 41 medicinal plants). The frontend remains plain HTML5 and vanilla JavaScript with a locally bundled Tailwind CSS file. The Node.js API uses the Stripe SDK; there is no frontend framework, bundler, or transpilation step.
 
 This project is **not** about Instagram, social media content creation, reels, captions, or any social media workflow. Do not introduce logic or features related to those topics.
 
@@ -19,12 +19,17 @@ This project is **not** about Instagram, social media content creation, reels, c
 **Core features:**
 - Landing page (`index.html`) with hero section, newsletter/waitlist form, and a medical disclaimer
 - Searchable database (`database.html`) — grid of cards, text search, type filter (Fungi/Plant), modal detail view
+- Grow-your-own matcher (`grow.html`) for selecting medicinal plants by growing conditions
+- E-book storefront and basket on `index.html`, with server-owned prices and Stripe-hosted Checkout
+- Payment return page (`checkout-success.html`) with payment status, e-mail status, and a paid-session PDF download fallback
 - Email waitlist backend — Node.js API endpoint (`POST /api/waitlist`) persists emails to `/data/waitlist.txt`
+- Signed Stripe webhook fulfillment through Resend, with duplicate-delivery protection in `/data/fulfilled-orders.jsonl`
 - Local admin panel (`admin.html` + `admin_server.py`) — browser-based editor for `data.json`, runs locally only, never deployed
 
 **Key user flows:**
 1. Visitor lands on `index.html` → reads about the project → enters email to subscribe → sees success confirmation
 2. Visitor clicks "Browse Database" → `database.html` → searches/filters monographs → clicks a card → reads full modal with clinical data, pharmacokinetics, citations
+3. Visitor adds an available e-book → supplies contact details and digital-delivery consent → completes Stripe Checkout → receives the PDF by e-mail and can download it from the payment return page
 
 **What this project is not:**
 - Not a social media tool or content scheduler
@@ -43,14 +48,14 @@ This project is **not** about Instagram, social media content creation, reels, c
 | HTML/CSS | Plain HTML5 + Tailwind CSS v3.4.17 (served locally as `tailwind.js`) |
 | JavaScript | Vanilla JS inline in each HTML file — no bundler, no transpilation |
 | Font | Inter (Google Fonts, loaded via non-blocking `preload` / `onload` pattern) |
-| Data | `data.json` — 50 monograph entries, PubMed-verified |
+| Data | `data.json` — 66 monograph entries (25 Fungi + 41 Plant), PubMed-verified |
 | Web server | Nginx 1.27-alpine (Docker container) |
-| API server | Node.js 20-alpine (Docker container), zero npm dependencies, plain `http` module |
+| API server | Node.js 20-alpine (Docker container), plain `http` module + Stripe Node SDK |
 | Container orchestration | Docker Compose v2+ |
 | Deployment host | LXC container on self-hosted Proxmox server |
 | Admin tool | Python 3 stdlib HTTP server (`admin_server.py`) — local only |
 | Data-seeding scripts | Python 3, uses `anthropic` SDK and NCBI APIs — offline only |
-| Package manager | None (no `package.json`) |
+| Package manager | npm for the API container (`package.json`; exact Stripe dependency) |
 | Framework | None |
 | Build step | None |
 | Testing | None |
@@ -63,16 +68,20 @@ This project is **not** about Instagram, social media content creation, reels, c
 
 ```
 BMS website/
-├── index.html            # Landing page — hero, newsletter form, disclaimer, footer
+├── index.html            # Landing page, newsletter, e-book storefront and checkout basket
+├── checkout-success.html # Stripe return page, fulfillment state and paid PDF downloads
 ├── database.html         # Searchable monograph database — grid, filters, modal
+├── grow.html             # Grow-your-own medicinal plant matcher
 ├── admin.html            # Local admin panel UI (not deployed, local editor for data.json)
-├── data.json             # 50 monograph entries (25 Fungi + 25 Plants), PubMed-verified
+├── data.json             # 66 monograph entries (25 Fungi + 41 Plants), PubMed-verified
 ├── tailwind.js           # Tailwind CSS v3.4.17 bundled locally — do NOT replace with CDN
 ├── nginx.conf            # Nginx config: HTTPS redirect, SSL, gzip, cache headers, security headers
 ├── Dockerfile            # nginx:1.27-alpine — serves static files (web container)
 ├── Dockerfile.api        # node:20-alpine — runs server.js (api container)
 ├── docker-compose.yml    # Two services: web (Nginx) + api (Node.js); volume: waitlist_data
-├── server.js             # Node.js waitlist API — POST /api/waitlist, saves to /data/waitlist.txt
+├── server.js             # Waitlist, Stripe Checkout/webhook, Resend fulfillment and paid downloads
+├── package.json          # API runtime metadata and exact Stripe SDK dependency
+├── E-books/              # Final customer PDFs copied only into the API image
 ├── admin_server.py       # Local Python server on port 5050 — serves admin.html + GET/POST /api/data
 ├── build_plants.py       # Offline script — generates plant monographs via Claude + PubMed APIs
 ├── .claude/
@@ -93,9 +102,14 @@ BMS website/
 
 ## How To Run The Project
 
-### Local development (no server needed)
+### Local frontend development
 
-Open `index.html` or `database.html` directly in a browser. No install step required.
+Serve the repository over HTTP when testing fetch-based flows. Opening a file directly is sufficient only for static layout checks.
+
+```bash
+python3 -m http.server 8080 --bind 127.0.0.1
+# Site at http://127.0.0.1:8080
+```
 
 ### Local with Nginx (Docker)
 
@@ -132,11 +146,16 @@ python3 build_plants.py
 
 Resumes automatically if interrupted (tracks progress in `plants_progress.json`).
 
-### Missing / Recommended
+### API runtime
 
-- No `npm install`, `npm run dev`, `npm run build` — there is no Node build process
-- No linting command — consider adding `htmlhint` or similar in future
-- No test command — no test suite exists yet
+The production API image installs dependencies automatically. For a standalone local API run:
+
+```bash
+npm install
+npm start
+```
+
+There is no frontend build step, linting command, or automated test suite.
 
 ---
 
@@ -145,8 +164,17 @@ Resumes automatically if interrupted (tracks progress in `plants_progress.json`)
 | Variable | Used by | Purpose |
 |---|---|---|
 | `ANTHROPIC_API_KEY` | `build_plants.py` | Authenticates Claude API calls to generate monograph content |
+| `SEMANTIC_SCHOLAR_API_KEY` | `build_plants.py` | Optional additional literature lookup |
+| `STRIPE_SECRET_KEY` | `server.js` | Creates and retrieves Stripe Checkout sessions; use `sk_test_...` until go-live |
+| `STRIPE_WEBHOOK_SECRET` | `server.js` | Verifies signed Stripe webhook requests |
+| `SITE_URL` | `server.js` | Checkout success and cancellation URL base |
+| `RESEND_API_KEY` | `server.js` | Sends purchased PDFs as transactional e-mail attachments |
+| `ORDER_FROM_EMAIL` | `server.js` | Verified sender identity for order e-mails |
+| `DATA_DIR` | `server.js` | Optional override for waitlist and fulfillment state; defaults to `/data` |
+| `EBOOK_DIR` | `server.js` | Optional override for customer PDF storage |
+| `PORT` | `server.js` | Optional API port; defaults to `3000` |
 
-No `.env` file exists in the project. The API key is set as a shell environment variable before running `build_plants.py`. Do not hardcode or commit API keys.
+The workstation and production LXC each use an untracked `.env`. Never commit, print, or deploy unrelated development keys. Production needs only the Stripe, Resend, and site variables. `.env.example` contains placeholders only.
 
 ---
 
@@ -154,16 +182,52 @@ No `.env` file exists in the project. The API key is set as a shell environment 
 
 ### Routing
 
-The site has two public routes served by Nginx:
+The public routes served by Nginx include:
 - `/` → `index.html`
 - `/database.html` → `database.html`
+- `/grow.html` → `grow.html`
+- `/checkout-success.html` → Stripe return page
 - `/api/waitlist` (POST) → proxied to Node.js container on port 3000
+- `/api/checkout` (POST) → validates the basket and creates Stripe Checkout
+- `/api/stripe/webhook` (POST) → verifies Stripe signatures and fulfills paid orders
+- `/api/session-status` (GET) → retrieves paid-session and fulfillment state
+- `/api/download` (GET) → streams a purchased PDF only after Stripe verifies the session is paid and contains that product
 
 ### Data flow
 
 1. `database.html` fetches `/data.json` at page load via `fetch()`, renders cards client-side, filters in memory
 2. Newsletter form in `index.html` posts `{ email }` JSON to `/api/waitlist`
 3. Node.js (`server.js`) validates the email and appends `timestamp - email\n` to `/data/waitlist.txt` (Docker named volume `waitlist_data`)
+4. The e-book basket posts server-recognized product IDs plus customer details and consent to `/api/checkout`; the server supplies all prices and filenames
+5. Stripe redirects the customer back with a Checkout Session ID and independently sends a signed webhook
+6. A paid webhook sends the PDF through Resend and records the accepted e-mail ID in `/data/fulfilled-orders.jsonl` to prevent duplicate sends
+7. The return page also exposes a payment-validated download link, so fulfillment does not depend solely on recipient-mailbox timing
+
+### E-book commerce and fulfillment
+
+The `PRODUCTS` catalogue in `server.js` is authoritative for product IDs, names, prices, currency,
+and filenames. Never accept a price or file path from the browser. Products whose configured PDF is
+missing are unavailable even if a browser attempts to submit their IDs.
+
+The currently enabled test product is:
+
+| Field | Value |
+|---|---|
+| Product ID | `little-guide` |
+| Storefront name | The Little Guide |
+| Server-owned test price | `100` cents USD (`$1`) |
+| Customer PDF | `E-books/BMS_Archive_The_Little_Guide.pdf` |
+| Customer attachment/download filename | `BMS_Archive_The_Little_Guide.pdf` |
+
+Stripe must call `https://bmsarchive.com/api/stripe/webhook` for
+`checkout.session.completed` and `checkout.session.async_payment_succeeded`. Webhook signatures are
+verified against the raw request body. Resend returns acceptance plus an e-mail ID; that is logged as
+`emailAcceptedAt`, not treated as proof of recipient-mailbox delivery.
+
+`GET /api/download` is a paid-order fallback. The session ID is treated as a bearer credential: the
+API retrieves it from Stripe, requires `status=complete` and `payment_status=paid`, and confirms that
+the requested product ID is in server-created session metadata before streaming the PDF with
+`Cache-Control: private, no-store` and an attachment `Content-Disposition` header.
 
 ### Admin panel (local only)
 
@@ -236,7 +300,7 @@ Both `type` values are `"Fungi"` or `"Plant"` (capital first letter — the data
 3. **Preserve the existing structure and coding style.** JS is inline in HTML files. CSS is Tailwind utility classes. No external JS files. Keep it that way unless asked to change.
 4. **Do not add a framework.** No React, Vue, Svelte, or any other framework unless the user explicitly requests a Phase 2 rewrite.
 5. **Do not swap Tailwind to CDN.** `tailwind.js` is served locally for offline reliability and performance. Do not replace it with a CDN link.
-6. **Never commit or log secrets.** The `ANTHROPIC_API_KEY` is a shell env var. Do not write it to any file.
+6. **Never commit or log secrets.** `.env` is ignored and may contain Anthropic, Semantic Scholar, Stripe, and Resend credentials. Never print secret values or copy the workstation `.env` wholesale into a deployment.
 7. **Do not touch `data.json` carelessly.** Any edit that breaks the JSON structure will break the entire database page. Validate JSON after manual edits.
 8. **Do not add Instagram or social media logic.** The project scope is the website and its archive functionality only.
 9. **Deploy via Proxmox, not direct SSH to the container.** See Deployment Notes below.
@@ -302,13 +366,13 @@ Both `type` values are `"Fungi"` or `"Plant"` (capital first letter — the data
 - `cited_references` (in plant entries) follow the format: `"[N] - Author(s), Title, Journal, Year, PMID: ..."`.
 - `primary_categories` should be concise, clinically meaningful labels (e.g., `"Immunomodulation"`, `"Adaptogen"`, `"Hepatoprotection"`).
 - When adding a new entry, validate the full JSON structure manually before saving. Required fields: `scientific_name`, `common_name`, `type`, `article_count`, `primary_categories`, `sources.top_studies_urls`, `narrative_summary` (all four subfields), `clinical_data` (all subfields including `pharmacokinetics` with all four ADME fields).
-- Sorting in `data.json` is not enforced programmatically — the database UI renders entries in the order they appear in the array. Keep Fungi first (indices 0–24), Plants second (indices 25–49).
+- Sorting in `data.json` is not enforced programmatically — the database UI renders entries in the order they appear in the array. The current dataset contains 25 Fungi and 41 Plant entries.
 
 ---
 
 ## Testing And Quality Checks
 
-There is no automated test suite. Quality checks are manual:
+There is no automated test suite. Quality checks are manual and script-based:
 
 1. **After any change to `data.json`:** Validate JSON syntax (e.g., `python3 -c "import json; json.load(open('data.json'))"`)
 2. **After any change to `database.html` or `index.html`:** Open the file in a browser and verify:
@@ -318,14 +382,20 @@ There is no automated test suite. Quality checks are manual:
    - Clicking a card opens the modal with correct data
    - Modal closes on "×" button and Escape key
    - Newsletter form submits (requires the API container running)
-3. **After any change to `server.js`:** Test the API endpoint manually:
+3. **After any change to `server.js`:** Run `node --check server.js`, rebuild the API image, and smoke-test applicable endpoints:
    ```bash
    curl -X POST http://localhost:3000/api/waitlist \
      -H "Content-Type: application/json" \
      -d '{"email":"test@example.com"}'
+
+   curl -X POST https://bmsarchive.com/api/checkout \
+     -H "Content-Type: application/json" \
+     -d '{"productIds":["little-guide"],"name":"QA Test","email":"qa@example.com","phone":"+4512345678","digitalConsent":true}'
    ```
-4. **After any change to `nginx.conf`:** Run `docker compose up --build` and verify the site loads on port 80.
-5. **After any change to `admin_server.py` or `admin.html`:** Run `python3 admin_server.py` and verify the panel loads, lists all entries, and can save changes.
+4. **After checkout or fulfillment changes:** Use Stripe test mode and confirm Checkout creation, signed webhook HTTP 200, Resend acceptance, duplicate-event protection, return-page status, and paid PDF download. A `cs_test_...` session and `sk_test_...` key simulate payment; they do not move real funds.
+5. **After PDF filename changes:** Confirm the file exists under `E-books/`, the `PRODUCTS` filename matches exactly, the API image builds, and `Content-Disposition` exposes the intended customer filename.
+6. **After any change to `nginx.conf`:** Rebuild and run `nginx -t` inside the web container.
+7. **After any change to `admin_server.py` or `admin.html`:** Run `python3 admin_server.py` and verify the panel loads, lists all entries, and can save changes.
 
 ---
 
@@ -349,22 +419,34 @@ The site runs in a Docker Compose stack inside an LXC container (ID `102`) on a 
 # 1. Stage files on the Proxmox host
 ssh root@192.168.0.100 "mkdir -p /tmp/bms-deploy"
 scp docker-compose.yml Dockerfile Dockerfile.api nginx.conf server.js \
-    index.html database.html data.json tailwind.js \
+    package.json index.html checkout-success.html database.html grow.html \
+    data.json tailwind.js robots.txt sitemap.xml og-image.png favicon.svg .dockerignore \
     root@192.168.0.100:/tmp/bms-deploy/
+ssh root@192.168.0.100 "mkdir -p /tmp/bms-deploy/E-books"
+scp E-books/BMS_Archive_The_Little_Guide.pdf \
+    root@192.168.0.100:/tmp/bms-deploy/E-books/
 
 # 2. Push files into the LXC container
 ssh root@192.168.0.100 "
   for f in docker-compose.yml Dockerfile Dockerfile.api nginx.conf server.js \
-            index.html database.html data.json tailwind.js; do
+            package.json index.html checkout-success.html database.html grow.html \
+            data.json tailwind.js robots.txt sitemap.xml og-image.png favicon.svg .dockerignore; do
     pct push 102 /tmp/bms-deploy/\$f /opt/bms-archive/\$f
   done
+  pct exec 102 -- mkdir -p /opt/bms-archive/E-books
+  pct push 102 /tmp/bms-deploy/E-books/BMS_Archive_The_Little_Guide.pdf \
+    /opt/bms-archive/E-books/BMS_Archive_The_Little_Guide.pdf
 "
 
 # 3. Rebuild and restart
 ssh root@192.168.0.100 "pct exec 102 -- bash -c 'cd /opt/bms-archive && docker compose up -d --build'"
 ```
 
-**Never deploy:** `admin.html`, `admin_server.py`, `build_plants.py`, or `scripts/`.
+Production `.env` must be created separately with permissions `0600` and only the required Stripe,
+Resend, and site variables. Never overwrite it with placeholders during a code deployment.
+
+**Never deploy:** workstation `.env`, `admin.html`, `admin_server.py`, `build_plants.py`, `scripts/`,
+`docs/`, `.claude/`, `tmp/`, `output/`, or editable e-book sources.
 
 ### SSL
 
@@ -372,31 +454,27 @@ TLS certificates are managed by Certbot/Let's Encrypt on the LXC container, moun
 
 ---
 
-## Known Issues / Missing Documentation
+## Current Commerce Status And Known Limitations
 
-- The README still references a v2 structure (25 fungi only); `data.json` now has 50 entries (25 fungi + 25 plants)
-- No `.env.example` file — environment variables are undocumented outside this file
-- No favicon or `og:image` — social link previews will show no image
-- No `robots.txt` or `sitemap.xml` — relevant before public DNS goes live
-- `admin.html` and `admin_server.py` are not in the `.gitignore` — they are committed to main but should not be deployed; this is currently handled by manual exclusion during deploy
-- `docker-compose.yml` has TLS volume mounts (`/etc/letsencrypt`) that will cause `docker compose up` to fail locally if the certificates don't exist — for local dev, open the HTML files directly instead
-- The `database.html` header still shows "Live — 25 profiles" — should be updated to 50
-- `build_plants.py` uses `claude-opus-4-7` (now superseded by newer models); update the model ID when regenerating content
+- The Little Guide is the only available product and is intentionally priced at `$1` while Stripe remains in test mode.
+- A full Stripe test payment completed successfully on 19 June 2026. The signed webhook ran, Resend accepted the PDF e-mail, and the paid-session download returned a byte-identical PDF.
+- Resend API acceptance is not proof that the recipient mailbox has displayed the message. Outlook may synchronize at different speeds across devices. The return-page download is the required fallback.
+- The configured Resend API key is send-only, so delivery, bounce, and suppression events cannot currently be queried through the API. Use the Resend dashboard or add a verified Resend webhook before claiming mailbox delivery.
+- Existing fulfillment records created before e-mail ID logging use `deliveredAt`; newer records use `emailAcceptedAt` and `emailId`.
+- `docker-compose.yml` mounts production TLS files, so local Compose requires equivalent certificate paths. For frontend-only checks, use a local HTTP server.
+- Nginx currently reports a non-blocking duplicate `text/html` MIME-type warning during `nginx -t`; syntax validation still succeeds.
 
 ---
 
 ## Recommended Improvements
 
-- **Update database.html entry count** — change "25 profiles" to "50 profiles" in the page header
-- **Add `.env.example`** — document `ANTHROPIC_API_KEY` for future contributors
-- **Add `robots.txt` and `sitemap.xml`** — needed before public DNS launch
-- **Add a favicon** — at minimum a simple SVG favicon matching the brand
-- **Add `og:image`** — improves social link previews significantly
-- **Add `htmlhint` or a basic HTML linter** — catches tag mismatches in large HTML files
-- **Add JSON schema validation** to `admin_server.py` — currently validates presence of required keys but not nested structure depth
-- **Consider a `local-nginx.conf`** — a simplified config without SSL for local Docker testing, so `docker compose up` works without Let's Encrypt certs
-- **Update README** — reflect the current 50-entry database and the admin panel tooling
-- **Tag `admin.html` / `admin_server.py` clearly** in the repo as local-only dev tools (e.g., in a comment or README section) to prevent accidental deployment
+- Add a Resend webhook and store `delivered`, `bounced`, `suppressed`, and `failed` events separately from API acceptance.
+- Add an automated integration test for paid-session product authorization and PDF download headers.
+- Add a basic HTML/JS linter and a repeatable local test configuration without production TLS mounts.
+- Generate and commit a lockfile for reproducible API dependency installation.
+- Add deeper JSON schema validation to `admin_server.py`.
+- Remove the duplicate `text/html` entry from the Nginx gzip MIME list.
+- Rotate from Stripe test keys to live keys only after price, tax, refund, legal, and final product checks are complete.
 
 ---
 

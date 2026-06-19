@@ -5,6 +5,7 @@ RUN rm /etc/nginx/conf.d/default.conf
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY index.html    /usr/share/nginx/html/index.html
+COPY checkout-success.html /usr/share/nginx/html/checkout-success.html
 COPY database.html /usr/share/nginx/html/database.html
 COPY grow.html     /usr/share/nginx/html/grow.html
 COPY data.json     /usr/share/nginx/html/data.json

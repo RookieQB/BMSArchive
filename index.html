@@ -61,6 +61,13 @@
     .mono { font-family: 'Spline Sans Mono', monospace; }
     @keyframes riseIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
     .rise { animation: riseIn 0.5s ease both; }
+    @media (max-width: 600px) {
+      .hero-cta-row { flex-direction: column !important; align-items: stretch !important; }
+      .hero-cta-row > a { justify-content: center !important; width: 100% !important; box-sizing: border-box !important; }
+    }
+    .cart-overlay { position:fixed; inset:0; z-index:80; background:rgba(4,20,14,.56); backdrop-filter:blur(3px); }
+    .cart-panel { position:fixed; z-index:81; top:0; right:0; width:min(100%,430px); height:100%; overflow-y:auto; background:#fff; box-shadow:-20px 0 60px rgba(8,35,24,.24); }
+    body.cart-open { overflow:hidden; }
   </style>
 </head>
 <body class="bg-white text-gray-900 antialiased">
@@ -111,20 +118,20 @@
       </a>
 
       <!-- Nav right -->
-      <div class="flex items-center gap-6">
+      <div class="flex items-center gap-3 sm:gap-6">
         <a href="/database.html"
            class="inline-flex items-center gap-1.5 text-sm font-semibold text-forest-800 hover:text-forest-900 transition-colors duration-200">
-          Browse Database
+          <span class="hidden sm:inline">Browse </span>Database
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/>
           </svg>
         </a>
         <a href="#ebooks"
-           class="text-sm font-semibold text-gray-600 hover:text-forest-800 transition-colors duration-200">
+           class="hidden sm:inline text-sm font-semibold text-gray-600 hover:text-forest-800 transition-colors duration-200">
           E-Books
         </a>
         <a href="/grow.html"
-           class="inline-flex items-center gap-1.5 text-sm font-semibold text-forest-700 hover:text-forest-900 transition-colors duration-200">
+           class="hidden sm:inline-flex items-center gap-1.5 text-sm font-semibold text-forest-700 hover:text-forest-900 transition-colors duration-200">
           <svg viewBox="-22 -160 44 168" width="10" height="38" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M0 0 C -9 -48 7 -100 0 -156"></path>
             <path d="M0 0 Q 11 -15 0 -34 Q -11 -15 0 0 Z" transform="translate(-2 -34) rotate(-42) scale(.8)"></path>
@@ -141,6 +148,9 @@
           </svg>
           <span class="hidden sm:inline">Follow</span>
         </a>
+        <button id="open-cart" type="button" class="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-bold text-white" style="background:#173F2D;">
+          Cart <span id="cart-count" class="inline-flex min-w-5 h-5 items-center justify-center rounded-full px-1 text-[11px]" style="background:#C0824A;">0</span>
+        </button>
       </div>
     </div>
   </header>
@@ -183,7 +193,7 @@
           Grow Your Own →
         </a>
         <!-- Database + E-Books — same row -->
-        <div style="display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;">
+        <div class="hero-cta-row" style="display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;">
           <a href="/database.html" class="lift" style="display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#1C5A4A 0%,#103E33 52%,#0A2A22 100%);color:#fff;font-size:17px;font-weight:700;padding:18px 28px;border-radius:13px;box-shadow:0 20px 42px -14px rgba(12,42,34,.55);text-decoration:none;">
             🗄 Explore the Database →
           </a>
@@ -340,7 +350,7 @@
                style="background:#F1F5F2;border:1px solid #D4E4DB;color:#8FA89B;">Coming Soon</div>
         </div>
 
-        <!-- Book: Grow Your Own -->
+        <!-- Book: The Little Guide -->
         <div class="rounded-2xl p-5 flex flex-col bg-gray-50" style="border:1px solid #E5EDE9;">
           <div class="aspect-[3/4] rounded-xl p-4 flex flex-col justify-between relative overflow-hidden mb-4"
                style="background:linear-gradient(150deg,#3E6B36,#24401F);box-shadow:0 12px 28px -10px rgba(0,0,0,0.55);">
@@ -348,23 +358,70 @@
                  style="background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 11px);"></div>
             <p class="relative text-[8px] font-mono uppercase" style="letter-spacing:0.18em;color:rgba(255,255,255,0.55);">BMS Archive</p>
             <div class="relative">
-              <p class="text-base font-bold text-white leading-tight">Grow Your Own</p>
+              <p class="text-base font-bold text-white leading-tight">The Little Guide</p>
               <div class="w-6 h-px my-2" style="background:rgba(255,255,255,0.4);"></div>
-              <p class="text-[9px] font-mono" style="color:rgba(255,255,255,0.5);">Cultivation Guide</p>
+              <p class="text-[9px] font-mono" style="color:rgba(255,255,255,0.5);">Everyday Relief</p>
             </div>
           </div>
           <div class="flex items-baseline justify-between gap-2 mb-1">
-            <p class="text-sm font-bold text-gray-900 leading-tight">Grow Your Own</p>
-            <p class="text-sm font-bold text-gray-900 whitespace-nowrap">$19</p>
+            <p class="text-sm font-bold text-gray-900 leading-tight">The Little Guide</p>
+            <p class="text-sm font-bold text-gray-900 whitespace-nowrap">$1</p>
           </div>
-          <p class="text-xs text-gray-400 mb-4">90 pp · cultivation &amp; harvest guide</p>
-          <div class="mt-auto text-center py-2.5 rounded-xl text-xs font-semibold cursor-default select-none"
-               style="background:#F1F5F2;border:1px solid #D4E4DB;color:#8FA89B;">Coming Soon</div>
+          <p class="text-xs text-gray-400 mb-4">Safety-first guide · 10 practical chapters</p>
+          <button type="button" data-add-product="little-guide" data-product-name="The Little Guide" data-product-price="1"
+                  class="mt-auto text-center py-2.5 rounded-xl text-xs font-bold text-white transition hover:opacity-90"
+                  style="background:#1C5235;">Add to basket</button>
         </div>
 
       </div><!-- /book grid -->
     </div>
   </section>
+
+  <!-- E-book basket. Stripe securely collects the payment details. -->
+  <div id="cart-overlay" class="cart-overlay hidden" aria-hidden="true"></div>
+  <aside id="cart-panel" class="cart-panel hidden" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <div class="p-6 sm:p-8">
+      <div class="flex items-center justify-between gap-4 mb-7">
+        <div>
+          <p class="mono text-[10px] uppercase mb-1" style="letter-spacing:.18em;color:#178A4D;">Secure checkout</p>
+          <h2 id="cart-title" class="text-2xl font-bold text-gray-900">Your e-books</h2>
+        </div>
+        <button id="close-cart" type="button" aria-label="Close basket" class="w-10 h-10 rounded-full text-xl text-gray-500" style="background:#F1F5F2;">×</button>
+      </div>
+
+      <div id="cart-empty" class="rounded-xl p-5 text-sm text-gray-500" style="background:#F6F8F6;">Your basket is empty.</div>
+      <div id="cart-items" class="space-y-3"></div>
+
+      <div id="cart-checkout" class="hidden">
+        <div class="flex items-center justify-between border-t border-gray-200 mt-5 pt-5 mb-6">
+          <span class="font-semibold text-gray-600">Total</span>
+          <span id="cart-total" class="text-2xl font-bold text-gray-900">$0</span>
+        </div>
+        <form id="checkout-form" class="space-y-4" novalidate>
+          <div>
+            <label for="checkout-name" class="block text-xs font-bold text-gray-700 mb-1.5">Full name</label>
+            <input id="checkout-name" name="name" type="text" autocomplete="name" required maxlength="120" class="w-full rounded-xl border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-forest-700" placeholder="Your name">
+          </div>
+          <div>
+            <label for="checkout-email" class="block text-xs font-bold text-gray-700 mb-1.5">Email</label>
+            <input id="checkout-email" name="email" type="email" autocomplete="email" required class="w-full rounded-xl border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-forest-700" placeholder="you@example.com">
+            <p class="text-[11px] text-gray-400 mt-1.5">Your purchased PDF will be sent here.</p>
+          </div>
+          <div>
+            <label for="checkout-phone" class="block text-xs font-bold text-gray-700 mb-1.5">Phone number</label>
+            <input id="checkout-phone" name="phone" type="tel" autocomplete="tel" required maxlength="30" class="w-full rounded-xl border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-forest-700" placeholder="+45 12 34 56 78">
+          </div>
+          <label class="flex items-start gap-3 text-[11px] leading-relaxed text-gray-500">
+            <input name="digitalConsent" type="checkbox" required class="mt-0.5 h-4 w-4 shrink-0 accent-green-800">
+            <span>I request immediate delivery of the digital content and acknowledge that my right of withdrawal ends when delivery begins.</span>
+          </label>
+          <p id="checkout-error" class="hidden rounded-lg px-3 py-2 text-xs font-semibold text-red-700" style="background:#FDECEC;"></p>
+          <button id="checkout-button" type="submit" class="w-full rounded-xl px-5 py-3.5 text-sm font-bold text-white shadow-sm transition hover:opacity-95 disabled:opacity-60" style="background:#173F2D;">Continue to secure payment</button>
+          <p class="text-center text-[11px] leading-relaxed text-gray-400">Payment is completed securely on Stripe. We never receive or store your card details.</p>
+        </form>
+      </div>
+    </div>
+  </aside>
 
   <!-- ══════════════════════════ NEWSLETTER ════════════════════════════ -->
   <section class="relative overflow-hidden py-20" style="background:#0E2A20;">
@@ -460,10 +517,11 @@
           <span class="font-light text-gray-500 text-xs tracking-[0.22em] uppercase">Archive</span>
         </a>
 
-        <div class="flex items-center gap-8 text-sm">
+        <div class="flex flex-wrap items-center justify-center sm:justify-start gap-4 sm:gap-8 text-sm">
           <a href="/database.html" class="hover:text-white transition-colors duration-200">Database</a>
           <a href="#ebooks" class="hover:text-white transition-colors duration-200">E-Books</a>
-          <a href="https://bmsarchive.com" class="hover:text-white transition-colors duration-200">bmsarchive.com</a>
+          <a href="https://bmsarchive.com" class="hidden sm:inline hover:text-white transition-colors duration-200">bmsarchive.com</a>
+          <a href="mailto:contact@bmsarchive.com" class="hover:text-white transition-colors duration-200">Contact</a>
           <a href="https://instagram.com/thebmsarchive" target="_blank" rel="noopener noreferrer"
              class="flex items-center gap-2 hover:text-white transition-colors duration-200">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -479,6 +537,144 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    (() => {
+      const catalog = {
+        'little-guide': { name: 'The Little Guide', price: 1 },
+      };
+      const storageKey = 'bms-ebook-cart';
+      const overlay = document.getElementById('cart-overlay');
+      const panel = document.getElementById('cart-panel');
+      const itemsEl = document.getElementById('cart-items');
+      const emptyEl = document.getElementById('cart-empty');
+      const checkoutEl = document.getElementById('cart-checkout');
+      const countEl = document.getElementById('cart-count');
+      const totalEl = document.getElementById('cart-total');
+      const checkoutForm = document.getElementById('checkout-form');
+      const checkoutButton = document.getElementById('checkout-button');
+      const checkoutError = document.getElementById('checkout-error');
+
+      let cart;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || '[]');
+        cart = Array.isArray(saved) ? [...new Set(saved.filter(id => catalog[id]))] : [];
+      } catch {
+        cart = [];
+      }
+
+      function saveCart() {
+        localStorage.setItem(storageKey, JSON.stringify(cart));
+      }
+
+      function openCart() {
+        overlay.classList.remove('hidden');
+        panel.classList.remove('hidden');
+        document.body.classList.add('cart-open');
+        document.getElementById('close-cart').focus();
+      }
+
+      function closeCart() {
+        overlay.classList.add('hidden');
+        panel.classList.add('hidden');
+        document.body.classList.remove('cart-open');
+      }
+
+      function renderCart() {
+        itemsEl.replaceChildren();
+        cart.forEach(id => {
+          const product = catalog[id];
+          const row = document.createElement('div');
+          row.className = 'flex items-center justify-between gap-4 rounded-xl border border-gray-200 p-4';
+
+          const details = document.createElement('div');
+          const name = document.createElement('p');
+          name.className = 'text-sm font-bold text-gray-900';
+          name.textContent = product.name;
+          const delivery = document.createElement('p');
+          delivery.className = 'text-[11px] text-gray-400 mt-1';
+          delivery.textContent = 'PDF · delivered by email';
+          details.append(name, delivery);
+
+          const actions = document.createElement('div');
+          actions.className = 'text-right';
+          const price = document.createElement('p');
+          price.className = 'text-sm font-bold text-gray-900';
+          price.textContent = `$${product.price}`;
+          const remove = document.createElement('button');
+          remove.type = 'button';
+          remove.className = 'text-[11px] text-red-600 mt-1';
+          remove.textContent = 'Remove';
+          remove.addEventListener('click', () => {
+            cart = cart.filter(productId => productId !== id);
+            saveCart();
+            renderCart();
+          });
+          actions.append(price, remove);
+          row.append(details, actions);
+          itemsEl.append(row);
+        });
+
+        const total = cart.reduce((sum, id) => sum + catalog[id].price, 0);
+        countEl.textContent = String(cart.length);
+        totalEl.textContent = `$${total}`;
+        emptyEl.classList.toggle('hidden', cart.length > 0);
+        checkoutEl.classList.toggle('hidden', cart.length === 0);
+      }
+
+      document.querySelectorAll('[data-add-product]').forEach(button => {
+        button.addEventListener('click', () => {
+          const id = button.dataset.addProduct;
+          if (!catalog[id]) return;
+          if (!cart.includes(id)) cart.push(id);
+          saveCart();
+          renderCart();
+          openCart();
+        });
+      });
+
+      document.getElementById('open-cart').addEventListener('click', openCart);
+      document.getElementById('close-cart').addEventListener('click', closeCart);
+      overlay.addEventListener('click', closeCart);
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && !panel.classList.contains('hidden')) closeCart();
+      });
+
+      checkoutForm.addEventListener('submit', async event => {
+        event.preventDefault();
+        checkoutError.classList.add('hidden');
+        if (!checkoutForm.reportValidity() || cart.length === 0) return;
+
+        checkoutButton.disabled = true;
+        checkoutButton.textContent = 'Opening secure payment…';
+        const formData = new FormData(checkoutForm);
+
+        try {
+          const response = await fetch('/api/checkout', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              productIds: cart,
+              name: formData.get('name'),
+              email: formData.get('email'),
+              phone: formData.get('phone'),
+              digitalConsent: formData.get('digitalConsent') === 'on',
+            }),
+          });
+          const result = await response.json();
+          if (!response.ok || !result.url) throw new Error(result.error || 'Checkout could not be opened.');
+          window.location.assign(result.url);
+        } catch (error) {
+          checkoutError.textContent = error.message || 'Checkout could not be opened. Please try again.';
+          checkoutError.classList.remove('hidden');
+          checkoutButton.disabled = false;
+          checkoutButton.textContent = 'Continue to secure payment';
+        }
+      });
+
+      renderCart();
+    })();
+  </script>
 
   <script>
     const form    = document.getElementById('newsletter-form');
