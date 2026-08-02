@@ -1,6 +1,6 @@
 # BMS Archive
 
-**bmsarchive.com** — An evidence-based phytomedicine database. A searchable archive of 50 botanical and fungal monographs sourced from peer-reviewed literature (PubMed). For educational and research purposes only — not medical advice.
+**bmsarchive.com** — An evidence-based phytomedicine database and e-book storefront. The searchable archive currently contains 66 botanical and fungal monographs sourced from peer-reviewed literature. For educational and research purposes only — not medical advice.
 
 Instagram: [@thebmsarchive](https://instagram.com/thebmsarchive)
 
@@ -8,14 +8,16 @@ Instagram: [@thebmsarchive](https://instagram.com/thebmsarchive)
 
 ## What it is
 
-Two public pages:
+Public pages and services:
 
 | Page | Purpose |
 |---|---|
 | `index.html` | Landing page — hero, email waitlist form, medical disclaimer |
 | `database.html` | Searchable monograph database — grid, type filter, modal detail view |
+| `checkout-success.html` | Stripe return page — polls delivery status after payment |
+| `server.js` | Waitlist, Stripe Checkout, signed webhook, and Resend e-book delivery API |
 
-The database contains 50 entries: 25 medicinal fungi + 25 medicinal plants. Every profile has PubMed-verified citations, ADME pharmacokinetics, mechanism of action, safety data, and special precautions (pregnancy, lactation, hepatic/renal impairment).
+The database contains 66 entries: 25 medicinal fungi + 41 medicinal plants. Every profile has citations, ADME pharmacokinetics, mechanism of action, safety data, and special precautions (pregnancy, lactation, hepatic/renal impairment).
 
 ---
 
@@ -26,15 +28,15 @@ The database contains 50 entries: 25 medicinal fungi + 25 medicinal plants. Ever
 | HTML/CSS | Plain HTML5 + Tailwind CSS v3.4.17 (served locally as `tailwind.js`) |
 | JavaScript | Vanilla JS, inline in each HTML file — no bundler, no framework |
 | Font | Inter (Google Fonts, non-blocking preload) |
-| Data | `data.json` — 50 monograph entries, PubMed-verified |
+| Data | `data.json` — 66 monograph entries (25 fungi + 41 plants) |
 | Web server | Nginx 1.27-alpine (Docker) |
-| API server | Node.js 20-alpine (Docker), zero npm dependencies |
+| API server | Node.js 20-alpine (Docker) + Stripe Node SDK |
 | Container orchestration | Docker Compose v2+ |
 | Deployment host | LXC container on self-hosted Proxmox server |
 | Admin tool | Python 3 stdlib HTTP server — local only, never deployed |
 | Data-seeding | Python 3 + `anthropic` SDK + NCBI APIs — offline only |
 
-No build step. No `package.json`. No framework.
+No frontend build step and no framework. The Node API dependencies are declared in `package.json`.
 
 ---
 
@@ -44,13 +46,16 @@ No build step. No `package.json`. No framework.
 BMS website/
 ├── index.html            # Landing page
 ├── database.html         # Searchable database
-├── data.json             # 50 monograph entries (25 Fungi + 25 Plants)
+├── checkout-success.html # Stripe return and e-book delivery status page
+├── data.json             # 66 monograph entries (25 Fungi + 41 Plants)
 ├── tailwind.js           # Tailwind CSS v3.4.17 — local bundle, do not replace with CDN
 ├── nginx.conf            # Nginx: HTTPS, gzip, cache, security headers, rate limiting
 ├── Dockerfile            # nginx:1.27-alpine — serves static files
 ├── Dockerfile.api        # node:20-alpine — runs server.js
 ├── docker-compose.yml    # Two services: web (Nginx) + api (Node.js)
-├── server.js             # Node.js waitlist API — POST /api/waitlist
+├── server.js             # Waitlist, Stripe Checkout/webhook, and order delivery API
+├── package.json          # API dependency and start command
+├── E-books/              # Customer PDFs copied into the API image
 ├── favicon.svg           # SVG favicon — forest green, "B"
 ├── og-image.png          # Open Graph image (1200×630) for Instagram link previews
 ├── robots.txt            # Allow all; references sitemap
@@ -69,7 +74,13 @@ BMS website/
 
 ## Running locally
 
-**No install needed** — open `index.html` or `database.html` directly in a browser.
+The static pages can be opened directly. Checkout needs the Node API and environment variables.
+
+```bash
+npm install
+node --env-file=.env server.js
+# API listens on http://localhost:3000 by default
+```
 
 ### With Docker (Nginx + Node.js)
 
@@ -126,6 +137,70 @@ curl -X POST https://bmsarchive.com/api/waitlist \
 
 Emails are appended to `/data/waitlist.txt` inside the Docker named volume `waitlist_data`.
 
+### Stripe e-book checkout
+
+The storefront posts a server-validated list of product IDs plus the customer's name, email, and
+phone number to `POST /api/checkout`. Prices are defined only in `server.js`; browser-supplied
+prices are never accepted. Stripe hosts the payment form, so BMS Archive never receives card data.
+
+After payment, Stripe calls `POST /api/stripe/webhook`. A valid signed
+`checkout.session.completed` event triggers delivery of the purchased PDF files through Resend.
+Completed deliveries are recorded in the Docker data volume to prevent duplicate emails.
+
+#### Current $1 test product (19 June 2026)
+
+| Field | Value |
+|---|---|
+| Product ID | `little-guide` |
+| Storefront name | The Little Guide |
+| Server-owned price | `100` cents USD (`$1`) |
+| Customer PDF | `E-books/BMS_Archive_The_Little_Guide.pdf` |
+| Editable reviewed source | `output/documents/BMS_Archive_The_Little_Guide_REVIEWED_FINAL.html` |
+
+The final PDF has 15 A4 pages. It was visually rendered and checked page by page; the cover
+byline overlap was fixed and the final PDF geometry check reported no overlapping or out-of-page
+text. Scientific wording was tightened for evidence strength, interactions, contraindications,
+red flags, and Danish ashwagandha status. The reference page now contains 23 linked primary or
+official sources.
+
+The browser displays `$1`, but that value is presentation only. `server.js` remains the authority
+and creates the Stripe line item at `100` cents, preventing price manipulation in the browser.
+
+Required production secrets belong in an untracked `.env` file:
+
+```env
+STRIPE_SECRET_KEY=sk_test_...
+STRIPE_WEBHOOK_SECRET=whsec_...
+SITE_URL=https://bmsarchive.com
+RESEND_API_KEY=re_...
+ORDER_FROM_EMAIL=BMS Archive <contact@bmsarchive.com>
+```
+
+In Stripe, register `https://bmsarchive.com/api/stripe/webhook` for these events:
+
+- `checkout.session.completed`
+- `checkout.session.async_payment_succeeded`
+
+Only e-books whose PDF filename matches the server-side product catalogue can be sold. Add each
+final PDF under `E-books/`, then rebuild the API container. Use Stripe test mode until the full
+payment, webhook, Resend delivery, and duplicate-event flow has passed.
+
+The owner reports that the Resend DNS records are verified and the local untracked `.env` contains
+the Stripe/Resend settings. Do not copy those values into source files or commits. Confirm that the
+same variables exist on the deployment host before rebuilding. A real Stripe test-mode `$1` payment
+completed successfully on 19 June 2026 and confirmed all of the following:
+
+1. Checkout collects name, email, and phone number.
+2. Stripe redirects to `checkout-success.html`.
+3. The signed webhook returns HTTP 200.
+4. Resend accepts the customer PDF as an attachment and returns an e-mail ID.
+5. Replaying the same event does not send a duplicate delivery email.
+6. The success page provides a Stripe-validated direct PDF download fallback.
+
+Resend acceptance is not proof that the recipient mailbox has displayed the message. Outlook and
+other clients may synchronize at different speeds. The API therefore records `emailAcceptedAt` and
+`emailId`, while the paid download remains available independently of e-mail delivery timing.
+
 ---
 
 ## Deployment
@@ -145,24 +220,31 @@ The stack runs in an LXC container on a self-hosted Proxmox server.
 # 1. Stage on Proxmox host
 ssh root@192.168.0.100 "mkdir -p /tmp/bms-deploy"
 scp docker-compose.yml Dockerfile Dockerfile.api nginx.conf server.js \
-    index.html database.html data.json tailwind.js \
-    robots.txt sitemap.xml og-image.png favicon.svg \
+    package.json index.html checkout-success.html database.html grow.html \
+    data.json tailwind.js robots.txt sitemap.xml og-image.png favicon.svg \
     root@192.168.0.100:/tmp/bms-deploy/
+ssh root@192.168.0.100 "mkdir -p /tmp/bms-deploy/E-books"
+scp E-books/BMS_Archive_The_Little_Guide.pdf \
+    root@192.168.0.100:/tmp/bms-deploy/E-books/
 
 # 2. Push into LXC container
 ssh root@192.168.0.100 "
   for f in docker-compose.yml Dockerfile Dockerfile.api nginx.conf server.js \
-            index.html database.html data.json tailwind.js \
+            package.json index.html checkout-success.html database.html grow.html data.json tailwind.js \
             robots.txt sitemap.xml og-image.png favicon.svg; do
     pct push 102 /tmp/bms-deploy/\$f /opt/bms-archive/\$f
   done
+  pct exec 102 -- mkdir -p /opt/bms-archive/E-books
+  pct push 102 /tmp/bms-deploy/E-books/BMS_Archive_The_Little_Guide.pdf \
+    /opt/bms-archive/E-books/BMS_Archive_The_Little_Guide.pdf
 "
 
 # 3. Rebuild and restart
 ssh root@192.168.0.100 "pct exec 102 -- bash -c 'cd /opt/bms-archive && docker compose up -d --build'"
 ```
 
-**Never deploy:** `admin.html`, `admin_server.py`, `build_plants.py`, `scripts/`, `docs/`, `.claude/`
+**Never deploy:** `.env` from the workstation, `admin.html`, `admin_server.py`, `build_plants.py`,
+`scripts/`, `docs/`, `.claude/`, `tmp/`, `output/`, or editable e-book source files.
 
 ---
 

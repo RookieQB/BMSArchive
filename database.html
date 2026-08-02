@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBD3M92K2X"></script>
+  <!-- Google Analytics — loaded only after cookie consent -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-QBD3M92K2X');
+    var GA_ID = 'G-QBD3M92K2X';
+    function loadGA() {
+      if (window._gaLoaded) return;
+      window._gaLoaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', GA_ID);
+    }
+    if (localStorage.getItem('bms_analytics_consent') === 'accepted') { loadGA(); }
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="BMS Archive — Scientific botanical and fungal monographs for educational and research purposes only. Sourced from peer-reviewed literature." />
   <meta property="og:title" content="BMS Archive — Botanical & Fungal Scientific Archive" />
-  <meta property="og:description" content="Searchable database of 61 botanical and fungal monographs. Evidence-based profiles sourced from peer-reviewed literature." />
+  <meta property="og:description" content="Searchable database of botanical and fungal monographs. Evidence-based profiles sourced from peer-reviewed literature." />
   <meta property="og:url" content="https://bmsarchive.com/database.html" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://bmsarchive.com/og-image.png" />
@@ -53,7 +63,7 @@
   </script>
 
   <style>
-    body { background: #F4F7F4; color: #0F1A28; font-family: 'Hanken Grotesk', system-ui, sans-serif; }
+    body { background: #F4FBF5; color: #102318; font-family: 'Hanken Grotesk', system-ui, sans-serif; }
     .sci  { font-family: 'Newsreader', Georgia, serif; font-style: italic; font-weight: 500; }
     .mono { font-family: 'Spline Sans Mono', 'SF Mono', monospace; }
 
@@ -100,12 +110,69 @@
     .area-item.active { background: #EDF3EE; color: #1B5138; font-weight: 700; }
     .area-count { font-family: 'Spline Sans Mono', monospace; font-size: 12px; color: #B6BFB8; }
     .area-item.active .area-count { color: #2C7A4E; }
+    body.simple-mode .db-shell { background: #F7FCF8 !important; border-color: #CDEAD4 !important; box-shadow: 0 24px 60px -32px rgba(47, 143, 87, 0.28) !important; }
+    body.simple-mode .db-main { background: #FBFEFC; }
+    body.simple-mode .db-sidebar { background: #F0FAF3 !important; border-right-color: #D6EBDD !important; }
+    body.simple-mode .toolbar-shell { background: rgba(240, 250, 243, 0.97) !important; border-color: #D6EBDD !important; }
+    body.simple-mode .hero-section { background: linear-gradient(180deg,#E8F8EC 0%,#F8FDF9 100%) !important; }
+    body.simple-mode .entry-card { background: #FFFFFF !important; border-color: #CFEAD6 !important; }
+    body.simple-mode .entry-card:hover { box-shadow: 0 24px 44px -28px rgba(47, 143, 87, 0.45); }
+    body.simple-mode .area-item:hover { background: #E7F6EC; }
+    body.simple-mode .area-item.active { background: #DDF3E3; color: #174C33; }
+    body.simple-mode .category-chip { background: #F0FAF3; border-color: #CFEAD6 !important; color: #225A3B !important; }
+    body.simple-mode .simple-card-note { display: block; }
+    body.advanced-mode .simple-card-note { display: none; }
 
     /* ── Toolbar controls ── */
     .kingdom-pill { cursor: pointer; font-size: 14px; font-weight: 600; padding: 10px 18px; border-radius: 999px; border: 1px solid #DDE3DE; background: #fff; color: #3C4A42; transition: all 0.15s; }
     .kingdom-pill.active { background: #1B5138; border-color: #1B5138; color: #fff; }
     .sort-btn { cursor: pointer; font-weight: 600; padding: 10px 14px; border-radius: 9px; border: 1px solid #DDE3DE; background: #fff; color: #5B6B7A; font-size: 14px; transition: all 0.15s; font-family: 'Hanken Grotesk', sans-serif; }
     .sort-btn.active { background: #EDF3EE; border-color: #CFE0D4; color: #1B5138; }
+    .mode-toggle { display: flex; border: 1px solid #DDE3DE; border-radius: 10px; overflow: hidden; background: #fff; }
+    .mode-btn { cursor: pointer; min-width: 86px; padding: 10px 13px; border: 0; background: #fff; color: #5B6B7A; font-size: 14px; font-weight: 700; transition: all 0.15s; font-family: 'Hanken Grotesk', sans-serif; }
+    .mode-btn + .mode-btn { border-left: 1px solid #DDE3DE; }
+    .mode-btn.active { background: #1B5138; color: #fff; }
+    body.simple-mode .mode-toggle { border-color: #B8DFC2; box-shadow: 0 1px 0 rgba(27, 81, 56, 0.06); }
+    body.simple-mode .mode-btn[data-mode="simple"].active { background: #DDF3E3; color: #174C33; }
+    body.simple-mode #modal-panel { border: 1px solid #C8E8D0; box-shadow: 0 26px 70px -36px rgba(27, 81, 56, 0.45); }
+    body.simple-mode #modal-header { background: #F3FBF5; border-bottom-color: #DCEEDF; }
+    body.simple-mode .simple-reading-section { background: #F7FCF8; border-bottom-color: #DCEEDF; }
+    body.simple-mode .simple-caution-card { background: #EAF8ED; border-color: #BFE4C8; }
+    body.simple-mode .simple-caution-card svg { color: #2C7A4E; }
+    body.simple-mode .simple-caution-card p { color: #225A3B; }
+    .source-link {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 12px;
+      border: 1px solid #DDEFE2;
+      border-radius: 8px;
+      background: #FFFFFF;
+      color: #4F6758;
+      text-decoration: none;
+      transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    }
+    .source-link:hover {
+      background: #F3FBF5;
+      border-color: #9ED9B2;
+      color: #174C33;
+    }
+    .source-open {
+      flex-shrink: 0;
+      color: #237A48;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .modal-meta-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
+    .modal-meta-row #modal-cats { flex: 1; min-width: 0; margin-top: 0; }
+    .modal-mode-toggle { flex-shrink: 0; }
+    .modal-mode-toggle .mode-btn { min-width: 76px; padding: 8px 11px; font-size: 13px; }
+    .simple-only { display: none; }
+    body.simple-mode .advanced-only { display: none; }
+    body.simple-mode .simple-only { display: block; }
+    body.advanced-mode .advanced-only { display: block; }
+    body.advanced-mode .simple-only { display: none; }
     .view-btn { cursor: pointer; padding: 10px 13px; font-size: 15px; background: #fff; color: #9AA59E; border: none; transition: all 0.15s; }
     .view-btn.active { background: #1B5138; color: #fff; }
 
@@ -153,6 +220,12 @@
       .toolbar-sort-group > span { display: none; }
       .sort-btn { padding: 7px 10px; font-size: 13px; }
       .kingdom-pill { padding: 9px 13px; font-size: 13px; }
+      .mode-btn { min-width: 78px; padding: 9px 11px; font-size: 13px; }
+      .modal-meta-row { align-items: flex-start; flex-direction: column; }
+      .modal-mode-toggle { width: 100%; }
+      .modal-mode-toggle .mode-btn { flex: 1; }
+      .source-link { flex-direction: column; gap: 6px; }
+      .source-open { white-space: normal; }
 
       /* Mobile area chips row */
       #mobile-area-chips { display: flex; }
@@ -185,10 +258,13 @@
       #modal-header { padding: 16px 18px; }
       #modal-scroll section { padding-left: 18px !important; padding-right: 18px !important; }
       #modal-scroll .px-7 { padding-left: 18px !important; padding-right: 18px !important; }
+
+      /* Hide sort on mobile — keeps toolbar to 2 clean rows */
+      .toolbar-sort-group { display: none !important; }
     }
   </style>
 </head>
-<body class="antialiased min-h-screen flex flex-col">
+<body class="simple-mode antialiased min-h-screen flex flex-col">
 
   <!-- ══════════ STICKY HEADER ══════════ -->
   <div class="sticky top-0 z-50">
@@ -227,11 +303,11 @@
   <!-- ═══════════════════════════ HERO ════════════════════════ -->
   <section class="hero-section" style="background:linear-gradient(180deg,#F4F7F4 0%,#ffffff 100%);padding:48px 0 36px;">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="mono text-xs uppercase mb-4" style="letter-spacing:0.2em;color:#2C7A4E;">Scientific Archive</div>
+      <div class="mono text-xs uppercase mb-4" style="letter-spacing:0.2em;color:#2C7A4E;">Explore Database</div>
       <div class="flex justify-between items-end flex-wrap gap-5">
         <div style="max-width:62ch;">
-          <h1 class="hero-h1" style="font-size:clamp(30px,5vw,56px);line-height:1.0;font-weight:800;letter-spacing:-0.03em;color:#0F1A28;margin:0;">Botanical &amp; Fungal<br>Monographs</h1>
-          <p class="hero-sub" style="font-size:18px;line-height:1.55;color:#5B6B7A;margin:16px 0 0;">Research monographs sourced from peer-reviewed literature. Every claim is cited. For educational and research purposes only.</p>
+          <h1 class="hero-h1" style="font-size:clamp(30px,5vw,56px);line-height:1.0;font-weight:800;letter-spacing:-0.03em;color:#102318;margin:0;">Plants &amp; Fungi,<br>made readable</h1>
+          <p class="hero-sub" style="font-size:18px;line-height:1.55;color:#4F6758;margin:16px 0 0;">Start in Simple mode for plain-language notes, or switch to Advanced when you want the full scientific monograph and source detail.</p>
         </div>
         <div class="flex items-center gap-2" style="font-size:14px;color:#5B6B7A;white-space:nowrap;">
           <span class="animate-pulse" style="width:8px;height:8px;border-radius:50%;background:#3DAE6B;box-shadow:0 0 0 4px rgba(61,174,107,.18);display:inline-block;"></span>
@@ -263,7 +339,7 @@
   </section>
 
   <!-- ═══════════════════════════ TOOLBAR ══════════════════════ -->
-  <div class="sticky-toolbar sticky z-40" style="background:rgba(250,251,250,0.97);backdrop-filter:blur(8px);border-top:1px solid #ECEFEC;border-bottom:1px solid #ECEFEC;">
+  <div class="toolbar-shell sticky-toolbar sticky z-40" style="background:rgba(250,251,250,0.97);backdrop-filter:blur(8px);border-top:1px solid #ECEFEC;border-bottom:1px solid #ECEFEC;">
     <div class="toolbar-inner max-w-7xl mx-auto px-6 py-3.5 flex flex-wrap items-center gap-3">
       <div style="position:relative;flex:1;min-width:200px;">
         <span style="position:absolute;left:14px;top:50%;transform:translateY(-50%);color:#9AA59E;font-size:17px;pointer-events:none;">⌕</span>
@@ -275,6 +351,10 @@
         <button class="kingdom-pill active" data-kingdom="All">All</button>
         <button class="kingdom-pill" data-kingdom="Plant">Plant</button>
         <button class="kingdom-pill" data-kingdom="Fungi">Fungi</button>
+      </div>
+      <div class="mode-toggle" role="group" aria-label="Reading level">
+        <button id="btn-simple-mode" class="mode-btn active" type="button" data-mode="simple">Simple</button>
+        <button id="btn-advanced-mode" class="mode-btn" type="button" data-mode="advanced">Advanced</button>
       </div>
       <div class="toolbar-sort-group flex items-center gap-2">
         <span style="font-size:13px;color:#9AA59E;">Sort</span>
@@ -289,15 +369,15 @@
   </div>
 
   <!-- ═══════════════════════════ MOBILE AREA CHIPS ═══════════ -->
-  <div id="mobile-area-chips" role="group" aria-label="Filter by research area"></div>
+  <div id="mobile-area-chips" role="group" aria-label="Filter by topic"></div>
 
   <!-- ═══════════════════════════ DB BODY ══════════════════════ -->
   <div class="db-outer max-w-7xl mx-auto w-full flex-1 px-6 pb-12" style="padding-top:0;">
-    <div class="db-body" style="background:#fff;border:1px solid #DDE3DE;border-top:none;border-radius:0 0 18px 18px;box-shadow:0 24px 60px -28px rgba(15,26,40,.12);">
+    <div class="db-shell db-body" style="background:#fff;border:1px solid #DDE3DE;border-top:none;border-radius:0 0 18px 18px;box-shadow:0 24px 60px -28px rgba(15,26,40,.12);">
 
       <!-- ── SIDEBAR ── -->
       <aside class="db-sidebar" style="padding:30px 22px 40px;border-right:1px solid #ECEFEC;background:#FCFDFC;">
-        <div class="mono uppercase" style="font-size:11px;letter-spacing:0.16em;color:#9AA59E;margin-bottom:14px;">Research area</div>
+        <div id="area-heading" class="mono uppercase" style="font-size:11px;letter-spacing:0.16em;color:#6E9B7A;margin-bottom:14px;">What it is studied for</div>
         <div id="area-list" style="display:flex;flex-direction:column;gap:2px;">
           <!-- populated by JS -->
         </div>
@@ -399,7 +479,13 @@
             </svg>
           </button>
         </div>
-        <div id="modal-cats" class="flex flex-wrap gap-1.5 mt-3"></div>
+        <div class="modal-meta-row">
+          <div id="modal-cats" class="flex flex-wrap gap-1.5"></div>
+          <div class="mode-toggle modal-mode-toggle" role="group" aria-label="Reading level">
+            <button class="mode-btn active" type="button" data-mode="simple">Simple</button>
+            <button class="mode-btn" type="button" data-mode="advanced">Advanced</button>
+          </div>
+        </div>
       </div>
 
       <div id="modal-scroll" class="overflow-y-auto" style="max-height: calc(100vh - 280px);">
@@ -415,27 +501,31 @@
         </div>
 
         <!-- 1. NARRATIVE -->
-        <section class="px-7 py-6 border-b border-gray-100">
-          <p class="text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-5">Narrative Summary</p>
+        <section class="simple-reading-section px-7 py-6 border-b border-gray-100">
+          <p class="advanced-only text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-5">Narrative Summary</p>
           <div class="space-y-5">
             <div>
-              <p class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Historical Use</p>
+              <p class="advanced-only text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Historical Use</p>
+              <p class="simple-only text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Traditional Use</p>
               <p id="m-history" class="text-sm text-gray-700 leading-relaxed"></p>
             </div>
             <div>
-              <p class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Modern Research Context</p>
+              <p class="advanced-only text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Modern Research Context</p>
+              <p class="simple-only text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">What It Is Studied For</p>
               <p id="m-modern" class="text-sm text-gray-700 leading-relaxed"></p>
             </div>
             <div>
-              <p class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Adverse Effects</p>
+              <p class="advanced-only text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Adverse Effects</p>
+              <p class="simple-only text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Possible Side Effects</p>
               <p id="m-side" class="text-sm text-gray-700 leading-relaxed"></p>
             </div>
-            <div class="flex gap-3 rounded-xl bg-amber-50 border border-amber-200 p-4">
+            <div class="simple-caution-card flex gap-3 rounded-xl bg-amber-50 border border-amber-200 p-4">
               <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
               </svg>
               <div>
-                <p class="text-[10px] font-bold text-amber-700 uppercase tracking-widest mb-1.5">Contraindications</p>
+                <p class="advanced-only text-[10px] font-bold text-amber-700 uppercase tracking-widest mb-1.5">Contraindications</p>
+                <p class="simple-only text-[10px] font-bold uppercase tracking-widest mb-1.5">Don't Use With / Avoid If</p>
                 <p id="m-contra" class="text-sm text-amber-900 leading-relaxed"></p>
               </div>
             </div>
@@ -443,7 +533,7 @@
         </section>
 
         <!-- 2. CLINICAL -->
-        <section class="px-7 py-6 bg-gray-50/70 border-b border-gray-100">
+        <section id="advanced-clinical-section" class="advanced-only px-7 py-6 bg-gray-50/70 border-b border-gray-100">
           <p class="text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-5">Phytochemical Data</p>
           <div class="space-y-5">
             <div class="grid grid-cols-2 gap-4">
@@ -498,7 +588,7 @@
         </section>
 
         <!-- 3. PRECAUTIONS -->
-        <section class="px-7 py-6 border-b border-gray-100">
+        <section id="advanced-precautions-section" class="advanced-only px-7 py-6 border-b border-gray-100">
           <div class="flex items-center gap-2 mb-5">
             <svg class="w-4 h-4 text-amber-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/>
@@ -525,8 +615,14 @@
           </div>
         </section>
 
+        <!-- SIMPLE: TOXICITY ONLY -->
+        <section id="simple-toxicity-section" class="simple-only simple-reading-section px-7 py-6 bg-gray-50/70 border-b border-gray-100">
+          <p class="text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-4">Can It Be Harmful?</p>
+          <p id="m-simple-tox" class="text-sm text-gray-700 leading-relaxed"></p>
+        </section>
+
         <!-- 4. SOURCES -->
-        <section class="px-7 py-6 bg-gray-50/70 rounded-b-2xl">
+        <section class="simple-reading-section px-7 py-6 bg-gray-50/70 rounded-b-2xl">
           <p class="text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-4">Key Sources</p>
           <ul id="m-sources" class="space-y-2"></ul>
           <p class="text-[10px] text-gray-400 mt-4 leading-relaxed">
@@ -545,8 +641,39 @@
     let catalogMap = {};
     let MAX_STUDIES = 0;
     let areaCounts = {};
-    let state = { q: '', kingdom: 'All', area: 'All', sort: 'az', view: 'grid' };
+    let currentModalItem = null;
+    let state = {
+      q: '',
+      kingdom: 'All',
+      area: 'All',
+      sort: 'az',
+      view: 'grid',
+      mode: localStorage.getItem('bms_reading_mode') === 'advanced' ? 'advanced' : 'simple'
+    };
     let debounceT;
+    applyModeUI();
+
+    const SIMPLE_AREA_LABELS = {
+      'Inflammatory Pathways': 'Inflammation',
+      'Anti-inflammatory Research': 'Inflammation',
+      'Immunological Research': 'Immune System',
+      'Cellular & Immune Studies': 'Cells & Immunity',
+      'Neurological & Cognitive Research': 'Brain & Focus',
+      'Cognitive Function Research': 'Memory & Thinking',
+      'Stress Response Research': 'Stress & Resilience',
+      'Oxidative Stress Research': 'Cell Protection',
+      'Cardiovascular System': 'Heart & Circulation',
+      'Glucose & Metabolic Research': 'Blood Sugar & Metabolism',
+      'Digestive System': 'Digestion',
+      'Respiratory System': 'Breathing',
+      'Reproductive Health': 'Hormonal Health',
+      'Skin & Wound Healing': 'Skin & Healing',
+      'Antimicrobial Research': 'Microbes',
+      'Antiviral Research': 'Viruses',
+      'Liver Protection': 'Liver Support',
+      'Pain & Analgesia': 'Pain',
+      'Sleep Research': 'Sleep'
+    };
 
     /* Hide grid/list on load until data ready */
     document.getElementById('grid').style.display = 'none';
@@ -616,7 +743,8 @@
         if (state.area !== 'All' && !(item.primary_categories || []).includes(state.area)) return false;
         if (q) {
           const hay = (item.scientific_name + ' ' + item.common_name + ' ' + item.type + ' ' +
-                       (item.primary_categories || []).join(' ')).toLowerCase();
+                       (item.primary_categories || []).join(' ') + ' ' +
+                       (item.primary_categories || []).map(displayAreaLabel).join(' ')).toLowerCase();
           if (!hay.includes(q)) return false;
         }
         return true;
@@ -630,6 +758,24 @@
 
     function hasFilter() {
       return state.kingdom !== 'All' || state.area !== 'All' || state.q.trim() !== '';
+    }
+
+    function displayAreaLabel(name) {
+      if (state.mode !== 'simple') return name;
+      return SIMPLE_AREA_LABELS[name] || name
+        .replace(/ Research$/i, '')
+        .replace(/ Studies$/i, '')
+        .replace(/ Pathways$/i, '')
+        .replace(/ System$/i, '')
+        .replace(/ Function$/i, '')
+        .replace(/ & /g, ' + ');
+    }
+
+    function simpleCardNote(item) {
+      const cv = item.consumer_view || {};
+      const ns = item.narrative_summary || {};
+      const source = cv.what_it_does || ns.modern_application || ns.historical_use || '';
+      return simpleText(source, 1);
     }
 
     /* ── Render all ── */
@@ -646,7 +792,7 @@
       const areaList = document.getElementById('area-list');
       areaList.innerHTML = sorted.map(([name, count]) =>
         `<div class="area-item${state.area === name ? ' active' : ''}" data-area="${esc(name)}">
-           <span>${esc(name)}</span>
+           <span>${esc(displayAreaLabel(name))}</span>
            <span class="area-count">${count}</span>
          </div>`
       ).join('');
@@ -659,9 +805,9 @@
 
       /* Mobile horizontal chip row */
       const mobileChips = document.getElementById('mobile-area-chips');
-      const allChip = `<button class="mobile-area-chip${state.area === 'All' ? ' active' : ''}" data-area="All">All areas</button>`;
+      const allChip = `<button class="mobile-area-chip${state.area === 'All' ? ' active' : ''}" data-area="All">${state.mode === 'simple' ? 'All topics' : 'All areas'}</button>`;
       const chips = sorted.map(([name, count]) =>
-        `<button class="mobile-area-chip${state.area === name ? ' active' : ''}" data-area="${esc(name)}">${esc(name)}<span class="chip-count"> ${count}</span></button>`
+        `<button class="mobile-area-chip${state.area === name ? ' active' : ''}" data-area="${esc(name)}">${esc(displayAreaLabel(name))}<span class="chip-count"> ${count}</span></button>`
       ).join('');
       mobileChips.innerHTML = allChip + chips;
       mobileChips.querySelectorAll('.mobile-area-chip').forEach(el => {
@@ -680,7 +826,9 @@
 
       document.getElementById('count-shown').textContent  = sorted.length;
       document.getElementById('filter-note').textContent  = isFiltered ? ' shown' : '';
-      document.getElementById('sort-note').textContent    = state.sort === 'az' ? 'sorted A–Z' : 'sorted by most studied';
+      document.getElementById('sort-note').textContent    = state.sort === 'az'
+        ? (state.mode === 'simple' ? 'A–Z' : 'sorted A–Z')
+        : (state.mode === 'simple' ? 'most studied first' : 'sorted by most studied');
 
       const featuredWrap = document.getElementById('featured-wrap');
       const gridEl       = document.getElementById('grid');
@@ -733,6 +881,7 @@
     function featuredCardHTML(item) {
       const p    = palette(item.type);
       const cats = (item.primary_categories || []).slice(0, 3);
+      const note = simpleCardNote(item);
       const num  = catalogMap[item.scientific_name] || '—';
       return `
         <div class="featured-card" data-name="${esc(item.scientific_name)}"
@@ -748,11 +897,12 @@
               <div class="sci" style="font-size:clamp(24px,4vw,34px);color:#0F1A28;line-height:1.05;">${esc(item.scientific_name)}</div>
               <div style="font-size:16px;color:#8A968F;margin-top:4px;">${esc(item.common_name)}</div>
               <div style="display:flex;flex-wrap:wrap;gap:7px;margin-top:16px;">
-                ${cats.map(c => `<span style="font-size:13px;color:#5B6B7A;border:1px solid #E3E8E4;border-radius:7px;padding:5px 11px;">${esc(c)}</span>`).join('')}
+                ${cats.map(c => `<span class="category-chip" style="font-size:13px;color:#5B6B7A;border:1px solid #E3E8E4;border-radius:7px;padding:5px 11px;">${esc(displayAreaLabel(c))}</span>`).join('')}
               </div>
+              <p class="simple-card-note" style="display:${state.mode === 'simple' ? 'block' : 'none'};font-size:14px;line-height:1.45;color:#4F6758;margin:14px 0 0;max-width:56ch;">${esc(note)}</p>
             </div>
             <div class="featured-right">
-              <div style="font-size:13px;color:#8A968F;margin-bottom:4px;">peer-reviewed studies</div>
+              <div style="font-size:13px;color:#8A968F;margin-bottom:4px;">${state.mode === 'simple' ? 'studies found' : 'peer-reviewed studies'}</div>
               <div class="mono" style="font-size:38px;font-weight:800;color:${p.accent};line-height:1;letter-spacing:-0.02em;">${(item.article_count || 0).toLocaleString()}</div>
               <div class="study-bar" style="margin-top:14px;height:8px;"><div class="study-bar-fill" style="width:100%;background:${p.accent};"></div></div>
               <div class="mono" style="font-size:12px;color:#9AA59E;margin-top:6px;">highest in archive</div>
@@ -766,6 +916,7 @@
       const p    = palette(item.type);
       const pct  = barPct(item.article_count || 0);
       const cats = (item.primary_categories || []).slice(0, 3);
+      const note = simpleCardNote(item);
       const num  = catalogMap[item.scientific_name] || '—';
       return `
         <button class="entry-card w-full text-left" data-name="${esc(item.scientific_name)}"
@@ -781,15 +932,16 @@
             <div style="margin-top:14px;">
               <div style="display:flex;align-items:baseline;gap:7px;">
                 <span class="mono" style="font-size:19px;font-weight:800;color:${p.accent};letter-spacing:-0.02em;">${(item.article_count || 0).toLocaleString()}</span>
-                <span style="font-size:12px;color:#8A968F;">peer-reviewed studies</span>
+                <span style="font-size:12px;color:#8A968F;">${state.mode === 'simple' ? 'studies found' : 'peer-reviewed studies'}</span>
               </div>
               <div class="study-bar" style="margin-top:8px;height:6px;"><div class="study-bar-fill" style="width:${pct};background:${p.accent};"></div></div>
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:14px;">
-              ${cats.map(c => `<span style="font-size:12px;color:#5B6B7A;border:1px solid #E6EBE7;border-radius:7px;padding:4px 9px;">${esc(c)}</span>`).join('')}
+              ${cats.map(c => `<span class="category-chip" style="font-size:12px;color:#5B6B7A;border:1px solid #E6EBE7;border-radius:7px;padding:4px 9px;">${esc(displayAreaLabel(c))}</span>`).join('')}
             </div>
+            <p class="simple-card-note" style="display:${state.mode === 'simple' ? 'block' : 'none'};font-size:13px;line-height:1.42;color:#4F6758;margin:12px 0 0;">${esc(note)}</p>
             <div style="margin-top:auto;padding-top:14px;">
-              <span class="reveal" style="display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:${p.accent};">View monograph →</span>
+              <span class="reveal" style="display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:${p.accent};">${state.mode === 'simple' ? 'Read simple notes' : 'View monograph'} →</span>
             </div>
           </div>
         </button>`;
@@ -799,6 +951,7 @@
       const p    = palette(item.type);
       const pct  = barPct(item.article_count || 0);
       const cats = (item.primary_categories || []).slice(0, 3);
+      const note = simpleCardNote(item);
       return `
         <button class="entry-card list-card w-full text-left lc-row" data-name="${esc(item.scientific_name)}"
                 style="border:1px solid #E6ECE7;border-left:3px solid ${p.accent};border-radius:11px;padding:14px 18px;background:#fff;">
@@ -817,8 +970,9 @@
               <div class="study-bar" style="width:48px;height:4px;flex-shrink:0;"><div class="study-bar-fill" style="width:${pct};background:${p.accent};"></div></div>
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:6px;">
-              ${cats.map(c => `<span style="font-size:12px;color:#5B6B7A;border:1px solid #E6EBE7;border-radius:6px;padding:3px 8px;">${esc(c)}</span>`).join('')}
+              ${cats.map(c => `<span class="category-chip" style="font-size:12px;color:#5B6B7A;border:1px solid #E6EBE7;border-radius:6px;padding:3px 8px;">${esc(displayAreaLabel(c))}</span>`).join('')}
             </div>
+            <p class="simple-card-note" style="display:${state.mode === 'simple' ? 'block' : 'none'};font-size:13px;line-height:1.35;color:#4F6758;margin:7px 0 0;">${esc(note)}</p>
           </div>
           <div class="lc-studies">
             <div style="display:flex;align-items:baseline;gap:6px;">
@@ -871,11 +1025,22 @@
       render();
     });
 
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        state.mode = this.dataset.mode === 'advanced' ? 'advanced' : 'simple';
+        localStorage.setItem('bms_reading_mode', state.mode);
+        applyModeUI();
+        if (allData.length) render();
+        if (currentModalItem && overlay.classList.contains('open')) populateModal(currentModalItem);
+      });
+    });
+
     /* ── Modal ── */
     const overlay = document.getElementById('modal-overlay');
     const panel   = document.getElementById('modal-panel');
 
     function openModal(item) {
+      currentModalItem = item;
       populateModal(item);
       document.body.style.overflow = 'hidden';
       overlay.style.display = 'flex';
@@ -897,11 +1062,13 @@
 
     /* ── Populate modal ── */
     function populateModal(d) {
-      const ns = d.narrative_summary;
-      const cd = d.clinical_data;
-      const pk = cd.pharmacokinetics;
-      const si = cd.safety_and_interactions;
-      const sp = cd.special_precautions;
+      const ns = d.narrative_summary || {};
+      const cd = d.clinical_data || {};
+      const pk = cd.pharmacokinetics || {};
+      const si = cd.safety_and_interactions || {};
+      const sp = cd.special_precautions || {};
+      const simpleView = state.mode === 'simple';
+      const simple = simpleView ? buildSimpleMonograph(d) : null;
 
       const p = palette(d.type);
       document.getElementById('modal-badges').innerHTML = `
@@ -915,14 +1082,14 @@
 
       document.getElementById('modal-title').textContent  = d.scientific_name;
       document.getElementById('modal-common').textContent = d.common_name;
-      document.getElementById('modal-cats').innerHTML = d.primary_categories.map(c =>
-        `<span class="inline-flex px-2.5 py-1 rounded-md text-[11px] font-medium bg-gray-100 text-gray-500">${esc(c)}</span>`
+      document.getElementById('modal-cats').innerHTML = (d.primary_categories || []).map(c =>
+        `<span class="category-chip inline-flex px-2.5 py-1 rounded-md text-[11px] font-medium bg-gray-100 text-gray-500">${esc(displayAreaLabel(c))}</span>`
       ).join('');
 
-      setText('m-history', ns.historical_use);
-      setText('m-modern',  ns.modern_application);
-      setText('m-side',    ns.side_effects);
-      setText('m-contra',  ns.contraindications);
+      setText('m-history', simpleView ? simple.historical_use : ns.historical_use);
+      setText('m-modern',  simpleView ? simple.modern_application : ns.modern_application);
+      setText('m-side',    simpleView ? simple.side_effects : ns.side_effects);
+      setText('m-contra',  simpleView ? simple.contraindications : ns.contraindications);
 
       setText('m-used', cd.used_part);
       setHTML('m-moa',  cd.mechanism_of_action);
@@ -932,8 +1099,9 @@
       setText('m-exc',  pk.excretion);
       setText('m-interactions', si.drug_interactions);
       setText('m-tox',  si.toxicity);
+      setText('m-simple-tox', simpleView ? simple.toxicity : si.toxicity);
 
-      document.getElementById('m-compounds').innerHTML = cd.primary_active_compounds.map(c =>
+      document.getElementById('m-compounds').innerHTML = (cd.primary_active_compounds || []).map(c =>
         `<span class="compound-badge inline-flex px-2.5 py-1 rounded-lg text-xs font-medium bg-forest-50 text-forest-800 border border-forest-100">${esc(c)}</span>`
       ).join('');
 
@@ -942,48 +1110,172 @@
       setText('m-hep',  sp.hepatic_impairment);
       setText('m-ren',  sp.renal_impairment);
 
-      const citedRefs = (d.sources || {}).cited_references;
-      const srcUrls   = (d.sources || {}).top_studies_urls || [];
-
-      if (citedRefs && citedRefs.length) {
-        document.getElementById('m-sources').innerHTML = citedRefs.map(ref => {
-          const pmidMatch = ref.match(/PMID:\s*(\d+)/);
-          const doiMatch  = ref.match(/DOI:\s*(10\.[^\s,]+)/);
-          let html;
-          if (pmidMatch) {
-            const url   = `https://pubmed.ncbi.nlm.nih.gov/${pmidMatch[1]}/`;
-            const parts = ref.split(/PMID:\s*\d+/);
-            html = esc(parts[0])
-              + `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-forest-600 hover:underline font-semibold">PMID: ${pmidMatch[1]}</a>`
-              + esc(parts[1] || '');
-          } else if (doiMatch) {
-            const url   = `https://doi.org/${doiMatch[1]}`;
-            const parts = ref.split(/DOI:\s*10\.[^\s,]+/);
-            html = esc(parts[0])
-              + `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-forest-600 hover:underline font-semibold">DOI: ${doiMatch[1]}</a>`
-              + esc(parts[1] || '');
-          } else {
-            html = esc(ref);
-          }
-          return `<li class="text-xs text-gray-500 leading-relaxed py-1.5 border-b border-gray-100 last:border-0">${html}</li>`;
-        }).join('');
-      } else {
-        document.getElementById('m-sources').innerHTML = srcUrls.map(s => {
-          const isUrl = s.startsWith('http');
-          const label = isUrl ? s.replace('https://pubmed.ncbi.nlm.nih.gov/', 'PubMed ').replace(/\/$/, '') : esc(s);
-          const inner = isUrl
-            ? `<a href="${esc(s)}" target="_blank" rel="noopener noreferrer" class="hover:text-forest-600 underline underline-offset-2 break-all">${label}</a>`
-            : `<span class="break-all">${label}</span>`;
-          return `<li class="flex items-start gap-2 text-xs text-gray-500 font-mono">
-            <svg class="w-3 h-3 shrink-0 mt-0.5 text-forest-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"/>
-            </svg>
-            ${inner}
-          </li>`;
-        }).join('');
-      }
+      renderSources(d, simpleView);
 
       document.getElementById('modal-scroll').scrollTop = 0;
+    }
+
+    function applyModeUI() {
+      const simple = state.mode === 'simple';
+      document.body.classList.toggle('simple-mode', simple);
+      document.body.classList.toggle('advanced-mode', !simple);
+      const areaHeading = document.getElementById('area-heading');
+      if (areaHeading) areaHeading.textContent = simple ? 'What it is studied for' : 'Research area';
+      document.querySelectorAll('.mode-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.mode === state.mode);
+      });
+    }
+
+    function buildSimpleMonograph(d) {
+      const ns = d.narrative_summary || {};
+      const cd = d.clinical_data || {};
+      const si = cd.safety_and_interactions || {};
+      const cv = d.consumer_view || {};
+
+      return {
+        historical_use: simpleText(ns.historical_use, 2),
+        modern_application: cv.what_it_does
+          ? simpleText(cv.what_it_does, 3)
+          : simpleText(ns.modern_application, 3),
+        side_effects: simpleText(ns.side_effects, 2),
+        contraindications: simpleText(
+          cv.safety_snapshot && cv.safety_snapshot.length
+            ? cv.safety_snapshot.join('. ') + '. ' + (ns.contraindications || '')
+            : ns.contraindications,
+          3
+        ),
+        toxicity: simpleText(si.toxicity, 2)
+      };
+    }
+
+    function simpleText(value, maxSentences) {
+      const raw = String(value || '').trim();
+      if (!raw) return 'No simple summary is available for this section yet.';
+
+      let text = raw
+        .replace(/<[^>]+>/g, '')
+        .replace(/\s*\[[^\]]+\]/g, '')
+        .replace(/\s*\([^)]*(PMID|DOI|doi|p\s*[<=>]|n\s*=|mg\/kg|LD50)[^)]*\)/gi, '')
+        .replace(/\s*\([^)]*(?:TNF|IL-|NF-|COX|ROS|BDNF|GABA|acetylcholine|α|β|κ)[^)]*\)/gi, '')
+        .replace(/\bPMID:\s*\d+\b/gi, '')
+        .replace(/\bDOI:\s*10\.[^\s,;]+/gi, '')
+        .replace(/\b\d+(?:\.\d+)?\s*(?:mg|g|mcg|µg|kg|ml|iu|cfu|weeks?|months?|days?|hours?|participants?|patients?|subjects?)\b/gi, '')
+        .replace(/\b(randomi[sz]ed|double-blind|placebo-controlled|multicenter|multicentre)\b/gi, '')
+        .replace(/\bRCTs?\b/g, 'human studies')
+        .replace(/\bclinical trials\b/gi, 'human studies')
+        .replace(/\bclinical trial\b/gi, 'human study')
+        .replace(/\bstudied primarily for\b/gi, 'researchers mostly study it for')
+        .replace(/\bstudied for\b/gi, 'studied for')
+        .replace(/\bpreclinical\b/gi, 'early lab or animal')
+        .replace(/\bin vitro\b/gi, 'lab')
+        .replace(/\bimmunomodulation\b/gi, 'immune system effects')
+        .replace(/\bimmunomodulatory\b/gi, 'immune system')
+        .replace(/\bimmunological\b/gi, 'immune')
+        .replace(/\banti[- ]?tumou?r\b/gi, 'cancer-related')
+        .replace(/\bactivity\b/gi, 'effects')
+        .replace(/\bneuroprotective\b/gi, 'brain-cell protective')
+        .replace(/\bcognition\b/gi, 'memory and thinking')
+        .replace(/\bcognitive\b/gi, 'memory and thinking')
+        .replace(/\banxiolytic\b/gi, 'calming')
+        .replace(/\badaptogenic\b/gi, 'stress-supporting')
+        .replace(/\bglycaemic\b/gi, 'blood sugar')
+        .replace(/\bglycemic\b/gi, 'blood sugar')
+        .replace(/\bcytokines?\b/gi, 'immune signals')
+        .replace(/\bbiomarkers?\b/gi, 'measured signs')
+        .replace(/\bmarkers?\b/gi, 'signs')
+        .replace(/\binflammatory mediators?\b/gi, 'inflammation signs')
+        .replace(/\bimmune signals signs\b/gi, 'immune signs')
+        .replace(/\bdemonstrated\b/gi, 'showed')
+        .replace(/\bassociated with\b/gi, 'linked with')
+        .replace(/\bpathways?\b/gi, 'body processes')
+        .replace(/\bpharmacokinetic(s)?\b/gi, 'how the body handles it')
+        .replace(/\bgastrointestinal\b/gi, 'stomach or gut')
+        .replace(/\bhepatotoxicity\b/gi, 'liver harm')
+        .replace(/\bnephrotoxicity\b/gi, 'kidney harm')
+        .replace(/\bhepatic\b/gi, 'liver')
+        .replace(/\brenal\b/gi, 'kidney')
+        .replace(/\bcontraindicated\b/gi, 'should not be used')
+        .replace(/\bcontraindication(s)?\b/gi, 'reasons to avoid it')
+        .replace(/\banticoagulant(s)?\b/gi, 'blood thinners')
+        .replace(/\bantiplatelet\b/gi, 'blood-thinning')
+        .replace(/\bimmunosuppressant(s)?\b/gi, 'immune-suppressing medicines')
+        .replace(/\bhypoglycaemia\b/gi, 'low blood sugar')
+        .replace(/\bhypertension\b/gi, 'high blood pressure')
+        .replace(/\badverse events?\b/gi, 'side effects')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+      const sentences = text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [text];
+      const simplified = sentences
+        .map(s => s.trim())
+        .filter(Boolean)
+        .slice(0, maxSentences)
+        .join(' ');
+      return simplified.charAt(0).toUpperCase() + simplified.slice(1);
+    }
+
+    function renderSources(d, simpleView) {
+      const citedRefs = (d.sources || {}).cited_references || [];
+      const srcUrls = (d.sources || {}).top_studies_urls || [];
+      const sourceLimit = simpleView ? 3 : Infinity;
+
+      if (citedRefs.length) {
+        document.getElementById('m-sources').innerHTML = citedRefs.slice(0, sourceLimit).map(ref => {
+          const pmidMatch = ref.match(/PMID:\s*(\d+)/);
+          const doiMatch  = ref.match(/DOI:\s*(10\.[^\s,]+)/);
+          if (pmidMatch) {
+            const pmid = pmidMatch[1];
+            const url = `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`;
+            const sourceText = sourceLabelFromRef(ref, simpleView);
+            return sourceLinkItem(url, sourceText, `Open PubMed - PMID ${pmid}`);
+          } else if (doiMatch) {
+            const doi = cleanDoi(doiMatch[1]);
+            const url = `https://doi.org/${doi}`;
+            const sourceText = sourceLabelFromRef(ref, simpleView);
+            return sourceLinkItem(url, sourceText, `Open DOI - ${doi}`);
+          }
+          return `<li class="text-xs text-gray-500 leading-relaxed py-1.5 border-b border-gray-100 last:border-0">${esc(sourceLabelFromRef(ref, simpleView))}</li>`;
+        }).join('');
+        return;
+      }
+
+      document.getElementById('m-sources').innerHTML = srcUrls.slice(0, sourceLimit).map(s => {
+        const isUrl = s.startsWith('http');
+        if (isUrl) {
+          const pmid = (s.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/) || [])[1];
+          const label = pmid ? `PubMed study ${pmid}` : s;
+          const action = pmid ? `Open PubMed - PMID ${pmid}` : 'Open source';
+          return sourceLinkItem(s, label, action);
+        }
+        return `<li class="text-xs text-gray-500 font-mono break-all">${esc(s)}</li>`;
+      }).join('');
+    }
+
+    function simpleSourceLabel(ref) {
+      return sourceLabelFromRef(ref, true);
+    }
+
+    function sourceLabelFromRef(ref, simpleView) {
+      const clean = String(ref || '')
+        .replace(/^\[\d+\]\s*-\s*/, '')
+        .replace(/,?\s*PMID:\s*\d+.*/i, '')
+        .replace(/,?\s*DOI:\s*10\.[^\s,]+.*/i, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+      return simpleView ? clean : (clean || String(ref || '').trim());
+    }
+
+    function cleanDoi(doi) {
+      return String(doi || '').replace(/[.;)]+$/g, '');
+    }
+
+    function sourceLinkItem(url, label, actionLabel) {
+      return `<li class="text-xs leading-relaxed">
+        <a data-source-link href="${esc(url)}" class="source-link">
+          <span>${esc(label)}</span>
+          <span class="source-open">${esc(actionLabel)}</span>
+        </a>
+      </li>`;
     }
 
     /* ── Helpers ── */
@@ -1002,6 +1294,35 @@
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;');
     }
+  </script>
+
+  <!-- ══════════════════════════ COOKIE BANNER ════════════════════════════ -->
+  <div id="cookie-banner" role="region" aria-label="Cookie consent" style="position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#0E2A20;border-top:1px solid rgba(159,217,181,.18);">
+    <div style="max-width:72rem;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;">
+      <p style="color:rgba(255,255,255,.75);font-size:13px;line-height:1.5;margin:0;flex:1;min-width:240px;">
+        We use analytics cookies (Google Analytics) to understand how visitors use BMS Archive. No personal data is collected before you consent.
+        <a href="/privacy.html" style="color:#7FB596;text-decoration:underline;margin-left:4px;">Privacy Policy</a>
+      </p>
+      <div style="display:flex;gap:10px;flex-shrink:0;">
+        <button id="cookie-decline" type="button" style="padding:8px 18px;border-radius:8px;font-size:13px;font-weight:600;border:1px solid rgba(159,217,181,.3);background:transparent;color:rgba(255,255,255,.65);cursor:pointer;">Decline</button>
+        <button id="cookie-accept" type="button" style="padding:8px 18px;border-radius:8px;font-size:13px;font-weight:600;background:#1F6640;color:#fff;border:none;cursor:pointer;">Accept analytics</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function() {
+      var banner = document.getElementById('cookie-banner');
+      if (localStorage.getItem('bms_analytics_consent')) { banner.style.display = 'none'; return; }
+      document.getElementById('cookie-accept').addEventListener('click', function() {
+        localStorage.setItem('bms_analytics_consent', 'accepted');
+        banner.style.display = 'none';
+        if (typeof loadGA === 'function') loadGA();
+      });
+      document.getElementById('cookie-decline').addEventListener('click', function() {
+        localStorage.setItem('bms_analytics_consent', 'declined');
+        banner.style.display = 'none';
+      });
+    })();
   </script>
 </body>
 </html>
