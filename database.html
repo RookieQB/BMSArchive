@@ -876,7 +876,7 @@
               <p class="simple-card-note" style="display:${state.mode === 'simple' ? 'block' : 'none'};font-size:14px;line-height:1.45;color:#4F6758;margin:14px 0 0;max-width:56ch;">${esc(note)}</p>
             </div>
             <div class="featured-right">
-              <div style="font-size:13px;color:#8A968F;margin-bottom:4px;">peer-reviewed studies</div>
+              <div style="font-size:13px;color:#8A968F;margin-bottom:4px;">${state.mode === 'simple' ? 'studies found' : 'peer-reviewed studies'}</div>
               <div class="mono" style="font-size:38px;font-weight:800;color:${p.accent};line-height:1;letter-spacing:-0.02em;">${(item.article_count || 0).toLocaleString()}</div>
               <div class="study-bar" style="margin-top:14px;height:8px;"><div class="study-bar-fill" style="width:100%;background:${p.accent};"></div></div>
               <div class="mono" style="font-size:12px;color:#9AA59E;margin-top:6px;">highest in archive</div>
@@ -906,7 +906,7 @@
             <div style="margin-top:14px;">
               <div style="display:flex;align-items:baseline;gap:7px;">
                 <span class="mono" style="font-size:19px;font-weight:800;color:${p.accent};letter-spacing:-0.02em;">${(item.article_count || 0).toLocaleString()}</span>
-                <span style="font-size:12px;color:#8A968F;">peer-reviewed studies</span>
+                <span style="font-size:12px;color:#8A968F;">${state.mode === 'simple' ? 'studies found' : 'peer-reviewed studies'}</span>
               </div>
               <div class="study-bar" style="margin-top:8px;height:6px;"><div class="study-bar-fill" style="width:${pct};background:${p.accent};"></div></div>
             </div>
