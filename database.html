@@ -140,6 +140,30 @@
     body.simple-mode .simple-caution-card { background: #EAF8ED; border-color: #BFE4C8; }
     body.simple-mode .simple-caution-card svg { color: #2C7A4E; }
     body.simple-mode .simple-caution-card p { color: #225A3B; }
+    .source-link {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 12px;
+      border: 1px solid #DDEFE2;
+      border-radius: 8px;
+      background: #FFFFFF;
+      color: #4F6758;
+      text-decoration: none;
+      transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    }
+    .source-link:hover {
+      background: #F3FBF5;
+      border-color: #9ED9B2;
+      color: #174C33;
+    }
+    .source-open {
+      flex-shrink: 0;
+      color: #237A48;
+      font-weight: 800;
+      white-space: nowrap;
+    }
     .modal-meta-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
     .modal-meta-row #modal-cats { flex: 1; min-width: 0; margin-top: 0; }
     .modal-mode-toggle { flex-shrink: 0; }
@@ -200,6 +224,8 @@
       .modal-meta-row { align-items: flex-start; flex-direction: column; }
       .modal-mode-toggle { width: 100%; }
       .modal-mode-toggle .mode-btn { flex: 1; }
+      .source-link { flex-direction: column; gap: 6px; }
+      .source-open { white-space: normal; }
 
       /* Mobile area chips row */
       #mobile-area-chips { display: flex; }
@@ -1197,51 +1223,59 @@
         document.getElementById('m-sources').innerHTML = citedRefs.slice(0, sourceLimit).map(ref => {
           const pmidMatch = ref.match(/PMID:\s*(\d+)/);
           const doiMatch  = ref.match(/DOI:\s*(10\.[^\s,]+)/);
-          let html;
           if (pmidMatch) {
-            const url = `https://pubmed.ncbi.nlm.nih.gov/${pmidMatch[1]}/`;
-            const parts = ref.split(/PMID:\s*\d+/);
-            const sourceText = simpleView ? simpleSourceLabel(parts[0]) : esc(parts[0]);
-            html = sourceText
-              + `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-forest-600 hover:underline font-semibold">PMID: ${pmidMatch[1]}</a>`
-              + esc(parts[1] || '');
+            const pmid = pmidMatch[1];
+            const url = `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`;
+            const sourceText = sourceLabelFromRef(ref, simpleView);
+            return sourceLinkItem(url, sourceText, `Open PubMed - PMID ${pmid}`);
           } else if (doiMatch) {
-            const url = `https://doi.org/${doiMatch[1]}`;
-            const parts = ref.split(/DOI:\s*10\.[^\s,]+/);
-            const sourceText = simpleView ? simpleSourceLabel(parts[0]) : esc(parts[0]);
-            html = sourceText
-              + `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-forest-600 hover:underline font-semibold">DOI: ${doiMatch[1]}</a>`
-              + esc(parts[1] || '');
-          } else {
-            html = simpleView ? simpleSourceLabel(ref) : esc(ref);
+            const doi = cleanDoi(doiMatch[1]);
+            const url = `https://doi.org/${doi}`;
+            const sourceText = sourceLabelFromRef(ref, simpleView);
+            return sourceLinkItem(url, sourceText, `Open DOI - ${doi}`);
           }
-          return `<li class="text-xs text-gray-500 leading-relaxed py-1.5 border-b border-gray-100 last:border-0">${html}</li>`;
+          return `<li class="text-xs text-gray-500 leading-relaxed py-1.5 border-b border-gray-100 last:border-0">${esc(sourceLabelFromRef(ref, simpleView))}</li>`;
         }).join('');
         return;
       }
 
       document.getElementById('m-sources').innerHTML = srcUrls.slice(0, sourceLimit).map(s => {
         const isUrl = s.startsWith('http');
-        const label = isUrl ? s.replace('https://pubmed.ncbi.nlm.nih.gov/', 'PubMed ').replace(/\/$/, '') : esc(s);
-        const inner = isUrl
-          ? `<a href="${esc(s)}" target="_blank" rel="noopener noreferrer" class="hover:text-forest-600 underline underline-offset-2 break-all">${label}</a>`
-          : `<span class="break-all">${label}</span>`;
-        return `<li class="flex items-start gap-2 text-xs text-gray-500 font-mono">
-          <svg class="w-3 h-3 shrink-0 mt-0.5 text-forest-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"/>
-          </svg>
-          ${inner}
-        </li>`;
+        if (isUrl) {
+          const pmid = (s.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/) || [])[1];
+          const label = pmid ? `PubMed study ${pmid}` : s;
+          const action = pmid ? `Open PubMed - PMID ${pmid}` : 'Open source';
+          return sourceLinkItem(s, label, action);
+        }
+        return `<li class="text-xs text-gray-500 font-mono break-all">${esc(s)}</li>`;
       }).join('');
     }
 
     function simpleSourceLabel(ref) {
-      return esc(
-        String(ref || '')
-          .replace(/^\[\d+\]\s*-\s*/, '')
-          .replace(/\s+/g, ' ')
-          .trim()
-      ) + ' ';
+      return sourceLabelFromRef(ref, true);
+    }
+
+    function sourceLabelFromRef(ref, simpleView) {
+      const clean = String(ref || '')
+        .replace(/^\[\d+\]\s*-\s*/, '')
+        .replace(/,?\s*PMID:\s*\d+.*/i, '')
+        .replace(/,?\s*DOI:\s*10\.[^\s,]+.*/i, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+      return simpleView ? clean : (clean || String(ref || '').trim());
+    }
+
+    function cleanDoi(doi) {
+      return String(doi || '').replace(/[.;)]+$/g, '');
+    }
+
+    function sourceLinkItem(url, label, actionLabel) {
+      return `<li class="text-xs leading-relaxed">
+        <a data-source-link href="${esc(url)}" class="source-link">
+          <span>${esc(label)}</span>
+          <span class="source-open">${esc(actionLabel)}</span>
+        </a>
+      </li>`;
     }
 
     /* ── Helpers ── */
