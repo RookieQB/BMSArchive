@@ -120,6 +120,14 @@
     .mode-btn { cursor: pointer; min-width: 86px; padding: 10px 13px; border: 0; background: #fff; color: #5B6B7A; font-size: 14px; font-weight: 700; transition: all 0.15s; font-family: 'Hanken Grotesk', sans-serif; }
     .mode-btn + .mode-btn { border-left: 1px solid #DDE3DE; }
     .mode-btn.active { background: #1B5138; color: #fff; }
+    body.simple-mode .mode-toggle { border-color: #B8DFC2; box-shadow: 0 1px 0 rgba(27, 81, 56, 0.06); }
+    body.simple-mode .mode-btn[data-mode="simple"].active { background: #DDF3E3; color: #174C33; }
+    body.simple-mode #modal-panel { border: 1px solid #C8E8D0; box-shadow: 0 26px 70px -36px rgba(27, 81, 56, 0.45); }
+    body.simple-mode #modal-header { background: #F3FBF5; border-bottom-color: #DCEEDF; }
+    body.simple-mode .simple-reading-section { background: #F7FCF8; border-bottom-color: #DCEEDF; }
+    body.simple-mode .simple-caution-card { background: #EAF8ED; border-color: #BFE4C8; }
+    body.simple-mode .simple-caution-card svg { color: #2C7A4E; }
+    body.simple-mode .simple-caution-card p { color: #225A3B; }
     .modal-meta-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
     .modal-meta-row #modal-cats { flex: 1; min-width: 0; margin-top: 0; }
     .modal-mode-toggle { flex-shrink: 0; }
@@ -455,7 +463,7 @@
         </div>
 
         <!-- 1. NARRATIVE -->
-        <section class="px-7 py-6 border-b border-gray-100">
+        <section class="simple-reading-section px-7 py-6 border-b border-gray-100">
           <p class="advanced-only text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-5">Narrative Summary</p>
           <div class="space-y-5">
             <div>
@@ -470,12 +478,13 @@
               <p class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">Adverse Effects</p>
               <p id="m-side" class="text-sm text-gray-700 leading-relaxed"></p>
             </div>
-            <div class="flex gap-3 rounded-xl bg-amber-50 border border-amber-200 p-4">
+            <div class="simple-caution-card flex gap-3 rounded-xl bg-amber-50 border border-amber-200 p-4">
               <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
               </svg>
               <div>
-                <p class="text-[10px] font-bold text-amber-700 uppercase tracking-widest mb-1.5">Contraindications</p>
+                <p class="advanced-only text-[10px] font-bold text-amber-700 uppercase tracking-widest mb-1.5">Contraindications</p>
+                <p class="simple-only text-[10px] font-bold uppercase tracking-widest mb-1.5">Don't Use With / Avoid If</p>
                 <p id="m-contra" class="text-sm text-amber-900 leading-relaxed"></p>
               </div>
             </div>
@@ -566,13 +575,13 @@
         </section>
 
         <!-- SIMPLE: TOXICITY ONLY -->
-        <section id="simple-toxicity-section" class="simple-only px-7 py-6 bg-gray-50/70 border-b border-gray-100">
-          <p class="text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-4">Toxicity</p>
+        <section id="simple-toxicity-section" class="simple-only simple-reading-section px-7 py-6 bg-gray-50/70 border-b border-gray-100">
+          <p class="text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-4">Can It Be Harmful?</p>
           <p id="m-simple-tox" class="text-sm text-gray-700 leading-relaxed"></p>
         </section>
 
         <!-- 4. SOURCES -->
-        <section class="px-7 py-6 bg-gray-50/70 rounded-b-2xl">
+        <section class="simple-reading-section px-7 py-6 bg-gray-50/70 rounded-b-2xl">
           <p class="text-[10px] font-bold text-forest-600 uppercase tracking-[0.15em] mb-4">Key Sources</p>
           <ul id="m-sources" class="space-y-2"></ul>
           <p class="text-[10px] text-gray-400 mt-4 leading-relaxed">
