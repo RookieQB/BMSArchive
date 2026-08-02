@@ -64,6 +64,13 @@
     };
   </script>
   <style>
+    :root {
+      --soft-page: #F4FBF5;
+      --soft-green: #DDF3E3;
+      --leaf: #2F8F57;
+      --leaf-dark: #174C33;
+      --ink: #102318;
+    }
     .cta-btn { transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease; }
     .cta-btn:hover { transform: translateY(-2px); }
     .lift { transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, color 0.18s ease, border-color 0.18s ease; }
@@ -80,7 +87,7 @@
     body.cart-open { overflow:hidden; }
   </style>
 </head>
-<body class="bg-white text-gray-900 antialiased">
+  <body class="text-gray-900 antialiased" style="background:var(--soft-page);">
 
 <!-- ═══ REUSABLE SPRIG SVG SYMBOLS ═══ -->
 <svg width="0" height="0" style="position:absolute;" aria-hidden="true">
@@ -136,21 +143,6 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/>
           </svg>
         </a>
-        <a href="#ebooks"
-           class="hidden sm:inline text-sm font-semibold text-gray-600 hover:text-forest-800 transition-colors duration-200">
-          E-Books
-        </a>
-        <a href="/grow.html"
-           class="hidden sm:inline-flex items-center gap-1.5 text-sm font-semibold text-forest-700 hover:text-forest-900 transition-colors duration-200">
-          <svg viewBox="-22 -160 44 168" width="10" height="38" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M0 0 C -9 -48 7 -100 0 -156"></path>
-            <path d="M0 0 Q 11 -15 0 -34 Q -11 -15 0 0 Z" transform="translate(-2 -34) rotate(-42) scale(.8)"></path>
-            <path d="M0 -4 L0 -29" transform="translate(-2 -34) rotate(-42) scale(.8)"></path>
-            <path d="M0 0 Q 11 -15 0 -34 Q -11 -15 0 0 Z" transform="translate(2 -64) rotate(40) scale(.92)"></path>
-            <path d="M0 -4 L0 -29" transform="translate(2 -64) rotate(40) scale(.92)"></path>
-          </svg>
-          Grow Your Own
-        </a>
         <a href="https://instagram.com/thebmsarchive" target="_blank" rel="noopener noreferrer"
            class="inline-flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-forest-800 transition-colors duration-200">
           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -158,16 +150,13 @@
           </svg>
           <span class="hidden sm:inline">Follow</span>
         </a>
-        <button id="open-cart" type="button" class="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-bold text-white" style="background:#173F2D;">
-          Cart <span id="cart-count" class="inline-flex min-w-5 h-5 items-center justify-center rounded-full px-1 text-[11px]" style="background:#C0824A;">0</span>
-        </button>
       </div>
     </div>
   </header>
   </div><!-- /sticky header wrapper -->
 
   <!-- ═══════════════════════════════════ HERO ══════════════════════════════════ -->
-  <section style="position:relative;overflow:hidden;padding:88px 24px 72px;text-align:center;background:radial-gradient(125% 100% at 50% -18%,#C6ECD4 0%,#E4F5EB 36%,#FFFFFF 74%);">
+  <section style="position:relative;overflow:hidden;padding:94px 24px 78px;text-align:center;background:radial-gradient(120% 105% at 50% -16%,#BDEBCB 0%,#E7F8EC 42%,#F9FEFA 78%);">
     <!-- Dot grid -->
     <div aria-hidden="true" style="position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,rgba(30,142,78,.13) 1px,transparent 0);background-size:26px 26px;opacity:.75;pointer-events:none;"></div>
     <!-- Green glow blob -->
@@ -182,44 +171,33 @@
 
     <div style="position:relative;max-width:860px;margin:0 auto;">
       <!-- Badge -->
-      <span class="mono rise" style="display:inline-block;font-size:12px;letter-spacing:0.2em;color:#1A8E4E;text-transform:uppercase;border:1px solid #9FD9B5;background:#E7F7EE;border-radius:999px;padding:6px 14px;margin-bottom:26px;box-shadow:0 1px 0 rgba(45,196,123,.25);">Peer-reviewed · cited to the study</span>
+      <span class="mono rise" style="display:inline-block;font-size:12px;letter-spacing:0.18em;color:var(--leaf-dark);text-transform:uppercase;border:1px solid #AEDFBB;background:#ECFAF0;border-radius:999px;padding:7px 15px;margin-bottom:26px;box-shadow:0 1px 0 rgba(45,196,123,.18);">Plant and fungi research, made easier to read</span>
 
       <!-- Headline -->
-      <h1 style="font-size:clamp(44px,7vw,80px);line-height:0.97;font-weight:800;letter-spacing:-0.035em;color:#0F1A28;margin:0 auto;max-width:15ch;">
-        Botanical Medicine,<br>
-        <span style="background:linear-gradient(102deg,#34C77B 0%,#1E9E57 42%,#15633F 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">Evidence First.</span>
+      <h1 style="font-size:clamp(44px,7vw,80px);line-height:0.98;font-weight:800;letter-spacing:-0.03em;color:var(--ink);margin:0 auto;max-width:15ch;">
+        Explore botanical<br>
+        <span style="background:linear-gradient(102deg,#45BC72 0%,#2F8F57 44%,#174C33 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">evidence clearly.</span>
       </h1>
 
       <!-- Sub-headline -->
       <p style="font-size:clamp(16px,2vw,21px);line-height:1.55;color:#5B6B7A;max-width:46ch;margin:28px auto 0;">
-        A structured, peer-reviewed archive of botanical and fungal monographs — sourced from primary literature, cited down to the study.
+        Search the BMS database for plants and fungi, switch between Simple and Advanced reading, and follow the sources when you want the deeper evidence.
       </p>
 
       <!-- CTAs -->
-      <div style="display:flex;flex-direction:column;align-items:center;gap:16px;margin-top:42px;">
-        <!-- Grow Your Own — top, prominent -->
-        <a href="/grow.html" class="lift" style="display:inline-flex;align-items:center;gap:11px;background:linear-gradient(135deg,#3E9E63 0%,#247A47 52%,#155A34 100%);color:#fff;font-size:18px;font-weight:700;padding:18px 32px;border-radius:14px;box-shadow:0 20px 42px -14px rgba(20,90,52,.5);text-decoration:none;" aria-label="Grow Your Own — learn to grow medicinal plants">
-          <svg viewBox="-22 -160 44 168" width="14" height="50" fill="none" stroke="rgba(255,255,255,.92)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#sprig"></use></svg>
-          Grow Your Own →
+      <div class="hero-cta-row" style="display:flex;align-items:center;justify-content:center;margin-top:42px;">
+        <a href="/database.html" class="lift" style="display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#3BAE68 0%,#237A48 54%,#164D33 100%);color:#fff;font-size:18px;font-weight:800;padding:19px 34px;border-radius:15px;box-shadow:0 22px 44px -18px rgba(23,76,51,.58);text-decoration:none;">
+          Explore Database →
         </a>
-        <!-- Database + E-Books — same row -->
-        <div class="hero-cta-row" style="display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;">
-          <a href="/database.html" class="lift" style="display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#1C5A4A 0%,#103E33 52%,#0A2A22 100%);color:#fff;font-size:17px;font-weight:700;padding:18px 28px;border-radius:13px;box-shadow:0 20px 42px -14px rgba(12,42,34,.55);text-decoration:none;">
-            🗄 Explore the Database →
-          </a>
-          <a href="#ebooks" class="lift" style="display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#C0824A 0%,#9A5F30 52%,#71421E 100%);color:#fff;font-size:17px;font-weight:700;padding:17px 26px;border-radius:13px;box-shadow:0 20px 42px -14px rgba(120,70,30,.5);text-decoration:none;">
-            📘 Browse E-Books
-          </a>
-        </div>
       </div>
 
       <!-- Stats strip -->
       <div class="mono" style="display:flex;align-items:center;justify-content:center;gap:22px;flex-wrap:wrap;margin-top:34px;font-size:14px;color:#6E8579;letter-spacing:0.04em;">
-        <span><strong style="color:#178A4D;font-weight:600;">66</strong> monographs</span>
+        <span><strong style="color:#178A4D;font-weight:600;">72</strong> monographs</span>
         <span style="color:#9FCBB0;">/</span>
         <span><strong style="color:#178A4D;font-weight:600;">1,200+</strong> citations</span>
         <span style="color:#9FCBB0;">/</span>
-        <span><strong style="color:#178A4D;font-weight:600;">6</strong> field guides</span>
+        <span><strong style="color:#178A4D;font-weight:600;">Simple</strong> + advanced reading</span>
       </div>
     </div>
   </section>
@@ -525,7 +503,6 @@
 
         <div class="flex flex-wrap items-center justify-center sm:justify-start gap-4 sm:gap-8 text-sm">
           <a href="/database.html" class="hover:text-white transition-colors duration-200">Database</a>
-          <a href="#ebooks" class="hover:text-white transition-colors duration-200">E-Books</a>
           <a href="https://bmsarchive.com" class="hidden sm:inline hover:text-white transition-colors duration-200">bmsarchive.com</a>
           <a href="mailto:contact@bmsarchive.com" class="hover:text-white transition-colors duration-200">Contact</a>
           <a href="https://instagram.com/thebmsarchive" target="_blank" rel="noopener noreferrer"
@@ -622,7 +599,7 @@
         });
 
         const total = cart.reduce((sum, id) => sum + catalog[id].price, 0);
-        countEl.textContent = String(cart.length);
+        if (countEl) countEl.textContent = String(cart.length);
         totalEl.textContent = `$${total}`;
         emptyEl.classList.toggle('hidden', cart.length > 0);
         checkoutEl.classList.toggle('hidden', cart.length === 0);
@@ -639,7 +616,7 @@
         });
       });
 
-      document.getElementById('open-cart').addEventListener('click', openCart);
+      document.getElementById('open-cart')?.addEventListener('click', openCart);
       document.getElementById('close-cart').addEventListener('click', closeCart);
       overlay.addEventListener('click', closeCart);
       document.addEventListener('keydown', event => {
