@@ -1,0 +1,301 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:23152216 AND SRC:MED",
+    "internalQuery": "EXT_ID:23152216 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "23152216",
+        "source": "MED",
+        "pmid": "23152216",
+        "pmcid": "PMC7144685",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7144685"
+          ]
+        },
+        "doi": "10.1002/14651858.cd003230.pub4",
+        "title": "Horse chestnut seed extract for chronic venous insufficiency.",
+        "authorString": "Pittler MH, Ernst E.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Pittler MH",
+              "lastName": "Pittler",
+              "firstName": "Max H",
+              "initials": "MH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "German Cochrane Centre, Institute of Medical Biometry and Medical Informatics University Medical Center Freiburg and ComplementaryMedicine, Peninsula Medical School, University of Exeter, UK, Freiburg, Germany. max.pittler@pms.ac.uk."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ernst E",
+              "lastName": "Ernst",
+              "firstName": "Edzard",
+              "initials": "E"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "volume": "11",
+          "journalIssueId": 2193172,
+          "dateOfPublication": "2012 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Cochrane Database Syst Rev",
+            "title": "The Cochrane database of systematic reviews",
+            "essn": "1469-493X",
+            "issn": "1469-493X",
+            "isoabbreviation": "Cochrane Database Syst Rev",
+            "nlmid": "100909747"
+          },
+          "printPublicationDate": "2012-11-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "CD003230",
+        "abstractText": "<h4>Background</h4>Conservative therapy of chronic venous insufficiency (CVI) consists largely of compression treatment. However, this often causes discomfort and has been associated with poor compliance. Therefore, oral drug treatment is an attractive option. This is an update of a Cochrane review first published in 2002 and updated in 2004, 2006, 2008 and 2010.<h4>Objectives</h4>To review the efficacy and safety of oral horse chestnut seed extract (HCSE) versus placebo, or reference therapy, for the treatment of CVI.<h4>Search methods</h4>For this update the Cochrane Peripheral Vascular Diseases Review Group searched their Specialised Register (last searched June 2012) and CENTRAL (Issue 5, 2012). For the previous versions of the review the authors searched AMED (inception to July 2005) and Phytobase (inception to January 2001) for randomised controlled trials (RCTs) of HCSE for CVI. Manufacturers of HCSE preparations and experts on the subject were contacted for published and unpublished material. There were no restrictions on language.<h4>Selection criteria</h4>RCTs comparing oral HCSE mono-preparations with placebo, or reference therapy, in people with CVI. Trials assessing HCSE as one of several active components in a combination preparation, or as a part of a combination treatment, were excluded.<h4>Data collection and analysis</h4>Both authors independently selected the studies and, using a standard scoring system, assessed methodological quality and extracted data. Disagreements concerning evaluation of individual trials were resolved through discussion.<h4>Main results</h4>Overall, there appeared to be an improvement in CVI related signs and symptoms with HCSE compared with placebo. Leg pain was assessed in seven placebo-controlled trials. Six reported a significant reduction of leg pain in the HCSE groups compared with the placebo groups, while another reported a statistically significant improvement compared with baseline. One trial suggested a weighted mean difference (WMD) of 42.4 mm (95% confidence interval (CI) 34.9 to 49.9) measured on a 100 mm visual analogue scale. Leg volume was assessed in seven placebo-controlled trials. Six trials (n = 502) suggested a WMD of 32.1ml (95% CI 13.49 to 50.72) in favour of HCSE compared with placebo. One trial indicated that HCSE may be as effective as treatment with compression stockings. Adverse events were usually mild and infrequent.<h4>Authors' conclusions</h4>The evidence presented suggests that HCSE is an efficacious and safe short-term treatment for CVI. However, several caveats exist and larger, definitive RCTs are required to confirm the efficacy of this treatment option.",
+        "affiliation": "German Cochrane Centre, Institute of Medical Biometry and Medical Informatics University Medical Center Freiburg and ComplementaryMedicine, Peninsula Medical School, University of Exeter, UK, Freiburg, Germany. max.pittler@pms.ac.uk.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Research Support, Non-U.S. Gov't",
+            "Systematic Review",
+            "systematic-review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Chief Scientist Office",
+              "acronym": "CSO_",
+              "grantId": "CZB/4/788",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Leg",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BS",
+                    "qualifierName": "blood supply"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Aesculus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Seeds"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Venous Insufficiency",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chronic Disease"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/14651858.CD003230.pub4"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7144685"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7144685?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/14651858.cd003230.pub4"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "16437450",
+              "reference": "Cochrane Database Syst Rev. 2006 Jan 25;(1):CD003230. doi: 10.1002/14651858.CD003230.pub3.",
+              "type": "Update of",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 32,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-01-15",
+        "dateOfCreation": "2012-11-16",
+        "dateOfRevision": "2025-06-26",
+        "electronicPublicationDate": "2012-11-14",
+        "firstPublicationDate": "2012-11-14",
+        "firstIndexDate": "2012-11-16",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

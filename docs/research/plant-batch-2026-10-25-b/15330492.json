@@ -1,0 +1,303 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:15330492 AND SRC:MED",
+    "internalQuery": "EXT_ID:15330492 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "15330492",
+        "source": "MED",
+        "pmid": "15330492",
+        "doi": "10.1016/j.phymed.2004.04.001",
+        "title": "Effectiveness and tolerability of a standardized extract from Hibiscus sabdariffa in patients with mild to moderate hypertension: a controlled and randomized clinical trial.",
+        "authorString": "Herrera-Arellano A, Flores-Romero S, Ch\u00e1vez-Soto MA, Tortoriello J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Herrera-Arellano A",
+              "lastName": "Herrera-Arellano",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centro de Investigaci\u00f3n Biom\u00e9dica del Sur, Instituto Mexicano del Seguro Social, Argentina 1 Xochitepec, 62790 Morelos, Mexico. armandoha_mx@yahoo.com.mx"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Flores-Romero S",
+              "lastName": "Flores-Romero",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Ch\u00e1vez-Soto MA",
+              "lastName": "Ch\u00e1vez-Soto",
+              "firstName": "M A",
+              "initials": "MA"
+            },
+            {
+              "fullName": "Tortoriello J",
+              "lastName": "Tortoriello",
+              "firstName": "J",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1597-7645"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1597-7645"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "11",
+          "journalIssueId": 1174095,
+          "dateOfPublication": "2004 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Phytomedicine",
+            "title": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+            "essn": "1618-095X",
+            "issn": "0944-7113",
+            "nlmid": "9438794",
+            "isoabbreviation": "Phytomedicine"
+          },
+          "printPublicationDate": "2004-07-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "375-382",
+        "abstractText": "In order to compare the antihypertensive effectiveness and tolerability of a standardized extract from Hibiscus sabdariffa with captopril, a controlled and randomized clinical trial was done. Patients from 30 to 80 years old with diagnosed hypertension and without antihypertensive treatment for at least 1 month before were included. The experimental procedure consisted of the administration of an infusion prepared with 10 g of dry calyx from H. sabdariffa on 0.51 water (9.6 mg anthocyanins content), daily before breakfast, or captopril 25 mg twice a day, for 4 weeks. The outcome variables were tolerability, therapeutic effectiveness (diastolic reduction > or = 10 mm Hg) and, in the experimental group, urinary electrolytes modification. Ninety subjects were included, 15 withdrew from the study due to non-medical reasons; so, the analysis included 39 and 36 patients from the experimental and control group, respectively. The results showed that H. sabdariffa was able to decrease the systolic blood pressure (BP) from 139.05 to 123.73mm Hg (ANOVA p < 0.03) and the diastolic BP from 90.81 to 79.52mm Hg (ANOVA p < 0.06). At the end of the study, there were no significant differences between the BP detected in both treatment groups (ANOVA p > 0.25). The rates of therapeutic effectiveness were 0.7895 and 0.8438 with H. sabdariffa and captopril, respectively (chi2, p > 0.560), whilst the tolerability was 100% for both treatments. A natriuretic effect was observed with the experimental treatment. The obtained data confirm that the H. sabdariffa extract, standardized on 9.6mg of total anthocyanins, and captopril 50 mg/day, did not show significant differences relative to hypotensive effect, antihypertensive effectiveness, and tolerability.",
+        "affiliation": "Centro de Investigaci\u00f3n Biom\u00e9dica del Sur, Instituto Mexicano del Seguro Social, Argentina 1 Xochitepec, 62790 Morelos, Mexico. armandoha_mx@yahoo.com.mx",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hibiscus"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypertension",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Captopril",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antihypertensive Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytotherapy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Administration Schedule"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Severity of Illness Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Pressure",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antihypertensive Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Captopril",
+              "registryNumber": "9G64RSX1XD"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.phymed.2004.04.001"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 122,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-09-16",
+        "dateOfCreation": "2004-08-28",
+        "dateOfRevision": "2013-11-21",
+        "firstPublicationDate": "2004-07-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

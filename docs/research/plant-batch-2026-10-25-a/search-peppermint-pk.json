@@ -1,0 +1,1536 @@
+{
+  "version": "6.9",
+  "hitCount": 18,
+  "nextCursorMark": "AoIIP6TfkCg0NDUyNzQxNA==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22peppermint%22+AND+TITLE_ABS%3A%22pharmacokinetics%22&cursorMark=AoIIP6TfkCg0NDUyNzQxNA%3D%3D&resultType=core&pageSize=5&format=json",
+  "request": {
+    "queryString": "TITLE_ABS:\"peppermint\" AND TITLE_ABS:\"pharmacokinetics\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 5,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40390282",
+        "source": "MED",
+        "pmid": "40390282",
+        "doi": "10.1002/bcp.70097",
+        "title": "Randomized trial: Peppermint oil (menthol) pharmacokinetics in children and effects on gut motility in children with functional abdominal pain: 540\u2009mg vs. 900\u2009mg dose comparison.",
+        "authorString": "Shulman RJ, Chumpitazi BP, Gonzalez D, Garg U, Musaad S, Wen J, Kearns GL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shulman RJ",
+              "lastName": "Shulman",
+              "firstName": "Robert J",
+              "initials": "RJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2385-0991"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, United States."
+                  },
+                  {
+                    "affiliation": "Children's Nutrition Research Center, Houston, TX, United States."
+                  },
+                  {
+                    "affiliation": "Texas Children's Hospital, Houston, TX, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chumpitazi BP",
+              "lastName": "Chumpitazi",
+              "firstName": "Bruno P",
+              "initials": "BP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Duke University School of Medicine, Durham, NC, United States."
+                  },
+                  {
+                    "affiliation": "Duke Clinical Research Institute, Durham, NC, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gonzalez D",
+              "lastName": "Gonzalez",
+              "firstName": "Daniel",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Duke Clinical Research Institute, Durham, NC, United States."
+                  },
+                  {
+                    "affiliation": "Division of Clinical Pharmacology, Department of Medicine, Duke University School of Medicine, Durham, NC, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Garg U",
+              "lastName": "Garg",
+              "firstName": "Uttam",
+              "initials": "U",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departments of Pathology and Laboratory Medicine, Children's Mercy Hospital, University of Missouri School of Medicine, Kansas City, MO, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Musaad S",
+              "lastName": "Musaad",
+              "firstName": "Salma",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1733-830X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, United States."
+                  },
+                  {
+                    "affiliation": "Children's Nutrition Research Center, Houston, TX, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wen J",
+              "lastName": "Wen",
+              "firstName": "Jiali",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pharmacotherapy and Experimental Therapeutics, UNC Eshelman School of Pharmacy, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kearns GL",
+              "lastName": "Kearns",
+              "firstName": "Gregory L",
+              "initials": "GL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Burnett School of Medicine at Texas Christian University, Fort Worth, TX, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1733-830X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2385-0991"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "91",
+          "journalIssueId": 4002822,
+          "dateOfPublication": "2025 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Br J Clin Pharmacol",
+            "title": "British journal of clinical pharmacology",
+            "essn": "1365-2125",
+            "issn": "0306-5251",
+            "isoabbreviation": "Br J Clin Pharmacol",
+            "nlmid": "7503323"
+          },
+          "printPublicationDate": "2025-09-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "2711-2724",
+        "abstractText": "<h4>Aims</h4>There is a paucity of information on the pharmacokinetics (PK) and pharmacodynamics (PD) of menthol, the active ingredient in peppermint oil (PMO). We studied the PK of menthol (540 and 900\u2009mg) in children and measured their effects on gut transit/contractility.<h4>Methods</h4>Children 7-12\u2009years of age with functional abdominal pain underwent wireless motility capsule (WMC) testing. One week later, they were randomized to 540\u2009mg or 900\u2009mg of oral enteric-coated PMO. Blood was sampled over 24\u2009h to determine menthol PK. The WMC test was repeated while they took their respective dose (180\u2009mg thrice or 180\u2009mg five times daily) for a week.<h4>Results</h4>Twenty-five children received 540\u2009mg, and 15 received 900\u2009mg (mean age 10.4\u2009\u00b1\u20091.1\u00a0years, 60% female). Peak plasma concentrations (C<sub>max</sub>) were observed at approximately 2.5\u00a0h post-dose. There was no evident dose effect for the apparent elimination rate constant, time of peak plasma concentration (T<sub>max</sub>), C<sub>max</sub>, total plasma clearance, nor the apparent volume of distribution. Mean area under the plasma concentration vs. time curve (AUC) for the 900\u2009mg PMO dose cohort was approximately 1.5-fold higher compared with the 540\u2009mg dose; the difference disappeared correcting for dose. Colonic and whole bowel transit time were significantly positively correlated with menthol AUC. The 900\u2009mg (vs. 540\u2009mg) dose decreased colonic (P\u2009=\u20090.002) and whole gut (P\u2009=\u20090.02) contraction frequency.<h4>Conclusions</h4>The PK of menthol derived from PMO demonstrates apparent dose-proportionality, and gut transit and contractility are associated with the systemic concentration of menthol.",
+        "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, United States.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIH HHS",
+              "acronym": "NH",
+              "grantId": "AT009101",
+              "orderIn": 0
+            },
+            {
+              "agency": "USDA/ARS under Cooperative Agreement No. 58-3092-0-001, Agricultural Research Service",
+              "grantId": "3092-51000-062-01S",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agricultural Research Service",
+              "grantId": "3092\u201051000\u2010062\u201001S",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Center for Complementary and Integrative Health",
+              "grantId": "AT009101",
+              "orderIn": 0
+            },
+            {
+              "agency": "Texas Medical Center Digestive Disease Center",
+              "grantId": "P30DK56338",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mentha piperita"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Abdominal Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Menthol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Oils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gastrointestinal Transit",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Gastrointestinal Motility",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Menthol",
+            "contractility",
+            "motility",
+            "Abdominal Pain",
+            "Peppermint Oil"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Oils",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Menthol",
+              "registryNumber": "1490-04-6"
+            },
+            {
+              "name": "peppermint oil",
+              "registryNumber": "AV092KU4JH"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/bcp.70097"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-08-27",
+        "dateOfCreation": "2025-05-20",
+        "dateOfRevision": "2025-09-12",
+        "electronicPublicationDate": "2025-05-19",
+        "firstPublicationDate": "2025-05-19",
+        "firstIndexDate": "2025-05-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36377401",
+        "source": "MED",
+        "pmid": "36377401",
+        "doi": "10.1111/bcp.15556",
+        "title": "Correction to 'Randomised trial: Peppermint oil (menthol) pharmacokinetics in children and effects on gut motility in children with functional abdominal pain'.",
+        "journalInfo": {
+          "issue": "12",
+          "volume": "88",
+          "journalIssueId": 3457631,
+          "dateOfPublication": "2022 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Br J Clin Pharmacol",
+            "title": "British journal of clinical pharmacology",
+            "essn": "1365-2125",
+            "issn": "0306-5251",
+            "isoabbreviation": "Br J Clin Pharmacol",
+            "nlmid": "7503323"
+          },
+          "printPublicationDate": "2022-12-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "5436",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Published Erratum"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/bcp.15556"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "34528282",
+              "reference": "Br J Clin Pharmacol. 2022 Mar;88(3):1321-1333. doi: 10.1111/bcp.15076",
+              "type": "Erratum for",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2022-11-15",
+        "dateOfRevision": "2022-11-15",
+        "firstPublicationDate": "2022-12-01",
+        "firstIndexDate": "2022-11-15",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "40598715",
+        "source": "MED",
+        "pmid": "40598715",
+        "pmcid": "PMC12291100",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12291100"
+          ]
+        },
+        "doi": "10.1111/add.70114",
+        "title": "Examining the role of freebase nicotine in the harm reduction potential of oral nicotine pouches versus moist snuff: A randomized crossover trial.",
+        "authorString": "Keller-Hamilton B, Curran H, Atkinson L, Suraapaneni S, Hinton A, Chrzan K, Mays D, El-Hellani A, Wilson CW, Brinkman MC, Wagener TL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Keller-Hamilton B",
+              "lastName": "Keller-Hamilton",
+              "firstName": "Brittney",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8574-7263"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Medical Oncology, Department of Internal Medicine, College of Medicine, The Ohio State University Wexner Medical Center, Columbus, OH, USA."
+                  },
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Curran H",
+              "lastName": "Curran",
+              "firstName": "Hayley",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Atkinson L",
+              "lastName": "Atkinson",
+              "firstName": "Leanne",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  },
+                  {
+                    "affiliation": "Division of Epidemiology, College of Public Health, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Suraapaneni S",
+              "lastName": "Suraapaneni",
+              "firstName": "Sriya",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hinton A",
+              "lastName": "Hinton",
+              "firstName": "Alice",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chrzan K",
+              "lastName": "Chrzan",
+              "firstName": "Kirsten",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Epidemiology, College of Public Health, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mays D",
+              "lastName": "Mays",
+              "firstName": "Darren",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Medical Oncology, Department of Internal Medicine, College of Medicine, The Ohio State University Wexner Medical Center, Columbus, OH, USA."
+                  },
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "El-Hellani A",
+              "lastName": "El-Hellani",
+              "firstName": "Ahmad",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  },
+                  {
+                    "affiliation": "Division of Environmental Health Sciences, College of Public Health, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wilson CW",
+              "lastName": "Wilson",
+              "firstName": "Clark W",
+              "initials": "CW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  },
+                  {
+                    "affiliation": "Division of Epidemiology, College of Public Health, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Brinkman MC",
+              "lastName": "Brinkman",
+              "firstName": "Marielle C",
+              "initials": "MC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  },
+                  {
+                    "affiliation": "Division of Epidemiology, College of Public Health, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wagener TL",
+              "lastName": "Wagener",
+              "firstName": "Theodore L",
+              "initials": "TL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4028-0081"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Medical Oncology, Department of Internal Medicine, College of Medicine, The Ohio State University Wexner Medical Center, Columbus, OH, USA."
+                  },
+                  {
+                    "affiliation": "Center for Tobacco Research, The Ohio State University Comprehensive Cancer Center, The Ohio State University, Columbus, OH, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4028-0081"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8574-7263"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "journalIssueId": 3968404,
+          "dateOfPublication": "2025 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Addiction",
+            "title": "Addiction (Abingdon, England)",
+            "essn": "1360-0443",
+            "issn": "0965-2140",
+            "isoabbreviation": "Addiction",
+            "nlmid": "9304118"
+          },
+          "printPublicationDate": "2025-07-01"
+        },
+        "pubYear": "2025",
+        "abstractText": "<h4>Background and aims</h4>Oral nicotine pouches (ONPs) contain varying proportions of freebase nicotine (FBN), with higher FBN expected to increase nicotine delivery across the oral mucosa. Because ONPs contain fewer toxicants than moist snuff and may serve as a reduced harm alternative for smokeless tobacco, we compared how the FBN in ONPs affects both nicotine pharmacokinetics and craving relief relative to moist snuff.<h4>Design</h4>Three-visit (90-minute sessions; \u226548-hour washout), single-blind, randomized crossover study. Participants were asked to complete all visits within 1\u2009month.<h4>Setting</h4>Clinical facility in Columbus, Ohio, USA.<h4>Participants</h4>N\u2009=\u200962 moist snuff users (M<sub>age</sub>\u2009=\u200941\u2009years, 96.8% male, 91.9% white, 33.9% had tried ONPs before), recruited through social media advertisements and participants' word-of-mouth from rural and Appalachian Ohio.<h4>Intervention</h4>Following \u226512\u2009hours of nicotine abstinence, participants used either a (1) low FBN peppermint ONP (27.4% FBN; 5.1\u00a0mg nicotine/pouch; Rogue brand), (2) high FBN peppermint ONP (70.2% FBN; 5.0\u00a0mg nicotine/pouch; Zyn brand) or (3) 2\u00a0g of usual brand moist snuff for 30\u2009minutes. Participants completed the three study visits in one of six randomized orders.<h4>Measurements</h4>Plasma nicotine and self-reported craving were assessed at t\u2009=\u2009baseline, 5, 15, 30, 60 and 90\u2009minutes. Plasma nicotine and craving relief at t\u2009=\u200930\u00a0minutes were primary and secondary outcomes, respectively.<h4>Findings</h4>At t\u2009=\u200930\u00a0minutes, mean [standard deviation (SD)] plasma nicotine concentrations were 7.1 (2.8) ng/mL for low FBN ONP, 14.8 (6.4) ng/mL for high FBN ONP and 12.3 (8.4) ng/mL for moist snuff (all comparison Ps\u00a0\u2264\u20090.001). Craving was lower for moist snuff (mean\u2009=\u20090.8) than either ONP (means\u2009=\u20091.4), with the low FBN ONP providing statistically significantly less craving relief than moist snuff (P\u2009<\u20090.001).<h4>Conclusions</h4>The proportion of freebase nicotine in oral nicotine pouches appears to statistically significantly influence their nicotine delivery, with higher freebase nicotine oral nicotine pouches delivering more nicotine than usual brand moist snuff. However, craving appears to be higher when using oral nicotine pouches than usual brand moist snuff.",
+        "affiliation": "Division of Medical Oncology, Department of Internal Medicine, College of Medicine, The Ohio State University Wexner Medical Center, Columbus, OH, USA.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDA NIH HHS",
+              "acronym": "DA",
+              "grantId": "K01 DA055696",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01 CA289551",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "U54 CA287392",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDA NIH HHS",
+              "acronym": "DA",
+              "grantId": "K01DA055696",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "P30CA016058",
+              "orderIn": 0
+            },
+            {
+              "agency": "The Ohio State University Comprehensive Cancer Center - The James",
+              "grantId": "N/A",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01CA289551",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "P30 CA016058",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "U54CA287392",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Nicotine",
+            "Rural",
+            "Health Disparities",
+            "Smokeless Tobacco",
+            "Abuse Liability",
+            "Oral Nicotine Pouches"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/add.70114"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12291100"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12291100?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS2095903",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2025-07-02",
+        "dateOfRevision": "2025-07-29",
+        "electronicPublicationDate": "2025-07-01",
+        "firstPublicationDate": "2025-07-01",
+        "firstIndexDate": "2025-07-03",
+        "fullTextReceivedDate": "2025-11-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38627930",
+        "source": "MED",
+        "pmid": "38627930",
+        "doi": "10.1002/bab.2583",
+        "title": "In vitro antibacterial activity of antibiotics and plant essential oils against Escherichia coli MTCC443 supported through the molecular docking and pharmacokinetics study.",
+        "authorString": "Jain S, Shukla AK, Panwar S, Kumar R, Kumar A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Jain S",
+              "lastName": "Jain",
+              "firstName": "Saurabh",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology, M.G. Institute of Management and Technology, Lucknow, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shukla AK",
+              "lastName": "Shukla",
+              "firstName": "Adarsh Kumar",
+              "initials": "AK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9983-669X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition Biology, Central University of Haryana, Mahendragarh, Haryana, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Panwar S",
+              "lastName": "Panwar",
+              "firstName": "Surbhi",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition Biology, Central University of Haryana, Mahendragarh, Haryana, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kumar R",
+              "lastName": "Kumar",
+              "firstName": "Rajesh",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology Engineering, University Institute of Engineering and Technology, Kurukshetra University, Kurukshetra, Haryana, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kumar A",
+              "lastName": "Kumar",
+              "firstName": "Ashwani",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8692-5204"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition Biology, Central University of Haryana, Mahendragarh, Haryana, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8692-5204"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9983-669X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1169-3650"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-7700-0557"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "71",
+          "journalIssueId": 3811390,
+          "dateOfPublication": "2024 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Biotechnol Appl Biochem",
+            "title": "Biotechnology and applied biochemistry",
+            "essn": "1470-8744",
+            "issn": "0885-4513",
+            "isoabbreviation": "Biotechnol Appl Biochem",
+            "nlmid": "8609465"
+          },
+          "printPublicationDate": "2024-08-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "868-880",
+        "abstractText": "Most of the Escherichia coli turned into serious pathogens or developed antibiotic resistance, mainly due to their ability to show different phenotypic traits. In order to overcome the resistance to these antibiotics, the use of essential oils (EOs) is of great significance against highly pathogenic microorganisms. This study has been made to compare the in vitro antibacterial activity and further validated the same through the molecular docking study of 13 antibiotics such as ciprofloxacin, chloramphenicol, erythromycin, ampicillin, cefotaxime, rifampicin, kanamycin, vancomycin, streptomycin, penicillin, nalidixic acid, trimethoprim, and polymyxin, and 10 EOs such as garlic, tulsi, neem, clove, thyme, peppermint, coriander, tea, lavender, and eucalyptus against the target protein (DNA gyrase) of E. coli MTCC443. E. coli Microbial Type Culture Collection 443 was found to be highly sensitive to ciprofloxacin (zone of inhibition [ZOI], 2.5\u00a0cm \u00b10.1) and chloramphenicol (ZOI, 1.8\u00a0cm \u00b10.1), whereas garlic oil (ZOI, 5.5\u00a0cm \u00b10.1) and coriander oil (ZOI, 4.4\u00a0cm \u00b10.1) were found comparatively most effective. Further, the in silico investigation observed the same; ciprofloxacin (binding affinity: -7.2\u00a0kcal/mol) and chloramphenicol (binding affinity: -6.6\u00a0kcal/mol). Penicillin (binding affinity: -4.2\u00a0kcal/mol) and polymyxin (binding affinity: -0.3\u00a0kcal/mol) were found to be least effective against the tested microbe, whereas vancomycin (binding affinity: +0.8\u00a0kcal/mol) had no effect on it. Garlic (binding affinity: -7.8\u00a0kcal/mol), coriander (binding affinity: -6.8\u00a0kcal/mol), peppermint (binding affinity: -6.2\u00a0kcal/mol), and neem (binding affinity: -6.2\u00a0kcal/mol) oil exhibited the potent antibacterial activity against E. coli MTCC443, whereas thyme (binding affinity: -6.1\u00a0kcal/mol), tea tree (binding affinity: -4.9\u00a0kcal/mol), and tulsi (binding affinity: -3.8\u00a0kcal/mol) oil were observed moderately effective. Eucalyptus (binding affinity: -2.9\u00a0kcal/mol) and lavender (binding affinity: -2.8\u00a0kcal/mol) oil were found to be the least effective among all the oils tested. The pharmacokinetics and networking were performed to the pharmacology of the potential compounds.",
+        "affiliation": "Department of Biotechnology, M.G. Institute of Management and Technology, Lucknow, Uttar Pradesh, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Escherichia coli",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Gyrase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Oils, Volatile",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Oils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Anti-Bacterial Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Microbial Sensitivity Tests"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Essential oils",
+            "Antibiotics",
+            "Antimicrobial activity",
+            "Molecular docking",
+            "Escherichia Coli Mtcc443"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Bacterial Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oils, Volatile",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Oils",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA Gyrase",
+              "registryNumber": "EC 5.99.1.3"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/bab.2583"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-08-07",
+        "dateOfCreation": "2024-04-17",
+        "dateOfRevision": "2024-08-07",
+        "electronicPublicationDate": "2024-04-16",
+        "firstPublicationDate": "2024-04-16",
+        "firstIndexDate": "2024-04-17",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "34528282",
+        "source": "MED",
+        "pmid": "34528282",
+        "pmcid": "PMC8863319",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8863319"
+          ]
+        },
+        "doi": "10.1111/bcp.15076",
+        "title": "Randomised trial: Peppermint oil (menthol) pharmacokinetics in children and effects on gut motility in children with functional abdominal pain.",
+        "authorString": "Shulman RJ, Chumpitazi BP, Abdel-Rahman SM, Garg U, Musaad S, Kearns GL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shulman RJ",
+              "lastName": "Shulman",
+              "firstName": "Robert J",
+              "initials": "RJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2385-0991"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Children's Nutrition Research Center, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Texas Children's Hospital, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chumpitazi BP",
+              "lastName": "Chumpitazi",
+              "firstName": "Bruno P",
+              "initials": "BP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Children's Nutrition Research Center, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Texas Children's Hospital, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abdel-Rahman SM",
+              "lastName": "Abdel-Rahman",
+              "firstName": "Susan M",
+              "initials": "SM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Missouri School of Medicine, Kansas City, MO, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Garg U",
+              "lastName": "Garg",
+              "firstName": "Uttam",
+              "initials": "U",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departments of Pathology and Laboratory Medicine, Children's Mercy Hospital; University of Missouri School of Medicine, Kansas City, MO, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Musaad S",
+              "lastName": "Musaad",
+              "firstName": "Salma",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1733-830X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Children's Nutrition Research Center, Baylor College of Medicine, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kearns GL",
+              "lastName": "Kearns",
+              "firstName": "Gregory L",
+              "initials": "GL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Texas Christian University and University of North Texas Health Science Center School of Medicine, Fort Worth, TX, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1733-830X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2385-0991"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "88",
+          "journalIssueId": 3314150,
+          "dateOfPublication": "2022 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Br J Clin Pharmacol",
+            "title": "British journal of clinical pharmacology",
+            "essn": "1365-2125",
+            "issn": "0306-5251",
+            "isoabbreviation": "Br J Clin Pharmacol",
+            "nlmid": "7503323"
+          },
+          "printPublicationDate": "2022-03-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "1321-1333",
+        "abstractText": "<h4>Aims</h4>Little is known regarding the pharmacokinetics and pharmacodynamics of menthol, the active ingredient in peppermint oil (PMO). Our aim was to investigate the pharmacokinetics of menthol at 3 dose levels in children and determine their effects on gut motility and transit.<h4>Methods</h4>Thirty children ages 7-12\u2009years with functional abdominal pain underwent wireless motility capsule (WMC) testing. Approximately 1 week later they were randomized to 180, 360 or 540\u2009mg of enteric coated PMO (10 participants per dose). Menthol pharmacokinetics were determined via blood sampling over 24\u2009hours. They then took their respective dose of PMO (180\u2009mg once, 180\u2009mg twice or 180\u2009mg thrice daily) for 1 week during which time the WMC test was repeated.<h4>Results</h4>Evaluable area under the plasma concentration vs. time curve (AUC<sub>last</sub> ) data were available in 29 of 30 participants. A direct linear relationship (apparent dose-proportionality for systemic menthol exposure) was observed between PMO dose and menthol systemic exposure with mean elimination half-life 2.1, 3.5 and 4.6\u00a0hours for the 180, 360 and 540\u2009mg doses, respectively. WMC technical issues precluded complete motility data in all participants. Colonic transit time was inversely related to AUC<sub>last</sub> (P\u2009=\u00a0.003); transit time in other regions was not affected. In contrast, stomach, small bowel and whole gut (but not colonic) contractility positively correlated with menthol AUC<sub>last</sub> (P\u2009<\u00a0.05).<h4>Conclusion</h4>Pharmacokinetics and pharmacodynamics of menthol derived from PMO demonstrated apparent dose-proportionality. A higher dose of PMO may be needed to achieve maximal gut response. www.clinicaltrials.gov NCT03295747.",
+        "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "P30 DK056338",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "P30 DK56338",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "58\u20103092\u20100\u2010001",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCCIH NIH HHS",
+              "acronym": "AT",
+              "grantId": "R33 AT009101",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "AT009101",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIEHS NIH HHS",
+              "acronym": "ES",
+              "grantId": "P30 ES030285",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCCIH NIH HHS",
+              "acronym": "AT",
+              "grantId": "R21 AT009101",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestine, Small"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mentha piperita"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Abdominal Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Menthol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Oils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Menthol",
+            "contractility",
+            "motility",
+            "Abdominal Pain",
+            "Peppermint Oil"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Oils",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Menthol",
+              "registryNumber": "1490-04-6"
+            },
+            {
+              "name": "peppermint oil",
+              "registryNumber": "AV092KU4JH"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/bcp.15076"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/bcp.15076"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8863319"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8863319?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/bcp.15076"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "36377401",
+              "reference": "Br J Clin Pharmacol. 2022 Dec;88(12):5436. doi: 10.1111/bcp.15556",
+              "type": "Erratum in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1777119",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2022-04-26",
+        "dateOfCreation": "2021-09-16",
+        "dateOfRevision": "2023-03-02",
+        "electronicPublicationDate": "2021-10-19",
+        "firstPublicationDate": "2021-10-19",
+        "firstIndexDate": "2021-09-17",
+        "fullTextReceivedDate": "2025-02-02",
+        "embargoDate": "2023-03-01",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

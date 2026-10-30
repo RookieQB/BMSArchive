@@ -1,0 +1,1784 @@
+{
+  "version": "6.9",
+  "hitCount": 12,
+  "nextCursorMark": "AoIIP4u7pigzODg2NDEwNg==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22psyllium%22+AND+TITLE_ABS%3A%22meta-analysis%22+AND+TITLE_ABS%3A%22lipid%22&cursorMark=AoIIP4u7pigzODg2NDEwNg%3D%3D&resultType=core&pageSize=5&format=json",
+  "request": {
+    "queryString": "TITLE_ABS:\"psyllium\" AND TITLE_ABS:\"meta-analysis\" AND TITLE_ABS:\"lipid\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 5,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41366295",
+        "source": "MED",
+        "pmid": "41366295",
+        "pmcid": "PMC12690803",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12690803"
+          ]
+        },
+        "doi": "10.1186/s12263-025-00786-5",
+        "title": "Psyllium supplementation and lipid profiles: systematic review and dose-response meta-analysis of randomized controlled trials.",
+        "authorString": "Gholami Z, Paknahad Z.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gholami Z",
+              "lastName": "Gholami",
+              "firstName": "Zeinab",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Nutrition and Food Science, Students' Research Committee, Isfahan University of Medical Sciences, Isfahan, Islamic Republic of Iran."
+                  },
+                  {
+                    "affiliation": "Department of Clinical Nutrition, School of Nutrition and Food Science, Isfahan University of Medical Sciences, Isfahan, Islamic Republic of Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Paknahad Z",
+              "lastName": "Paknahad",
+              "firstName": "Zamzam",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Nutrition, Faculty of Nutrition and Food Science, Isfahan University of Medical Sciences, Isfahan, Islamic Republic of Iran. paknahad@hlth.mui.ac.ir."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "20",
+          "journalIssueId": 4060402,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Genes Nutr",
+            "title": "Genes & nutrition",
+            "essn": "1865-3499",
+            "issn": "1555-8932",
+            "isoabbreviation": "Genes Nutr",
+            "nlmid": "101280108"
+          },
+          "printPublicationDate": "2025-12-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "27",
+        "abstractText": "<h4>Background</h4>Some studies indicate that psyllium supplementation may change lipid profile levels. This study assessed the impact of psyllium consumption on lipid profile (Low-Density Lipoprotein Cholesterol, Triglyceride, High-Density Lipoprotein Cholesterol, and cholesterol).<h4>Main text</h4>We started searching articles using Scopus, Institute for Scientific Information Web of Science, and PubMed to identify eligible publications from March 15, 2022 to August 2, 2025. The effect of psyllium on lipid profiles in adults was evaluated through Randomized Controlled Trials. We calculated Weighted Mean Differences with 95% Confidence Intervals using a random effects model. In this study, 41 Randomized Controlled Trials articles and 2049 participants were included. Psyllium showed a significant decrease in Low-Density Lipoprotein Cholesterol and total Cholesterol, a nonsignificant reduction in Triglyceride, and an insignificantly increase in High-Density Lipoprotein Cholesterol; cholesterol: (Weighted Mean Differences: -9.05; 95% Confidence Intervals: -13.71, -4.40; p-value\u2009<\u20090.05), High-Density Lipoprotein Cholesterol: (Weighted Mean Differences: 0.57; 95% Confidence Intervals: -0.88, 2.04; p-value\u2009>\u20090.05), Triglyceride: (Weighted Mean Differences: -5.29; 95% Confidence Intervals: -12.14, 1.54; p-value\u2009>\u20090.05), and Low-Density Lipoprotein Cholesterol: (Weighted Mean Differences: -8.55; 95% Confidence Intervals: -12.92, -4.19; p\u2009<\u20090.001). Considerable heterogeneity was found for cholesterol: (I-squared index\u2009=\u200989.30%, p-value\u2009<\u20090.001), High-Density Lipoprotein Cholesterol: ( I-squared index\u2009=\u200977.96%, p-value\u2009<\u20090.001), Low-Density Lipoprotein Cholesterol: (I-squared index\u2009=\u200988.46%, p-value\u2009<\u20090.001); and Triglyceride: (I-squared index\u2009=\u200983.25%, p-value\u2009<\u20090.001) and duration and dosage of psyllium had a nonsignificant linear influence on lipid profiles.<h4>Conclusion</h4>Results showed that psyllium can significantly decrease Low-Density Lipoprotein Cholesterol and total cholesterol, can insignificantly decrease triglyceride, and can insignificantly increase High-Density Lipoprotein Cholesterol following psyllium consumption.<h4>Registration</h4>The study was approved by the Medical Ethics Committee of Isfahan University of Medical Sciences (IR.MUI.<h4>Research</h4>REC.1402.017, Grant number: 140206). This research was registered in the PROSPERO system (CRD42023402987).<h4>Clinical trial number</h4>Not applicable.",
+        "affiliation": "School of Nutrition and Food Science, Students' Research Committee, Isfahan University of Medical Sciences, Isfahan, Islamic Republic of Iran.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Isfahan University of Medical Sciences",
+              "grantId": "140206",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cholesterol",
+            "Lipid profile",
+            "Low-density Lipoprotein Cholesterol",
+            "High-density Lipoprotein Cholesterol",
+            "Psyllium, And Triglyceride"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s12263-025-00786-5"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12690803"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12690803?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-12-09",
+        "dateOfCreation": "2025-12-09",
+        "dateOfRevision": "2025-12-12",
+        "electronicPublicationDate": "2025-12-09",
+        "firstPublicationDate": "2025-12-09",
+        "firstIndexDate": "2025-12-10",
+        "fullTextReceivedDate": "2025-12-22",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38688104",
+        "source": "MED",
+        "pmid": "38688104",
+        "doi": "10.1016/j.nutres.2024.03.013",
+        "title": "Plantago consumption significantly reduces total cholesterol and low-density lipoprotein cholesterol in adults: A systematic review and meta-analysis.",
+        "authorString": "Zhu R, Lei Y, Wang S, Zhang J, Mengjiao Lv, Jiang R, Zhou J, Li T, Guo L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhu R",
+              "lastName": "Zhu",
+              "firstName": "Ruiting",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rehabilitation, School of Nursing, Jilin University, Changchun, Jilin, China, 130021."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lei Y",
+              "lastName": "Lei",
+              "firstName": "Yangyang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rehabilitation, School of Nursing, Jilin University, Changchun, Jilin, China, 130021."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang S",
+              "lastName": "Wang",
+              "firstName": "Saikun",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rehabilitation, School of Nursing, Jilin University, Changchun, Jilin, China, 130021."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang J",
+              "lastName": "Zhang",
+              "firstName": "Jingyi",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Animal Sciences, Jilin University, Changchun, Jilin, China, 130062."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mengjiao Lv",
+              "lastName": "Mengjiao Lv",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rehabilitation, School of Nursing, Jilin University, Changchun, Jilin, China, 130021."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang R",
+              "lastName": "Jiang",
+              "firstName": "Ruixue",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rehabilitation, School of Nursing, Jilin University, Changchun, Jilin, China, 130021."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou J",
+              "lastName": "Zhou",
+              "firstName": "Jinjian",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rehabilitation, School of Nursing, Jilin University, Changchun, Jilin, China, 130021."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li T",
+              "lastName": "Li",
+              "firstName": "Tianshu",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China, 130021."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo L",
+              "lastName": "Guo",
+              "firstName": "Lirong",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4956-4953"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rehabilitation, School of Nursing, Jilin University, Changchun, Jilin, China, 130021. Electronic address: guolr@jlu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4956-4953"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "126",
+          "journalIssueId": 3786466,
+          "dateOfPublication": "2024 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Nutr Res",
+            "title": "Nutrition research (New York, N.Y.)",
+            "essn": "1879-0739",
+            "issn": "0271-5317",
+            "isoabbreviation": "Nutr Res",
+            "nlmid": "8303331"
+          },
+          "printPublicationDate": "2024-06-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "123-137",
+        "abstractText": "Plantago is rich in soluble fiber, known for its beneficial health effects. Given this, we hypothesized that Plantago consumption might positively influence blood lipid in adults. Researchers have conducted numerous randomized controlled trials (RCTs), revealing the impacts of Plantago consumption on various blood lipid parameters. However, findings regarding specific blood lipid parameters have shown variability. This study aimed to comprehensively assess the effect of Plantago consumption on blood lipid parameters. Eligible studies evaluating the effects of Plantago consumption on blood lipid were searched in 5 electronic databases published up to August 2023. Analysis used a random effects model to determine weighted mean difference and 95% confidence intervals. In total, 29 RCTs including 2769 participants were included. Compared with the control group, Plantago consumption significantly reduced total cholesterol (TC) by 0.28 mmol/L and low-density lipoprotein cholesterol (LDL-C) by 0.35 mmol/L, correlating to an estimated 7% decrease in cardiovascular event risk. Conversely, no substantial effects were observed on high-density lipoprotein cholesterol or triglycerides. Subgroup analyses of 29 RCTs revealed that TC concentrations were significantly lowered in studies that included male participants, those who were healthy, or had lipid disorders. Additionally, TC and LDL-C were significantly lower in participants consuming Plantago husk or psyllium, and soluble fiber intake was specifically effective in lowering TC, LDL-C, and triglycerides. In conclusion, Plantago consumption can significantly lower TC and LDL-C concentrations. The findings will provide crucial insights into the potential of Plantago in dietary strategies for blood lipid management.",
+        "affiliation": "Department of Rehabilitation, School of Nursing, Jilin University, Changchun, Jilin, China, 130021.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Research Support, Non-U.S. Gov't",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plantago"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cholesterol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Triglycerides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Fiber",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cholesterol, LDL",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol, HDL",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Plantago",
+            "Blood Lipid",
+            "Meta-analysis",
+            "Total cholesterol",
+            "Low-density Lipoprotein Cholesterol"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Triglycerides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol, LDL",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol, HDL",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol",
+              "registryNumber": "97C5T2UQ7J"
+            },
+            {
+              "name": "Dietary Fiber",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.nutres.2024.03.013"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-06-14",
+        "dateOfCreation": "2024-04-30",
+        "dateOfRevision": "2026-05-21",
+        "electronicPublicationDate": "2024-04-03",
+        "firstPublicationDate": "2024-04-03",
+        "firstIndexDate": "2024-05-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36811560",
+        "source": "MED",
+        "pmid": "36811560",
+        "doi": "10.1016/j.ajcnut.2022.12.015",
+        "title": "Galactomannans are the most effective soluble dietary fibers in type 2 diabetes: a systematic review and network meta-analysis.",
+        "authorString": "Juh\u00e1sz AE, Greff D, Teutsch B, Gede N, Hegyi P, Horv\u00e1th EM, De\u00e1k P\u00c1, Nyir\u00e1dy P, \u00c1cs N, Juh\u00e1sz R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Juh\u00e1sz AE",
+              "lastName": "Juh\u00e1sz",
+              "firstName": "Anna E",
+              "initials": "AE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Translational Medicine, Semmelweis University, Budapest, Hungary; Department of Dietetics and Nutrition Sciences, Semmelweis University, Budapest, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Greff D",
+              "lastName": "Greff",
+              "firstName": "Dorina",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Translational Medicine, Semmelweis University, Budapest, Hungary; Department of Obstetrics and Gynecology, Semmelweis University, Budapest, Hungary; Department of Physiology, Semmelweis University, Budapest, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Teutsch B",
+              "lastName": "Teutsch",
+              "firstName": "Brigitta",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Translational Medicine, Semmelweis University, Budapest, Hungary; Institute for Translational Medicine, Medical School, University of P\u00e9cs, P\u00e9cs, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gede N",
+              "lastName": "Gede",
+              "firstName": "No\u00e9mi",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute for Translational Medicine, Medical School, University of P\u00e9cs, P\u00e9cs, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hegyi P",
+              "lastName": "Hegyi",
+              "firstName": "P\u00e9ter",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Translational Medicine, Semmelweis University, Budapest, Hungary; Institute for Translational Medicine, Medical School, University of P\u00e9cs, P\u00e9cs, Hungary; Institute of Pancreatic Diseases, Semmelweis University, Budapest, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Horv\u00e1th EM",
+              "lastName": "Horv\u00e1th",
+              "firstName": "Eszter M",
+              "initials": "EM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology, Semmelweis University, Budapest, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "De\u00e1k P\u00c1",
+              "lastName": "De\u00e1k",
+              "firstName": "P\u00e1l \u00c1",
+              "initials": "P\u00c1",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Interventional Radiology, Heart and Vascular Center, Faculty of Medicine, Semmelweis University, Budapest, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nyir\u00e1dy P",
+              "lastName": "Nyir\u00e1dy",
+              "firstName": "P\u00e9ter",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Semmelweis University, Budapest, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "\u00c1cs N",
+              "lastName": "\u00c1cs",
+              "firstName": "N\u00e1ndor",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Obstetrics and Gynecology, Semmelweis University, Budapest, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Juh\u00e1sz R",
+              "lastName": "Juh\u00e1sz",
+              "firstName": "R\u00e9ka",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dietetics and Nutrition Sciences, Semmelweis University, Budapest, Hungary. Electronic address: hermanne.juhasz.reka@semmelweis.hu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6946-045X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2708-370X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "117",
+          "journalIssueId": 3515391,
+          "dateOfPublication": "2023 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Am J Clin Nutr",
+            "title": "The American journal of clinical nutrition",
+            "essn": "1938-3207",
+            "issn": "0002-9165",
+            "isoabbreviation": "Am J Clin Nutr",
+            "nlmid": "0376027"
+          },
+          "printPublicationDate": "2023-02-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "266-277",
+        "abstractText": "<h4>Background</h4>Soluble dietary fibers are known to reduce the levels of blood glucose and lipids in patients with type 2 diabetes mellitus (type 2 diabetes). Although several different dietary fiber supplements are utilized, to our knowledge, no previous study has ranked their efficacy yet.<h4>Objectives</h4>We performed this systematic review and network meta-analysis to rank the effects of different types of soluble dietary fibers.<h4>Methods</h4>We performed our last systematic search on November 20, 2022. Eligible randomized controlled trials (RCTs) included adult patients with type 2 diabetes and compared the intake of soluble dietary fibers with that of another type of dietary fiber or no fiber. The outcomes were related to glycemic and lipid levels. The Bayesian method was used to perform a network meta-analysis and calculate the surface under the cumulative ranking (SUCRA) curve values to rank the interventions. The Grading of Recommendations Assessment, Development, and Evaluation system was applied to evaluate the overall quality of the evidence.<h4>Results</h4>We identified 46 RCTs, including data from 2685 patients who received 16 types of dietary fibers as intervention. Galactomannans had the highest effect on reducing the levels of HbA1c (SUCRA: 92.33%) and fasting blood glucose (SUCRA: 85.92%). With regard to fasting insulin level, HOMA-IR, \u03b2-glucans (SUCRA: 73.45%), and psyllium (SUCRA: 96.67%) were the most effective interventions. Galactomannans were ranked first in reducing the levels of triglycerides (SUCRA: 82.77%) and LDL cholesterol (SUCRA: 86.56%). With regard to cholesterol and HDL cholesterol levels, xylo-oligosaccharides (SUCRA: 84.59%) and gum arabic (SUCRA: 89.06%) were the most effective fibers. Most comparisons had a low or moderate certainty of evidence.<h4>Conclusions</h4>Galactomannans were the most effective dietary fiber for reducing the levels of HbA1c, fasting blood glucose, triglycerides, and LDL cholesterol in patients with type 2 diabetes. This study was registered at PROSPERO as ID CRD42021282984.",
+        "affiliation": "Center for Translational Medicine, Semmelweis University, Budapest, Hungary; Department of Dietetics and Nutrition Sciences, Semmelweis University, Budapest, Hungary.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Systematic Review",
+            "Network Meta-Analysis",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Diabetes Mellitus, Type 2"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Galactose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Blood Glucose"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mannans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Triglycerides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Fiber"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol, LDL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycated Hemoglobin"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Galactomannan",
+            "Xylo-oligosaccharides",
+            "dietary fiber",
+            "\u03b2-glucan",
+            "resistant starch",
+            "inulin",
+            "Ranking",
+            "Lipid Levels",
+            "Glycemic Factors"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "galactomannan",
+              "registryNumber": "11078-30-1"
+            },
+            {
+              "name": "Triglycerides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Blood Glucose",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Mannans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol, LDL",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Galactose",
+              "registryNumber": "X2RN3Q8DNE"
+            },
+            {
+              "name": "Dietary Fiber",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glycated Hemoglobin",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.ajcnut.2022.12.015"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.ajcnut.2022.12.015"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.ajcnut.2022.12.015"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.ajcnut.2022.12.015"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ajcnut.2022.12.015"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "37793744",
+              "reference": "Am J Clin Nutr. 2023 Oct;118(4):834-836. doi: 10.1016/j.ajcnut.2023.06.021.",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 30,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-03-06",
+        "dateOfCreation": "2023-02-22",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2022-12-30",
+        "firstPublicationDate": "2022-12-30",
+        "firstIndexDate": "2023-02-23",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31919936",
+        "source": "MED",
+        "pmid": "31919936",
+        "doi": "10.1002/ptr.6609",
+        "title": "The effect of psyllium consumption on weight, body mass index, lipid profile, and glucose metabolism in diabetic patients: A systematic review and dose-response meta-analysis of randomized controlled trials.",
+        "authorString": "Xiao Z, Chen H, Zhang Y, Deng H, Wang K, Bhagavathula AS, Almuhairi SJ, Ryan PM, Rahmani J, Dang M, Kontogiannis V, Vick A, Wei Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Xiao Z",
+              "lastName": "Xiao",
+              "firstName": "Zhifang",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Endocrinology, Affiliated Nanhua Hospital, University of South China, Hengyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen H",
+              "lastName": "Chen",
+              "firstName": "Hui",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical Group Office, Northern Jiangsu People's Hospital, Yangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yu",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Endocrinology, Xinchang People's Hospital, Xinchang County, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Deng H",
+              "lastName": "Deng",
+              "firstName": "Hui",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Prehospital Aid Station, Danyang People's Hospital, Danyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang K",
+              "lastName": "Wang",
+              "firstName": "KunWei",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Endocrinology, Tianyou Hospital Affiliated to Tongji University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bhagavathula AS",
+              "lastName": "Bhagavathula",
+              "firstName": "Akshaya Srikanth",
+              "initials": "AS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0581-7808"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, College of Medicine and Health Sciences, UAE University, Al Ain, UAE."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Almuhairi SJ",
+              "lastName": "Almuhairi",
+              "firstName": "Shamma Jauaan",
+              "initials": "SJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Family Medicine Department, Tawam Hospital, Al Ain, Abu Dhabi, UAE."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ryan PM",
+              "lastName": "Ryan",
+              "firstName": "Paul M",
+              "initials": "PM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7251-6725"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Medicine, University College Cork, Cork, Ireland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rahmani J",
+              "lastName": "Rahmani",
+              "firstName": "Jamal",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7121-7838"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Community Nutrition, Student Research Committee, Faculty of Nutrition and Food Technology, National Nutrition and Food Technology Research Institute, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dang M",
+              "lastName": "Dang",
+              "firstName": "Minyan",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4931-8776"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Regenerative Biology, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, Guangdong, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kontogiannis V",
+              "lastName": "Kontogiannis",
+              "firstName": "Vasileios",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9823-992X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Health & Society, Newcastle University, Newcastle upon Tyne, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vick A",
+              "lastName": "Vick",
+              "firstName": "Andrew",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nursing and Public Health, Capella University, Minneapolis, Minnesota."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wei Y",
+              "lastName": "Wei",
+              "firstName": "Yuhe",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5645-9935"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Endocrinology, Affiliated Wujin Hospital, Jiangsu University, Changzhou, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5645-9935"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7121-7838"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7251-6725"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0581-7808"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9823-992X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4931-8776"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "34",
+          "journalIssueId": 2965723,
+          "dateOfPublication": "2020 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Phytother Res",
+            "title": "Phytotherapy research : PTR",
+            "essn": "1099-1573",
+            "issn": "0951-418X",
+            "isoabbreviation": "Phytother Res",
+            "nlmid": "8904486"
+          },
+          "printPublicationDate": "2020-06-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "1237-1247",
+        "abstractText": "Water-soluble dietary fibers have been shown to improve lipid profile and glucose metabolism in diabetes. The aim of this study was to review the effects of psyllium consumption on weight, body mass index, lipid profiles, and glucose metabolism in diabetic patients in randomized controlled trials. A comprehensive systematic search was performed in PubMed/MEDLINE, Web of Sciences, Cochrane, and Scopus by two independent researchers up to August 2019 without any time and language restrictions. The DerSimonian and Laird random-effects model method performed to calculate the pooled results. Inclusion criteria were randomized controlled trial design, adult subjects, and studies reporting the mean differences with the 95% confidence interval for outcome. Eight studies containing nine arms with 395 participants were identified and included in final analysis. Combined results found a significant reduction in triglycerides, low-density lipoprotein, fasting blood sugar, and hemoglobin A1c following psyllium consumption (weighted mean differences [WMD]: -19.18\u2009mg/dl, 95% CI [-31.76, -6.60], I<sup>2</sup> =\u200998%), (WMD: -8.96\u2009mg/dl, 95% CI [-13.39, -4.52], I<sup>2</sup> =\u200997%), (WMD: -31.71\u2009ml/dl, 95% CI [-50.04, -13.38], I<sup>2</sup> =\u200997%), and (WMD: -0.91%, 95% CI [-1.31, -0.51], I<sup>2</sup> =\u200999%), respectively. There was no significant change in high-density lipoprotein, body mass index, cholesterol, and weight. In conclusion, the results demonstrated a significant reduction in triglycerides, low-density lipoprotein, fasting blood sugar, and hemoglobin A1c by psyllium intervention among diabetic patients.",
+        "affiliation": "Department of Endocrinology, Affiliated Nanhua Hospital, University of South China, Hengyang, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Mellitus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Weight",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psyllium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Body Mass Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Body weight",
+            "Cholesterol",
+            "Triglyceride",
+            "Psyllium",
+            "fasting blood sugar"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Lipids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Blood Glucose",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Psyllium",
+              "registryNumber": "8063-16-9"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ptr.6609"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 25,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-07-31",
+        "dateOfCreation": "2020-01-11",
+        "dateOfRevision": "2020-07-31",
+        "electronicPublicationDate": "2020-01-09",
+        "firstPublicationDate": "2020-01-09",
+        "firstIndexDate": "2020-01-17",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30239559",
+        "source": "MED",
+        "pmid": "30239559",
+        "doi": "10.1093/ajcn/nqy115",
+        "title": "Effect of psyllium (Plantago ovata) fiber on LDL cholesterol and alternative lipid targets, non-HDL cholesterol and apolipoprotein B: a systematic review and meta-analysis of randomized controlled trials.",
+        "authorString": "Jovanovski E, Yashpal S, Komishon A, Zurbau A, Blanco Mejia S, Ho HVT, Li D, Sievenpiper J, Duvnjak L, Vuksan V.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Jovanovski E",
+              "lastName": "Jovanovski",
+              "firstName": "Elena",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yashpal S",
+              "lastName": "Yashpal",
+              "firstName": "Shahen",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0514-1502"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Komishon A",
+              "lastName": "Komishon",
+              "firstName": "Allison",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zurbau A",
+              "lastName": "Zurbau",
+              "firstName": "Andreea",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blanco Mejia S",
+              "lastName": "Blanco Mejia",
+              "firstName": "Sonia",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Toronto 3D Knowledge Synthesis and Clinical Trials Unit."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ho HVT",
+              "lastName": "Ho",
+              "firstName": "Hoang Vi Thanh",
+              "initials": "HVT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li D",
+              "lastName": "Li",
+              "firstName": "Dandan",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sievenpiper J",
+              "lastName": "Sievenpiper",
+              "firstName": "John",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Toronto 3D Knowledge Synthesis and Clinical Trials Unit."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duvnjak L",
+              "lastName": "Duvnjak",
+              "firstName": "Lea",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinic for Diabetes, Endocrinology, and Metabolic Diseases Vuk Vrhovac, University Hospital Merkur, School of Medicine, University of Zagreb, Zagreb, Croatia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vuksan V",
+              "lastName": "Vuksan",
+              "firstName": "Vladimir",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Li Ka Shing Knowledge Institute, St. Michael's Hospital, Toronto, Ontario, Canada."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  },
+                  {
+                    "affiliation": "Medicine, University of Toronto, Toronto, Ontario, Canada."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0514-1502"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "108",
+          "journalIssueId": 2753236,
+          "dateOfPublication": "2018 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Am J Clin Nutr",
+            "title": "The American journal of clinical nutrition",
+            "essn": "1938-3207",
+            "issn": "0002-9165",
+            "isoabbreviation": "Am J Clin Nutr",
+            "nlmid": "0376027"
+          },
+          "printPublicationDate": "2018-11-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "922-932",
+        "abstractText": "<h4>Background</h4>Studies have identified viscous dietary fiber as potentially attenuating cholesterol, including psyllium, which reduces LDL cholesterol and thus may complement cardiovascular disease (CVD) treatment.<h4>Objectives</h4>The aims of this study were to update evidence on the effect of psyllium on LDL cholesterol and to provide an assessment of its impact on alternate markers: non-HDL cholesterol and apolipoprotein B (apoB).<h4>Design</h4>Medline, EMBASE, CINAHL, and the Cochrane Central Register of Controlled Trials were searched through 3 October 2017. Independent reviewers extracted relevant data and assessed risk of bias. We included randomized controlled trials with a duration of \u22653 wk that assessed the effect of psyllium on blood lipids in individuals with or without hypercholesterolemia. Data were pooled by using the generic inverse variance method with random-effects models and expressed as mean differences (MDs) with 95% CIs. Heterogeneity was assessed by Cochran's Q statistic and quantified by the I2 statistic. Overall quality of the evidence was assessed by using the GRADE (Grading of Recommendations Assessment, Development, and Evaluation) approach.<h4>Results</h4>We included 28 trials in our analysis (n\u00a0=\u00a01924). Supplementation of a median dose of \u223c10.2 g psyllium significantly reduced LDL cholesterol (MD\u00a0=\u00a0-0.33 mmol/L; 95% CI: -0.38, -0.27 mmol/L; P\u00a0<\u00a00.00001), non-HDL cholesterol (MD\u00a0=\u00a0-0.39 mmol/L; 95% CI: -0.50, -0.27 mmol/L; P\u00a0<\u00a00.00001), and apoB (MD\u00a0=\u00a0-0.05 g/L; 95% CI: -0.08, -0.03 g/L; P\u00a0<\u00a00.0001). Effect estimates for LDL cholesterol and non-HDL cholesterol were graded as moderate quality on the basis of downgrades for inconsistency and graded as high quality for apoB.<h4>Conclusion</h4>Psyllium fiber effectively improves conventional and alternative lipids markers, potentially delaying the process of atherosclerosis-associated CVD risk in those with or without hypercholesterolemia. This trial is registered at www.clinicaltrials.gov as NCT03346733.",
+        "affiliation": "Clinical Nutrition and Risk Factor Modification Center.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plantago",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypercholesterolemia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apolipoproteins B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psyllium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Fiber",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol, LDL",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol, HDL",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Psyllium",
+              "registryNumber": "8063-16-9"
+            },
+            {
+              "name": "Apolipoproteins B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol, LDL",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol, HDL",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol",
+              "registryNumber": "97C5T2UQ7J"
+            },
+            {
+              "name": "Dietary Fiber",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://academic.oup.com/ajcn/article-pdf/108/5/922/28887084/nqy115.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/ajcn/nqy115"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 48,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2019-09-09",
+        "dateOfCreation": "2018-09-22",
+        "dateOfRevision": "2023-02-14",
+        "firstPublicationDate": "2018-11-01",
+        "firstIndexDate": "2018-09-21",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

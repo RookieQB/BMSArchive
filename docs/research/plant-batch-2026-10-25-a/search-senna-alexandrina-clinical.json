@@ -1,0 +1,2392 @@
+{
+  "query": "TITLE_ABS:\"Senna alexandrina\" AND (clinical trial OR randomized OR systematic review)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 15,
+    "nextCursorMark": "AoIIP/To1Sg1MDY5MzI0MQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Senna+alexandrina%22+AND+%28clinical+trial+OR+randomized+OR+systematic+review%29&cursorMark=AoIIP%2FTo1Sg1MDY5MzI0MQ%3D%3D&resultType=core&pageSize=8&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"Senna alexandrina\" AND (clinical trial OR randomized OR systematic review)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42816182",
+          "source": "MED",
+          "pmid": "42816182",
+          "pmcid": "PMC13626968",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13626968"
+            ]
+          },
+          "doi": "10.1002/cbdv.71789",
+          "title": "Traditional Uses, Phytochemistry, and Multi-Target Pharmacological Activities of Senna alexandrina.",
+          "authorString": "Rella DA, Hew KL, Choo YM.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Rella DA",
+                "lastName": "Rella",
+                "firstName": "Diana Afrina",
+                "initials": "DA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0004-8135-9863"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, University of Malaya, Kuala Lumpur, Malaysia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hew KL",
+                "lastName": "Hew",
+                "firstName": "Khai-Lin",
+                "initials": "KL",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0000-4395-7644"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, University of Malaya, Kuala Lumpur, Malaysia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Choo YM",
+                "lastName": "Choo",
+                "firstName": "Yeun-Mun",
+                "initials": "YM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9891-5898"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, University of Malaya, Kuala Lumpur, Malaysia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9891-5898"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0000-4395-7644"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0004-8135-9863"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "10",
+            "volume": "23",
+            "journalIssueId": 4274053,
+            "dateOfPublication": "2026 Oct",
+            "monthOfPublication": 10,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Chem Biodivers",
+              "title": "Chemistry & biodiversity",
+              "essn": "1612-1880",
+              "issn": "1612-1872",
+              "nlmid": "101197449",
+              "isoabbreviation": "Chem Biodivers"
+            },
+            "printPublicationDate": "2026-10-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "e71789",
+          "abstractText": "Senna alexandrina has been widely used in traditional medicine for gastrointestinal, dermatological, metabolic, and musculoskeletal disorders. Despite extensive ethnobotanical knowledge, a comprehensive integration of its chemical constituents with pharmacological evidence remains limited. This review aimed to synthesize the traditional uses, pharmacological activities, and chemical constituents of S. alexandrina, highlighting the alignment between ethnobotanical applications and experimental evidence. Literature on ethnomedicinal usage, in vitro and in vivo pharmacological studies, and chemical characterization of S. alexandrina was systematically reviewed. A total of 219 chemical structures were compiled, along with the reported bioactivities and traditional applications. Extracts of leaves, pods, and aerial parts exhibit dose-dependent laxative, anticancer, anti-inflammatory, hepatoprotective, antioxidant, antimicrobial, antiviral, and metabolic regulatory activities. Anthraquinones, flavonoids, polysaccharides, and other secondary metabolites underpin these effects. The integration of 219 chemical structures, pharmacological data and traditional uses is rare and provides a unique resource for future mechanistic studies and drug discovery. The alignment between traditional usage and experimental pharmacology is promising, though the available evidence remains largely preclinical and extract based. Future research should isolate and characterize specific bioactive compounds to enable precise dosing, elucidate mechanisms, and advance clinical translation.",
+          "affiliation": "Department of Chemistry, University of Malaya, Kuala Lumpur, Malaysia.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Ministry of Higher Education",
+                "grantId": "IF070-2020",
+                "orderIn": 0
+              },
+              {
+                "agency": "Science and Technology Research Partnership for Sustainable Development",
+                "orderIn": 0
+              },
+              {
+                "agency": "Japan International Cooperation Agency",
+                "orderIn": 0
+              },
+              {
+                "agency": "Japan Agency for Medical Research and Development",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Senna Plant",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Anti-Inflammatory Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antioxidants",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Anti-Infective Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Medicine, Traditional"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Phytochemicals",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Anticancer",
+              "Fabaceae",
+              "ethnopharmacology",
+              "Phytochemicals",
+              "Laxative",
+              "Senna Alexandrina",
+              "Anti\u2010inflammatory"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Anti-Infective Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Anti-Inflammatory Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antioxidants",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Phytochemicals",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1002/cbdv.71789"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13626968"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13626968?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-09-30",
+          "dateOfCreation": "2026-09-30",
+          "dateOfRevision": "2026-10-03",
+          "firstPublicationDate": "2026-10-01",
+          "firstIndexDate": "2026-10-01",
+          "fullTextReceivedDate": "2026-10-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42504494",
+          "source": "MED",
+          "pmid": "42504494",
+          "pmcid": "PMC13402979",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13402979"
+            ]
+          },
+          "doi": "10.1002/mnfr.70531",
+          "title": "Intermittent Fasting Amplifies Gut-Endocrine Axis Responses to Senna alexandrina Supplementation in Obese Rats.",
+          "authorString": "Fulyani F, Widayanti IS, Bestari SA, Batubara L, Ariani RRMD, Roosevelt D H C, Fikri MI, Chandrawira G, Kusuma RJ.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Fulyani F",
+                "lastName": "Fulyani",
+                "firstName": "Faizah",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Biology and Biochemistry, Faculty of Medicine, Diponegoro University, Semarang, Indonesia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Widayanti IS",
+                "lastName": "Widayanti",
+                "firstName": "Iftitan Setya",
+                "initials": "IS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Nutrition Science, Faculty of Medicine, Diponegoro University, Semarang, Indonesia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bestari SA",
+                "lastName": "Bestari",
+                "firstName": "Salwa Alifa",
+                "initials": "SA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Nutrition Science Study Program, Faculty of Health Sciences, Universitas Muhammadiyah Surakarta, Surakarta, Indonesia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Batubara L",
+                "lastName": "Batubara",
+                "firstName": "Lusiana",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Biology and Biochemistry, Faculty of Medicine, Diponegoro University, Semarang, Indonesia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ariani RRMD",
+                "lastName": "Ariani",
+                "firstName": "R R Mahayu Dewi",
+                "initials": "RRMD",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Biology and Biochemistry, Faculty of Medicine, Diponegoro University, Semarang, Indonesia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Roosevelt D H C",
+                "lastName": "Roosevelt D H",
+                "firstName": "Charlie",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Medical Study Program, Faculty of Medicine, Diponegoro University, Semarang, Indonesia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fikri MI",
+                "lastName": "Fikri",
+                "firstName": "Muhammad Ichsanul",
+                "initials": "MI",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Medical Study Program, Faculty of Medicine, Diponegoro University, Semarang, Indonesia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chandrawira G",
+                "lastName": "Chandrawira",
+                "firstName": "Galen",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Medical Study Program, Faculty of Medicine, Diponegoro University, Semarang, Indonesia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kusuma RJ",
+                "lastName": "Kusuma",
+                "firstName": "Rio Jati",
+                "initials": "RJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Nutrition and Health, Faculty of Medicine, Public Health, and Nursing, Universitas Gadjah Mada, Yogyakarta, Indonesia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "14",
+            "volume": "70",
+            "journalIssueId": 4230723,
+            "dateOfPublication": "2026 Jul",
+            "monthOfPublication": 7,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Mol Nutr Food Res",
+              "title": "Molecular nutrition & food research",
+              "essn": "1613-4133",
+              "issn": "1613-4125",
+              "nlmid": "101231818",
+              "isoabbreviation": "Mol Nutr Food Res"
+            },
+            "printPublicationDate": "2026-07-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "e70531",
+          "abstractText": "Obesity induced by high\u2011fat, high\u2011sucrose diets (HFSD) remains a major global health challenge, disrupting lipid metabolism, glucose homeostasis, and gut microbial balance. These disturbances underscore the need for safe interventions capable of restoring metabolic regulation. Senna alexandrina (SA), traditionally used for weight reduction, has recently been shown to modulate the gut microbiota beyond its laxative effects. To enhance efficacy while minimizing adverse outcomes, this study investigated the effects of a low and safe dose of SA combined with intermittent fasting (IF), a strategy that reshapes nutrient availability and microbial dynamics. HFSD\u2011induced obese rats were treated for four weeks with SA leaf powder (300\u00a0mg/kg/day), IF, or both. Bioactive constituents of SA were characterized using LC\u2011HRMS, alongside systematic evaluation of physiological and metabolic parameters-including adiposity, morphometry, lipid profiles, insulin sensitivity markers, and gut-endocrine axis indicators. SA supplementation showed improvements across all parameters, surpassing those achieved with IF alone. Importantly, the combined intervention (SA+IF) yielded complementary benefits, notably enhancing GLUT4 expression, short\u2011chain fatty acid (SCFA) production, peptide YY (PYY) secretion, and reducing the Firmicutes/Bacteroidetes ratio. These findings highlight the complementary roles of SA and IF in metabolic regulation, providing experimental evidence for a potential dietary approach to mitigate obesity\u2011related dysfunction.",
+          "affiliation": "Department of Medical Biology and Biochemistry, Faculty of Medicine, Diponegoro University, Semarang, Indonesia.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Grant for Research, Development, and Application (RPP), Faculty of Medicine, Diponegoro University",
+                "grantId": "22/UN7.F4/PP/III/2024",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rats"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rats, Sprague-Dawley"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Insulin Resistance"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Obesity",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DH",
+                      "qualifierName": "diet therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Peptide YY",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Fatty Acids, Volatile",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Dietary Supplements"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Glucose Transporter Type 4",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Diet, High-Fat",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AE",
+                      "qualifierName": "adverse effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Gastrointestinal Microbiome",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Intermittent Fasting"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Obesity",
+              "Insulin sensitivity",
+              "Gut Microbiota",
+              "Intermittent Fasting",
+              "Senna Alexandrina"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Fatty Acids, Volatile",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Peptide YY",
+                "registryNumber": "106388-42-5"
+              },
+              {
+                "name": "Glucose Transporter Type 4",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Slc2a4 protein, rat",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1002/mnfr.70531"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13402979"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13402979?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1002/mnfr.70531"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-27",
+          "dateOfCreation": "2026-07-27",
+          "dateOfRevision": "2026-08-13",
+          "firstPublicationDate": "2026-07-01",
+          "firstIndexDate": "2026-07-30",
+          "fullTextReceivedDate": "2026-09-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41114050",
+          "source": "MED",
+          "pmid": "41114050",
+          "pmcid": "PMC12531855",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12531855"
+            ]
+          },
+          "doi": "10.3389/ebm.2025.10725",
+          "title": "Deciphering the microbiological mechanism of Tongxie Yaofang in treating IBS-D: a multimodal mechanistic study in mice integrating network pharmacology, computational simulation, and 16S rRNA sequencing.",
+          "authorString": "Yu D, Tian Q, Shen J, Fang L, Tan Z, Cai Y.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Yu D",
+                "lastName": "Yu",
+                "firstName": "Donglin",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tian Q",
+                "lastName": "Tian",
+                "firstName": "Qianghong",
+                "initials": "Q",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0008-7420-3050"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shen J",
+                "lastName": "Shen",
+                "firstName": "Junxi",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fang L",
+                "lastName": "Fang",
+                "firstName": "Leyao",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tan Z",
+                "lastName": "Tan",
+                "firstName": "Zhoujin",
+                "initials": "Z",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3193-073X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cai Y",
+                "lastName": "Cai",
+                "firstName": "Ying",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha, China."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3193-073X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0008-7420-3050"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "250",
+            "journalIssueId": 3901874,
+            "dateOfPublication": "2025 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Exp Biol Med (Maywood)",
+              "title": "Experimental biology and medicine (Maywood, N.J.)",
+              "essn": "1535-3699",
+              "issn": "1535-3702",
+              "nlmid": "100973463",
+              "isoabbreviation": "Exp Biol Med (Maywood)"
+            },
+            "printPublicationDate": "2025-01-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "10725",
+          "abstractText": "Irritable bowel syndrome with diarrhea (IBS-D), associated with the traditional Chinese medicine (TCM) pattern of liver hyperactivity with spleen deficiency pattern, lacks effective Western treatments. The modern biological relevance of the \"intestine-liver-bile acid\" axis aligns with this TCM concept, and interactions between intestinal microbiota and diarrhea remain unclear. Network pharmacology, molecular docking, and molecular dynamics were applied to elucidate the mechanisms and compound-target stability of Tongxie Yaofang. An IBS-D mouse model was established using <i>Senna alexandrina</i> Mill. combined with confinement stress. Histopathological changes in the liver and spleen were assessed by hematoxylin-eosin (HE) staining, and enzyme-linked immunosorbent assay (ELISA) was performed to quantify total bile acid levels in serum and liver. Ultimately, 16S rRNA high-throughput sequencing was employed to identify predominant and distinctive bacterial species. Network pharmacology and molecular docking revealed that Tongxie Yaofang acts primarily through the TNF-\u03b1 and IL-17 pathways. Molecular dynamics confirmed strong binding affinities between active compounds (naringenin, divaricatol, and kaempferol) and target proteins. <i>In vivo</i>, Tongxie Yaofang alleviated colonic inflammation, increased serum bile acid levels, reduced hepatic bile acid concentrations, and increased intestinal microbial diversity and abundance. The therapeutic effects of Tongxie Yaofang on IBS-D are mechanistically linked to its multi-target actions, including suppression of inflammatory responses, inhibition of pathogenic bacterial overgrowth, restoration of immune homeostasis, and modulation of intestinal microbiota composition toward a probiotic-enriched community.",
+          "affiliation": "School of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha, China.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Liver",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Irritable Bowel Syndrome",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MI",
+                      "qualifierName": "microbiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Disease Models, Animal"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Diarrhea",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MI",
+                      "qualifierName": "microbiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Bile Acids and Salts"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "RNA, Ribosomal, 16S",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Drugs, Chinese Herbal",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Molecular Dynamics Simulation"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Molecular Docking Simulation"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Gastrointestinal Microbiome",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Network Pharmacology"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Molecular dynamics",
+              "Intestinal Microbiota",
+              "Network Pharmacology",
+              "Ibs-d",
+              "Tongxie Yaofang"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Bile Acids and Salts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "RNA, Ribosomal, 16S",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Drugs, Chinese Herbal",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3389/ebm.2025.10725"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12531855"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12531855?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-10-20",
+          "dateOfCreation": "2025-10-20",
+          "dateOfRevision": "2025-10-22",
+          "electronicPublicationDate": "2025-10-03",
+          "firstPublicationDate": "2025-10-03",
+          "firstIndexDate": "2025-10-20",
+          "fullTextReceivedDate": "2025-12-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "37234348",
+          "source": "MED",
+          "pmid": "37234348",
+          "pmcid": "PMC10205756",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10205756"
+            ]
+          },
+          "doi": "10.1016/j.jsps.2023.04.015",
+          "title": "Biosynthesis of silver nanoparticles (Ag-NPs) using <i>Senna alexandrina</i> grown in Saudi Arabia and their bioactivity against multidrug-resistant pathogens and cancer cells.",
+          "authorString": "Alharbi NS, Khaled JM, Alanazi K, Kadaikunnan S, Alobaidi AS.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Alharbi NS",
+                "lastName": "Alharbi",
+                "firstName": "Naiyf S",
+                "initials": "NS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5820-9649"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany and Microbiology, College of Science, King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Khaled JM",
+                "lastName": "Khaled",
+                "firstName": "Jamal M",
+                "initials": "JM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany and Microbiology, College of Science, King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alanazi K",
+                "lastName": "Alanazi",
+                "firstName": "Khaled",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany and Microbiology, College of Science, King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kadaikunnan S",
+                "lastName": "Kadaikunnan",
+                "firstName": "Shine",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany and Microbiology, College of Science, King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alobaidi AS",
+                "lastName": "Alobaidi",
+                "firstName": "Ahmed S",
+                "initials": "AS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany and Microbiology, College of Science, King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5820-9649"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "31",
+            "journalIssueId": 3571449,
+            "dateOfPublication": "2023 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Saudi Pharm J",
+              "title": "Saudi pharmaceutical journal : SPJ : the official publication of the Saudi Pharmaceutical Society",
+              "essn": "2213-7475",
+              "issn": "1319-0164",
+              "nlmid": "9705695",
+              "isoabbreviation": "Saudi Pharm J"
+            },
+            "printPublicationDate": "2023-06-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "911-920",
+          "abstractText": "There is no doubt that the risk of drug-resistant pathogens and cancer diseases is on the rise. So, the goal of this study was to find out how effective silver nanoparticles (Ag-NPs) made by <i>Senna alexandrina</i> are at fighting these threats.\u00a0In this work, <i>S. alexandrina</i> collected from Medina, Saudi Arabia was used and the biosynthesis method was applied to produce the Ag-NPs. The characterization of Ag-NPs was done using different analytical techniques, including UV spectroscopy, FT-IR, TEM, and XRD analysis. The MIC, MBC, and MTT protocols were applied to confirm the bioactivity of the Ag-NPs as antibacterial and anticancer bioagents. The findings reported indicating that the aqueous extract of <i>S. alexandrina</i> leaves, grown naturally in Saudi Arabia, is ideal for the production of bioactive Ag-NPs. The hydroxyl, aliphatic, alkene, N-H bend of primary amines, C-H bonds, and C-O bonds of alcohol were detected in this product. The small, sphere-shaped particles (4-7\u00a0nm) were the most prevalent among the bioactive Ag-NPs produced in this work. These nanoparticles inhibited some important multidrug-resistant pathogens (MDRPs) (<i>Escherichia coli</i>, <i>Acinetobacter baumanii/haemolyticus</i>, <i>Staphylococcus epidermidis</i>, and Methicillin-resistant <i>Staphylococcus aureus</i> (MRSA)), as well as their ability to inhibit breast cancer cells (MCF-7 cells). The MIC of Ag-NPs ranged from 0.03 to 0.6\u00a0mg/mL, while their MBC ranged from 0.06 to 2.5\u00a0mg/mL.\u00a0Anticancer activity test showed that IC<sub>50</sub> of the Ag-NPs against tested breast cancer cells was 61.9\u00a0\u00b1\u00a03.8\u00a0\u00b5g/mL. According to the current results, biosynthesis using <i>S. alexandrina</i> leaves grown naturally in Saudi Arabia was an ideal technique for producing bioactive Ag-NPs that could be used to combat a variety of MDRPs and cancer diseases.",
+          "affiliation": "Department of Botany and Microbiology, College of Science, King Saud University, P.O. Box 2455, Riyadh 11451, Saudi Arabia.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "King Saud University",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Antibacterial activities",
+              "Anticancer Potential",
+              "Silver Nanoparticles (Ag-nps)",
+              "Multidrug-Resistant Pathogens (Mdrps)",
+              "S. Alexandrina"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.jsps.2023.04.015"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10205756"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10205756?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 10,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2023-05-26",
+          "dateOfRevision": "2023-05-28",
+          "electronicPublicationDate": "2023-04-20",
+          "firstPublicationDate": "2023-04-20",
+          "firstIndexDate": "2023-05-26",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "36644449",
+          "source": "MED",
+          "pmid": "36644449",
+          "pmcid": "PMC9830937",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9830937"
+            ]
+          },
+          "doi": "10.1016/j.hermed.2023.100626",
+          "title": "Senna: As immunity boosting herb against Covid-19 and several other diseases.",
+          "authorString": "Ikram A, Khalid W, Saeed F, Arshad MS, Afzaal M, Arshad MU.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Ikram A",
+                "lastName": "Ikram",
+                "firstName": "Ali",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2893-4249"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Food Science, Government College University, Faisalabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Khalid W",
+                "lastName": "Khalid",
+                "firstName": "Waseem",
+                "initials": "W",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8975-5984"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Food Science, Government College University, Faisalabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Saeed F",
+                "lastName": "Saeed",
+                "firstName": "Farhan",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5340-4015"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Food Science, Government College University, Faisalabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Arshad MS",
+                "lastName": "Arshad",
+                "firstName": "Muhammad Sajid",
+                "initials": "MS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Food Science, Government College University, Faisalabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Afzaal M",
+                "lastName": "Afzaal",
+                "firstName": "Muhammad",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Food Science, Government College University, Faisalabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Arshad MU",
+                "lastName": "Arshad",
+                "firstName": "Muhammad Umair",
+                "initials": "MU",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Food Science, Government College University, Faisalabad, Pakistan."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5340-4015"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8975-5984"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9564-886X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2893-4249"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1032-6250"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "37",
+            "journalIssueId": 3490281,
+            "dateOfPublication": "2023 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "J Herb Med",
+              "title": "Journal of herbal medicine",
+              "essn": "2210-8041",
+              "issn": "2210-8033",
+              "nlmid": "101562235",
+              "isoabbreviation": "J Herb Med"
+            },
+            "printPublicationDate": "2023-02-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "100626",
+          "abstractText": "<h4>Introduction</h4>A novel coronavirus outbreak in China (SARS-CoV-2) which began in December 2019, was proven major threat to global health. However, several results from clinical practices indicate that herbal medicine plays an important role in the prevention of COVID-19, which brings new hope for its treatment. The objective of this study is to check the effectivity of senna (<i>Senna alexandrina Mill</i>.) as an immunity-boosting herb against Covid-19 and several other diseases.<h4>Method</h4>The literature search was carried out using scientific databases comprising of Scopus, Science Direct, PubMed, Cochrane Library, Science Hub and Google Scholar, up to May 2020, using the following keywords: \"senna\", \"senna makki\", \"<i>Senna alexandrina\"</i>, \"senna nutrition value\", \"senna medicinal effect\", \"vitamins in senna\", \"mineral in senna\", \"bioactive compounds in senna\", \"laxiary components in senna\", \"senna against diseases\", \"senna enhance immunity\", \"covid_19\u2033, \"covid_19 symptoms\". The authors also obtained data from primary and secondary sources as well.<h4>Result</h4>The results of different studies showed that senna was composed of a wide range of immunity-enhancing bioactive components like antioxidants, vitamins, minerals and laxatives. These bioactive components are effective against COVID-19 and other diseases.<h4>Conclusion</h4>Senna has medicinal and nutritional effects on the human body and has a key role in boosting immunity to prevent COVID-19 symptoms. Important nutritional components of senna include antioxidants, phytochemicals, vitamins and minerals that aids in reducing the risk of various diseases and also enhances the immune system.",
+          "affiliation": "Department of Food Science, Government College University, Faisalabad, Pakistan.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Higher Education Commision, Pakistan",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Immunity",
+              "Senna",
+              "Pharmacological",
+              "Laxative",
+              "Covid-19"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Unpaywall",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9830937"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.hermed.2023.100626"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9830937"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9830937?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 6,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2023-01-16",
+          "dateOfRevision": "2023-01-17",
+          "electronicPublicationDate": "2023-01-10",
+          "firstPublicationDate": "2023-01-10",
+          "firstIndexDate": "2023-01-24",
+          "fullTextReceivedDate": "2025-02-05",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "37110216",
+          "source": "MED",
+          "pmid": "37110216",
+          "pmcid": "PMC10147022",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10147022"
+            ]
+          },
+          "doi": "10.3390/metabo13040559",
+          "title": "Comparative LC-ESIMS-Based Metabolite Profiling of <i>Senna italica</i> with <i>Senna alexandrina</i> and Evaluating Their Hepatotoxicity.",
+          "authorString": "Zibaee E, Akaberi M, Tayarani-Najaran Z, Nesm\u011br\u00e1k K, \u0160t\u00edcha M, Shahraki N, Javadi B, Emami SA.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Zibaee E",
+                "lastName": "Zibaee",
+                "firstName": "Elaheh",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Traditional Pharmacy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Akaberi M",
+                "lastName": "Akaberi",
+                "firstName": "Maryam",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3971-2377"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tayarani-Najaran Z",
+                "lastName": "Tayarani-Najaran",
+                "firstName": "Zahra",
+                "initials": "Z",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Targeted Drug Delivery Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nesm\u011br\u00e1k K",
+                "lastName": "Nesm\u011br\u00e1k",
+                "firstName": "Karel",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5460-5273"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Analytical Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u0160t\u00edcha M",
+                "lastName": "\u0160t\u00edcha",
+                "firstName": "Martin",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8008-7668"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Mass Spectrometry Laboratory, Section of Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shahraki N",
+                "lastName": "Shahraki",
+                "firstName": "Naghmeh",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Medical Toxicology Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Javadi B",
+                "lastName": "Javadi",
+                "firstName": "Behjat",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Traditional Pharmacy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Emami SA",
+                "lastName": "Emami",
+                "firstName": "Seyed Ahmad",
+                "initials": "SA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Traditional Pharmacy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5460-5273"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8008-7668"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3971-2377"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "4",
+            "volume": "13",
+            "journalIssueId": 3553119,
+            "dateOfPublication": "2023 Apr",
+            "monthOfPublication": 4,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Metabolites",
+              "title": "Metabolites",
+              "essn": "2218-1989",
+              "issn": "2218-1989",
+              "nlmid": "101578790",
+              "isoabbreviation": "Metabolites"
+            },
+            "printPublicationDate": "2023-04-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "559",
+          "abstractText": "<i>Senna</i> Mill. (Fabaceae) is an important medicinal plant distributed worldwide. <i>Senna alexandrina</i> (<i>S. alexandrina</i>), the officinal species of the genus, is one of the most well-known herbal medicines traditionally used to treat constipation and digestive diseases. <i>Senna italica</i> (<i>S. italica</i>), another species of the genus, is native to an area ranging from Africa to the Indian subcontinent, including Iran. In Iran, this plant has been used traditionally as a laxative. However, very little phytochemical information and pharmacological reports investigating its safety of use are available. In the current study, we compared LC-ESIMS metabolite profiles of the methanol extract of <i>S. italica</i> with that of <i>S. alexandrina</i> and measured the content of sennosides A and B as the biomarkers in this genus. By this, we were able to examine the feasibility of using <i>S. italica</i> as a laxative agent like <i>S. alexandrina.</i> In addition, the hepatotoxicity of both species was evaluated against HepG2 cancer cell lines using HPLC-based activity profiling to localize the hepatotoxic components and evaluate their safety of use. Interestingly, the results showed that the phytochemical profiles of the plants were similar but with some differences, particularly in their relative contents. Glycosylated flavonoids, anthraquinones, dianthrones, benzochromenones, and benzophenones constituted the main components in both species. Nevertheless, some differences, particularly in the relative amount of some compounds, were observed. According to the LC-MS results, the amounts of sennoside A in <i>S. alexandrina</i> and <i>S. italica</i> were 1.85 \u00b1 0.095% and 1.00 \u00b1 0.38%, respectively. Moreover, the amounts of sennoside B in <i>S. alexandrina</i> and <i>S. italica</i> were 0.41 \u00b1 0.12 % and 0.32 \u00b1 0.17%, respectively. Furthermore, although both extracts showed significant hepatotoxicity at concentrations of 50 and 100 \u00b5g/mL, they were almost non-toxic at lower concentrations. Taken together, according to the results, the metabolite profiles of <i>S. italica</i> and <i>S. alexandrina</i> showed many compounds in common. However, further phytochemical, pharmacological, and clinical studies are necessary to examine the efficacy and safety of <i>S. italica</i> as a laxative agent.",
+          "affiliation": "Department of Traditional Pharmacy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Mashhad University of Medical Sciences",
+                "grantId": "991724",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Hepatotoxicity",
+              "Sennosides",
+              "LC-MS/MS",
+              "Senna Italica",
+              "Senna Alexandrina",
+              "Lc-esims"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/metabo13040559"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10147022"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10147022?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 8,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2023-04-28",
+          "dateOfRevision": "2023-05-01",
+          "electronicPublicationDate": "2023-04-13",
+          "firstPublicationDate": "2023-04-13",
+          "firstIndexDate": "2023-04-29",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40453667",
+          "source": "MED",
+          "pmid": "40453667",
+          "pmcid": "PMC12122528",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12122528"
+            ]
+          },
+          "doi": "10.3389/fphar.2025.1545619",
+          "title": "Cold- and hot-classified botanical drugs differentially modulate gut microbiota: linking TCM emic classification to microbial ecology.",
+          "authorString": "Yang H, Shao C, Liu Z, Zhang X, Liu Y, Xiao J, Tang L.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Yang H",
+                "lastName": "Yang",
+                "firstName": "Huan",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microecology, College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shao C",
+                "lastName": "Shao",
+                "firstName": "Chenyi",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microecology, College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Liu Z",
+                "lastName": "Liu",
+                "firstName": "Zhihao",
+                "initials": "Z",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microecology, College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang X",
+                "lastName": "Zhang",
+                "firstName": "Xiaoyu",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microecology, College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Liu Y",
+                "lastName": "Liu",
+                "firstName": "Yinhui",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microecology, College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xiao J",
+                "lastName": "Xiao",
+                "firstName": "Jing",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Oral Pathology, College of Stomatology, Dalian Medical University, Dalian, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tang L",
+                "lastName": "Tang",
+                "firstName": "Li",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microecology, College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "16",
+            "journalIssueId": 3893159,
+            "dateOfPublication": "2025 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Front Pharmacol",
+              "title": "Frontiers in pharmacology",
+              "essn": "1663-9812",
+              "issn": "1663-9812",
+              "nlmid": "101548923",
+              "isoabbreviation": "Front Pharmacol"
+            },
+            "printPublicationDate": "2025-01-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "1545619",
+          "abstractText": "<h4>Introduction</h4>Traditional Chinese Medicine (TCM) classifies botanical drugs based on their thermal properties (an emic classification system), categorizing them as \"cold\" (e.g., \"clearing heat\" for anti-inflammatory effects) or \"hot\" (e.g., \"warming the middle\" for metabolic enhancement). However, the specific roles of these botanical drugs in restoring gut microbiota dysbiosis remain unclear. This study aimed to explore whether TCM-classified cold and hot botanical drugs differentially restore gut microbiota dysbiosis and host physiology in antibiotic-treated mice.<h4>Methods</h4>Mice with antibiotic-induced dysbiosis were treated with eight TCM-classified botanical drugs (four cold: <i>Rheum palmatum</i> L., <i>Scutellaria baicalensis</i> Georgi, <i>Senna alexandrina</i> Mill., <i>Coptis chinensis</i> Franch.; four hot: <i>Codonopsis pilosula</i> (Franch.) Nannf., <i>Astragalus membranaceus</i> (Fisch.) Bunge, <i>Angelica sinensis</i> (Oliv.) Diels, <i>Panax ginseng</i> C.A.Mey.) for 20\u00a0days. Gut microbiota were analyzed via 16S rRNA sequencing on days 5, 10, 15, and 20, alongside physiological parameters including blood glucose, serum lipids, TNF-\u03b1, adiponectin, and intestinal histomorphology.<h4>Results</h4>By day 20, all botanical drugs restored the diversity and ranking of dominant genera (those with >10% abundance, such as <i>Lactobacillu</i>s and <i>unclassified Muribaculaceae</i>). However, cold-classified drugs, traditionally associated with anti-inflammatory effects, selectively enriched anti-inflammatory taxa, including <i>Akkermansia</i> and <i>Bifidobacterium</i>. In contrast, hot-classified drugs, linked to metabolic enhancement, promoted metabolic-modulating genera such as <i>Clostridia</i> and <i>Eubacterium coprostanoligenes</i>. These differential enrichments corresponded with the therapeutic principles defined by TCM: cold-classified drugs reduced serum TNF-\u03b1 levels (<i>P</i> < 0.01), demonstrating anti-inflammatory effects, whereas hot-classified drugs improved lipid profiles (TG: <i>P</i> < 0.001), thereby promoting metabolic modulation.<h4>Discussion</h4>TCM-classified cold and hot botanical drugs universally stabilize dominant microbiota while differentially modulating low-abundance taxa. The enrichment of <i>Akkermansia</i> (cold) and <i>Clostridia</i> (hot) offers a microbiota-driven validation of TCM's empirical classification framework. These findings connect traditional knowledge with microbial ecology, underscoring the potential of TCM-guided microbiota modulation for precision therapies.",
+          "affiliation": "Department of Microecology, College of Basic Medical Sciences, Dalian Medical University, Dalian, China.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Traditional Chinese medicine",
+              "Clostridia",
+              "Akkermansia",
+              "Gut Microbiota Dysbiosis",
+              "Emic Classification",
+              "Tcm Property"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3389/fphar.2025.1545619"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12122528"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12122528?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen",
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-06-02",
+          "dateOfRevision": "2025-06-03",
+          "electronicPublicationDate": "2025-05-16",
+          "firstPublicationDate": "2025-05-16",
+          "firstIndexDate": "2025-06-11",
+          "fullTextReceivedDate": "2025-06-02",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "38767701",
+          "source": "MED",
+          "pmid": "38767701",
+          "pmcid": "PMC11106056",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11106056"
+            ]
+          },
+          "doi": "10.1186/s40643-024-00764-6",
+          "title": "Network pharmacology and molecular docking: combined computational approaches to explore the antihypertensive potential of Fabaceae species.",
+          "authorString": "Shahzadi Z, Yousaf Z, Anjum I, Bilal M, Yasin H, Aftab A, Booker A, Ullah R, Bari A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Shahzadi Z",
+                "lastName": "Shahzadi",
+                "firstName": "Zainab",
+                "initials": "Z",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, Lahore College for Women University, Lahore, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yousaf Z",
+                "lastName": "Yousaf",
+                "firstName": "Zubaida",
+                "initials": "Z",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8710-3915"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, Lahore College for Women University, Lahore, Pakistan. zubaida.yousaf@lcwu.edu.pk."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Anjum I",
+                "lastName": "Anjum",
+                "firstName": "Irfan",
+                "initials": "I",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5884-8950"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Basic Medical Sciences, Shifa College of Pharmaceutical Sciences, Shifa Tameer-e-Millat University, Islamabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bilal M",
+                "lastName": "Bilal",
+                "firstName": "Muhammad",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2546-1199"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centers for Applied Molecular Biology, University of the Punjab, Lahore, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yasin H",
+                "lastName": "Yasin",
+                "firstName": "Hamna",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, Lahore College for Women University, Lahore, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Aftab A",
+                "lastName": "Aftab",
+                "firstName": "Arusa",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, Lahore College for Women University, Lahore, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Booker A",
+                "lastName": "Booker",
+                "firstName": "Anthony",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0471-0638"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Research Centre for Optimal Health, School of Life Sciences, College of Liberal Arts and Sciences, University of Westminster, 115 New Cavendish Street, London, W1W 6UW, UK. A.Booker@westminster.ac.uk."
+                    },
+                    {
+                      "affiliation": "Research Group 'Pharmacognosy and Phytotherapy', UCL School of Pharmacy, Univ. London, 29 - 39 Brunswick Sq., London, WC1N 1AX, UK. A.Booker@westminster.ac.uk."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ullah R",
+                "lastName": "Ullah",
+                "firstName": "Riaz",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, College of Pharmacy King, Saud University, Riyadh, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bari A",
+                "lastName": "Bari",
+                "firstName": "Ahmed",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Chemistry, College of Pharmacy King, Saud University, Riyadh, Saudi Arabia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5884-8950"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8710-3915"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0471-0638"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2546-1199"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "11",
+            "journalIssueId": 3765869,
+            "dateOfPublication": "2024 May",
+            "monthOfPublication": 5,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Bioresour Bioprocess",
+              "title": "Bioresources and bioprocessing",
+              "essn": "2197-4365",
+              "issn": "2197-4365",
+              "nlmid": "101665551",
+              "isoabbreviation": "Bioresour Bioprocess"
+            },
+            "printPublicationDate": "2024-05-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "53",
+          "abstractText": "Hypertension is a major global public health issue, affecting quarter of adults worldwide. Numerous synthetic drugs are available for treating hypertension; however, they often come with a higher risk of side effects and long-term therapy. Modern formulations with active phytoconstituents are gaining popularity, addressing some of these issues. This study aims to discover novel antihypertensive compounds in Cassia fistula, Senna alexandrina, and Cassia occidentalis from family Fabaceae and understand their interaction mechanism with hypertension targeted genes, using network pharmacology and molecular docking. Total 414 compounds were identified; initial screening was conducted based on their pharmacokinetic and ADMET properties, with a particular emphasis on adherence to Lipinski's rules. 6 compounds, namely Germichrysone, Benzeneacetic acid, Flavan-3-ol, 5,7,3',4'-Tetrahydroxy-6, 8-dimethoxyflavon, Dihydrokaempferol, and Epiafzelechin, were identified as effective agents. Most of the compounds found non-toxic against various indicators with greater bioactivity score. 161 common targets were obtained against these compounds and hypertension followed by compound-target network construction and protein-protein interaction, which showed their role in diverse biological system. Top hub genes identified were TLR4, MMP9, MAPK14, AKT1, VEGFA and HSP90AA1 with their respective associates. Higher binding affinities was found with three compounds Dihydrokaempferol, Flavan-3-ol and Germichrysone, -7.1, -9.0 and -8.0\u00a0kcal/mol, respectively. The MD simulation results validate the structural flexibility of two complexes Flavan-MMP9 and Germich-TLR4 based on no. of hydrogen bonds, root mean square deviations and interaction energies. This study concluded that C. fistula (Dihydrokaempferol, Flavan-3-ol) and C. occidentalis (Germichrysone) have potential therapeutic active constituents to treat hypertension and in future novel drug formulation.",
+          "affiliation": "Department of Botany, Lahore College for Women University, Lahore, Pakistan.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "King Saud University",
+                "grantId": "RSP2024R346",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Hypertension",
+              "Molecular docking",
+              "herbal medicine",
+              "Fabaceae",
+              "Phytochemicals",
+              "Network Pharmacology",
+              "Cassia Species"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://bioresourcesbioprocessing.springeropen.com/counter/pdf/10.1186/s40643-024-00764-6"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1186/s40643-024-00764-6"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11106056"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11106056?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 19,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb",
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2024-05-20",
+          "dateOfRevision": "2024-05-23",
+          "electronicPublicationDate": "2024-05-20",
+          "firstPublicationDate": "2024-05-20",
+          "firstIndexDate": "2024-05-20",
+          "fullTextReceivedDate": "2026-10-13",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

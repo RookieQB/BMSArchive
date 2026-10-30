@@ -1,0 +1,271 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:20018807 AND SRC:MED",
+    "internalQuery": "EXT_ID:20018807 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "20018807",
+        "source": "MED",
+        "pmid": "20018807",
+        "doi": "10.3945/jn.109.115097",
+        "title": "Hibiscus sabdariffa L. tea (tisane) lowers blood pressure in prehypertensive and mildly hypertensive adults.",
+        "authorString": "McKay DL, Chen CY, Saltzman E, Blumberg JB.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "McKay DL",
+              "lastName": "McKay",
+              "firstName": "Diane L",
+              "initials": "DL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Antioxidants Research Laboratory; 6Energy Metabolism Laboratory, Jean Mayer USDA Human Nutrition Research Center on Aging at Tufts University, Boston, MA 02111, USA. diane.mckay@tufts.edu"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen CY",
+              "lastName": "Chen",
+              "firstName": "C-Y Oliver",
+              "initials": "CY"
+            },
+            {
+              "fullName": "Saltzman E",
+              "lastName": "Saltzman",
+              "firstName": "Edward",
+              "initials": "E"
+            },
+            {
+              "fullName": "Blumberg JB",
+              "lastName": "Blumberg",
+              "firstName": "Jeffrey B",
+              "initials": "JB"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "140",
+          "journalIssueId": 1691815,
+          "dateOfPublication": "2010 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "J Nutr",
+            "title": "The Journal of nutrition",
+            "essn": "1541-6100",
+            "issn": "0022-3166",
+            "nlmid": "0404243",
+            "isoabbreviation": "J Nutr"
+          },
+          "printPublicationDate": "2010-02-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "298-303",
+        "abstractText": "In vitro studies show Hibiscus sabdariffa L., an ingredient found in many herbal tea blends and other beverages, has antioxidant properties, and, in animal models, extracts of its calyces have demonstrated hypocholesterolemic and antihypertensive properties. Our objective in this study was to examine the antihypertensive effects of H. sabdariffa tisane (hibiscus tea) consumption in humans. A randomized, double-blind, placebo-controlled clinical trial was conducted in 65 pre- and mildly hypertensive adults, age 30-70 y, not taking blood pressure (BP)-lowering medications, with either 3 240-mL servings/d of brewed hibiscus tea or placebo beverage for 6 wk. A standardized method was used to measure BP at baseline and weekly intervals. At 6 wk, hibiscus tea lowered systolic BP (SBP) compared with placebo (-7.2 +/- 11.4 vs. -1.3 +/- 10.0 mm Hg; P = 0.030). Diastolic BP was also lower, although this change did not differ from placebo (-3.1 +/- 7.0 vs. -0.5 +/- 7.5 mm Hg; P = 0.160). The change in mean arterial pressure was of borderline significance compared with placebo (-4.5 +/- 7.7 vs. -0.8 +/- 7.4 mm Hg; P = 0.054). Participants with higher SBP at baseline showed a greater response to hibiscus treatment (r = -0.421 for SBP change; P = 0.010). No effects were observed with regard to age, gender, or dietary supplement use. These results suggest daily consumption of hibiscus tea, in an amount readily incorporated into the diet, lowers BP in pre- and mildly hypertensive adults and may prove an effective component of the dietary changes recommended for people with these conditions.",
+        "affiliation": "Antioxidants Research Laboratory; 6Energy Metabolism Laboratory, Jean Mayer USDA Human Nutrition Research Center on Aging at Tufts University, Boston, MA 02111, USA. diane.mckay@tufts.edu",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hibiscus"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypertension",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antihypertensive Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytotherapy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Pressure",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Beverages"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antihypertensive Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/full/140/2/298"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/abstract/140/2/298"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3945/jn.109.115097"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 104,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-02-04",
+        "dateOfCreation": "2009-12-19",
+        "dateOfRevision": "2023-02-16",
+        "electronicPublicationDate": "2009-12-16",
+        "firstPublicationDate": "2009-12-16",
+        "firstIndexDate": "2010-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:36622248 AND SRC:MED",
+    "internalQuery": "EXT_ID:36622248 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "36622248",
+        "source": "MED",
+        "pmid": "36622248",
+        "doi": "10.1039/d2fo02566c",
+        "title": "Effect of flaxseed supplementation on blood pressure: a systematic review, and dose-response meta-analysis of randomized clinical trials.",
+        "authorString": "Li L, Li H, Gao Y, Vafaei S, Zhang X, Yang M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li L",
+              "lastName": "Li",
+              "firstName": "Lingou",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3844-5297"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Endocrinology, The First People's Hospital of Chong Qing Liang Jiang New Area, Chongqing, China. 3148882@qq.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li H",
+              "lastName": "Li",
+              "firstName": "Hanzhang",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubei University of Chinese Medicine, Hubei, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao Y",
+              "lastName": "Gao",
+              "firstName": "Yuzhen",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7485-5237"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Laboratory, Sir Run Run Shaw Hospital of Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vafaei S",
+              "lastName": "Vafaei",
+              "firstName": "Somayeh",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0758-2133"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Obstetrics and Gynecology, University of Chicago, Chicago, IL 60637, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang X",
+              "lastName": "Zhang",
+              "firstName": "Xingyu",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Endocrinology, The First People's Hospital of Chong Qing Liang Jiang New Area, Chongqing, China. 3148882@qq.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang M",
+              "lastName": "Yang",
+              "firstName": "Mei",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9341-969X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Endocrinology, The First People's Hospital of Chong Qing Liang Jiang New Area, Chongqing, China. 3148882@qq.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7485-5237"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0758-2133"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3844-5297"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9341-969X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "14",
+          "journalIssueId": 3493740,
+          "dateOfPublication": "2023 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Food Funct",
+            "title": "Food & function",
+            "essn": "2042-650X",
+            "issn": "2042-6496",
+            "isoabbreviation": "Food Funct",
+            "nlmid": "101549033"
+          },
+          "printPublicationDate": "2023-01-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "675-690",
+        "abstractText": "Many clinical trials have revealed that flaxseed supplementation might exert a potent antihypertensive influence, but the findings are inconsistent. In this regard, a meta-analysis was carried out to provide a more accurate estimate of the impact of flaxseed supplementation on blood pressure. We searched international databases including PubMed, Cochrane Library, Web of Science, Scopus, Embase, and Google Scholar till July 2022. A random-effects model was used to calculate weighted mean differences (WMDs). Non-linear dose-response analysis and meta-regression were performed. Meta-analysis of 33 trials (comprising 43 treatment arms) with 2427 participants revealed significant reductions in both systolic (WMD: -3.19 mmHg; 95% CI: -4.15 to -2.24, <i>p</i> < 0.001; <i>I</i><sup>2</sup> = 92.5%, <i>p</i> < 0.001) and diastolic blood pressure (WMD = -2.61 mmHg; 95% CI: -3.27, -1.94, <i>p</i> < 0.001; <i>I</i><sup>2</sup> = 94.1%, <i>p</i> < 0.001) following flaxseed supplementation. Greater effects on SBP and DBP were found in trials with an intervention duration of >20 weeks, \u226530 g day<sup>-1</sup> of flaxseed, subjects with BMI 25-30 kg m<sup>-2</sup>, and in patients with hypertension. Supplementation with various flaxseed products significantly reduced SBP and DBP levels, confirming the hypothesis that flaxseed could be used as an effective supplement for blood pressure management, alongside routine medications.",
+        "affiliation": "Department of Endocrinology, The First People's Hospital of Chong Qing Liang Jiang New Area, Chongqing, China. 3148882@qq.com.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Flax"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hypertension",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Pressure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1039/d2fo02566c"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-01-25",
+        "dateOfCreation": "2023-01-09",
+        "dateOfRevision": "2025-06-26",
+        "electronicPublicationDate": "2023-01-23",
+        "firstPublicationDate": "2023-01-23",
+        "firstIndexDate": "2023-01-09",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

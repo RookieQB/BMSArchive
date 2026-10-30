@@ -1,0 +1,2623 @@
+{
+  "query": "TITLE_ABS:\"Mentha piperita\" AND (pharmacokinetics)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 10,
+    "nextCursorMark": "AoIIQA1GDig1MjYzMzEzMQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Mentha+piperita%22+AND+%28pharmacokinetics%29&cursorMark=AoIIQA1GDig1MjYzMzEzMQ%3D%3D&resultType=core&pageSize=8&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"Mentha piperita\" AND (pharmacokinetics)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42151460",
+          "source": "MED",
+          "pmid": "42151460",
+          "pmcid": "PMC13377183",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13377183"
+            ]
+          },
+          "doi": "10.1038/s41598-026-52730-1",
+          "title": "Multifunctional activity of Mentha piperita essential oil nanoemulsion against Helicobacter pylori.",
+          "authorString": "Ebrahimi G, Attaran B, Mohammadi A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Ebrahimi G",
+                "lastName": "Ebrahimi",
+                "firstName": "Golnaz",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Faculty of Biological Sciences, Alzahra University, Tehran, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Attaran B",
+                "lastName": "Attaran",
+                "firstName": "Bahareh",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Faculty of Biological Sciences, Alzahra University, Tehran, Iran. attaran.b@gmail.com."
+                    },
+                    {
+                      "affiliation": "Research Center for Applied Microbiology and Microbial Biotechnology (CAMB), Alzahra University, Tehran, Iran. attaran.b@gmail.com."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mohammadi A",
+                "lastName": "Mohammadi",
+                "firstName": "Ali",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Faculty of Biological Sciences, Alzahra University, Tehran, Iran."
+                    },
+                    {
+                      "affiliation": "Research Center for Applied Microbiology and Microbial Biotechnology (CAMB), Alzahra University, Tehran, Iran."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "16",
+            "journalIssueId": 4187086,
+            "dateOfPublication": "2026 May",
+            "monthOfPublication": 5,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Sci Rep",
+              "title": "Scientific reports",
+              "essn": "2045-2322",
+              "issn": "2045-2322",
+              "isoabbreviation": "Sci Rep",
+              "nlmid": "101563288"
+            },
+            "printPublicationDate": "2026-05-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "22450",
+          "abstractText": "Helicobacter pylori is a Gram-negative bacterium implicated in chronic gastric infections and gastric cancer, making it an important target for therapeutic intervention. Increasing antibiotic resistance of this pathogen has reduced the efficacy of conventional therapies, emphasizing the urgent need for alternative natural treatments. Mentha piperita essential oil exhibits antimicrobial and antioxidant activities, which are further enhanced when formulated as a nanoemulsion. Nanoemulsification improves solubility, stability, bioavailability, and bacterial targeting. Although essential oil-based nanoemulsions have shown antimicrobial potential, limited studies have systematically evaluated their effects on key virulence factors such as urease activity and biofilm formation in H. pylori. In this study, a Mentha piperita essential oil nanoemulsion stabilized with sodium dodecyl sulfate (MPNE-SDS) exhibited a mean particle size of 168\u00a0nm, a Polydispersity Index of 0.28, and maintained stability for up to three months. MPNE-SDS demonstrated potent antibacterial activity against H. pylori, with MIC values ranging from 6.25 to 50 \u00b5L/mL of nanoemulsion formulation, and showed enhanced efficacy compared to bulk essential oil. It also reduced whole-cell urease activity (IC\u2085\u2080 = 41.6 \u00b5L/mL) and inhibited biofilm formation (IC\u2085\u2080 = 24.5 \u00b5L/mL), while higher concentrations were required for biofilm eradication (EC\u2085\u2080 = 133 \u00b5L/mL). These findings indicate that MPNE-SDS enhances antibacterial performance and affects key H. pylori virulence-associated activities, suggesting its potential as a non-antibiotic approach and warranting further preclinical investigation.",
+          "affiliation": "Department of Microbiology, Faculty of Biological Sciences, Alzahra University, Tehran, Iran.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Biofilms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Helicobacter pylori",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Sodium Dodecyl Sulfate",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Urease",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Oils, Volatile",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Oils",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Emulsions",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Anti-Bacterial Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Microbial Sensitivity Tests"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Particle Size"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Helicobacter Pylori",
+              "Antimicrobial activity",
+              "Urease activity",
+              "Nanoemulsion",
+              "Mentha Piperita",
+              "Anti-biofilm Activity"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Anti-Bacterial Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Oils, Volatile",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Emulsions",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Urease",
+                "registryNumber": "EC 3.5.1.5"
+              },
+              {
+                "name": "Plant Oils",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Sodium Dodecyl Sulfate",
+                "registryNumber": "368GB5141J"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41598-026-52730-1"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13377183"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13377183?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-17",
+          "dateOfCreation": "2026-05-18",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-05-18",
+          "firstPublicationDate": "2026-05-18",
+          "firstIndexDate": "2026-05-19",
+          "fullTextReceivedDate": "2026-09-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41717426",
+          "source": "MED",
+          "pmid": "41717426",
+          "doi": "10.1007/s40203-026-00575-x",
+          "title": "Network pharmacology and molecular dynamics based elucidation of &lt;i&gt;Mentha piperita&lt;/i&gt; phytochemicals in colorectal cancer therapy.",
+          "authorString": "Sartaj R, Haq IU, Sartaj H, Rahiyab M, Khan A, Hussain I, Pinyi L, Rizwan M, Ali SS, Iqbal A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Sartaj R",
+                "lastName": "Sartaj",
+                "firstName": "Ruqia",
+                "initials": "R",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0000-4588-3415"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Biotechnology and Microbiology, University of Swat, Swat, KPK 19200 Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Haq IU",
+                "lastName": "Haq",
+                "firstName": "Itazaz Ul",
+                "initials": "IU",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0007-3495-7926"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Sichuan Agricultural University, College of Life Science, Xinkang Road 46, Ya'an, 625014 People's Republic of China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sartaj H",
+                "lastName": "Sartaj",
+                "firstName": "Haleema",
+                "initials": "H",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0004-0880-4975"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Swat Medical College, Swat, KPK Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rahiyab M",
+                "lastName": "Rahiyab",
+                "firstName": "Muhammad",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0007-1765-558X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Biotechnology and Microbiology, University of Swat, Swat, KPK 19200 Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Khan A",
+                "lastName": "Khan",
+                "firstName": "Abbas",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4288-7602"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biomedical Sciences, Faculty of Medical and Life Sciences, Sunway University, 47500 Petaling Jaya, Selangor Malaysia."
+                    },
+                    {
+                      "affiliation": "Department of Pharmaceutical Sciences, College of Pharmacy, QU Health, Qatar University, P.O. Box 2713, Doha, Qatar."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hussain I",
+                "lastName": "Hussain",
+                "firstName": "Israr",
+                "initials": "I",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0003-4180-913X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Biotechnology and Microbiology, University of Swat, Swat, KPK 19200 Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pinyi L",
+                "lastName": "Pinyi",
+                "firstName": "Li",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-4564-1252"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Sichuan Agricultural University, College of Life Science, Xinkang Road 46, Ya'an, 625014 People's Republic of China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rizwan M",
+                "lastName": "Rizwan",
+                "firstName": "Muhammad",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Biotechnology and Microbiology, University of Swat, Swat, KPK 19200 Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ali SS",
+                "lastName": "Ali",
+                "firstName": "Syed Shujait",
+                "initials": "SS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6277-2335"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Biotechnology and Microbiology, University of Swat, Swat, KPK 19200 Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Iqbal A",
+                "lastName": "Iqbal",
+                "firstName": "Arshad",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0403-6524"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Biotechnology and Microbiology, University of Swat, Swat, KPK 19200 Pakistan."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0403-6524"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4288-7602"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6277-2335"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0000-4588-3415"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0003-4180-913X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0004-0880-4975"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0005-4564-1252"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0007-1765-558X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0007-3495-7926"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "14",
+            "journalIssueId": 4071096,
+            "dateOfPublication": "2026 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "In Silico Pharmacol",
+              "title": "In silico pharmacology",
+              "essn": "2193-9616",
+              "issn": "2193-9616",
+              "isoabbreviation": "In Silico Pharmacol",
+              "nlmid": "101623954"
+            },
+            "printPublicationDate": "2026-01-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "59",
+          "abstractText": "Colorectal cancer (CRC) is also among the most common and deadly malignancies in the world, which requires the creation of safer and more efficient therapeutic options. <i>Mentha piperita</i>, which has various pharmacological properties, was studied in its anti-CRC potential based on a detailed network pharmacology and molecular modelling study. Apigenin, Betulonic acid, b-ionone, Cosmosiin, d-borneol, and Hesperetin, six bioactive compounds, passed pharmacokinetics criteria and were associated with 155 targets of CRC. The analysis of protein-protein interaction revealed the major hub genes TNF-\u03b1, HSP90AA1, and ESR1. KEGG enrichment analysis identified major pathways related to CRC such as TNF-\u03b1 signaling, PD-L1/PD-1 checkpoint, chemical carcinogenesis and thyroid hormone signaling. Molecular docking in molecular docking (average RMSD\u2009<\u20092.5\u00a0\u00c5, Rg \u2248 20.2\u00a0\u00c5). Betulonic acid (-\u00a08.3\u00a0kcal/mol) and Cosmosiin (-\u00a07.9\u00a0kcal/mol) were found to have high binding affinities with TNF-\u03b1, indicating their possible use in the regulation of tumor progression caused by inflammation. Their drug-likeness was supported by PK results of ADMET profiling that reported positive intestinal absorption (>\u200990%) and low toxicity levels. Besides, analysis of the expression showed that in advanced colon tumors, there were high levels of TNF-\u03b1 (tumor necrosis factor-alpha) which were associated with a low survival rate. All of these quantitative results prove that <i>Mentha piperita</i> has multi-target treatment potential against CRC. Although the computational forecast of the computational predictions suggests that TNF-\u03b1 related signaling is a viable mechanistic pathway, they are still predictive and need to be further validated in wet-labs in order to confirm its clinical significance.",
+          "affiliation": "Center for Biotechnology and Microbiology, University of Swat, Swat, KPK 19200 Pakistan.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Molecular docking",
+              "Bioactive compounds",
+              "Phytotherapy",
+              "Mentha Piperita",
+              "Colorectal Cancer (Crc)",
+              "Network Pharmacology",
+              "Tumor Necrosis Factor-alpha (Tnf-\u03b1)"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1007/s40203-026-00575-x"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "N",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-02-20",
+          "dateOfCreation": "2026-02-20",
+          "dateOfRevision": "2026-02-20",
+          "electronicPublicationDate": "2026-02-17",
+          "firstPublicationDate": "2026-02-17",
+          "firstIndexDate": "2026-02-21",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42654768",
+          "source": "MED",
+          "pmid": "42654768",
+          "pmcid": "PMC13516531",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13516531"
+            ]
+          },
+          "doi": "10.3390/pathogens15080831",
+          "title": "Antibacterial Activity of Essential Oils as Phytotherapeutic Alternatives Against &lt;i&gt;Aeromonas&lt;/i&gt; spp. from Ornamental Fish.",
+          "authorString": "Se\u00e7er FS.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Se\u00e7er FS",
+                "lastName": "Se\u00e7er",
+                "firstName": "Faik Sertel",
+                "initials": "FS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1940-7949"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Fisheries and Aquaculture, Faculty of Agriculture, Ankara University, 06110 Ankara, T\u00fcrkiye."
+                    },
+                    {
+                      "affiliation": "Aquaterra Ltd., Ankara University Tecnopolis, 06830 Ankara, T\u00fcrkiye."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1940-7949"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "8",
+            "volume": "15",
+            "journalIssueId": 4250108,
+            "dateOfPublication": "2026 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Pathogens",
+              "title": "Pathogens (Basel, Switzerland)",
+              "essn": "2076-0817",
+              "issn": "2076-0817",
+              "isoabbreviation": "Pathogens",
+              "nlmid": "101596317"
+            },
+            "printPublicationDate": "2026-08-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "831",
+          "abstractText": "<i>Aeromonas</i> species are among the most important Gram-negative pathogens in aquaculture and represent a One Health concern, as antibiotic-resistant strains circulate at the interface between ornamental fish, the aquatic environment and humans. This study evaluated the in vitro antibacterial activity of four commercial essential oils from tea tree (<i>Melaleuca alternifolia</i>), peppermint (<i>Mentha piperita</i>), rosemary (<i>Rosmarinus officinalis</i>) and lavandin (<i>Lavandula hybrida</i>) against sixteen oxytetracycline-resistant <i>Aeromonas hydrophila</i> and <i>A. veronii</i> isolated from moribund ornamental fish. All tested bacteria were resistant to oxytetracycline (MIC 8-16 \u00b5g/mL). Minimum inhibitory (MIC) and minimum bactericidal (MBC) concentrations were determined by broth microdilution. All EOs inhibited every isolate, but their bactericidal capacity differed markedly. Rosemary oil showed the lowest MIC and MBC ranks and the most consistent values, followed by tea tree and lavandin; all three were bactericidal. Peppermint oil, despite a low MIC, showed a high MBC and was bacteriostatic. These findings indicate that the EOs of rosemary, tea tree and lavandin are promising in vitro candidates for use against oxytetracycline-resistant <i>Aeromonas</i> in aquaculture, in line with the One Health approach, and warrant further evaluation.",
+          "affiliation": "Department of Fisheries and Aquaculture, Faculty of Agriculture, Ankara University, 06110 Ankara, T\u00fcrkiye.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Fishes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MI",
+                      "qualifierName": "microbiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Aeromonas",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Aeromonas hydrophila",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lavandula",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rosmarinus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Melaleuca",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Gram-Negative Bacterial Infections",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MI",
+                      "qualifierName": "microbiology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "VE",
+                      "qualifierName": "veterinary"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Fish Diseases",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MI",
+                      "qualifierName": "microbiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Oils, Volatile",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Tea Tree Oil",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Oils",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Anti-Bacterial Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Microbial Sensitivity Tests"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Drug Resistance, Bacterial"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Aeromonas hydrophila",
+              "Aquaculture",
+              "Antimicrobial resistance",
+              "Phytotherapy",
+              "One Health",
+              "Aeromonas Veronii"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Anti-Bacterial Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Oils, Volatile",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Oils",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Tea Tree Oil",
+                "registryNumber": "68647-73-4"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/pathogens15080831"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13516531"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13516531?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-08-27",
+          "dateOfCreation": "2026-08-27",
+          "dateOfRevision": "2026-08-29",
+          "electronicPublicationDate": "2026-08-07",
+          "firstPublicationDate": "2026-08-07",
+          "firstIndexDate": "2026-08-30",
+          "fullTextReceivedDate": "2026-09-10",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "38188091",
+          "source": "MED",
+          "pmid": "38188091",
+          "pmcid": "PMC10764227",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10764227"
+            ]
+          },
+          "doi": "10.3746/pnf.2023.28.4.444",
+          "title": "Functional Properties and Acceptability of Potentially Medicinal Tea Infusions Based on <i>Equisetum arvense</i>, <i>Desmodium molliculum</i>, and <i>Mentha piperita</i>.",
+          "authorString": "Salazar-Campos J, Salazar-Campos O, G\u00e1lvez-Ruiz O, Gavidia-Ch\u00e1vez H, Gavidia-Ch\u00e1vez M, Irigoin-Guevara L, Obreg\u00f3n-Dom\u00ednguez J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Salazar-Campos J",
+                "lastName": "Salazar-Campos",
+                "firstName": "Johonathan",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6906-1336"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Experimentaci\u00f3n e Investigaci\u00f3n, Universidad Nacional Aut\u00f3noma de Chota, Cajamarca 06121, Per\u00fa."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Salazar-Campos O",
+                "lastName": "Salazar-Campos",
+                "firstName": "Orlando",
+                "initials": "O",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3081-7081"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Escuela de Ingenier\u00eda de Software, Facultad de Ingenier\u00eda, Universidad San Ignacio de Loyola, Lima 15024, Per\u00fa."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "G\u00e1lvez-Ruiz O",
+                "lastName": "G\u00e1lvez-Ruiz",
+                "firstName": "Osmar",
+                "initials": "O",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2892-2459"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Direcci\u00f3n de Incubadora de Empresas, Universidad Nacional Aut\u00f3noma de Chota, Cajamarca 06121, Per\u00fa."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gavidia-Ch\u00e1vez H",
+                "lastName": "Gavidia-Ch\u00e1vez",
+                "firstName": "Herlita",
+                "initials": "H",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4722-1962"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Direcci\u00f3n de Incubadora de Empresas, Universidad Nacional Aut\u00f3noma de Chota, Cajamarca 06121, Per\u00fa."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gavidia-Ch\u00e1vez M",
+                "lastName": "Gavidia-Ch\u00e1vez",
+                "firstName": "Mery",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2392-6335"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Direcci\u00f3n de Incubadora de Empresas, Universidad Nacional Aut\u00f3noma de Chota, Cajamarca 06121, Per\u00fa."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Irigoin-Guevara L",
+                "lastName": "Irigoin-Guevara",
+                "firstName": "Lorena",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1124-2235"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Direcci\u00f3n de Incubadora de Empresas, Universidad Nacional Aut\u00f3noma de Chota, Cajamarca 06121, Per\u00fa."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Obreg\u00f3n-Dom\u00ednguez J",
+                "lastName": "Obreg\u00f3n-Dom\u00ednguez",
+                "firstName": "Jes\u00fas",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0664-1568"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Departamento de Procesamiento de la Informaci\u00f3n, Data Engineering Per\u00fa, Trujillo 13009, Per\u00fa."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6906-1336"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0664-1568"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2892-2459"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1124-2235"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2392-6335"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3081-7081"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4722-1962"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "4",
+            "volume": "28",
+            "journalIssueId": 3691600,
+            "dateOfPublication": "2023 Dec",
+            "monthOfPublication": 12,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Prev Nutr Food Sci",
+              "title": "Preventive nutrition and food science",
+              "essn": "2287-8602",
+              "issn": "2287-1098",
+              "isoabbreviation": "Prev Nutr Food Sci",
+              "nlmid": "101586663"
+            },
+            "printPublicationDate": "2023-12-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "444-452",
+          "abstractText": "Natural herbal teas are one of the three most consumed beverages in the world, and despite their frequent use in the cosmetic, food, and pharmaceutical industries, there is still much to about them. This study aimed to determine the functional properties of tea infusions made from dried <i>Equisetum arvense</i> (EA), <i>Desmodium molliculum</i> (DM), and <i>Mentha piperita</i> (M) grown in the Peruvian Andes. Next, using a simplex design with unrestricted centroid amplified centroid, 12 combinations were obtained for the combination of dried leaves with EA: 0\u223c100%, DM: 0\u223c100%, and M: 0\u223c100% optimal combination of EA: 6.59%, DM: 84.62%, and M: 8.79% maximizes functional components for total polyphenols (2,831.18 mg EAG/100 g), flavonoids (37.73 mg CAT/g), and antioxidant capacity (145.99 \u03bcmol Trolox/g). It can be confirmed that dried mixtures of these plants made into tea are a significant source of bioactive molecules, have a tolerable flavor, and can be used for therapeutic purposes when consumed.",
+          "affiliation": "Centro de Experimentaci\u00f3n e Investigaci\u00f3n, Universidad Nacional Aut\u00f3noma de Chota, Cajamarca 06121, Per\u00fa.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Antioxidants",
+              "Polyphenols",
+              "Equisetum arvense",
+              "Mentha Piperita",
+              "Desmodium Molliculum"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.pnfs.or.kr/journal/download_pdf.php?doi=10.3746/pnf.2023.28.4.444"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3746/pnf.2023.28.4.444"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10764227"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10764227?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2024-01-08",
+          "dateOfRevision": "2024-01-09",
+          "firstPublicationDate": "2023-12-01",
+          "firstIndexDate": "2024-01-09",
+          "fullTextReceivedDate": "2024-01-06",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40941978",
+          "source": "MED",
+          "pmid": "40941978",
+          "pmcid": "PMC12430539",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12430539"
+            ]
+          },
+          "doi": "10.3390/molecules30173450",
+          "title": "Synergistic Phenolic Compounds in Medicinal Plant Extracts: Enhanced Furin Protease Inhibition via Solvent-Specific Extraction from Lamiaceae and Asteraceae Families.",
+          "authorString": "\u00dczer FB, Helvac\u0131 N, Elmasta\u015f M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "\u00dczer FB",
+                "lastName": "\u00dczer",
+                "firstName": "Fatime Bet\u00fcl",
+                "initials": "FB",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5893-4952"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Phytotherapy, University of Health Sciences, Selimiye Complex, Selimiye Neighborhood, Atolyeler Street No: 4, Uskudar, 34668 Istanbul, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Helvac\u0131 N",
+                "lastName": "Helvac\u0131",
+                "firstName": "Nazl\u0131",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7496-1208"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Phytotherapy, University of Health Sciences, Selimiye Complex, Selimiye Neighborhood, Atolyeler Street No: 4, Uskudar, 34668 Istanbul, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Elmasta\u015f M",
+                "lastName": "Elmasta\u015f",
+                "firstName": "Mahfuz",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1502-1141"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Phytotherapy, University of Health Sciences, Selimiye Complex, Selimiye Neighborhood, Atolyeler Street No: 4, Uskudar, 34668 Istanbul, Turkey."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7496-1208"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1502-1141"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5893-4952"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "17",
+            "volume": "30",
+            "journalIssueId": 4012925,
+            "dateOfPublication": "2025 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Molecules",
+              "title": "Molecules (Basel, Switzerland)",
+              "essn": "1420-3049",
+              "issn": "1420-3049",
+              "isoabbreviation": "Molecules",
+              "nlmid": "100964009"
+            },
+            "printPublicationDate": "2025-08-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "3450",
+          "abstractText": "This study aimed to evaluate the inhibitory potential of phenolic-rich extracts from selected medicinal plants belonging to the <i>Lamiaceae</i> and <i>Asteraceae</i> families against the furin protease enzyme, a key target in viral and oncogenic pathways. Extracts of <i>Origanum vulgare</i>, <i>Thymus vulgaris</i>, <i>Mentha piperita</i>, <i>Mentha spicata</i>, <i>Salvia officinalis</i>, and <i>Silybum marianum</i> were prepared using hexane, chloroform, and ethyl acetate. Phenolic compounds were quantified using High-Performance Liquid Chromatography (HPLC). Furin inhibition was assessed spectrophotometrically and analyzed statistically with multivariate approaches. The chloroform extract of <i>Origanum vulgare</i> exhibited 97.44 \u00b1 0.12% inhibition, while the ethyl acetate extract of <i>Mentha spicata</i> showed 97.44 \u00b1 0.08% inhibition. Epicatechin and rutin displayed significant synergistic effects, while naringenin negatively affected inhibition (<i>p</i> < 0.05). Solvent polarity significantly influenced phenolic diversity and biological activity, with ternary combinations showing 33% higher inhibition than single compounds. These findings highlight phenolic blends as promising natural furin inhibitors, with chloroform being optimal for broad-spectrum extraction.",
+          "affiliation": "Department of Phytotherapy, University of Health Sciences, Selimiye Complex, Selimiye Neighborhood, Atolyeler Street No: 4, Uskudar, 34668 Istanbul, Turkey.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "University of Health Sciences, Scientific Research Projects Coordination Unit",
+                "grantId": "2024/032",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Asteraceae",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Lamiaceae",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plants, Medicinal",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Phenols",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Furin",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AI",
+                      "qualifierName": "antagonists & inhibitors"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Protease Inhibitors",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Solvents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Chromatography, High Pressure Liquid"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Drug Synergism"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Phenolic compounds",
+              "Combination index",
+              "synergy",
+              "Medicinal Plant Extract",
+              "Furin Protease"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Solvents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Phenols",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Protease Inhibitors",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Furin",
+                "registryNumber": "EC 3.4.21.75"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/molecules30173450"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12430539"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12430539?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-09-16",
+          "dateOfCreation": "2025-09-13",
+          "dateOfRevision": "2025-09-16",
+          "electronicPublicationDate": "2025-08-22",
+          "firstPublicationDate": "2025-08-22",
+          "firstIndexDate": "2025-09-14",
+          "fullTextReceivedDate": "2025-12-02",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41226145",
+          "source": "MED",
+          "pmid": "41226145",
+          "pmcid": "PMC12608418",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12608418"
+            ]
+          },
+          "doi": "10.3390/molecules30214182",
+          "title": "In Vitro and In Silico Pharmacological Study of Three Combined Lamiaceae Essential Oils: Cytotoxicity and Antiviral Potential.",
+          "authorString": "Khemili A, Bensizerara D, Chenchouni H, G\u0119barowski T, Ba\u017can\u00f3w B, Menasria T, Toma\u0144ska A, Chwirot A, Szumny A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Khemili A",
+                "lastName": "Khemili",
+                "firstName": "Aicha",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5003-3984"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular and Cellular Biology, Faculty of Nature and Life Sciences, University of Abbes Laghrour, Khenchela 40000, Algeria."
+                    },
+                    {
+                      "affiliation": "Laboratory of Biotechnology, Water, Environment and Health, University of Abbes Laghrour, Khenchela 40000, Algeria."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bensizerara D",
+                "lastName": "Bensizerara",
+                "firstName": "Djamel",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Biotechnology, Water, Environment and Health, University of Abbes Laghrour, Khenchela 40000, Algeria."
+                    },
+                    {
+                      "affiliation": "Department of Agronomy, Faculty of Nature and Life Sciences, University of Abbes Laghrour, Khenchela 40000, Algeria."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chenchouni H",
+                "lastName": "Chenchouni",
+                "firstName": "Haroun",
+                "initials": "H",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9077-2706"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Natural Resources and Management of Sensitive Environments 'LRNAMS', University of Oum El Bouaghi, Oum El Bouaghi 04000, Algeria."
+                    },
+                    {
+                      "affiliation": "Department of Forest Management, Higher National School of Forests, Khenchela 40000, Algeria."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "G\u0119barowski T",
+                "lastName": "G\u0119barowski",
+                "firstName": "Tomasz",
+                "initials": "T",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8742-0790"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biostructure and Animal Physiology, Faculty of Veterinary Medicine, Wroc\u0142aw University of Environmental and Life Sciences, Ko\u017cuchowska St. 1, 51-631 Wroc\u0142aw, Poland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ba\u017can\u00f3w B",
+                "lastName": "Ba\u017can\u00f3w",
+                "firstName": "Barbara",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6694-2872"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pathology, Division of Microbiology, Faculty of Veterinary Medicine, Wroc\u0142aw University of Environmental and Life Sciences, 31 C. K. Norwida St., 50-573 Wroc\u0142aw, Poland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Menasria T",
+                "lastName": "Menasria",
+                "firstName": "Taha",
+                "initials": "T",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4925-6165"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Biochemistry, Faculty of Nature and Life Sciences, University of Batna 2, Batna 05078, Algeria."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Toma\u0144ska A",
+                "lastName": "Toma\u0144ska",
+                "firstName": "Anna",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9943-396X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biostructure and Animal Physiology, Faculty of Veterinary Medicine, Wroc\u0142aw University of Environmental and Life Sciences, Ko\u017cuchowska St. 1, 51-631 Wroc\u0142aw, Poland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chwirot A",
+                "lastName": "Chwirot",
+                "firstName": "Aleksandra",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5245-1733"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pathology, Division of Microbiology, Faculty of Veterinary Medicine, Wroc\u0142aw University of Environmental and Life Sciences, 31 C. K. Norwida St., 50-573 Wroc\u0142aw, Poland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Szumny A",
+                "lastName": "Szumny",
+                "firstName": "Antoni",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9058-1598"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Food Chemistry and Biocatalysis, Wroc\u0142aw University of Environmental and Life Sciences, Norwida 25, 50-375 Wroc\u0142aw, Poland."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5003-3984"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5245-1733"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9058-1598"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9077-2706"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6694-2872"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8742-0790"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9943-396X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4925-6165"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "21",
+            "volume": "30",
+            "journalIssueId": 4038344,
+            "dateOfPublication": "2025 Oct",
+            "monthOfPublication": 10,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Molecules",
+              "title": "Molecules (Basel, Switzerland)",
+              "essn": "1420-3049",
+              "issn": "1420-3049",
+              "isoabbreviation": "Molecules",
+              "nlmid": "100964009"
+            },
+            "printPublicationDate": "2025-10-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "4182",
+          "abstractText": "This study investigated the in vitro and in silico anticancer and antiviral potential of three Lamiaceae essential oils (EOs), <i>Rosmarinus officinalis</i> (REO), <i>Salvia officinalis</i> (SEO), and <i>Mentha \u00d7 piperita</i> (MEO). The essays included both Eos tested individually and in combination. Cytotoxicity was assessed in normal dermal fibroblast (NHDF), breast (MCF7), lung (A549), and colorectal (LoVo) cell lines. Antiviral activity was evaluated against herpes simplex virus type 1 (HSV-1) and adenovirus type-5 (AdV-5). Major identified compounds were subjected to in silico analysis against selected cancer- and virus-related protein targets. None of the EOs or their combinations showed cytotoxicity toward NHDF cells. REO exhibited significant anticancer activity against MCF7 and A549 cells, while SEO displayed the greatest antiproliferative effect on MCF7 cells. MEO showed moderate activity against MCF7 cells and weak activity against A549 cells. All EOs and combinations showed limited efficacy against LoVo cells. Combined EOs were more effective against A549 cells, showing synergism for REO combinations, whereas lower activity was noted against MCF7 cells, where the MEO + SEO combination exhibited an antagonistic effect. All EOs and their combinations effectively reduced HSV-1 and AdV-5 titers. In silico results confirmed the binding affinities between the major EO compounds and selected protein targets, supporting their potential as complementary therapeutic agents.",
+          "affiliation": "Department of Molecular and Cellular Biology, Faculty of Nature and Life Sciences, University of Abbes Laghrour, Khenchela 40000, Algeria.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "CSRD VA",
+                "acronym": "CX",
+                "grantId": "1",
+                "orderIn": 0
+              },
+              {
+                "agency": "Wroc\u0142aw University of Environmental and Life Sciences",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Line, Tumor"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Herpesvirus 1, Human",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Lamiaceae",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Oils, Volatile",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antineoplastic Agents, Phytogenic",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antiviral Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Proliferation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Computer Simulation"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "MCF-7 Cells"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Molecular Docking Simulation"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "A549 Cells"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Essential oil",
+              "Combination",
+              "Anticancer activity",
+              "Antiviral Activity",
+              "Rosmarinus Officinalis",
+              "Salvia Officinalis",
+              "Mentha \u00d7 Piperita"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antiviral Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Oils, Volatile",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antineoplastic Agents, Phytogenic",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/molecules30214182"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12608418"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12608418?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-11-13",
+          "dateOfCreation": "2025-11-13",
+          "dateOfRevision": "2025-11-15",
+          "electronicPublicationDate": "2025-10-25",
+          "firstPublicationDate": "2025-10-25",
+          "firstIndexDate": "2025-11-14",
+          "fullTextReceivedDate": "2025-11-15",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40917836",
+          "source": "MED",
+          "pmid": "40917836",
+          "pmcid": "PMC12408269",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12408269"
+            ]
+          },
+          "doi": "10.3389/fmed.2025.1589691",
+          "title": "Evaluating efficacy, safety, and innovation in skin care applications of essential oils: a systematic review.",
+          "authorString": "Pezantes-Orellana C, German Berm\u00fadez F, Montalvo J, Packer T, Orellana-Manzano A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Pezantes-Orellana C",
+                "lastName": "Pezantes-Orellana",
+                "firstName": "Camila",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "NovaVita, Guayaquil, Ecuador."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "German Berm\u00fadez F",
+                "lastName": "German Berm\u00fadez",
+                "firstName": "F\u00e1tima",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3869-8040"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratorio para Investigaciones Biom\u00e9dicas, Facultad de Ciencias de la Vida, Escuela Superior Polit\u00e9cnica del Litoral (ESPOL), Guayaquil, Ecuador."
+                    },
+                    {
+                      "affiliation": "Licenciatura en Nutrici\u00f3n y Diet\u00e9tica, Facultad de Ciencias de la Vida, Escuela Superior Polit\u00e9cnica del Litoral, ESPOL, Guayaquil, Ecuador."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Montalvo J",
+                "lastName": "Montalvo",
+                "firstName": "Jos\u00e9",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "NovaVita, Guayaquil, Ecuador."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Packer T",
+                "lastName": "Packer",
+                "firstName": "Tamara",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "NovaVita, Guayaquil, Ecuador."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Orellana-Manzano A",
+                "lastName": "Orellana-Manzano",
+                "firstName": "Andrea",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratorio para Investigaciones Biom\u00e9dicas, Facultad de Ciencias de la Vida, Escuela Superior Polit\u00e9cnica del Litoral (ESPOL), Guayaquil, Ecuador."
+                    },
+                    {
+                      "affiliation": "Licenciatura en Nutrici\u00f3n y Diet\u00e9tica, Facultad de Ciencias de la Vida, Escuela Superior Polit\u00e9cnica del Litoral, ESPOL, Guayaquil, Ecuador."
+                    },
+                    {
+                      "affiliation": "Facultad de Ciencias de la Salud, Universidad Esp\u00edritu Santo, Samborond\u00f3n, Ecuador."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3869-8040"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "12",
+            "journalIssueId": 3893115,
+            "dateOfPublication": "2025 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Front Med (Lausanne)",
+              "title": "Frontiers in medicine",
+              "essn": "2296-858X",
+              "issn": "2296-858X",
+              "isoabbreviation": "Front Med (Lausanne)",
+              "nlmid": "101648047"
+            },
+            "printPublicationDate": "2025-01-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "1589691",
+          "abstractText": "Essential oils have emerged as popular natural alternatives to synthetic ingredients in cosmetic products, drawing attention for their therapeutic potential in treating skin conditions like acne, psoriasis, and atopic dermatitis. This systematic review analyzed 70 studies from the past decade across multiple databases to evaluate their effectiveness and safety in derma cosmetic applications. The research encompassed clinical trials, <i>in vitro</i> studies, and <i>in vivo</i> experiments examining various essential oils in different cosmetic formulations, including lavender (<i>Lavandula angustifolia</i>), tea tree (<i>Melaleuca alternifolia</i>), chamomile (<i>Matricaria chamomilla</i>), peppermint (<i>Mentha piperita</i>), hemp (<i>Cannabis sativa</i>), <i>Euphorbia characias</i>, hierba de San Guillermo (<i>Agrimonia</i> <i>eupatoria</i>) and eucalyptus (<i>Eucalyptus globulus</i>). Key findings demonstrated that tea tree oil was particularly effective for acne treatment, while lavender and rosemary oils showed promising anti-inflammatory and anti-aging properties. Plant extracts from <i>Ocimum gratissimum</i> and <i>Matricaria chamomilla</i> also yielded positive results for skin health improvement. Various formulations such as gels, creams, and serums showed different levels of effectiveness in enhancing skin hydration, elasticity, and overall appearance. While the clinical evidence suggests significant potential for essential oils in cosmetic and dermatological applications, researchers emphasize the need for more comprehensive, longterm clinical trials to establish their efficacy and safety profiles fully.",
+          "affiliation": "NovaVita, Guayaquil, Ecuador.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "Systematic Review",
+              "systematic-review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Essential oils",
+              "Bioactive compounds",
+              "Skin Conditions",
+              "Cosmetic Product",
+              "Dermocosmetic Application"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3389/fmed.2025.1589691"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12408269"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12408269?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 4,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct",
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-09-08",
+          "dateOfRevision": "2025-09-10",
+          "electronicPublicationDate": "2025-08-21",
+          "firstPublicationDate": "2025-08-21",
+          "firstIndexDate": "2025-09-09",
+          "fullTextReceivedDate": "2025-11-28",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40104576",
+          "source": "MED",
+          "pmid": "40104576",
+          "pmcid": "PMC11913368",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11913368"
+            ]
+          },
+          "doi": "10.55730/1300-0152.2725",
+          "title": "Antilipase activities of cultivated peppermint and rosemary essential oils: in vitro and in silico studies.",
+          "authorString": "Bengana K, Serseg T, Benarous K, Mermer A, \u015eirin Y, Kaouka A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Bengana K",
+                "lastName": "Bengana",
+                "firstName": "Khadidja",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0008-0940-9925"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Fundamental Sciences, Faculty of Sciences, University of Amar Telidji, Laghouat, Algeria."
+                    },
+                    {
+                      "affiliation": "Department of Biology, Faculty of Sciences, University of Amar Telidji, Laghouat, Algeria."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Serseg T",
+                "lastName": "Serseg",
+                "firstName": "Talia",
+                "initials": "T",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5197-1024"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Fundamental Sciences, Faculty of Sciences, University of Amar Telidji, Laghouat, Algeria."
+                    },
+                    {
+                      "affiliation": "Applied Sciences and Didactics Laboratory, Higher Normal School, Laghouat, Algeria."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Benarous K",
+                "lastName": "Benarous",
+                "firstName": "Khedidja",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9112-6730"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Fundamental Sciences, Faculty of Sciences, University of Amar Telidji, Laghouat, Algeria."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mermer A",
+                "lastName": "Mermer",
+                "firstName": "Arif",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4789-7180"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biotechnology, Faculty of Health Sciences, University of Health Sciences, \u0130stanbul, Turkiye."
+                    },
+                    {
+                      "affiliation": "Experimental Medicine Application and Research Center, Valideba\u011f Research Park, Faculty of Health Sciences, University of Health Sciences, \u0130stanbul, Turkiye."
+                    },
+                    {
+                      "affiliation": "Department of Pharmacy, Faculty of Health Sciences, University of Health Sciences, \u0130stanbul, Turkiye."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u015eirin Y",
+                "lastName": "\u015eirin",
+                "firstName": "Yakup",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8759-0132"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Research and Development Center, Semas Food Ind. Trade Co. Ltd., Ankara, Turkiye."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kaouka A",
+                "lastName": "Kaouka",
+                "firstName": "Alaeddine",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1118-7603"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Applied Sciences and Didactics Laboratory, Higher Normal School, Laghouat, Algeria."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5197-1024"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9112-6730"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1118-7603"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4789-7180"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8759-0132"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0008-0940-9925"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "49",
+            "journalIssueId": 3916822,
+            "dateOfPublication": "2025 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Turk J Biol",
+              "title": "Turkish journal of biology = Turk biyoloji dergisi",
+              "essn": "1303-6092",
+              "issn": "1300-0152",
+              "isoabbreviation": "Turk J Biol",
+              "nlmid": "9434434"
+            },
+            "printPublicationDate": "2025-01-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "70-84",
+          "abstractText": "<h4>Background/aim</h4>The growing interest in essential oils clearly indicates the power of nature and aligns with our increasing need to find therapeutic solutions in the natural world. This study aimed to investigate the inhibitory effects of the essential oils of <i>Mentha \u00d7 piperita</i> and <i>Salvia rosmarinus</i>, harvested from the Laghouat region of Algeria, against <i>Candida rugosa</i> lipase (CRL) and pancreatic lipase through both in vitro and in silico studies.<h4>Materials and methods</h4>Essential oils were extracted via hydrodistillation and analyzed using gas chromatography-mass spectrometry and spectrophotometry. Their antilipase activities were assessed using an inhibition assay, and molecular docking was performed with AutoDock Vina to explore interactions between essential oil compounds and lipase enzymes.<h4>Results</h4>Spectrophotometric analysis demonstrated significant inhibitory activity for each essential oil against CRL lipase, with IC<sub>50</sub> values of 0.56 \u00b1 0.005 and 0.69 \u00b1 0.008 mg/mL for peppermint and rosemary oils, respectively. These results were satisfactory in comparison to those achieved with orlistat. Molecular docking studies revealed the mechanisms of major compounds in each essential oil, demonstrating that these compounds inhibited CRL (PDB ID: 1CRL) and pancreatic lipase (PDB ID: 1LPB) with repeated hydrophobic interactions. The interactions were observed to be consistent with His449, Gly123, Gly124, Phe344, and Ser152 for many molecules.<h4>Conclusion</h4>This study highlights opportunities for essential oils and their bioactive components to be utilized as adjuvants in the management of obesity and other lipase-related disorders.",
+          "affiliation": "Laboratory of Fundamental Sciences, Faculty of Sciences, University of Amar Telidji, Laghouat, Algeria.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Obesity",
+              "Essential oil",
+              "Lipase",
+              "Molecular docking",
+              "Rosemary",
+              "Peppermint"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.55730/1300-0152.2725"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11913368"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11913368?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb",
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-03-19",
+          "dateOfRevision": "2025-03-20",
+          "electronicPublicationDate": "2025-01-14",
+          "firstPublicationDate": "2025-01-14",
+          "firstIndexDate": "2025-03-19",
+          "fullTextReceivedDate": "2025-12-02",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

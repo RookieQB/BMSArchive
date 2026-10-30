@@ -1,0 +1,303 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:28609140 AND SRC:MED",
+    "internalQuery": "EXT_ID:28609140 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "28609140",
+        "source": "MED",
+        "pmid": "28609140",
+        "doi": "10.1080/10408398.2017.1332572",
+        "title": "Lipid-lowering activity of artichoke extracts: A systematic review and meta-analysis.",
+        "authorString": "Sahebkar A, Pirro M, Banach M, Mikhailidis DP, Atkin SL, Cicero AFG.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sahebkar A",
+              "lastName": "Sahebkar",
+              "firstName": "Amirhossein",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Biotechnology Research Center , Mashhad University of Medical Sciences , Mashhad , Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pirro M",
+              "lastName": "Pirro",
+              "firstName": "Matteo",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5527-4821"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b Unit of Internal Medicine, Angiology and Arteriosclerosis Diseases, Department of Medicine , University of Perugia , Perugia , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Banach M",
+              "lastName": "Banach",
+              "firstName": "Maciej",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Hypertension , WAM University Hospital in Lodz, Medical University of Lodz , Zeromskiego 113, Lodz , Poland."
+                  },
+                  {
+                    "affiliation": "d Polish Mother's Memorial Hospital Research Institute (PMMHRI) , Lodz , Poland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mikhailidis DP",
+              "lastName": "Mikhailidis",
+              "firstName": "Dimitri P",
+              "initials": "DP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "e Department of Clinical Biochemistry, Royal Free Hospital Campus , University College London Medical School, University College London (UCL) , London , United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Atkin SL",
+              "lastName": "Atkin",
+              "firstName": "Stephen L",
+              "initials": "SL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "f Weill Cornell Medicine Qatar , Doha , Qatar."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cicero AFG",
+              "lastName": "Cicero",
+              "firstName": "Arrigo F G",
+              "initials": "AFG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4367-3884"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "g Department of Medical and Surgical Sciences , University of Bologna , Via Albertoni 15, Bologna , Italy."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4367-3884"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5527-4821"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "15",
+          "volume": "58",
+          "journalIssueId": 2778916,
+          "dateOfPublication": "2018 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Crit Rev Food Sci Nutr",
+            "title": "Critical reviews in food science and nutrition",
+            "essn": "1549-7852",
+            "issn": "1040-8398",
+            "isoabbreviation": "Crit Rev Food Sci Nutr",
+            "nlmid": "8914818"
+          },
+          "printPublicationDate": "2018-01-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "2549-2556",
+        "abstractText": "Artichoke is a component of the Mediterranean diet. Therefore, the aim of this meta-analysis was to determine if artichoke extract supplementation affected human lipid parameters. The search included PubMed-Medline, Scopus, Web of Science and Google Scholar databases up to March 28, 2017, to identify RCTs investigating the impact of artichoke extracts on plasma lipid levels. Quantitative data synthesis was performed using a random-effects model, with weighed mean difference (WMD) and 95% confidence interval (CI) as summary statistics. Meta-analysis of data from 9 trials including 702 subjects suggested a significant decrease in plasma concentrations of total cholesterol (WMD: -17.6\u00a0mg/dL, 95%CI: -22.0, -13.3, p < 0.001), Low Density Lipoprotein-Cholesterol (LDL-C; WMD: -14.9\u00a0mg/dL, 95%CI: -20.4, -9.5, p = 0.011) and triglycerides (WMD: -9.2\u00a0mg/dL, 95%CI: -16.2, -2.1, p = 0.011). No significant alteration in plasma High Density Lipoprotein-Cholesterol (HDL-C) concentrations was observed (WMD: 1.0\u00a0mg/dL, 95%CI: -1.1, 3.1, p = 0.333). A significant association between the LDL-lowering effect of artichoke and baseline LDL-C concentrations (slope: -0.170; 95%CI: -0.288, 0.051; p = 0.005) was observed. Thus, supplementation with artichoke extract was associated with a significant reduction in both total and LDL-C, and triglycerides, suggesting that supplementation may be synergistic with lipid-lowering therapy in patients with hyperlipidemia.",
+        "affiliation": "a Biotechnology Research Center , Mashhad University of Medical Sciences , Mashhad , Iran.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cynara scolymus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypolipidemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Triglycerides",
+            "Meta-analysis",
+            "Hypercholesterolemia",
+            "Randomized Clinical Trial",
+            "Artichoke Leaf Extract"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Lipids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hypolipidemic Agents",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/10408398.2017.1332572"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 59,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-05-22",
+        "dateOfCreation": "2017-06-14",
+        "dateOfRevision": "2019-05-22",
+        "electronicPublicationDate": "2017-08-24",
+        "firstPublicationDate": "2017-08-24",
+        "firstIndexDate": "2017-06-14",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

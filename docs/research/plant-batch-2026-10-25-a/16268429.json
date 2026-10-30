@@ -1,0 +1,268 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:16268429 AND SRC:MED",
+    "internalQuery": "EXT_ID:16268429 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "16268429",
+        "source": "MED",
+        "pmid": "16268429",
+        "title": "Subacute cholestatic hepatitis likely related to the use of senna for chronic constipation.",
+        "authorString": "Sonmez A, Yilmaz MI, Mas R, Ozcan A, Celasun B, Dogru T, Taslipinar A, Kocar IH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sonmez A",
+              "lastName": "Sonmez",
+              "firstName": "Alper",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Gulhane School of Medicine, Department of Internal Medicine, Ankara, Turkey. alpersonmez@yahoo.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yilmaz MI",
+              "lastName": "Yilmaz",
+              "firstName": "M Ilker",
+              "initials": "MI"
+            },
+            {
+              "fullName": "Mas R",
+              "lastName": "Mas",
+              "firstName": "Refik",
+              "initials": "R"
+            },
+            {
+              "fullName": "Ozcan A",
+              "lastName": "Ozcan",
+              "firstName": "Ayhan",
+              "initials": "A"
+            },
+            {
+              "fullName": "Celasun B",
+              "lastName": "Celasun",
+              "firstName": "B\u00fclent",
+              "initials": "B"
+            },
+            {
+              "fullName": "Dogru T",
+              "lastName": "Dogru",
+              "firstName": "Teoman",
+              "initials": "T"
+            },
+            {
+              "fullName": "Taslipinar A",
+              "lastName": "Taslipinar",
+              "firstName": "Abdullah",
+              "initials": "A"
+            },
+            {
+              "fullName": "Kocar IH",
+              "lastName": "Kocar",
+              "firstName": "I Hakki",
+              "initials": "IH"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "68",
+          "journalIssueId": 1267677,
+          "dateOfPublication": "2005 Jul-Sep",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "Acta Gastroenterol Belg",
+            "title": "Acta gastro-enterologica Belgica",
+            "issn": "1784-3227",
+            "nlmid": "0414075",
+            "isoabbreviation": "Acta Gastroenterol Belg"
+          },
+          "printPublicationDate": "2005-07-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "385-387",
+        "abstractText": "We report a case of senna-induced cholestatic hepatitis which was not diagnosed at presentation. A 77 year old male was referred with abdominal pain, jaundice and elevated transaminase levels. A diagnosis of extrahepatic cholestasis was first suspected, due to the observation of a duodenal diverticulum and dilated proximal choledocus. However, the sphincterotomy did not improve cholestasis. At further evaluation, HBsAg was positive but serological work up was compatible with a healthy-carrier status. Further interrogation of the patient revealed a history of chronic senna intake to treat a chronic constipation. Liver biopsy showed bridging hepatocellular necrosis as well as canalicular cholestasis. Drug withdrawal resulted in a slow and progressive reduction in bilirubin levels and liver enzymes. In this case senna was likely the cause of a subacute cholestatic hepatitis exemplifying again the potential role of herbal related liver injury.",
+        "affiliation": "Gulhane School of Medicine, Department of Internal Medicine, Ankara, Turkey. alpersonmez@yahoo.com",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article",
+            "Case Reports"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholestasis, Intrahepatic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chronic Disease"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Constipation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cathartics",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Senna Extract",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biopsy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemical and Drug Induced Liver Injury",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cathartics",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Senna Extract",
+              "registryNumber": "8013-11-4"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 13,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-11-15",
+        "dateOfCreation": "2005-11-05",
+        "dateOfRevision": "2016-11-24",
+        "firstPublicationDate": "2005-07-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

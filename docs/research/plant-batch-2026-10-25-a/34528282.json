@@ -1,0 +1,403 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:34528282 AND SRC:MED",
+    "internalQuery": "EXT_ID:34528282 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "34528282",
+        "source": "MED",
+        "pmid": "34528282",
+        "pmcid": "PMC8863319",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8863319"
+          ]
+        },
+        "doi": "10.1111/bcp.15076",
+        "title": "Randomised trial: Peppermint oil (menthol) pharmacokinetics in children and effects on gut motility in children with functional abdominal pain.",
+        "authorString": "Shulman RJ, Chumpitazi BP, Abdel-Rahman SM, Garg U, Musaad S, Kearns GL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shulman RJ",
+              "lastName": "Shulman",
+              "firstName": "Robert J",
+              "initials": "RJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2385-0991"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Children's Nutrition Research Center, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Texas Children's Hospital, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chumpitazi BP",
+              "lastName": "Chumpitazi",
+              "firstName": "Bruno P",
+              "initials": "BP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Children's Nutrition Research Center, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Texas Children's Hospital, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abdel-Rahman SM",
+              "lastName": "Abdel-Rahman",
+              "firstName": "Susan M",
+              "initials": "SM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Missouri School of Medicine, Kansas City, MO, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Garg U",
+              "lastName": "Garg",
+              "firstName": "Uttam",
+              "initials": "U",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departments of Pathology and Laboratory Medicine, Children's Mercy Hospital; University of Missouri School of Medicine, Kansas City, MO, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Musaad S",
+              "lastName": "Musaad",
+              "firstName": "Salma",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1733-830X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, USA."
+                  },
+                  {
+                    "affiliation": "Children's Nutrition Research Center, Baylor College of Medicine, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kearns GL",
+              "lastName": "Kearns",
+              "firstName": "Gregory L",
+              "initials": "GL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Texas Christian University and University of North Texas Health Science Center School of Medicine, Fort Worth, TX, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1733-830X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2385-0991"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "88",
+          "journalIssueId": 3314150,
+          "dateOfPublication": "2022 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Br J Clin Pharmacol",
+            "title": "British journal of clinical pharmacology",
+            "essn": "1365-2125",
+            "issn": "0306-5251",
+            "isoabbreviation": "Br J Clin Pharmacol",
+            "nlmid": "7503323"
+          },
+          "printPublicationDate": "2022-03-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "1321-1333",
+        "abstractText": "<h4>Aims</h4>Little is known regarding the pharmacokinetics and pharmacodynamics of menthol, the active ingredient in peppermint oil (PMO). Our aim was to investigate the pharmacokinetics of menthol at 3 dose levels in children and determine their effects on gut motility and transit.<h4>Methods</h4>Thirty children ages 7-12\u2009years with functional abdominal pain underwent wireless motility capsule (WMC) testing. Approximately 1 week later they were randomized to 180, 360 or 540\u2009mg of enteric coated PMO (10 participants per dose). Menthol pharmacokinetics were determined via blood sampling over 24\u2009hours. They then took their respective dose of PMO (180\u2009mg once, 180\u2009mg twice or 180\u2009mg thrice daily) for 1 week during which time the WMC test was repeated.<h4>Results</h4>Evaluable area under the plasma concentration vs. time curve (AUC<sub>last</sub> ) data were available in 29 of 30 participants. A direct linear relationship (apparent dose-proportionality for systemic menthol exposure) was observed between PMO dose and menthol systemic exposure with mean elimination half-life 2.1, 3.5 and 4.6\u00a0hours for the 180, 360 and 540\u2009mg doses, respectively. WMC technical issues precluded complete motility data in all participants. Colonic transit time was inversely related to AUC<sub>last</sub> (P\u2009=\u00a0.003); transit time in other regions was not affected. In contrast, stomach, small bowel and whole gut (but not colonic) contractility positively correlated with menthol AUC<sub>last</sub> (P\u2009<\u00a0.05).<h4>Conclusion</h4>Pharmacokinetics and pharmacodynamics of menthol derived from PMO demonstrated apparent dose-proportionality. A higher dose of PMO may be needed to achieve maximal gut response. www.clinicaltrials.gov NCT03295747.",
+        "affiliation": "Department of Pediatrics, Baylor College of Medicine, Houston, TX, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "P30 DK056338",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "P30 DK56338",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "58\u20103092\u20100\u2010001",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCCIH NIH HHS",
+              "acronym": "AT",
+              "grantId": "R33 AT009101",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "AT009101",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIEHS NIH HHS",
+              "acronym": "ES",
+              "grantId": "P30 ES030285",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCCIH NIH HHS",
+              "acronym": "AT",
+              "grantId": "R21 AT009101",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestine, Small"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mentha piperita"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Abdominal Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Menthol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Oils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Menthol",
+            "contractility",
+            "motility",
+            "Abdominal Pain",
+            "Peppermint Oil"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Oils",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Menthol",
+              "registryNumber": "1490-04-6"
+            },
+            {
+              "name": "peppermint oil",
+              "registryNumber": "AV092KU4JH"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/bcp.15076"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/bcp.15076"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8863319"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8863319?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/bcp.15076"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "36377401",
+              "reference": "Br J Clin Pharmacol. 2022 Dec;88(12):5436. doi: 10.1111/bcp.15556",
+              "type": "Erratum in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1777119",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2022-04-26",
+        "dateOfCreation": "2021-09-16",
+        "dateOfRevision": "2023-03-02",
+        "electronicPublicationDate": "2021-10-19",
+        "firstPublicationDate": "2021-10-19",
+        "firstIndexDate": "2021-09-17",
+        "fullTextReceivedDate": "2025-02-02",
+        "embargoDate": "2023-03-01",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

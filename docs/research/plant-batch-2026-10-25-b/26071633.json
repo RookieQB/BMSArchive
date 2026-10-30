@@ -1,0 +1,351 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:26071633 AND SRC:MED",
+    "internalQuery": "EXT_ID:26071633 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "26071633",
+        "source": "MED",
+        "pmid": "26071633",
+        "doi": "10.1016/j.clnu.2015.05.012",
+        "title": "Effects of flaxseed supplements on blood pressure: A systematic review and meta-analysis of controlled clinical trial.",
+        "authorString": "Ursoniu S, Sahebkar A, Andrica F, Serban C, Banach M, Lipid and Blood Pressure Meta-analysis Collaboration (LBPMC) Group.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ursoniu S",
+              "lastName": "Ursoniu",
+              "firstName": "Sorin",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9215-5154"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Functional Sciences, Discipline of Public Health, \"Victor Babes\" University of Medicine and Pharmacy, Timisoara, Romania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sahebkar A",
+              "lastName": "Sahebkar",
+              "firstName": "Amirhossein",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biotechnology Research Center, Mashhad University of Medical Sciences, Mashhad, Iran; Metabolic Research Centre, Royal Perth Hospital, School of Medicine and Pharmacology, University of Western Australia, Perth, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Andrica F",
+              "lastName": "Andrica",
+              "firstName": "Florina",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7418-9860"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pharmacy, Discipline of Pharmaceutical Chemistry \"Victor Babes\" University of Medicine and Pharmacy, Timisoara, Romania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Serban C",
+              "lastName": "Serban",
+              "firstName": "Corina",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3352-0398"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Functional Sciences, Discipline of Pathophysiology, \"Victor Babes\" University of Medicine and Pharmacy, Timisoara, Romania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Banach M",
+              "lastName": "Banach",
+              "firstName": "Maciej",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6690-6874"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chair of Nephrology and Hypertension, Medical University of Lodz, Poland. Electronic address: maciejbanach@aol.co.uk."
+                  }
+                ]
+              }
+            },
+            {
+              "collectiveName": "Lipid and Blood Pressure Meta-analysis Collaboration (LBPMC) Group"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6690-6874"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7418-9860"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9215-5154"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3352-0398"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "35",
+          "journalIssueId": 2401434,
+          "dateOfPublication": "2016 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Clin Nutr",
+            "title": "Clinical nutrition (Edinburgh, Scotland)",
+            "essn": "1532-1983",
+            "issn": "0261-5614",
+            "isoabbreviation": "Clin Nutr",
+            "nlmid": "8309603"
+          },
+          "printPublicationDate": "2016-06-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "615-625",
+        "abstractText": "<h4>Background & aims</h4>Many experimental and clinical trials suggested that flaxseed might be a potent antihypertensive, but the evidences concerning the effects of flaxseed supplements on blood pressure (BP) has not been fully conclusive. We aimed to assess the impact of the effects of flaxseed supplements on blood pressure through systematic review of literature and meta-analysis of available randomized controlled trials (RCTs).<h4>Methods</h4>The literature search included PUBMED, Cochrane Library, Scopus, and EMBASE up to February 2015 to identify RCTs investigating the effect of flaxseed supplements on plasma blood pressure. Effect size was expressed as weighed mean difference (WMD) and 95% confidence interval (CI).<h4>Results</h4>15 trials (comprising 19 treatment arms) with 1302 participants were included in this meta-analysis. Random-effects meta-analysis suggested significant reductions in both systolic BP (SBP) (WMD:\u00a0-2.85\u00a0mmHg, 95%CI:\u00a0-5.37 to\u00a0-0.33, p\u00a0=\u00a00.027) and diastolic BP (DBP) (WMD:\u00a0-2.39\u00a0mmHg, 95%CI:\u00a0-3.78 to\u00a0-0.99, p\u00a0=\u00a00.001) following supplementation with flaxseed products. When the studies were stratified according to their duration, there was a greater effect on both SBP and DBP in the subset of trials with \u226512 weeks of duration (WMD:\u00a0-3.10\u00a0mmHg, 95%CI:\u00a0-6.46 to 0.27, p\u00a0=\u00a00.072 and\u00a0-2.62\u00a0mmHg, 95%CI:\u00a0-4.39 to\u00a0-0.86, p\u00a0=\u00a00.003, respectively) vs the subset lasting <12 weeks (WMD:\u00a0-1.60\u00a0mmHg, 95%CI:\u00a0-5.44 to 2.24, p\u00a0=\u00a00.413, and\u00a0-1.74\u00a0mmHg, 95%CI:\u00a0-4.41 to 0.93, p\u00a0=\u00a00.202, respectively). Another subgroup analysis was performed to assess the impact of flaxseed supplement type on BP. Reduction of SBP was significant with flaxseed powder (WMD:\u00a0-1.81\u00a0mmHg, 95% CI:\u00a0-2.03 to\u00a0-1.59, p\u00a0<\u00a00.001) but not oil (WMD:\u00a0-4.62\u00a0mmHg, 95%CI:\u00a0-11.86 to 2.62, p\u00a0=\u00a00.211) and lignan extract (WMD: 0.28\u00a0mmHg, 95% CI:\u00a0-3.49 to 4.04, p\u00a0=\u00a00.885). However, DBP was significantly reduced with powder and oil preparations (WMD:\u00a0-1.28\u00a0mmHg, 95% CI:\u00a0-2.44 to\u00a0-0.11, p\u00a0=\u00a00.031, and\u00a0-4.10\u00a0mmHg, 95%CI:\u00a0-6.81 to\u00a0-1.39, p\u00a0=\u00a00.003, respectively), but not with lignan extract (WMD:\u00a0-1.78\u00a0mmHg, 95% CI:\u00a0-4.28 to 0.72, p\u00a0=\u00a00.162).<h4>Conclusions</h4>This meta-analysis of RCTs showed significant reductions in both SBP and DBP following supplementation with various flaxseed products.",
+        "affiliation": "Department of Functional Sciences, Discipline of Public Health, \"Victor Babes\" University of Medicine and Pharmacy, Timisoara, Romania.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Comparative Study",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flax",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Seeds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypertension",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DH",
+                    "qualifierName": "diet therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lignans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Linseed Oil",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antihypertensive Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Evidence-Based Medicine"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Linum usitatissimum",
+            "Flaxseed",
+            "Meta-analysis",
+            "Systematic review",
+            "Arterial Hypertension"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Linseed Oil",
+              "registryNumber": "8001-26-1"
+            },
+            {
+              "name": "Antihypertensive Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lignans",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.clnu.2015.05.012"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 71,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-01-16",
+        "dateOfCreation": "2015-06-15",
+        "dateOfRevision": "2025-06-26",
+        "electronicPublicationDate": "2015-05-29",
+        "firstPublicationDate": "2015-05-29",
+        "firstIndexDate": "2015-06-16",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

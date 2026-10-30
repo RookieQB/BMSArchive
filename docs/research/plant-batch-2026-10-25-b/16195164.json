@@ -1,0 +1,273 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:16195164 AND SRC:MED",
+    "internalQuery": "EXT_ID:16195164 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "16195164",
+        "source": "MED",
+        "pmid": "16195164",
+        "doi": "10.1080/03009740510018624",
+        "title": "A powder made from seeds and shells of a rose-hip subspecies (Rosa canina) reduces symptoms of knee and hip osteoarthritis: a randomized, double-blind, placebo-controlled clinical trial.",
+        "authorString": "Winther K, Apel K, Thamsborg G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Winther K",
+              "lastName": "Winther",
+              "firstName": "K",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Biochemistry, Copenhagen County Hospital Gentofte, 2900 Hellerup, Denmark. kawi@gentoftehosp.kbhamt.dk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Apel K",
+              "lastName": "Apel",
+              "firstName": "K",
+              "initials": "K"
+            },
+            {
+              "fullName": "Thamsborg G",
+              "lastName": "Thamsborg",
+              "firstName": "G",
+              "initials": "G"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "34",
+          "journalIssueId": 1261884,
+          "dateOfPublication": "2005 Jul-Aug",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "Scand J Rheumatol",
+            "title": "Scandinavian journal of rheumatology",
+            "essn": "1502-7732",
+            "issn": "0300-9742",
+            "isoabbreviation": "Scand J Rheumatol",
+            "nlmid": "0321213"
+          },
+          "printPublicationDate": "2005-07-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "302-308",
+        "abstractText": "<h4>Objective</h4>The aim of this study was to determine whether a herbal remedy made from a subspecies of rose-hip (Rosa canina) might reduce symptoms of osteoarthritis and consumption of rescue medication in patients suffering from osteoarthritis.<h4>Methods</h4>Ninety-four patients with osteoarthritis of the hip or knee were enrolled in a randomized, placebo-controlled, double-blind crossover trial. Forty-seven patients were given 5 g of the herbal remedy daily for a period of 3 months and the remaining patients were given a similar amount of placebo. The group initially treated with placebo was then changed to rose-hip and vice versa for another 3-month period. Upon inclusion and after 3 weeks and 3 months of each treatment period, pain, stiffness, disability, and global severity of the disease were scored on a Western Ontario and McMaster Universities (WOMAC) questionnaire. After 3 weeks of treatment, patients, if possible, were allowed to reduce their consumption of 'rescue medication'. Data were analysed on the basis of intention to treat.<h4>Results</h4>Rose-hip resulted in a significant reduction in WOMAC pain (p<0.014) as compared to placebo, when testing after 3 weeks of treatment. The consumption of 'rescue medication' significantly declined as a result of active treatment (p<0.027). WOMAC disability, stiffness, and global assessment of severity of the disease were not altered by 3 weeks but decreased significantly (p<0.018, p<0.038, and p<0.035, respectively) after 3 months of treatment.<h4>Conclusion</h4>The data suggest that the present herbal remedy can alleviate symptoms of osteoarthritis and reduce the consumption of 'rescue medication'.",
+        "affiliation": "Department of Clinical Biochemistry, Copenhagen County Hospital Gentofte, 2900 Hellerup, Denmark. kawi@gentoftehosp.kbhamt.dk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Clinical Trial",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Rosa"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osteoarthritis, Knee",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osteoarthritis, Hip",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain Measurement"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Range of Motion, Articular",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytotherapy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Severity of Illness Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Probability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Statistics, Nonparametric"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Follow-Up Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Over Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Patient Satisfaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/03009740510018624"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 47,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-11-07",
+        "dateOfCreation": "2005-10-01",
+        "dateOfRevision": "2006-11-15",
+        "firstPublicationDate": "2005-07-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

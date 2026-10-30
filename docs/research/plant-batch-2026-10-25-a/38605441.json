@@ -1,0 +1,262 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:38605441 AND SRC:MED",
+    "internalQuery": "EXT_ID:38605441 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "38605441",
+        "source": "MED",
+        "pmid": "38605441",
+        "doi": "10.1093/jbcr/irae061",
+        "title": "Effects of Aloe vera on Burn Injuries: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+        "authorString": "Huang YN, Chen KC, Wang JH, Lin YK.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Huang YN",
+              "lastName": "Huang",
+              "firstName": "Yu-Ning",
+              "initials": "YN",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anesthesiology, Hualien Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Hualien 970473, Taiwan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen KC",
+              "lastName": "Chen",
+              "firstName": "Kun-Chuan",
+              "initials": "KC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Emergency Medicine, Hualien Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Hualien 970473, Taiwan."
+                  },
+                  {
+                    "affiliation": "Institute of Medical Sciences, Tzu Chi University, Hualien 970374, Taiwan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang JH",
+              "lastName": "Wang",
+              "firstName": "Jen-Hung",
+              "initials": "JH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4946-8064"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Research, Hualien Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Hualien 970473, Taiwan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin YK",
+              "lastName": "Lin",
+              "firstName": "Yun-Kuan",
+              "initials": "YK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1258-6921"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Emergency Medicine, Hualien Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Hualien 970473, Taiwan."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1258-6921"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4946-8064"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "45",
+          "journalIssueId": 3853345,
+          "dateOfPublication": "2024 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "J Burn Care Res",
+            "title": "Journal of burn care & research : official publication of the American Burn Association",
+            "essn": "1559-0488",
+            "issn": "1559-047X",
+            "nlmid": "101262774",
+            "isoabbreviation": "J Burn Care Res"
+          },
+          "printPublicationDate": "2024-11-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "1536-1545",
+        "abstractText": "Burn injuries cause severe pain, infection risks, psychological distress, financial burdens, and mortality, necessitating effective care. Aloe vera, a traditional burn remedy, shows wound-healing potential, but its analgesic effects and efficacy with varying burn severity are uncertain. This study aims to investigate A. vera's effect on wound healing, pain management, and infection prevention in patients with burns. A systematic search on PubMed, Embase, and CENTRAL was performed on October 9, 2023, for randomized controlled trials (RCTs). The risk of bias was examined using the Cochrane risk-of-bias tool (version 2), and the meta-analysis was carried out using a random-effects model. The primary outcome was wound-healing time, with secondary outcomes examining pain severity and wound infection. The Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) approach was used to assess the quality of evidence for each outcome. Nine RCTs were included in the current study, of which 6 provided data on the primary outcome. Aloe vera significantly reduced mean wound-healing time compared to other topicals (mean difference [MD] -3.76 days; 95% CI, -5.69 to -1.84). Additionally, the meta-analysis of the secondary outcomes found no significant differences in pain reduction (MD -0.76 points; 95% CI, -1.53 to 0.01) and wound infection risk (risk ratio 1.10; 95% CI, 0.34-3.59) between A. vera and control groups. In conclusion, A. vera expedites wound healing in patients with second-degree burns without increased infection risk compared to other antimicrobial agents. The analgesic effects on burn injuries remain uncertain.",
+        "affiliation": "Department of Anesthesiology, Hualien Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Hualien 970473, Taiwan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Aloe"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Wound Infection",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Burns",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Wound Healing",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain Management",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Burn",
+            "Meta-analysis",
+            "Aloe vera",
+            "Systematic review",
+            "Silver Sulfadiazine"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/jbcr/irae061"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-11-16",
+        "dateOfCreation": "2024-04-12",
+        "dateOfRevision": "2025-08-27",
+        "firstPublicationDate": "2024-11-01",
+        "firstIndexDate": "2024-04-12",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

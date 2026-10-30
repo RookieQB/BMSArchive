@@ -1,0 +1,433 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:24429845 AND SRC:MED",
+    "internalQuery": "EXT_ID:24429845 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "24429845",
+        "source": "MED",
+        "pmid": "24429845",
+        "pmcid": "PMC3996458",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3996458"
+          ]
+        },
+        "doi": "10.1039/c3fo60402k",
+        "title": "Metabolism of secoisolariciresinol-diglycoside the dietary precursor to the intestinally derived lignan enterolactone in humans.",
+        "authorString": "Setchell KD, Brown NM, Zimmer-Nechemias L, Wolfe B, Jha P, Heubi JE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Setchell KD",
+              "lastName": "Setchell",
+              "firstName": "Kenneth D R",
+              "initials": "KD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9147-0136"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pathology, Clinical Mass Spectrometry, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, Cincinnati, Ohio 45229, USA. Kenneth.Setchell@CCHMC.org."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Brown NM",
+              "lastName": "Brown",
+              "firstName": "Nadine M",
+              "initials": "NM"
+            },
+            {
+              "fullName": "Zimmer-Nechemias L",
+              "lastName": "Zimmer-Nechemias",
+              "firstName": "Linda",
+              "initials": "L"
+            },
+            {
+              "fullName": "Wolfe B",
+              "lastName": "Wolfe",
+              "firstName": "Brian",
+              "initials": "B"
+            },
+            {
+              "fullName": "Jha P",
+              "lastName": "Jha",
+              "firstName": "Pinky",
+              "initials": "P"
+            },
+            {
+              "fullName": "Heubi JE",
+              "lastName": "Heubi",
+              "firstName": "James E",
+              "initials": "JE"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9147-0136"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "5",
+          "journalIssueId": 2147777,
+          "dateOfPublication": "2014 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Food Funct",
+            "title": "Food & function",
+            "essn": "2042-650X",
+            "issn": "2042-6496",
+            "isoabbreviation": "Food Funct",
+            "nlmid": "101549033"
+          },
+          "printPublicationDate": "2014-03-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "491-501",
+        "abstractText": "Secoisolariciresinol-diglycoside (SDG), a natural dietary lignan of flaxseeds now available in dietary supplements, is converted by intestinal bacteria to the mammalian lignans enterodiol and enterolactone. High levels of these lignans in blood and urine are associated with reduced risk of many chronic diseases. Our objective was to determine the bioavailability and pharmacokinetics of SDG in purified flaxseed extracts under dose-ranging and steady-state conditions, and to examine whether differences in secoisolariciresinol-diglycoside purity influence bioavailability. Pharmacokinetic studies were performed on healthy postmenopausal women after oral intake of 25, 50, 75, 86 and 172 mg of secoisolariciresinol-diglycoside. Extracts differing in secoisolariciresinol-diglycoside purity were compared, and steady-state lignan concentrations measured after daily intake for one week. Blood and urine samples were collected at timed intervals and secoisolariciresinol, enterodiol and enterolactone concentrations measured by mass spectrometry. Secoisolariciresinol-diglycoside was efficiently hydrolyzed and converted to secoisolariciresinol. Serum concentrations increased rapidly after oral intake, peaking after 5-7 h and disappearing with a plasma elimination half-life of 4.8 h. Maximum serum concentrations of the biologically active metabolites, enterodiol and enterolactone were attained after 12-24 h and 24-36 h, respectively, and the half-lives were 9.4 h and 13.2 h. Linear dose-responses were observed and secoisolariciresinol bioavailability correlated (r(2) = 0.835) with cumulative lignan excretion. There were no significant differences in the pharmacokinetics of extracts differing in purity, and steady-state serum lignan concentrations were obtained after one-week of daily dosing. In conclusion, this study defines the pharmacokinetics of secoisolariciresinol-diglycoside and shows it is first hydrolyzed and then metabolized in a time-dependent sequence to secoisolariciresinol, enterodiol and ultimately enterolactone, and these metabolites are efficiently absorbed.",
+        "affiliation": "Division of Pathology, Clinical Mass Spectrometry, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, Cincinnati, Ohio 45229, USA. Kenneth.Setchell@CCHMC.org.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NCATS NIH HHS",
+              "acronym": "TR",
+              "grantId": "UL1 TR000077",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "P30 DK078392",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCRR NIH HHS",
+              "acronym": "RR",
+              "grantId": "M01 RR008084",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCCIH NIH HHS",
+              "acronym": "AT",
+              "grantId": "R01 AT002190",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flax",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Butylene Glycols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lignans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "4-Butyrolactone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Postmenopause",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Glycosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Butylene Glycols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lignans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "secoisolariciresinol",
+              "registryNumber": "M8QRJ7JEJH"
+            },
+            {
+              "name": "2,3-bis(3'-hydroxybenzyl)butyrolactone",
+              "registryNumber": "X01E7E1D6H"
+            },
+            {
+              "name": "4-Butyrolactone",
+              "registryNumber": "OL659KIY4X"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc3996458?pdf=render"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1039/c3fo60402k"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3996458"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3996458?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1039/c3fo60402k"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 61,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS555571",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-10-20",
+        "dateOfCreation": "2014-01-17",
+        "dateOfRevision": "2021-10-21",
+        "firstPublicationDate": "2014-03-01",
+        "firstIndexDate": "2014-01-17",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

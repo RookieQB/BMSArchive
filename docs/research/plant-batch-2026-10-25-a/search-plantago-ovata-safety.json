@@ -1,0 +1,2887 @@
+{
+  "query": "TITLE_ABS:\"Plantago ovata\" AND (adverse effects OR toxicity OR drug interactions)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 15,
+    "nextCursorMark": "AoIIQC4esig0Nzg5MTk1Mw==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Plantago+ovata%22+AND+%28adverse+effects+OR+toxicity+OR+drug+interactions%29&cursorMark=AoIIQC4esig0Nzg5MTk1Mw%3D%3D&resultType=core&pageSize=8&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"Plantago ovata\" AND (adverse effects OR toxicity OR drug interactions)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42247419",
+          "source": "MED",
+          "pmid": "42247419",
+          "pmcid": "PMC13240915",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13240915"
+            ]
+          },
+          "doi": "10.1371/journal.pntd.0014389",
+          "title": "Plant-based therapeutics for leishmaniasis: A systematic review emphasizing human studies and clinical trial evidence.",
+          "authorString": "Anning AS, Osmani V, Klug SJ, Obiri-Yeboah D.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Anning AS",
+                "lastName": "Anning",
+                "firstName": "Alberta Serwah",
+                "initials": "AS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3027-6353"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biomedical Sciences, School of Allied Health Sciences, College of Health and Allied Sciences, University of Cape Coast, Cape Coast, Ghana."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Osmani V",
+                "lastName": "Osmani",
+                "firstName": "Vanesa",
+                "initials": "V",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Chair of Epidemiology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Klug SJ",
+                "lastName": "Klug",
+                "firstName": "Stefanie J",
+                "initials": "SJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3523-1362"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Chair of Epidemiology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Obiri-Yeboah D",
+                "lastName": "Obiri-Yeboah",
+                "firstName": "Dorcas",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, School of Medical Sciences, College of Health and Allied Sciences, University of Cape Coast, Cape Coast, Ghana."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3027-6353"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3523-1362"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "20",
+            "journalIssueId": 4204553,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "PLoS Negl Trop Dis",
+              "title": "PLoS neglected tropical diseases",
+              "essn": "1935-2735",
+              "issn": "1935-2727",
+              "nlmid": "101291488",
+              "isoabbreviation": "PLoS Negl Trop Dis"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "e0014389",
+          "abstractText": "<h4>Background</h4>Leishmaniasis is a parasitic disease caused by Leishmania species and transmitted through sand fly bites, affecting some of the most vulnerable populations globally. Current treatments are limited by high toxicity, poor tolerability, and resistance. Plant-based therapies offer a promising alternative, but human evidence has not been comprehensively reviewed. This review summarizes current evidence on the efficacy and safety of plant-based treatments for leishmaniasis in humans.<h4>Methodology/findings</h4>We conducted a systematic review including studies that evaluated the efficacy and safety of plant-based treatments for leishmaniasis in humans. This review was registered with PROSPERO (ID: CRD42024567764). We searched PubMed, Scopus, and Web of Science from inception to May 28, 2024. Risk of bias was assessed using the Cochrane RoB 2 tool. We summarized the main study results qualitatively and quantitatively (where possible) by estimating risk ratios with 95% confidence intervals for treatment outcomes using the meta package in R. Ten studies met the inclusion criteria, nine from Iran and one from Sudan, all focused on cutaneous leishmaniasis (CL). Most used topical creams derived from medicinal plants, either alone or with conventional treatments. In studies combining herbal and standard treatments, four of six studies showed better outcomes in the intervention group. In studies using only the plant-based treatments compared to a standard treatment group, two of four showed better outcomes in the intervention group. Quantitative analysis of eight studies indicated significant healing improvements in the intervention group in three studies, specifically those using Juniperus excelsa, Nigella sativa, and poly-herbal formulations consisting of the pure extract mixture of Althaea (A.) rosa, A. officinalis, and members of the families Leguminosae, Faliaceae, Malvaceae, and Lythraceae (named Z-HE). Mild side effects such as itching and burning were reported with some herbal treatments, while conventional therapies caused more severe reactions in some cases. The risk of bias was mostly high in the studies.<h4>Conclusions</h4>This review highlights the potential of certain plant-based compounds as adjunct or alternative therapies for CL. Despite promising results with Plantago ovata, Juniperus excelsa, and Z-HE poly-herbal extracts, current evidence is limited by methodological weaknesses. Larger, rigorously designed trials with broader representation are needed to confirm efficacy and safety and support policy integration in endemic regions.",
+          "affiliation": "Department of Biomedical Sciences, School of Allied Health Sciences, College of Health and Allied Sciences, University of Cape Coast, Cape Coast, Ghana.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Systematic Review",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Leishmania",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plants, Medicinal",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Leishmaniasis",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Leishmaniasis, Cutaneous",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antiprotozoal Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Phytotherapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Clinical Trials as Topic"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antiprotozoal Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1371/journal.pntd.0014389"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13240915"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13240915?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-11",
+          "dateOfCreation": "2026-06-05",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-05",
+          "firstPublicationDate": "2026-06-05",
+          "firstIndexDate": "2026-06-06",
+          "fullTextReceivedDate": "2026-06-08",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40573801",
+          "source": "MED",
+          "pmid": "40573801",
+          "pmcid": "PMC12197151",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12197151"
+            ]
+          },
+          "doi": "10.3390/plants14121813",
+          "title": "Therapeutic Potential of &lt;i&gt;Plantago ovata&lt;/i&gt; Bioactive Extracts Obtained by Supercritical Fluid Extraction as Influenced by Temperature on Anti-Obesity, Anticancer, and Antimicrobial Activities.",
+          "authorString": "Qanash H, Bazaid AS, Binsaleh NK, Alshammari AS, Eltayeb R.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Qanash H",
+                "lastName": "Qanash",
+                "firstName": "Husam",
+                "initials": "H",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3068-0313"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Laboratory Science, College of Applied Medical Sciences, University of Ha'il, Hail 55476, Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, Hail 55473, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bazaid AS",
+                "lastName": "Bazaid",
+                "firstName": "Abdulrahman S",
+                "initials": "AS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5884-0278"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Laboratory Science, College of Applied Medical Sciences, University of Ha'il, Hail 55476, Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, Hail 55473, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Binsaleh NK",
+                "lastName": "Binsaleh",
+                "firstName": "Naif K",
+                "initials": "NK",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Laboratory Science, College of Applied Medical Sciences, University of Ha'il, Hail 55476, Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, Hail 55473, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alshammari AS",
+                "lastName": "Alshammari",
+                "firstName": "Amirah S",
+                "initials": "AS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Laboratory Science, College of Applied Medical Sciences, University of Ha'il, Hail 55476, Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, Hail 55473, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Eltayeb R",
+                "lastName": "Eltayeb",
+                "firstName": "Reem",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Laboratory Science, College of Applied Medical Sciences, University of Ha'il, Hail 55476, Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, Hail 55473, Saudi Arabia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3068-0313"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5884-0278"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "12",
+            "volume": "14",
+            "journalIssueId": 3966969,
+            "dateOfPublication": "2025 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Plants (Basel)",
+              "title": "Plants (Basel, Switzerland)",
+              "essn": "2223-7747",
+              "issn": "2223-7747",
+              "nlmid": "101596181",
+              "isoabbreviation": "Plants (Basel)"
+            },
+            "printPublicationDate": "2025-06-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "1813",
+          "abstractText": "<i>Plantago ovata</i> has been utilized as an effective natural remedy with minimal side effects, offering a promising alternative to synthetic pharmaceuticals. The supercritical fluid extraction (SFE) of <i>Plantago ovata</i> leaves yielded 0.417 g and 0.532 g at 40 \u00b0C and 80 \u00b0C, respectively. The 40 \u00b0C extract exhibited stronger antimicrobial activity, with minimum inhibitory concentrations (MICs) as low as 15.62 \u00b5g/mL and minimum bactericidal concentrations (MBCs) as low as 31.25 \u00b5g/mL against <i>Bacillus subtilis</i> and <i>Candida albicans</i>. In contrast, the 80 \u00b0C extract demonstrated reduced activity, with MICs and MBCs up to 250 and 500 \u00b5g/mL, respectively. The 40 \u00b0C extract also showed superior lipase inhibition (IC<sub>50</sub> = 17.21 \u00b5g/mL) compared to the 80 \u00b0C extract (IC<sub>50</sub> = 26.42 \u00b5g/mL), although orlistat remained the most potent (IC<sub>50</sub> = 6.02 \u00b5g/mL). In addition, cytotoxicity assays revealed stronger effects of the 40 \u00b0C extract on Caco-2 colon cancer cells (IC<sub>50</sub> = 109.47 \u00b5g/mL) compared to the 80 \u00b0C extract (IC<sub>50</sub> = 174.81 \u00b5g/mL). These results suggest that the lower-temperature SFE of <i>P. ovata</i> yields extracts with enhanced antimicrobial, anti-obesity, and anticancer activities, supporting its potential for pharmaceutical and nutraceutical applications.",
+          "affiliation": "Department of Medical Laboratory Science, College of Applied Medical Sciences, University of Ha'il, Hail 55476, Saudi Arabia.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Scientific Research Deanship at University of Ha'il- Saudi Arabia",
+                "grantId": "RCP-24 099",
+                "orderIn": 0
+              },
+              {
+                "agency": "Scientific Research Deanship at University of Ha\u2019il-Saudi Arabia",
+                "grantId": "RCP-24 099",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Medicinal plants",
+              "Antimicrobial activity",
+              "Polyphenols",
+              "Anticancer",
+              "Supercritical Fluid Extraction",
+              "Anti-obesity"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/plants14121813"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12197151"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12197151?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 3,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-06-27",
+          "dateOfRevision": "2026-09-25",
+          "electronicPublicationDate": "2025-06-12",
+          "firstPublicationDate": "2025-06-12",
+          "firstIndexDate": "2025-06-28",
+          "fullTextReceivedDate": "2025-11-28",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41741921",
+          "source": "MED",
+          "pmid": "41741921",
+          "pmcid": "PMC12935724",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12935724"
+            ]
+          },
+          "doi": "10.1007/s13668-025-00722-4",
+          "title": "From Husks and Seeds to Health: an Inevitable Outcome Rather than a Fluke.",
+          "authorString": "Sanlier N, Ozler E.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Sanlier N",
+                "lastName": "Sanlier",
+                "firstName": "Nevin",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5937-0485"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Nutrition and Dietetics, School of Health Sciences, Ankara Medipol University, Alt\u0131nda\u011f, Ankara, 06050, Turkey. nevintekgul@gmail.com."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ozler E",
+                "lastName": "Ozler",
+                "firstName": "Ebru",
+                "initials": "E",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0000-3303-3077"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Nutrition and Dietetics, School of Health Sciences, Ankara Medipol University, Alt\u0131nda\u011f, Ankara, 06050, Turkey."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5937-0485"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0000-3303-3077"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "15",
+            "journalIssueId": 4118554,
+            "dateOfPublication": "2026 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Curr Nutr Rep",
+              "title": "Current nutrition reports",
+              "essn": "2161-3311",
+              "issn": "2161-3311",
+              "nlmid": "101587480",
+              "isoabbreviation": "Curr Nutr Rep"
+            },
+            "printPublicationDate": "2026-02-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "15",
+          "abstractText": "<h4>Purpose of review</h4>This review was conducted to examine the promising health benefits of psyllium, its therapeutic potential in relation to various chronic diseases, its mechanisms, and its possible side effects or toxicity; to explore its applications in food systems; to identify the positive and negative effects of its consumption; and to provide perspectives for future research and development efforts for psyllium.<h4>Recent findings</h4>Psyllium, also known as ispaghula, is a dietary fiber obtained from the shells of Plantago ovata seeds. The most abundant monosaccharides in its composition are xylose and arabinose. Psyllium is a natural alternative to the use of food additives such as gum and hydrocolloid to increase the fiber content in fortified foods. Psyllium may have therapeutic effects on various diseases. In recent years, its potential in the management of conditions such as hypertension, diabetes, and liver disease has been emphasized and multifaceted therapeutic applications have been introduced. Psyllium may help to regulate blood glucose, blood pressure and cholesterol levels. It may also increase feelings of fullness and reduce food intake. Furthermore, psyllium may promote bowel regularity and improve the composition of gut microbiota. Psyllium has been reported to exhibit antioxidant and antimicrobial properties, as well as reducing inflammatory mediators such as TNF-\u03b1 and nitric oxide. Furthermore, psyllium has been associated with lower creatinine and uric acid levels, as well as a reduced risk of carcinogenesis. Studies in the literature support the therapeutic effects of psyllium. However, longer-term clinical trials are needed to determine the effective dose and duration of use. Innovative product development studies should be conducted to enhance the functional benefits of psyllium in the food industry.",
+          "affiliation": "Department of Nutrition and Dietetics, School of Health Sciences, Ankara Medipol University, Alt\u0131nda\u011f, Ankara, 06050, Turkey. nevintekgul@gmail.com.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Ankara Medipol University",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Obesity",
+              "Diabetes",
+              "dietary fiber",
+              "Constipation",
+              "Psyllium"
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1007/s13668-025-00722-4"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12935724"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12935724?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2026-02-25",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-02-26",
+          "firstPublicationDate": "2026-02-26",
+          "firstIndexDate": "2026-02-26",
+          "fullTextReceivedDate": "2026-02-27",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42438928",
+          "source": "MED",
+          "pmid": "42438928",
+          "pmcid": "PMC13367084",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13367084"
+            ]
+          },
+          "doi": "10.1080/15592324.2026.2700903",
+          "title": "Partial root-zone drying enhances antioxidant signaling and physiological resilience in psyllium (&lt;i&gt;Plantago ovata&lt;/i&gt;) under arid conditions.",
+          "authorString": "Iqbal R, Ahmad S, Suleiman K, Murtaza G, Ullah S, Harsonowati W, Jabborova D, Ahmad S, Ditta A, Yassin MT.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Iqbal R",
+                "lastName": "Iqbal",
+                "firstName": "Rashid",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Agronomy, Faculty of Agriculture and Environment, The Islamia University of Bahawalpur, Bahawalpur, Pakistan."
+                    },
+                    {
+                      "affiliation": "Sustainable Development Research Center, Azerbaijan State Oil and Industry University, Baku, Azerbaijan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ahmad S",
+                "lastName": "Ahmad",
+                "firstName": "Salman",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Agronomy, Faculty of Agriculture and Environment, The Islamia University of Bahawalpur, Bahawalpur, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Suleiman K",
+                "lastName": "Suleiman",
+                "firstName": "Khaqan",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Humanities and Social Sciences (H&SS), Bahria University, Islamabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Murtaza G",
+                "lastName": "Murtaza",
+                "firstName": "Ghulam",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Agriculture, Yunnan University, Kunming, China."
+                    },
+                    {
+                      "affiliation": "International Center for Interdisciplinary Research in Sciences, The University of Lahore, Lahore, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ullah S",
+                "lastName": "Ullah",
+                "firstName": "Sajid",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Water Resources and Environmental Engineering, Nangarhar University, Jalalabad, Afghanistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Harsonowati W",
+                "lastName": "Harsonowati",
+                "firstName": "Wiwiek",
+                "initials": "W",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Research Center for Horticulture, National Research and Innovation Agency (BRIN), Cibinong, Indonesia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jabborova D",
+                "lastName": "Jabborova",
+                "firstName": "Dilfuza",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2327-9545"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Genetics and Plant Experimental Biology of the Academy of Sciences of Uzbekistan, Kibray, Uzbekistan."
+                    },
+                    {
+                      "affiliation": "Faculty of Biology, National University of Uzbekistan, Tashkent, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ahmad S",
+                "lastName": "Ahmad",
+                "firstName": "Sidra",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Biotechnology and Genetic Engineering, The University of Agriculture Peshawar, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ditta A",
+                "lastName": "Ditta",
+                "firstName": "Allah",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1745-4757"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biological Sciences, The University of Western Australia, Perth, WA, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yassin MT",
+                "lastName": "Yassin",
+                "firstName": "Mohamed Taha",
+                "initials": "MT",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany and Microbiology, College of Science, King Saud University, Riyadh, Saudi Arabia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1745-4757"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2327-9545"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "21",
+            "journalIssueId": 4076768,
+            "dateOfPublication": "2026 Dec",
+            "monthOfPublication": 12,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Plant Signal Behav",
+              "title": "Plant signaling & behavior",
+              "essn": "1559-2324",
+              "issn": "1559-2316",
+              "nlmid": "101291431",
+              "isoabbreviation": "Plant Signal Behav"
+            },
+            "printPublicationDate": "2026-12-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "2700903",
+          "abstractText": "Drought-induced reduction in crop yield is becoming a serious threat worldwide, especially in arid to semiarid regions. The introduction of medicinal plants into cropping patterns in arid regions is a suitable alternative to conventional crops because of their high demand and market value. Keeping in view the situation, an experiment was planned under natural arid conditions to screen out the best psyllium varieties in less time for cultivation in arid regions. The experiment included three psyllium varieties (V1\u2009=\u2009Gujrat isabgol-2, V2\u2009=\u2009Vallabh isabgol and V3\u2009=\u2009Jawahar isabgol-4) and three irrigation regimes (control\u2009=\u2009CK, partial rootzone drying\u2009=\u2009PRD and deficit irrigation\u2009=\u2009DI) and was carried out in a completely randomized design with eight replications. The results of our experiment revealed that although cell stress indicators (electrolyte leakage, relative cell injury, methylglyoxal, malondialdehyde, and hydrogen peroxide contents) were less and photosynthesis, water relationships, and membrane stability were greater in the control irrigation, the activities of enzymatic and nonenzymatic antioxidants were greater in the PRD and DI regimes. Among the water deficit treatments, more water potential, proline contents, ascorbic acid contents, membrane stability index, and yield were recorded in the PRD than in the DI. Among the varieties, V3 performed the best under water deficit conditions, whereas variety V2 presented the lowest values. It was concluded that under less water availability, the combination of the PRD with the variety V3 optimized physiological and yield outcomes by sustained higher relative water contents (77.10%), mesophyll conductance (0.67\u2009mol CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup> bar<sup>-1</sup>), photosynthesis (15.10\u2009\u00b5mol of CO<sub>2</sub> m<sup>-2</sup>s<sup>-1</sup>), and membrane stability index (78.80%). Consequently, maximized water use efficiency (0.21\u2009g L<sup>-1</sup>) and antioxidant activities, leading to higher yield (0.76\u2009g plant<sup>-1</sup>). Future research should focus on integrating PRD with other water management techniques like mulching, osmoprotectants spray to enhance its efficacy under water deficit conditions.",
+          "affiliation": "Department of Agronomy, Faculty of Agriculture and Environment, The Islamia University of Bahawalpur, Bahawalpur, Pakistan.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "King Saud University, Riyadh, Saudi Arabia",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plantago",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Roots",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Hydrogen Peroxide",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Water",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Psyllium",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antioxidants",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Signal Transduction"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Photosynthesis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Droughts"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Drought Resistance"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Antioxidants",
+              "Water use efficiency",
+              "Drought",
+              "Membrane Stability Index",
+              "Plant Water Relationships"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antioxidants",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Psyllium",
+                "registryNumber": "8063-16-9"
+              },
+              {
+                "name": "Water",
+                "registryNumber": "059QF0KO0R"
+              },
+              {
+                "name": "Hydrogen Peroxide",
+                "registryNumber": "BBX060AN9V"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1080/15592324.2026.2700903"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13367084"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13367084?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-13",
+          "dateOfCreation": "2026-07-13",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-07-13",
+          "firstPublicationDate": "2026-07-13",
+          "firstIndexDate": "2026-07-13",
+          "fullTextReceivedDate": "2026-09-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40985195",
+          "source": "MED",
+          "pmid": "40985195",
+          "pmcid": "PMC12455465",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12455465"
+            ]
+          },
+          "doi": "10.1111/1541-4337.70297",
+          "title": "Structural and Functional Properties of Fiber From Psyllium (Plantago ovata) Husk: Current Knowledge and Strategies to Expand Its Application in Food and Beyond.",
+          "authorString": "Strkalj L, Yakubov GE, Burton RA, Cowley JM.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Strkalj L",
+                "lastName": "Strkalj",
+                "firstName": "Lucija",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9112-7258"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Agriculture, Food and Wine, The University of Adelaide, Urrbrae, South Australia, Australia."
+                    },
+                    {
+                      "affiliation": "Division of Food, Nutrition and Dietetics, School of Biosciences, University of Nottingham, Loughborough, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yakubov GE",
+                "lastName": "Yakubov",
+                "firstName": "Gleb E",
+                "initials": "GE",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5420-9422"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Food, Nutrition and Dietetics, School of Biosciences, University of Nottingham, Loughborough, UK."
+                    },
+                    {
+                      "affiliation": "Food Biopolymers Laboratory, School of Food Science and Nutrition, University of Leeds, Leeds, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Burton RA",
+                "lastName": "Burton",
+                "firstName": "Rachel A",
+                "initials": "RA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Agriculture, Food and Wine, The University of Adelaide, Urrbrae, South Australia, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cowley JM",
+                "lastName": "Cowley",
+                "firstName": "James M",
+                "initials": "JM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9030-7190"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Agriculture, Food and Wine, The University of Adelaide, Urrbrae, South Australia, Australia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5420-9422"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9112-7258"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9030-7190"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "5",
+            "volume": "24",
+            "journalIssueId": 3988716,
+            "dateOfPublication": "2025 Sep",
+            "monthOfPublication": 9,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Compr Rev Food Sci Food Saf",
+              "title": "Comprehensive reviews in food science and food safety",
+              "essn": "1541-4337",
+              "issn": "1541-4337",
+              "nlmid": "101305205",
+              "isoabbreviation": "Compr Rev Food Sci Food Saf"
+            },
+            "printPublicationDate": "2025-09-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "e70297",
+          "abstractText": "Psyllium husk fiber, from the milled surface of Plantago ovata seeds, is known for its high viscosity and gelling capacity, making it a widespread health supplement with benefits for satiety, glycemic control, gastrointestinal and cardiovascular health, as well as a texturizer, stabilizer, and fat and gluten replacement. Nevertheless, its application often comes with certain challenges, such as difficulties in adjusting the hydration level, gumminess, and color change. The positive and negative results of the fiber implementation are a consequence of its unique gelation profile and high water uptake. Therefore, a need to uncover the structure and rheological behavior has yielded detailed studies on its fundamental properties, as well as research with the aim of modifying the behavior of fiber for easier application in food products. This review addresses the current literature on the nutritional and health benefits of psyllium, its rheological characterization, and the pros and cons of its application in diverse food groups. Novel approaches to expand its use by modifying its relatively narrow functionality are also suggested, such as fractionation, modification, and genetic strategies. Moreover, a new perspective and future direction for research are discussed, which can also be applied to other highly viscous fibers. This paper serves as an overview of the principal and practical properties of fiber and connects insights from multiple avenues of its exploration with the aim of facilitating its expanded use, not only in food but also in other applications that employ psyllium's unique functionalities.",
+          "affiliation": "School of Agriculture, Food and Wine, The University of Adelaide, Urrbrae, South Australia, Australia.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Australian Research Council",
+                "grantId": "LP180100971",
+                "orderIn": 0
+              },
+              {
+                "agency": "Biotechnology and Biological Sciences Research Council",
+                "acronym": "BB_",
+                "grantId": "BB/T006404/1",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plantago",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Seeds",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Psyllium",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rheology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Viscosity"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Dietary Fiber",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AN",
+                      "qualifierName": "analysis"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Plantago",
+              "dietary fiber",
+              "Psyllium",
+              "rheology",
+              "Hydrocolloids",
+              "Gastrointestinal Health",
+              "Gluten\u2010free"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Psyllium",
+                "registryNumber": "8063-16-9"
+              },
+              {
+                "name": "Dietary Fiber",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1111/1541-4337.70297"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12455465"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12455465?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 4,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-09-23",
+          "dateOfCreation": "2025-09-23",
+          "dateOfRevision": "2026-06-03",
+          "firstPublicationDate": "2025-09-01",
+          "firstIndexDate": "2025-09-25",
+          "fullTextReceivedDate": "2025-09-25",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40429855",
+          "source": "MED",
+          "pmid": "40429855",
+          "pmcid": "PMC12111918",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12111918"
+            ]
+          },
+          "doi": "10.3390/ijms26104712",
+          "title": "Multitargeted Effects of &lt;i&gt;Plantago ovata&lt;/i&gt; Ethanol Extract in Experimental Rat Streptozotocin-Induced Diabetes Mellitus and Letrozole-Induced Polycystic Ovary Syndrome.",
+          "authorString": "Usatiuc LO, Pop RM, Adrian S, P\u00e2rvu M, \u021aicolea M, Uif\u0103lean A, V\u0103lean D, Gavrila\u0219 LI, Csilla-Enik\u0151 S, Leopold LF, Ranga F, C\u0103toi FA, P\u00e2rvu AE.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Usatiuc LO",
+                "lastName": "Usatiuc",
+                "firstName": "Lia-Oxana",
+                "initials": "LO",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pathophysiology, Department 2-Functional Sciences, Faculty of Medicine,\"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pop RM",
+                "lastName": "Pop",
+                "firstName": "Raluca Maria",
+                "initials": "RM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1899-5977"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Toxicology and Clinical Pharmacology, Department 2-Functional Sciences, Faculty of Medicine, \"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Adrian S",
+                "lastName": "Adrian",
+                "firstName": "Surd",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8313-5239"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pediatric Surgery and Orthopedics, \"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "P\u00e2rvu M",
+                "lastName": "P\u00e2rvu",
+                "firstName": "Marcel",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5892-9280"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Taxonomy, Faculty of Biology and Geology, \"Babes-Bolyai\" University, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u021aicolea M",
+                "lastName": "\u021aicolea",
+                "firstName": "M\u0103d\u0103lina",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pathophysiology, Department 2-Functional Sciences, Faculty of Medicine,\"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Uif\u0103lean A",
+                "lastName": "Uif\u0103lean",
+                "firstName": "Ana",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pathophysiology, Department 2-Functional Sciences, Faculty of Medicine,\"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "V\u0103lean D",
+                "lastName": "V\u0103lean",
+                "firstName": "Dan",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0571-1624"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Surgery Department, \"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gavrila\u0219 LI",
+                "lastName": "Gavrila\u0219",
+                "firstName": "Laura-Ioana",
+                "initials": "LI",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Nursing and Health Sciences, Department 2, \"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 23 Marinescu Street, 400337 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Csilla-Enik\u0151 S",
+                "lastName": "Csilla-Enik\u0151",
+                "firstName": "Szabo",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "First Pediatric Clinic, Department of Mother and Child, \"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Leopold LF",
+                "lastName": "Leopold",
+                "firstName": "Loredana Florina",
+                "initials": "LF",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8084-1998"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine, 3-5 Calea M\u0103n\u0103\u0219tur, 400372 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ranga F",
+                "lastName": "Ranga",
+                "firstName": "Floricu\u021ba",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine, 3-5 Calea M\u0103n\u0103\u0219tur, 400372 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "C\u0103toi FA",
+                "lastName": "C\u0103toi",
+                "firstName": "Florinela Adriana",
+                "initials": "FA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pathophysiology, Department 2-Functional Sciences, Faculty of Medicine,\"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "P\u00e2rvu AE",
+                "lastName": "P\u00e2rvu",
+                "firstName": "Alina Elena",
+                "initials": "AE",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9052-6844"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pathophysiology, Department 2-Functional Sciences, Faculty of Medicine,\"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0571-1624"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5892-9280"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8084-1998"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8313-5239"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9052-6844"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1899-5977"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "10",
+            "volume": "26",
+            "journalIssueId": 3948197,
+            "dateOfPublication": "2025 May",
+            "monthOfPublication": 5,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Int J Mol Sci",
+              "title": "International journal of molecular sciences",
+              "essn": "1422-0067",
+              "issn": "1422-0067",
+              "nlmid": "101092791",
+              "isoabbreviation": "Int J Mol Sci"
+            },
+            "printPublicationDate": "2025-05-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "4712",
+          "abstractText": "Polycystic ovary syndrome (PCOS), a common and multifactorial endocrine disorder in reproductive-aged women, is strongly associated with insulin resistance (IR) and type 2 diabetes mellitus (T2DM), and also affects up to one in four women with type 1 diabetes mellitus (T1DM). The current study explored the potential of <i>Plantago ovata</i> (<i>P. ovata</i>) seed ethanol extract (POEE) to modulate oxidative stress (OS), inflammatory responses, metabolic profiles, and hormonal levels in rat Streptozotocin (STZ)-induced DM and Letrozole (LET)-induced PCOS. Phytochemical analysis measured total phenolic content (TPC) and total flavonoid content (TFC) using HPLC-DAD-ESI MS for compound identification. POEE's antioxidant activity was evaluated in vitro through DPPH, H<sub>2</sub>O<sub>2</sub>, FRAP, and NO scavenging assays. Rats received POEE, metformin, or Trolox (TX) for 10 days. PCOS confirmation was achieved via ultrasound and histopathology. Serum levels of OS markers (TOS, TAC, OSI, MDA, AOPP, 8-OHdG, NO, 3-NT, AGEs, and SH), inflammatory markers (NF-\u03baB, IL-1\u03b2, IL-18, Gasdermin D, and IL-10), metabolic parameters (fasting blood glucose, lipid profile, and liver enzymes), and hormone levels (LH, FSH, estrogen, testosterone, and insulin) were assessed. Additionally, the Triglyceride-Glucose index (TyG) and HOMA-IR were calculated. POEE had a medium content of polyphenols and a good in vitro antioxidant effect. In vivo, POEE administration in diabetic rats led to a reduction in OS markers and an increase in antioxidant levels, alongside decreases in inflammatory cytokines, blood glucose levels, and transaminase activity and improvements in lipid profile. In the PCOS model, POEE treatment effectively reduced total OS and lowered levels of LH, FSH, and testosterone, while elevating estrogen concentrations and reducing insulin resistance. These therapeutic effects were dose-dependent, with higher doses producing more pronounced outcomes, comparable to those observed with metformin and TX treatment.",
+          "affiliation": "Pathophysiology, Department 2-Functional Sciences, Faculty of Medicine,\"Iuliu Ha\u021bieganu\" University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Pharmacy Cluj-Napoca",
+                "orderIn": 0
+              },
+              {
+                "agency": "\u201cIuliu Hatieganu\u201d University of Medicine",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rats"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rats, Wistar"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Polycystic Ovary Syndrome",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CI",
+                      "qualifierName": "chemically induced"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Diabetes Mellitus, Experimental",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CI",
+                      "qualifierName": "chemically induced"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Insulin Resistance"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Ethanol",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Streptozocin"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Blood Glucose"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antioxidants",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Oxidative Stress",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Letrozole",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AE",
+                      "qualifierName": "adverse effects"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Diabetes mellitus",
+              "Oxidative stress",
+              "Inflammation",
+              "Polycystic ovary syndrome",
+              "Plantago Ovata"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Blood Glucose",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antioxidants",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Ethanol",
+                "registryNumber": "3K9958V90M"
+              },
+              {
+                "name": "Streptozocin",
+                "registryNumber": "5W494URQ81"
+              },
+              {
+                "name": "letrozole",
+                "registryNumber": "7LKK855W8I"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/ijms26104712"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12111918"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12111918?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 6,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-05-28",
+          "dateOfCreation": "2025-05-28",
+          "dateOfRevision": "2025-05-31",
+          "electronicPublicationDate": "2025-05-14",
+          "firstPublicationDate": "2025-05-14",
+          "firstIndexDate": "2025-05-28",
+          "fullTextReceivedDate": "2025-11-28",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "37607173",
+          "source": "MED",
+          "pmid": "37607173",
+          "pmcid": "PMC10443879",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10443879"
+            ]
+          },
+          "doi": "10.1371/journal.pone.0290223",
+          "title": "Exploring the gelling properties of Plantago ovata-based Arabinoxylan: Fabrication and optimization of a topical emulgel using response surface methodology.",
+          "authorString": "Mahmood A, Erum A, Tulain UR, Malik NS, Saleem A, Alqahtani MS, Malik MZ, Siddiqui M, Safdar A, Malik A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Mahmood A",
+                "lastName": "Mahmood",
+                "firstName": "Arshad",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Pharmacy, Al Ain University, Abu Dhabi, UAE."
+                    },
+                    {
+                      "affiliation": "AAU Health and Biomedical Research Center (HBRC) Al Ain University, Abu Dhabi, UAE."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Erum A",
+                "lastName": "Erum",
+                "firstName": "Alia",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmacy, University of Sargodha, Sargodha, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tulain UR",
+                "lastName": "Tulain",
+                "firstName": "Ume Ruqia",
+                "initials": "UR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3771-1466"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmacy, University of Sargodha, Sargodha, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Malik NS",
+                "lastName": "Malik",
+                "firstName": "Nadia Shamshad",
+                "initials": "NS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmacy, Capital University of Science and Technology, Islamabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Saleem A",
+                "lastName": "Saleem",
+                "firstName": "Aneeqa",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmacy, University of Sargodha, Sargodha, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alqahtani MS",
+                "lastName": "Alqahtani",
+                "firstName": "Mohammed S",
+                "initials": "MS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5027-6545"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutics, Nanobiotechnology Unit, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Malik MZ",
+                "lastName": "Malik",
+                "firstName": "Muhammad Zubair",
+                "initials": "MZ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmacy, University of Sargodha, Sargodha, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Siddiqui M",
+                "lastName": "Siddiqui",
+                "firstName": "Mahwish",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmacy, Capital University of Science and Technology, Islamabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Safdar A",
+                "lastName": "Safdar",
+                "firstName": "Asif",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmacy, Capital University of Science and Technology, Islamabad, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Malik A",
+                "lastName": "Malik",
+                "firstName": "Abdul",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmacy, University of Sargodha, Sargodha, Pakistan."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0474-3448"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2498-4230"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5027-6545"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3771-1466"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "8",
+            "volume": "18",
+            "journalIssueId": 3608816,
+            "dateOfPublication": "2023 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "PLoS One",
+              "title": "PloS one",
+              "essn": "1932-6203",
+              "issn": "1932-6203",
+              "nlmid": "101285081",
+              "isoabbreviation": "PLoS One"
+            },
+            "printPublicationDate": "2023-01-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "e0290223",
+          "abstractText": "Prime objective of the current research was to develop a stable nimesulide emulgel with the help of arabinoxylan, a natural gelling agent extracted from Plantago ovata. The response surface methodology was used by a Design Expert 10 software to formulate and optimize the emulgel. The experimental design approach evaluated the impact of independent and dependent variables. Independent variables were different concentrations of arabinoxylan, span 80 and tween 20, whereas, dependent variables were viscosity, pH, and content uniformity. FTIR demonstrated the compatibility of nimesulide with the excipients. Stability study indicated no phase separation and no change in pH for formulation F1, F3 and F4. The negative values of zeta potential revealed the excellent stability of emulgel. Viscosity, spreadability and extrudability values were in desired range. Ex-vivo permeation study illustrated 86%, 55% and 66% release of the drug over a period of 24 h from the formulations F1, F3 and F4, respectively. Analgesic effect of the optimized emulgel was significantly higher in test group as compared to control and did not produce any sort of irritation. Therefore, it can be concluded that the newly developed emulgel based on arabinoxylan, as gelling agent, appear to be an effective drug delivery system.",
+          "affiliation": "College of Pharmacy, Al Ain University, Abu Dhabi, UAE.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plantago"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Sulfonamides"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Xylans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Gels"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Excipients"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Movement"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "arabinoxylan",
+                "registryNumber": "9040-27-1"
+              },
+              {
+                "name": "Sulfonamides",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Gels",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Excipients",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Xylans",
+                "registryNumber": "0"
+              },
+              {
+                "name": "nimesulide",
+                "registryNumber": "V4TKW1454M"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0290223&type=printable"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1371/journal.pone.0290223"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10443879"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10443879?pdf=render"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "PPR",
+                "id": "PPR623461",
+                "type": "Preprint in",
+                "note": "Link created based on a title-first author match",
+                "orderIn": 10002
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2023-08-24",
+          "dateOfCreation": "2023-08-22",
+          "dateOfRevision": "2026-01-27",
+          "electronicPublicationDate": "2023-08-22",
+          "firstPublicationDate": "2023-08-22",
+          "firstIndexDate": "2023-08-23",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "36839965",
+          "source": "MED",
+          "pmid": "36839965",
+          "pmcid": "PMC9965963",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9965963"
+            ]
+          },
+          "doi": "10.3390/pharmaceutics15020643",
+          "title": "Therapeutic Efficacy of a Formulation Prepared with <i>Linum usitatissimum</i> L., <i>Plantago ovata</i> Forssk., and Honey on Uncomplicated Pelvic Inflammatory Disease Analyzed with Machine Learning Techniques.",
+          "authorString": "Qayyum S, Sultana A, Heyat MBB, Rahman K, Akhtar F, Haq AU, Alkhamis BA, Alqahtani MA, Gahtani RM.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Qayyum S",
+                "lastName": "Qayyum",
+                "firstName": "Sana",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ilmul Qabalat wa Amraze Niswan, National Institute of Unani Medicine, Ministry of AYUSH, Government of India, Bengaluru 560091, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sultana A",
+                "lastName": "Sultana",
+                "firstName": "Arshiya",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2099-1510"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ilmul Qabalat wa Amraze Niswan, National Institute of Unani Medicine, Ministry of AYUSH, Government of India, Bengaluru 560091, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Heyat MBB",
+                "lastName": "Heyat",
+                "firstName": "Md Belal Bin",
+                "initials": "MBB",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5307-9582"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "IoT Research Center, College of Computer Science and Software Engineering, Shenzhen University, Shenzhen 518060, China."
+                    },
+                    {
+                      "affiliation": "Centre for VLSI and Embedded System Technologies, International Institute of Information Technology, Hyderabad 500032, Telangana, India."
+                    },
+                    {
+                      "affiliation": "Department of Science and Engineering, Novel Global Community Educational Foundation, Hebersham, NSW 2770, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rahman K",
+                "lastName": "Rahman",
+                "firstName": "Khaleequr",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0920-9631"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ilmul Saidla, National Institute of Unani Medicine, Ministry of AYUSH, Government of India, Bengaluru 560091, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Akhtar F",
+                "lastName": "Akhtar",
+                "firstName": "Faijan",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9926-4150"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 610056, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Haq AU",
+                "lastName": "Haq",
+                "firstName": "Amin Ul",
+                "initials": "AU",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7774-5604"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 610056, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alkhamis BA",
+                "lastName": "Alkhamis",
+                "firstName": "Batool Abdulelah",
+                "initials": "BA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Rehabilitation Sciences, College of Applied Medical Sciences, King Khalid University, Abha 62529, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alqahtani MA",
+                "lastName": "Alqahtani",
+                "firstName": "Mohammed Aedh",
+                "initials": "MA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Laboratory Technology, Center for Poison Control and Medical Chemistry, King Khalid University, Abha 62529, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gahtani RM",
+                "lastName": "Gahtani",
+                "firstName": "Reem M",
+                "initials": "RM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2788-8615"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Khalid University, Abha 61421, Saudi Arabia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5307-9582"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9926-4150"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0920-9631"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2788-8615"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7774-5604"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2099-1510"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "2",
+            "volume": "15",
+            "journalIssueId": 3513128,
+            "dateOfPublication": "2023 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Pharmaceutics",
+              "title": "Pharmaceutics",
+              "essn": "1999-4923",
+              "issn": "1999-4923",
+              "nlmid": "101534003",
+              "isoabbreviation": "Pharmaceutics"
+            },
+            "printPublicationDate": "2023-02-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "643",
+          "abstractText": "A single-blind double-dummy randomized study was conducted in diagnosed patients (n = 66) to compare the efficacy of Linseeds (<i>Linum usitatissimum</i> L.), Psyllium (<i>Plantago ovata</i> Forssk.), and honey in uncomplicated pelvic inflammatory disease (uPID) with standard drugs using experimental and computational analysis. The pessary group received placebo capsules orally twice daily plus a per vaginum cotton pessary of powder from linseeds and psyllium seeds, each weighing 3 gm, with honey (5 mL) at bedtime. The standard group received 100 mg of doxycycline twice daily and 400 mg of metronidazole TID orally plus a placebo cotton pessary per vaginum at bedtime for 14 days. The primary outcomes were clinical features of uPID (vaginal discharge, lower abdominal pain (LAP), low backache (LBA), and pelvic tenderness. The secondary outcomes included leucocytes (WBCs) in vaginal discharge on saline microscopy and the SF-12 health questionnaire. In addition, we also classified both (pessary and standard) groups using machine learning models such as Decision Tree (DT), Random Forest (RF), Logistic Regression (LR), and AdaBoost (AB). The pessary group showed a higher percentage reduction than the standard group in abnormal vaginal discharge (87.05% vs. 77.94%), Visual Analogue Scale (VAS)-LAP (80.57% vs. 77.09%), VAS-LBA (74.19% vs. 68.54%), McCormack pain scale (McPS) score for pelvic tenderness (75.39% vs. 67.81%), WBC count of vaginal discharge (87.09% vs. 83.41%) and improvement in SF-12 HRQoL score (94.25% vs. 86.81%). Additionally, our DT 5-fold model achieved the maximum accuracy (61.80%) in the classification. We propose that the pessary group is cost-effective, safer, and more effective as standard drugs for treating uPID and improving the HRQoL of women. Aucubin, Plantamajoside, Herbacetin, secoisolariciresinol diglucoside, Secoisolariciresinol Monoglucoside, and other various natural bioactive molecules of psyllium and linseeds have beneficial effects as they possess anti-inflammatory, antioxidant, antimicrobial, and immunomodulatory properties. The anticipated research work is be a better alternative treatment for genital infections.",
+          "affiliation": "Department of Ilmul Qabalat wa Amraze Niswan, National Institute of Unani Medicine, Ministry of AYUSH, Government of India, Bengaluru 560091, Karnataka, India.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "DEGP",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \"Pearl River Talent Recruitment Program",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "U2001207 and 61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "ZDSYS20190902092853047 and R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "Project of DEGP",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Oxidative stress",
+              "Bioactive molecule",
+              "Drug",
+              "Honey",
+              "herbal medicine",
+              "Inflammatory disease",
+              "Machine Learning",
+              "Unani System Of Medicine",
+              "Ai For Medicine",
+              "L. Usitatissimum L.",
+              "P. Ovata Forssk."
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.mdpi.com/1999-4923/15/2/643/pdf?version=1676944811"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/pharmaceutics15020643"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9965963"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9965963?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 13,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2023-02-25",
+          "dateOfRevision": "2023-03-01",
+          "electronicPublicationDate": "2023-02-14",
+          "firstPublicationDate": "2023-02-14",
+          "firstIndexDate": "2023-02-26",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

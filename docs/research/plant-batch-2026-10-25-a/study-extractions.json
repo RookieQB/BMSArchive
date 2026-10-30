@@ -1,0 +1,1485 @@
+[
+  {
+    "citation": "Ingrosso MR, Ianiro G, Nee J, Lembo AJ, Moayyedi P, Black CJ, Ford AC. Systematic review and meta-analysis: efficacy of peppermint oil in irritable bowel syndrome. Alimentary pharmacology & therapeutics 2022. PMID: 35942669. DOI: 10.1111/apt.17179.",
+    "pmid": "35942669",
+    "doi": "10.1111/apt.17179",
+    "study_type": "SR-MA",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Mentha × piperita",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Peppermint"
+      ],
+      "family": "Lamiaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Variable across trials",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "Variable across trials",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "10 RCTs; 1030 people with IBS",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Unknown / not reported in retrieved source",
+    "blinding": "Unknown / not reported in retrieved source",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Pooled benefit versus placebo for global symptoms and abdominal pain; authors rated evidence very low quality. Adverse events more frequent (RR 1.57, 95% CI 1.04–2.37).",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Heterogeneous formulations and inconsistent recent RCTs; no blanket Level A.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "Peppermint oil was superior to placebo for the treatment of IBS, but adverse events were more frequent, and quality of evidence was very low. Adequately powered RCTs of peppermint oil as first-line treatment for IBS are needed.",
+    "bms_archive_interpretation": "Research extraction only; Heterogeneous formulations and inconsistent recent RCTs; no blanket Level A.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Heterogeneous formulations and inconsistent recent RCTs; no blanket Level A.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35942669/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:35942669%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Nee J, Ballou S, Kelley JM, Kaptchuk TJ, Hirsch W, Katon J, Cheng V, Rangan V, Lembo A, Iturrino J. Peppermint Oil Treatment for Irritable Bowel Syndrome: A Randomized Placebo-Controlled Trial. The American journal of gastroenterology 2021. PMID: 34319275. DOI: 10.14309/ajg.0000000000001395.",
+    "pmid": "34319275",
+    "doi": "10.14309/ajg.0000000000001395",
+    "study_type": "RCT",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Mentha × piperita",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Peppermint"
+      ],
+      "family": "Lamiaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Enteric-coated peppermint oil",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Enteric-coated oil 180 mg three times daily",
+      "frequency": "Three times daily",
+      "duration": "6 weeks",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "People with Rome IV IBS; moderate to severe symptoms; n not specified in abstract",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Placebo",
+    "blinding": "Double-blind as stated in abstract",
+    "outcomes": {
+      "primary": [
+        "Mean change in IBS-SSS at six weeks"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Both groups improved; no significant between-group IBS-SSS difference (P=0.97) or secondary endpoint difference.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Single center; modified intent-to-treat; abstract does not give sample size or adverse-event detail.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "Peppermint oil and placebo both showed clinically meaningful improvement in IBS symptoms. However, there were no significant differences between the groups. Further large, rigorous trials are needed to evaluate the role of peppermint oil for the treatment of IBS.",
+    "bms_archive_interpretation": "Research extraction only; Single center; modified intent-to-treat; abstract does not give sample size or adverse-event detail.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Single center; modified intent-to-treat; abstract does not give sample size or adverse-event detail.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34319275/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34319275%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Shulman RJ, Chumpitazi BP, Abdel-Rahman SM, Garg U, Musaad S, Kearns GL. Randomised trial: Peppermint oil (menthol) pharmacokinetics in children and effects on gut motility in children with functional abdominal pain. British journal of clinical pharmacology 2022. PMID: 34528282. DOI: 10.1111/bcp.15076.",
+    "pmid": "34528282",
+    "doi": "10.1111/bcp.15076",
+    "study_type": "RCT",
+    "evidence_level": "C",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Mentha × piperita",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Peppermint"
+      ],
+      "family": "Lamiaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Single 180, 360 or 540 mg dose of enteric-coated oil; then 180 mg once, twice or three times daily",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "Blood sampling 24 hours; repeat motility after 1 week",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "30 children aged 7–12 years with functional abdominal pain",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Active dose comparison; no placebo described in abstract",
+    "blinding": "Unknown / not reported in retrieved abstract",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Menthol exposure appeared dose proportional; evaluable AUC in 29; mean half-lives 2.1, 3.5 and 4.6 hours by dose.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "PK study, not proof of efficacy or pediatric dosing advice; motility data incomplete; correction PMID 36377401 exists and should be checked before numerical PK reuse.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "Pharmacokinetics and pharmacodynamics of menthol derived from PMO demonstrated apparent dose-proportionality. A higher dose of PMO may be needed to achieve maximal gut response. www.clinicaltrials.gov NCT03295747.",
+    "bms_archive_interpretation": "Research extraction only; PK study, not proof of efficacy or pediatric dosing advice; motility data incomplete; correction PMID 36377401 exists and should be checked before numerical PK reuse.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "PK study, not proof of efficacy or pediatric dosing advice; motility data incomplete; correction PMID 36377401 exists and should be checked before numerical PK reuse.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34528282/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34528282%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Shulman RJ, Chumpitazi BP, Gonzalez D, Garg U, Musaad S, Wen J, Kearns GL. Randomized trial: Peppermint oil (menthol) pharmacokinetics in children and effects on gut motility in children with functional abdominal pain: 540 mg vs. 900 mg dose comparison. British journal of clinical pharmacology 2025. PMID: 40390282. DOI: 10.1002/bcp.70097.",
+    "pmid": "40390282",
+    "doi": "10.1002/bcp.70097",
+    "study_type": "RCT",
+    "evidence_level": "C",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Mentha × piperita",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Peppermint"
+      ],
+      "family": "Lamiaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Enteric-coated peppermint oil 540 or 900 mg; then 180 mg three or five times daily",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "24-hour blood sampling; repeat motility after 1 week",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "40 children aged 7–12 years with functional abdominal pain; 25 at 540 mg and 15 at 900 mg",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Active dose comparison; no placebo described in abstract",
+    "blinding": "Unknown / not reported in retrieved abstract",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Menthol peak approximately 2.5 hours; dose-adjusted exposure similar.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Small PK study; trial doses are not recommendations; no efficacy inference.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "The PK of menthol derived from PMO demonstrates apparent dose-proportionality, and gut transit and contractility are associated with the systemic concentration of menthol.",
+    "bms_archive_interpretation": "Research extraction only; Small PK study; trial doses are not recommendations; no efficacy inference.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Small PK study; trial doses are not recommendations; no efficacy inference.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40390282/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40390282%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Holtmann G, Adam B, Haag S, Collet W, Grünewald E, Windeck T. Efficacy of artichoke leaf extract in the treatment of patients with functional dyspepsia: a six-week placebo-controlled, double-blind, multicentre trial. Alimentary pharmacology & therapeutics 2003. PMID: 14653829. DOI: 10.1046/j.1365-2036.2003.01767.x.",
+    "pmid": "14653829",
+    "doi": "10.1046/j.1365-2036.2003.01767.x",
+    "study_type": "RCT",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Cynara cardunculus",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Artichoke"
+      ],
+      "family": "Asteraceae",
+      "part_used": "Leaf"
+    },
+    "preparation": {
+      "type": "Commercial leaf extract",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Commercial artichoke leaf extract, two 320 mg capsules three times daily",
+      "frequency": "Three times daily",
+      "duration": "6 weeks",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "247 functional dyspepsia patients enrolled; 244 analyzed",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Placebo",
+    "blinding": "Double-blind as stated in abstract",
+    "outcomes": {
+      "primary": [
+        "Sum score of weekly overall dyspepsia change"
+      ],
+      "secondary": [
+        "Individual symptom scores",
+        "Nepean Dyspepsia Index quality of life"
+      ]
+    },
+    "results": {
+      "primary_outcome_result": "Overall symptom improvement score 8.3 versus 6.7 (P<0.01); disease-specific quality of life improved more than placebo.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Preparation specific; short follow-up; adverse effects and standardization absent in abstract; regulatory traditional-use assessment remains distinct.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "The ALE preparation tested was significantly better than the placebo in alleviating symptoms and improving the disease-specific quality of life in patients with functional dyspepsia.",
+    "bms_archive_interpretation": "Research extraction only; Preparation specific; short follow-up; adverse effects and standardization absent in abstract; regulatory traditional-use assessment remains distinct.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Preparation specific; short follow-up; adverse effects and standardization absent in abstract; regulatory traditional-use assessment remains distinct.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14653829/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:14653829%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Sahebkar A, Pirro M, Banach M, Mikhailidis DP, Atkin SL, Cicero AFG. Lipid-lowering activity of artichoke extracts: A systematic review and meta-analysis. Critical reviews in food science and nutrition 2018. PMID: 28609140. DOI: 10.1080/10408398.2017.1332572.",
+    "pmid": "28609140",
+    "doi": "10.1080/10408398.2017.1332572",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Cynara cardunculus",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Artichoke"
+      ],
+      "family": "Asteraceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Artichoke extracts; variable preparations",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "Variable / not specified in abstract",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "9 randomized trials; 702 participants",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Unknown / not reported in retrieved source",
+    "blinding": "Unknown / not reported in retrieved source",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Pooled total and LDL cholesterol and triglycerides lower; HDL difference nonsignificant.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Surrogate biomarkers; no demonstrated cardiovascular event benefit; diverse products.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "No separately labeled conclusion in retrieved abstract; see preserved abstract.",
+    "bms_archive_interpretation": "Research extraction only; Surrogate biomarkers; no demonstrated cardiovascular event benefit; diverse products.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Surrogate biomarkers; no demonstrated cardiovascular event benefit; diverse products.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28609140/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28609140%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Shahinfar H, Bazshahi E, Amini MR, Payandeh N, Pourreza S, Noruzi Z, Shab-Bidar S. Effects of artichoke leaf extract supplementation or artichoke juice consumption on lipid profile: A systematic review and dose-response meta-analysis of randomized controlled trials. Phytotherapy research : PTR 2021. PMID: 34569671. DOI: 10.1002/ptr.7247.",
+    "pmid": "34569671",
+    "doi": "10.1002/ptr.7247",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Cynara cardunculus",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Artichoke"
+      ],
+      "family": "Asteraceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Artichoke leaf extracts and artichoke juice analyzed separately",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "Variable / not specified in abstract",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "14 studies; 15 effect sizes for extracts, plus juice analyses",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Unknown / not reported in retrieved source",
+    "blinding": "Unknown / not reported in retrieved source",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Pooled reductions in several lipid markers; extract HDL difference nonsignificant.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Do not extrapolate juice to leaf extract or biomarkers to cardiovascular prevention. Abstract TG/TC summary duplicates estimates; avoid numerical reuse without full text.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "No separately labeled conclusion in retrieved abstract; see preserved abstract.",
+    "bms_archive_interpretation": "Research extraction only; Do not extrapolate juice to leaf extract or biomarkers to cardiovascular prevention. Abstract TG/TC summary duplicates estimates; avoid numerical reuse without full text.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Do not extrapolate juice to leaf extract or biomarkers to cardiovascular prevention. Abstract TG/TC summary duplicates estimates; avoid numerical reuse without full text.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34569671/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34569671%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Morishita D, Tomita T, Mori S, Kimura T, Oshima T, Fukui H, Miwa H. Senna Versus Magnesium Oxide for the Treatment of Chronic Constipation: A Randomized, Placebo-Controlled Trial. The American journal of gastroenterology 2021. PMID: 32969946. DOI: 10.14309/ajg.0000000000000942.",
+    "pmid": "32969946",
+    "doi": "10.14309/ajg.0000000000000942",
+    "study_type": "RCT",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Senna alexandrina",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Senna"
+      ],
+      "family": "Fabaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Senna 1.0 g, magnesium oxide 1.5 g, or placebo",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "28 days",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "90 adults with chronic constipation; mean age 42, 93% women",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Magnesium oxide 1.5 g or placebo",
+    "blinding": "Double-blind as stated in abstract",
+    "outcomes": {
+      "primary": [
+        "Overall symptom improvement"
+      ],
+      "secondary": [
+        "Spontaneous bowel movements",
+        "Complete spontaneous bowel movements",
+        "Constipation quality of life"
+      ]
+    },
+    "results": {
+      "primary_outcome_result": "Overall improvement 69.2% senna, 68.3% magnesium oxide, 11.7% placebo (P<0.0001); all completed.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Severe treatment-related adverse events 0%; nonsevere event details absent in abstract.",
+    "withdrawals": "None; all 90 completed.",
+    "limitations": [
+      "Small study; senna dose product-specific, anthranoid content and exact plant part absent in abstract; not long-term safety evidence.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "Senna and MgO significantly improved the frequency of bowel movements and QOL score and seem to be effective in the treatment of constipation.",
+    "bms_archive_interpretation": "Research extraction only; Small study; senna dose product-specific, anthranoid content and exact plant part absent in abstract; not long-term safety evidence.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Small study; senna dose product-specific, anthranoid content and exact plant part absent in abstract; not long-term safety evidence.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32969946/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32969946%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Rao SSC, Brenner DM. Efficacy and Safety of Over-the-Counter Therapies for Chronic Constipation: An Updated Systematic Review. The American journal of gastroenterology 2021. PMID: 33767108. DOI: 10.14309/ajg.0000000000001222.",
+    "pmid": "33767108",
+    "doi": "10.14309/ajg.0000000000001222",
+    "study_type": "REVIEW",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Senna alexandrina",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Senna"
+      ],
+      "family": "Fabaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Multiple OTC preparations; senna subset",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "Trials at least 4 weeks",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "41 trials of various OTC constipation products",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Unknown / not reported in retrieved source",
+    "blinding": "Unknown / not reported in retrieved source",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Review judged senna evidence favorably; adverse effects across products included diarrhea, nausea, bloating and abdominal pain.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Review grading differs from BMS rubric; do not transfer its grade A to BMS Level A automatically; senna subset requires full-text appraisal.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "The spectrum of OTC products has increased and quality of evidence has improved, but methodological issues including variability in study design, primary outcome measures, trial duration, and small sample sizes remain. We found good evidence to recommend polyethylene glycol or senna as first-line laxatives and moderate evidence supporting fiber supplements, fruits, stimulant laxatives, and magnesium-based products. For others, further validation with more rigorously designed studies is warranted.",
+    "bms_archive_interpretation": "Research extraction only; Review grading differs from BMS rubric; do not transfer its grade A to BMS Level A automatically; senna subset requires full-text appraisal.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Review grading differs from BMS rubric; do not transfer its grade A to BMS Level A automatically; senna subset requires full-text appraisal.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33767108/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33767108%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Sonmez A, Yilmaz MI, Mas R, Ozcan A, Celasun B, Dogru T, Taslipinar A, Kocar IH. Subacute cholestatic hepatitis likely related to the use of senna for chronic constipation. Acta gastro-enterologica Belgica 2005. PMID: 16268429. DOI: Not reported.",
+    "pmid": "16268429",
+    "doi": "Unknown / not reported in retrieved source",
+    "study_type": "CASE",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Senna alexandrina",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Senna"
+      ],
+      "family": "Fabaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Senna preparation; dose/part not reported in abstract",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "Chronic; exact duration not reported",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "77-year-old man with chronic senna intake",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Unknown / not reported in retrieved source",
+    "blinding": "Unknown / not reported in retrieved source",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Cholestatic hepatitis with bridging necrosis; gradual improvement after withdrawal.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Single suspected adverse reaction; HBV carrier and biliary evaluation are confounders; cannot establish incidence.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "No separately labeled conclusion in retrieved abstract; see preserved abstract.",
+    "bms_archive_interpretation": "Research extraction only; Single suspected adverse reaction; HBV carrier and biliary evaluation are confounders; cannot establish incidence.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Single suspected adverse reaction; HBV carrier and biliary evaluation are confounders; cannot establish incidence.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16268429/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16268429%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Bijkerk CJ, de Wit NJ, Muris JW, Whorwell PJ, Knottnerus JA, Hoes AW. Soluble or insoluble fibre in irritable bowel syndrome in primary care? Randomised placebo controlled trial. BMJ (Clinical research ed.) 2009. PMID: 19713235. DOI: 10.1136/bmj.b3154.",
+    "pmid": "19713235",
+    "doi": "10.1136/bmj.b3154",
+    "study_type": "RCT",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Plantago ovata",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Psyllium / Ispaghula"
+      ],
+      "family": "Plantaginaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Psyllium 10 g/day, bran 10 g/day or rice-flour placebo",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "12 weeks",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "275 adults with IBS in primary care",
+      "age_range": "18–65 years",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "10 g/day bran or 10 g/day rice-flour placebo",
+    "blinding": "Unknown / not reported in retrieved abstract",
+    "outcomes": {
+      "primary": [
+        "Adequate relief at least 2 weeks during previous month, assessed at months 1, 2 and 3"
+      ],
+      "secondary": [
+        "IBS severity",
+        "Abdominal pain severity",
+        "IBS quality of life"
+      ]
+    },
+    "results": {
+      "primary_outcome_result": "Psyllium adequate-relief response exceeded placebo in first month (57% vs 35%) and second month (59% vs 41%); severity reduction larger at 3 months.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Completed: 54/85 psyllium, 54/97 bran, 56/93 placebo; early dropout most frequent with bran, mainly worsening IBS.",
+    "limitations": [
+      "Attrition and blinding limitations; preparation-specific; adverse-event details require full text.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "Psyllium offers benefits in patients with irritable bowel syndrome in primary care.",
+    "bms_archive_interpretation": "Research extraction only; Attrition and blinding limitations; preparation-specific; adverse-event details require full text.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Attrition and blinding limitations; preparation-specific; adverse-event details require full text.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19713235/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19713235%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "van der Schoot A, Drysdale C, Whelan K, Dimidi E. The Effect of Fiber Supplementation on Chronic Constipation in Adults: An Updated Systematic Review and Meta-Analysis of Randomized Controlled Trials. The American journal of clinical nutrition 2022. PMID: 35816465. DOI: 10.1093/ajcn/nqac184.",
+    "pmid": "35816465",
+    "doi": "10.1093/ajcn/nqac184",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Plantago ovata",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Psyllium / Ispaghula"
+      ],
+      "family": "Plantaginaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Multiple fiber types, including psyllium",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "Variable; subgroup at least 4 weeks",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "16 fiber RCTs; 1251 adults with chronic constipation",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Unknown / not reported in retrieved source",
+    "blinding": "Unknown / not reported in retrieved source",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Psyllium subgroup showed benefit; overall fiber results heterogeneous and flatulence increased.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Whole-review effect sizes include other fibers; not all 1251 participants received psyllium; no BMS Level A assignment without psyllium-only appraisal.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "Fiber supplementation is effective at improving constipation. Particularly, psyllium, doses >10 g/d and treatment durations of at least 4 weeks appear optimal, though caution is needed when interpreting the results due to considerable heterogeneity. These findings provide promising evidence on the optimal type and regime of fiber supplementation, which could be used to standardize recommendations to patients. The protocol for this review is registered at PROSPERO as CRD42020191404.",
+    "bms_archive_interpretation": "Research extraction only; Whole-review effect sizes include other fibers; not all 1251 participants received psyllium; no BMS Level A assignment without psyllium-only appraisal.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Whole-review effect sizes include other fibers; not all 1251 participants received psyllium; no BMS Level A assignment without psyllium-only appraisal.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35816465/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:35816465%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Jovanovski E, Yashpal S, Komishon A, Zurbau A, Blanco Mejia S, Ho HVT, Li D, Sievenpiper J, Duvnjak L, Vuksan V. Effect of psyllium (Plantago ovata) fiber on LDL cholesterol and alternative lipid targets, non-HDL cholesterol and apolipoprotein B: a systematic review and meta-analysis of randomized controlled trials. The American journal of clinical nutrition 2018. PMID: 30239559. DOI: 10.1093/ajcn/nqy115.",
+    "pmid": "30239559",
+    "doi": "10.1093/ajcn/nqy115",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Plantago ovata",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Psyllium / Ispaghula"
+      ],
+      "family": "Plantaginaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Psyllium median dose about 10.2 g/day",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "Included trials at least 3 weeks",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "28 RCTs; 1924 participants with or without hypercholesterolemia",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Unknown / not reported in retrieved source",
+    "blinding": "Unknown / not reported in retrieved source",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "LDL reduction 0.33 mmol/L; non-HDL and apoB also decreased; moderate certainty LDL and non-HDL due to inconsistency.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Lipid biomarkers, not cardiovascular outcomes; heterogeneous studies; grade conservatively pending full-text review.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "Psyllium fiber effectively improves conventional and alternative lipids markers, potentially delaying the process of atherosclerosis-associated CVD risk in those with or without hypercholesterolemia. This trial is registered at www.clinicaltrials.gov as NCT03346733.",
+    "bms_archive_interpretation": "Research extraction only; Lipid biomarkers, not cardiovascular outcomes; heterogeneous studies; grade conservatively pending full-text review.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Lipid biomarkers, not cardiovascular outcomes; heterogeneous studies; grade conservatively pending full-text review.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30239559/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30239559%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Langmead L, Feakins RM, Goldthorpe S, Holt H, Tsironi E, De Silva A, Jewell DP, Rampton DS. Randomized, double-blind, placebo-controlled trial of oral aloe vera gel for active ulcerative colitis. Alimentary pharmacology & therapeutics 2004. PMID: 15043514. DOI: 10.1111/j.1365-2036.2004.01902.x.",
+    "pmid": "15043514",
+    "doi": "10.1111/j.1365-2036.2004.01902.x",
+    "study_type": "RCT",
+    "evidence_level": "C",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Aloe vera",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Aloe vera"
+      ],
+      "family": "Asphodelaceae",
+      "part_used": "Gel, not latex; exact preparation specifications missing from abstract"
+    },
+    "preparation": {
+      "type": "Oral aloe vera gel",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Oral aloe vera gel 100 mL twice daily",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "4 weeks",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "44 evaluable outpatients with mildly to moderately active ulcerative colitis; gel 30, placebo 14",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Placebo",
+    "blinding": "Double-blind as stated in abstract",
+    "outcomes": {
+      "primary": [
+        "Clinical remission (SCCAI ≤2)",
+        "Sigmoidoscopic remission (Baron ≤1)",
+        "Histological remission (Saverymuttu ≤1)"
+      ],
+      "secondary": [
+        "Clinical improvement/response",
+        "Activity and histology scores",
+        "Laboratory variables"
+      ]
+    },
+    "results": {
+      "primary_outcome_result": "Clinical response 47% versus 14% (P<0.05); remission 30% versus 7% nonsignificant (P=0.09); sigmoidoscopy and laboratory variables did not differ. Minor adverse events similar.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Minor, similar in both arms; specific events and counts not reported in abstract.",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Small unequal groups, placebo n=14; limited short-term safety; no extrapolation to aloe latex/whole leaf.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "Oral aloe vera taken for 4 weeks produced a clinical response more often than placebo; it also reduced the histological disease activity and appeared to be safe. Further evaluation of the therapeutic potential of aloe vera gel in inflammatory bowel disease is needed.",
+    "bms_archive_interpretation": "Research extraction only; Small unequal groups, placebo n=14; limited short-term safety; no extrapolation to aloe latex/whole leaf.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Small unequal groups, placebo n=14; limited short-term safety; no extrapolation to aloe latex/whole leaf.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15043514/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15043514%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Dat AD, Poon F, Pham KB, Doust J. Aloe vera for treating acute and chronic wounds. The Cochrane database of systematic reviews 2012. PMID: 22336851. DOI: 10.1002/14651858.cd008762.pub2.",
+    "pmid": "22336851",
+    "doi": "10.1002/14651858.cd008762.pub2",
+    "study_type": "REVIEW",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Aloe vera",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Aloe vera"
+      ],
+      "family": "Asphodelaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Topical aloe products; varied preparations",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "Variable",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "7 RCTs; 347 participants with various acute/chronic wounds",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Unknown / not reported in retrieved source",
+    "blinding": "Unknown / not reported in retrieved source",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "No high-quality evidence supporting wound healing; clinical heterogeneity prevented meta-analysis; one surgical wound trial delayed healing.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "Not an SR-MA: no pooled analysis; high bias; no blanket efficacy across wounds.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "There is currently an absence of high quality clinical trial evidence to support the use of Aloe vera topical agents or Aloe vera dressings as treatments for acute and chronic wounds.",
+    "bms_archive_interpretation": "Research extraction only; Not an SR-MA: no pooled analysis; high bias; no blanket efficacy across wounds.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Not an SR-MA: no pooled analysis; high bias; no blanket efficacy across wounds.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22336851/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22336851%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  },
+  {
+    "citation": "Lee J, Lee MS, Nam KW. Acute toxic hepatitis caused by an aloe vera preparation in a young patient: a case report with a literature review. The Korean journal of gastroenterology = Taehan Sohwagi Hakhoe chi 2014. PMID: 25073673. DOI: 10.4166/kjg.2014.64.1.54.",
+    "pmid": "25073673",
+    "doi": "10.4166/kjg.2014.64.1.54",
+    "study_type": "CASE",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Aloe vera",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Aloe vera"
+      ],
+      "family": "Asphodelaceae",
+      "part_used": "Unknown / not reported in retrieved source"
+    },
+    "preparation": {
+      "type": "Unknown / not reported in retrieved source",
+      "extract_ratio": "Unknown / not reported in retrieved source",
+      "solvent": "Unknown / not reported in retrieved source",
+      "standardization": "Unknown / not reported in retrieved source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Oral aloe vera preparation; dose and plant fraction unreported",
+      "frequency": "Unknown / not reported in retrieved source",
+      "duration": "4 weeks exposure",
+      "route": "Unknown / not reported in retrieved source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "21-year-old woman",
+      "age_range": "Unknown / not reported in retrieved source",
+      "sex": "Unknown / not reported in retrieved source",
+      "condition": "Unknown / not reported in retrieved source"
+    },
+    "comparator": "Unknown / not reported in retrieved source",
+    "blinding": "Unknown / not reported in retrieved source",
+    "outcomes": {
+      "primary": [],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Acute hepatitis associated with aloe preparation in case report.",
+      "secondary_outcome_results": "Unknown / not reported in retrieved source",
+      "statistical_significance": "Unknown / not reported in retrieved source",
+      "effect_size": "Unknown / not reported in retrieved source"
+    },
+    "adverse_events": "Unknown / not reported in retrieved source",
+    "withdrawals": "Unknown / not reported in retrieved source",
+    "limitations": [
+      "No incidence or causality certainty from one case; cannot attribute specifically to inner-leaf gel.",
+      "Indexed abstract only; missing details are not evidence of absence."
+    ],
+    "funding_source": "Unknown / not reported in retrieved source",
+    "conflict_of_interest": "Unknown / not reported in retrieved source",
+    "author_conclusion": "No separately labeled conclusion in retrieved abstract; see preserved abstract.",
+    "bms_archive_interpretation": "Research extraction only; No incidence or causality certainty from one case; cannot attribute specifically to inner-leaf gel.",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "No incidence or causality certainty from one case; cannot attribute specifically to inner-leaf gel.",
+    "requires_full_text": true,
+    "full_text_reason": "Only primary indexed abstract extracted; full-text protocol, bias, preparation, safety, funding and withdrawals require verification.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent",
+    "source_access": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25073673/",
+      "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25073673%20AND%20SRC:MED&format=json&resultType=core",
+      "abstract_retrieved": true,
+      "full_text_extracted": false,
+      "retrieved_date": "2026-10-25"
+    }
+  }
+]

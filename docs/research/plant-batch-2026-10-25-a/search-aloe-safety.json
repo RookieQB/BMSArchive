@@ -1,0 +1,1456 @@
+{
+  "version": "6.9",
+  "hitCount": 13,
+  "nextCursorMark": "AoIIP6B2qyg0MDI5NjI5MQ==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Aloe+vera%22+AND+TITLE_ABS%3A%22hepatitis%22&cursorMark=AoIIP6B2qyg0MDI5NjI5MQ%3D%3D&resultType=core&pageSize=5&format=json",
+  "request": {
+    "queryString": "TITLE_ABS:\"Aloe vera\" AND TITLE_ABS:\"hepatitis\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 5,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42914195",
+        "source": "MED",
+        "pmid": "42914195",
+        "doi": "10.1136/bcr-2026-274700",
+        "title": "Potential triggers of drug-induced autoimmune-like hepatitis: aloe vera, rosuvastatin and the varicella zoster virus glycoprotein E antigen recombinant (Shingrix) vaccine.",
+        "authorString": "Mishra K, Saxon S, Lynch KD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mishra K",
+              "lastName": "Mishra",
+              "firstName": "Kritika",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6509-8908"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Gastroenterology and Hepatology, Royal Adelaide Hospital, Adelaide, South Australia, Australia."
+                  },
+                  {
+                    "affiliation": "College of Health, Adelaide University, Adelaide, South Australia, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Saxon S",
+              "lastName": "Saxon",
+              "firstName": "Sarah",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "SA Pathology, Royal Adelaide Hospital, Adelaide, South Australia, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lynch KD",
+              "lastName": "Lynch",
+              "firstName": "Kate D",
+              "initials": "KD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Gastroenterology and Hepatology, Royal Adelaide Hospital, Adelaide, South Australia, Australia kate.lynch@sa.gov.au."
+                  },
+                  {
+                    "affiliation": "College of Health, Adelaide University, Adelaide, South Australia, Australia."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6509-8908"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "19",
+          "journalIssueId": 4276234,
+          "dateOfPublication": "2026 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "BMJ Case Rep",
+            "title": "BMJ case reports",
+            "essn": "1757-790X",
+            "issn": "1757-790X",
+            "isoabbreviation": "BMJ Case Rep",
+            "nlmid": "101526291"
+          },
+          "printPublicationDate": "2026-10-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "e274700",
+        "affiliation": "Department of Gastroenterology and Hepatology, Royal Adelaide Hospital, Adelaide, South Australia, Australia.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Gastrointestinal system",
+            "Autoimmunity",
+            "Drug-related Side Effects And Adverse Reactions",
+            "Drugs: Gastrointestinal System",
+            "Hepatitis Other"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1136/bcr-2026-274700"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2026-10-23",
+        "dateOfRevision": "2026-10-23",
+        "electronicPublicationDate": "2026-10-22",
+        "firstPublicationDate": "2026-10-22",
+        "firstIndexDate": "2026-10-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39110055",
+        "source": "MED",
+        "pmid": "39110055",
+        "title": "Medicinal Plants Cultivated in Egypt with Antiviral Potential: A Systematic Review.",
+        "authorString": "Elkhouly AM, Baldam MY, Al-Touny S, Almeanawy AS, Abohalawa MN, Hamed M, Mansour FR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Elkhouly AM",
+              "lastName": "Elkhouly",
+              "firstName": "Abdallah M",
+              "initials": "AM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4477-8714"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tanta Students' Research Academy (TSRA), Faculty of Medicine, Tanta University, Tanta, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baldam MY",
+              "lastName": "Baldam",
+              "firstName": "Maram Y",
+              "initials": "MY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tanta Students' Research Academy (TSRA), Faculty of Medicine, Tanta University, Tanta, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al-Touny S",
+              "lastName": "Al-Touny",
+              "firstName": "Shaimaa",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Anesthesiology and Critical Care, Faculty of Medicine, Suez Canal University."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Almeanawy AS",
+              "lastName": "Almeanawy",
+              "firstName": "Amany S",
+              "initials": "AS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tanta Students' Research Academy (TSRA), Faculty of Medicine, Tanta University, Tanta, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abohalawa MN",
+              "lastName": "Abohalawa",
+              "firstName": "Mohamed N",
+              "initials": "MN",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tanta Students' Research Academy (TSRA), Faculty of Medicine, Tanta University, Tanta, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hamed M",
+              "lastName": "Hamed",
+              "firstName": "Mahmoud",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmaceutical Chemistry Department, Faculty of Pharmacy, Misr International University, Cairo, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mansour FR",
+              "lastName": "Mansour",
+              "firstName": "Fotouh R",
+              "initials": "FR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Analytical Chemistry, Faculty of Pharmacy, Tanta University, Tanta, Egypt."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4477-8714"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0007-3803-3245"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "30",
+          "journalIssueId": 3820130,
+          "dateOfPublication": "2024 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Altern Ther Health Med",
+            "title": "Alternative therapies in health and medicine",
+            "issn": "1078-6791",
+            "isoabbreviation": "Altern Ther Health Med",
+            "nlmid": "9502013"
+          },
+          "printPublicationDate": "2024-08-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "43-51",
+        "abstractText": "<h4>Background</h4>Viral diseases are a worldwide concern as some of them are associated with unexpectedly high mortality rates. Common viruses include e.g., Influenza virus, HIV, hepatitis viruses, and recently COVID-19. Many viral diseases are still incurable by conventional antiviral drugs. Moreover, the emergence of resistant viral strains has reinforced the search for other alternatives. In ancient times, herbal therapy was commonly used where medicinal formulations were created from various plants. In recent times, in vitro, in vivo, animal studies, and clinical trials have revealed the antiviral properties of these plants, sparking hope for the treatment of serious viral diseases. The present review aims to summarize studies that focus on medicinal plants available in Egypt with antiviral properties.<h4>Methods</h4>The articles published in English between 1988 and 2022 and available in PubMed and Scopus databases with the relevant keywords were included.<h4>Results</h4>Thirty-two plants in Egypt have met the criteria and possess in vitro or in vivo antiviral activity via different mechanisms. Only five of them; Camellia sinensis, Marine algae, Zizyphus spina-christi L., Trachyspermum Ammi, and Aloe Vera have been proven to be effective in vivo. For COVID-19, thirteen plants have shown efficacy against SARS-Cov-2 via different mechanisms including Camellia sinensis, Cinnamomum Verum, Punica granatum, Glycyrrhiza glabra, Zingiber officinale, Curcuma longa, Marine algae, Phlomis aurea oil, Solanum nigrum, Trachyspermum Ammi, Arum palaestinum, Aloe Vera, and Cyperus rotundus.<h4>Conclusion</h4>This review summarizes the current scientific evidence on 32 medicinal plant species cultivated in Egypt that have demonstrated antiviral properties against various DNA and RNA viruses through in vitro and in vivo studies, highlighting their potential as prospective sources for the development of novel antiviral therapies. Further clinical research is still warranted to validate the effectiveness and safety of these plants as complementary treatment options for viral infections.",
+        "affiliation": "Tanta Students' Research Academy (TSRA), Faculty of Medicine, Tanta University, Tanta, Egypt.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plants, Medicinal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Virus Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytotherapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Egypt"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "SARS-CoV-2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "COVID-19 Drug Treatment"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-08-30",
+        "dateOfCreation": "2024-08-07",
+        "dateOfRevision": "2024-11-20",
+        "firstPublicationDate": "2024-08-01",
+        "firstIndexDate": "2024-08-07",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26874569",
+        "source": "MED",
+        "pmid": "26874569",
+        "doi": "10.1016/j.nrl.2015.12.002",
+        "title": "Toxic hepatitis after concomitant interferon beta and aloe vera treatment in a patient with multiple sclerosis: A case report.",
+        "authorString": "Herv\u00e1s-Garc\u00eda JV, Montan\u00e9 E, Serrado-Iglesias A, Ramo-Tello C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Herv\u00e1s-Garc\u00eda JV",
+              "lastName": "Herv\u00e1s-Garc\u00eda",
+              "firstName": "J V",
+              "initials": "JV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1132-0291"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Servicio de Neurolog\u00eda, Departamento de Neurociencias, Hospital Germans Trias i Pujol, Badalona, Barcelona, Espa\u00f1a. Electronic address: josevicente.hervas@hotmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Montan\u00e9 E",
+              "lastName": "Montan\u00e9",
+              "firstName": "E",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1691-7652"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Farmacolog\u00eda Cl\u00ednica, Hospital Germans Trias i Pujol, Badalona, Barcelona, Espa\u00f1a; Universitat Aut\u00f2noma de Barcelona, Barcelona, Espa\u00f1a."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Serrado-Iglesias A",
+              "lastName": "Serrado-Iglesias",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Servicio de Medicina Interna, Hospital Municipal de Badalona, Badalona, Barcelona, Espa\u00f1a."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ramo-Tello C",
+              "lastName": "Ramo-Tello",
+              "firstName": "C",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8643-5053"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Servicio de Neurolog\u00eda, Departamento de Neurociencias, Hospital Germans Trias i Pujol, Badalona, Barcelona, Espa\u00f1a."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8643-5053"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1132-0291"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1691-7652"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "32",
+          "journalIssueId": 2596021,
+          "dateOfPublication": "2017 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Neurologia",
+            "title": "Neurologia (Barcelona, Spain)",
+            "essn": "1578-1968",
+            "issn": "0213-4853",
+            "isoabbreviation": "Neurologia",
+            "nlmid": "9005460"
+          },
+          "printPublicationDate": "2017-10-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "546-547",
+        "affiliation": "Servicio de Neurolog\u00eda, Departamento de Neurociencias, Hospital Germans Trias i Pujol, Badalona, Barcelona, Espa\u00f1a. Electronic address: josevicente.hervas@hotmail.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Letter",
+            "Case Reports"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aloe",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Multiple Sclerosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interferon-beta",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemical and Drug Induced Liver Injury",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interferon-beta",
+              "registryNumber": "77238-31-4"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.nrl.2015.12.002"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-05-31",
+        "dateOfCreation": "2016-02-15",
+        "dateOfRevision": "2019-05-31",
+        "electronicPublicationDate": "2016-02-10",
+        "firstPublicationDate": "2016-02-10",
+        "firstIndexDate": "2016-02-15",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25073673",
+        "source": "MED",
+        "pmid": "25073673",
+        "doi": "10.4166/kjg.2014.64.1.54",
+        "title": "Acute toxic hepatitis caused by an aloe vera preparation in a young patient: a case report with a literature review.",
+        "authorString": "Lee J, Lee MS, Nam KW.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lee J",
+              "lastName": "Lee",
+              "firstName": "Jeonghun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, Daejeon Sun Hospital, 29 Mokjung-ro, Jung-gu, Daejeon 301-725, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee MS",
+              "lastName": "Lee",
+              "firstName": "Mi Sun",
+              "initials": "MS"
+            },
+            {
+              "fullName": "Nam KW",
+              "lastName": "Nam",
+              "firstName": "Kwan Woo",
+              "initials": "KW"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7285-568X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "64",
+          "journalIssueId": 2185108,
+          "dateOfPublication": "2014 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Korean J Gastroenterol",
+            "title": "The Korean journal of gastroenterology = Taehan Sohwagi Hakhoe chi",
+            "essn": "2233-6869",
+            "issn": "1598-9992",
+            "isoabbreviation": "Korean J Gastroenterol",
+            "nlmid": "101189416"
+          },
+          "printPublicationDate": "2014-07-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "54-58",
+        "abstractText": "Aloe is one of the leading products used in phytomedicine. Several cases of aloe-induced toxic hepatitis have been reported in recent years. However, its toxicology has not yet been systematically described in the literature. A 21-year-old female patient was admitted to our hospital with acute hepatitis after taking an aloe vera preparation for four weeks. Her history, clinical manifestation, laboratory findings, and histological findings all led to the diagnosis of aloe vera-induced toxic hepatitis. We report herein on a case of acute toxic hepatitis induced by aloe vera.",
+        "affiliation": "Department of Internal Medicine, Daejeon Sun Hospital, 29 Mokjung-ro, Jung-gu, Daejeon 301-725, Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Review",
+            "Journal Article",
+            "Case Reports"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aloe",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Splenomegaly",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alkaline Phosphatase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alanine Transaminase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tomography, X-Ray Computed"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemical and Drug Induced Liver Injury",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Alkaline Phosphatase",
+              "registryNumber": "EC 3.1.3.1"
+            },
+            {
+              "name": "Alanine Transaminase",
+              "registryNumber": "EC 2.6.1.2"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://synapse.koreamed.org/upload/SynapseXML/0028kjg/pdf/kjg-64-54.pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://synapse.koreamed.org/upload/SynapseXML/0028kjg/pdf/kjg-64-54.pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://synapse.koreamed.org/upload/SynapseXML/0028kjg/pdf/kjg-64-54.pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://synapse.koreamed.org/upload/SynapseXML/0028kjg/pdf/kjg-64-54.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.4166/kjg.2014.64.1.54"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 21,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-04-13",
+        "dateOfCreation": "2014-07-31",
+        "dateOfRevision": "2019-11-12",
+        "firstPublicationDate": "2014-07-01",
+        "firstIndexDate": "2014-07-31",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31410907",
+        "source": "MED",
+        "pmid": "31410907",
+        "doi": "10.1002/ptr.6471",
+        "title": "The anti-hepatitis B virus therapeutic potential of anthraquinones derived from Aloe vera.",
+        "authorString": "Parvez MK, Al-Dosari MS, Alam P, Rehman M, Alajmi MF, Alqahtani AS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Parvez MK",
+              "lastName": "Parvez",
+              "firstName": "Mohammad K",
+              "initials": "MK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7154-9151"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al-Dosari MS",
+              "lastName": "Al-Dosari",
+              "firstName": "Mohammed S",
+              "initials": "MS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alam P",
+              "lastName": "Alam",
+              "firstName": "Perwez",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0668-2236"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rehman M",
+              "lastName": "Rehman",
+              "firstName": "MdTabish",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2341-900X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alajmi MF",
+              "lastName": "Alajmi",
+              "firstName": "Mohammed F",
+              "initials": "MF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3044-1267"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alqahtani AS",
+              "lastName": "Alqahtani",
+              "firstName": "Ali S",
+              "initials": "AS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1034-7441"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1034-7441"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3044-1267"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7154-9151"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0668-2236"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2341-900X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "33",
+          "journalIssueId": 2876840,
+          "dateOfPublication": "2019 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Phytother Res",
+            "title": "Phytotherapy research : PTR",
+            "essn": "1099-1573",
+            "issn": "0951-418X",
+            "isoabbreviation": "Phytother Res",
+            "nlmid": "8904486"
+          },
+          "printPublicationDate": "2019-11-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "2960-2970",
+        "abstractText": "Although the approved hepatitis B virus (HBV)-polymerase inhibitors (e.g., lamivudine) often lead to drug-resistance, several natural products have shown promising efficacies. Though Aloe vera (AV) gel and its constituents are shown inhibitors of many viruses, their anti-HBV activity still remains elusive. We therefore, tested the anti-HBV potential of AV extract and its anthraquinones in hepatoma cells, including molecular docking, high-performance thin layer chromatography (HPTLC), and cytochrome P450 (CYP3A4) activation analyses. Our anti-HBV assays (HBsAg/HBeAg Elisa) showed maximal inhibition of viral antigens production by aloe-emodin (~83%) > chrysophanol (~62%) > aloin B (~61%) > AV extract (~37%) in HepG2.2.15 cells. Interestingly, the effect of aloe-emodin was comparable with lamivudine (~86%). Moreover, sequential treatment with lamivudine (pulse) followed by aloe-emodin (chase) enhanced the efficacy of monotherapy by ~12%. Docking (AutoDock Vina) of the anthraquinones indicated strong interactions with HBV-polymerase residues that formed stable complexes with high Gibbs's free energy. Further, identification of aloe-emodin and aloin B by validated HPTLC in AV extract strongly endorsed its anti-HBV potential. In addition, our luciferase-reporter gene assay of transfected HepG2 cells showed moderate induction of CYP3A4 by aloe-emodin. In conclusion, this is the first report on anti-HBV potential of AV-derived anthraquinones, possibly via HBV-polymerase inhibition. Of these, although aloin B exhibits novel antiviral effect, aloe-emodin appears as the most promising anti-HBV natural drug with CYP3A4 activating property towards its enhanced therapeutic efficacy.",
+        "affiliation": "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Saudi Arabia.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "The Deanship of Scientific Research, King Saud University, Riyadh",
+              "grantId": "RG-1435-053",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hepatitis B virus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aloe",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hepatitis B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthraquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Emodin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hepatitis B virus",
+            "Aloe",
+            "Anthraquinones",
+            "Anti-HBV",
+            "Hbv Polymerase"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anthraquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "chrysophanic acid",
+              "registryNumber": "N1ST8V8RR2"
+            },
+            {
+              "name": "aloe emodin",
+              "registryNumber": "C8IYT9CR7C"
+            },
+            {
+              "name": "Emodin",
+              "registryNumber": "KA46RNI6HN"
+            },
+            {
+              "name": "alloin",
+              "registryNumber": "W41H6S09F4"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ptr.6471"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 41,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-01-15",
+        "dateOfCreation": "2019-08-15",
+        "dateOfRevision": "2020-01-15",
+        "electronicPublicationDate": "2019-08-13",
+        "firstPublicationDate": "2019-08-13",
+        "firstIndexDate": "2019-08-15",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

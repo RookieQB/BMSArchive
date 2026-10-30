@@ -10,5 +10,8 @@ build_plants.py
 docs
 examples
 scripts
+!scripts/
+scripts/*
+!scripts/build_seo.py
 E-books/*
 !E-books/*.pdf

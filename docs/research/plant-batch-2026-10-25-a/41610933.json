@@ -1,0 +1,542 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:41610933 AND SRC:MED",
+    "internalQuery": "EXT_ID:41610933 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41610933",
+        "source": "MED",
+        "pmid": "41610933",
+        "doi": "10.1016/j.cgh.2026.01.014",
+        "title": "Peppermint Oil and Sweets in Pediatric Irritable Bowel Syndrome and Functional Abdominal Pain: A Randomized Trial.",
+        "authorString": "Vermeijden NK, van der Feen C, Groeneweg M, Hummel T, Zagers D, Bertrams-Maartens I, van Wering H, Hurkmans P, Stapelbroek J, Sauvé I, Wessels M, Teklenburg-Roord S, Pruijsen-Nienhuis JM, Theuns-Valks SDM, Plomp TC, Bunkers C, Keszthelyi D, Benninga MA, Vlieger AM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Vermeijden NK",
+              "lastName": "Vermeijden",
+              "firstName": "Nicolaas Koen",
+              "initials": "NK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8085-3465"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Emma's Children Hospital, Amsterdam UMC, University of Amsterdam, Pediatric Gastroenterology, Hepatology, and Nutrition, Amsterdam, The Netherlands; Amsterdam Reproduction and Development Research Institute, Amsterdam University Medical Centers, Location Academic Medical Center/Emma Children's Hospital, Amsterdam, The Netherlands; Amsterdam UMC, University of Amsterdam, Gastroenterology and Hepatology, Amsterdam Gastroenterology Endocrinology Metabolism Research Institute, Amsterdam, The Netherlands; Department of Pediatrics, St Antonius Hospital, Nieuwegein, The Netherlands. Electronic address: n.k.vermeijden@amsterdamumc.nl."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "van der Feen C",
+              "lastName": "van der Feen",
+              "firstName": "Cathelijne",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Jeroen Bosch Hospital, 's-Hertogenbosch, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Groeneweg M",
+              "lastName": "Groeneweg",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Maasstad Hospital, Rotterdam, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hummel T",
+              "lastName": "Hummel",
+              "firstName": "Thalia",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Medisch Spectrum Twente, Enschede, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zagers D",
+              "lastName": "Zagers",
+              "firstName": "Deborah",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Medisch Spectrum Twente, Enschede, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bertrams-Maartens I",
+              "lastName": "Bertrams-Maartens",
+              "firstName": "Imke",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Máxima Medisch Centrum, Veldhoven, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "van Wering H",
+              "lastName": "van Wering",
+              "firstName": "Herbert",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Amphia Hospital, Breda, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hurkmans P",
+              "lastName": "Hurkmans",
+              "firstName": "Pamela",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Amphia Hospital, Breda, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stapelbroek J",
+              "lastName": "Stapelbroek",
+              "firstName": "Janneke",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Catharina Hospital, Eindhoven, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sauvé I",
+              "lastName": "Sauvé",
+              "firstName": "Inge",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Catharina Hospital, Eindhoven, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wessels M",
+              "lastName": "Wessels",
+              "firstName": "Margreet",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Rijnstate Hospital, Arnhem, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Teklenburg-Roord S",
+              "lastName": "Teklenburg-Roord",
+              "firstName": "Sarah",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Isala Hospital, Zwolle, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pruijsen-Nienhuis JM",
+              "lastName": "Pruijsen-Nienhuis",
+              "firstName": "Jessica M",
+              "initials": "JM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Isala Hospital, Zwolle, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Theuns-Valks SDM",
+              "lastName": "Theuns-Valks",
+              "firstName": "Sabine D M",
+              "initials": "SDM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Albert Schweitzer Hospital, Dordrecht, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Plomp TC",
+              "lastName": "Plomp",
+              "firstName": "Thirza C",
+              "initials": "TC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Albert Schweitzer Hospital, Dordrecht, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bunkers C",
+              "lastName": "Bunkers",
+              "firstName": "Carin",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, St Antonius Hospital, Nieuwegein, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Keszthelyi D",
+              "lastName": "Keszthelyi",
+              "firstName": "Daniel",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Gastroenterology-Hepatology, Maastricht University Medical Center, Maastricht, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Benninga MA",
+              "lastName": "Benninga",
+              "firstName": "Marc A",
+              "initials": "MA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Emma's Children Hospital, Amsterdam UMC, University of Amsterdam, Pediatric Gastroenterology, Hepatology, and Nutrition, Amsterdam, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vlieger AM",
+              "lastName": "Vlieger",
+              "firstName": "Arine M",
+              "initials": "AM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, St Antonius Hospital, Nieuwegein, The Netherlands."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8085-3465"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "24",
+          "journalIssueId": 4232216,
+          "dateOfPublication": "2026 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Clin Gastroenterol Hepatol",
+            "title": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+            "essn": "1542-7714",
+            "issn": "1542-3565",
+            "isoabbreviation": "Clin Gastroenterol Hepatol",
+            "nlmid": "101160775"
+          },
+          "printPublicationDate": "2026-08-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "2286-2296",
+        "abstractText": "<h4>Background & aims</h4>Effective pharmacologic treatment for pediatric irritable bowel syndrome (IBS) and functional abdominal pain-not otherwise specified (FAP-NOS) is lacking. This study evaluated the efficacy and safety of peppermint oil, an antispasmodic agent, and peppermint sweets in children with IBS or FAP-NOS.<h4>Methods</h4>This randomized controlled trial was conducted across 13 Dutch hospitals. Participants (aged 8-18 years) with IBS or FAP-NOS were randomized (1:1:1) to double-blind peppermint oil capsules (containing 182 mg of peppermint oil), open-label peppermint sweets (9.2 mg peppermint oil), or double-blind placebo (2.0 mg peppermint oil to enhance blinding) twice daily (8-11 years) or 3 times daily (12-18 years), with dose escalation if needed. The intervention lasted 8 weeks with a 4-week follow-up. The primary endpoint was treatment success, defined as a ≥30% reduction of abdominal pain intensity after 8 weeks. The key secondary endpoint was adequate relief of symptoms.<h4>Results</h4>In 228 children (8-11 years: n = 92; 12-18 years: n = 135; 75-78 per group), treatment success was comparable between patients receiving peppermint oil (n = 30; 44.0%) and placebo (n = 28; 37.3%) (odds ratio [OR], 1.33; 97.5% confidence interval [CI], 0.58-3.09; P = .44), and between placebo and peppermint sweets (n = 30; 38.7%) (OR, 1.05; 97.5% CI, 0.45-2.44; P = .91). Adequate relief was comparable between treatment groups: peppermint oil (n = 40; 53.3%) vs placebo (n = 37; 49.3%) (OR, 1.15; 97.5% CI, 0.54-2.47; P = .68), and placebo vs peppermint sweets (n = 35; 44.9%) (OR, 0.81; 97.5% CI, 0.39-1.71; P = .53). Adverse events were mild and infrequent.<h4>Conclusions</h4>Neither peppermint oil nor peppermint sweets were superior to placebo in treating pediatric IBS and FAP-NOS. These findings suggest prioritizing proven gut-brain axis-targeted interventions for this population.<h4>Clinicaltrials</h4>gov, Number: NCT05799053.",
+        "affiliation": "Emma's Children Hospital, Amsterdam UMC, University of Amsterdam, Pediatric Gastroenterology, Hepatology, and Nutrition, Amsterdam, The Netherlands; Amsterdam Reproduction and Development Research Institute, Amsterdam University Medical Centers, Location Academic Medical Center/Emma Children's Hospital, Amsterdam, The Netherlands; Amsterdam UMC, University of Amsterdam, Gastroenterology and Hepatology, Amsterdam Gastroenterology Endocrinology Metabolism Research Institute, Amsterdam, The Netherlands; Department of Pediatrics, St Antonius Hospital, Nieuwegein, The Netherlands. Electronic address: n.k.vermeijden@amsterdamumc.nl.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "St. Antonius Ziekenhuis",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mentha piperita"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Irritable Bowel Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Abdominal Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Oils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Parasympatholytics",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Placebos",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Netherlands"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug-Related Side Effects and Adverse Reactions",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Children",
+            "Treatment",
+            "irritable bowel syndrome",
+            "Functional Abdominal Pain",
+            "Peppermint Oil"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Parasympatholytics",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Placebos",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Oils",
+              "registryNumber": "0"
+            },
+            {
+              "name": "peppermint oil",
+              "registryNumber": "AV092KU4JH"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.cgh.2026.01.014"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2026-07-22",
+        "dateOfCreation": "2026-01-29",
+        "dateOfRevision": "2026-08-28",
+        "electronicPublicationDate": "2026-01-27",
+        "firstPublicationDate": "2026-01-27",
+        "firstIndexDate": "2026-02-06",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

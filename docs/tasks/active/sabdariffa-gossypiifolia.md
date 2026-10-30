@@ -1,0 +1,101 @@
+# Monograph Task — Sabdariffa gossypiifolia
+
+Date completed locally: 2026-10-25. Status: **DRAFT — pending manual scientific review and pre-publication gate.**
+
+## Species Identification
+
+**Input name:** Roselle / Hibiscus sabdariffa
+**Accepted Latin binomial:** Sabdariffa gossypiifolia
+**Common names:** Roselle / Hibiscus sabdariffa
+**Botanical family:** Malvaceae
+**Type field value:** `Plant`
+**Taxonomy check completed:** Yes
+**Taxonomy source:** [Kew POWO](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77361038-1), checked 2026-10-25.
+
+See the [batch taxonomy report](../../research/plant-batch-2026-10-25-taxonomy.md) for aliases and common-name ambiguity.
+
+## Duplicate Check
+
+Absent from the original 72-entry archive, including relevant literature aliases. Added once at index 77 (zero based). It is now an existing draft; future work should update it rather than append another entry.
+
+## Task Type
+
+- [x] New monograph — added locally after taxonomy, extraction, scientific QA and schema checks.
+- [ ] Manual scientific approval for publication.
+
+## Target Clinical/Research Areas
+
+- Blood Pressure Mechanisms
+- Cardiovascular Research
+
+## Key Sources
+
+- [1] - McKay DL, Chen CY, Saltzman E, Blumberg JB. Hibiscus sabdariffa L. tea (tisane) lowers blood pressure in prehypertensive and mildly hypertensive adults. The Journal of nutrition, 2010. PMID: 20018807. DOI: 10.3945/jn.109.115097
+- [2] - Ellis LR, Zulfiqar S, Holmes M, Marshall L, Dye L, Boesch C. A systematic review and meta-analysis of the effects of Hibiscus sabdariffa on blood pressure and cardiometabolic markers. Nutrition reviews, 2022. PMID: 34927694. DOI: 10.1093/nutrit/nuab104
+- [3] - Frank T, Janssen M, Netzel M, Netzel M, Netzel M, Strass G, Kler A, Kriesl E, Bitsch I. Pharmacokinetics of anthocyanidin-3-glycosides following consumption of Hibiscus sabdariffa L. extract. Journal of clinical pharmacology, 2005. PMID: 15647413. DOI: 10.1177/0091270004270561
+- [4] - Abubakar SM, Ukeyima MT, Spencer JPE, Lovegrove JA. Acute Effects of Hibiscus Sabdariffa Calyces on Postprandial Blood Pressure, Vascular Function, Blood Lipids, Biomarkers of Insulin Resistance and Inflammation in Humans. Nutrients, 2019. PMID: 30764582. DOI: 10.3390/nu11020341
+- [5] - Herrera-Arellano A, Flores-Romero S, Chávez-Soto MA, Tortoriello J. Effectiveness and tolerability of a standardized extract from Hibiscus sabdariffa in patients with mild to moderate hypertension: a controlled and randomized clinical trial. Phytomedicine : international journal of phytotherapy and phytopharmacology, 2004. PMID: 15330492. DOI: 10.1016/j.phymed.2004.04.001
+- [6] - Egyptian Drug Authority. Egyptian Herbal Monograph, Hibiscus sabdariffa L. 2025 edition; last revision 26 November 2023. https://www.edaegypt.gov.eg/media/vw3ngdwl/hibiscus-sabdariffa-l-%D9%83%D8%B1%D9%83%D8%AF%D9%8A%D9%87.pdf
+
+**Regulatory monographs checked:** Full official regulatory/NIH texts used are explicitly identified above and in the evidence ledger. Licensed ESCOP and complete WHO monographs were not reviewed. A missing source is not a claim that no monograph exists.
+
+## Extraction Notes
+
+See [batch A evidence](../../research/plant-batch-2026-10-25-a/EVIDENCE.md), [batch B ledger](../../research/plant-batch-2026-10-25-b/evidence-ledger.md), structured study-extractions JSON in those folders, and A supplemental-study-extractions.json for the newer peppermint/aloe studies. Source reading was targeted; full clinical risk-of-bias appraisal remains pending. Abstract-only numeric medicinal regimens were omitted from final profiles.
+
+**Preparation specificity:** Fleshy red calyces, usually dried and infused in water; tea and concentrated extracts have different constituent exposures. Clinical sources use the synonym Hibiscus sabdariffa [1][5][6].
+
+## Required Safety Sections
+
+- [x] Adverse effects documented or evidence gap stated.
+- [x] Contraindications and preparation-specific cautions documented.
+- [x] Interactions documented, with theoretical/unknown status retained.
+- [x] Pregnancy and lactation evidence/gaps explicit.
+- [x] Hepatic and renal evidence/gaps explicit.
+- [x] Pediatric restrictions documented where supported; no pediatric regimen inferred from PK.
+- [x] No perioperative interval invented; any retained interval is regulatory-attributed.
+
+Complete fields do not imply complete safety evidence. See the actual profile and scientific review for population-specific gaps.
+
+## Evidence Level Per Claimed Use
+
+Provisional B for blood-pressure surrogate; no event prevention or drug equivalence.
+
+These are conservative archive draft classifications, not blanket ratings for the species. The [scientific review](../../research/plant-batch-2026-10-25-scientific-review.md) documents indication and preparation limits.
+
+## Missing Data / Open Questions
+
+- Full trial methods, risk of bias, funding and adverse-event tables remain incompletely reviewed.
+- Long-term/rare-event safety and impairment-specific dosing are generally unresolved.
+- PK gaps refer to the selected sources, not an exhaustive proof that no research exists.
+- Independent manual scientific review and the separate pre-publication gate remain required.
+
+## Validation Checklist
+
+- [x] Accepted taxon and unique entry/URL slug.
+- [x] Exact type casing, integer article_count from dated NCBI query.
+- [x] Real matching PubMed metadata, numbered citations and source URLs.
+- [x] All narrative and clinical-data fields populated or explicit uncertainty.
+- [x] Mechanism emphasis uses allowed `<strong>` tags.
+- [x] Entry validator and full JSON validator: zero errors.
+- [x] Existing original 72 entries preserved unchanged.
+- [x] Generated permalink responds with complete local profile.
+- [x] Browser: card/modal, safety/PK/source sections and visible draft statement verified.
+
+Validator heuristic warnings are reviewed in the [QA report](../../research/plant-batch-2026-10-25-qa.md); a warning is not hidden or treated as an automatic failure.
+
+## Agent Workflow
+
+Taxonomy → source collection/extraction → scientific QA → schema review → local integration → entry/full validation → generated pages → browser QA. Completed for this local draft.
+
+## Final Summary
+
+**Species:** Sabdariffa gossypiifolia
+**Added as:** New local entry, index 77
+**Evidence:** Provisional B for blood-pressure surrogate; no event prevention or drug equivalence.
+**Safety sections complete:** Yes, including explicit uncertainty.
+**Validation status:** PASS, zero errors; heuristic warnings reviewed.
+**Scientific QA approval:** Approved as a draft after revisions.
+**Manual scientific approval:** Pending.
+**Publication/deployment status:** Not approved for publication; not deployed.
+**Admin limitation:** Existing admin saves drop cited_references; no admin save was performed.

@@ -1,0 +1,357 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:30764582 AND SRC:MED",
+    "internalQuery": "EXT_ID:30764582 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30764582",
+        "source": "MED",
+        "pmid": "30764582",
+        "pmcid": "PMC6412462",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6412462"
+          ]
+        },
+        "doi": "10.3390/nu11020341",
+        "title": "Acute Effects of Hibiscus Sabdariffa Calyces on Postprandial Blood Pressure, Vascular Function, Blood Lipids, Biomarkers of Insulin Resistance and Inflammation in Humans.",
+        "authorString": "Abubakar SM, Ukeyima MT, Spencer JPE, Lovegrove JA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Abubakar SM",
+              "lastName": "Abubakar",
+              "firstName": "Salisu M",
+              "initials": "SM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hugh Sinclair Unit of Human Nutrition, Department of Food and Nutritional Sciences and Institute for Cardiovascular and Metabolic Research, University of Reading, Reading, Reading, RG6 6AP, UK. smabubakar.bch@buk.edu.ng."
+                  },
+                  {
+                    "affiliation": "Department of Biochemistry, Bayero University, P.M.B. 3011, Kano, Nigeria. smabubakar.bch@buk.edu.ng."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ukeyima MT",
+              "lastName": "Ukeyima",
+              "firstName": "Moses T",
+              "initials": "MT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hugh Sinclair Unit of Human Nutrition, Department of Food and Nutritional Sciences and Institute for Cardiovascular and Metabolic Research, University of Reading, Reading, Reading, RG6 6AP, UK. mosesukeyima@gmail.com."
+                  },
+                  {
+                    "affiliation": "Department of Food Science and Technology, University of Agriculture, P.M.B. 2373, Makurdi, Nigeria. mosesukeyima@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Spencer JPE",
+              "lastName": "Spencer",
+              "firstName": "Jeremy P E",
+              "initials": "JPE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2931-7274"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hugh Sinclair Unit of Human Nutrition, Department of Food and Nutritional Sciences and Institute for Cardiovascular and Metabolic Research, University of Reading, Reading, Reading, RG6 6AP, UK. j.p.e.spencer@reading.ac.uk."
+                  },
+                  {
+                    "affiliation": "Molecular Nutrition Group, Centre for Integrative Neuroscience and Neurodynamics, University of Reading, RG6 6AP, Reading, UK. j.p.e.spencer@reading.ac.uk."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lovegrove JA",
+              "lastName": "Lovegrove",
+              "firstName": "Julie A",
+              "initials": "JA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7633-9455"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hugh Sinclair Unit of Human Nutrition, Department of Food and Nutritional Sciences and Institute for Cardiovascular and Metabolic Research, University of Reading, Reading, Reading, RG6 6AP, UK. j.a.lovegrove@reading.ac.uk."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7633-9455"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2931-7274"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "11",
+          "journalIssueId": 2778434,
+          "dateOfPublication": "2019 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Nutrients",
+            "title": "Nutrients",
+            "essn": "2072-6643",
+            "issn": "2072-6643",
+            "isoabbreviation": "Nutrients",
+            "nlmid": "101521595"
+          },
+          "printPublicationDate": "2019-02-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "E341",
+        "abstractText": "<h4>Background/objectives</h4>The acute impact of Hibiscus sabdariffa calyces (HSC) extract on postprandial vascular function and other cardiometabolic risk factors have not been studied previously. This study investigated the acute impact of HSC extract consumption on blood pressure (BP), vascular function and other cardiometabolic risk markers.<h4>Subjects/methods</h4>Twenty-five men with 1% to 10% cardiovascular disease (CVD) risk (determined by QRISK<sup>\u00ae</sup>2) were randomised to consume either 250 mL of the aqueous extract of HSC or water with breakfast in a randomised, controlled, single-blinded, 2-meal cross-over study (ClinicalTrials.gov, NTC02165553) with a two weeks washout period between study days. BP was measured at baseline and hourly for 4 h. Flow mediated dilatation (FMD) of the branchial artery was measured at baseline, 2 and 4 h post intervention drink consumption.<h4>Results</h4>Acute consumption of aqueous extract of HSC caused a significant increase in % FMD (<i>p</i> < 0.001), a non-significant decrease in systolic BP (SBP) and diastolic BP (DBP); non-significant increase in urinary and plasma nitric oxide (NOx) and reduced response of serum glucose, plasma insulin, serum triacylglycerol and C-reactive protein (CRP) levels; significant (<i>p</i> = 0.026) improvement in the area under systemic antioxidant response curve (0 to 2 h); no significant changes in arterial stiffness following the acute consumption of the extract of HSC. Gallic acid, 4-O-methylgallic acid, 3-O-methylgallic acid and hippuric acid reached a maximum plasma concentration at 1 to 2 h post consumption of the extract of HSC.<h4>Conclusion</h4>The extract of HSC improved postprandial vascular function and may be a useful dietary strategy to reduce endothelial dysfunction and CVD risk, although this requires confirmation.",
+        "affiliation": "Hugh Sinclair Unit of Human Nutrition, Department of Food and Nutritional Sciences and Institute for Cardiovascular and Metabolic Research, University of Reading, Reading, Reading, RG6 6AP, UK. smabubakar.bch@buk.edu.ng.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Tertiary Education Trust Fund",
+              "grantId": "None",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hibiscus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Insulin Resistance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Over Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Pressure",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Postprandial Period"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Meals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomarkers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Vascular Function",
+            "Postprandial Blood Pressure",
+            "Hibiscus Sabdariffa Calyces"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Lipids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Biomarkers",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/nu11020341"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6412462"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6412462?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 31,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-04-16",
+        "dateOfCreation": "2019-02-16",
+        "dateOfRevision": "2020-02-25",
+        "electronicPublicationDate": "2019-02-05",
+        "firstPublicationDate": "2019-02-05",
+        "firstIndexDate": "2019-02-15",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

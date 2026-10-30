@@ -1,0 +1,655 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:33514367 AND SRC:MED",
+    "internalQuery": "EXT_ID:33514367 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33514367",
+        "source": "MED",
+        "pmid": "33514367",
+        "pmcid": "PMC7845084",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7845084"
+          ]
+        },
+        "doi": "10.1186/s12906-021-03206-4",
+        "title": "Pelargonium sidoides root extract for the treatment of acute cough due to lower respiratory tract infection in adults: a feasibility double-blind, placebo-controlled randomised trial.",
+        "authorString": "Willcox M, Simpson C, Wilding S, Stuart B, Soilemezi D, Whitehead A, Morgan A, Wrixon E, Zhu S, Yao G, Webley F, Yan R, Bostock J, Bell M, Griffiths G, Leydon G, Little P, Butler C, Hay AD, Moore M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Willcox M",
+              "lastName": "Willcox",
+              "firstName": "Merlin",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5227-3444"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK. m.l.willcox@soton.ac.uk."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Simpson C",
+              "lastName": "Simpson",
+              "firstName": "Catherine",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Southampton Clinical Trials Unit, University of Southampton and University Hospital Southampton NHS Foundation Trust, Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wilding S",
+              "lastName": "Wilding",
+              "firstName": "Sam",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4184-2821"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Southampton Clinical Trials Unit, University of Southampton and University Hospital Southampton NHS Foundation Trust, Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stuart B",
+              "lastName": "Stuart",
+              "firstName": "Beth",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5432-7437"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK."
+                  },
+                  {
+                    "affiliation": "Southampton Clinical Trials Unit, University of Southampton and University Hospital Southampton NHS Foundation Trust, Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Soilemezi D",
+              "lastName": "Soilemezi",
+              "firstName": "Dia",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8831-9419"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Whitehead A",
+              "lastName": "Whitehead",
+              "firstName": "Amy",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2840-6876"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Southampton Clinical Trials Unit, University of Southampton and University Hospital Southampton NHS Foundation Trust, Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Morgan A",
+              "lastName": "Morgan",
+              "firstName": "Alannah",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Southampton Clinical Trials Unit, University of Southampton and University Hospital Southampton NHS Foundation Trust, Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wrixon E",
+              "lastName": "Wrixon",
+              "firstName": "Emma",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Southampton Clinical Trials Unit, University of Southampton and University Hospital Southampton NHS Foundation Trust, Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhu S",
+              "lastName": "Zhu",
+              "firstName": "Shihua",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Southampton Clinical Trials Unit, University of Southampton and University Hospital Southampton NHS Foundation Trust, Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yao G",
+              "lastName": "Yao",
+              "firstName": "Guiqing",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Sciences, University of Leicester, Leicester, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Webley F",
+              "lastName": "Webley",
+              "firstName": "Fran",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Southampton Clinical Trials Unit, University of Southampton and University Hospital Southampton NHS Foundation Trust, Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yan R",
+              "lastName": "Yan",
+              "firstName": "Ruiyang",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1431-7271"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bostock J",
+              "lastName": "Bostock",
+              "firstName": "Jennifer",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bell M",
+              "lastName": "Bell",
+              "firstName": "Margaret",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Griffiths G",
+              "lastName": "Griffiths",
+              "firstName": "Gareth",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9579-8021"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Southampton Clinical Trials Unit, University of Southampton and University Hospital Southampton NHS Foundation Trust, Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Leydon G",
+              "lastName": "Leydon",
+              "firstName": "Geraldine",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Little P",
+              "lastName": "Little",
+              "firstName": "Paul",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3664-1873"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Butler C",
+              "lastName": "Butler",
+              "firstName": "Christopher",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0102-3453"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nuffield Department of Primary Care Health Sciences, University of Oxford, Oxford, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hay AD",
+              "lastName": "Hay",
+              "firstName": "Alastair D",
+              "initials": "AD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3012-375X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Academic Primary Care, Bristol Medical School, Population Health Sciences, University of Bristol, Bristol, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moore M",
+              "lastName": "Moore",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5127-4509"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5432-7437"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8831-9419"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0102-3453"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2840-6876"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5127-4509"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5227-3444"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9579-8021"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1431-7271"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3012-375X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3664-1873"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4184-2821"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "21",
+          "journalIssueId": 3082084,
+          "dateOfPublication": "2021 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "BMC Complement Med Ther",
+            "title": "BMC complementary medicine and therapies",
+            "essn": "2662-7671",
+            "issn": "2662-7671",
+            "isoabbreviation": "BMC Complement Med Ther",
+            "nlmid": "101761232"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "48",
+        "abstractText": "<h4>Background</h4>Pelargonium sidoides DC (Geraniaceae) root extract, EPs\u00ae7630 or \"Kaloba\u00ae\", is a widely used herbal remedy for respiratory infections, with some evidence of effectiveness for acute bronchitis. However, it is not yet widely recommended by medical professionals in the UK. There is a need to undertake appropriately designed randomised trials to test its use as an alternative to antibiotics. The aim was to assess the feasibility of conducting a double-blind randomised controlled trial of Pelargonium sidoides root extract for treatment of acute bronchitis in UK primary care, investigating intervention compliance, patient preference for dosage form and acceptability of patient diaries.<h4>Study design</h4>Feasibility double-blind randomised placebo-controlled clinical trial.<h4>Methods</h4>We aimed to recruit 160 patients with cough (\u2264 21\u2009days) caused by acute bronchitis from UK general practices. Practices were cluster-randomised to liquid or tablet preparations and patients were individually randomised to Kaloba\u00ae or placebo. We followed participants up for 28\u2009days through self-reported patient diaries with telephone support and reviewed medical records at one month. Outcomes included recruitment, withdrawal, safety, reconsultation and symptom diary completion rates. We also assessed treatment adherence, antibiotic prescribing and consumption, mean symptom severity (at days 2-4 after randomisation) and time to symptom resolution. We interviewed 29 patients and 11 health professionals to identify barriers and facilitators to running such a randomised trial.<h4>Results</h4>Of 543 patients screened, 261 were eligible, of whom 134 (51%) were recruited and 103 (77%) returned a completed diary. Overall, 41% (41/100) of patients took antibiotics (Kaloba\u00ae liquid group: 48% [15/31]; placebo liquid group: 23% [6/26]; Kaloba\u00ae tablet group: 48% [9/21]; placebo tablet group: 50% [11/22]). Most patients adhered to the study medication (median 19 out of 21 doses taken in week 1, IQR 18-21 - all arms combined). There were no serious adverse events relating to treatment. Most patients interviewed found study recruitment to be straightforward, but some found the diary too complex.<h4>Conclusions</h4>It was feasible and acceptable to recruit patients from UK primary care to a double-blind placebo-controlled trial of herbal medicine (Kaloba\u00ae) for the treatment of acute bronchitis, with good retention and low data attrition.<h4>Trial registration</h4>HATRIC was registered on the ISRCTN registry ( ISRCTN17672884 ) on 16 August 2018, retrospectively registered. The record can be found at http://www.isrctn.com/ISRCTN17672884 .",
+        "affiliation": "School of Primary Care, Population Sciences and Medical Education, University of Southampton, Aldermoor Health Centre, Aldermoor Close, Southampton, SO16 5ST, UK. m.l.willcox@soton.ac.uk.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Research Trainees Coordinating Centre",
+              "grantId": "CL-2016-26-005",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIHR School for Primary Care Research",
+              "grantId": "SPCR-2014-10043-336",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "grantId": "CL-2016-26-005",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "grantId": "NF-SI-0515-10056",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "grantId": "NIHR200151",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pelargonium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Respiratory Tract Infections",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cough",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acute Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Feasibility Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "herbal medicine",
+            "Retention",
+            "Acute bronchitis",
+            "Cough",
+            "Placebo-controlled",
+            "Cluster-randomised",
+            "Feasibility Clinical Trial",
+            "Double-blind Randomised"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://bmccomplementmedtherapies.biomedcentral.com/track/pdf/10.1186/s12906-021-03206-4"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s12906-021-03206-4"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7845084"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7845084?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-09-02",
+        "dateOfCreation": "2021-01-30",
+        "dateOfRevision": "2024-08-06",
+        "electronicPublicationDate": "2021-01-29",
+        "firstPublicationDate": "2021-01-29",
+        "firstIndexDate": "2021-01-31",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

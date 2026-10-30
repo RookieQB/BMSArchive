@@ -1,0 +1,281 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:14653829 AND SRC:MED",
+    "internalQuery": "EXT_ID:14653829 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "14653829",
+        "source": "MED",
+        "pmid": "14653829",
+        "doi": "10.1046/j.1365-2036.2003.01767.x",
+        "title": "Efficacy of artichoke leaf extract in the treatment of patients with functional dyspepsia: a six-week placebo-controlled, double-blind, multicentre trial.",
+        "authorString": "Holtmann G, Adam B, Haag S, Collet W, Gr\u00fcnewald E, Windeck T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Holtmann G",
+              "lastName": "Holtmann",
+              "firstName": "G",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0206-2358"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Internal Medicine, Department of Gastroenterology, University of Essen, Germany. g.holtmann@uni-essen.de"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Adam B",
+              "lastName": "Adam",
+              "firstName": "B",
+              "initials": "B"
+            },
+            {
+              "fullName": "Haag S",
+              "lastName": "Haag",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Collet W",
+              "lastName": "Collet",
+              "firstName": "W",
+              "initials": "W"
+            },
+            {
+              "fullName": "Gr\u00fcnewald E",
+              "lastName": "Gr\u00fcnewald",
+              "firstName": "E",
+              "initials": "E"
+            },
+            {
+              "fullName": "Windeck T",
+              "lastName": "Windeck",
+              "firstName": "T",
+              "initials": "T"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0206-2358"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "11-12",
+          "volume": "18",
+          "journalIssueId": 1179662,
+          "dateOfPublication": "2003 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2003,
+          "journal": {
+            "medlineAbbreviation": "Aliment Pharmacol Ther",
+            "title": "Alimentary pharmacology & therapeutics",
+            "essn": "1365-2036",
+            "issn": "0269-2813",
+            "isoabbreviation": "Aliment Pharmacol Ther",
+            "nlmid": "8707234"
+          },
+          "printPublicationDate": "2003-12-01"
+        },
+        "pubYear": "2003",
+        "pageInfo": "1099-1105",
+        "abstractText": "<h4>Background</h4>This study aimed to assess the efficacy of artichoke leaf extract (ALE) in the treatment of patients with functional dyspepsia (FD).<h4>Methods</h4>In a double-blind, randomized controlled trial (RCT), 247 patients with functional dyspepsia were recruited and treated with either a commercial ALE preparation (2 x 320 mg plant extract t.d.s.) or a placebo. The primary efficacy variable was the sum score of the patient's weekly rating of the overall change in dyspeptic symptoms (four-point scale). Secondary variables were the scores of each dyspeptic symptom and the quality of life (QOL) as assessed by the Nepean Dyspepsia Index (NDI).<h4>Results</h4>Two hundred and forty-seven patients were enrolled, and data from 244 patients (129 active treatment, 115 placebo) were suitable for inclusion in the statistical analysis (intention-to-treat). The overall symptom improvement over the 6 weeks of treatment was significantly greater with ALE than with the placebo (8.3 +/- 4.6, vs. 6.7 +/- 4.8, P < 0.01). Similarly, patients treated with ALE showed significantly greater improvement in the global quality-of-life scores (NDI) compared with the placebo-treated patients (- 41.1 +/- 47.6 vs. - 24.8 +/- 35.6, P < 0.01).<h4>Conclusion</h4>The ALE preparation tested was significantly better than the placebo in alleviating symptoms and improving the disease-specific quality of life in patients with functional dyspepsia.",
+        "affiliation": "Division of Internal Medicine, Department of Gastroenterology, University of Essen, Germany. g.holtmann@uni-essen.de",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cynara scolymus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dyspepsia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quality of Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1046/j.1365-2036.2003.01767.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 74,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-02-02",
+        "dateOfCreation": "2003-12-05",
+        "dateOfRevision": "2022-03-11",
+        "firstPublicationDate": "2003-12-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

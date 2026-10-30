@@ -21,15 +21,16 @@
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="BMS Archive — Scientific botanical and fungal monographs for educational and research purposes only. Sourced from peer-reviewed literature." />
-  <meta property="og:title" content="BMS Archive — Botanical & Fungal Scientific Archive" />
+  <meta name="description" content="Search plant and fungal monographs by scientific name, common name and research area. Explore active compounds, safety information and source references." />
+  <link rel="canonical" href="https://bmsarchive.com/database.html" />
+  <meta property="og:title" content="Plant & Fungi Research Database | BMS Archive" />
   <meta property="og:description" content="Searchable database of botanical and fungal monographs. Evidence-based profiles sourced from peer-reviewed literature." />
   <meta property="og:url" content="https://bmsarchive.com/database.html" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://bmsarchive.com/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <title>BMS Archive — Botanical & Fungal Scientific Archive</title>
+  <title>Plant & Fungi Research Database | BMS Archive</title>
 
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -311,7 +312,7 @@
         </div>
         <div class="flex items-center gap-2" style="font-size:14px;color:#5B6B7A;white-space:nowrap;">
           <span class="animate-pulse" style="width:8px;height:8px;border-radius:50%;background:#3DAE6B;box-shadow:0 0 0 4px rgba(61,174,107,.18);display:inline-block;"></span>
-          Live — <span id="stat-live">61</span> profiles
+          Live — <span id="stat-live">72</span> profiles
         </div>
       </div>
       <!-- Stat ribbon -->
@@ -394,9 +395,10 @@
 
       <!-- ── MAIN ── -->
       <main class="db-main">
+        <p style="font-size:14px;color:#486853;margin:0 0 20px;">Looking for a permanent reference? <a href="/monographs/" style="color:#1c5235;text-decoration:underline;">Browse all plant and fungal monograph pages →</a></p>
         <!-- Meta row -->
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:8px;">
-          <div style="font-size:14px;color:#5B6B7A;"><strong id="count-shown" style="color:#0F1A28;">—</strong> of <span id="count-total">61</span> specimens<span id="filter-note"></span></div>
+          <div style="font-size:14px;color:#5B6B7A;"><strong id="count-shown" style="color:#0F1A28;">—</strong> of <span id="count-total">72</span> specimens<span id="filter-note"></span></div>
           <div id="sort-note" class="mono" style="font-size:13px;color:#9AA59E;">sorted A–Z</div>
         </div>
 
@@ -443,6 +445,7 @@
         <div class="flex items-center gap-8 text-sm">
           <a href="/" class="hover:text-white transition-colors duration-200">Home</a>
           <a href="database.html" class="hover:text-white transition-colors duration-200">Database</a>
+          <a href="/monographs/" class="hover:text-white transition-colors duration-200">Monographs</a>
           <a href="https://instagram.com/thebmsarchive" target="_blank" rel="noopener noreferrer"
              class="flex items-center gap-2 hover:text-white transition-colors duration-200">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -471,6 +474,7 @@
             <div id="modal-badges" class="flex flex-wrap items-center gap-2 mb-2"></div>
             <h2 id="modal-title" class="sci text-2xl font-bold text-gray-900 leading-snug mb-0.5"></h2>
             <p id="modal-common" class="text-sm text-gray-500"></p>
+            <a id="modal-permalink" href="/monographs/" style="display:inline-block;margin-top:10px;color:#1c5235;text-decoration:underline;">Open full monograph page →</a>
           </div>
           <button id="modal-close" aria-label="Close"
                   class="shrink-0 mt-0.5 w-8 h-8 rounded-lg flex items-center justify-center text-gray-400 hover:text-gray-700 hover:bg-gray-100 transition-colors">
@@ -682,7 +686,8 @@
     /* ── Bootstrap ── */
     (async function init() {
       try {
-        const res = await fetch('data.json?v=' + Date.now());
+        const res = await fetch('/data.json', { cache: 'no-cache' });
+        if (!res.ok) throw new Error('Archive request failed');
         allData = await res.json();
 
         MAX_STUDIES = Math.max(...allData.map(d => d.article_count || 0));
@@ -848,7 +853,11 @@
       if (!isFiltered) {
         const most = allData.reduce((a, b) => (a.article_count || 0) >= (b.article_count || 0) ? a : b);
         featuredWrap.innerHTML = featuredCardHTML(most);
-        featuredWrap.querySelector('.featured-card').addEventListener('click', () => openModal(most));
+        featuredWrap.querySelector('.featured-card').addEventListener('click', event => {
+          if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          event.preventDefault();
+          openModal(most);
+        });
       } else {
         featuredWrap.innerHTML = '';
       }
@@ -870,7 +879,9 @@
 
       /* Click listeners */
       document.querySelectorAll('#grid .entry-card, #list-container .entry-card').forEach(card => {
-        card.addEventListener('click', () => {
+        card.addEventListener('click', event => {
+          if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          event.preventDefault();
           const item = allData.find(d => d.scientific_name === card.dataset.name);
           if (item) openModal(item);
         });
@@ -884,9 +895,9 @@
       const note = simpleCardNote(item);
       const num  = catalogMap[item.scientific_name] || '—';
       return `
-        <div class="featured-card" data-name="${esc(item.scientific_name)}"
+        <a class="featured-card" href="${monographURL(item)}" data-name="${esc(item.scientific_name)}"
              style="position:relative;border:1px solid #E0E9E2;border-radius:16px;padding:24px 26px;margin-bottom:26px;
-                    background:linear-gradient(115deg,#F4F7F4,#FFFFFF);overflow:hidden;">
+                    background:linear-gradient(115deg,#F4F7F4,#FFFFFF);overflow:hidden;display:block;text-decoration:none;color:inherit;">
           <div style="position:absolute;left:0;top:0;bottom:0;width:4px;background:${p.accent};border-radius:16px 0 0 16px;"></div>
           <div class="featured-grid">
             <div>
@@ -909,7 +920,7 @@
               <span style="display:inline-flex;align-items:center;gap:8px;margin-top:16px;background:${p.accent};color:#fff;font-weight:700;font-size:14px;padding:11px 18px;border-radius:10px;">Open monograph →</span>
             </div>
           </div>
-        </div>`;
+        </a>`;
     }
 
     function cardGridHTML(item) {
@@ -919,8 +930,8 @@
       const note = simpleCardNote(item);
       const num  = catalogMap[item.scientific_name] || '—';
       return `
-        <button class="entry-card w-full text-left" data-name="${esc(item.scientific_name)}"
-                style="position:relative;border:1px solid #E6ECE7;border-radius:14px;padding:0;background:#fff;overflow:hidden;display:flex;flex-direction:column;">
+        <a href="${monographURL(item)}" class="entry-card w-full text-left" data-name="${esc(item.scientific_name)}"
+                style="position:relative;border:1px solid #E6ECE7;border-radius:14px;padding:0;background:#fff;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit;">
           <div style="height:4px;background:${p.accent};"></div>
           <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
             <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:14px;">
@@ -944,7 +955,7 @@
               <span class="reveal" style="display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:${p.accent};">${state.mode === 'simple' ? 'Read simple notes' : 'View monograph'} →</span>
             </div>
           </div>
-        </button>`;
+        </a>`;
     }
 
     function cardListHTML(item) {
@@ -953,8 +964,8 @@
       const cats = (item.primary_categories || []).slice(0, 3);
       const note = simpleCardNote(item);
       return `
-        <button class="entry-card list-card w-full text-left lc-row" data-name="${esc(item.scientific_name)}"
-                style="border:1px solid #E6ECE7;border-left:3px solid ${p.accent};border-radius:11px;padding:14px 18px;background:#fff;">
+        <a href="${monographURL(item)}" class="entry-card list-card w-full text-left lc-row" data-name="${esc(item.scientific_name)}"
+                style="border:1px solid #E6ECE7;border-left:3px solid ${p.accent};border-radius:11px;padding:14px 18px;background:#fff;text-decoration:none;color:inherit;">
           <span class="mono" style="width:38px;height:38px;border-radius:9px;background:${p.badgeBg};color:${p.badgeColor};
                 display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;flex-shrink:0;">
             ${esc(item.scientific_name.charAt(0))}
@@ -983,7 +994,7 @@
           </div>
           <span style="justify-self:end;display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;
                 color:#fff;background:${p.accent};padding:9px 14px;border-radius:9px;white-space:nowrap;">Open →</span>
-        </button>`;
+        </a>`;
     }
 
     /* ── Controls ── */
@@ -1082,6 +1093,7 @@
 
       document.getElementById('modal-title').textContent  = d.scientific_name;
       document.getElementById('modal-common').textContent = d.common_name;
+      document.getElementById('modal-permalink').href = monographURL(d);
       document.getElementById('modal-cats').innerHTML = (d.primary_categories || []).map(c =>
         `<span class="category-chip inline-flex px-2.5 py-1 rounded-md text-[11px] font-medium bg-gray-100 text-gray-500">${esc(displayAreaLabel(c))}</span>`
       ).join('');
@@ -1279,6 +1291,12 @@
     }
 
     /* ── Helpers ── */
+    function monographURL(item) {
+      const slug = item.scientific_name.normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+      return '/monographs/' + slug + '.html';
+    }
+
     function setText(id, val) {
       const el = document.getElementById(id);
       if (el) el.textContent = val || 'N/A';

@@ -1,0 +1,270 @@
+[
+  {
+    "scientific_name": "Mentha × piperita",
+    "common_name": "Peppermint",
+    "type": "Plant",
+    "article_count": 1569,
+    "primary_categories": [
+      "Digestive health",
+      "Gastrointestinal motility"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/35942669/",
+        "https://pubmed.ncbi.nlm.nih.gov/34319275/",
+        "https://pubmed.ncbi.nlm.nih.gov/34528282/",
+        "https://pubmed.ncbi.nlm.nih.gov/40390282/",
+        "https://pubmed.ncbi.nlm.nih.gov/41610933/"
+      ],
+      "cited_references": [
+        "[1] Ingrosso MR, Ianiro G, Nee J, Lembo AJ, Moayyedi P, Black CJ, Ford AC. Systematic review and meta-analysis: efficacy of peppermint oil in irritable bowel syndrome. Alimentary pharmacology & therapeutics 2022. PMID: 35942669. DOI: 10.1111/apt.17179.",
+        "[2] Nee J, Ballou S, Kelley JM, Kaptchuk TJ, Hirsch W, Katon J, Cheng V, Rangan V, Lembo A, Iturrino J. Peppermint Oil Treatment for Irritable Bowel Syndrome: A Randomized Placebo-Controlled Trial. The American journal of gastroenterology 2021. PMID: 34319275. DOI: 10.14309/ajg.0000000000001395.",
+        "[3] Shulman RJ, Chumpitazi BP, Abdel-Rahman SM, Garg U, Musaad S, Kearns GL. Randomised trial: Peppermint oil (menthol) pharmacokinetics in children and effects on gut motility in children with functional abdominal pain. British journal of clinical pharmacology 2022. PMID: 34528282. DOI: 10.1111/bcp.15076.",
+        "[4] Shulman RJ, Chumpitazi BP, Gonzalez D, Garg U, Musaad S, Wen J, Kearns GL. Randomized trial: Peppermint oil (menthol) pharmacokinetics in children and effects on gut motility in children with functional abdominal pain: 540 mg vs. 900 mg dose comparison. British journal of clinical pharmacology 2025. PMID: 40390282. DOI: 10.1002/bcp.70097.",
+        "[5] EMA/HMPC. Official herbal monograph, full regulatory text, sections 4.3–5.3. https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-mentha-x-piperita-l-aetheroleum-revision-1_en.pdf Accessed 2026-10-25.",
+        "[6] Vermeijden NK et al. Peppermint Oil and Sweets in Pediatric Irritable Bowel Syndrome and Functional Abdominal Pain: A Randomized Trial. Clinical Gastroenterology and Hepatology 2026;24:2286–2296. PMID: 41610933. DOI: 10.1016/j.cgh.2026.01.014. Abstract reviewed; full-text appraisal pending."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Peppermint oil has a documented European history of digestive use; traditional cough, muscle-pain and itching applications have a separate evidence basis from oral IBS research [5].",
+      "modern_application": "Draft research profile: enteric-coated peppermint oil has been studied for IBS symptoms, with inconsistent trial results [1][2]. A 2022 synthesis of 10 RCTs (1030 participants) reported pooled symptom benefit but rated certainty very low and found more adverse events [1]. A 6-week trial in people with Rome IV IBS found no superiority over placebo [2]. A 2026 trial in children aged 8–18 years likewise found neither peppermint oil nor peppermint sweets superior to placebo after eight weeks [6]. BMS Level U for a firm general efficacy conclusion; formulation-specific human research exists. Pediatric PK studies describe exposure, not established pediatric treatment regimens [3][4]. Pending manual scientific review.",
+      "side_effects": "Heartburn, nausea and perianal burning are reported; reflux can worsen, including in people with hiatal hernia. Allergy can occur. Trial adverse events were more frequent than placebo in the synthesis [1][5].",
+      "contraindications": "EMA lists oil/menthol hypersensitivity, liver disease, cholangitis, gallstones, other biliary disorders and achlorhydria for oral gastro-resistant preparations. Oral IBS preparations are not recommended below age 8; other routes have distinct age restrictions, including contraindication below age 2 [5]. Worsening symptoms warrant medical advice [5]. EMA also contraindicates its traditional-use preparations in children with a seizure history; age limits vary by route [5]."
+    },
+    "clinical_data": {
+      "used_part": "Peppermint essential oil; clinical evidence here concerns enteric-coated oil, not leaf tea [2][5].",
+      "primary_active_compounds": [
+        "Menthol (monoterpene; studied PK marker) [3][4]",
+        "Essential-oil terpenes; product composition varies [5]"
+      ],
+      "mechanism_of_action": "EMA describes <strong>gastrointestinal smooth-muscle spasmolysis</strong> in human pharmacological studies. This does not establish symptom benefit in every IBS population or identify a single clinically validated molecular target [5].",
+      "pharmacokinetics": {
+        "absorption": "Human studies measured systemic menthol after enteric-coated oil; exposure depends on dose/formulation. In a small pediatric study peak concentration occurred about 2.5 hours after dosing [4].",
+        "distribution": "Human whole-oil tissue distribution is insufficiently characterized in the retrieved sources; pediatric PK findings do not establish adult distribution [3][4].",
+        "metabolism": "EMA describes glucuronide formation and limited clinical observations of CYP3A4 inhibition; interaction magnitude remains incompletely defined [5].",
+        "excretion": "Menthol glucuronide elimination is described in EMA; modified release delays urinary excretion relative to immediate release. No universal whole-oil half-life is established here [5]."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Antacids, H2 blockers and proton-pump inhibitors may cause premature dissolution of gastro-resistant coatings. Limited CYP3A4 observations do not establish a quantified interaction with every substrate [5].",
+        "toxicity": "Concentrated oil overdose can cause serious neurologic and cardiac effects. Animal high-dose pulegone/menthofuran findings are not direct estimates of clinical cancer risk [5]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal-oil pregnancy safety is unestablished; EMA does not recommend use with insufficient data [5].",
+        "lactation": "EMA does not recommend medicinal use; milk transfer is unknown [5].",
+        "hepatic_impairment": "Oral gastro-resistant oil is contraindicated in liver disease in the EMA monograph [5].",
+        "renal_impairment": "No validated renal dose adjustment identified; renal-impairment PK and safety remain gaps in this extraction [3][4][5]."
+      }
+    }
+  },
+  {
+    "scientific_name": "Cynara cardunculus",
+    "common_name": "Artichoke",
+    "type": "Plant",
+    "article_count": 963,
+    "primary_categories": [
+      "Digestive health",
+      "Lipid metabolism"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/14653829/",
+        "https://pubmed.ncbi.nlm.nih.gov/28609140/",
+        "https://pubmed.ncbi.nlm.nih.gov/34569671/"
+      ],
+      "cited_references": [
+        "[1] Holtmann G, Adam B, Haag S, Collet W, Grünewald E, Windeck T. Efficacy of artichoke leaf extract in the treatment of patients with functional dyspepsia: a six-week placebo-controlled, double-blind, multicentre trial. Alimentary pharmacology & therapeutics 2003. PMID: 14653829. DOI: 10.1046/j.1365-2036.2003.01767.x.",
+        "[2] Sahebkar A, Pirro M, Banach M, Mikhailidis DP, Atkin SL, Cicero AFG. Lipid-lowering activity of artichoke extracts: A systematic review and meta-analysis. Critical reviews in food science and nutrition 2018. PMID: 28609140. DOI: 10.1080/10408398.2017.1332572.",
+        "[3] Shahinfar H, Bazshahi E, Amini MR, Payandeh N, Pourreza S, Noruzi Z, Shab-Bidar S. Effects of artichoke leaf extract supplementation or artichoke juice consumption on lipid profile: A systematic review and dose-response meta-analysis of randomized controlled trials. Phytotherapy research : PTR 2021. PMID: 34569671. DOI: 10.1002/ptr.7247.",
+        "[4] EMA/HMPC. Official herbal monograph, full regulatory text, sections 4.3–5.3. https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-cynara-cardunculus-l-syn-cynara-scolymus-l-folium_en.pdf Accessed 2026-10-25."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Artichoke leaf has documented traditional use for fullness, bloating and flatulence; EMA categorizes this digestive indication as traditional use [4].",
+      "modern_application": "Draft research profile: artichoke leaf extracts have been investigated for functional dyspepsia and lipid biomarkers [1][2][3]. In a 6-week RCT (247 enrolled), a commercial leaf extract improved symptom scores versus placebo [1]. Meta-analyses reported lipid changes across varying products; cardiovascular event prevention is unproven [2][3]. BMS Level B provisional for the specific dyspepsia preparation and lipid markers, with full-text bias review pending; EMA traditional-use status remains distinct [4]. Pending manual scientific review.",
+      "side_effects": "Mild diarrhea, abdominal spasm, nausea, heartburn and allergic reactions are reported; frequencies are unknown [4].",
+      "contraindications": "EMA lists Asteraceae hypersensitivity, bile-duct obstruction, cholangitis, liver disease, gallstones and other biliary disorders requiring medical advice. Use below age 12 is not established [4]. Persistent digestive symptoms beyond two weeks warrant medical advice [4]."
+    },
+    "clinical_data": {
+      "used_part": "Leaf extract of cultivated artichoke, reported in literature as Cynara scolymus; evidence must not be transferred to all C. cardunculus varieties or edible hearts. EMA covers specified leaf preparations [1][4].",
+      "primary_active_compounds": [
+        "Commercial leaf-extract mixture; the retrieved trial abstract does not identify constituent concentrations or clinical standardization, so no individual active compound is assigned [1]."
+      ],
+      "mechanism_of_action": "<strong>Digestive symptom modulation</strong> and <strong>lipid metabolism</strong> are studied outcomes; molecular causation is not established by the retrieved human trials. No specific molecular target is assigned here [1][2][3].",
+      "pharmacokinetics": {
+        "absorption": "Human absorption of the trial extract is not characterized in the retrieved studies; no bioavailability estimate assigned [1][4].",
+        "distribution": "Human tissue distribution is not characterized in the retrieved sources [1][4].",
+        "metabolism": "Human metabolism of the whole leaf extract is not characterized in this extraction; no CYP claim assigned [4].",
+        "excretion": "No human elimination route or half-life established for the whole extract in the retrieved sources [4]."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "EMA reports no interactions; formal interaction data remain limited. This does not establish compatibility with all medicines [4].",
+        "toxicity": "Long-term human toxicity is not established by short trials. EMA notes inadequate reproductive, genotoxicity and carcinogenicity testing; no quantified human safe maximum is assigned [1][4]."
+      },
+      "special_precautions": {
+        "pregnancy": "Safety unestablished; EMA does not recommend medicinal use during pregnancy [4].",
+        "lactation": "Safety unestablished; EMA does not recommend medicinal use during lactation [4].",
+        "hepatic_impairment": "Liver disease and biliary disease are listed contraindications in EMA; experimental liver research does not override this [4].",
+        "renal_impairment": "No renal dose-adjustment evidence identified; renal-impairment safety remains insufficiently characterized [4]."
+      }
+    }
+  },
+  {
+    "scientific_name": "Senna alexandrina",
+    "common_name": "Senna",
+    "type": "Plant",
+    "article_count": 182,
+    "primary_categories": [
+      "Digestive health",
+      "Gastrointestinal motility"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32969946/",
+        "https://pubmed.ncbi.nlm.nih.gov/33767108/",
+        "https://pubmed.ncbi.nlm.nih.gov/16268429/"
+      ],
+      "cited_references": [
+        "[1] Morishita D, Tomita T, Mori S, Kimura T, Oshima T, Fukui H, Miwa H. Senna Versus Magnesium Oxide for the Treatment of Chronic Constipation: A Randomized, Placebo-Controlled Trial. The American journal of gastroenterology 2021. PMID: 32969946. DOI: 10.14309/ajg.0000000000000942.",
+        "[2] Rao SSC, Brenner DM. Efficacy and Safety of Over-the-Counter Therapies for Chronic Constipation: An Updated Systematic Review. The American journal of gastroenterology 2021. PMID: 33767108. DOI: 10.14309/ajg.0000000000001222.",
+        "[3] Sonmez A, Yilmaz MI, Mas R, Ozcan A, Celasun B, Dogru T, Taslipinar A, Kocar IH. Subacute cholestatic hepatitis likely related to the use of senna for chronic constipation. Acta gastro-enterologica Belgica 2005. PMID: 16268429. DOI: Not reported.",
+        "[4] EMA/HMPC. Official herbal monograph, full regulatory text, sections 4.3–5.3. https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-senna-alexandrina-mill-cassia-senna-l-cassia-angustifolia-vahl-folium-revision-1_en.pdf Accessed 2026-10-25."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Senna leaf has longstanding laxative use; EMA recognizes well-established short-term use for occasional constipation [4].",
+      "modern_application": "Draft research profile: senna preparations have been studied for constipation, with short-term symptom benefits and important electrolyte and obstruction precautions [1][4]. A 28-day randomized trial in 90 adults compared senna, magnesium oxide and placebo; improvement favored active groups [1]. Exact senna part and anthranoid standardization were not specified in its abstract, so no product-specific dose is given here. BMS Level B provisional for constipation; a favorable OTC systematic review uses a different grading system [2]. EMA limits unsupervised leaf-medicine use to one week; the research duration is not general-use guidance [4]. Pending manual scientific review.",
+      "side_effects": "Abdominal cramps, diarrhea and allergic reactions can occur. Prolonged use may disturb fluid/electrolyte balance and cause reversible intestinal pigmentation; incidence is not established here [4].",
+      "contraindications": "EMA contraindications include hypersensitivity, bowel obstruction/stenosis, atony, appendicitis, inflammatory bowel disease, unexplained abdominal pain, severe dehydration, pregnancy, lactation and age under 12. Persistent constipation or symptoms suggesting obstruction require medical assessment [4]."
+    },
+    "clinical_data": {
+      "used_part": "EMA profile concerns senna leaf. Pods have related but separately specified preparations. Constipation RCT abstract does not identify plant part or sennoside content [1][4].",
+      "primary_active_compounds": [
+        "Sennosides (hydroxyanthracene glycosides); preparations are standardized, but the RCT abstract omits content [1][4]"
+      ],
+      "mechanism_of_action": "Colonic bacteria convert sennosides to <strong>rhein anthrone</strong>; anthranoid laxative action alters <strong>colonic motility and water/electrolyte transport</strong>. Mechanism does not justify chronic unrestricted use [4].",
+      "pharmacokinetics": {
+        "absorption": "Sennosides are not absorbed or split by human enzymes in the upper gut; some metabolites are absorbed after colonic activation [4].",
+        "distribution": "Whole-preparation distribution is incompletely defined. EMA describes a small human pod-powder PK study; pod findings are not identical to a leaf-product PK profile [4].",
+        "metabolism": "Bacterial conversion to rhein anthrone occurs in the colon; circulating metabolites include conjugates [4].",
+        "excretion": "EMA describes mainly fecal elimination with some urinary/biliary metabolite elimination; no universal leaf-extract half-life is established here [4]."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Potassium depletion during prolonged misuse can potentiate cardiac glycosides and interact with antiarrhythmics; diuretics, corticosteroids and liquorice may increase potassium loss [4]. EMA advises medical consultation with QT-prolonging medicines and these interacting drug classes [4].",
+        "toxicity": "Fluid/electrolyte depletion is a principal misuse risk. A case report linked chronic senna exposure with cholestatic hepatitis, with confounders and no incidence estimate [3][4]."
+      },
+      "special_precautions": {
+        "pregnancy": "Contraindicated in the EMA senna-leaf monograph; experimental anthranoid findings underpin precaution [4].",
+        "lactation": "Contraindicated by EMA; small quantities of active metabolites can enter milk [4].",
+        "hepatic_impairment": "Suspected liver injury has been reported; no validated hepatic dose adjustment identified [3][4].",
+        "renal_impairment": "Kidney disorders increase concern about electrolyte disturbances; no validated renal dose adjustment identified [4]."
+      }
+    }
+  },
+  {
+    "scientific_name": "Plantago ovata",
+    "common_name": "Psyllium / Ispaghula",
+    "type": "Plant",
+    "article_count": 247,
+    "primary_categories": [
+      "Digestive health",
+      "Lipid metabolism"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/19713235/",
+        "https://pubmed.ncbi.nlm.nih.gov/35816465/",
+        "https://pubmed.ncbi.nlm.nih.gov/30239559/"
+      ],
+      "cited_references": [
+        "[1] Bijkerk CJ, de Wit NJ, Muris JW, Whorwell PJ, Knottnerus JA, Hoes AW. Soluble or insoluble fibre in irritable bowel syndrome in primary care? Randomised placebo controlled trial. BMJ (Clinical research ed.) 2009. PMID: 19713235. DOI: 10.1136/bmj.b3154.",
+        "[2] van der Schoot A, Drysdale C, Whelan K, Dimidi E. The Effect of Fiber Supplementation on Chronic Constipation in Adults: An Updated Systematic Review and Meta-Analysis of Randomized Controlled Trials. The American journal of clinical nutrition 2022. PMID: 35816465. DOI: 10.1093/ajcn/nqac184.",
+        "[3] Jovanovski E, Yashpal S, Komishon A, Zurbau A, Blanco Mejia S, Ho HVT, Li D, Sievenpiper J, Duvnjak L, Vuksan V. Effect of psyllium (Plantago ovata) fiber on LDL cholesterol and alternative lipid targets, non-HDL cholesterol and apolipoprotein B: a systematic review and meta-analysis of randomized controlled trials. The American journal of clinical nutrition 2018. PMID: 30239559. DOI: 10.1093/ajcn/nqy115.",
+        "[4] EMA/HMPC. Official herbal monograph, full regulatory text, sections 4.3–5.3. https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-plantago-ovata-forssk-seminis-tegumentum_en.pdf Accessed 2026-10-25."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Ispaghula seed husk has established medicinal use as a bulk-forming laxative; this profile concerns husk, not unrelated Plantago species [4].",
+      "modern_application": "Draft research profile: psyllium husk has been studied for constipation, IBS symptoms and lipid biomarkers [1][2][3]. A 12-week IBS RCT compared psyllium, bran and placebo in 275 adults; psyllium improved relief in early months [1]. Fiber meta-analysis supports a psyllium signal but pooled all-fiber effects cannot be assigned wholly to psyllium [2]. A 28-trial lipid meta-analysis found lower LDL, with moderate certainty limited by inconsistency [3]. BMS Level B provisional for these specific outcomes pending full-text appraisal; cardiovascular event prevention is not established. Pending manual scientific review.",
+      "side_effects": "Flatulence, distension and allergy, including anaphylaxis, can occur. Inadequate fluid can cause choking or esophageal/intestinal obstruction; powder inhalation may sensitize [4].",
+      "contraindications": "EMA contraindications include swallowing/throat disorders, GI narrowing, potential/existing obstruction, megacolon, undiagnosed rectal bleeding, persistent sudden bowel-habit change and failure to defecate after a laxative. Allergy is a contraindication [4]. Constipation persisting beyond three days or abdominal pain warrants medical advice; pediatric age restrictions depend on the indication [4]."
+    },
+    "clinical_data": {
+      "used_part": "Seed coats (ispaghula/psyllium husk), whole or powdered. Seed, husk and other Plantago species are not interchangeable [4].",
+      "primary_active_compounds": [
+        "Gel-forming mucilage polysaccharides, including arabinoxylan-type fiber; whole husk is not a purified systemic drug [4]"
+      ],
+      "mechanism_of_action": "<strong>Water-retaining mucilage</strong> increases stool hydration/bulk; predominantly local gut action differs from systemic receptor pharmacology. Lipid-marker effects do not demonstrate prevention of cardiovascular events [3][4].",
+      "pharmacokinetics": {
+        "absorption": "Husk mucilage is minimally absorbed intact; EMA distinguishes local fiber action from uptake of degradation products [4].",
+        "distribution": "No conventional whole-husk systemic tissue-distribution profile is established; local luminal action predominates [4].",
+        "metabolism": "Limited colonic fermentation produces short-chain fatty acids; do not treat fiber as a CYP-metabolized small-molecule drug [4].",
+        "excretion": "Unabsorbed fiber and metabolites pass in feces; a conventional whole-husk elimination half-life is not applicable [4]."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "May delay absorption of other oral medicines. EMA specifies separation and notes supervision with thyroid hormones or motility-inhibiting drugs; diabetes therapy may require review. Interaction severity depends on the medicine [4].",
+        "toxicity": "The major acute risks are mechanical obstruction and severe hypersensitivity; sufficient liquid is essential. No maximum safe dose for impaired populations is inferred from trials [4]."
+      },
+      "special_precautions": {
+        "pregnancy": "EMA permits consideration when diet change fails, with limited pregnancy data; no claim of established fetal safety [4].",
+        "lactation": "EMA allows consideration when needed; specific infant-safety evidence remains limited [4].",
+        "hepatic_impairment": "No hepatic dose-adjustment evidence identified for husk; impairment-specific safety is not established by these trials [4].",
+        "renal_impairment": "Fluid restrictions and swallowing/obstruction risk require individual clinical assessment; no renal dose-adjustment evidence identified [4]."
+      }
+    }
+  },
+  {
+    "scientific_name": "Aloe vera",
+    "common_name": "Aloe vera",
+    "type": "Plant",
+    "article_count": 2957,
+    "primary_categories": [
+      "Skin health",
+      "Digestive health"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/15043514/",
+        "https://pubmed.ncbi.nlm.nih.gov/22336851/",
+        "https://pubmed.ncbi.nlm.nih.gov/25073673/",
+        "https://pubmed.ncbi.nlm.nih.gov/38605441/"
+      ],
+      "cited_references": [
+        "[1] Langmead L, Feakins RM, Goldthorpe S, Holt H, Tsironi E, De Silva A, Jewell DP, Rampton DS. Randomized, double-blind, placebo-controlled trial of oral aloe vera gel for active ulcerative colitis. Alimentary pharmacology & therapeutics 2004. PMID: 15043514. DOI: 10.1111/j.1365-2036.2004.01902.x.",
+        "[2] Dat AD, Poon F, Pham KB, Doust J. Aloe vera for treating acute and chronic wounds. The Cochrane database of systematic reviews 2012. PMID: 22336851. DOI: 10.1002/14651858.cd008762.pub2.",
+        "[3] Lee J, Lee MS, Nam KW. Acute toxic hepatitis caused by an aloe vera preparation in a young patient: a case report with a literature review. The Korean journal of gastroenterology = Taehan Sohwagi Hakhoe chi 2014. PMID: 25073673. DOI: 10.4166/kjg.2014.64.1.54.",
+        "[4] NCCIH. Aloe Vera: Usefulness and Safety. https://www.nccih.nih.gov/health/aloe-vera Accessed 2026-10-25.",
+        "[5] Huang YN, Chen KC, Wang JH, Lin YK. Effects of Aloe vera on Burn Injuries: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Journal of Burn Care & Research 2024;45:1536–1545. PMID: 38605441. DOI: 10.1093/jbcr/irae061. Abstract reviewed; full-text appraisal pending."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Aloe has documented historical skin and wound use in several ancient medical traditions. Historical use is not evidence that contemporary gel, latex and whole-leaf products have equivalent effects [4].",
+      "modern_application": "Draft research profile: aloe gel preparations have been investigated for wounds and oral inflammatory-bowel symptoms, with substantial uncertainty and product differences [1][2][5]. A small 4-week UC trial (44 evaluable participants) found more clinical responses with oral gel than placebo, but clinical remission and sigmoidoscopic findings were not convincingly different [1]. The 2012 wound review found insufficient high-quality evidence [2]. A later review of nine burn RCTs reported shorter healing with aloe preparations, while pain and infection differences were not significant; these burn findings cannot be generalized to all wounds or products [5]. BMS Level C for the exploratory UC signal, provisional B for the narrower burn-healing outcome pending full-text quality appraisal, and U for a firm broad wound-healing conclusion. Gel findings do not support oral latex or whole-leaf products. Pending manual scientific review.",
+      "side_effects": "Topical gel may cause burning, itching or rash. Oral latex causes cramps and diarrhea. Acute hepatitis has been associated with oral aloe preparations, whose exact plant fraction may be unclear [3][4].",
+      "contraindications": "Known aloe hypersensitivity precludes the relevant product. Oral aloe is discouraged in pregnancy and lactation. Gel research must not be generalized to anthranoid-containing latex/whole-leaf laxatives; obstruction or unexplained abdominal symptoms require clinical assessment, not self-treatment [4]."
+    },
+    "clinical_data": {
+      "used_part": "Inner-leaf gel in the UC trial and varied topical products in wound research. Latex is the outer-leaf exudate; whole-leaf extracts contain different fractions and require separate safety assessment [1][2][4].",
+      "primary_active_compounds": [
+        "Inner-leaf gel is a complex preparation; its clinical constituent standardization is not established in the retrieved trial abstract [1].",
+        "Aloin is an anthraquinone constituent relevant to oral aloe-product safety; gel, latex and whole-leaf extracts require separate assessment [4]."
+      ],
+      "mechanism_of_action": "<strong>Inflammatory activity</strong> was assessed clinically/histologically in the small gel trial; it does not establish a molecular mechanism. No specific receptor or signaling target is attributed from these clinical sources [1].",
+      "pharmacokinetics": {
+        "absorption": "Human absorption/bioavailability of the studied whole gel is not characterized in retrieved sources; no intact-polysaccharide systemic exposure assumed [1][4].",
+        "distribution": "Human tissue distribution of the gel preparation is unknown in this extraction [1][4].",
+        "metabolism": "Human gel-product metabolic pathways are insufficiently characterized; anthranoid pharmacology cannot be assigned to anthranoid-depleted gel [4].",
+        "excretion": "No validated gel-product elimination route or half-life identified in the retrieved literature [1][4]."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "NCCIH flags increased cardiac-glycoside adverse-effect risk with latex overuse. This is preparation specific and must not be automatically assigned to topical inner-leaf gel [4].",
+        "toxicity": "Oral aloe preparations have been associated with hepatitis [3]. Non-decolorized whole-leaf extracts produced GI tumors in rodents; this is animal evidence and not interchangeable with inner gel or a quantified human cancer risk [4]."
+      },
+      "special_precautions": {
+        "pregnancy": "Oral gel, latex and whole-leaf products may be unsafe during pregnancy per NCCIH; topical pregnancy evidence is insufficiently characterized here [4].",
+        "lactation": "Oral aloe may be unsafe while breastfeeding; infant exposure for specific products is inadequately characterized [4].",
+        "hepatic_impairment": "Hepatitis reports warrant particular caution with oral products; no validated hepatic adjustment exists in these sources [3][4].",
+        "renal_impairment": "Renal-impairment safety is inadequately characterized in the selected sources. Diarrhea-producing oral products warrant particular caution because of fluid losses; this is a precautionary inference, not a tested renal dosing rule [4]."
+      }
+    }
+  }
+]

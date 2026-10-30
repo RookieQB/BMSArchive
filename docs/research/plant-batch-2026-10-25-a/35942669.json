@@ -1,0 +1,387 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:35942669 AND SRC:MED",
+    "internalQuery": "EXT_ID:35942669 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35942669",
+        "source": "MED",
+        "pmid": "35942669",
+        "doi": "10.1111/apt.17179",
+        "title": "Systematic review and meta-analysis: efficacy of peppermint oil in irritable bowel syndrome.",
+        "authorString": "Ingrosso MR, Ianiro G, Nee J, Lembo AJ, Moayyedi P, Black CJ, Ford AC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ingrosso MR",
+              "lastName": "Ingrosso",
+              "firstName": "Maria Rosa",
+              "initials": "MR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5919-2922"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Digestive Disease Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Rome, Italy."
+                  },
+                  {
+                    "affiliation": "Dipartimento Universitario di Medicina e Chirurgia Traslazionale, Universit\u00e0 Cattolica del Sacro Cuore, Rome, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ianiro G",
+              "lastName": "Ianiro",
+              "firstName": "Gianluca",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8318-0515"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Digestive Disease Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Rome, Italy."
+                  },
+                  {
+                    "affiliation": "Dipartimento Universitario di Medicina e Chirurgia Traslazionale, Universit\u00e0 Cattolica del Sacro Cuore, Rome, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nee J",
+              "lastName": "Nee",
+              "firstName": "Judy",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9437-4163"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, Beth Israel Deaconess Medical Center, Boston, Massachusetts, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lembo AJ",
+              "lastName": "Lembo",
+              "firstName": "Anthony J",
+              "initials": "AJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4479-1188"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, Beth Israel Deaconess Medical Center, Boston, Massachusetts, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moayyedi P",
+              "lastName": "Moayyedi",
+              "firstName": "Paul",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3616-9292"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Farncombe Family Digestive Health Research Institute, McMaster University, Hamilton, Ontario, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Black CJ",
+              "lastName": "Black",
+              "firstName": "Christopher J",
+              "initials": "CJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5449-3603"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Gastroenterology Institute, St. James's University Hospital, Leeds, UK."
+                  },
+                  {
+                    "affiliation": "Leeds Institute of Medical Research at St. James's, University of Leeds, Leeds, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ford AC",
+              "lastName": "Ford",
+              "firstName": "Alexander C",
+              "initials": "AC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6371-4359"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Gastroenterology Institute, St. James's University Hospital, Leeds, UK."
+                  },
+                  {
+                    "affiliation": "Leeds Institute of Medical Research at St. James's, University of Leeds, Leeds, UK."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5449-3603"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5919-2922"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6371-4359"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3616-9292"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4479-1188"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8318-0515"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9437-4163"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "56",
+          "journalIssueId": 3411017,
+          "dateOfPublication": "2022 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Aliment Pharmacol Ther",
+            "title": "Alimentary pharmacology & therapeutics",
+            "essn": "1365-2036",
+            "issn": "0269-2813",
+            "isoabbreviation": "Aliment Pharmacol Ther",
+            "nlmid": "8707234"
+          },
+          "printPublicationDate": "2022-09-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "932-941",
+        "abstractText": "<h4>Background</h4>Irritable bowel syndrome (IBS) is one of the most common disorders of gut-brain interaction, with a complex pathophysiology. Antispasmodics are prescribed as first-line therapy because of their action on gut dysmotility. In this regard, peppermint oil also has antispasmodic properties.<h4>Aim</h4>To update our previous meta-analysis to assess efficacy and safety of peppermint oil, particularly as recent studies have cast doubt on its role in the treatment of IBS METHODS: We searched the medical literature up to 2nd April 2022 to identify randomised controlled trials (RCTs) of peppermint oil in IBS. Efficacy and safety were judged using dichotomous assessments of effect on global IBS symptoms or abdominal pain, and occurrence of any adverse event or of gastro-oesophageal reflux. Data were pooled using a random effects model, with efficacy and safety reported as pooled relative risks (RRs) with 95% confidence intervals (CIs).<h4>Results</h4>We identified 10 eligible RCTs (1030 patients). Peppermint oil was more efficacious than placebo for global IBS symptoms (RR of not improving\u00a0=\u00a00.65; 95% CI 0.43-0.98, number needed to treat [NNT]\u00a0=\u00a04; 95% CI 2.5-71), and abdominal pain (RR of abdominal pain not improving\u00a0=\u00a00.76; 95% CI 0.62-0.93, NNT\u00a0=\u00a07; 95% CI 4-24). Adverse event rates were significantly higher with peppermint oil (RR of any adverse event\u00a0=\u00a01.57; 95% CI 1.04-2.37).<h4>Conclusions</h4>Peppermint oil was superior to placebo for the treatment of IBS, but adverse events were more frequent, and quality of evidence was very low. Adequately powered RCTs of peppermint oil as first-line treatment for IBS are needed.",
+        "affiliation": "Digestive Disease Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Rome, Italy.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mentha piperita"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Irritable Bowel Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Abdominal Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Oils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Parasympatholytics",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "irritable bowel syndrome",
+            "efficacy",
+            "Peppermint Oil",
+            "Rct Comparison"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Parasympatholytics",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Oils",
+              "registryNumber": "0"
+            },
+            {
+              "name": "peppermint oil",
+              "registryNumber": "AV092KU4JH"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://eprints.whiterose.ac.uk/190294/3/APT-1040-2022R1%20CLEAN.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/apt.17179"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "36071007",
+              "reference": "Aliment Pharmacol Ther. 2022 Oct;56(7):1217-1218. doi: 10.1111/apt.17197.",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "36071010",
+              "reference": "Aliment Pharmacol Ther. 2022 Oct;56(7):1215-1216. doi: 10.1111/apt.17194.",
+              "type": "Comment in",
+              "orderIn": 2
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 36,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-08-24",
+        "dateOfCreation": "2022-08-09",
+        "dateOfRevision": "2025-10-31",
+        "electronicPublicationDate": "2022-08-09",
+        "firstPublicationDate": "2022-08-09",
+        "firstIndexDate": "2022-08-10",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

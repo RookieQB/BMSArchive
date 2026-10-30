@@ -1,0 +1,1635 @@
+{
+  "version": "6.9",
+  "hitCount": 20,
+  "nextCursorMark": "AoIIP9/BMig1NDM5MDMwNQ==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22senna%22+AND+TITLE_ABS%3A%22hepatotoxicity%22&cursorMark=AoIIP9%2FBMig1NDM5MDMwNQ%3D%3D&resultType=core&pageSize=5&format=json",
+  "request": {
+    "queryString": "TITLE_ABS:\"senna\" AND TITLE_ABS:\"hepatotoxicity\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 5,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39357778",
+        "source": "MED",
+        "pmid": "39357778",
+        "doi": "10.1016/j.toxicon.2024.108113",
+        "title": "Study on Translational toxicology of Senna obtusifolia aqueous extract.",
+        "authorString": "Guo X, Gong L, Guo C, Cai T, Huang N, Shen X, Sheng L, Li R, Wang Y, Zhao X, Guo W, Sun R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Guo X",
+              "lastName": "Guo",
+              "firstName": "Xin",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China; Advanced Medical Research Institute, Shandong University, Jinan, 250012, China; Tianjin University of Traditional Chinese Medicine, Tianjin, 300193, China; Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gong L",
+              "lastName": "Gong",
+              "firstName": "Liping",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo C",
+              "lastName": "Guo",
+              "firstName": "Chong",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cai T",
+              "lastName": "Cai",
+              "firstName": "Taotao",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China; Weifang Hospital of Traditional Chinese Medicine, Weifang, Shandong, 261000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang N",
+              "lastName": "Huang",
+              "firstName": "Nana",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shen X",
+              "lastName": "Shen",
+              "firstName": "Xianhui",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sheng L",
+              "lastName": "Sheng",
+              "firstName": "Lisong",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Advanced Medical Research Institute, Shandong University, Jinan, 250012, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li R",
+              "lastName": "Li",
+              "firstName": "Rongrong",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China; Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yanqing",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao X",
+              "lastName": "Zhao",
+              "firstName": "Xinmei",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo W",
+              "lastName": "Guo",
+              "firstName": "Wenhe",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun R",
+              "lastName": "Sun",
+              "firstName": "Rong",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China; Advanced Medical Research Institute, Shandong University, Jinan, 250012, China. Electronic address: sunrong@sdu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "250",
+          "journalIssueId": 3842400,
+          "dateOfPublication": "2024 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Toxicon",
+            "title": "Toxicon : official journal of the International Society on Toxinology",
+            "essn": "1879-3150",
+            "issn": "0041-0101",
+            "isoabbreviation": "Toxicon",
+            "nlmid": "1307333"
+          },
+          "printPublicationDate": "2024-11-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "108113",
+        "abstractText": "In recent years, the clinical adverse drug reactions (ADR) reports of Senna obtusifolia have been constantly emerging, especially hepatotoxicity. However, it is unclear whether the liver is the only or main toxic target organ. In this study, we conducted a repeated administration experiment with the Senna obtusifolia Aqueous Extract (SE) and PCA analysis was used to determine the primary toxic target organs. The results revealed that the liver was the main toxic target organ and we also verifid the hepatotoxicity in vitro. The mechanism of hepatotoxicity was predicted by network toxicology technology, which was verified by ELISA, qPCR, western blotting and other methods.The results showed that SE could increase the serum levels of TNF-\u03b1, IL-6, IL-1\u03b2, the mRNA expression levels of ACT1, TRAF6, NF-\u03baB P65 and the protein expression levels of TRAF6, NF-\u03baB P65, P-P65 in rat livers and HepG2 cells, which indicated that SE induced hepatotoxicity might be related to inflammatory response.",
+        "affiliation": "The Second Hospital, Shandong University, Jinan, 250033, China; Advanced Medical Research Institute, Shandong University, Jinan, 250012, China; Tianjin University of Traditional Chinese Medicine, Tianjin, 300193, China; Shandong University of Traditional Chinese Medicine, Jinan, 250355, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Senna Plant",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Senna Extract",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemical and Drug Induced Liver Injury"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Principal component analysis",
+            "Liver injury",
+            "Network Toxicology",
+            "Senna Obtusifolia Aqueous Extract",
+            "Repeated Toxicity Test"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Senna Extract",
+              "registryNumber": "8013-11-4"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.toxicon.2024.108113"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-10-24",
+        "dateOfCreation": "2024-10-02",
+        "dateOfRevision": "2024-10-24",
+        "electronicPublicationDate": "2024-09-30",
+        "firstPublicationDate": "2024-09-30",
+        "firstIndexDate": "2024-10-09",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND607740755",
+        "source": "AGR",
+        "title": "Exploration of hepatoprotective and antidiabetic potential of Senna occidentalis L. and isolation of a bioactive compound by column chromatography",
+        "authorString": "Mi\u015bra AK, Chahal P, Harpreet Singh, Kumar A, Mishra A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mi\u015bra AK",
+              "lastName": "Mi\u015bra",
+              "firstName": "Aru\u1e47a Kum\u0101ra",
+              "initials": "AK"
+            },
+            {
+              "fullName": "Chahal P",
+              "lastName": "Chahal",
+              "firstName": "Piyush",
+              "initials": "P"
+            },
+            {
+              "fullName": "Harpreet Singh",
+              "lastName": "Harpreet Singh"
+            },
+            {
+              "fullName": "Kumar A",
+              "lastName": "Kumar",
+              "firstName": "Arvind",
+              "initials": "A"
+            },
+            {
+              "fullName": "Mishra A",
+              "lastName": "Mishra",
+              "firstName": "Amrita",
+              "initials": "A"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "148",
+          "journalIssueId": 3857182,
+          "dateOfPublication": "2024 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "S Afr J Bot",
+            "title": "South African journal of botany : official journal of the South African Association of Botanists = Suid-Afrikaanse tydskrif vir plantkunde : amptelike tydskrif van die Suid-Afrikaanse Genootskap van Plantkundiges",
+            "issn": "0254-6299",
+            "isoabbreviation": "S Afr J Bot",
+            "nlmid": "100955699"
+          },
+          "printPublicationDate": "2024-08-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "144-153",
+        "abstractText": "The therapeutic effects of a variety of herbal medicines are currently receiving a lot of attention. Senna occidentalis L. is an important herb that tribal people been using in the treatment of a wide range of hepatic problems. The objective of the present investigation was to scientifically validate the traditional claim of Senna occidentalis L. roots, with special reference to hepatoprotective and antidiabetic activity. The roots of authenticated herbs were subjected to extraction by the Soxhlet method. The roots of Senna occidentalis L. were successively extracted with different solvents. Presence of phytochemicals in extracts were recorded after screening. Acute toxicity study was performed as per OECD guidelines 420. After the in-vivo antidiabetic activity (Streptozocin induced model) and hepatoprotective activity (CCl\u2084 induced model), the findings were recorded. The Ethanolic Extract (EE) was subjected to column chromatography, which was subjected to structural elucidation. Senna occidentalis L. roots EE exhibited the presence of glycosides, phenols, tannins and flavonoids. The hepatoprotective activity of both the extracts, EE and Ethyl Acetate Extract (EAE) (using Carbon tetrachloride as a hepatotoxicity inducing agent) and hypoglycemic activity (using Streptozocin as a diabetes-inducing agent) in laboratory animals was performed. The findings of hepatoprotective activity exhibited that a maximum reduction in serum ALT level was recorded by EE extracts at a dose of 400\u00a0mg/kg. Observations in histopathological examinations revealed that the EE of Senna occidentalis L. is potent enough to protect against cellular damage at a dose of 400\u00a0mg/kg. The EE (400\u00a0mg/kg) reduced the blood glucose level significantly.\u00a0Senna occidentalis L. has shown to have hepatoprotective and antidiabetic activity in animal models. When the responses of the two extracts were compared, the EE (400\u00a0mg/kg) was found to be more significant in terms of hepatoprotective and anti-diabetic activity. The chromatography of EE was done by column chromatography. Crystals of the isolated compound were isolated, and it was identified as quercetin using Infrared Spectroscopy, \u00b9H NMR Spectroscopy, \u00b9\u00b3C NMR Spectroscopy, and Mass Spectroscopy. The proposed secondary metabolites accountable for hepatoprotective and antidiabetic activity were flavonoids, which have resulted in positive outcomes.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-10-19",
+        "dateOfCreation": "2024-10-19",
+        "dateOfRevision": "2024-06-21",
+        "firstPublicationDate": "2024-08-01",
+        "firstIndexDate": "2024-11-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37110216",
+        "source": "MED",
+        "pmid": "37110216",
+        "pmcid": "PMC10147022",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10147022"
+          ]
+        },
+        "doi": "10.3390/metabo13040559",
+        "title": "Comparative LC-ESIMS-Based Metabolite Profiling of <i>Senna italica</i> with <i>Senna alexandrina</i> and Evaluating Their Hepatotoxicity.",
+        "authorString": "Zibaee E, Akaberi M, Tayarani-Najaran Z, Nesm\u011br\u00e1k K, \u0160t\u00edcha M, Shahraki N, Javadi B, Emami SA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zibaee E",
+              "lastName": "Zibaee",
+              "firstName": "Elaheh",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Traditional Pharmacy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Akaberi M",
+              "lastName": "Akaberi",
+              "firstName": "Maryam",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3971-2377"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacognosy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tayarani-Najaran Z",
+              "lastName": "Tayarani-Najaran",
+              "firstName": "Zahra",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Targeted Drug Delivery Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nesm\u011br\u00e1k K",
+              "lastName": "Nesm\u011br\u00e1k",
+              "firstName": "Karel",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5460-5273"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Analytical Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "\u0160t\u00edcha M",
+              "lastName": "\u0160t\u00edcha",
+              "firstName": "Martin",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8008-7668"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mass Spectrometry Laboratory, Section of Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shahraki N",
+              "lastName": "Shahraki",
+              "firstName": "Naghmeh",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical Toxicology Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Javadi B",
+              "lastName": "Javadi",
+              "firstName": "Behjat",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Traditional Pharmacy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Emami SA",
+              "lastName": "Emami",
+              "firstName": "Seyed Ahmad",
+              "initials": "SA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Traditional Pharmacy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5460-5273"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8008-7668"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3971-2377"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "13",
+          "journalIssueId": 3553119,
+          "dateOfPublication": "2023 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Metabolites",
+            "title": "Metabolites",
+            "essn": "2218-1989",
+            "issn": "2218-1989",
+            "isoabbreviation": "Metabolites",
+            "nlmid": "101578790"
+          },
+          "printPublicationDate": "2023-04-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "559",
+        "abstractText": "<i>Senna</i> Mill. (Fabaceae) is an important medicinal plant distributed worldwide. <i>Senna alexandrina</i> (<i>S. alexandrina</i>), the officinal species of the genus, is one of the most well-known herbal medicines traditionally used to treat constipation and digestive diseases. <i>Senna italica</i> (<i>S. italica</i>), another species of the genus, is native to an area ranging from Africa to the Indian subcontinent, including Iran. In Iran, this plant has been used traditionally as a laxative. However, very little phytochemical information and pharmacological reports investigating its safety of use are available. In the current study, we compared LC-ESIMS metabolite profiles of the methanol extract of <i>S. italica</i> with that of <i>S. alexandrina</i> and measured the content of sennosides A and B as the biomarkers in this genus. By this, we were able to examine the feasibility of using <i>S. italica</i> as a laxative agent like <i>S. alexandrina.</i> In addition, the hepatotoxicity of both species was evaluated against HepG2 cancer cell lines using HPLC-based activity profiling to localize the hepatotoxic components and evaluate their safety of use. Interestingly, the results showed that the phytochemical profiles of the plants were similar but with some differences, particularly in their relative contents. Glycosylated flavonoids, anthraquinones, dianthrones, benzochromenones, and benzophenones constituted the main components in both species. Nevertheless, some differences, particularly in the relative amount of some compounds, were observed. According to the LC-MS results, the amounts of sennoside A in <i>S. alexandrina</i> and <i>S. italica</i> were 1.85 \u00b1 0.095% and 1.00 \u00b1 0.38%, respectively. Moreover, the amounts of sennoside B in <i>S. alexandrina</i> and <i>S. italica</i> were 0.41 \u00b1 0.12 % and 0.32 \u00b1 0.17%, respectively. Furthermore, although both extracts showed significant hepatotoxicity at concentrations of 50 and 100 \u00b5g/mL, they were almost non-toxic at lower concentrations. Taken together, according to the results, the metabolite profiles of <i>S. italica</i> and <i>S. alexandrina</i> showed many compounds in common. However, further phytochemical, pharmacological, and clinical studies are necessary to examine the efficacy and safety of <i>S. italica</i> as a laxative agent.",
+        "affiliation": "Department of Traditional Pharmacy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad 13131-99137, Iran.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Mashhad University of Medical Sciences",
+              "grantId": "991724",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hepatotoxicity",
+            "Sennosides",
+            "LC-MS/MS",
+            "Senna Italica",
+            "Senna Alexandrina",
+            "Lc-esims"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/metabo13040559"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10147022"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10147022?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2023-04-28",
+        "dateOfRevision": "2023-05-01",
+        "electronicPublicationDate": "2023-04-13",
+        "firstPublicationDate": "2023-04-13",
+        "firstIndexDate": "2023-04-29",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "41713812",
+        "source": "MED",
+        "pmid": "41713812",
+        "doi": "10.1016/j.jep.2026.121399",
+        "title": "Jiawei YigongSan improves gastric motility and is associated with modulation of PI3K/Akt/mTOR signaling and autophagy in a rat model of functional dyspepsia.",
+        "authorString": "Wang X, Chen Y, Zhao M, Liu Y, Hu X, Zeng Y, Dong J, Wang Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xinyuan",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, Guangdong Pharmaceutical University, Guangzhou, 510006, Guangdong, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen Y",
+              "lastName": "Chen",
+              "firstName": "Yuee",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Traditional Chinese Medicine, Sanshui District People's Hospital of Foshan, 528132, Foshan, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao M",
+              "lastName": "Zhao",
+              "firstName": "Min",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Traditional Chinese Medicine, Sanshui District People's Hospital of Foshan, 528132, Foshan, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Yuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, Guangdong Pharmaceutical University, Guangzhou, 510006, Guangdong, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu X",
+              "lastName": "Hu",
+              "firstName": "Xuguang",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1785-5593"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, Guangdong Pharmaceutical University, Guangzhou, 510006, Guangdong, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zeng Y",
+              "lastName": "Zeng",
+              "firstName": "Yu",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, Guangdong Pharmaceutical University, Guangzhou, 510006, Guangdong, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dong J",
+              "lastName": "Dong",
+              "firstName": "Junqiu",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Traditional Chinese Medicine, Sanshui District People's Hospital of Foshan, 528132, Foshan, China. Electronic address: 13925902378@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yingfang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, Guangdong Pharmaceutical University, Guangzhou, 510006, Guangdong, China; Guangdong Provincial Key Laboratory of Pharmaceutical Bioactive Substances, Guangzhou, 510006, Guangdong, China. Electronic address: wangyingfang@gdpu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1785-5593"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "363",
+          "journalIssueId": 4150592,
+          "dateOfPublication": "2026 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "J Ethnopharmacol",
+            "title": "Journal of ethnopharmacology",
+            "essn": "1872-7573",
+            "issn": "0378-8741",
+            "isoabbreviation": "J Ethnopharmacol",
+            "nlmid": "7903310"
+          },
+          "printPublicationDate": "2026-05-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "121399",
+        "abstractText": "<h4>Ethnopharmacological relevance</h4>Jiawei YigongSan (JWYGS), a modified traditional Chinese medicine formula derived from Yigong San, is traditionally used to tonify Qi, strengthen the spleen, and regulate gastrointestinal function. However, its potential mechanisms in functional dyspepsia (FD) remain insufficiently clarified.<h4>Aim of the study</h4>This study aimed to investigate the effects of JWYGS on gastric motility dysfunction in a rat model of FD and to explore its potential association with interstitial cells of Cajal (ICCs), autophagy-related protein regulation, and the PI3K/Akt/mTOR signaling pathway.<h4>Materials and methods</h4>A composite FD rat model was established using irregular feeding, fatigue stimulation, and senna administration. Gastric emptying and intestinal transit were evaluated. Serum levels of motilin and gastrin were measured. ICC-associated markers (C-kit and ANO1) were assessed by immunohistochemistry. Autophagy-related proteins (Beclin-1, LC3B, p62) and PI3K/Akt/mTOR pathway components, including phosphorylated forms, were analyzed by Western blot. LC-MS profiling and network pharmacology analysis were performed to characterize major constituents and predict potential signaling pathways. Serum biochemical indices were examined to evaluate safety.<h4>Results</h4>FD model rats exhibited delayed gastric emptying, reduced intestinal transit, decreased pro-motility hormone levels, diminished expression of ICC-related markers, altered autophagy-related protein profiles, and increased activation of the PI3K/Akt/mTOR pathway. JWYGS treatment was associated with improvements in gastric motility parameters, normalization of motilin and gastrin levels, enhanced expression of C-kit and ANO1, reversal of autophagy-related protein alterations, and reduced phosphorylation of Akt, mTOR, and S6K. Network pharmacology analysis indicated enrichment of targets within the PI3K-Akt signaling pathway, consistent with experimental observations. No significant hepatotoxicity or nephrotoxicity was observed within the tested dosage range.<h4>Conclusion</h4>JWYGS administration was associated with improved gastrointestinal motility, preservation of ICC-related marker expression, and modulation of autophagy-related protein profiles and PI3K/Akt/mTOR signaling in FD rats. These findings provide experimental support for the traditional application of JWYGS and offer a foundation for further mechanistic investigation.",
+        "affiliation": "School of Traditional Chinese Medicine, Guangdong Pharmaceutical University, Guangzhou, 510006, Guangdong, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Guangdong Pharmaceutical University",
+              "grantId": "SY2024B03",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dyspepsia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gastrins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Motilin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drugs, Chinese Herbal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Gastrointestinal Motility",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gastric Emptying",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Autophagy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proto-Oncogene Proteins c-akt",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interstitial Cells of Cajal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphatidylinositol 3-Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphatidylinositol 3-Kinase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "TOR Serine-Threonine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Gastric motility",
+            "Functional dyspepsia",
+            "Autophagy",
+            "Pi3k/akt/mtor Pathway",
+            "Interstitial Cells Of Cajal (Iccs)",
+            "Jiawei Yigongsan (Jwygs)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Gastrins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Motilin",
+              "registryNumber": "52906-92-0"
+            },
+            {
+              "name": "Drugs, Chinese Herbal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proto-Oncogene Proteins c-akt",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "Phosphatidylinositol 3-Kinases",
+              "registryNumber": "EC 2.7.1.-"
+            },
+            {
+              "name": "mTOR protein, rat",
+              "registryNumber": "EC 2.7.1.1"
+            },
+            {
+              "name": "Phosphatidylinositol 3-Kinase",
+              "registryNumber": "EC 2.7.1.137"
+            },
+            {
+              "name": "TOR Serine-Threonine Kinases",
+              "registryNumber": "EC 2.7.11.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jep.2026.121399"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2026-07-08",
+        "dateOfCreation": "2026-02-19",
+        "dateOfRevision": "2026-07-08",
+        "electronicPublicationDate": "2026-02-17",
+        "firstPublicationDate": "2026-02-17",
+        "firstIndexDate": "2026-02-20",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "41345999",
+        "source": "MED",
+        "pmid": "41345999",
+        "pmcid": "PMC12678845",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12678845"
+          ]
+        },
+        "doi": "10.1002/pds.70275",
+        "title": "High-Throughput Screening Using the Self-Controlled Tree-Based Scan Statistic to Identify Medications Associated With Hospitalization for Severe Acute Liver Injury.",
+        "authorString": "Lo Re V, Newcomb CW, Carbonari DM, Leonard CE, Rentsch CT, Maro JC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lo Re V 3rd",
+              "lastName": "Lo Re",
+              "firstName": "Vincent",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7955-0600"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Infectious Diseases, Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+                  },
+                  {
+                    "affiliation": "Center for Clinical Epidemiology and Biostatistics, Center for Real-World Effectiveness and Safety of Therapeutics, Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Newcomb CW",
+              "lastName": "Newcomb",
+              "firstName": "Craig W",
+              "initials": "CW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Clinical Epidemiology and Biostatistics, Center for Real-World Effectiveness and Safety of Therapeutics, Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Carbonari DM",
+              "lastName": "Carbonari",
+              "firstName": "Dean M",
+              "initials": "DM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0310-270X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Clinical Epidemiology and Biostatistics, Center for Real-World Effectiveness and Safety of Therapeutics, Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Leonard CE",
+              "lastName": "Leonard",
+              "firstName": "Charles E",
+              "initials": "CE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5092-9657"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Clinical Epidemiology and Biostatistics, Center for Real-World Effectiveness and Safety of Therapeutics, Department of Biostatistics, Epidemiology, and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+                  },
+                  {
+                    "affiliation": "Leonard Davis Institute of Health Economics, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rentsch CT",
+              "lastName": "Rentsch",
+              "firstName": "Christopher T",
+              "initials": "CT",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1408-7907"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Non-communicable Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, UK."
+                  },
+                  {
+                    "affiliation": "VA Connecticut Healthcare System, US Department of Veterans Affairs, West Haven, Connecticut, USA."
+                  },
+                  {
+                    "affiliation": "Department of Medicine, Yale School of Medicine, New Haven, Connecticut, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maro JC",
+              "lastName": "Maro",
+              "firstName": "Judith C",
+              "initials": "JC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9900-2142"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Population Medicine, Harvard Medical School and Harvard Pilgrim Healthcare Institute, Boston, Massachusetts, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7955-0600"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9900-2142"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1408-7907"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5092-9657"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0310-270X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "34",
+          "journalIssueId": 4054528,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Pharmacoepidemiol Drug Saf",
+            "title": "Pharmacoepidemiology and drug safety",
+            "essn": "1099-1557",
+            "issn": "1053-8569",
+            "isoabbreviation": "Pharmacoepidemiol Drug Saf",
+            "nlmid": "9208369"
+          },
+          "printPublicationDate": "2025-12-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e70275",
+        "abstractText": "<h4>Background</h4>Medications associated with acute liver injury (ALI) are primarily identified by case reports. High-throughput screening of real-world data could be leveraged to detect hepatotoxicity signals.<h4>Objective</h4>To apply tree-based scan statistics in real-world data to identify drugs associated with hospitalization for severe ALI among patients without liver/biliary disease and with chronic liver disease (CLD).<h4>Methods</h4>We implemented a self-controlled case-crossover design in Veterans Health Administration data (2000-2023) among patients hospitalized for laboratory-confirmed severe ALI. We identified all newly dispensed drugs within 365\u2009days prior to their hospitalization and used conditional Bernoulli tree-based scan statistics to identify potential associations (p\u2009<\u20090.3). We performed analyses separately in patients without liver/biliary disease and with CLD.<h4>Results</h4>Among 12\u2009860 patients without liver/biliary disease and 17\u2009512 with CLD hospitalized for severe ALI, we evaluated associations with 450 and 543 drugs, respectively. Drugs associated with severe ALI among patients without liver/biliary disease included: acid-suppressives (ranitidine [p\u2009<\u20090.001], omeprazole [p\u2009=\u20090.004]), antiemetics (ondansetron [p\u2009<\u20090.001], promethazine [p\u2009=\u20090.06]), antibiotics (amoxicillin/clavulanate [p\u2009=\u20090.008], ciprofloxacin [p\u2009=\u20090.02], mupirocin [p\u2009=\u20090.032], ethambutol [p\u2009=\u20090.275]), anticoagulants (heparin [p\u2009=\u20090.015]), and chemotherapy (pazopanib [p\u2009=\u20090.275]). Drugs associated with severe ALI among CLD patients were: diuretics (spironolactone, furosemide [both p\u2009<\u20090.001]), antiemetics (ondansetron, metoclopramide, promethazine [all p\u2009<\u20090.001]), appetite stimulants (p\u2009<\u20090.001), analgesics (morphine, oxycodone, fentanyl [all p\u2009<\u20090.001]), chemotherapy (sorafenib [p\u2009<\u20090.001]), antibiotics (ciprofloxacin [p\u2009=\u20090.011], metronidazole [p\u2009=\u20090.020]), antipsychotics (prochlorperazine [p\u2009=\u20090.105]), vitamins (p\u2009=\u20090.134), acid-suppressives (omeprazole [p\u2009=\u20090.164]), and gastrointestinal/liver disease treatments (lactulose, senna, docusate, silicones, antiflatulents [all p\u2009<\u20090.001]; sucralfate [p\u2009=\u20090.005], albumin [p\u2009=\u20090.228]).<h4>Conclusions</h4>High-throughput screening using tree-based scan statistics detected potentially hepatotoxic drugs for investigation in future pharmacoepidemiology studies.",
+        "affiliation": "Division of Infectious Diseases, Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "U01AA013566",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "U24 AA020794",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "U01 AA013566",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "U01AA020790",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "P01 AA029545",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute on Alcohol Abuse and Alcoholism",
+              "grantId": "P01 AA029545",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute on Alcohol Abuse and Alcoholism",
+              "grantId": "U24AA022001",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute on Alcohol Abuse and Alcoholism",
+              "grantId": "U01AA013566",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01 CA206465",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "U01 AA020790",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute on Alcohol Abuse and Alcoholism",
+              "grantId": "U01AA020790",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute on Alcohol Abuse and Alcoholism",
+              "grantId": "U24AA020794",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01CA206465",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Cancer Institute",
+              "grantId": "R01CA206465",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "U24 AA022001",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "U24AA020794",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "U24AA022001",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hospitalization",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Severity of Illness Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Over Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United States",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "High-Throughput Screening Assays",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Chemical and Drug Induced Liver Injury",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hepatotoxicity",
+            "Acute liver injury",
+            "High\u2010throughput Screening",
+            "Drug\u2010induced Liver Injury",
+            "Tree\u2010based Scan Statistics"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/pds.70275"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12678845"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12678845?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-12-05",
+        "dateOfCreation": "2025-12-05",
+        "dateOfRevision": "2026-06-09",
+        "firstPublicationDate": "2025-12-01",
+        "firstIndexDate": "2025-12-05",
+        "fullTextReceivedDate": "2025-12-22",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

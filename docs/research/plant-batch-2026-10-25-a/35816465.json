@@ -1,0 +1,338 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:35816465 AND SRC:MED",
+    "internalQuery": "EXT_ID:35816465 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35816465",
+        "source": "MED",
+        "pmid": "35816465",
+        "pmcid": "PMC9535527",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9535527"
+          ]
+        },
+        "doi": "10.1093/ajcn/nqac184",
+        "title": "The Effect of Fiber Supplementation on Chronic Constipation in Adults: An Updated Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+        "authorString": "van der Schoot A, Drysdale C, Whelan K, Dimidi E.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "van der Schoot A",
+              "lastName": "van der Schoot",
+              "firstName": "Alice",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2889-7900"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutritional Sciences, King's College London, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Drysdale C",
+              "lastName": "Drysdale",
+              "firstName": "Candice",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7362-3933"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutritional Sciences, King's College London, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Whelan K",
+              "lastName": "Whelan",
+              "firstName": "Kevin",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5414-2950"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutritional Sciences, King's College London, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dimidi E",
+              "lastName": "Dimidi",
+              "firstName": "Eirini",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0140-0199"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutritional Sciences, King's College London, London, United Kingdom."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5414-2950"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2889-7900"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7362-3933"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0140-0199"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "116",
+          "journalIssueId": 3435621,
+          "dateOfPublication": "2022 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Am J Clin Nutr",
+            "title": "The American journal of clinical nutrition",
+            "essn": "1938-3207",
+            "issn": "0002-9165",
+            "isoabbreviation": "Am J Clin Nutr",
+            "nlmid": "0376027"
+          },
+          "printPublicationDate": "2022-10-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "953-969",
+        "abstractText": "<h4>Background</h4>Chronic constipation is a prevalent disorder that remains challenging to treat. Studies suggest increasing fiber intake may improve symptoms, although recommendations on the fiber type, dose, and treatment duration are unclear.<h4>Objectives</h4>We investigated the effects of fiber supplementation on stool output, gut transit time, symptoms, and quality of life in adults with chronic constipation via a systematic review and meta-analysis of randomized controlled trials (RCTs).<h4>Methods</h4>Studies were identified using electronic databases, backward citation, and hand searches of abstracts. RCTs reporting administration of fiber supplementation in adults with chronic constipation were included. Risks of bias (RoB) was assessed with the Cochrane RoB 2.0 tool. Results were synthesized using risk ratios (RRs), mean differences, or standardized mean differences (SMDs) and 95% CIs using a random-effects model.<h4>Results</h4>Sixteen RCTs with 1251 participants were included. Overall, 311 of 473 (66%) participants responded to fiber treatment and 134 of 329 (41%) responded to control treatment [RR: 1.48 (95% CI: 1.17, 1.88; P\u00a0=\u00a00.001); I2\u00a0=\u00a057% (P\u00a0=\u00a00.007)], with psyllium and pectin having significant effects. A higher response to treatment was apparent in fiber groups compared to control groups irrespective of the treatment duration, but only with higher fiber doses (>10\u00a0g/d). Fiber increased stool frequency [SMD: 0.72 (95% CI: 0.36, 1.08; P\u00a0=\u00a00.0001); I2\u00a0=\u00a086% (P\u00a0<\u00a00.00001)]; psyllium and pectin had significant effects, and improvement was apparent only with higher fiber doses and greater treatment durations (\u22654 weeks). Fiber improved stool consistency (SMD: 0.32; 95% CI: 0.18, 0.46; P\u00a0<\u00a00.0001), particularly with higher fiber doses. Flatulence was higher in fiber groups compared to control groups(SMD: 0.80; 95% CI: 0.47, 1.13; P\u00a0<\u00a00.00001).<h4>Conclusions</h4>Fiber supplementation is effective at improving constipation. Particularly, psyllium, doses >10\u00a0g/d and treatment durations of at least 4 weeks appear optimal, though caution is needed when interpreting the results due to considerable heterogeneity. These findings provide promising evidence on the optimal type and regime of fiber supplementation, which could be used to standardize recommendations to patients. The protocol for this review is registered at PROSPERO as CRD42020191404.",
+        "affiliation": "Department of Nutritional Sciences, King's College London, London, United Kingdom.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Almond Board of California",
+              "orderIn": 0
+            },
+            {
+              "agency": "British Dietetic Association",
+              "grantId": "19/14",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of Health and Medical Research",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Constipation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pectins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Psyllium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Fiber",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Fiber",
+            "Meta-analysis",
+            "Prebiotics",
+            "Systematic review",
+            "Constipation"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Psyllium",
+              "registryNumber": "8063-16-9"
+            },
+            {
+              "name": "Dietary Fiber",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pectins",
+              "registryNumber": "89NA02M4RX"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/ajcn/nqac184"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9535527"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9535527?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 79,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2022-10-07",
+        "dateOfCreation": "2022-07-11",
+        "dateOfRevision": "2024-09-05",
+        "firstPublicationDate": "2022-10-01",
+        "firstIndexDate": "2022-07-12",
+        "fullTextReceivedDate": "2022-10-10",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

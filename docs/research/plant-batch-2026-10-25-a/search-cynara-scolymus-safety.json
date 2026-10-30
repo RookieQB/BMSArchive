@@ -1,0 +1,2525 @@
+{
+  "query": "TITLE_ABS:\"Cynara scolymus\" AND (adverse effects OR toxicity OR drug interactions)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 9,
+    "nextCursorMark": "AoIIQARrFig0Njk3OTUzMQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Cynara+scolymus%22+AND+%28adverse+effects+OR+toxicity+OR+drug+interactions%29&cursorMark=AoIIQARrFig0Njk3OTUzMQ%3D%3D&resultType=core&pageSize=8&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"Cynara scolymus\" AND (adverse effects OR toxicity OR drug interactions)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42511126",
+          "source": "MED",
+          "pmid": "42511126",
+          "pmcid": "PMC13403654",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13403654"
+            ]
+          },
+          "doi": "10.3390/ani16142250",
+          "title": "&lt;i&gt;Cynara scolymus&lt;/i&gt; Extract-Inulin Feed Additive Improves Intestinal Function and Growth in Weaned Piglets.",
+          "authorString": "Mart\u00ednez G, Decundo JM, Di\u00e9guez SN, P\u00e9rez Gaudio DS, Bianchi CP, Colusi E, Amanto FA, Soraci AL.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Mart\u00ednez G",
+                "lastName": "Mart\u00ednez",
+                "firstName": "Guadalupe",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2551-2902"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratorio de Toxicolog\u00eda, Departamento de Fisiopatolog\u00eda, Facultad de Ciencias Veterinarias, Universidad Nacional del Centro de la Provincia de Buenos Aires (UNCPBA), Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Veterinaria de Tandil (CIVETAN, UNCPBA-CICPBA-CONICET), Facultad de Ciencias Veterinarias, Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas (CONICET), Buenos Aires C1425FQB, Argentina."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Decundo JM",
+                "lastName": "Decundo",
+                "firstName": "Julieta Mar\u00eda",
+                "initials": "JM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2433-1846"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratorio de Toxicolog\u00eda, Departamento de Fisiopatolog\u00eda, Facultad de Ciencias Veterinarias, Universidad Nacional del Centro de la Provincia de Buenos Aires (UNCPBA), Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Veterinaria de Tandil (CIVETAN, UNCPBA-CICPBA-CONICET), Facultad de Ciencias Veterinarias, Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas (CONICET), Buenos Aires C1425FQB, Argentina."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Di\u00e9guez SN",
+                "lastName": "Di\u00e9guez",
+                "firstName": "Susana Nelly",
+                "initials": "SN",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0001-3827-6526"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratorio de Toxicolog\u00eda, Departamento de Fisiopatolog\u00eda, Facultad de Ciencias Veterinarias, Universidad Nacional del Centro de la Provincia de Buenos Aires (UNCPBA), Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Veterinaria de Tandil (CIVETAN, UNCPBA-CICPBA-CONICET), Facultad de Ciencias Veterinarias, Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Comisi\u00f3n de Investigaciones Cient\u00edficas de la Provincia de Buenos Aires (CICPBA), La Plata 1900, Argentina."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "P\u00e9rez Gaudio DS",
+                "lastName": "P\u00e9rez Gaudio",
+                "firstName": "Denisa Soledad",
+                "initials": "DS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratorio de Toxicolog\u00eda, Departamento de Fisiopatolog\u00eda, Facultad de Ciencias Veterinarias, Universidad Nacional del Centro de la Provincia de Buenos Aires (UNCPBA), Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Veterinaria de Tandil (CIVETAN, UNCPBA-CICPBA-CONICET), Facultad de Ciencias Veterinarias, Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas (CONICET), Buenos Aires C1425FQB, Argentina."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bianchi CP",
+                "lastName": "Bianchi",
+                "firstName": "Carolina Paula",
+                "initials": "CP",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9052-8356"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Veterinaria de Tandil (CIVETAN, UNCPBA-CICPBA-CONICET), Facultad de Ciencias Veterinarias, Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas (CONICET), Buenos Aires C1425FQB, Argentina."
+                    },
+                    {
+                      "affiliation": "Laboratorio de Endocrinolog\u00eda, Departamento de Fisiopatolog\u00eda, Facultad de Ciencias Veterinarias, Universidad Nacional del Centro de la Provincia de Buenos Aires, Tandil B7000, Argentina."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Colusi E",
+                "lastName": "Colusi",
+                "firstName": "Eugenio",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Bedson S.A., La Lonja, Pilar, Buenos Aires 1629, Argentina."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Amanto FA",
+                "lastName": "Amanto",
+                "firstName": "Fabi\u00e1n Andr\u00e9s",
+                "initials": "FA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "\u00c1rea Producci\u00f3n Porcina, Departamento de Producci\u00f3n Animal, Facultad de Ciencias Veterinarias, Universidad Nacional del Centro de la Provincia de Buenos Aires, Tandil B7000, Argentina."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Soraci AL",
+                "lastName": "Soraci",
+                "firstName": "Alejandro Luis",
+                "initials": "AL",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratorio de Toxicolog\u00eda, Departamento de Fisiopatolog\u00eda, Facultad de Ciencias Veterinarias, Universidad Nacional del Centro de la Provincia de Buenos Aires (UNCPBA), Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Veterinaria de Tandil (CIVETAN, UNCPBA-CICPBA-CONICET), Facultad de Ciencias Veterinarias, Tandil B7000, Argentina."
+                    },
+                    {
+                      "affiliation": "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas (CONICET), Buenos Aires C1425FQB, Argentina."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2433-1846"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9052-8356"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2551-2902"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0001-3827-6526"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "14",
+            "volume": "16",
+            "journalIssueId": 4234406,
+            "dateOfPublication": "2026 Jul",
+            "monthOfPublication": 7,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Animals (Basel)",
+              "title": "Animals : an open access journal from MDPI",
+              "essn": "2076-2615",
+              "issn": "2076-2615",
+              "isoabbreviation": "Animals (Basel)",
+              "nlmid": "101635614"
+            },
+            "printPublicationDate": "2026-07-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "2250",
+          "abstractText": "The early post-weaning period in piglets is characterized by physiological and environmental stress that can impair intestinal function and growth performance. Plant-derived feed additives have gained interest as a nutritional strategy to support gut integrity and productivity. Extracts from <i>Cynara scolymus</i> stimulate bile secretion and exhibit antioxidant properties, whereas inulin may promote beneficial microbial populations and intestinal functionality through prebiotic activity. This study evaluated the biological activity of a feed additive containing <i>Cynara scolymus</i> extract and inulin on intestinal functional indicators and productive performance of post-weaned piglets under intensive production conditions. Four hundred and eight piglets were randomly assigned to two groups: a control group (CON) that was fed a basal diet, and a treatment group (CSI) that was supplemented with the additive (5% <i>Cynara scolymus</i> extract and 14% inulin) at 300 g/ton of feed. Plasma cortisol and citrulline concentrations were measured during the first 15 days post-weaning. On day 16 post-weaning, intestinal parameters were evaluated, including gastrointestinal pH; enterobacteria and lactic acid bacteria counts; volatile fatty acids; bacterial adhesion to ileal mucus; disaccharidase activity; and small intestinal histomorphology. Growth performance was monitored during the 50-day nursery phase. Compared with CON piglets, CSI piglets exhibited higher plasma citrulline concentrations (72.72 \u00b1 20.87 vs. 47.54 \u00b1 17.05 \u00b5M; <i>p</i> < 0.001), indicating improved intestinal epithelial functionality. CSI supplementation also increased the villus height-to-crypt depth ratio (3.67 \u00b1 0.75 vs. 2.68 \u00b1 0.64; <i>p</i> = 0.001), suggesting enhanced intestinal epithelial integrity. Furthermore, CSI piglets showed higher average daily gain (0.53 \u00b1 0.07 vs. 0.44 \u00b1 0.09 kg/day; <i>p</i> = 0.003) and a better feed conversion ratio (1.27 \u00b1 0.20 vs. 1.57 \u00b1 0.57; <i>p</i> = 0.004). These results suggest that <i>Cynara scolymus</i> extract and inulin supplementation has beneficial biological effects on intestinal epithelial functionality and productive performance in post-weaning piglets under commercial conditions.",
+          "affiliation": "Laboratorio de Toxicolog\u00eda, Departamento de Fisiopatolog\u00eda, Facultad de Ciencias Veterinarias, Universidad Nacional del Centro de la Provincia de Buenos Aires (UNCPBA), Tandil B7000, Argentina.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "CIVETAN-CONICET",
+                "grantId": "STAN 3200",
+                "orderIn": 0
+              },
+              {
+                "agency": "Argentinian National Agency for Scientific and Technological Promotion",
+                "grantId": "PICT-2020- SERIEA-02788",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Growth performance",
+              "inulin",
+              "Cynara Scolymus",
+              "Weaned Piglets",
+              "Intestinal Functionality"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/ani16142250"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13403654"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13403654?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-29",
+          "dateOfCreation": "2026-07-28",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-07-21",
+          "firstPublicationDate": "2026-07-21",
+          "firstIndexDate": "2026-07-30",
+          "fullTextReceivedDate": "2026-09-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41741526",
+          "source": "MED",
+          "pmid": "41741526",
+          "pmcid": "PMC13044282",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13044282"
+            ]
+          },
+          "doi": "10.1038/s41598-026-40015-6",
+          "title": "Combined herbicidal effects of Cynara scolymus and Papaver rhoeas on weed control through phytochemical analysis.",
+          "authorString": "Abbasi B, Bagheri A, Rahimifard M, Mohammadi G.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Abbasi B",
+                "lastName": "Abbasi",
+                "firstName": "Bita",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4034-4145"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Plant Production and Genetics, Razi University, Kermanshah, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bagheri A",
+                "lastName": "Bagheri",
+                "firstName": "Alireza",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0870-649X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Plant Production and Genetics, Razi University, Kermanshah, Iran. alireza884@gmail.com."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rahimifard M",
+                "lastName": "Rahimifard",
+                "firstName": "Mahshid",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0927-4086"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Medicinal Plants and By Products Department, Research Institute of Forests and Rangelands, Agricultural Research, Education and Extension Organization (AREEO), Tehran, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mohammadi G",
+                "lastName": "Mohammadi",
+                "firstName": "Gholamreza",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5402-2454"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Plant Production and Genetics, Razi University, Kermanshah, Iran."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4034-4145"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5402-2454"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0870-649X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0927-4086"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "16",
+            "journalIssueId": 4112047,
+            "dateOfPublication": "2026 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Sci Rep",
+              "title": "Scientific reports",
+              "essn": "2045-2322",
+              "issn": "2045-2322",
+              "isoabbreviation": "Sci Rep",
+              "nlmid": "101563288"
+            },
+            "printPublicationDate": "2026-02-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "11021",
+          "abstractText": "A two-year field trial was conducted to evaluate the phytotoxic potential and physiological effects of artichoke (Cynara cardunculus var. scolymus L.) leaf and common poppy (Papaver rhoeas L.) fruit extracts against the broadleaf weeds, Chrozophora tinctoria L. and Amaranthus retroflexus L. A completely randomized design with three replications was used to test various concentrations (0, 25, 50, and 75\u00a0g L<sup>-1</sup>) of each extract, both individually and in combination, alongside control treatments including glyphosate. The concurrent objective was to identify allelochemical compounds within the extracts to assess their potential for developing natural herbicide formulations. High-performance liquid chromatography (HPLC) analysis confirmed the extracts possess a high concentration of phenolic and alkaloid constituents. Among the phenolic compounds identified, chlorogenic acid (from artichoke, 1.84\u00a0mg g<sup>-1</sup>) and rutin (from anemone, 0.48\u00a0mg g<sup>-1</sup>) were quantified, both possessing documented herbicidal activity. The results indicated that the highest inhibitory potential and herbicidal activity were achieved from the combination of ethanolic extracts of P25A75 and P75A25. In the first and second years, the treatment of P25A75 exhibited an inhibitory effect of 79.66% and 81.66%, respectively, on the growth of C. tinctoria to the control. The highest inhibition of A. retroflexus growth in two years was recorded at 86.33% with the application of the P25A75 extract. This study demonstrated the potent herbicidal effects of artichoke and poppy extracts. The P25A75 and P75A75 treatments significantly reduced the fresh and dry weight of C. tinctoria and A. retroflexus over two years. These extracts induced severe cellular damage, evidenced by a 5- to sixfold increase in electrolyte leakage and a reduction in stomatal conductance of up to 89%. The mechanism involves disruption of Photosystem II and the electron transport chain, leading to chlorophyll degradation. The P25A75 extract exhibited efficacy comparable to glyphosate, highlighting its potential as an eco-friendly bioherbicide.",
+          "affiliation": "Department of Plant Production and Genetics, Razi University, Kermanshah, Iran.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Amaranthus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cynara scolymus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Papaver",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Leaves",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Phenols"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Herbicides",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Chromatography, High Pressure Liquid"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Weeds",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Weed Control",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Phytochemicals",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AN",
+                      "qualifierName": "analysis"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Phenolic compounds",
+              "Weed",
+              "Inhibitory",
+              "Allelochemical",
+              "Herbal Extract",
+              "Natural Herbicide"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Phenols",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Herbicides",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Phytochemicals",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41598-026-40015-6"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13044282"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13044282?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-09",
+          "dateOfCreation": "2026-02-25",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-02-25",
+          "firstPublicationDate": "2026-02-25",
+          "firstIndexDate": "2026-02-26",
+          "fullTextReceivedDate": "2026-04-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "39728509",
+          "source": "MED",
+          "pmid": "39728509",
+          "pmcid": "PMC11678077",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11678077"
+            ]
+          },
+          "doi": "10.3390/metabo14120728",
+          "title": "Effects of <i>Cynara scolymus</i> L. Bract Extract on Lipid Metabolism Disorders Through Modulation of HMG-CoA Reductase, Apo A-1, PCSK-9, p-AMPK, SREBP-2, and CYP2E1 Expression.",
+          "authorString": "Mokhtari I, Shahat AA, Noman OM, Milenkovic D, Amrani S, Harnafi H.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Mokhtari I",
+                "lastName": "Mokhtari",
+                "firstName": "Imane",
+                "initials": "I",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Bioresources, Biotechnologies, Ethnopharmacology and Health, Faculty of Sciences, University Mohamed I, Oujda 60000, Morocco."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shahat AA",
+                "lastName": "Shahat",
+                "firstName": "Abdelaaty A",
+                "initials": "AA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0456-3196"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Noman OM",
+                "lastName": "Noman",
+                "firstName": "Omar M",
+                "initials": "OM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0902-6381"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Milenkovic D",
+                "lastName": "Milenkovic",
+                "firstName": "Dragan",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6353-0912"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Plants for Human Health Institute, Department of Food, Bioprocessing and Nutrition Sciences, North Carolina State University, Kannapolis, NC 28081, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Amrani S",
+                "lastName": "Amrani",
+                "firstName": "Souliman",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0243-7583"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Bioresources, Biotechnologies, Ethnopharmacology and Health, Faculty of Sciences, University Mohamed I, Oujda 60000, Morocco."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Harnafi H",
+                "lastName": "Harnafi",
+                "firstName": "Hicham",
+                "initials": "H",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7492-0692"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Bioresources, Biotechnologies, Ethnopharmacology and Health, Faculty of Sciences, University Mohamed I, Oujda 60000, Morocco."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6353-0912"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7492-0692"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0243-7583"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0456-3196"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0902-6381"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "12",
+            "volume": "14",
+            "journalIssueId": 3875910,
+            "dateOfPublication": "2024 Dec",
+            "monthOfPublication": 12,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Metabolites",
+              "title": "Metabolites",
+              "essn": "2218-1989",
+              "issn": "2218-1989",
+              "isoabbreviation": "Metabolites",
+              "nlmid": "101578790"
+            },
+            "printPublicationDate": "2024-12-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "728",
+          "abstractText": "<b>Background/Objectives:</b> Hyperlipidemia is a major contributor to metabolic complications and tissue damage, leading to conditions such as liver steatosis, atherosclerosis, and obesity. This study aimed to investigate the effects of aqueous artichoke bract extract (AE) on lipid metabolism, liver antioxidative defense, and liver steatosis in mice fed a high-fat, high-sucrose diet while elucidating the underlying mechanisms. <b>Methods:</b> An 8-week study used hyperlipidemic mice treated with AE at daily doses of 100 and 200 mg/kg bw, compared to fenofibrate. Plasma, liver, fecal, and biliary lipids, as well as blood glucose, were analyzed enzymatically. The liver antioxidative defense was assessed by measuring reduced glutathione, malondialdehyde (MDA), and antioxidant enzyme activities, while liver steatosis was evaluated through transaminase and alkaline phosphatase activities and histological monitoring of lipid droplets. Polyphenol profiling and quantification were performed using HPLC-DAD, and potential mechanisms were predicted by molecular docking and confirmed in HepG2 cells. <b>Results:</b> At 200 mg/kg, AE significantly improved plasma lipid profiles by reducing total cholesterol, triglycerides, and LDL-cholesterol while increasing HDL-cholesterol. It facilitated cholesterol reduction in the liver and its excretion, indicating activation of reverse cholesterol transport, which led to reduced body weight and liver steatosis. AE lowered MDA levels and enhanced antioxidant enzyme activities. AE was found to be safe (LD50 > 5000 mg/kg) and modulated gene expression in HepG2 cells. <b>Conclusions:</b> Based on our results, the artichoke bract extract could be considered a natural resource of bioactive compounds to treat hyperlipidemia and related cardiometabolic diseases.",
+          "affiliation": "Laboratory of Bioresources, Biotechnologies, Ethnopharmacology and Health, Faculty of Sciences, University Mohamed I, Oujda 60000, Morocco.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "King Saud University",
+                "grantId": "RSPD2025R1057",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Saud University, Riyadh",
+                "grantId": "RSPD2025R1057",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "HMG-CoA reductase",
+              "lipid metabolism",
+              "Srebp-2",
+              "P-ampk",
+              "Cynara Scolymus"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/metabo14120728"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11678077"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11678077?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2024-12-27",
+          "dateOfRevision": "2025-01-04",
+          "electronicPublicationDate": "2024-12-23",
+          "firstPublicationDate": "2024-12-23",
+          "firstIndexDate": "2024-12-27",
+          "fullTextReceivedDate": "2025-11-27",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40555873",
+          "source": "MED",
+          "pmid": "40555873",
+          "pmcid": "PMC12187807",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12187807"
+            ]
+          },
+          "doi": "10.1007/s11250-025-04536-y",
+          "title": "Effects of artichoke (Cynara scolymus) leaf extract on the growth, blood, and biochemistry parameters of Nile tilapia (Oreochromis niloticus).",
+          "authorString": "Esen R, \u00d6z M, Dikel S.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Esen R",
+                "lastName": "Esen",
+                "firstName": "Ramazan",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Fisheries and Diseases, Graduate School of Health Sciences, Aksaray University, Aksaray, T\u00fcrkiye."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u00d6z M",
+                "lastName": "\u00d6z",
+                "firstName": "Mustafa",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5264-7103"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Fisheries and Diseases, Faculty of Veterinary Medicine, Aksaray University, Aksaray, T\u00fcrkiye. ozmustafa@aksaray.edu.tr."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dikel S",
+                "lastName": "Dikel",
+                "firstName": "Suat",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Aquaculture, Faculty of Fisheries, Cukurova University, Adana, T\u00fcrkiye."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5264-7103"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "57",
+            "journalIssueId": 3961587,
+            "dateOfPublication": "2025 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Trop Anim Health Prod",
+              "title": "Tropical animal health and production",
+              "essn": "1573-7438",
+              "issn": "0049-4747",
+              "isoabbreviation": "Trop Anim Health Prod",
+              "nlmid": "1277355"
+            },
+            "printPublicationDate": "2025-06-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "284",
+          "abstractText": "In this study, artichoke leaf extract (ALE) was added to the Nile tilapia diet at different ratios (0.00%, 1.00%, 2.00%, and 3.00%) for 30 days to investigate its effects on growth performance, hematological parameters, and blood biochemistry. A total of 240 fish with an average initial weight of 33.9\u2009\u00b1\u20091.14 g were used. The results showed that ALE supplementation significantly improved growth performance, with the best results observed at 2.00% inclusion (final weight: 58.01\u2009\u00b1\u20090.18 g, FCR: 1.48\u2009\u00b1\u20090.02, SGR: 1.79\u2009\u00b1\u20090.01) (p <\u20090.05). Hematological analysis revealed an increase in hemoglobin (Hb) levels (control: 9.18\u2009\u00b1\u20090.62 g/dL; 2.00% ALE: 12.83\u2009\u00b1\u20091.19 g/dL) and a decrease in white blood cell count (control: 3.54\u2009\u00b1\u20090.06 m/mm<sup>3</sup>; 2.00% ALE: 3.39\u2009\u00b1\u20090.07 m/mm<sup>3</sup>) (p <\u20090.05). Blood biochemistry results indicated a significant reduction in glucose (control: 73.67\u2009\u00b1\u20094.16 mg/dL; 2.00% ALE: 51.00\u2009\u00b1\u20092.00 mg/dL) and cholesterol levels (control: 227.67\u2009\u00b1\u20096.11 mg/dL; 2.00% ALE: 117.67\u2009\u00b1\u20093.21 mg/dL) (p <\u20090.05), suggesting improved metabolic balance. The findings indicate that 2.00% ALE supplementation enhances growth performance and may positively influence fish health by modulating blood parameters, making it a promising natural additive for sustainable aquaculture.",
+          "affiliation": "Department of Fisheries and Diseases, Graduate School of Health Sciences, Aksaray University, Aksaray, T\u00fcrkiye.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Aksaray University",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cichlids",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "BL",
+                      "qualifierName": "blood"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GD",
+                      "qualifierName": "growth & development"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cynara scolymus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Leaves",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Diet",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "VE",
+                      "qualifierName": "veterinary"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Aquaculture"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animal Feed",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AN",
+                      "qualifierName": "analysis"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Dietary Supplements",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AN",
+                      "qualifierName": "analysis"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Feed additive",
+              "Growth performance",
+              "Nile Tilapia (Oreochromis Niloticus)",
+              "Sustainable Aquaculture",
+              "Artichoke Leaf Extract (Cynara Scolymus)"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1007/s11250-025-04536-y"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12187807"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12187807?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 5,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-06-24",
+          "dateOfCreation": "2025-06-24",
+          "dateOfRevision": "2025-08-05",
+          "electronicPublicationDate": "2025-06-25",
+          "firstPublicationDate": "2025-06-25",
+          "firstIndexDate": "2025-06-25",
+          "fullTextReceivedDate": "2025-06-27",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "38542782",
+          "source": "MED",
+          "pmid": "38542782",
+          "pmcid": "PMC10974306",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10974306"
+            ]
+          },
+          "doi": "10.3390/nu16060872",
+          "title": "Functional and Therapeutic Potential of <i>Cynara scolymus</i> in Health Benefits.",
+          "authorString": "Porro C, Benameur T, Cianciulli A, Vacca M, Chiarini M, De Angelis M, Panaro MA.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Porro C",
+                "lastName": "Porro",
+                "firstName": "Chiara",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7526-6968"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical and Experimental Medicine, University of Foggia, 71122 Foggia, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Benameur T",
+                "lastName": "Benameur",
+                "firstName": "Tarek",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biomedical Sciences, College of Medicine, King Faisal University, Al-Ahsa 31982, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cianciulli A",
+                "lastName": "Cianciulli",
+                "firstName": "Antonia",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biosciences, Biotechnologies and Environment, University of Bari, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Vacca M",
+                "lastName": "Vacca",
+                "firstName": "Mirco",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0813-169X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Soil, Plant and Food Science, University of Bari Aldo Moro, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chiarini M",
+                "lastName": "Chiarini",
+                "firstName": "Margherita",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Soil, Plant and Food Science, University of Bari Aldo Moro, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "De Angelis M",
+                "lastName": "De Angelis",
+                "firstName": "Maria",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2010-884X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Soil, Plant and Food Science, University of Bari Aldo Moro, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Panaro MA",
+                "lastName": "Panaro",
+                "firstName": "Maria Antonietta",
+                "initials": "MA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5457-1069"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biosciences, Biotechnologies and Environment, University of Bari, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5457-1069"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2010-884X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7526-6968"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0813-169X"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "16",
+            "journalIssueId": 3746365,
+            "dateOfPublication": "2024 Mar",
+            "monthOfPublication": 3,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Nutrients",
+              "title": "Nutrients",
+              "essn": "2072-6643",
+              "issn": "2072-6643",
+              "isoabbreviation": "Nutrients",
+              "nlmid": "101521595"
+            },
+            "printPublicationDate": "2024-03-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "872",
+          "abstractText": "Dietary supplements enriched with bioactive compounds represent a promising approach to influence physiological processes and enhance longevity and overall health. <i>Cynara cardunculus</i> var. <i>scolymus</i> serves as a functional food supplement with a high concentration of bioactive compounds, which offers various health-promoting benefits. Several chronic diseases have metabolic, genetic, or inflammatory origins, which are frequently interconnected. Pharmacological treatments, although effective, often result in undesirable side effects. In this context, preventive approaches are gaining increased attention. Recent literature indicates that the consumption of bioactive compounds in the diet can positively influence the organism's biological functions. Polyphenols, well-known for their health benefits, are widely recognized as valuable compounds in preventing/combating various pathologies related to lifestyle, metabolism, and aging. The <i>C. scolymus</i> belonging to the Asteraceae family, is widely used in the food and herbal medicine fields for its beneficial properties. Although the inflorescences (capitula) of the artichoke are used for food and culinary purposes, preparations based on artichoke leaves can be used as an active ingredient in herbal medicines. <i>Cynara scolymus</i> shows potential benefits in different domains. Its nutritional value and health benefits make it a promising candidate for improving overall well-being. <i>C. scolymus</i> exhibits anti-inflammatory, antioxidant, liver-protective, bile-expelling, antimicrobial, and lipid-lowering neuroprotective properties. Different studies demonstrate that oxidative stress is the leading cause of the onset and progression of major human health disorders such as cardiovascular, neurological, metabolic, and cancer diseases. The large amount of polyphenol found in <i>C. scolymus</i> has an antioxidant activity, enabling it to neutralize free radicals, preventing cellular damage. This reduces the subsequent risk of developing conditions such as cancer, diabetes, and cardiovascular diseases. Additionally, these polyphenols demonstrate anti-inflammatory activity, which is closely associated with their antioxidant properties. As a result, <i>C. scolymus</i> has the potential to contribute to the treatment of chronic diseases, including intestinal disorders, cardiovascular diseases, and neurodegenerative pathologies. The current review discussed the nutritional profiles, potential benefits, and pharmacological effects of <i>C. scolymus.</i>",
+          "affiliation": "Department of Clinical and Experimental Medicine, University of Foggia, 71122 Foggia, Italy.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Italian Ministry of University and Research",
+                "grantId": "D93C22000890001",
+                "orderIn": 0
+              },
+              {
+                "agency": "European Union\u2014NextGenerationEU",
+                "grantId": "PE00000003",
+                "orderIn": 0
+              },
+              {
+                "agency": "Italian Ministry of University and Research",
+                "grantId": "PE00000003",
+                "orderIn": 0
+              },
+              {
+                "agency": "European Union\u2014NextGenerationEU",
+                "grantId": "D93C22000890001",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cynara scolymus"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Neoplasms"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cardiovascular Diseases"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Chronic Disease"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Anti-Inflammatory Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antioxidants",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Polyphenols",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Polyphenols",
+              "Inflammation",
+              "Functional food",
+              "Artichoke"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "polyphenols",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Anti-Inflammatory Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antioxidants",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.mdpi.com/2072-6643/16/6/872/pdf?version=1710666773"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/nu16060872"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10974306"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10974306?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 21,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2024-03-29",
+          "dateOfCreation": "2024-03-28",
+          "dateOfRevision": "2024-04-26",
+          "electronicPublicationDate": "2024-03-17",
+          "firstPublicationDate": "2024-03-17",
+          "firstIndexDate": "2024-03-29",
+          "fullTextReceivedDate": "2024-04-02",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40807535",
+          "source": "MED",
+          "pmid": "40807535",
+          "pmcid": "PMC12345641",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12345641"
+            ]
+          },
+          "doi": "10.3390/foods14152600",
+          "title": "Evaluation of the Biological Properties and Antibacterial Activities of the Natural Food Supplement \"Epavin\" for Liver Detoxification and Protection.",
+          "authorString": "Barbarossa A, Argentieri MP, Diella MV, Caforio A, Carrieri A, Corbo F, Rosato A, Carocci A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Barbarossa A",
+                "lastName": "Barbarossa",
+                "firstName": "Alexia",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacy-Pharmaceutical Sciences, University of Bari \"Aldo Moro\", Via E. Orabona, 4, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Argentieri MP",
+                "lastName": "Argentieri",
+                "firstName": "Maria Pia",
+                "initials": "MP",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9269-8909"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacy-Pharmaceutical Sciences, University of Bari \"Aldo Moro\", Via E. Orabona, 4, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Diella MV",
+                "lastName": "Diella",
+                "firstName": "Maria Valeria",
+                "initials": "MV",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacy-Pharmaceutical Sciences, University of Bari \"Aldo Moro\", Via E. Orabona, 4, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Caforio A",
+                "lastName": "Caforio",
+                "firstName": "Anita",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacy-Pharmaceutical Sciences, University of Bari \"Aldo Moro\", Via E. Orabona, 4, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Carrieri A",
+                "lastName": "Carrieri",
+                "firstName": "Antonio",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7725-6667"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacy-Pharmaceutical Sciences, University of Bari \"Aldo Moro\", Via E. Orabona, 4, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Corbo F",
+                "lastName": "Corbo",
+                "firstName": "Filomena",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6951-1103"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacy-Pharmaceutical Sciences, University of Bari \"Aldo Moro\", Via E. Orabona, 4, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rosato A",
+                "lastName": "Rosato",
+                "firstName": "Antonio",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5462-4650"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacy-Pharmaceutical Sciences, University of Bari \"Aldo Moro\", Via E. Orabona, 4, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Carocci A",
+                "lastName": "Carocci",
+                "firstName": "Alessia",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2248-9292"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacy-Pharmaceutical Sciences, University of Bari \"Aldo Moro\", Via E. Orabona, 4, 70125 Bari, Italy."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5462-4650"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9269-8909"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6951-1103"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7725-6667"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2248-9292"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "15",
+            "volume": "14",
+            "journalIssueId": 3994569,
+            "dateOfPublication": "2025 Jul",
+            "monthOfPublication": 7,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Foods",
+              "title": "Foods (Basel, Switzerland)",
+              "essn": "2304-8158",
+              "issn": "2304-8158",
+              "isoabbreviation": "Foods",
+              "nlmid": "101670569"
+            },
+            "printPublicationDate": "2025-07-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "2600",
+          "abstractText": "<h4>Background/objectives</h4>The liver, the body's primary detoxifying organ, is often affected by various inflammatory diseases, including hepatitis, cirrhosis, and non-alcoholic fatty liver disease (NAFLD), many of which can be exacerbated by secondary infections such as spontaneous bacterial peritonitis, bacteremia, and sepsis-particularly in patients with advanced liver dysfunction. The global rise in these conditions underscores the need for effective interventions. Natural products have attracted attention for their potential to support liver health, particularly through synergistic combinations of plant extracts. <i>Epavin</i>, a dietary supplement from Erbenobili S.r.l., formulated with plant extracts like <i>Taraxacum officinale</i> (L.), <i>Silybum marianum</i> (L.) <i>Gaertn.</i>, and <i>Cynara scolymus</i> (L.), known for their liver-supporting properties, has been proposed as adjuvant for liver functions. The aim of this work was to evaluate of <i>Epavin</i>'s antioxidant, anti-inflammatory, and protective effects against heavy metal-induced toxicity. In addition, the antibacterial effect of <i>Epavin</i> against a panel of bacterial strains responsible for infections associated with liver injuries has been evaluated.<h4>Methods</h4>The protection against oxidative stress induced by H<sub>2</sub>O<sub>2</sub> was evaluated in HepG2 and BALB/3T3 cells using the dichlorofluorescein diacetate (DCFH-DA) assay. Its anti-inflammatory activity was investigated by measuring the reduction in nitric oxide (NO) production in LPS-stimulated RAW 264.7 macrophages using the Griess assay. Additionally, the cytoprotecting of <i>Epavin</i> against heavy metal-induced toxicity and oxidative stress were evaluated in HepG2 cells using the [3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyl-tetrazolium bromide] (MTT) and DCFH-DA assays. The antibacterial activity of <i>Epavin</i> was assessed by determining the minimum inhibitory concentration (MIC) and the minimum bactericidal concentration (MBC) against Gram-positive (<i>Enterococcus faecalis</i> ATCC 29212, and BS, <i>Staphylococcus aureus</i> 25923, 29213, 43300, and BS) and Gram-negative (<i>Escherichia coli</i> 25922, and BS, <i>Klebsiella pneumoniae</i> 13883, 70063, and BS) bacterial strains using the microdilution method in broth, following the Clinical and Laboratory Standards Institute's (CLSI) guidelines.<h4>Results</h4><i>Epavin</i> effectively reduced oxidative stress in HepG2 and BALB/3T3 cells and decreased NO production in LPS-stimulated RAW 264.7 macrophages. Moreover, <i>Epavin</i> demonstrated a protective effect against heavy metal-induced toxicity and oxidative damage in HepG2 cells. Finally, it exhibited significant antibacterial activity against both Gram-positive and Gram-negative bacterial strains, with MIC values ranging from 1.5 to 6.0 mg/mL.<h4>Conclusions</h4>The interesting results obtained suggest that <i>Epavin</i> may serve as a valuable natural adjuvant for liver health by enhancing detoxification processes, reducing inflammation, and exerting antibacterial effects that could be beneficial in the context of liver-associated infections.",
+          "affiliation": "Department of Pharmacy-Pharmaceutical Sciences, University of Bari \"Aldo Moro\", Via E. Orabona, 4, 70125 Bari, Italy.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Antioxidants",
+              "Heavy metals",
+              "Hepatotoxicity",
+              "Antibacterial activity",
+              "Bioactive compounds"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/foods14152600"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12345641"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12345641?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-08-14",
+          "dateOfRevision": "2025-08-17",
+          "electronicPublicationDate": "2025-07-24",
+          "firstPublicationDate": "2025-07-24",
+          "firstIndexDate": "2025-08-21",
+          "fullTextReceivedDate": "2025-08-15",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40284112",
+          "source": "MED",
+          "pmid": "40284112",
+          "pmcid": "PMC12030382",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12030382"
+            ]
+          },
+          "doi": "10.3390/plants14081224",
+          "title": "Enhancing Micronutrient Availability Through Humic Substances and Vermicompost While Growing Artichoke Plants in Calcareous Soil: Insights from a Two-Year Field Study.",
+          "authorString": "Hafez M, Zhang Z, Younis M, Abdelhamid MA, Rashad M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Hafez M",
+                "lastName": "Hafez",
+                "firstName": "Mohamed",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9269-2128"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Land and Water Technologies Department, Arid Lands Cultivation Research Institute (ALCRI), City of Scientific Research and Technological Applications (SRTA-City), New Borg El-Arab 21934, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang Z",
+                "lastName": "Zhang",
+                "firstName": "Zhao",
+                "initials": "Z",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6353-4067"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Key Laboratory of Agricultural Information Acquisition Technology, Ministry of Agriculture and Rural Affairs, China Agricultural University, Beijing 100083, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Younis M",
+                "lastName": "Younis",
+                "firstName": "Mahmoud",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9677-7882"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Chair of Dates Industry and Technology, Department of Agricultural Engineering, College of Food and Agricultural Sciences, King Saud University, P.O. Box 2460, Riyadh 11451, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abdelhamid MA",
+                "lastName": "Abdelhamid",
+                "firstName": "Mahmoud A",
+                "initials": "MA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0709-1836"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Agricultural Engineering Department, Faculty of Agriculture, Ain Shams University, Cairo 11241, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rashad M",
+                "lastName": "Rashad",
+                "firstName": "Mohamed",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0608-1916"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Land and Water Technologies Department, Arid Lands Cultivation Research Institute (ALCRI), City of Scientific Research and Technological Applications (SRTA-City), New Borg El-Arab 21934, Egypt."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6353-4067"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9269-2128"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9677-7882"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0709-1836"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0608-1916"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "8",
+            "volume": "14",
+            "journalIssueId": 3933105,
+            "dateOfPublication": "2025 Apr",
+            "monthOfPublication": 4,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Plants (Basel)",
+              "title": "Plants (Basel, Switzerland)",
+              "essn": "2223-7747",
+              "issn": "2223-7747",
+              "isoabbreviation": "Plants (Basel)",
+              "nlmid": "101596181"
+            },
+            "printPublicationDate": "2025-04-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "1224",
+          "abstractText": "Calcareous soil poses challenges for crop production due to the limited availability of micronutrients in insoluble forms. This study evaluated various organic and biological treatments for managing deficiencies in iron, zinc, and manganese in artichoke (<i>Cynara scolymus</i> L.) grown in calcareous soil over two seasons (2023 and 2024). A randomized complete block design (RCBD) was employed, with 24 plots (5 \u00d7 8 m<sup>2</sup> each) receiving the following five treatments: mineral fertilizer, humic substances, ALCRI-anti chlorosis, ALCRI-vermicompost, and ALCRI-bio-help. Each treatment was replicated three times. In the 2023 season, significant increases in micronutrient levels were observed following the application of the organic and biological treatments, particularly ALCRI-vermicompost and humic substances. Compared to the control group, the iron content (Fe<sup>2+</sup>) increased by 57.1%, reaching 715.6%. Zinc (Zn<sup>2+</sup>) rose by 66.1% to 686.4%, while manganese (Mn<sup>2+</sup>) and copper (Cu<sup>2+</sup>) increased by 56.9% to 685.2% and 44.9% to 673.4%, respectively. These positive trends continued into the 2024 season, with Fe<sup>2+</sup> showing even greater gains of 103.4%, peaking at 824.0% in the plots treated with the ALCRI-vermicompost and humic substances. Zn<sup>2+</sup> and Mn<sup>2+</sup> displayed more modest increases of 36.9% and 58.0%, while Cu<sup>2+</sup> exhibited a remarkable rise of 50.7%, reaching 861.2%, particularly for the ALCRI-anti chlorosis treatments. The results indicate that the application of vermicompost fertilizer, alone or in combination with humic substances, significantly enhanced the soil structure, as confirmed by the SEM examination, which revealed increased porosity and improved aggregation. These consistent improvements over two seasons strongly support the effectiveness of organic and biological treatments in enriching soil with essential micronutrients.",
+          "affiliation": "Land and Water Technologies Department, Arid Lands Cultivation Research Institute (ALCRI), City of Scientific Research and Technological Applications (SRTA-City), New Borg El-Arab 21934, Egypt.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "King Saud University",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Recycling",
+              "Vermicompost",
+              "Iron chlorosis",
+              "Humic substances",
+              "Artichoke",
+              "Calcareous"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/plants14081224"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12030382"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12030382?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-04-26",
+          "dateOfRevision": "2025-04-28",
+          "electronicPublicationDate": "2025-04-16",
+          "firstPublicationDate": "2025-04-16",
+          "firstIndexDate": "2025-04-27",
+          "fullTextReceivedDate": "2025-12-02",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "36207736",
+          "source": "MED",
+          "pmid": "36207736",
+          "pmcid": "PMC9540722",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9540722"
+            ]
+          },
+          "doi": "10.1186/s12935-022-02721-9",
+          "title": "Sesquiterpenoid lactones as potential anti-cancer agents: an update on molecular mechanisms and recent studies.",
+          "authorString": "Dhyani P, Sati P, Sharma E, Attri DC, Bahukhandi A, Tynybekov B, Szopa A, Sharifi-Rad J, Calina D, Suleria HAR, Cho WC.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Dhyani P",
+                "lastName": "Dhyani",
+                "firstName": "Praveen",
+                "initials": "P",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biotechnology, Kumaun University, Bhimtal, 263 136, Uttarakhand, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sati P",
+                "lastName": "Sati",
+                "firstName": "Priyanka",
+                "initials": "P",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Graphic Era University, Dehradun, 248 001, Uttarakhand, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sharma E",
+                "lastName": "Sharma",
+                "firstName": "Eshita",
+                "initials": "E",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9594-0692"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Biology and Biochemistry, Guru Nanak Dev University, Amritsar, 143 005, Punjab, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Attri DC",
+                "lastName": "Attri",
+                "firstName": "Dharam Chand",
+                "initials": "DC",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5732-1081"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "High Altitude Plant Physiology Research Centre (HAPPRC), HNB Garhwal University, Srinagar Garhwal, 246 174, Uttarakhand, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bahukhandi A",
+                "lastName": "Bahukhandi",
+                "firstName": "Amit",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "G.B. Pant National Institute of Himalayan Environment, Kosi-Katarmal, Almora, 263 643, Uttarakhand, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tynybekov B",
+                "lastName": "Tynybekov",
+                "firstName": "Bekzat",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0003-6176-2113"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biodiversity of Bioresources, Al-Farabi Kazakh National University, Almaty, Kazakhstan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Szopa A",
+                "lastName": "Szopa",
+                "firstName": "Agnieszka",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6351-4047"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Botany, Medical College, Jagiellonian University, Medyczna 9, 30-688, Krak\u00f3w, Poland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sharifi-Rad J",
+                "lastName": "Sharifi-Rad",
+                "firstName": "Javad",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7301-8151"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Facultad de Medicina, Universidad del Azuay, Cuenca, Ecuador. javad.sharifirad@gmail.com."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Calina D",
+                "lastName": "Calina",
+                "firstName": "Daniela",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1523-9116"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical Pharmacy, University of Medicine and Pharmacy of Craiova, 200349, Craiova, Romania. calinadaniela@gmail.com."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Suleria HAR",
+                "lastName": "Suleria",
+                "firstName": "Hafiz A R",
+                "initials": "HAR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2450-0830"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Agriculture and Food, Faculty of Veterinary and Agricultural Sciences, The University of Melbourne, Parkville, VIC, 3010, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cho WC",
+                "lastName": "Cho",
+                "firstName": "William C",
+                "initials": "WC",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4174-4586"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical Oncology, Queen Elizabeth Hospital, Kowloon, Hong Kong, China. chocs@ha.org.hk."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5732-1081"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9594-0692"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1523-9116"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2450-0830"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6351-4047"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7301-8151"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4174-4586"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0003-6176-2113"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "22",
+            "journalIssueId": 3432023,
+            "dateOfPublication": "2022 Oct",
+            "monthOfPublication": 10,
+            "yearOfPublication": 2022,
+            "journal": {
+              "medlineAbbreviation": "Cancer Cell Int",
+              "title": "Cancer cell international",
+              "essn": "1475-2867",
+              "issn": "1475-2867",
+              "isoabbreviation": "Cancer Cell Int",
+              "nlmid": "101139795"
+            },
+            "printPublicationDate": "2022-10-01"
+          },
+          "pubYear": "2022",
+          "pageInfo": "305",
+          "abstractText": "Plants-based natural compounds are well-identified and recognized chemoprotective agents that can be used for primary and secondary cancer prevention, as they have proven efficacy and fewer side effects. In today's scenario, when cancer cases rapidly increase in developed and developing countries, the anti-cancerous plant-based compounds become highly imperative. Among others, the Asteraceae (Compositae) family's plants are rich in sesquiterpenoid lactones, a subclass of terpenoids with wide structural diversity, and offer unique anti-cancerous effects. These plants are utilized in folk medicine against numerous diseases worldwide. However, these plants are now a part of the modern medical system, with their sesquiterpenoid lactones researched extensively to find more effective and efficient cancer drug regimens. Given the evolving importance of sesquiterpenoid lactones for cancer research, this review comprehensively covers different domains in a spectrum of sesquiterpenoid lactones viz (i) Guaianolides (ii) Pseudoguaianolide (iii) Eudesmanolide (iv) Melampodinin A and (v) Germacrene, from important plants such as Cynara scolymus (globe artichoke), Arnica montana (wolf weeds), Spilanthes acmella, Taraxacum officinale, Melampodium, Solidago spp. The review, therefore, envisages being a helpful resource for the growth of plant-based anti-cancerous drug development.",
+          "affiliation": "Department of Biotechnology, Kumaun University, Bhimtal, 263 136, Uttarakhand, India.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Apoptosis",
+              "Cancer",
+              "Signaling pathway",
+              "Molecular mechanisms",
+              "Anti-tumor",
+              "Complementary Medicine",
+              "Sesquiterpenoid Lactones"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://cancerci.biomedcentral.com/counter/pdf/10.1186/s12935-022-02721-9"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://cancerci.biomedcentral.com/counter/pdf/10.1186/s12935-022-02721-9"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://cancerci.biomedcentral.com/counter/pdf/10.1186/s12935-022-02721-9"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://cancerci.biomedcentral.com/counter/pdf/10.1186/s12935-022-02721-9"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1186/s12935-022-02721-9"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9540722"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9540722?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 51,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2022-10-07",
+          "dateOfRevision": "2022-10-11",
+          "electronicPublicationDate": "2022-10-07",
+          "firstPublicationDate": "2022-10-07",
+          "firstIndexDate": "2022-10-08",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:34569671 AND SRC:MED",
+    "internalQuery": "EXT_ID:34569671 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "34569671",
+        "source": "MED",
+        "pmid": "34569671",
+        "doi": "10.1002/ptr.7247",
+        "title": "Effects of artichoke leaf extract supplementation or artichoke juice consumption on lipid profile: A systematic review and dose-response meta-analysis of randomized controlled trials.",
+        "authorString": "Shahinfar H, Bazshahi E, Amini MR, Payandeh N, Pourreza S, Noruzi Z, Shab-Bidar S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shahinfar H",
+              "lastName": "Shahinfar",
+              "firstName": "Hossein",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4499-4102"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition, School of Public Health, Iran University of Medical Sciences, Tehran, Iran."
+                  },
+                  {
+                    "affiliation": "Student Research Committee, Faculty of Public Health, Iran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bazshahi E",
+              "lastName": "Bazshahi",
+              "firstName": "Elham",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Community Nutrition, School of Nutritional Sciences and Dietetics, Tehran University of Medical Sciences (TUMS), Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Amini MR",
+              "lastName": "Amini",
+              "firstName": "Mohammad Reza",
+              "initials": "MR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0640-2142"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Community Nutrition, School of Nutritional Sciences and Dietetics, Tehran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Payandeh N",
+              "lastName": "Payandeh",
+              "firstName": "Nastaran",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Community Nutrition, School of Nutritional Sciences and Dietetics, Tehran University of Medical Sciences (TUMS), Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pourreza S",
+              "lastName": "Pourreza",
+              "firstName": "Sanaz",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Community Nutrition, School of Nutritional Sciences and Dietetics, Tehran University of Medical Sciences (TUMS), Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Noruzi Z",
+              "lastName": "Noruzi",
+              "firstName": "Zahra",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Community Nutrition, School of Nutritional Sciences and Dietetics, Tehran University of Medical Sciences (TUMS), Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shab-Bidar S",
+              "lastName": "Shab-Bidar",
+              "firstName": "Sakineh",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Community Nutrition, School of Nutritional Sciences and Dietetics, Tehran University of Medical Sciences (TUMS), Tehran, Iran."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4499-4102"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0640-2142"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "35",
+          "journalIssueId": 3282956,
+          "dateOfPublication": "2021 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Phytother Res",
+            "title": "Phytotherapy research : PTR",
+            "essn": "1099-1573",
+            "issn": "0951-418X",
+            "isoabbreviation": "Phytother Res",
+            "nlmid": "8904486"
+          },
+          "printPublicationDate": "2021-12-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "6607-6623",
+        "abstractText": "Accumulating evidence regarding the effect of artichoke on lipid profile is equivocal. We updated a previous meta-analysis on the effect of artichoke extract supplementation on lipid profile and performed dose-response analysis. We searched PubMed, Scopus, Web of Science, and Cochrane Library from inception to June 2021 using relevant keywords. Papers from identified articles were collected. Two researchers rated the certainty in the estimates using the GRADE approach. Combining 15 effect sizes from 14 studies based on the random-effects analysis, we found that artichoke significantly reduced TG (weighed mean difference [WMD]: -17.01\u2009mg/dl, 95% CI: -23.88, -10.13, p\u00a0=\u00a0.011), TC (WMD: -17.01\u2009mg/dl, 95% CI: -23.88, -10.13, p\u2009<\u2009.001), and LDL-C (WMD: -17.48\u2009mg/dl, 95%CI: -25.44, -9.53, p\u2009<\u2009.001). No significant effect of artichoke on HDL-C level was detected (WMD: 0.78\u2009mg/dl, 95%CI: -0.93, 2.49, p\u00a0=\u00a0.371). Combining the two effect sizes revealed that artichoke juice supplementation significantly reduced TG (WMD: -3.34\u2009mg/dl, 95%CI: -5.51, -1.17, p\u00a0=\u00a0.003), TC (WMD: -18.04\u2009mg/dl, 95%CI: -20.30, -15.78, p\u2009<\u2009.001), LDL-C (WMD: -1.75\u2009mg/dl, 95%CI: -3.02, -0.48, p\u00a0=\u00a0.007), and HDL-C levels (WMD: -4.21\u2009mg/dl, 95%CI: -5.49, -2.93, p\u2009<\u2009.001). In conclusion, we found that artichoke supplementation may favor CVD prevention by acting in improving the lipid profile.",
+        "affiliation": "Department of Nutrition, School of Public Health, Iran University of Medical Sciences, Tehran, Iran.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cynara scolymus"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipids"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hyperlipidemia",
+            "Lipid profile",
+            "Randomized Clinical Trial",
+            "Dose-response Meta-analysis",
+            "Artichoke Leaf Extract",
+            "Artichoke Juice"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Lipids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "artichoke leaf",
+              "registryNumber": "B71UA545DE"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ptr.7247"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-12-24",
+        "dateOfCreation": "2021-09-27",
+        "dateOfRevision": "2025-06-23",
+        "electronicPublicationDate": "2021-09-27",
+        "firstPublicationDate": "2021-09-27",
+        "firstIndexDate": "2021-09-28",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

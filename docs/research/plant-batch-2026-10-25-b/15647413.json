@@ -1,0 +1,386 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:15647413 AND SRC:MED",
+    "internalQuery": "EXT_ID:15647413 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "15647413",
+        "source": "MED",
+        "pmid": "15647413",
+        "doi": "10.1177/0091270004270561",
+        "title": "Pharmacokinetics of anthocyanidin-3-glycosides following consumption of Hibiscus sabdariffa L. extract.",
+        "authorString": "Frank T, Janssen M, Netzel M, Netzel M, Netzel M, Strass G, Kler A, Kriesl E, Bitsch I.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Frank T",
+              "lastName": "Frank",
+              "firstName": "Thomas",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "IMFORM GmbH International Clinical Research, Birkenweg 14, D-64295 Darmstadt, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Janssen M",
+              "lastName": "Janssen",
+              "firstName": "Marlies",
+              "initials": "M"
+            },
+            {
+              "fullName": "Netzel M",
+              "lastName": "Netzel",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1581-4851"
+              }
+            },
+            {
+              "fullName": "Netzel M",
+              "lastName": "Netzel",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5699-2622"
+              }
+            },
+            {
+              "fullName": "Netzel M",
+              "lastName": "Netzel",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3136-3926"
+              }
+            },
+            {
+              "fullName": "Strass G",
+              "lastName": "Strass",
+              "firstName": "Gabriele",
+              "initials": "G"
+            },
+            {
+              "fullName": "Kler A",
+              "lastName": "Kler",
+              "firstName": "Adolf",
+              "initials": "A"
+            },
+            {
+              "fullName": "Kriesl E",
+              "lastName": "Kriesl",
+              "firstName": "Erwin",
+              "initials": "E"
+            },
+            {
+              "fullName": "Bitsch I",
+              "lastName": "Bitsch",
+              "firstName": "Irmgard",
+              "initials": "I"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3136-3926"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5699-2622"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1581-4851"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "45",
+          "journalIssueId": 1215089,
+          "dateOfPublication": "2005 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "J Clin Pharmacol",
+            "title": "Journal of clinical pharmacology",
+            "essn": "1552-4604",
+            "issn": "0091-2700",
+            "nlmid": "0366372",
+            "isoabbreviation": "J Clin Pharmacol"
+          },
+          "printPublicationDate": "2005-02-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "203-210",
+        "abstractText": "Pharmacokinetic parameters of several dietary anthocyanins following consumption of Hibiscus sabdariffa L. extract were determined in 6 healthy volunteers. Subjects were given a single oral dose of 150 mL of Hibiscus sabdariffa L. extract yielding 62.6 mg of cyanidin-3-sambubioside, 81.6 mg of delphindin-3-sambubioside, and 147.4 mg of total anthocyanins (calculated as cyanidin equivalents). Within 7 hours, the urinary excretion of cyanidin-3-sambubioside, delphinidin-3-sambubioside, and total anthocyanins (ie, the sum of all quantifiable anthocyanidin glycosides) was 0.016%, 0.021%, and 0.018% of the administered doses, respectively. Maximum excretion rates were determined at 1.5 to 2.0 hours after intake. The dose-normalized plasma area under the curve estimates were 0.076, 0.032, and 0.050 ng x h/mL/mg for cyanidin-3-sambubioside, delphinidin-3-sambubioside, and total anthocyanins, respectively. The dose-normalized C(max) estimates were 0.036, 0.015, and 0.023 ng/mL/mg in the same sequence. They were reached each at 1.5 hours (median) after intake. The geometric means of t1/2 were 2.18, 3.34, and 2.63 hours for cyanidin-3-sambubioside, delphinidin-3-sambubioside, and total anthocyanins, respectively. The urinary excretion of intact anthocyanins was fast and appeared to be monoexponential. To evaluate the contribution of anthocyanins to the health-protecting effects of Hibiscus sabdariffa L. extract, it will be necessary to perform further studies on both the intact glycosides and their in vivo metabolites or conjugates in human plasma and urine.",
+        "affiliation": "IMFORM GmbH International Clinical Research, Birkenweg 14, D-64295 Darmstadt, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Controlled Clinical Trial",
+            "Comparative Study",
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hibiscus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Water"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytochrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Administration Schedule"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pigments, Biological",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Glycosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phytochrome",
+              "registryNumber": "11121-56-5"
+            },
+            {
+              "name": "Pigments, Biological",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Water",
+              "registryNumber": "059QF0KO0R"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1177/0091270004270561"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 27,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-01-04",
+        "dateOfCreation": "2005-01-14",
+        "dateOfRevision": "2013-11-21",
+        "firstPublicationDate": "2005-02-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

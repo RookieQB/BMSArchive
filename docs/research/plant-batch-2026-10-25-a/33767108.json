@@ -1,0 +1,386 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:33767108 AND SRC:MED",
+    "internalQuery": "EXT_ID:33767108 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33767108",
+        "source": "MED",
+        "pmid": "33767108",
+        "pmcid": "PMC8191753",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8191753"
+          ]
+        },
+        "doi": "10.14309/ajg.0000000000001222",
+        "title": "Efficacy and Safety of Over-the-Counter Therapies for Chronic Constipation: An Updated Systematic Review.",
+        "authorString": "Rao SSC, Brenner DM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rao SSC",
+              "lastName": "Rao",
+              "firstName": "Satish S C",
+              "initials": "SSC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Gastroenterology/Hepatology, Medical College of Georgia, Augusta University, Augusta, Georgia, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Brenner DM",
+              "lastName": "Brenner",
+              "firstName": "Darren M",
+              "initials": "DM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Gastroenterology Northwestern University-Feinberg School of Medicine, Chicago, Illinois, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "116",
+          "journalIssueId": 3178467,
+          "dateOfPublication": "2021 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Am J Gastroenterol",
+            "title": "The American journal of gastroenterology",
+            "essn": "1572-0241",
+            "issn": "0002-9270",
+            "isoabbreviation": "Am J Gastroenterol",
+            "nlmid": "0421030"
+          },
+          "printPublicationDate": "2021-06-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "1156-1181",
+        "abstractText": "<h4>Introduction</h4>Constipation is commonly treated with over-the-counter (OTC) products whose efficacy and safety remain unclear. We performed a systematic review of OTC therapies for chronic constipation and provide evidence-based recommendations.<h4>Methods</h4>We searched PubMed and Embase for randomized controlled trials of \u22654-week duration that evaluated OTC preparations between 2004 and 2020. Studies were scored using the US Preventive Services Task Force criteria (0-5 scale) including randomization, blinding, and withdrawals. The strengths of evidence were adjudicated within each therapeutic category, and recommendations were graded (A, B, C, D, and I) based on the level of evidence (level I, good; II, fair; or III, poor).<h4>Results</h4>Of 1,297 studies identified, 41 met the inclusion criteria. There was good evidence (grade A recommendation) for the use of the osmotic laxative polyethylene glycol (PEG) and the stimulant senna; moderate evidence (grade B) for psyllium, SupraFiber, magnesium salts, stimulants (bisacodyl and sodium picosulfate), fruit-based laxatives (kiwi, mango, prunes, and ficus), and yogurt with galacto-oligosaccharide/prunes/linseed oil; and insufficient evidence (grade I) for polydextrose, inulin, and fructo-oligosaccharide. Diarrhea, nausea, bloating, and abdominal pain were common adverse events, but no serious adverse events were reported.<h4>Discussion</h4>The spectrum of OTC products has increased and quality of evidence has improved, but methodological issues including variability in study design, primary outcome measures, trial duration, and small sample sizes remain. We found good evidence to recommend polyethylene glycol or senna as first-line laxatives and moderate evidence supporting fiber supplements, fruits, stimulant laxatives, and magnesium-based products. For others, further validation with more rigorously designed studies is warranted.",
+        "affiliation": "Division of Gastroenterology/Hepatology, Medical College of Georgia, Augusta University, Augusta, Georgia, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Systematic Review",
+            "review-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fruit"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chronic Disease"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Constipation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Magnesium"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polyethylene Glycols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Citrates"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organometallic Compounds"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bisacodyl"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Picolines"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inulin"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oligosaccharides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gastrointestinal Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cathartics",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psyllium"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Senna Extract"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Defecation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Yogurt"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Laxatives",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nonprescription Drugs",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "fructo-oligosaccharide-shitake",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Citrates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Inulin",
+              "registryNumber": "9005-80-5"
+            },
+            {
+              "name": "Oligosaccharides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Organometallic Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cathartics",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Psyllium",
+              "registryNumber": "8063-16-9"
+            },
+            {
+              "name": "Picolines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Senna Extract",
+              "registryNumber": "8013-11-4"
+            },
+            {
+              "name": "Glucans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Gastrointestinal Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Laxatives",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Nonprescription Drugs",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Magnesium",
+              "registryNumber": "I38ZP9992A"
+            },
+            {
+              "name": "picosulfate sodium",
+              "registryNumber": "LR57574HN8"
+            },
+            {
+              "name": "Bisacodyl",
+              "registryNumber": "10X0709Y6I"
+            },
+            {
+              "name": "polydextrose",
+              "registryNumber": "VH2XOU12IE"
+            },
+            {
+              "name": "Polyethylene Glycols",
+              "registryNumber": "3WJQ0SDW1A"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://journals.lww.com/ajg/Fulltext/2021/06000/Efficacy_and_Safety_of_Over_the_Counter_Therapies.14.aspx"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.14309/ajg.0000000000001222"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8191753"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8191753?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 68,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-06-30",
+        "dateOfCreation": "2021-03-26",
+        "dateOfRevision": "2023-07-18",
+        "firstPublicationDate": "2021-06-01",
+        "firstIndexDate": "2021-03-27",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

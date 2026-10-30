@@ -1,0 +1,2900 @@
+{
+  "query": "TITLE_ABS:\"Mentha piperita\" AND (adverse effects OR toxicity OR drug interactions)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 40,
+    "nextCursorMark": "AoIIQIscJCg0OTk5NDkyMw==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Mentha+piperita%22+AND+%28adverse+effects+OR+toxicity+OR+drug+interactions%29&cursorMark=AoIIQIscJCg0OTk5NDkyMw%3D%3D&resultType=core&pageSize=8&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"Mentha piperita\" AND (adverse effects OR toxicity OR drug interactions)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "41619305",
+          "source": "MED",
+          "pmid": "41619305",
+          "pmcid": "PMC12860549",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12860549"
+            ]
+          },
+          "doi": "10.1002/cbdv.202503567",
+          "title": "Topical Formulations Containing Mentha piperita for Wound Healing: A Scoping Review.",
+          "authorString": "Ara\u00fajo LG, Vila-Nova BG, Abreu AG.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Ara\u00fajo LG",
+                "lastName": "Ara\u00fajo",
+                "firstName": "Lorena Gon\u00e7alves",
+                "initials": "LG",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Programa de P\u00f3s-Gradua\u00e7\u00e3o em Ci\u00eancias da Sa\u00fade, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    },
+                    {
+                      "affiliation": "Laborat\u00f3rio de Imunofisiologia, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Vila-Nova BG",
+                "lastName": "Vila-Nova",
+                "firstName": "Beatriz Gomes",
+                "initials": "BG",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laborat\u00f3rio de Imunofisiologia, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abreu AG",
+                "lastName": "Abreu",
+                "firstName": "Afonso Gomes",
+                "initials": "AG",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1665-0879"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Programa de P\u00f3s-Gradua\u00e7\u00e3o em Ci\u00eancias da Sa\u00fade, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    },
+                    {
+                      "affiliation": "Laborat\u00f3rio de Imunofisiologia, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1665-0879"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "2",
+            "volume": "23",
+            "journalIssueId": 4109684,
+            "dateOfPublication": "2026 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Chem Biodivers",
+              "title": "Chemistry & biodiversity",
+              "essn": "1612-1880",
+              "issn": "1612-1872",
+              "isoabbreviation": "Chem Biodivers",
+              "nlmid": "101197449"
+            },
+            "printPublicationDate": "2026-02-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "e03567",
+          "abstractText": "Skin wound infections represent a major clinical challenge, exacerbated by biofilm formation and the increasing prevalence of bacterial resistance. Essential oils, particularly those of Mentha piperita, are well recognized for their antimicrobial and wound-healing properties. This scoping review mapped the available evidence on the use of topical formulations containing M. piperita-derived products for wound healing, with a focus on formulation vehicles, concentrations, experimental models, and efficacy parameters. Following JBI and PRISMA-ScR guidelines, a comprehensive search was conducted in PubMed, Scopus, Web of Science, and LILACS (2010-2025). Twenty studies met the inclusion criteria, the majority of which were preclinical, comprising in vitro (35%), in vivo (30%), and combined in vitro/in vivo (30%) models. Only one ex vivo study was identified, and no clinical trials were found. The formulations investigated ranged from creams and gels to nanoemulsions, lipid carriers, films, and nanofibers, with concentrations varying from 0.5% to 20%. Staphylococcus aureus was the most frequently tested strain and showed greater susceptibility to peppermint essential oil (PEO). Incorporation into nanostructured systems was associated with improved stability, enhanced skin permeation, and superior antimicrobial performance, particularly when combined with nanoparticles, metals, other bioactive compounds, or, in specific cases, clinical antibiotics such as levofloxacin. Across both infected wound models and noninfected wound-healing models, M. piperita-containing formulations were associated with favorable outcomes, although the underlying mechanisms differed depending on the presence or absence of microbial challenge. Despite these promising findings, significant gaps remain regarding ex vivo validation, safety assessment, and clinical translation. Overall, PEO demonstrates considerable potential as an antimicrobial and wound-healing agent; however, more standardized and clinically oriented studies are required.",
+          "affiliation": "Programa de P\u00f3s-Gradua\u00e7\u00e3o em Ci\u00eancias da Sa\u00fade, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Scoping Review",
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Coordena\u00e7\u00e3o de Aperfei\u00e7oamento de Pessoal de N\u00edvel Superior",
+                "grantId": "Finance Code 001",
+                "orderIn": 0
+              },
+              {
+                "agency": "Coordination for the Improvement of Higher Education Personnel",
+                "grantId": "Finance Code 001",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Council for Scientific and Technological Development",
+                "grantId": "307035/2022-0",
+                "orderIn": 0
+              },
+              {
+                "agency": "Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico",
+                "grantId": "307035/2022\u20100",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Staphylococcus aureus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Oils, Volatile",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Oils"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Anti-Bacterial Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Microbial Sensitivity Tests"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Administration, Topical"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Drug Compounding"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Wound Healing",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Antimicrobial activity",
+              "Mentha Piperita",
+              "Biofilm Inhibition",
+              "Nanostructured Systems"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Anti-Bacterial Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Oils, Volatile",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Oils",
+                "registryNumber": "0"
+              },
+              {
+                "name": "peppermint oil",
+                "registryNumber": "AV092KU4JH"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1002/cbdv.202503567"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12860549"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12860549?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-06",
+          "dateOfCreation": "2026-01-31",
+          "dateOfRevision": "2026-07-13",
+          "firstPublicationDate": "2026-02-01",
+          "firstIndexDate": "2026-02-06",
+          "fullTextReceivedDate": "2026-02-07",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41992088",
+          "source": "MED",
+          "pmid": "41992088",
+          "pmcid": "PMC13089926",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13089926"
+            ]
+          },
+          "doi": "10.1080/15592324.2026.2657091",
+          "title": "Melatonin-iron oxide nanoparticles synergy enhances salt tolerance in &lt;i&gt;Mentha\u2009\u00d7\u2009piperita&lt;/i&gt; L.",
+          "authorString": "Anwar T, Qureshi H, Ayub H, El-Beltagi HS, Yunusov S, Ziyadov S, Muminov MM, El-Shaboury GA, Bazarbayeva D, Alsudays IM, Alamer KH, Bekmukhamedova M, Jobborov B, Shah MA.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Anwar T",
+                "lastName": "Anwar",
+                "firstName": "Tauseef",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, The Islamia University of Bahawalpur, Bahawalpur, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Qureshi H",
+                "lastName": "Qureshi",
+                "firstName": "Huma",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, University of Chakwal, Chakwal, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ayub H",
+                "lastName": "Ayub",
+                "firstName": "Hira",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, The Islamia University of Bahawalpur, Bahawalpur, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "El-Beltagi HS",
+                "lastName": "El-Beltagi",
+                "firstName": "Hossam S",
+                "initials": "HS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Agricultural Biotechnology Department, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yunusov S",
+                "lastName": "Yunusov",
+                "firstName": "Salohiddinjon",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Horticulture and Viticulture, Tashkent State Agrarian University, Tashkent region, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ziyadov S",
+                "lastName": "Ziyadov",
+                "firstName": "Shuqurillo",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ecology, National University of Uzbekistan named after Mirzo Ulugbek, Tashkent, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Muminov MM",
+                "lastName": "Muminov",
+                "firstName": "Muydinjon M",
+                "initials": "MM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Andijan State University, Andijan, Uzbekistan."
+                    },
+                    {
+                      "affiliation": "Department of Startup Projects, Kokond University Andijan Branch, Andijan, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "El-Shaboury GA",
+                "lastName": "El-Shaboury",
+                "firstName": "Gamal Awad",
+                "initials": "GA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Biology Department, College of Science, King Khalid University, Abha, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bazarbayeva D",
+                "lastName": "Bazarbayeva",
+                "firstName": "Dilbar",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Engineering Technology and Environmental Protection, Nukus State Technical University, Nukus, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alsudays IM",
+                "lastName": "Alsudays",
+                "firstName": "Ibtisam M",
+                "initials": "IM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0632-1281"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biology, College of Science, Qassim University, Qassim, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alamer KH",
+                "lastName": "Alamer",
+                "firstName": "Khalid H",
+                "initials": "KH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Biological Sciences Department, Faculty of Science and Arts, King Abdulaziz University, Rabigh, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bekmukhamedova M",
+                "lastName": "Bekmukhamedova",
+                "firstName": "Munisa",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ecology and Hydrogeology, University of Geological Sciences, Tashkent, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jobborov B",
+                "lastName": "Jobborov",
+                "firstName": "Bakhrom",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ecology, National University of Uzbekistan named after Mirzo Ulugbek, Tashkent, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shah MA",
+                "lastName": "Shah",
+                "firstName": "Mohd Asif",
+                "initials": "MA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0000-2821-5423"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Kardan University, Kabul, Afghanistan."
+                    },
+                    {
+                      "affiliation": "Division of Research and Development, Lovely Professional University, Phagwara, India."
+                    },
+                    {
+                      "affiliation": "University Center for Research & Development, Chandigarh University, Mohali, India."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0632-1281"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0000-2821-5423"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "21",
+            "journalIssueId": 4076768,
+            "dateOfPublication": "2026 Dec",
+            "monthOfPublication": 12,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Plant Signal Behav",
+              "title": "Plant signaling & behavior",
+              "essn": "1559-2324",
+              "issn": "1559-2316",
+              "isoabbreviation": "Plant Signal Behav",
+              "nlmid": "101291431"
+            },
+            "printPublicationDate": "2026-12-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "2657091",
+          "abstractText": "Iron is an essential micronutrient involved in chlorophyll biosynthesis, redox metabolism, and antioxidant enzyme function, and its availability becomes particularly important under salinity stress. This study evaluated the individual and combined effects of green-synthesized iron oxide nanoparticles (IONPs) and melatonin on the salt stress response of <i>Mentha\u2009\u00d7\u2009piperita</i> L. A controlled greenhouse experiment was conducted using a three-factor factorial design with melatonin (0 and 0.1 g L<sup>-1</sup>), IONPs (0 and 0.5 g L<sup>-1</sup>), and NaCl (0 and 100\u2009 mM). Treatments were applied as foliar sprays for four weeks, and plant growth traits, photosynthetic pigments, oxidative damage markers, membrane stability, and antioxidant enzyme activities were assessed. Salinity markedly reduced leaf, shoot, and root growth, decreased the chlorophyll content, and increased hydrogen peroxide, malondialdehyde, and electrolyte leakage. In contrast, melatonin and IONPs alleviated these adverse effects, with the combined treatment producing the strongest response. Under saline conditions, the combined application of IONPs and melatonin increased shoot and root growth, improved chlorophyll retention, reduced oxidative damage, and enhanced the activities of superoxide dismutase, peroxidase, and catalase relative to NaCl-treated plants. These results indicate that the combined treatment improved salt tolerance by strengthening antioxidant defense, preserving membrane integrity, and sustaining photosynthetic performance. These findings suggest that biogenic iron oxide nanoparticles, particularly when integrated with melatonin, may serve as effective nano-biostimulant tools for improving peppermint resilience under salinity stress. This study provides a physiological and biochemical basis for the use of iron-based nanomaterials and plant bioregulators in the management of salt-affected cultivation systems.",
+          "affiliation": "Department of Botany, The Islamia University of Bahawalpur, Bahawalpur, Pakistan.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Non-US Government Research Support type",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Hydrogen Peroxide",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Chlorophyll",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Melatonin",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antioxidants",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Photosynthesis",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Nanoparticles",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Salt Tolerance",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Reactive oxygen species",
+              "Lipid Peroxidation",
+              "Electrolyte leakage",
+              "photosynthetic pigments",
+              "Biogenic Nanomaterials",
+              "Nano-biostimulants"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antioxidants",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Chlorophyll",
+                "registryNumber": "1406-65-1"
+              },
+              {
+                "name": "Hydrogen Peroxide",
+                "registryNumber": "BBX060AN9V"
+              },
+              {
+                "name": "Melatonin",
+                "registryNumber": "JL5DK93RCL"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1080/15592324.2026.2657091"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13089926"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13089926?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-15",
+          "dateOfCreation": "2026-04-17",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-04-16",
+          "firstPublicationDate": "2026-04-16",
+          "firstIndexDate": "2026-04-17",
+          "fullTextReceivedDate": "2026-04-22",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42043716",
+          "source": "MED",
+          "pmid": "42043716",
+          "pmcid": "PMC13275630",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13275630"
+            ]
+          },
+          "doi": "10.1007/s10787-026-02251-0",
+          "title": "Medicinal plants as alternative and adjunct antimicrobial agents in ear, nose, and throat (ENT) Infections.",
+          "authorString": "Kay\u0131ran SD, \u00d6zda\u015f T, G\u00fcven B\u00f6lgen UM, \u00c7evikelli T, \u015eahan MN, Ertu\u011frul H, I\u015f\u0131ldakl\u0131 A, \u00d6zkurt S, Acar Y, Demirk\u0131ran E.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Kay\u0131ran SD",
+                "lastName": "Kay\u0131ran",
+                "firstName": "Serpil Demirci",
+                "initials": "SD",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Botany, Faculty of Pharmacy, \u00c7ukurova University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u00d6zda\u015f T",
+                "lastName": "\u00d6zda\u015f",
+                "firstName": "Talih",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "G\u00fcven B\u00f6lgen UM",
+                "lastName": "G\u00fcven B\u00f6lgen",
+                "firstName": "Umay Merve",
+                "initials": "UM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Technology, Faculty of Pharmacy, \u00c7ukurova University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u00c7evikelli T",
+                "lastName": "\u00c7evikelli",
+                "firstName": "Tilbe",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Technology, Faculty of Pharmacy, Bah\u00e7e\u015fehir University, Istanbul, Turkey. tilbe.cevikelli@bau.edu.tr."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u015eahan MN",
+                "lastName": "\u015eahan",
+                "firstName": "Merve Nur",
+                "initials": "MN",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ertu\u011frul H",
+                "lastName": "Ertu\u011frul",
+                "firstName": "Hazar",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "I\u015f\u0131ldakl\u0131 A",
+                "lastName": "I\u015f\u0131ldakl\u0131",
+                "firstName": "Ali",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u00d6zkurt S",
+                "lastName": "\u00d6zkurt",
+                "firstName": "Sedef",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Acar Y",
+                "lastName": "Acar",
+                "firstName": "Yakup",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Demirk\u0131ran E",
+                "lastName": "Demirk\u0131ran",
+                "firstName": "Ege",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "34",
+            "journalIssueId": 4218334,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Inflammopharmacology",
+              "title": "Inflammopharmacology",
+              "essn": "1568-5608",
+              "issn": "0925-4692",
+              "isoabbreviation": "Inflammopharmacology",
+              "nlmid": "9112626"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "3755-3781",
+          "abstractText": "Medicinal plants are widely used worldwide for ear, nose, and throat (ENT) disorders and have a long history of traditional application. This review aims to summarize current experimental and clinical evidence on medicinal plants used for ENT conditions such as otitis externa/media, tinnitus, vertigo, allergic rhinitis, pharyngitis, and laryngitis, and to support the identification of new plant species with antimicrobial potential against ENT pathogens. This review thoroughly summarizes recent developments from 2020 to 2025 and was conducted using electronic databases, including PubMed, Web of Science, Scopus, ScienceDirect, and Google Scholar, with predefined ENT and medicinal plants-related keywords. Frequently used species include Lavandula angustifolia, Thymus vulgaris, Curcuma longa, Zingiber officinale, Origanum vulgare, Glycyrrhiza glabra, Mentha piperita, Matricaria chamomilla, and Syzygium aromaticum, many of which show In vitro antibacterial, antifungal, or antiviral activity relevant to upper airway and oral/ENT infections. Evidence indicates that selected medicinal plants and their extracts or essential oils inhibit key ENT-related pathogens, including multidrug-resistant respiratory and pharyngeal bacteria. The compiled data, structured in comparative tables, highlight promising taxa and preparation types, and underscore gaps in clinical validation, standardization, and safety assessment. Overall, this review provides an evidence-based overview of ENT-related phytotherapy and a framework for future pharmacological and phytochemical studies aimed at developing novel plant-derived antimicrobials for ear, nose, and throat diseases.",
+          "affiliation": "Department of Pharmaceutical Botany, Faculty of Pharmacy, \u00c7ukurova University, Adana, Turkey.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Bahcesehir University",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plants, Medicinal",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Otorhinolaryngologic Diseases",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MI",
+                      "qualifierName": "microbiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Anti-Infective Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Phytotherapy",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Ear",
+              "Activity",
+              "Medicinal plant",
+              "Antimicrobial",
+              "Nose And Throat Diseases"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Anti-Infective Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1007/s10787-026-02251-0"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13275630"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13275630?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-17",
+          "dateOfCreation": "2026-04-27",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-04-27",
+          "firstPublicationDate": "2026-04-27",
+          "firstIndexDate": "2026-04-27",
+          "fullTextReceivedDate": "2026-06-24",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41927725",
+          "source": "MED",
+          "pmid": "41927725",
+          "pmcid": "PMC13243648",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13243648"
+            ]
+          },
+          "doi": "10.1038/s41598-026-47421-w",
+          "title": "Mitigation of salinity stress in Mentha piperita L. through foliar application of chitosan-salicylic acid encapsulated ZnO nanoparticles.",
+          "authorString": "Al-Obaidi MHR, Mehrabani LV, Hassanpouraghdam MB, Khoshmaram L, Rasouli F.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Al-Obaidi MHR",
+                "lastName": "Al-Obaidi",
+                "firstName": "Mundher Hameed Rashid",
+                "initials": "MHR",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Agronomy and Plant Breeding, Azarbaijan Shahid Madani University, Tabriz, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mehrabani LV",
+                "lastName": "Mehrabani",
+                "firstName": "Lamia Vojodi",
+                "initials": "LV",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Agronomy and Plant Breeding, Azarbaijan Shahid Madani University, Tabriz, Iran. vojodilamia@gmail.com."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hassanpouraghdam MB",
+                "lastName": "Hassanpouraghdam",
+                "firstName": "Mohammad Bagher",
+                "initials": "MB",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Horticulture, Faculty of Agriculture, University of Maragheh, Maragheh, 55181-83111, Iran."
+                    },
+                    {
+                      "affiliation": "Chair of Environmental and Agricultural Plant Biology, Centre of Excellence AgroCropFuture, Estonian University of Life Sciences, Tartu, Estonia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Khoshmaram L",
+                "lastName": "Khoshmaram",
+                "firstName": "Leila",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Faculty of Science, Azarbaijan Shahid Madani University, Tabriz, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rasouli F",
+                "lastName": "Rasouli",
+                "firstName": "Farzad",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Horticulture, Faculty of Agriculture, University of Maragheh, Maragheh, 55181-83111, Iran."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "16",
+            "journalIssueId": 4168316,
+            "dateOfPublication": "2026 Apr",
+            "monthOfPublication": 4,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Sci Rep",
+              "title": "Scientific reports",
+              "essn": "2045-2322",
+              "issn": "2045-2322",
+              "isoabbreviation": "Sci Rep",
+              "nlmid": "101563288"
+            },
+            "printPublicationDate": "2026-04-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "17648",
+          "abstractText": "Salinity stress harms plant growth and physiological characteristics. To investigate the effect of NaCl salinity stress (without salinity stress and 100 mM salinity) and foliar spray with: control (distilled water), zinc oxide nanoparticles (40 mgL\u2212\u20091), salicylic acid (1 mM), chitosan (10 mgL\u2212\u20091) and zinc oxide nanoparticles encapsulated within a chitosan\u2013salicylic acid matrix (CS-Zn-SA NPs) (40 mgL\u2212\u20091) on growth and some physiological attributes of mint; a factorial experiment was conducted based on a completely randomized design. Independent effect of CS-Zn-SA NPs spraying increased plant dry weight, nitrogen, and potassium content, as well as essential oil yield. Moreover, 100 mM salinity stress reduced the mentioned traits. NaCl100 mM \u00d7 spraying with CS-Zn-SA NPs enhanced total phenolics and flavonoids content. The interaction effect of NaCl100 mM \u00d7 without foliar spraying enhanced proline, malondialdehyde, and sodium content. Treatment without salinity stress \u00d7 foliar spraying of CS-Zn-SA NPs raised the magnesium, zinc, and iron content of mint. In general, it can be stated that the synergistic effects of combining salicylic acid, zinc, and chitosan partially enhanced the growth potential and improved physiological properties of peppermint plants under salt stress conditions. Following complementary field studies, the results would be advisable for the production section.",
+          "affiliation": "Department of Agronomy and Plant Breeding, Azarbaijan Shahid Madani University, Tabriz, Iran.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GD",
+                      "qualifierName": "growth & development"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Leaves",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Zinc Oxide",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Malondialdehyde",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Salicylic Acid",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Phenols",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Flavonoids",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Chitosan",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Nanoparticles",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Salt Stress",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Chlorophyll",
+              "Proline",
+              "Malondialdehyde",
+              "Elemental content"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Flavonoids",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Phenols",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Chitosan",
+                "registryNumber": "9012-76-4"
+              },
+              {
+                "name": "Salicylic Acid",
+                "registryNumber": "O414PZ4LPZ"
+              },
+              {
+                "name": "Malondialdehyde",
+                "registryNumber": "4Y8F71G49Q"
+              },
+              {
+                "name": "Zinc Oxide",
+                "registryNumber": "SOI2LOH54Z"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41598-026-47421-w"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13243648"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13243648?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-27",
+          "dateOfCreation": "2026-04-02",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-04-02",
+          "firstPublicationDate": "2026-04-02",
+          "firstIndexDate": "2026-04-03",
+          "fullTextReceivedDate": "2026-06-09",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40868944",
+          "source": "MED",
+          "pmid": "40868944",
+          "pmcid": "PMC12387631",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12387631"
+            ]
+          },
+          "doi": "10.3390/life15081296",
+          "title": "Cytotoxic Effects of &lt;i&gt;Thymus serpyllum&lt;/i&gt; L. and &lt;i&gt;Mentha \u00d7 piperita&lt;/i&gt; L. Essential Oils on Basal Cell Carcinoma-An In Vitro Study.",
+          "authorString": "Milosevic Markovic M, Anicic B, Lazarevic M, Jaksic Karisik M, Mitic D, Milovanovic B, Ivanovic S, Pecinar I, Petrovic M, Petrovic M, Markovic N, Bojic M, Petrovic N, Petrovic S, Milasin J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Milosevic Markovic M",
+                "lastName": "Milosevic Markovic",
+                "firstName": "Maja",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9489-5244"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human Genetics, School of Dental Medicine, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Anicic B",
+                "lastName": "Anicic",
+                "firstName": "Boban",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3438-6410"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Clinic of Maxillofacial Surgery, School of Dental Medicine, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Lazarevic M",
+                "lastName": "Lazarevic",
+                "firstName": "Milos",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1330-5332"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human Genetics, School of Dental Medicine, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jaksic Karisik M",
+                "lastName": "Jaksic Karisik",
+                "firstName": "Milica",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1114-0829"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human Genetics, School of Dental Medicine, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mitic D",
+                "lastName": "Mitic",
+                "firstName": "Dijana",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0650-8193"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human Genetics, School of Dental Medicine, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Milovanovic B",
+                "lastName": "Milovanovic",
+                "firstName": "Branislav",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute for Cardiovascular Diseases \"Dedinje\", 11000 Belgrade, Serbia."
+                    },
+                    {
+                      "affiliation": "Faculty of Medicine, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ivanovic S",
+                "lastName": "Ivanovic",
+                "firstName": "Stefan",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3291-9818"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute for Chemistry, Technology and Metallurgy, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pecinar I",
+                "lastName": "Pecinar",
+                "firstName": "Ilinka",
+                "initials": "I",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5332-4696"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Agrobotany, Faculty of Agriculture, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Petrovic M",
+                "lastName": "Petrovic",
+                "firstName": "Milan",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Clinic of Maxillofacial Surgery, School of Dental Medicine, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Petrovic M",
+                "lastName": "Petrovic",
+                "firstName": "Masa",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1709-8449"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute for Cardiovascular Diseases \"Dedinje\", 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Markovic N",
+                "lastName": "Markovic",
+                "firstName": "Nikola",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0007-5090-6029"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute for Cardiovascular Diseases \"Dedinje\", 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bojic M",
+                "lastName": "Bojic",
+                "firstName": "Milovan",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute for Cardiovascular Diseases \"Dedinje\", 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Petrovic N",
+                "lastName": "Petrovic",
+                "firstName": "Nada",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Development and Production Center BIOSS-Petrovi\u0107 IN, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Petrovic S",
+                "lastName": "Petrovic",
+                "firstName": "Slobodan",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Development and Production Center BIOSS-Petrovi\u0107 IN, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Milasin J",
+                "lastName": "Milasin",
+                "firstName": "Jelena",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6225-7210"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human Genetics, School of Dental Medicine, University of Belgrade, 11000 Belgrade, Serbia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9489-5244"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0650-8193"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3291-9818"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3438-6410"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5332-4696"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6225-7210"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1114-0829"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1330-5332"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1709-8449"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0007-5090-6029"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "8",
+            "volume": "15",
+            "journalIssueId": 4003968,
+            "dateOfPublication": "2025 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Life (Basel)",
+              "title": "Life (Basel, Switzerland)",
+              "essn": "2075-1729",
+              "issn": "2075-1729",
+              "isoabbreviation": "Life (Basel)",
+              "nlmid": "101580444"
+            },
+            "printPublicationDate": "2025-08-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "1296",
+          "abstractText": "This study investigated the potential of <i>Thymus serpyllum</i> L. and <i>Mentha \u00d7 piperita</i> L. essential oils (EOs), known for their bioactive properties, as adjunctive treatments targeting Basal cell carcinoma cancer stem cells (BCC CSCs). Primary cultures were established from ten BCC tumor samples and their distant resection margins as controls. The chemical composition of the EOs was analyzed by gas chromatography-mass spectroscopy (GC-MS) and attenuated total reflectance Fourier transform infrared spectroscopy (ATR-FTIR). The biological effects were evaluated via colony and spheroid formation, scratch assays, MTT and neutral red cytotoxicity assays, and qRT-PCR for Hh (SHH, PTCH1, SMO, and GLI1) and Notch (Notch1 and JAG1) gene expression. GC analysis identified thymol, p-cymene, and linalool as the main components of the EO of <i>T. serpyllum</i> L., and menthone and menthol in the EO of <i>M. \u00d7 piperita</i> L. IC50 values were 262 \u00b5g/mL for <i>T. serpyllum</i> L. and 556 \u00b5g/mL for <i>M. \u00d7 piperita</i> L. and were applied in all experiments. Both EOs significantly reduced CSC clonogenicity and migration (<i>p</i> < 0.05). The EO of <i>T. serpyllum</i> L. downregulated SMO and GLI1, while the EO of <i>M. \u00d7 piperita</i> L. upregulated PTCH1, Notch1, and JAG1 (<i>p</i> < 0.05). These findings suggest that both EOs exhibit anticancer effects in BCC CSCs by modulating key oncogenic pathways, supporting their potential in BCC therapy.",
+          "affiliation": "Department of Human Genetics, School of Dental Medicine, University of Belgrade, 11000 Belgrade, Serbia.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Ministry of Science, Technological Development and Innovation of the Republic of Serbia",
+                "grantId": "451-03-137/2025-03/200129",
+                "orderIn": 0
+              },
+              {
+                "agency": "the Ministry of Education, Science and Technological Development of the Re-public of Serbia",
+                "grantId": "451-03-137/2025-03/200129",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Essential oil",
+              "Basal Cell Carcinoma",
+              "Cancer Stem Cells",
+              "Thymus Serpyllum L.",
+              "Mentha \u00d7 Piperita L."
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/life15081296"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12387631"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12387631?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 3,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-09-14",
+          "dateOfCreation": "2025-08-28",
+          "dateOfRevision": "2025-09-14",
+          "electronicPublicationDate": "2025-08-14",
+          "firstPublicationDate": "2025-08-14",
+          "firstIndexDate": "2025-09-04",
+          "fullTextReceivedDate": "2025-08-29",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40835720",
+          "source": "MED",
+          "pmid": "40835720",
+          "pmcid": "PMC12368181",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12368181"
+            ]
+          },
+          "doi": "10.1038/s41598-025-16667-1",
+          "title": "Phytohormonal elicitation triggers oxidative stress and enhances menthol biosynthesis through modulation of key pathway genes in Mentha piperita L.",
+          "authorString": "Khaldari I, Afshoon E, Nik SH.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Khaldari I",
+                "lastName": "Khaldari",
+                "firstName": "Iman",
+                "initials": "I",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9651-3534"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Biotechnology, Department of Agronomy and Plant Breeding, Agricultural and Natural Resources College, University of Tehran, Karaj, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Afshoon E",
+                "lastName": "Afshoon",
+                "firstName": "Esmaeil",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Crop and Horticultural Science Research Department, South Khorassan Agricultural and Natural Resources Research and Education Center, AREEO, Birjand, Iran. e.afshoon@areeo.ac.ir."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nik SH",
+                "lastName": "Nik",
+                "firstName": "Sajad Hoseini",
+                "initials": "SH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Plant Production and Genetics, Faculty of Agriculture, Agricultural Sciences and Natural Resources University of Khuzestan, Mollasani, Iran."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9651-3534"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "15",
+            "journalIssueId": 3985739,
+            "dateOfPublication": "2025 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Sci Rep",
+              "title": "Scientific reports",
+              "essn": "2045-2322",
+              "issn": "2045-2322",
+              "isoabbreviation": "Sci Rep",
+              "nlmid": "101563288"
+            },
+            "printPublicationDate": "2025-08-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "30495",
+          "abstractText": "Mentha piperita L. (peppermint) is a valued medicinal and industrial plant known for its essential oils and bioactive compounds, particularly menthol. This study investigates the effects of four phytohormonal elicitors, methyl jasmonate (MJ), abscisic acid (ABA), salicylic acid (SA), and gibberellic acid (GA) on oxidative stress, gene expression, and the biosynthesis of menthol and related monoterpenes in peppermint. Treatments at two concentrations, 0.2 mM and 0.4 mM, were evaluated using quantitative real-time PCR (qRT-PCR) for gene expression and gas chromatography-mass spectrometry (GC-MS) for metabolite profiling. The results showed that MJ and SA at 0.4 mM significantly enhanced menthol and menthone levels while reducing menthofuran accumulation. ABA reduced menthol content at the same concentration, whereas GA had a limited impact on metabolite levels. Expression of key genes associated with the menthol biosynthetic pathway, including the biosynthetic genes PR, MDH, and MFS, as well as the regulatory transcription factors MhMYB1 and MhMYB2, was significantly affected by the treatments. MJ and SA particularly upregulated MhMYB1, MhMYB2, PR, and MDH. All phytohormones induced oxidative stress and elevated antioxidant enzyme activities, with MJ and ABA showing the strongest effects. The findings highlight the diverse regulatory roles of phytohormones in menthol biosynthesis. These results suggest that MJ and SA can be used to optimize menthol production in peppermint.",
+          "affiliation": "Division of Biotechnology, Department of Agronomy and Plant Breeding, Agricultural and Natural Resources College, University of Tehran, Karaj, Iran.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "South Khorasan Agricultural and Natural Resources Research and Education Center, AREEO, Birjand, Iran.",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Menthol",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Acetates",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Salicylic Acid",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Abscisic Acid",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cyclopentanes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Gibberellins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Growth Regulators",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Gene Expression Regulation, Plant",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Oxidative Stress",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Biosynthetic Pathways",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Oxylipins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Menthol",
+              "Phytohormone",
+              "Elicitor",
+              "Oxidative stress",
+              "Peppermint"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Gibberellins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Growth Regulators",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Acetates",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Cyclopentanes",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Menthol",
+                "registryNumber": "1490-04-6"
+              },
+              {
+                "name": "Oxylipins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "gibberellic acid",
+                "registryNumber": "BU0A7MWB6L"
+              },
+              {
+                "name": "Salicylic Acid",
+                "registryNumber": "O414PZ4LPZ"
+              },
+              {
+                "name": "Abscisic Acid",
+                "registryNumber": "72S9A8J5GW"
+              },
+              {
+                "name": "methyl jasmonate",
+                "registryNumber": "900N171A0F"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41598-025-16667-1"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12368181"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12368181?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-08-20",
+          "dateOfCreation": "2025-08-20",
+          "dateOfRevision": "2025-08-23",
+          "electronicPublicationDate": "2025-08-20",
+          "firstPublicationDate": "2025-08-20",
+          "firstIndexDate": "2025-08-22",
+          "fullTextReceivedDate": "2025-12-02",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41752565",
+          "source": "MED",
+          "pmid": "41752565",
+          "pmcid": "PMC12940607",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12940607"
+            ]
+          },
+          "doi": "10.3390/insects17020162",
+          "title": "Fumigant Toxicity of Essential Oils of the Lamiaceae Family Against &lt;i&gt;Spodoptera frugiperda&lt;/i&gt; Larvae.",
+          "authorString": "Ayala-Guerrero LM, Mondrag\u00f3n-Rojas FJ, Cabrera-Hidalgo AJ, Bivian-Hern\u00e1ndez ML\u00c1, G\u00f3mez-Pati\u00f1o MB, Andrade-Hoyos P, Mendieta-Moctezuma A, Ibarra-Torres P.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Ayala-Guerrero LM",
+                "lastName": "Ayala-Guerrero",
+                "firstName": "Luis Mario",
+                "initials": "LM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0008-2069-8131"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n en Biotecnolog\u00eda Aplicada, Instituto Polit\u00e9cnico Nacional, Carretera Estatal Santa In\u00e9s Tecuexcomac-Tepetitla, Km 1.5, Tepetitla de Lardiz\u00e1bal 90700, Tlaxcala, Mexico."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mondrag\u00f3n-Rojas FJ",
+                "lastName": "Mondrag\u00f3n-Rojas",
+                "firstName": "Francisco Javier",
+                "initials": "FJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Ingenier\u00eda en Biotecnolog\u00eda, Universidad Polit\u00e9cnica de Guanajuato, Avenida Universidad Sur 1001, Localidad Juan Alonso, Cortazar 38496, Guanajuato, Mexico."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cabrera-Hidalgo AJ",
+                "lastName": "Cabrera-Hidalgo",
+                "firstName": "Anselmo De Jes\u00fas",
+                "initials": "AJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Divisi\u00f3n en Ingenier\u00eda en Innovaci\u00f3n Agr\u00edcola Sustentable, TecNM-Tlatlauquitepec, Carretera Federal Amozoc-Nautla Km 122+600, Almoloni, Tlatlauquitepec 73907, Puebla, Mexico."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bivian-Hern\u00e1ndez ML\u00c1",
+                "lastName": "Bivian-Hern\u00e1ndez",
+                "firstName": "Mar\u00eda de Los \u00c1ngeles",
+                "initials": "ML\u00c1",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7878-1909"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "SECIHTI-Divisi\u00f3n de Ciencias de la Vida, Universidad de Guanajuato Campus Irapuato-Salamanca, Carretera Irapuato-Silao, Irapuato 36500, Guanajuato, Mexico."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "G\u00f3mez-Pati\u00f1o MB",
+                "lastName": "G\u00f3mez-Pati\u00f1o",
+                "firstName": "Mayra Beatriz",
+                "initials": "MB",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8712-5994"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Instituto Polit\u00e9cnico Nacional-CNMN, Unidad Profesional Adolfo L\u00f3pez Mateos, Col. Zacatenco, M\u00e9xico City 07738, Mexico."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Andrade-Hoyos P",
+                "lastName": "Andrade-Hoyos",
+                "firstName": "Petra",
+                "initials": "P",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Instituto Nacional de Investigaciones Forestales Agr\u00edcolas y Pecuarias (INIFAP), Campo Experimental Zacatepec, Carretera Zacatepec-Galeana s/n, Km 0.5, Colonia IMMS, Zacatepec 62780, Morelos, Mexico."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mendieta-Moctezuma A",
+                "lastName": "Mendieta-Moctezuma",
+                "firstName": "Aar\u00f3n",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3813-5555"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n en Biotecnolog\u00eda Aplicada, Instituto Polit\u00e9cnico Nacional, Carretera Estatal Santa In\u00e9s Tecuexcomac-Tepetitla, Km 1.5, Tepetitla de Lardiz\u00e1bal 90700, Tlaxcala, Mexico."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ibarra-Torres P",
+                "lastName": "Ibarra-Torres",
+                "firstName": "Patricia",
+                "initials": "P",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9598-3318"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Ingenier\u00eda en Biotecnolog\u00eda, Universidad Polit\u00e9cnica de Guanajuato, Avenida Universidad Sur 1001, Localidad Juan Alonso, Cortazar 38496, Guanajuato, Mexico."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7878-1909"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9598-3318"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3813-5555"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8712-5994"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0008-2069-8131"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "2",
+            "volume": "17",
+            "journalIssueId": 4132796,
+            "dateOfPublication": "2026 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Insects",
+              "title": "Insects",
+              "essn": "2075-4450",
+              "issn": "2075-4450",
+              "isoabbreviation": "Insects",
+              "nlmid": "101574235"
+            },
+            "printPublicationDate": "2026-02-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "162",
+          "abstractText": "<i>Spodoptera frugiperda</i> is a major pest affecting maize production worldwide, and its control relies heavily on synthetic insecticides, which generate environmental risks and resistance. Essential oils (EOs) represent a promising alternative due to their biodegradability and the biological activity of their terpenoid constituents. This study evaluated the chemical composition, larvicidal activity, and acetylcholinesterase (AChE) inhibitory potential of the EOs from <i>Origanum vulgare</i>, <i>Lavandula dentata</i>, and <i>Mentha piperita</i> against <i>S. frugiperda</i> larvae at the L1, L2, and L4 instars. Chemical characterization by GC-MS revealed distinct chemotypes: a phenolic/terpenoid profile in <i>O. vulgare</i>, a 1,8-cineole-type profile in <i>L. dentata</i>, and a menthol-rich composition in <i>M. piperita</i>. Larvicidal assays showed dose- and stage-dependent responses, and <i>M. piperita</i> EO tended to produce the most robust mortality across instars and times, consistently producing high mortality (75%) at 90 \u00b5g\u00b7mL<sup>-1</sup> air concentration. AChE inhibition assays revealed that carvacrol and menthone were the most active constituents with IC<sub>50</sub> values of 312-330 \u00b5g\u00b7mL<sup>-1</sup>. Molecular docking supported these results, as carvacrol and menthone showed the most favorable interactions with amino acid residues of the AChE catalytic site. These data support their suitability as candidates for integrated pest management programs targeting <i>S. frugiperda</i>. Future research should focus on formulation strategies, synergistic combinations, detoxification mechanisms, and field validation.",
+          "affiliation": "Centro de Investigaci\u00f3n en Biotecnolog\u00eda Aplicada, Instituto Polit\u00e9cnico Nacional, Carretera Estatal Santa In\u00e9s Tecuexcomac-Tepetitla, Km 1.5, Tepetitla de Lardiz\u00e1bal 90700, Tlaxcala, Mexico.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Instituto Polit\u00e9cnico Nacional",
+                "grantId": "SIP-20250351",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Essential oils",
+              "Acetylcholinesterase Inhibition",
+              "Mentha Piperita",
+              "Lavandula Dentata",
+              "Origanum Vulgare",
+              "Spodoptera Frugiperda"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/insects17020162"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12940607"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12940607?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "N",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-02-27",
+          "dateOfCreation": "2026-02-27",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-02-02",
+          "firstPublicationDate": "2026-02-02",
+          "firstIndexDate": "2026-02-27",
+          "fullTextReceivedDate": "2026-02-27",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "38276273",
+          "source": "MED",
+          "pmid": "38276273",
+          "pmcid": "PMC10817515",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10817515"
+            ]
+          },
+          "doi": "10.3390/life14010144",
+          "title": "Formulation of <i>Mentha piperita</i>-Based Nanobiopesticides and Assessment of the Pesticidal and Antimicrobial Potential.",
+          "authorString": "Jahan N, Hussain N, Touqeer SI, Khalil-Ur-Rahman, Shamshad H, Abbas N.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Jahan N",
+                "lastName": "Jahan",
+                "firstName": "Nazish",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, University of Agriculture, Faisalabad 38000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hussain N",
+                "lastName": "Hussain",
+                "firstName": "Nida",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, University of Agriculture, Faisalabad 38000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Touqeer SI",
+                "lastName": "Touqeer",
+                "firstName": "Syeeda Iram",
+                "initials": "SI",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, University of Agriculture, Faisalabad 38000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Khalil-Ur-Rahman",
+                "lastName": "Khalil-Ur-Rahman",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biochemistry, Riphah International University, Faisalabad 38000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shamshad H",
+                "lastName": "Shamshad",
+                "firstName": "Huma",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, University of Agriculture, Faisalabad 38000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abbas N",
+                "lastName": "Abbas",
+                "firstName": "Naseem",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1340-1615"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Mechanical Engineering, Sejong University, Seoul 05006, Republic of Korea."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1340-1615"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "14",
+            "journalIssueId": 3701096,
+            "dateOfPublication": "2024 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Life (Basel)",
+              "title": "Life (Basel, Switzerland)",
+              "essn": "2075-1729",
+              "issn": "2075-1729",
+              "isoabbreviation": "Life (Basel)",
+              "nlmid": "101580444"
+            },
+            "printPublicationDate": "2024-01-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "144",
+          "abstractText": "The excessive use of synthetic pesticides has detrimental impacts on humans, non-target organisms, and the environment. Insect pest management strategies are shifting toward biopesticides, which can provide a feasible and environmentally friendly green solution to the pest problem. The key objective of the present research work was the preparation of <i>Mentha piperita</i>-based nanobiopesticides with enhanced stability, solubility, and pesticidal potential. Nanobiopesticides based on the <i>Mentha piperita</i> extract were prepared using the antisolvent precipitation method. The central composite design of response surface methodology (RSM) was utilized to optimize different process parameters, e.g., the amounts of the stabilizer and plant extract. The nanosuspension of <i>Mentha piperita</i> prepared with the stabilizer SLS showed a particle size of 259 nm and a polydispersity index of 0.61. The formulated biopesticides in the form of nanosuspensions showed good antibacterial activities as compared to the <i>Mentha piperita</i> extract against two phytopathogenic bacterial strains, <i>Clavibacter michiganensis</i> and <i>Pseudomonas syringae</i>. The <i>M. piperita</i> nanosuspension had higher antifungal efficacy against <i>A. niger and F. oxysporum</i> than the <i>Mentha piperita</i> extract. The <i>M. piperita</i> extract and its nanosuspensions were tested for pesticidal activity against the stored-grain insects <i>Tribolium castaneum</i> and <i>Sitophilus oryzae. Mentha piperita</i>-based nanobiopesticides demonstrated significantly high (<i>p</i>\u2009 < \u20090.05) average mortality of 84.4% and 77.7% against <i>Tribolium castaneum</i> and <i>Sitophilus oryzae</i>, respectively. <i>Mentha piperita</i>-based nanobiopesticides showed enhanced pesticidal potential and could be used as a good alternative to synthetic chemical pesticides.",
+          "affiliation": "Department of Chemistry, University of Agriculture, Faisalabad 38000, Pakistan.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Higher Education Commission",
+                "grantId": "RD/028-18",
+                "orderIn": 0
+              },
+              {
+                "agency": "the Endowment Fund Secretariat, University of Agriculture Faisalabad, Pakistan",
+                "grantId": "RD/028-18",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Sitophilus oryzae",
+              "Tribolium castaneum",
+              "Mentha Piperita",
+              "Nanobiopesticides"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/life14010144"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10817515"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10817515?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 3,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2024-01-26",
+          "dateOfRevision": "2024-10-23",
+          "electronicPublicationDate": "2024-01-19",
+          "firstPublicationDate": "2024-01-19",
+          "firstIndexDate": "2024-01-27",
+          "fullTextReceivedDate": "2024-01-29",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

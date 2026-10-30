@@ -1,0 +1,236 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:16395741 AND SRC:MED",
+    "internalQuery": "EXT_ID:16395741 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "16395741",
+        "source": "MED",
+        "pmid": "16395741",
+        "doi": "10.1002/ptr.1729",
+        "title": "The evidence for clinical efficacy of rose hip and seed: a systematic review.",
+        "authorString": "Chrubasik C, Duke RK, Chrubasik S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chrubasik C",
+              "lastName": "Chrubasik",
+              "firstName": "C",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Forensic Medicine, University of Freiburg i.Br., Albertstr. 9, 79104 Freiburg i.Br., Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duke RK",
+              "lastName": "Duke",
+              "firstName": "R K",
+              "initials": "RK"
+            },
+            {
+              "fullName": "Chrubasik S",
+              "lastName": "Chrubasik",
+              "firstName": "S",
+              "initials": "S"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "20",
+          "journalIssueId": 1282783,
+          "dateOfPublication": "2006 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2006,
+          "journal": {
+            "medlineAbbreviation": "Phytother Res",
+            "title": "Phytotherapy research : PTR",
+            "essn": "1099-1573",
+            "issn": "0951-418X",
+            "nlmid": "8904486",
+            "isoabbreviation": "Phytother Res"
+          },
+          "printPublicationDate": "2006-01-01"
+        },
+        "pubYear": "2006",
+        "pageInfo": "1-3",
+        "abstractText": "<h4>Background</h4>The objective of this review is to evaluate whether clinical research has gained any evidence of effectiveness of Rosa canina preparations.<h4>Methods</h4>Several databases and other sources were searched to identify randomized controlled trials of Rosa canina preparations.<h4>Results</h4>Trials were described in a narrative way, taking into consideration methodological quality scores. Four trials were included in this review and two were identified as subgroup analyses.<h4>Conclusions</h4>Moderate evidence exists for the use of a powder of the seeds and husks of a Rosa canina subspecies in patients suffering from osteoarthritis.",
+        "affiliation": "Institute of Forensic Medicine, University of Freiburg i.Br., Albertstr. 9, 79104 Freiburg i.Br., Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Seeds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arthralgia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osteoarthritis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Preparations",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytotherapy"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Preparations",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ptr.1729"
+            }
+          ]
+        },
+        "extCommentList": {
+          "extComment": [
+            {
+              "extCommentSource": "CRD",
+              "info1": "12006000796",
+              "info2": "DARE"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 44,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-09-20",
+        "dateOfCreation": "2006-01-06",
+        "dateOfRevision": "2025-06-23",
+        "firstPublicationDate": "2006-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:18407528 AND SRC:MED",
+    "internalQuery": "EXT_ID:18407528 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "18407528",
+        "source": "MED",
+        "pmid": "18407528",
+        "doi": "10.1016/j.joca.2008.03.001",
+        "title": "Does the hip powder of Rosa canina (rosehip) reduce pain in osteoarthritis patients?--a meta-analysis of randomized controlled trials.",
+        "authorString": "Christensen R, Bartels EM, Altman RD, Astrup A, Bliddal H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Christensen R",
+              "lastName": "Christensen",
+              "firstName": "R",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6600-0631"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Parker Institute, Musculoskeletal Statistics Unit, Frederiksberg Hospital, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bartels EM",
+              "lastName": "Bartels",
+              "firstName": "E M",
+              "initials": "EM"
+            },
+            {
+              "fullName": "Altman RD",
+              "lastName": "Altman",
+              "firstName": "R D",
+              "initials": "RD"
+            },
+            {
+              "fullName": "Astrup A",
+              "lastName": "Astrup",
+              "firstName": "A",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8968-8996"
+              }
+            },
+            {
+              "fullName": "Bliddal H",
+              "lastName": "Bliddal",
+              "firstName": "H",
+              "initials": "H"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8968-8996"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6600-0631"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia",
+            "outdated_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "16",
+          "journalIssueId": 1549640,
+          "dateOfPublication": "2008 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2008,
+          "journal": {
+            "medlineAbbreviation": "Osteoarthritis Cartilage",
+            "title": "Osteoarthritis and cartilage",
+            "essn": "1522-9653",
+            "issn": "1063-4584",
+            "isoabbreviation": "Osteoarthritis Cartilage",
+            "nlmid": "9305697"
+          },
+          "printPublicationDate": "2008-09-01"
+        },
+        "pubYear": "2008",
+        "pageInfo": "965-972",
+        "abstractText": "<h4>Objective</h4>Meta-analysis of randomized controlled trials (RCTs)--of a hip powder of Rosa canina (rosehip) preparation for symptomatic treatment of osteoarthritis (OA), in order to estimate the empirical efficacy as a pain reducing compound.<h4>Method</h4>RCTs from systematic searches were included if they explicitly stated that OA patients were randomized to either rosehip or placebo. The primary outcome was reduction in pain calculated as effect size (ES), defined as the standardized mean difference (SMD). As secondary analysis the number of responders to therapy was analyzed as Odds Ratios (OR), and expressed as the Number Needed to Treat (NNT). Restricted Maximum Likelihood (REML) methods were applied for the meta-analyses using mixed effects models.<h4>Results</h4>The three studies (287 patients and a median trial-duration of 3 months)--all supported by the manufacturer (Hyben-Vital International)--showed a reduction in pain scores by rosehip powder (145 patients) compared to placebo (142 patients): ES of 0.37 [95% confidence interval (CI): 0.13-0.60], P=0.002. Test for homogeneity seemed to support that the efficacy was consistent across trials (I(2)=0%). Thus it seems reasonable to assume that the three studies were measuring the same overall effect. It seemed twice as likely that a patient allocated to rosehip powder would respond to therapy, compared to placebo (OR=2.19; P=0.0009); corresponding to a NNT of six (95% CI: 4-13) patients.<h4>Conclusions</h4>Although based on a sparse amount of data, the results of the present meta-analysis indicate that rosehip powder does reduce pain; accordingly it may be of interest as a nutraceutical, although its efficacy and safety need evaluation and independent replication in a future large-scale/long-term trial.",
+        "affiliation": "The Parker Institute, Musculoskeletal Statistics Unit, Frederiksberg Hospital, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Rosa"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osteoarthritis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Preparations",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Powders"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytotherapy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Powders",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Preparations",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.joca.2008.03.001"
+            }
+          ]
+        },
+        "extCommentList": {
+          "extComment": [
+            {
+              "extCommentSource": "CRD",
+              "info1": "12009100278",
+              "info2": "DARE"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 46,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2008-12-04",
+        "dateOfCreation": "2008-04-15",
+        "dateOfRevision": "2024-01-09",
+        "electronicPublicationDate": "2008-04-14",
+        "firstPublicationDate": "2008-04-14",
+        "firstIndexDate": "2008-12-24",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

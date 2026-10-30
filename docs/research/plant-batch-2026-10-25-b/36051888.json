@@ -1,0 +1,251 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:36051888 AND SRC:MED",
+    "internalQuery": "EXT_ID:36051888 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "36051888",
+        "source": "MED",
+        "pmid": "36051888",
+        "pmcid": "PMC9425964",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9425964"
+          ]
+        },
+        "doi": "10.4081/mrm.2022.868",
+        "title": "Effects of Pelargonium sidoides extract EPs 7630 on acute cough and quality of life - a meta-analysis of randomized, placebo-controlled trials.",
+        "authorString": "Kardos P, Lehmacher W, Zimmermann A, Brandes-Schramm J, Funk P, Matthys H, Kamin W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kardos P",
+              "lastName": "Kardos",
+              "firstName": "Peter",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Group Practice and Centre Allergy, Respiratory and Sleep Medicine at Red Cross Maingau Hospital, Frankfurt am Main, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lehmacher W",
+              "lastName": "Lehmacher",
+              "firstName": "Walter",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1672-9309"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Emeritus, University of Cologne, Institute of Medical Statistics, Informatics and Epidemiology, Cologne, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zimmermann A",
+              "lastName": "Zimmermann",
+              "firstName": "Andrea",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research & Development Department, Dr. Willmar Schwabe GmbH & Co. KG, Karlsruhe, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Brandes-Schramm J",
+              "lastName": "Brandes-Schramm",
+              "firstName": "Juliette",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research & Development Department, Dr. Willmar Schwabe GmbH & Co. KG, Karlsruhe, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Funk P",
+              "lastName": "Funk",
+              "firstName": "Petra",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9670-4488"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research & Development Department, Dr. Willmar Schwabe GmbH & Co. KG, Karlsruhe, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Matthys H",
+              "lastName": "Matthys",
+              "firstName": "Heinrich",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical Director Emeritus, Department of Pneumology, University Hospital Freiburg, Freiburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kamin W",
+              "lastName": "Kamin",
+              "firstName": "Wolfgang",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Children's Hospital, Evangelic Hospital Hamm GmbH, Hamm, Germany."
+                  },
+                  {
+                    "affiliation": "Faculty of Medicine, Pomeranian Medical University, Szczecin, Poland."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9670-4488"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1672-9309"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "17",
+          "journalIssueId": 3366681,
+          "dateOfPublication": "2022 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Multidiscip Respir Med",
+            "title": "Multidisciplinary respiratory medicine",
+            "essn": "2049-6958",
+            "issn": "1828-695X",
+            "nlmid": "101477642",
+            "isoabbreviation": "Multidiscip Respir Med"
+          },
+          "printPublicationDate": "2022-01-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "868",
+        "abstractText": "<h4>Background</h4>Cough is a leading symptom of viral acute respiratory infections such as acute bronchitis (AB) and the common cold (CC), which can be debilitating and may persist for several weeks. We investigated whether treatment with <i>Pelargonium</i> extract EPs 7630 may reduce cough and improve disease-related quality of life (QoL).<h4>Methods</h4>We performed a meta-analysis of randomized, placebo-controlled trials investigating the efficacy of EPs 7630 in AB or CC. Efficacy analyses included change from baseline in a cough intensity score, remission of cough, and disease-associated impairments of QoL.<h4>Results</h4>Data of 2,195 participants from 11 trials (3 in children/adolescents with AB, 3 in adults with AB, 5 in adults with CC) were eligible. In children/adolescents with AB, 79.6% of participants treated with EPs 7630 and 41% treated with placebo showed a reduction in the intensity of cough by at least 50% of baseline values at day 7 [meta-analysis rate/risk ratio (RR), EPs 7630 / placebo: 1.86 (95% CI: 1.34; 2.95)], and 18.0% <i>vs</i> 5.5% presented with complete remission of cough [RR: 2.91 (95% CI: 1.26; 6.72)]. In adults with AB, 88.7% of participants in the EPs 7630 group and 47.6% in the placebo group showed a \u226550% response for cough intensity [RR: 2.13 (95% CI: 1.37; 3.31)], while 26.0% <i>vs</i> 6.3% did not cough any more at day 7 [RR: 5.00 [95% CI: 3.10; 8.07)]. Cough scale results were supported by significant improvements over placebo in the pursuit of normal daily activities and other QoL measures. In CC, 56.8% of participants treated with EPs 7630 and 38.8% treated with placebo showed a \u226550% cough intensity reduction [RR: 1.40 (95% CI: 1.19; 1.65)] at day 5, while 26.1% <i>versus</i> 18.4% showed complete remission of cough for EPs 7630 and placebo, respectively [RR: 1.40 (95% CI: 1.06; 1.84)]. CCassociated pain/discomfort and impairment of usual activities were no longer present in 41.5% and 48.8% of participants treated with EPs 7630 compared to less than 40% of patients in the placebo group.<h4>Conclusions</h4>The results show that EPs 7630 reduces the burden and leads to earlier remission of cough. Advantages for EPs 7630 were also reflected in self-rated measures of disease-associated QoL. Of note, patients treated with the herbal product felt able to resume their usual daily activities sooner.",
+        "affiliation": "Group Practice and Centre Allergy, Respiratory and Sleep Medicine at Red Cross Maingau Hospital, Frankfurt am Main, Germany.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Meta-analysis",
+            "Quality of life",
+            "Common cold",
+            "Acute bronchitis",
+            "Acute respiratory tract infection",
+            "Pelargonium",
+            "Acute Cough",
+            "Eps 7630"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://mrmjournal.org/mrm/article/download/868/1365"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.4081/mrm.2022.868"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9425964"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9425964?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2022-09-02",
+        "dateOfRevision": "2022-09-07",
+        "electronicPublicationDate": "2022-08-03",
+        "firstPublicationDate": "2022-01-01",
+        "firstIndexDate": "2022-09-03",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

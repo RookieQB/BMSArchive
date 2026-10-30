@@ -1,0 +1,284 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:34119421 AND SRC:MED",
+    "internalQuery": "EXT_ID:34119421 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "34119421",
+        "source": "MED",
+        "pmid": "34119421",
+        "doi": "10.1016/j.explore.2021.05.003",
+        "title": "Effects of flaxseed on blood pressure, body mass index, and total cholesterol in hypertensive patients: A randomized clinical trial.",
+        "authorString": "Toulabi T, Yarahmadi M, Goudarzi F, Ebrahimzadeh F, Momenizadeh A, Yarahmadi S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Toulabi T",
+              "lastName": "Toulabi",
+              "firstName": "Tahereh",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Razi Herbal Medicines Research Center, Lorestan University of Medical Sciences, Khorramabad, Iran. Electronic address: tolabi.t@lums.ac.ir."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yarahmadi M",
+              "lastName": "Yarahmadi",
+              "firstName": "Masomeh",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Student Research Committee, Lorestan University of Medical Sciences, Khorramabad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Goudarzi F",
+              "lastName": "Goudarzi",
+              "firstName": "Fateme",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Social Determinants of Health Research Center, Lorestan University of Medical Sciences, Khorramabad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ebrahimzadeh F",
+              "lastName": "Ebrahimzadeh",
+              "firstName": "Farzad",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3897-8242"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nutritional Health Research Center, Lorestan University of Medical Sciences, Khorramabad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Momenizadeh A",
+              "lastName": "Momenizadeh",
+              "firstName": "Amir",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiovascular Research Center, Lorestan University of Medical Sciences, Khorramabad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yarahmadi S",
+              "lastName": "Yarahmadi",
+              "firstName": "Sajad",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Nursing and Midwifery, Lorestan University of Medical Sciences, Khorramabad, Iran."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3897-8242"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "18",
+          "journalIssueId": 3386353,
+          "dateOfPublication": "2022 Jul-Aug",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Explore (NY)",
+            "title": "Explore (New York, N.Y.)",
+            "essn": "1878-7541",
+            "issn": "1550-8307",
+            "isoabbreviation": "Explore (NY)",
+            "nlmid": "101233160"
+          },
+          "printPublicationDate": "2022-07-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "438-445",
+        "abstractText": "<h4>Objectives</h4>Given the antioxidant properties of flaxseed and its biologically active ingredients, this study was conducted to determine the effects of flaxseed supplementation on body mass index (BMI), blood pressure, and total cholesterol levels in patients with hypertension.<h4>Methods</h4>In this triple-blind clinical trial, 112 patients, with an age range of 35 to 70 years, were randomized to 2 groups receiving 10\u00a0g (n\u00a0=\u00a045) and 30\u00a0g (n\u00a0=\u00a045) of flaxseed supplementation and 1 group receiving placebo (n\u00a0=\u00a045) for 12 weeks by stratified block randomization. They were evaluated in terms of systolic (SBP) and diastolic blood pressure (DBP), BMI, and total serum cholesterol. Physical activity was measured using the International Physical Activity Questionnaire-Short Form (IPAQ-SF) and food intake was assessed using the Food Frequency Questionnaire (FFQ). The data were analyzed with SPSS, version 22, using the chi-square, Kruskal-Wallis, repeated measures analysis, ANOVA, and ANCOVA tests.<h4>Results</h4>The interaction effects among the study groups and time on the mean SBP (p\u00a0=\u00a00.001), DBP (p\u00a0=\u00a00.001), total cholesterol level (p\u00a0=\u00a00.032), and BMI (p < 0.001) were significant. During the study, the 30-g group achieved the best results, so that a 13.38-unit decrease in SBP was observed compared to a 1.72 unit increase in the placebo group and a 5.6-unit decrease in DBP was measured compared to a 2.39 unit increase in the placebo group. BMI decreased by 0.86 units compared to 0.06 units in the placebo group. Total cholesterol also decreased by 20.4 units compared to 11.86 units in the placebo group.<h4>Conclusion</h4>The results of this study showed that flaxseed can be effective in reducing blood pressure, total cholesterol, and body mass index in hypertensive patients in a twelve-week period.",
+        "affiliation": "Razi Herbal Medicines Research Center, Lorestan University of Medical Sciences, Khorramabad, Iran. Electronic address: tolabi.t@lums.ac.ir.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Lorestan University of Medical Sciences",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Flax"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hypertension",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Mass Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Pressure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infant"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cholesterol",
+            "Hypertension",
+            "Blood pressure",
+            "Flaxseed",
+            "body mass index"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cholesterol",
+              "registryNumber": "97C5T2UQ7J"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.explore.2021.05.003"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-07-07",
+        "dateOfCreation": "2021-06-13",
+        "dateOfRevision": "2022-09-28",
+        "electronicPublicationDate": "2021-05-24",
+        "firstPublicationDate": "2021-05-24",
+        "firstIndexDate": "2021-06-15",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

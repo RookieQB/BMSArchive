@@ -1,0 +1,181 @@
+[
+  {
+    "citation": "Vermeijden NK, van der Feen C, Groeneweg M, Hummel T, Zagers D, Bertrams-Maartens I, van Wering H, Hurkmans P, Stapelbroek J, Sauvé I, Wessels M, Teklenburg-Roord S, Pruijsen-Nienhuis JM, Theuns-Valks SDM, Plomp TC, Bunkers C, Keszthelyi D, Benninga MA, Vlieger AM. Peppermint Oil and Sweets in Pediatric Irritable Bowel Syndrome and Functional Abdominal Pain: A Randomized Trial. 2026",
+    "pmid": "41610933",
+    "doi": "10.1016/j.cgh.2026.01.014",
+    "study_type": "RCT",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Mentha × piperita",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Peppermint"
+      ],
+      "family": "Unknown / not reported",
+      "part_used": "Unknown / not reported"
+    },
+    "preparation": {
+      "type": "Peppermint oil capsules or peppermint sweets; full extract specification not reviewed",
+      "extract_ratio": "Unknown / not reported",
+      "solvent": "Unknown / not reported",
+      "standardization": "Unknown / not reported",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Unknown / not reported",
+      "frequency": "Unknown / not reported",
+      "duration": "8 weeks; 4-week follow-up",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human children",
+      "sample_size": "228 reported overall; reported age-subgroup counts sum to 227, unresolved abstract inconsistency",
+      "age_range": "8–18 years",
+      "sex": "Unknown / not reported",
+      "condition": "IBS or functional abdominal pain-not otherwise specified"
+    },
+    "comparator": "Blinded placebo; small peppermint-oil amount used to aid blinding according to abstract",
+    "blinding": "Capsules/placebo double-blind; sweets open-label",
+    "outcomes": {
+      "primary": [
+        "At least 30% reduction in abdominal pain intensity after 8 weeks"
+      ],
+      "secondary": [
+        "Adequate relief of symptoms"
+      ]
+    },
+    "results": {
+      "primary_outcome_result": "Neither oil nor sweets superior to placebo",
+      "secondary_outcome_results": "Adequate relief comparable across groups",
+      "statistical_significance": "Primary oil vs placebo P=.44; sweets vs placebo P=.91",
+      "effect_size": "Unknown / not reported"
+    },
+    "adverse_events": "Abstract calls events mild and infrequent; detailed ascertainment and counts not reviewed",
+    "withdrawals": "Unknown / not reported",
+    "limitations": [
+      "Sweets arm open-label",
+      "Full text not reviewed",
+      "Age-stratum counts inconsistent in abstract"
+    ],
+    "funding_source": "Unknown / not reported",
+    "conflict_of_interest": "Unknown / not reported",
+    "author_conclusion": "No superiority to placebo for the tested pediatric interventions",
+    "bms_archive_interpretation": "Negative symptom-efficacy trial; PK findings or tradition cannot substitute for efficacy",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Unknown / not reported",
+    "requires_full_text": true,
+    "full_text_reason": "Indexed abstract only. Full text required for detailed preparation, risk of bias, dosage or safety assessment. No dosing guidance extracted.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "parent extraction supplement; scientific QA pending"
+  },
+  {
+    "citation": "Huang YN, Chen KC, Wang JH, Lin YK. Effects of Aloe vera on Burn Injuries: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. 2024",
+    "pmid": "38605441",
+    "doi": "10.1093/jbcr/irae061",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Aloe vera",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Aloe vera"
+      ],
+      "family": "Unknown / not reported",
+      "part_used": "Unknown / not reported"
+    },
+    "preparation": {
+      "type": "Topical Aloe vera interventions; product-specific composition unavailable in abstract",
+      "extract_ratio": "Unknown / not reported",
+      "solvent": "Unknown / not reported",
+      "standardization": "Unknown / not reported",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Unknown / not reported",
+      "frequency": "Unknown / not reported",
+      "duration": "Unknown / not reported",
+      "route": "Topical"
+    },
+    "population_or_model": {
+      "type": "Humans; synthesis of randomized trials",
+      "sample_size": "9 RCTs; 6 supplied primary-outcome data; total patient n not reported in abstract",
+      "age_range": "Unknown / not reported",
+      "sex": "Unknown / not reported",
+      "condition": "Burn injuries; conclusion specific to second-degree burns"
+    },
+    "comparator": "Other topical preparations/antimicrobial agents; exact formulations require full text",
+    "blinding": "Unknown / not reported",
+    "outcomes": {
+      "primary": [
+        "Wound-healing time"
+      ],
+      "secondary": [
+        "Pain severity",
+        "Wound infection"
+      ]
+    },
+    "results": {
+      "primary_outcome_result": "Pooled mean wound-healing time shorter with aloe",
+      "secondary_outcome_results": "No statistically significant differences in pain or infection",
+      "statistical_significance": "Unknown / not reported",
+      "effect_size": "Healing mean difference -3.76 days (95% CI -5.69 to -1.84); product and study limitations not fully appraised"
+    },
+    "adverse_events": "Unknown / not reported",
+    "withdrawals": "Unknown / not reported",
+    "limitations": [
+      "Abstract does not state outcome-specific GRADE results",
+      "Detailed safety/preparations and risk of bias require full text",
+      "Only six of nine trials supplied healing endpoint"
+    ],
+    "funding_source": "Unknown / not reported",
+    "conflict_of_interest": "Unknown / not reported",
+    "author_conclusion": "Authors report faster second-degree burn healing; analgesic effects uncertain",
+    "bms_archive_interpretation": "Preparation-specific healing signal, not proof of benefit across wound types or infection prevention; provisional B, no automatic A upgrade from review label",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": false,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Unknown / not reported",
+    "requires_full_text": true,
+    "full_text_reason": "Indexed abstract only. Full text required for detailed preparation, risk of bias, dosage or safety assessment. No dosing guidance extracted.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "parent extraction supplement; scientific QA pending"
+  }
+]

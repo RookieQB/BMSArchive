@@ -1,0 +1,313 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:19713235 AND SRC:MED",
+    "internalQuery": "EXT_ID:19713235 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "19713235",
+        "source": "MED",
+        "pmid": "19713235",
+        "pmcid": "PMC3272664",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3272664"
+          ]
+        },
+        "doi": "10.1136/bmj.b3154",
+        "title": "Soluble or insoluble fibre in irritable bowel syndrome in primary care? Randomised placebo controlled trial.",
+        "authorString": "Bijkerk CJ, de Wit NJ, Muris JW, Whorwell PJ, Knottnerus JA, Hoes AW.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bijkerk CJ",
+              "lastName": "Bijkerk",
+              "firstName": "C J",
+              "initials": "CJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Julius Center for Health Sciences and Primary Care, University Medical Center Utrecht, PO Box 85500, 3508 GA Utrecht, Netherlands. c.j.bijkerk-2@umcutrecht.nl"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "de Wit NJ",
+              "lastName": "de Wit",
+              "firstName": "N J",
+              "initials": "NJ"
+            },
+            {
+              "fullName": "Muris JW",
+              "lastName": "Muris",
+              "firstName": "J W M",
+              "initials": "JW",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8780-476X"
+              }
+            },
+            {
+              "fullName": "Whorwell PJ",
+              "lastName": "Whorwell",
+              "firstName": "P J",
+              "initials": "PJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5220-8474"
+              }
+            },
+            {
+              "fullName": "Knottnerus JA",
+              "lastName": "Knottnerus",
+              "firstName": "J A",
+              "initials": "JA"
+            },
+            {
+              "fullName": "Hoes AW",
+              "lastName": "Hoes",
+              "firstName": "A W",
+              "initials": "AW"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5220-8474"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8780-476X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "recommended_reviews",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "volume": "339",
+          "journalIssueId": 2467537,
+          "dateOfPublication": "2009 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "BMJ",
+            "title": "BMJ (Clinical research ed.)",
+            "essn": "1756-1833",
+            "issn": "0959-8138",
+            "nlmid": "8900488",
+            "isoabbreviation": "BMJ"
+          },
+          "printPublicationDate": "2009-08-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "b3154",
+        "abstractText": "<h4>Objective</h4>To determine the effectiveness of increasing the dietary content of soluble fibre (psyllium) or insoluble fibre (bran) in patients with irritable bowel syndrome.<h4>Design</h4>Randomised controlled trial.<h4>Setting</h4>General practice.<h4>Participants</h4>275 patients aged 18-65 years with irritable bowel syndrome.<h4>Interventions</h4>12 weeks of treatment with 10 g psyllium (n=85), 10 g bran (n=97), or 10 g placebo (rice flour) (n=93).<h4>Main outcome measures</h4>The primary end point was adequate symptom relief during at least two weeks in the previous month, analysed after one, two, and three months of treatment to assess both short term and sustained effectiveness. Secondary end points included irritable bowel syndrome symptom severity score, severity of abdominal pain, and irritable bowel syndrome quality of life scale.<h4>Results</h4>The proportion of responders was significantly greater in the psyllium group than in the placebo group during the first month (57% v 35%; relative risk 1.60, 95% confidence interval 1.13 to 2.26) and the second month of treatment (59% v 41%; 1.44, 1.02 to 2.06). Bran was more effective than placebo during the third month of treatment only (57% v 32%; 1.70, 1.12 to 2.57), but this was not statistically significant in the worst case analysis (1.45, 0.97 to 2.16). After three months of treatment, symptom severity in the psyllium group was reduced by 90 points, compared with 49 points in the placebo group (P=0.03) and 58 points in the bran group (P=0.61 versus placebo). No differences were found with respect to quality of life. Fifty four (64%) of the patients allocated to psyllium, 54 (56%) in the bran group, and 56 (60%) in the placebo group completed the three month treatment period. Early dropout was most common in the bran group; the main reason was that the symptoms of irritable bowel syndrome worsened.<h4>Conclusions</h4>Psyllium offers benefits in patients with irritable bowel syndrome in primary care.<h4>Trial registration</h4>Clinical trials NCT00189033.",
+        "affiliation": "Julius Center for Health Sciences and Primary Care, University Medical Center Utrecht, PO Box 85500, 3508 GA Utrecht, Netherlands. c.j.bijkerk-2@umcutrecht.nl",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plantago"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Irritable Bowel Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DH",
+                    "qualifierName": "diet therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Abdominal Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Family Practice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Fiber",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Dietary Fiber",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1136/bmj.b3154"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3272664"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "19808815",
+              "reference": "BMJ. 2009 Sep 29;339:b3956. doi: 10.1136/bmj.b3956.",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "20083814",
+              "reference": "Ann Intern Med. 2010 Jan 19;152(2):JC1-11. doi: 10.7326/0003-4819-152-2-201001190-02011.",
+              "type": "Comment in",
+              "orderIn": 2
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 147,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2009-09-10",
+        "dateOfCreation": "2009-08-29",
+        "dateOfRevision": "2026-01-28",
+        "electronicPublicationDate": "2009-08-27",
+        "firstPublicationDate": "2009-08-27",
+        "firstIndexDate": "2010-01-20",
+        "fullTextReceivedDate": "2020-07-11",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

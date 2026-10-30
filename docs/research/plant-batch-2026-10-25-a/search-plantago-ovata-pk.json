@@ -1,0 +1,2916 @@
+{
+  "query": "TITLE_ABS:\"Plantago ovata\" AND (pharmacokinetics)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 8,
+    "request": {
+      "queryString": "TITLE_ABS:\"Plantago ovata\" AND (pharmacokinetics)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42247419",
+          "source": "MED",
+          "pmid": "42247419",
+          "pmcid": "PMC13240915",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13240915"
+            ]
+          },
+          "doi": "10.1371/journal.pntd.0014389",
+          "title": "Plant-based therapeutics for leishmaniasis: A systematic review emphasizing human studies and clinical trial evidence.",
+          "authorString": "Anning AS, Osmani V, Klug SJ, Obiri-Yeboah D.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Anning AS",
+                "lastName": "Anning",
+                "firstName": "Alberta Serwah",
+                "initials": "AS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3027-6353"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biomedical Sciences, School of Allied Health Sciences, College of Health and Allied Sciences, University of Cape Coast, Cape Coast, Ghana."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Osmani V",
+                "lastName": "Osmani",
+                "firstName": "Vanesa",
+                "initials": "V",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Chair of Epidemiology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Klug SJ",
+                "lastName": "Klug",
+                "firstName": "Stefanie J",
+                "initials": "SJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3523-1362"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Chair of Epidemiology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Obiri-Yeboah D",
+                "lastName": "Obiri-Yeboah",
+                "firstName": "Dorcas",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, School of Medical Sciences, College of Health and Allied Sciences, University of Cape Coast, Cape Coast, Ghana."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3027-6353"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3523-1362"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "20",
+            "journalIssueId": 4204553,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "PLoS Negl Trop Dis",
+              "title": "PLoS neglected tropical diseases",
+              "essn": "1935-2735",
+              "issn": "1935-2727",
+              "isoabbreviation": "PLoS Negl Trop Dis",
+              "nlmid": "101291488"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "e0014389",
+          "abstractText": "<h4>Background</h4>Leishmaniasis is a parasitic disease caused by Leishmania species and transmitted through sand fly bites, affecting some of the most vulnerable populations globally. Current treatments are limited by high toxicity, poor tolerability, and resistance. Plant-based therapies offer a promising alternative, but human evidence has not been comprehensively reviewed. This review summarizes current evidence on the efficacy and safety of plant-based treatments for leishmaniasis in humans.<h4>Methodology/findings</h4>We conducted a systematic review including studies that evaluated the efficacy and safety of plant-based treatments for leishmaniasis in humans. This review was registered with PROSPERO (ID: CRD42024567764). We searched PubMed, Scopus, and Web of Science from inception to May 28, 2024. Risk of bias was assessed using the Cochrane RoB 2 tool. We summarized the main study results qualitatively and quantitatively (where possible) by estimating risk ratios with 95% confidence intervals for treatment outcomes using the meta package in R. Ten studies met the inclusion criteria, nine from Iran and one from Sudan, all focused on cutaneous leishmaniasis (CL). Most used topical creams derived from medicinal plants, either alone or with conventional treatments. In studies combining herbal and standard treatments, four of six studies showed better outcomes in the intervention group. In studies using only the plant-based treatments compared to a standard treatment group, two of four showed better outcomes in the intervention group. Quantitative analysis of eight studies indicated significant healing improvements in the intervention group in three studies, specifically those using Juniperus excelsa, Nigella sativa, and poly-herbal formulations consisting of the pure extract mixture of Althaea (A.) rosa, A. officinalis, and members of the families Leguminosae, Faliaceae, Malvaceae, and Lythraceae (named Z-HE). Mild side effects such as itching and burning were reported with some herbal treatments, while conventional therapies caused more severe reactions in some cases. The risk of bias was mostly high in the studies.<h4>Conclusions</h4>This review highlights the potential of certain plant-based compounds as adjunct or alternative therapies for CL. Despite promising results with Plantago ovata, Juniperus excelsa, and Z-HE poly-herbal extracts, current evidence is limited by methodological weaknesses. Larger, rigorously designed trials with broader representation are needed to confirm efficacy and safety and support policy integration in endemic regions.",
+          "affiliation": "Department of Biomedical Sciences, School of Allied Health Sciences, College of Health and Allied Sciences, University of Cape Coast, Cape Coast, Ghana.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Systematic Review",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Leishmania",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plants, Medicinal",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Leishmaniasis",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Leishmaniasis, Cutaneous",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antiprotozoal Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Phytotherapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Clinical Trials as Topic"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antiprotozoal Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1371/journal.pntd.0014389"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13240915"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13240915?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-11",
+          "dateOfCreation": "2026-06-05",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-05",
+          "firstPublicationDate": "2026-06-05",
+          "firstIndexDate": "2026-06-06",
+          "fullTextReceivedDate": "2026-06-08",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "37259410",
+          "source": "MED",
+          "pmid": "37259410",
+          "pmcid": "PMC9967651",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9967651"
+            ]
+          },
+          "doi": "10.3390/ph16020265",
+          "title": "In Vitro/In Vivo Evaluation of Clomipramine Orodispersible Tablets for the Treatment of Depression and Obsessive-Compulsive Disorder.",
+          "authorString": "Ghumman SA, Hameed H, Noreen S, Al-Hussain SA, Kausar R, Irfan A, Shabbir R, Rana M, Amanat A, Zaki MEA.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Ghumman SA",
+                "lastName": "Ghumman",
+                "firstName": "Shazia Akram",
+                "initials": "SA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9631-0243"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Pharmacy, University of Sargodha, Sargodha 40100, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hameed H",
+                "lastName": "Hameed",
+                "firstName": "Huma",
+                "initials": "H",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8636-8644"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmaceutical Sciences, University of Central Punjab, Lahore 54000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Noreen S",
+                "lastName": "Noreen",
+                "firstName": "Sobia",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0815-2223"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Chemistry, University of Sargodha, Sargodha 40100, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Al-Hussain SA",
+                "lastName": "Al-Hussain",
+                "firstName": "Sami A",
+                "initials": "SA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 11623, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kausar R",
+                "lastName": "Kausar",
+                "firstName": "Rizwana",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "ILM College of Pharmaceutical Sciences, Sargodha 40100, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Irfan A",
+                "lastName": "Irfan",
+                "firstName": "Ali",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8977-3303"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Government College University Faisalabad, Faisalabad 38000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shabbir R",
+                "lastName": "Shabbir",
+                "firstName": "Ramla",
+                "initials": "R",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0615-5970"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Pharmacy, University of Lahore, Lahore 54760, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rana M",
+                "lastName": "Rana",
+                "firstName": "Maria",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Riphah Institute of Pharmaceutical Sciences, Riphah International University Lahore Campus, Lahore 54000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Amanat A",
+                "lastName": "Amanat",
+                "firstName": "Amina",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Pharmacy, University of Sargodha, Sargodha 40100, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zaki MEA",
+                "lastName": "Zaki",
+                "firstName": "Magdi E A",
+                "initials": "MEA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5643-9202"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 11623, Saudi Arabia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0815-2223"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5643-9202"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8636-8644"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8977-3303"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9631-0243"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0615-5970"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "2",
+            "volume": "16",
+            "journalIssueId": 3513527,
+            "dateOfPublication": "2023 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Pharmaceuticals (Basel)",
+              "title": "Pharmaceuticals (Basel, Switzerland)",
+              "essn": "1424-8247",
+              "issn": "1424-8247",
+              "isoabbreviation": "Pharmaceuticals (Basel)",
+              "nlmid": "101238453"
+            },
+            "printPublicationDate": "2023-02-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "265",
+          "abstractText": "The first and only antidepressant drug on the market with solid proof of clinically significant serotonin and noradrenaline reuptake inhibition is clomipramine (CLP). However, significant first-pass metabolism reduces its absorption to less than 62%. It is heavily protein-bound and broadly dispersed across the body (9-25 L/kg volume of distribution). The purpose of this research was to formulate CLP orodispersible tablets that immediately enable the drug to enter the bloodstream and bypass systemic portal circulation to improve its bioavailability. A factorial design was employed using varied amounts of <i>Plantago ovata</i> mucilage (POM) as a natural superdisintegrant, as well as croscarmellose sodium and crospovidone as synthetic disintegrants. Their physiochemical compatibility was evaluated by FTIR, DSC/TGA, and PXRD analysis. The blend of all formulations was assessed for pre- and post-compaction parameters. The study found that tablets comprising <i>Plantago ovata</i> mucilage as a superdisintegrant showed a rapid in vitro disintegration time, i.e., around 8.39 s, and had an excellent dissolution profile. The anti-depressant efficacy was evaluated by an open-field test (OFT) and the forced swimming test (FST) was applied to create hopelessness and despair behavior as a model of depression in animals (Albino rats). The in vivo study revealed that the efficiency of the optimized formulation (F9) in the treatment of depression is more than the marketed available clomfranil tablet, and may be linked to its rapid disintegration and bypassing of systemic portal circulation.",
+          "affiliation": "College of Pharmacy, University of Sargodha, Sargodha 40100, Pakistan.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "The authors extend their appreciation to the Deanship of Scientific Research at Imam Moham-mad Ibn Saud Islamic University for funding this work through Research Group No. RG 21-09-77.",
+                "grantId": "Research Group No. RG 21-09-77.",
+                "orderIn": 0
+              },
+              {
+                "agency": "Deanship of Scientific Research, Imam Mohammad Ibn Saud Islamic University (IMSIU), Saudi Arabia",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Orodispersible Tablets",
+              "In Vitro Drug Release",
+              "Disintegration Time",
+              "Plantago Ovata Mucilage",
+              "Clomipramine (Clp)",
+              "In Vivo Antidepressant Activity"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/ph16020265"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9967651"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9967651?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 3,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2023-06-01",
+          "dateOfRevision": "2023-06-03",
+          "electronicPublicationDate": "2023-02-09",
+          "firstPublicationDate": "2023-02-09",
+          "firstIndexDate": "2023-06-03",
+          "fullTextReceivedDate": "2023-02-28",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "36839965",
+          "source": "MED",
+          "pmid": "36839965",
+          "pmcid": "PMC9965963",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9965963"
+            ]
+          },
+          "doi": "10.3390/pharmaceutics15020643",
+          "title": "Therapeutic Efficacy of a Formulation Prepared with <i>Linum usitatissimum</i> L., <i>Plantago ovata</i> Forssk., and Honey on Uncomplicated Pelvic Inflammatory Disease Analyzed with Machine Learning Techniques.",
+          "authorString": "Qayyum S, Sultana A, Heyat MBB, Rahman K, Akhtar F, Haq AU, Alkhamis BA, Alqahtani MA, Gahtani RM.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Qayyum S",
+                "lastName": "Qayyum",
+                "firstName": "Sana",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ilmul Qabalat wa Amraze Niswan, National Institute of Unani Medicine, Ministry of AYUSH, Government of India, Bengaluru 560091, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sultana A",
+                "lastName": "Sultana",
+                "firstName": "Arshiya",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2099-1510"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ilmul Qabalat wa Amraze Niswan, National Institute of Unani Medicine, Ministry of AYUSH, Government of India, Bengaluru 560091, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Heyat MBB",
+                "lastName": "Heyat",
+                "firstName": "Md Belal Bin",
+                "initials": "MBB",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5307-9582"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "IoT Research Center, College of Computer Science and Software Engineering, Shenzhen University, Shenzhen 518060, China."
+                    },
+                    {
+                      "affiliation": "Centre for VLSI and Embedded System Technologies, International Institute of Information Technology, Hyderabad 500032, Telangana, India."
+                    },
+                    {
+                      "affiliation": "Department of Science and Engineering, Novel Global Community Educational Foundation, Hebersham, NSW 2770, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rahman K",
+                "lastName": "Rahman",
+                "firstName": "Khaleequr",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0920-9631"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ilmul Saidla, National Institute of Unani Medicine, Ministry of AYUSH, Government of India, Bengaluru 560091, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Akhtar F",
+                "lastName": "Akhtar",
+                "firstName": "Faijan",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9926-4150"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 610056, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Haq AU",
+                "lastName": "Haq",
+                "firstName": "Amin Ul",
+                "initials": "AU",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7774-5604"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu 610056, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alkhamis BA",
+                "lastName": "Alkhamis",
+                "firstName": "Batool Abdulelah",
+                "initials": "BA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Rehabilitation Sciences, College of Applied Medical Sciences, King Khalid University, Abha 62529, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alqahtani MA",
+                "lastName": "Alqahtani",
+                "firstName": "Mohammed Aedh",
+                "initials": "MA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Laboratory Technology, Center for Poison Control and Medical Chemistry, King Khalid University, Abha 62529, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gahtani RM",
+                "lastName": "Gahtani",
+                "firstName": "Reem M",
+                "initials": "RM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2788-8615"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Khalid University, Abha 61421, Saudi Arabia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5307-9582"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9926-4150"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0920-9631"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2788-8615"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7774-5604"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2099-1510"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "2",
+            "volume": "15",
+            "journalIssueId": 3513128,
+            "dateOfPublication": "2023 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Pharmaceutics",
+              "title": "Pharmaceutics",
+              "essn": "1999-4923",
+              "issn": "1999-4923",
+              "isoabbreviation": "Pharmaceutics",
+              "nlmid": "101534003"
+            },
+            "printPublicationDate": "2023-02-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "643",
+          "abstractText": "A single-blind double-dummy randomized study was conducted in diagnosed patients (n = 66) to compare the efficacy of Linseeds (<i>Linum usitatissimum</i> L.), Psyllium (<i>Plantago ovata</i> Forssk.), and honey in uncomplicated pelvic inflammatory disease (uPID) with standard drugs using experimental and computational analysis. The pessary group received placebo capsules orally twice daily plus a per vaginum cotton pessary of powder from linseeds and psyllium seeds, each weighing 3 gm, with honey (5 mL) at bedtime. The standard group received 100 mg of doxycycline twice daily and 400 mg of metronidazole TID orally plus a placebo cotton pessary per vaginum at bedtime for 14 days. The primary outcomes were clinical features of uPID (vaginal discharge, lower abdominal pain (LAP), low backache (LBA), and pelvic tenderness. The secondary outcomes included leucocytes (WBCs) in vaginal discharge on saline microscopy and the SF-12 health questionnaire. In addition, we also classified both (pessary and standard) groups using machine learning models such as Decision Tree (DT), Random Forest (RF), Logistic Regression (LR), and AdaBoost (AB). The pessary group showed a higher percentage reduction than the standard group in abnormal vaginal discharge (87.05% vs. 77.94%), Visual Analogue Scale (VAS)-LAP (80.57% vs. 77.09%), VAS-LBA (74.19% vs. 68.54%), McCormack pain scale (McPS) score for pelvic tenderness (75.39% vs. 67.81%), WBC count of vaginal discharge (87.09% vs. 83.41%) and improvement in SF-12 HRQoL score (94.25% vs. 86.81%). Additionally, our DT 5-fold model achieved the maximum accuracy (61.80%) in the classification. We propose that the pessary group is cost-effective, safer, and more effective as standard drugs for treating uPID and improving the HRQoL of women. Aucubin, Plantamajoside, Herbacetin, secoisolariciresinol diglucoside, Secoisolariciresinol Monoglucoside, and other various natural bioactive molecules of psyllium and linseeds have beneficial effects as they possess anti-inflammatory, antioxidant, antimicrobial, and immunomodulatory properties. The anticipated research work is be a better alternative treatment for genital infections.",
+          "affiliation": "Department of Ilmul Qabalat wa Amraze Niswan, National Institute of Unani Medicine, Ministry of AYUSH, Government of India, Bengaluru 560091, Karnataka, India.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "DEGP",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "2017A030312008",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of AYUSH",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \"Pearl River Talent Recruitment Program",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong \u201cPearl River Talent Recruitment Program\u201d",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "U2001207 and 61872248",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "ZDSYS20190902092853047 and R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "Project of DEGP",
+                "grantId": "2019KCXTD005",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "2019ZT08X603",
+                "orderIn": 0
+              },
+              {
+                "agency": "DEGP",
+                "grantId": "R2020A045",
+                "orderIn": 0
+              },
+              {
+                "agency": "Guangdong NSF",
+                "grantId": "U2001207",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Science and Technology Foundation",
+                "grantId": "ZDSYS20190902092853047",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Oxidative stress",
+              "Bioactive molecule",
+              "Drug",
+              "Honey",
+              "herbal medicine",
+              "Inflammatory disease",
+              "Machine Learning",
+              "Unani System Of Medicine",
+              "Ai For Medicine",
+              "L. Usitatissimum L.",
+              "P. Ovata Forssk."
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.mdpi.com/1999-4923/15/2/643/pdf?version=1676944811"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/pharmaceutics15020643"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9965963"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9965963?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 13,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2023-02-25",
+          "dateOfRevision": "2023-03-01",
+          "electronicPublicationDate": "2023-02-14",
+          "firstPublicationDate": "2023-02-14",
+          "firstIndexDate": "2023-02-26",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "28592281",
+          "source": "MED",
+          "pmid": "28592281",
+          "pmcid": "PMC5463324",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC5463324"
+            ]
+          },
+          "doi": "10.1186/s12906-017-1809-x",
+          "title": "Influence of Plantago ovata husk (dietary fiber) on the bioavailability and other pharmacokinetic parameters of metformin in diabetic rabbits.",
+          "authorString": "D\u00edez R, Garc\u00eda JJ, Diez MJ, Sierra M, Sahagun AM, Fern\u00e1ndez N.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "D\u00edez R",
+                "lastName": "D\u00edez",
+                "firstName": "Raquel",
+                "initials": "R",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3729-5431"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071, Le\u00f3n, Spain. rdielz@unileon.es."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Garc\u00eda JJ",
+                "lastName": "Garc\u00eda",
+                "firstName": "Juan Jos\u00e9",
+                "initials": "JJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071, Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Diez MJ",
+                "lastName": "Diez",
+                "firstName": "Mar\u00eda Jos\u00e9",
+                "initials": "MJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071, Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sierra M",
+                "lastName": "Sierra",
+                "firstName": "Matilde",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0208-9542"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071, Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sahagun AM",
+                "lastName": "Sahagun",
+                "firstName": "Ana M",
+                "initials": "AM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071, Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fern\u00e1ndez N",
+                "lastName": "Fern\u00e1ndez",
+                "firstName": "N\u00e9lida",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1225-4097"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071, Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7821-9502"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0208-9542"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1225-4097"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2101-3906"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3311-4226"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3729-5431"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "17",
+            "journalIssueId": 2563462,
+            "dateOfPublication": "2017 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2017,
+            "journal": {
+              "medlineAbbreviation": "BMC Complement Altern Med",
+              "title": "BMC complementary and alternative medicine",
+              "essn": "1472-6882",
+              "issn": "1472-6882",
+              "isoabbreviation": "BMC Complement Altern Med",
+              "nlmid": "101088661"
+            },
+            "printPublicationDate": "2017-06-01"
+          },
+          "pubYear": "2017",
+          "pageInfo": "298",
+          "abstractText": "<h4>Background</h4>Metformin is an oral hypoglycemic agent frequently used in patients with type 2 diabetes. In this study, we have investigated the influence of the dietary fiber Plantago ovata husk on the pharmacokinetics of this drug when included in the diet, as well as when administered at the same time as metformin.<h4>Methods</h4>Six groups of 6 rabbits were used. Groups 1 to 3 were fed with standard chow and groups 4 to 6 with chow supplemented with fiber (3.5 mg/kg/day). Groups 1 and 4 received metformin intravenously (30 mg/kg). Groups 2 and 5 received metfomin orally (30 mg/kg), and number 3 and 6 were treated orally with metformin (30 mg/kg) and fiber (300 mg/kg).<h4>Results</h4>The changes caused by the inclusion of fiber in the feeding were more important in groups that received oral metformin. In this way, metformin oral bioavailability showed an increase of 34.42% when rabbits were fed with supplemented chow.<h4>Conclusions</h4>Plantago ovata husk increased the amount of absorbed metformin when included in the diet (significant increase in AUC), and delayed its absorption when administered at the same time (significant increase in t<sub>max</sub>).",
+          "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071, Le\u00f3n, Spain. rdielz@unileon.es.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rabbits"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plantago",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Diabetes Mellitus, Type 2",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Metformin",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Hypoglycemic Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Biological Availability"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Dietary Fiber",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Rabbits",
+              "Fiber",
+              "Pharmacokinetic",
+              "Metformin",
+              "Plantago Ovata Husk"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Hypoglycemic Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Metformin",
+                "registryNumber": "9100L32L2N"
+              },
+              {
+                "name": "Dietary Fiber",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1186/s12906-017-1809-x"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC5463324"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC5463324?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 4,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2017-08-21",
+          "dateOfCreation": "2017-06-09",
+          "dateOfRevision": "2018-11-13",
+          "electronicPublicationDate": "2017-06-07",
+          "firstPublicationDate": "2017-06-07",
+          "firstIndexDate": "2017-06-09",
+          "fullTextReceivedDate": "2025-02-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "26576433",
+          "source": "MED",
+          "pmid": "26576433",
+          "pmcid": "PMC4630395",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC4630395"
+            ]
+          },
+          "doi": "10.1155/2015/167526",
+          "title": "Evaluation of the Association Metformin: Plantago ovata Husk in Diabetic Rabbits.",
+          "authorString": "D\u00edez-L\u00e1iz R, Garc\u00eda-Vieitez JJ, Diez-Li\u00e9bana MJ, Sierra-Vega M, Sahag\u00fan-Prieto AM, Calle-Pardo \u00c1P, Fern\u00e1ndez-Mart\u00ednez N.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "D\u00edez-L\u00e1iz R",
+                "lastName": "D\u00edez-L\u00e1iz",
+                "firstName": "Raquel",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071 Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Garc\u00eda-Vieitez JJ",
+                "lastName": "Garc\u00eda-Vieitez",
+                "firstName": "Juan J",
+                "initials": "JJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7821-9502"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071 Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Diez-Li\u00e9bana MJ",
+                "lastName": "Diez-Li\u00e9bana",
+                "firstName": "M Jos\u00e9",
+                "initials": "MJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071 Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sierra-Vega M",
+                "lastName": "Sierra-Vega",
+                "firstName": "Matilde",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071 Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sahag\u00fan-Prieto AM",
+                "lastName": "Sahag\u00fan-Prieto",
+                "firstName": "Ana M",
+                "initials": "AM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3311-4226"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071 Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Calle-Pardo \u00c1P",
+                "lastName": "Calle-Pardo",
+                "firstName": "\u00c1ngela P",
+                "initials": "\u00c1P",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6261-8266"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071 Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fern\u00e1ndez-Mart\u00ednez N",
+                "lastName": "Fern\u00e1ndez-Mart\u00ednez",
+                "firstName": "N\u00e9lida",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1225-4097"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071 Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7821-9502"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0208-9542"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1225-4097"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2101-3906"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6261-8266"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3311-4226"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3729-5431"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "volume": "2015",
+            "journalIssueId": 2247025,
+            "dateOfPublication": "2015 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2015,
+            "journal": {
+              "medlineAbbreviation": "J Diabetes Res",
+              "title": "Journal of diabetes research",
+              "essn": "2314-6753",
+              "issn": "2314-6745",
+              "isoabbreviation": "J Diabetes Res",
+              "nlmid": "101605237"
+            },
+            "printPublicationDate": "2015-01-01"
+          },
+          "pubYear": "2015",
+          "pageInfo": "167526",
+          "abstractText": "In this experimental study we have investigated whether the inclusion of the dietary fiber Plantago ovata husk could be recommended as coadjuvant in treatments with oral hypoglycemic drugs. We evaluated the use of Plantago ovata husk-metformin association in diabetic rabbits by determining its effects on glucose and insulin concentrations. Six groups of 6 rabbits were used. Groups 1 to 3 were fed with standard chow and groups 4 to 6 with chow supplemented with Plantago ovata husk (3.5\u2009mg/kg/day). Two groups (numbers 1 and 4) were used as controls (receiving standard or supplemented chow), two groups (numbers 2 and 5) received metformin orally, and the other two (numbers 3 and 6) were treated orally with metformin and psyllium. Plasma glucose concentrations were lower in groups fed with fiber-supplemented chow whereas insulin levels showed important interindividual variations. Glucose pharmacokinetics parameters showed significant differences in Cmax and t(max) in relation to fiber intake. Insulin pharmacokinetics parameters after treatment with oral metformin showed an important increase in Cmax, AUC, and t(max) in animals fed with fiber. We conclude that Plantago ovata husk intake can contribute to the oral antihyperglycemic treatment of type 2 diabetes.",
+          "affiliation": "Pharmacology, Institute of Biomedicine (IBIOMED), University of Le\u00f3n, 24071 Le\u00f3n, Spain.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rabbits"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plantago"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Diabetes Mellitus, Experimental",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "BL",
+                      "qualifierName": "blood"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Metformin",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Insulin",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "BL",
+                      "qualifierName": "blood"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Blood Glucose",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Hypoglycemic Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Treatment Outcome"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Phytotherapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Drug Therapy, Combination"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Administration, Oral"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Dietary Fiber"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Blood Glucose",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Hypoglycemic Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Insulin",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Metformin",
+                "registryNumber": "9100L32L2N"
+              },
+              {
+                "name": "Dietary Fiber",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1155/2015/167526"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4630395"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4630395?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2016-02-09",
+          "dateOfCreation": "2015-11-18",
+          "dateOfRevision": "2019-07-23",
+          "electronicPublicationDate": "2015-10-20",
+          "firstPublicationDate": "2015-10-20",
+          "firstIndexDate": "2015-11-18",
+          "fullTextReceivedDate": "2020-07-10",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "25112783",
+          "source": "MED",
+          "pmid": "25112783",
+          "pmcid": "PMC4139609",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC4139609"
+            ]
+          },
+          "doi": "10.1186/1472-6882-14-296",
+          "title": "A randomised clinical trial to evaluate the effects of Plantago ovata husk in Parkinson patients: changes in levodopa pharmacokinetics and biochemical parameters.",
+          "authorString": "Fernandez-Martinez MN, Hernandez-Echevarria L, Sierra-Vega M, Diez-Liebana MJ, Calle-Pardo A, Carriedo-Ule D, Sahag\u00fan-Prieto AM, Anguera-Vila A, Garcia-Vieitez JJ.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Fernandez-Martinez MN",
+                "lastName": "Fernandez-Martinez",
+                "firstName": "M Nelida",
+                "initials": "MN",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1225-4097"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Area de Farmacologia, Instituto de Biomedicina (IBIOMED), Universidad de Leon, 24071 Leon, Spain. nelida.fernandez@unileon.es."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hernandez-Echevarria L",
+                "lastName": "Hernandez-Echevarria",
+                "firstName": "Luis",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3069-0511"
+                }
+              },
+              {
+                "fullName": "Sierra-Vega M",
+                "lastName": "Sierra-Vega",
+                "firstName": "Matilde",
+                "initials": "M"
+              },
+              {
+                "fullName": "Diez-Liebana MJ",
+                "lastName": "Diez-Liebana",
+                "firstName": "M Jose",
+                "initials": "MJ"
+              },
+              {
+                "fullName": "Calle-Pardo A",
+                "lastName": "Calle-Pardo",
+                "firstName": "Angela",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6261-8266"
+                }
+              },
+              {
+                "fullName": "Carriedo-Ule D",
+                "lastName": "Carriedo-Ule",
+                "firstName": "Demetrio",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8823-268X"
+                }
+              },
+              {
+                "fullName": "Sahag\u00fan-Prieto AM",
+                "lastName": "Sahag\u00fan-Prieto",
+                "firstName": "Ana M",
+                "initials": "AM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3311-4226"
+                }
+              },
+              {
+                "fullName": "Anguera-Vila A",
+                "lastName": "Anguera-Vila",
+                "firstName": "Anna",
+                "initials": "A"
+              },
+              {
+                "fullName": "Garcia-Vieitez JJ",
+                "lastName": "Garcia-Vieitez",
+                "firstName": "Juan Jose",
+                "initials": "JJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7821-9502"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7821-9502"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8823-268X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0208-9542"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1225-4097"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2101-3906"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3069-0511"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6261-8266"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3311-4226"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "14",
+            "journalIssueId": 2474195,
+            "dateOfPublication": "2014 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2014,
+            "journal": {
+              "medlineAbbreviation": "BMC Complement Altern Med",
+              "title": "BMC complementary and alternative medicine",
+              "essn": "1472-6882",
+              "issn": "1472-6882",
+              "isoabbreviation": "BMC Complement Altern Med",
+              "nlmid": "101088661"
+            },
+            "printPublicationDate": "2014-08-01"
+          },
+          "pubYear": "2014",
+          "pageInfo": "296",
+          "abstractText": "<h4>Background</h4>Plantago ovata husk therapy could be used in patients with Parkinson disease to reduce the symptoms of gastrointestinal disorders, but it is important to know whether this compound modifies levodopa pharmacokinetics. The maintenance of constant plasma concentrations of levodopa abolishes the clinical fluctuations in parkinsonian patients. The aim of this randomised clinical trial was to establish the influence of the fiber Plantago ovata husk in the pharmacokinetics of levodopa when administered to Parkinson patients well controlled by their oral medication.<h4>Methods</h4>To evaluate the effects of this fiber on several biochemical parameters. 18 volunteers participated in the study and received alternatively two treatments (Plantago ovata husk or placebo) with their usual levodopa/carbidopa oral dose. On days 0 (initial situation), 14 and 35 of the study, blood samples were taken to assess levodopa pharmacokinetics and to determine biochemical parameters.<h4>Results</h4>Levodopa Cmax was very similar in the initial situation (603.2 ng/ml) and after placebo administration (612.0 ng/ml), being slightly lower (547.8 ng/ml) when Plantago ovata husk was given. AUC was very similar in the three groups: initial situation.- 62.87 \u03bcg.min/ml, fiber treatment.- 64.47 \u03bcg.min/ml and placebo treatment.- 65.10 \u03bcg.min/ml. Fiber reduced significantly the number of peaks observed in the levodopa concentrations, maintaining concentrations more stable. No significant differences were found in total cholesterol, LDL-cholesterol and triglycerides with the administration of Plantago ovata husk.<h4>Conclusions</h4>Plantago ovata husk administration caused a smoothing and homogenization of levodopa absorption, providing more stable concentrations and final higher levels, resulting in a great benefit for patients.<h4>Trial registration</h4>EudraCT2006-000491-33.",
+          "affiliation": "Area de Farmacologia, Instituto de Biomedicina (IBIOMED), Universidad de Leon, 24071 Leon, Spain. nelida.fernandez@unileon.es.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Randomized Controlled Trial",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plantago",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Seeds",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Gastrointestinal Diseases",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "DH",
+                      "qualifierName": "diet therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ET",
+                      "qualifierName": "etiology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Parkinson Disease",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "CO",
+                      "qualifierName": "complications"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DH",
+                      "qualifierName": "diet therapy"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Levodopa",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Triglycerides",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Dietary Fiber",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Middle Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cholesterol, LDL",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Triglycerides",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Cholesterol, LDL",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Levodopa",
+                "registryNumber": "46627O600J"
+              },
+              {
+                "name": "Dietary Fiber",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://bmccomplementmedtherapies.biomedcentral.com/counter/pdf/10.1186/1472-6882-14-296"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1186/1472-6882-14-296"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4139609"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4139609?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 6,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct"
+            ]
+          },
+          "dateOfCompletion": "2014-10-23",
+          "dateOfCreation": "2014-08-13",
+          "dateOfRevision": "2021-10-21",
+          "electronicPublicationDate": "2014-08-12",
+          "firstPublicationDate": "2014-08-12",
+          "firstIndexDate": "2014-08-13",
+          "fullTextReceivedDate": "2020-07-11",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "19389862",
+          "source": "MED",
+          "pmid": "19389862",
+          "doi": "10.1124/dmd.108.026229",
+          "title": "Effects of Plantago ovata husk on levodopa (with Carbidopa) bioavailability in rabbits with autonomic gastrointestinal disorders.",
+          "authorString": "Garc\u00eda JJ, Fern\u00e1ndez N, Calle AP, Diez MJ, Sahag\u00fan A, Sierra M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Garc\u00eda JJ",
+                "lastName": "Garc\u00eda",
+                "firstName": "Juan J",
+                "initials": "JJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Area de Farmacologia, Universidad de Leon, 24071 Leon, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fern\u00e1ndez N",
+                "lastName": "Fern\u00e1ndez",
+                "firstName": "N\u00e9lida",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1225-4097"
+                }
+              },
+              {
+                "fullName": "Calle AP",
+                "lastName": "Calle",
+                "firstName": "Angela P",
+                "initials": "AP"
+              },
+              {
+                "fullName": "Diez MJ",
+                "lastName": "Diez",
+                "firstName": "M Jos\u00e9",
+                "initials": "MJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2101-3906"
+                }
+              },
+              {
+                "fullName": "Sahag\u00fan A",
+                "lastName": "Sahag\u00fan",
+                "firstName": "Ana",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3311-4226"
+                }
+              },
+              {
+                "fullName": "Sierra M",
+                "lastName": "Sierra",
+                "firstName": "Matilde",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0208-9542"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7821-9502"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0208-9542"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1225-4097"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2101-3906"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6261-8266"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3311-4226"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "7",
+            "volume": "37",
+            "journalIssueId": 1631242,
+            "dateOfPublication": "2009 Jul",
+            "monthOfPublication": 7,
+            "yearOfPublication": 2009,
+            "journal": {
+              "medlineAbbreviation": "Drug Metab Dispos",
+              "title": "Drug metabolism and disposition: the biological fate of chemicals",
+              "essn": "1521-009X",
+              "issn": "0090-9556",
+              "isoabbreviation": "Drug Metab Dispos",
+              "nlmid": "9421550"
+            },
+            "printPublicationDate": "2009-07-01"
+          },
+          "pubYear": "2009",
+          "pageInfo": "1434-1442",
+          "abstractText": "Gastrointestinal dysfunction is common in Parkinson's disease. Fiber therapy could be used to reduce the symptoms of gastrointestinal motility disorders. In a previous study, we showed that slowed gastrointestinal motility modified levodopa pharmacokinetics: area under the plasma concentration-time curve (AUC) and maximum plasma concentration (C(max)) decreased and the elimination was delayed. In this study, we evaluated whether or not the hydrosoluble fiber Plantago ovata husk is useful in improving levodopa pharmacokinetics in rabbits with autonomic gastrointestinal disorders induced by the administration of the anticholinergic biperiden. Levodopa + carbidopa (20:5 mg/kg), biperiden (100 microg/kg), and P. ovata husk (at two different doses: 100 and 400 mg/kg) were administered orally to rabbits for two periods of time (7 or 14 days). In all groups of animals, the AUC values were approximately 50% higher on the final day of treatment than on day 1. C(max) was also higher, with the greater increase at the 400 mg/kg dose of fiber, which resulted in a boost of approximately 35%. On day 1 of treatment and with both doses of fiber, AUC values were very similar to those obtained in previous work in rabbits with normal gastrointestinal motility, but the C(max) was lower. However, after 7 or 14 days, the AUC values were higher, but C(max) remained lower. The greatest differences were observed in plasma concentration before drug administration (C(min)), for which the highest increase was obtained with the dose of 400 mg/kg fiber on day 14 of treatment (349.8%). P. ovata husk could be beneficial in patients with Parkinson's disease because it regulates stool transit in the intestine and because it improves levodopa pharmacokinetics when gastrointestinal peristalsis is slowed. These changes could lead to a possible delay in the onset of dyskinesias and to changes in prognosis.",
+          "affiliation": "Area de Farmacologia, Universidad de Leon, 24071 Leon, Spain.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Autonomic Nervous System",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rabbits"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plantago",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Gastrointestinal Diseases",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Levodopa",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "BL",
+                      "qualifierName": "blood"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Carbidopa",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Biological Availability"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Levodopa",
+                "registryNumber": "46627O600J"
+              },
+              {
+                "name": "Carbidopa",
+                "registryNumber": "MNX7R8C5VO"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free after 12 months",
+                "availabilityCode": "F12",
+                "documentStyle": "html",
+                "site": "intl-dmd.aspetjournals.org",
+                "url": "http://intl-dmd.aspetjournals.org/cgi/content/full/37/7/1434"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "abs",
+                "site": "intl-dmd.aspetjournals.org",
+                "url": "http://intl-dmd.aspetjournals.org/cgi/content/abstract/37/7/1434"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1124/dmd.108.026229"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 7,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2009-09-28",
+          "dateOfCreation": "2009-04-25",
+          "dateOfRevision": "2025-02-12",
+          "electronicPublicationDate": "2009-04-23",
+          "firstPublicationDate": "2009-04-23",
+          "firstIndexDate": "2009-09-29",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "9694944",
+          "source": "MED",
+          "pmid": "9694944",
+          "doi": "10.1016/s0022-3565(24)37663-3",
+          "title": "Influence of two commercial fibers in the pharmacokinetics of ethinylestradiol in rabbits.",
+          "authorString": "Fern\u00e1ndez N, Diez MJ, Ter\u00e1n MT, Garc\u00eda JJ, Calle AP, Sierra M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Fern\u00e1ndez N",
+                "lastName": "Fern\u00e1ndez",
+                "firstName": "N",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Physiology, Pharmacology and Toxicology, University of Le\u00f3n, Le\u00f3n, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Diez MJ",
+                "lastName": "Diez",
+                "firstName": "M J",
+                "initials": "MJ"
+              },
+              {
+                "fullName": "Ter\u00e1n MT",
+                "lastName": "Ter\u00e1n",
+                "firstName": "M T",
+                "initials": "MT"
+              },
+              {
+                "fullName": "Garc\u00eda JJ",
+                "lastName": "Garc\u00eda",
+                "firstName": "J J",
+                "initials": "JJ"
+              },
+              {
+                "fullName": "Calle AP",
+                "lastName": "Calle",
+                "firstName": "A P",
+                "initials": "AP"
+              },
+              {
+                "fullName": "Sierra M",
+                "lastName": "Sierra",
+                "firstName": "M",
+                "initials": "M"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "2",
+            "volume": "286",
+            "journalIssueId": 924587,
+            "dateOfPublication": "1998 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 1998,
+            "journal": {
+              "medlineAbbreviation": "J Pharmacol Exp Ther",
+              "title": "The Journal of pharmacology and experimental therapeutics",
+              "essn": "1521-0103",
+              "issn": "0022-3565",
+              "isoabbreviation": "J Pharmacol Exp Ther",
+              "nlmid": "0376362"
+            },
+            "printPublicationDate": "1998-08-01"
+          },
+          "pubYear": "1998",
+          "pageInfo": "870-874",
+          "abstractText": "Fiber formulations are used in human nutrition owing to their beneficial properties for health. It is probable that ingestion of fiber coincides with the oral administration of drugs, and a modification of its oral absorption, and therefore of its pharmacokinetics, can appear. In the present study, the compartmental and noncompartmental pharmacokinetic parameters of ethinylestradiol (EE) in rabbits after oral administration were determined. It was also studied whether the presence of two different fiber formulations [A, wheat bran (76.5%), fruit fiber (12%) and guar gum (2%) and B, Plantago ovata seeds (65%) and P. ovata seed cuticles (2.2%)] in the gastrointestinal tract modified the pharmacokinetics of EE when administered at the same time. Three groups of rabbits were used: control, fiber A and fiber B. The animals in all three groups received 1 mg/kg b. wt. EE. The estrogen was administered alone in the control group and in the presence of 4 g of fiber A and fiber B, respectively, in the other two groups. After compartmental (two-compartment open model) and noncompartmental analyses of plasma concentrations, statistical analysis revealed that the presence of fiber (both A and B) decreased between 29% and 35% the extent of EE absorbed (represented by the pharmacokinetic parameters area under the curve and the maximum plasma concentration) without affecting the rate of the absorption process (represented by the time to reach maximum concentration and the absorption rate constant).",
+          "affiliation": "Department of Physiology, Pharmacology and Toxicology, University of Le\u00f3n, Le\u00f3n, Spain.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rabbits"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Seeds",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Ethinyl Estradiol",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "BL",
+                      "qualifierName": "blood"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Estradiol Congeners",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "BL",
+                      "qualifierName": "blood"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Galactans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mannans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Administration, Oral"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Area Under Curve"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Half-Life"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Dietary Fiber",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Gums"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Estradiol Congeners",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Galactans",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Mannans",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Gums",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Ethinyl Estradiol",
+                "registryNumber": "423D2T571U"
+              },
+              {
+                "name": "guar gum",
+                "registryNumber": "E89I1637KE"
+              },
+              {
+                "name": "Dietary Fiber",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free after 12 months",
+                "availabilityCode": "F12",
+                "documentStyle": "html",
+                "site": "intl-jpet.aspetjournals.org",
+                "url": "http://intl-jpet.aspetjournals.org/cgi/content/full/286/2/870"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "abs",
+                "site": "intl-jpet.aspetjournals.org",
+                "url": "http://intl-jpet.aspetjournals.org/cgi/content/abstract/286/2/870"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "OpenAlex",
+                "url": "https://doi.org/10.1016/s0022-3565(24)37663-3"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 6,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "1998-09-02",
+          "dateOfCreation": "1998-08-08",
+          "dateOfRevision": "2017-11-16",
+          "firstPublicationDate": "1998-08-01",
+          "firstIndexDate": "2008-01-29",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:30239559 AND SRC:MED",
+    "internalQuery": "EXT_ID:30239559 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30239559",
+        "source": "MED",
+        "pmid": "30239559",
+        "doi": "10.1093/ajcn/nqy115",
+        "title": "Effect of psyllium (Plantago ovata) fiber on LDL cholesterol and alternative lipid targets, non-HDL cholesterol and apolipoprotein B: a systematic review and meta-analysis of randomized controlled trials.",
+        "authorString": "Jovanovski E, Yashpal S, Komishon A, Zurbau A, Blanco Mejia S, Ho HVT, Li D, Sievenpiper J, Duvnjak L, Vuksan V.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Jovanovski E",
+              "lastName": "Jovanovski",
+              "firstName": "Elena",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yashpal S",
+              "lastName": "Yashpal",
+              "firstName": "Shahen",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0514-1502"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Komishon A",
+              "lastName": "Komishon",
+              "firstName": "Allison",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zurbau A",
+              "lastName": "Zurbau",
+              "firstName": "Andreea",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blanco Mejia S",
+              "lastName": "Blanco Mejia",
+              "firstName": "Sonia",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Toronto 3D Knowledge Synthesis and Clinical Trials Unit."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ho HVT",
+              "lastName": "Ho",
+              "firstName": "Hoang Vi Thanh",
+              "initials": "HVT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li D",
+              "lastName": "Li",
+              "firstName": "Dandan",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sievenpiper J",
+              "lastName": "Sievenpiper",
+              "firstName": "John",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Toronto 3D Knowledge Synthesis and Clinical Trials Unit."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duvnjak L",
+              "lastName": "Duvnjak",
+              "firstName": "Lea",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinic for Diabetes, Endocrinology, and Metabolic Diseases Vuk Vrhovac, University Hospital Merkur, School of Medicine, University of Zagreb, Zagreb, Croatia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vuksan V",
+              "lastName": "Vuksan",
+              "firstName": "Vladimir",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Nutrition and Risk Factor Modification Center."
+                  },
+                  {
+                    "affiliation": "Li Ka Shing Knowledge Institute, St. Michael's Hospital, Toronto, Ontario, Canada."
+                  },
+                  {
+                    "affiliation": "Departments of Nutritional Sciences."
+                  },
+                  {
+                    "affiliation": "Medicine, University of Toronto, Toronto, Ontario, Canada."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0514-1502"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "108",
+          "journalIssueId": 2753236,
+          "dateOfPublication": "2018 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Am J Clin Nutr",
+            "title": "The American journal of clinical nutrition",
+            "essn": "1938-3207",
+            "issn": "0002-9165",
+            "isoabbreviation": "Am J Clin Nutr",
+            "nlmid": "0376027"
+          },
+          "printPublicationDate": "2018-11-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "922-932",
+        "abstractText": "<h4>Background</h4>Studies have identified viscous dietary fiber as potentially attenuating cholesterol, including psyllium, which reduces LDL cholesterol and thus may complement cardiovascular disease (CVD) treatment.<h4>Objectives</h4>The aims of this study were to update evidence on the effect of psyllium on LDL cholesterol and to provide an assessment of its impact on alternate markers: non-HDL cholesterol and apolipoprotein B (apoB).<h4>Design</h4>Medline, EMBASE, CINAHL, and the Cochrane Central Register of Controlled Trials were searched through 3 October 2017. Independent reviewers extracted relevant data and assessed risk of bias. We included randomized controlled trials with a duration of \u22653 wk that assessed the effect of psyllium on blood lipids in individuals with or without hypercholesterolemia. Data were pooled by using the generic inverse variance method with random-effects models and expressed as mean differences (MDs) with 95% CIs. Heterogeneity was assessed by Cochran's Q statistic and quantified by the I2 statistic. Overall quality of the evidence was assessed by using the GRADE (Grading of Recommendations Assessment, Development, and Evaluation) approach.<h4>Results</h4>We included 28 trials in our analysis (n\u00a0=\u00a01924). Supplementation of a median dose of \u223c10.2 g psyllium significantly reduced LDL cholesterol (MD\u00a0=\u00a0-0.33 mmol/L; 95% CI: -0.38, -0.27 mmol/L; P\u00a0<\u00a00.00001), non-HDL cholesterol (MD\u00a0=\u00a0-0.39 mmol/L; 95% CI: -0.50, -0.27 mmol/L; P\u00a0<\u00a00.00001), and apoB (MD\u00a0=\u00a0-0.05 g/L; 95% CI: -0.08, -0.03 g/L; P\u00a0<\u00a00.0001). Effect estimates for LDL cholesterol and non-HDL cholesterol were graded as moderate quality on the basis of downgrades for inconsistency and graded as high quality for apoB.<h4>Conclusion</h4>Psyllium fiber effectively improves conventional and alternative lipids markers, potentially delaying the process of atherosclerosis-associated CVD risk in those with or without hypercholesterolemia. This trial is registered at www.clinicaltrials.gov as NCT03346733.",
+        "affiliation": "Clinical Nutrition and Risk Factor Modification Center.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plantago",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypercholesterolemia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apolipoproteins B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psyllium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Fiber",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol, LDL",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol, HDL",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Psyllium",
+              "registryNumber": "8063-16-9"
+            },
+            {
+              "name": "Apolipoproteins B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol, LDL",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol, HDL",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholesterol",
+              "registryNumber": "97C5T2UQ7J"
+            },
+            {
+              "name": "Dietary Fiber",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://academic.oup.com/ajcn/article-pdf/108/5/922/28887084/nqy115.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/ajcn/nqy115"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 48,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2019-09-09",
+        "dateOfCreation": "2018-09-22",
+        "dateOfRevision": "2023-02-14",
+        "firstPublicationDate": "2018-11-01",
+        "firstIndexDate": "2018-09-21",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

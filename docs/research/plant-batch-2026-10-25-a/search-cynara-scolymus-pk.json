@@ -1,0 +1,1445 @@
+{
+  "query": "TITLE_ABS:\"Cynara scolymus\" AND (pharmacokinetics)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 5,
+    "request": {
+      "queryString": "TITLE_ABS:\"Cynara scolymus\" AND (pharmacokinetics)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "36297619",
+          "source": "MED",
+          "pmid": "36297619",
+          "pmcid": "PMC9610270",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9610270"
+            ]
+          },
+          "doi": "10.3390/pharmaceutics14102185",
+          "title": "Comparative Estimation of the Cytotoxic Activity of Different Parts of <i>Cynara scolymus</i> L.: Crude Extracts versus Green Synthesized Silver Nanoparticles with Apoptotic Investigation.",
+          "authorString": "Khedr AIM, Farrag AFS, Nasr AM, Swidan SA, Nafie MS, Abdel-Kader MS, Goda MS, Badr JM, Abdelhameed RFA.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Khedr AIM",
+                "lastName": "Khedr",
+                "firstName": "Amgad I M",
+                "initials": "AIM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7658-4618"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Port Said University, Port Said 42526, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Farrag AFS",
+                "lastName": "Farrag",
+                "firstName": "Abdelaziz F S",
+                "initials": "AFS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8786-8184"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Port Said University, Port Said 42526, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nasr AM",
+                "lastName": "Nasr",
+                "firstName": "Ali M",
+                "initials": "AM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutics, Faculty of Pharmacy, Port Said University, Port Said 42526, Egypt."
+                    },
+                    {
+                      "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy, Galala University, New Galala 43713, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Swidan SA",
+                "lastName": "Swidan",
+                "firstName": "Shady A",
+                "initials": "SA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0861-2699"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutics and Pharmaceutical Technology, Faculty of Pharmacy, The British University in Egypt, El-Sherouk City, Cairo 11837, Egypt."
+                    },
+                    {
+                      "affiliation": "The Centre for Drug Research and Development (CDRD), Faculty of Pharmacy, The British University in Egypt, El-Sherouk City, Cairo 11837, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nafie MS",
+                "lastName": "Nafie",
+                "firstName": "Mohamed S",
+                "initials": "MS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4454-6390"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Faculty of Science, Suez Canal University, Ismailia 41522, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abdel-Kader MS",
+                "lastName": "Abdel-Kader",
+                "firstName": "Maged S",
+                "initials": "MS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5128-2656"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al-Kharj 11942, Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Alexandria University, Alexandria 21215, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Goda MS",
+                "lastName": "Goda",
+                "firstName": "Marwa S",
+                "initials": "MS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9291-8940"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Suez Canal University, Ismailia 41522, Egypt."
+                    },
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Galala University, New Galala 43713, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Badr JM",
+                "lastName": "Badr",
+                "firstName": "Jihan M",
+                "initials": "JM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Suez Canal University, Ismailia 41522, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abdelhameed RFA",
+                "lastName": "Abdelhameed",
+                "firstName": "Reda F A",
+                "initials": "RFA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Suez Canal University, Ismailia 41522, Egypt."
+                    },
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Galala University, New Galala 43713, Egypt."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8786-8184"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9291-8940"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0861-2699"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5128-2656"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7658-4618"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4454-6390"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "10",
+            "volume": "14",
+            "journalIssueId": 3445600,
+            "dateOfPublication": "2022 Oct",
+            "monthOfPublication": 10,
+            "yearOfPublication": 2022,
+            "journal": {
+              "medlineAbbreviation": "Pharmaceutics",
+              "title": "Pharmaceutics",
+              "essn": "1999-4923",
+              "issn": "1999-4923",
+              "nlmid": "101534003",
+              "isoabbreviation": "Pharmaceutics"
+            },
+            "printPublicationDate": "2022-10-01"
+          },
+          "pubYear": "2022",
+          "pageInfo": "2185",
+          "abstractText": "Different parts of <i>Cynara scolymus</i> L. and their green synthesized eco-friendly silver nanoparticles (AgNPs) were screened for their cytotoxicity and apoptotic activity. Results showed that flower extract AgNPs exhibited more potent cytotoxicity compared to the normal form against PC-3 and A549 cell lines with IC<sub>50</sub> values of 2.47 \u03bcg/mL and 1.35 \u03bcg/mL, respectively. The results were compared to doxorubicin (IC<sub>50</sub> = 5.13 and 6.19 \u03bcg/mL, respectively). For apoptosis-induction, AgNPs prepared from the flower extract induced cell death by apoptosis by 41.34-fold change and induced necrotic cell death by 10.2-fold. Additionally, they induced total prostate apoptotic cell death by a 16.18-fold change, and it slightly induced necrotic cell death by 2.7-fold. Hence, green synthesized flower extract AgNPs exhibited cytotoxicity in A549 and PC-3 through apoptosis-induction in both cells. Consequently, synthesized AgNPs were further tested for apoptosis and increased gene and protein expression of pro-apoptotic markers while decreasing expression of anti-apoptotic genes. As a result, this formula may serve as a promising source for anti-cancer candidates. Finally, liquid chromatography combined with electrospray mass spectrometry (LC-ESI-MS) analysis was assessed to identify the common bioactive metabolites in crude extracts of stem, flower, and bract.",
+          "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Port Said University, Port Said 42526, Egypt.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Cytotoxic",
+              "Green Synthesis",
+              "Cynara Scolymus L.",
+              "Silver Nanoparticles.",
+              "Biomedical Implementations"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.mdpi.com/1999-4923/14/10/2185/pdf?version=1666665842"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/pharmaceutics14102185"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9610270"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9610270?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 15,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2022-10-27",
+          "dateOfRevision": "2022-10-30",
+          "electronicPublicationDate": "2022-10-13",
+          "firstPublicationDate": "2022-10-13",
+          "firstIndexDate": "2022-10-28",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "36234842",
+          "source": "MED",
+          "pmid": "36234842",
+          "pmcid": "PMC9572662",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9572662"
+            ]
+          },
+          "doi": "10.3390/molecules27196304",
+          "title": "Silver Nanoparticles Formulation of Flower Head's Polyphenols of <i>Cynara scolymus</i> L.: A Promising Candidate against Prostate (PC-3) Cancer Cell Line through Apoptosis Activation.",
+          "authorString": "Khedr AIM, Goda MS, Farrag AFS, Nasr AM, Swidan SA, Nafie MS, Abdel-Kader MS, Badr JM, Abdelhameed RFA.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Khedr AIM",
+                "lastName": "Khedr",
+                "firstName": "Amgad I M",
+                "initials": "AIM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7658-4618"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Port Said University, Port Said 42526, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Goda MS",
+                "lastName": "Goda",
+                "firstName": "Marwa S",
+                "initials": "MS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9291-8940"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Suez Canal University, Ismailia 41522, Egypt."
+                    },
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Galala University, New Galala 43713, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Farrag AFS",
+                "lastName": "Farrag",
+                "firstName": "Abdelaziz F S",
+                "initials": "AFS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8786-8184"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Port Said University, Port Said 42526, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nasr AM",
+                "lastName": "Nasr",
+                "firstName": "Ali M",
+                "initials": "AM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1624-8054"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutics, Faculty of Pharmacy, Port Said University, Port Said 42526, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Swidan SA",
+                "lastName": "Swidan",
+                "firstName": "Shady A",
+                "initials": "SA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0861-2699"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutics and Pharmaceutical Technology, Faculty of Pharmacy, The British University in Egypt, El-Sherouk City 11837, Egypt."
+                    },
+                    {
+                      "affiliation": "The Centre for Drug Research and Development (CDRD), Faculty of Pharmacy, The British University in Egypt, El-Sherouk City 11837, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nafie MS",
+                "lastName": "Nafie",
+                "firstName": "Mohamed S",
+                "initials": "MS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4454-6390"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Faculty of Science, Suez Canal University, Ismailia 41522, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abdel-Kader MS",
+                "lastName": "Abdel-Kader",
+                "firstName": "Maged S",
+                "initials": "MS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5128-2656"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al-Kharj 11942, Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Alexandria University, Alexandria 21215, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Badr JM",
+                "lastName": "Badr",
+                "firstName": "Jihan M",
+                "initials": "JM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Suez Canal University, Ismailia 41522, Egypt."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abdelhameed RFA",
+                "lastName": "Abdelhameed",
+                "firstName": "Reda F A",
+                "initials": "RFA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Suez Canal University, Ismailia 41522, Egypt."
+                    },
+                    {
+                      "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Galala University, New Galala 43713, Egypt."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8786-8184"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9291-8940"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0861-2699"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5128-2656"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7658-4618"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1624-8054"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4454-6390"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "19",
+            "volume": "27",
+            "journalIssueId": 3440110,
+            "dateOfPublication": "2022 Sep",
+            "monthOfPublication": 9,
+            "yearOfPublication": 2022,
+            "journal": {
+              "medlineAbbreviation": "Molecules",
+              "title": "Molecules (Basel, Switzerland)",
+              "essn": "1420-3049",
+              "issn": "1420-3049",
+              "nlmid": "100964009",
+              "isoabbreviation": "Molecules"
+            },
+            "printPublicationDate": "2022-09-01"
+          },
+          "pubYear": "2022",
+          "pageInfo": "6304",
+          "abstractText": "<i>Cynara scolymus</i> L. (Family: Compositae) or artichoke is a nutritious edible plant widely used for its hepatoprotective effect. Crude extracts of flower, bract, and stem were prepared and evaluated for their in vitro antioxidant activity and phenolic content. The flower crude extract exhibited the highest phenolic content (74.29 mg GAE/gm) as well as the best in vitro antioxidant activity using total antioxidant capacity (TAC), ferric reducing antioxidant power (FEAP), and 1,1-diphenyl-2-picrylhyazyl (DPPH) scavenging assays compared with ascorbic acid. Phenolic fractions of the crude extracts of different parts were separated and identified using high-performance liquid chromatography HPLC-DAD analysis. The silver nanoparticles of these phenolic fractions were established and tested for their cytotoxicity and apoptotic activity. Results showed that silver nanoparticles of a polyphenolic fraction of flower extract (Nano-TP/Flowers) exhibited potent cytotoxicity against prostate (PC-3) and lung (A549) cancer cell lines with IC<sub>50</sub> values of 0.85 \u03bcg/mL and 0.94 \u03bcg/mL, respectively, compared with doxorubicin as a standard. For apoptosis-induction, Nano-TP/Flowers exhibited apoptosis in PC-3 with a higher ratio than in A549 cells. It induced total prostate apoptotic cell death by 227-fold change while it induced apoptosis in A549 cells by 15.6-fold change. Nano-TP/Flowers upregulated both pro-apoptotic markers and downregulated the antiapoptotic genes using RT-PCR. Hence, this extract may serve as a promising source for anti-prostate cancer candidates.",
+          "affiliation": "Department of Pharmacognosy, Faculty of Pharmacy, Port Said University, Port Said 42526, Egypt.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Line"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cynara scolymus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Neoplasms"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Silver"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Ascorbic Acid"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Phenols",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Doxorubicin"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antioxidants",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Apoptosis"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Metal Nanoparticles"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Inflorescence",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Polyphenols",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Stem",
+              "Flower",
+              "Antioxidant activity",
+              "Bract",
+              "PC-3",
+              "A549",
+              "HPLC-DAD",
+              "Silver Nanoparticles",
+              "Total Phenolic",
+              "Cynara Scolymus L."
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "polyphenols",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Phenols",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antioxidants",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Ascorbic Acid",
+                "registryNumber": "PQ6CK8PD0R"
+              },
+              {
+                "name": "Doxorubicin",
+                "registryNumber": "80168379AG"
+              },
+              {
+                "name": "Silver",
+                "registryNumber": "3M4G523W1G"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/molecules27196304"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9572662"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9572662?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 8,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2022-10-17",
+          "dateOfCreation": "2022-10-14",
+          "dateOfRevision": "2022-10-19",
+          "electronicPublicationDate": "2022-09-24",
+          "firstPublicationDate": "2022-09-24",
+          "firstIndexDate": "2022-10-14",
+          "fullTextReceivedDate": "2026-10-12",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "38045604",
+          "source": "MED",
+          "pmid": "38045604",
+          "pmcid": "PMC10692756",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10692756"
+            ]
+          },
+          "doi": "10.1016/j.toxrep.2023.11.002",
+          "title": "Evaluation of acute, subacute, and subchronic toxicity of a hepatoprotective herbal formulation.",
+          "authorString": "Bemidinezhad A, Zojaji SA, Taraz Jamshidi S, Mohammadi M, Alavi MS, Ghorbani A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Bemidinezhad A",
+                "lastName": "Bemidinezhad",
+                "firstName": "Abolfazl",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3387-3994"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacological Research Center of Medicinal Plants, Mashhad University of Medical Sciences, Mashhad, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zojaji SA",
+                "lastName": "Zojaji",
+                "firstName": "Seyyed Abbas",
+                "initials": "SA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacology, Mashhad Branch Faculty of Medicine, Islamic Azad University, Mashhad, Iran."
+                    },
+                    {
+                      "affiliation": "Department of Education and Research, Army Health Center of Excellence (NEZAJA), Tehran, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Taraz Jamshidi S",
+                "lastName": "Taraz Jamshidi",
+                "firstName": "Shirin",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Solid Tumor Treatment Research Center, Mashhad University of Medical Sciences, Mashhad, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mohammadi M",
+                "lastName": "Mohammadi",
+                "firstName": "Mostafa",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Student Research Committee, Mashhad University of Medical Sciences, Mashhad, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alavi MS",
+                "lastName": "Alavi",
+                "firstName": "Mohaddeseh Sadat",
+                "initials": "MS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacological Research Center of Medicinal Plants, Mashhad University of Medical Sciences, Mashhad, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ghorbani A",
+                "lastName": "Ghorbani",
+                "firstName": "Ahmad",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacological Research Center of Medicinal Plants, Mashhad University of Medical Sciences, Mashhad, Iran."
+                    },
+                    {
+                      "affiliation": "Department of Pharmacology, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3387-3994"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "11",
+            "journalIssueId": 3594148,
+            "dateOfPublication": "2023 Dec",
+            "monthOfPublication": 12,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Toxicol Rep",
+              "title": "Toxicology reports",
+              "essn": "2214-7500",
+              "issn": "2214-7500",
+              "nlmid": "101630272",
+              "isoabbreviation": "Toxicol Rep"
+            },
+            "printPublicationDate": "2023-12-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "452-459",
+          "abstractText": "<h4>Background</h4>The possible toxicity of natural products must be tested before being used in the market. The present work aimed to evaluate acute, subacute, and subchronic toxicity of an herbal formulation containing <i>Anethum graveolens</i>, <i>Cynara scolymus</i>, <i>Citrus aurantium</i>, <i>Portulaca oleracea</i>, and <i>Silybum marianum</i>.<h4>Material and methods</h4>Acute toxicity (2000\u00a0mg/kg, single dose) and sub-acute toxicity (600 and 1200\u00a0mg/kg/day, 4 weeks) tests were performed on female and male rats according to OECD 423 and OECD 407 guidelines, respectively. In the subchronic study (12 weeks), the animals were divided into three groups (6 females and 6 males per group): control, low-dose group (food supplemented with 300\u00a0mg/kg of the herbal product), and high-dose group (600\u00a0mg/kg).<h4>Results</h4>The herbal product at a single dose of 2000\u00a0mg/kg did not induce mortality for 14 days. In the sub-acute study, administration of the product for 28 days at 1200\u00a0mg/kg/day had no effect on survival, appetite (water and food consumption), body weight, serum biochemical parameters (BUN, creatinine, AST, ALT, ALP, bilirubin, albumin), histology of vital organs (liver, kidney, heart, brain), and hematological markers related to erythrocyte, platelet, and leukocyte. Similarly, in the subchronic study, the product did not induce mortality, change in histology of the vital organs, or alteration in hematological or biochemical parameters (except for an increase in ALP in female rats received 600\u00a0mg/kg).<h4>Conclusion</h4>The formulated product shows no signs of toxicity in rats up to 2000\u00a0mg/kg, 1200\u00a0mg/kg, and 600\u00a0mg/kg in acute, subacute, and subchronic phases, respectively. It is suggested to monitor ALP levels in females in case of long-term use of the product.",
+          "affiliation": "Pharmacological Research Center of Medicinal Plants, Mashhad University of Medical Sciences, Mashhad, Iran.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Mashhad University of Medical Sciences",
+                "grantId": "992028",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Plants",
+              "Safety",
+              "Toxicity",
+              "Herbal",
+              "Hepatoprotective"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.toxrep.2023.11.002"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10692756"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10692756?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 6,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2023-12-04",
+          "dateOfRevision": "2023-12-05",
+          "electronicPublicationDate": "2023-11-07",
+          "firstPublicationDate": "2023-11-07",
+          "firstIndexDate": "2023-12-04",
+          "fullTextReceivedDate": "2023-12-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "32454964",
+          "source": "MED",
+          "pmid": "32454964",
+          "pmcid": "PMC7232710",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC7232710"
+            ]
+          },
+          "doi": "10.1155/2020/9185759",
+          "title": "Evidences on Molecules Most Frequently Included in Canine and Feline Complementary Feed to Support Liver Function.",
+          "authorString": "Marchegiani A, Fruganti A, Gavazza A, Mangiaterra S, Candellone A, Fusi E, Rossi G, Cerquetella M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Marchegiani A",
+                "lastName": "Marchegiani",
+                "firstName": "Andrea",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biosciences and Veterinary Medicine, University of Camerino, Via Circonvallazione 93/95-62024, Matelica (MC), Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fruganti A",
+                "lastName": "Fruganti",
+                "firstName": "Alessandro",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biosciences and Veterinary Medicine, University of Camerino, Via Circonvallazione 93/95-62024, Matelica (MC), Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gavazza A",
+                "lastName": "Gavazza",
+                "firstName": "Alessandra",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biosciences and Veterinary Medicine, University of Camerino, Via Circonvallazione 93/95-62024, Matelica (MC), Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mangiaterra S",
+                "lastName": "Mangiaterra",
+                "firstName": "Sara",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biosciences and Veterinary Medicine, University of Camerino, Via Circonvallazione 93/95-62024, Matelica (MC), Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Candellone A",
+                "lastName": "Candellone",
+                "firstName": "Alessia",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Veterinary Science, University of Turin, Largo Braccini 2-10095, Grugliasco (TO), Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fusi E",
+                "lastName": "Fusi",
+                "firstName": "Eleonora",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Veterinary Medicine, University of Milan, Via dell'Universit\u00e0 6-26900, Lodi (LO), Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rossi G",
+                "lastName": "Rossi",
+                "firstName": "Giacomo",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8617-5984"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biosciences and Veterinary Medicine, University of Camerino, Via Circonvallazione 93/95-62024, Matelica (MC), Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cerquetella M",
+                "lastName": "Cerquetella",
+                "firstName": "Matteo",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9471-0756"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biosciences and Veterinary Medicine, University of Camerino, Via Circonvallazione 93/95-62024, Matelica (MC), Italy."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8617-5984"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9471-0756"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "2020",
+            "journalIssueId": 2916441,
+            "dateOfPublication": "2020 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2020,
+            "journal": {
+              "medlineAbbreviation": "Vet Med Int",
+              "title": "Veterinary medicine international",
+              "essn": "2042-0048",
+              "issn": "2090-8113",
+              "nlmid": "101524203",
+              "isoabbreviation": "Vet Med Int"
+            },
+            "printPublicationDate": "2020-01-01"
+          },
+          "pubYear": "2020",
+          "pageInfo": "9185759",
+          "abstractText": "Numerous complementary feeds to support liver function are commercially available for small animals. Aiming to furnish a scientific support for clinicians/nutritionists that necessitate a complementary feed to support liver function in dogs and cats, with the present paper, we analyzed scientific evidences supporting the use, for this purpose, of ingredients/additives such as artichoke (<i>Cynara scolymus</i>), curcumin, dandelion (<i>Taraxacum officinale</i>), milk thistle (<i>Silybum marianum</i>), phosphatidylcholine, and S-adenosylmethionine. Although sustained by significant results, our review found only few scientific papers, and albeit we believe that they represent a significant aid in handling hepatopathies, in the authors' opinion, this topic probably deserves, and would benefit of, further studies.",
+          "affiliation": "School of Biosciences and Veterinary Medicine, University of Camerino, Via Circonvallazione 93/95-62024, Matelica (MC), Italy.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1155/2020/9185759"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC7232710"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC7232710?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 4,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2020-05-27",
+          "dateOfRevision": "2020-09-28",
+          "electronicPublicationDate": "2020-05-09",
+          "firstPublicationDate": "2020-05-09",
+          "firstIndexDate": "2020-05-28",
+          "fullTextReceivedDate": "2025-02-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "29113064",
+          "source": "MED",
+          "pmid": "29113064",
+          "pmcid": "PMC5750604",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC5750604"
+            ]
+          },
+          "doi": "10.3390/medicines4040080",
+          "title": "Inhibition of Cyclic Adenosine Monophosphate-Specific Phosphodiesterase by Various Food Plant-Derived Phytotherapeutic Agents.",
+          "authorString": "R\u00f6hrig T, Pacjuk O, Hern\u00e1ndez-Huguet S, K\u00f6rner J, Scherer K, Richling E.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "R\u00f6hrig T",
+                "lastName": "R\u00f6hrig",
+                "firstName": "Teresa",
+                "initials": "T",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6468-2950"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Food Chemistry and Toxicology, University of Kaiserslautern, Erwin-Schroedinger-Stra\u00dfe 52, 67663 Kaiserslautern, Germany. roehrig@chemie.uni-kl.de."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pacjuk O",
+                "lastName": "Pacjuk",
+                "firstName": "Olga",
+                "initials": "O",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Food Chemistry and Toxicology, University of Kaiserslautern, Erwin-Schroedinger-Stra\u00dfe 52, 67663 Kaiserslautern, Germany. olga_pacjuk_@freenet.de."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hern\u00e1ndez-Huguet S",
+                "lastName": "Hern\u00e1ndez-Huguet",
+                "firstName": "Silvia",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Food Chemistry and Toxicology, University of Kaiserslautern, Erwin-Schroedinger-Stra\u00dfe 52, 67663 Kaiserslautern, Germany. siviahh_20_bcn@hotmail.com."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "K\u00f6rner J",
+                "lastName": "K\u00f6rner",
+                "firstName": "Johanna",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Food Chemistry and Toxicology, University of Kaiserslautern, Erwin-Schroedinger-Stra\u00dfe 52, 67663 Kaiserslautern, Germany. johanna-koerner@gmx.de."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Scherer K",
+                "lastName": "Scherer",
+                "firstName": "Katharina",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Food Chemistry and Toxicology, University of Kaiserslautern, Erwin-Schroedinger-Stra\u00dfe 52, 67663 Kaiserslautern, Germany. katha-scherer@gmx.de."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Richling E",
+                "lastName": "Richling",
+                "firstName": "Elke",
+                "initials": "E",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5746-8032"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Food Chemistry and Toxicology, University of Kaiserslautern, Erwin-Schroedinger-Stra\u00dfe 52, 67663 Kaiserslautern, Germany. richling@chemie.uni-kl.de."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5746-8032"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6468-2950"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "4",
+            "volume": "4",
+            "journalIssueId": 2616568,
+            "dateOfPublication": "2017 Nov",
+            "monthOfPublication": 11,
+            "yearOfPublication": 2017,
+            "journal": {
+              "medlineAbbreviation": "Medicines (Basel)",
+              "title": "Medicines (Basel, Switzerland)",
+              "essn": "2305-6320",
+              "issn": "2305-6320",
+              "nlmid": "101671069",
+              "isoabbreviation": "Medicines (Basel)"
+            },
+            "printPublicationDate": "2017-11-01"
+          },
+          "pubYear": "2017",
+          "pageInfo": "E80",
+          "abstractText": "<b>Background:</b> Phosphodiesterases (PDEs) play a major role in the regulation of cyclic adenosine monophosphate (cAMP)- and cyclic guanosine monophosphate (cGMP)-mediated pathways. Their inhibitors exhibit anti-inflammatory, vasodilatory and antithrombotic effects. Therefore, consumption of foods with PDE-inhibiting potential may possess beneficial influence on the risk of cardiovascular diseases. <b>Methods:</b> Four plant extracts (<i>Arbutus unedo</i>, <i>Camellia sinensis</i>, <i>Cynara scolymus</i>, <i>Zingiber officinale</i>) with promising ingredient profiles and physiological effects were tested for their ability to inhibit cAMP-specific PDE in vitro in a radioactive assay. <b>Results:</b> Strawberry tree fruit (<i>Arbutus unedo</i>) and tea (<i>Camellia sinensis</i>) extracts did not inhibit PDE markedly. Alternatively, artichoke (<i>Cynara scolymus</i>) extract had a significant inhibitory influence on PDE activity (IC<sub>50</sub> = 0.9 \u00b1 0.1 mg/mL) as well as its flavone luteolin (IC<sub>50</sub> = 41 \u00b1 10 \u03bcM) and 3,4-dicaffeoylquinic acid (IC<sub>50</sub> > 1.0 mM). Additionally, the ginger (<i>Zingiber officinale</i>) extract and one of its constituents, [6]-gingerol, significantly inhibited PDE (IC<sub>50</sub> = 1.7 \u00b1 0.2 mg/mL and IC<sub>50</sub> > 1.7 mM, respectively). Crude fractionation of ginger extract showed that substances responsible for PDE inhibition were in the lipoid fraction (IC<sub>50</sub> = 455 \u00b1 19 \u03bcg/mL). <b>Conclusions:</b> A PDE-inhibitory effect was shown for artichoke and ginger extract. Whether PDE inhibition in vivo can be achieved through ingestion of artichoke or ginger extracts leading to physiological effects concerning cardiovascular health should be addressed in future research.",
+          "affiliation": "Division of Food Chemistry and Toxicology, University of Kaiserslautern, Erwin-Schroedinger-Stra\u00dfe 52, 67663 Kaiserslautern, Germany. roehrig@chemie.uni-kl.de.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Phosphodiesterase",
+              "Camellia sinensis",
+              "Cyclic AMP",
+              "Zingiber officinale",
+              "Arbutus Unedo",
+              "Cynara Scolymus"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/medicines4040080"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC5750604"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC5750604?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 12,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2017-11-09",
+          "dateOfRevision": "2020-09-30",
+          "electronicPublicationDate": "2017-11-04",
+          "firstPublicationDate": "2017-11-04",
+          "firstIndexDate": "2017-11-08",
+          "fullTextReceivedDate": "2025-02-03",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

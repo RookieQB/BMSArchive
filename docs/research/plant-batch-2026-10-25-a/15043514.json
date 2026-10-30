@@ -1,0 +1,261 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:15043514 AND SRC:MED",
+    "internalQuery": "EXT_ID:15043514 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "15043514",
+        "source": "MED",
+        "pmid": "15043514",
+        "doi": "10.1111/j.1365-2036.2004.01902.x",
+        "title": "Randomized, double-blind, placebo-controlled trial of oral aloe vera gel for active ulcerative colitis.",
+        "authorString": "Langmead L, Feakins RM, Goldthorpe S, Holt H, Tsironi E, De Silva A, Jewell DP, Rampton DS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Langmead L",
+              "lastName": "Langmead",
+              "firstName": "L",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Gastroenterology, Institute of Cellular and Molecular Science, Barts and The London, Queen Mary School of Medicine and Dentistry, London, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Feakins RM",
+              "lastName": "Feakins",
+              "firstName": "R M",
+              "initials": "RM"
+            },
+            {
+              "fullName": "Goldthorpe S",
+              "lastName": "Goldthorpe",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Holt H",
+              "lastName": "Holt",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Tsironi E",
+              "lastName": "Tsironi",
+              "firstName": "E",
+              "initials": "E"
+            },
+            {
+              "fullName": "De Silva A",
+              "lastName": "De Silva",
+              "firstName": "A",
+              "initials": "A"
+            },
+            {
+              "fullName": "Jewell DP",
+              "lastName": "Jewell",
+              "firstName": "D P",
+              "initials": "DP"
+            },
+            {
+              "fullName": "Rampton DS",
+              "lastName": "Rampton",
+              "firstName": "D S",
+              "initials": "DS"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "19",
+          "journalIssueId": 1133714,
+          "dateOfPublication": "2004 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Aliment Pharmacol Ther",
+            "title": "Alimentary pharmacology & therapeutics",
+            "essn": "1365-2036",
+            "issn": "0269-2813",
+            "isoabbreviation": "Aliment Pharmacol Ther",
+            "nlmid": "8707234"
+          },
+          "printPublicationDate": "2004-04-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "739-747",
+        "abstractText": "<h4>Background</h4>The herbal preparation, aloe vera, has been claimed to have anti-inflammatory effects and, despite a lack of evidence of its therapeutic efficacy, is widely used by patients with inflammatory bowel disease.<h4>Aim</h4>To perform a double-blind, randomized, placebo-controlled trial of the efficacy and safety of aloe vera gel for the treatment of mildly to moderately active ulcerative colitis.<h4>Methods</h4>Forty-four evaluable hospital out-patients were randomly given oral aloe vera gel or placebo, 100 mL twice daily for 4 weeks, in a 2 : 1 ratio. The primary outcome measures were clinical remission (Simple Clinical Colitis Activity Index </= 2), sigmoidoscopic remission (Baron score </= 1) and histological remission (Saverymuttu score </= 1). Secondary outcome measures included changes in the Simple Clinical Colitis Activity Index (improvement was defined as a decrease of >/= 3 points; response was defined as remission or improvement), Baron score, histology score, haemoglobin, platelet count, erythrocyte sedimentation rate, C-reactive protein and albumin.<h4>Results</h4>Clinical remission, improvement and response occurred in nine (30%), 11 (37%) and 14 (47%), respectively, of 30 patients given aloe vera, compared with one (7%) [P = 0.09; odds ratio, 5.6 (0.6-49)], one (7%) [P = 0.06; odds ratio, 7.5 (0.9-66)] and two (14%) [P < 0.05; odds ratio, 5.3 (1.0-27)], respectively, of 14 patients taking placebo. The Simple Clinical Colitis Activity Index and histological scores decreased significantly during treatment with aloe vera (P = 0.01 and P = 0.03, respectively), but not with placebo. Sigmoidoscopic scores and laboratory variables showed no significant differences between aloe vera and placebo. Adverse events were minor and similar in both groups of patients.<h4>Conclusion</h4>Oral aloe vera taken for 4 weeks produced a clinical response more often than placebo; it also reduced the histological disease activity and appeared to be safe. Further evaluation of the therapeutic potential of aloe vera gel in inflammatory bowel disease is needed.",
+        "affiliation": "Centre for Gastroenterology, Institute of Cellular and Molecular Science, Barts and The London, Queen Mary School of Medicine and Dentistry, London, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Aloe"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Colitis, Ulcerative",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Preparations",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gels"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Gels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Preparations",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1365-2036.2004.01902.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 138,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-07-20",
+        "dateOfCreation": "2004-03-27",
+        "dateOfRevision": "2022-03-21",
+        "firstPublicationDate": "2004-04-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

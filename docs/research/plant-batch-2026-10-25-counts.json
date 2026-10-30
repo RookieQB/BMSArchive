@@ -1,0 +1,92 @@
+[
+  {
+    "scientific_name": "Mentha × piperita",
+    "query": "\"Mentha piperita\"[All Fields] OR \"Mentha x piperita\"[All Fields]",
+    "article_count": 1569,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Mentha+piperita%22%5BAll+Fields%5D+OR+%22Mentha+x+piperita%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Mentha piperita\"[All Fields] OR \"Mentha x piperita\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  },
+  {
+    "scientific_name": "Cynara cardunculus",
+    "query": "\"Cynara cardunculus\"[All Fields] OR \"Cynara scolymus\"[All Fields]",
+    "article_count": 963,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Cynara+cardunculus%22%5BAll+Fields%5D+OR+%22Cynara+scolymus%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Cynara cardunculus\"[All Fields] OR \"Cynara scolymus\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  },
+  {
+    "scientific_name": "Senna alexandrina",
+    "query": "\"Senna alexandrina\"[All Fields] OR \"Cassia senna\"[All Fields] OR \"Cassia angustifolia\"[All Fields] OR \"Cassia acutifolia\"[All Fields]",
+    "article_count": 182,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Senna+alexandrina%22%5BAll+Fields%5D+OR+%22Cassia+senna%22%5BAll+Fields%5D+OR+%22Cassia+angustifolia%22%5BAll+Fields%5D+OR+%22Cassia+acutifolia%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Senna alexandrina\"[All Fields] OR \"Cassia senna\"[All Fields] OR \"Cassia angustifolia\"[All Fields] OR \"Cassia acutifolia\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  },
+  {
+    "scientific_name": "Plantago ovata",
+    "query": "\"Plantago ovata\"[All Fields]",
+    "article_count": 247,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Plantago+ovata%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Plantago ovata\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  },
+  {
+    "scientific_name": "Aloe vera",
+    "query": "\"Aloe vera\"[All Fields] OR \"Aloe barbadensis\"[All Fields]",
+    "article_count": 2957,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Aloe+vera%22%5BAll+Fields%5D+OR+%22Aloe+barbadensis%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Aloe vera\"[All Fields] OR \"Aloe barbadensis\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  },
+  {
+    "scientific_name": "Sabdariffa gossypiifolia",
+    "query": "\"Sabdariffa gossypiifolia\"[All Fields] OR \"Hibiscus sabdariffa\"[All Fields]",
+    "article_count": 862,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Sabdariffa+gossypiifolia%22%5BAll+Fields%5D+OR+%22Hibiscus+sabdariffa%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Hibiscus sabdariffa\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  },
+  {
+    "scientific_name": "Rosa canina",
+    "query": "\"Rosa canina\"[All Fields]",
+    "article_count": 342,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Rosa+canina%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Rosa canina\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  },
+  {
+    "scientific_name": "Pelargonium sidoides",
+    "query": "\"Pelargonium sidoides\"[All Fields]",
+    "article_count": 190,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Pelargonium+sidoides%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Pelargonium sidoides\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  },
+  {
+    "scientific_name": "Linum usitatissimum",
+    "query": "\"Linum usitatissimum\"[All Fields]",
+    "article_count": 1142,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Linum+usitatissimum%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Linum usitatissimum\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  },
+  {
+    "scientific_name": "Aesculus hippocastanum",
+    "query": "\"Aesculus hippocastanum\"[All Fields]",
+    "article_count": 322,
+    "retrieved_date": "2026-10-25",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Aesculus+hippocastanum%22%5BAll+Fields%5D&retmode=json&retmax=0",
+    "query_translation": "\"Aesculus hippocastanum\"[All Fields]",
+    "note": "Query-dependent PubMed search count, not number of clinical trials or efficacy evidence."
+  }
+]

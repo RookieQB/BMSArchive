@@ -1,0 +1,274 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:18384191 AND SRC:MED",
+    "internalQuery": "EXT_ID:18384191 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "18384191",
+        "source": "MED",
+        "pmid": "18384191",
+        "doi": "10.1002/ptr.2400",
+        "title": "A systematic review on the Rosa canina effect and efficacy profiles.",
+        "authorString": "Chrubasik C, Roufogalis BD, M\u00fcller-Ladner U, Chrubasik S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chrubasik C",
+              "lastName": "Chrubasik",
+              "firstName": "Cosima",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Forensic Medicine, University of Freiburg, Albertstr. 9, 79104 Freiburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Roufogalis BD",
+              "lastName": "Roufogalis",
+              "firstName": "Basil D",
+              "initials": "BD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9123-5478"
+              }
+            },
+            {
+              "fullName": "M\u00fcller-Ladner U",
+              "lastName": "M\u00fcller-Ladner",
+              "firstName": "Ulf",
+              "initials": "U"
+            },
+            {
+              "fullName": "Chrubasik S",
+              "lastName": "Chrubasik",
+              "firstName": "Sigrun",
+              "initials": "S"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9123-5478"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "22",
+          "journalIssueId": 1526090,
+          "dateOfPublication": "2008 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2008,
+          "journal": {
+            "medlineAbbreviation": "Phytother Res",
+            "title": "Phytotherapy research : PTR",
+            "essn": "1099-1573",
+            "issn": "0951-418X",
+            "isoabbreviation": "Phytother Res",
+            "nlmid": "8904486"
+          },
+          "printPublicationDate": "2008-06-01"
+        },
+        "pubYear": "2008",
+        "pageInfo": "725-733",
+        "abstractText": "Rose hip, rose hip and seed and rose hip seed, all were negatively monographed by the German Commission E due to insufficient evidence of effects and effectiveness. Therefore a comprehensive review of the literature was conducted to summarize the pharmacological and clinical effects of Rosa canina L. to reevaluate its usefulness in traditional medicine. For various preparations of rose hip and rose hip and seed, antioxidative and antiinflammatory effects have been demonstrated. Lipophilic constituents are involved in those mechanisms of action. The proprietary rose hip and seed powder Litozin has been employed successfully in a number of exploratory studies in patients suffering from osteoarthritis, rheumatoid arthritis and low back pain. However, the sizes of the clinical effects for the different indications need to be determined to assure clinical significance. There is also a rationale behind the use of Litozin as part of a hypocaloric diet based on the rose hip probiotic, stool regulating and smooth muscle-relaxing actions, as well as the rose hip seed lipid-lowering, antiobese and antiulcerogenic effects. Further research is needed to clarify the importance of the reported promising experimental effects in clinical use and to characterize the optimum rose hip seed oil preparation for topical use in the treatment of skin diseases.",
+        "affiliation": "Department of Forensic Medicine, University of Freiburg, Albertstr. 9, 79104 Freiburg, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Seeds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Inflammatory Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Inflammatory Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ptr.2400"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 103,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2008-07-28",
+        "dateOfCreation": "2008-04-04",
+        "dateOfRevision": "2025-06-23",
+        "firstPublicationDate": "2008-06-01",
+        "firstIndexDate": "2009-11-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

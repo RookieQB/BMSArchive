@@ -1,0 +1,350 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:24146345 AND SRC:MED",
+    "internalQuery": "EXT_ID:24146345 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "24146345",
+        "source": "MED",
+        "pmid": "24146345",
+        "pmcid": "PMC11835051",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11835051"
+          ]
+        },
+        "doi": "10.1002/14651858.cd006323.pub3",
+        "title": "Pelargonium sidoides extract for treating acute respiratory tract infections.",
+        "authorString": "Timmer A, G\u00fcnther J, Motschall E, R\u00fccker G, Antes G, Kern WV.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Timmer A",
+              "lastName": "Timmer",
+              "firstName": "Antje",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9579-0516"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Epidemiology, Leibniz Institute for Prevention Research and Epidemiology - BIPS GmbH, Achterstrasse 30, Bremen, Germany, 28359."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "G\u00fcnther J",
+              "lastName": "G\u00fcnther",
+              "firstName": "Judith",
+              "initials": "J"
+            },
+            {
+              "fullName": "Motschall E",
+              "lastName": "Motschall",
+              "firstName": "Edith",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7795-242X"
+              }
+            },
+            {
+              "fullName": "R\u00fccker G",
+              "lastName": "R\u00fccker",
+              "firstName": "Gerta",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2192-2560"
+              }
+            },
+            {
+              "fullName": "Antes G",
+              "lastName": "Antes",
+              "firstName": "Gerd",
+              "initials": "G"
+            },
+            {
+              "fullName": "Kern WV",
+              "lastName": "Kern",
+              "firstName": "Winfried V",
+              "initials": "WV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2550-358X"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7795-242X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9579-0516"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2192-2560"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2550-358X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "journalIssueId": 2472800,
+          "dateOfPublication": "2013 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Cochrane Database Syst Rev",
+            "title": "The Cochrane database of systematic reviews",
+            "essn": "1469-493X",
+            "issn": "1469-493X",
+            "nlmid": "100909747",
+            "isoabbreviation": "Cochrane Database Syst Rev"
+          },
+          "printPublicationDate": "2013-10-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "CD006323",
+        "abstractText": "<h4>Background</h4>Pelargonium sidoides (P. sidoides), also known as Umckaloabo, is a herbal remedy thought to be effective in the treatment of acute respiratory infections (ARIs).<h4>Objectives</h4>To assess the efficacy and safety of P. sidoides for the treatment of ARIs in children and adults.<h4>Search methods</h4>In April 2013 we searched MEDLINE, Journals@Ovid, The Cochrane Library, Biosis Previews, Web of Science, CINAHL, CCMed, XToxline, Global Health, AMED, Derwent Drug File and Backfile, IPA, ISTPB + ISTP/ISSHP, EMBASE, Cambase, LILACS, PubMed component \"Supplied by Publisher\", TRIPdatabase, the publisher databases: Deutsches \u00c4rzteblatt, Thieme, Springer, ScienceDirect from Elsevier. We conducted a cited reference search (forward) in Web of Science of relevant papers for inclusion. In addition we searched the study registries ClinicalTrials.gov, Deutsches Register klinischer Studien DRKS (German Clinical Trials Register), International Clinical Trials Registry Platform (ICTRP) - WHO ICTRP, Current Controlled Trials and EU Clinical Trials Register.<h4>Selection criteria</h4>Double-blind, randomized controlled trials (RCTs) examining the efficacy of P. sidoides preparations in ARIs compared to placebo or any other treatment. Complete resolution of all symptoms was defined as the primary outcome; in addition, we examined resolution of predefined key symptoms.<h4>Data collection and analysis</h4>At least two review authors (AT, JG, WK) independently extracted and quality scored the data. We performed separate analyses by age group and disease entity. Subanalysis considered type of preparation (liquid, tablets). We examined heterogeneity using the I(2) statistic. We calculated pooled risk ratios (RR) using a fixed-effect model if heterogeneity was absent (I(2) < 5%; P > 0.1), or a random-effects model in the presence of heterogeneity. If heterogeneity was substantial (I(2) > 50%; P < 0.10), a pooled effect was not calculated.<h4>Main results</h4>Of 10 eligible studies eight were included in the analyses; two were of insufficient quality. Three trials (746 patients, low quality of evidence) of efficacy in acute bronchitis in adults showed effectiveness for most outcomes in the liquid preparation but not for tablets. Three other trials (819 children, low quality of evidence) showed similar results for acute bronchitis in children. For both meta-analyses, we did not pool sub totals due to relevant heterogeneity induced by type of preparation.One study in patients with sinusitis (n = 103 adults, very low quality of evidence) showed significant treatment effects (complete resolution at day 21; RR 0.43, 95% confidence interval (CI) 0.30 to 0.62). One study in the common cold demonstrated efficacy after 10 days, but not five days (very low quality of evidence). We rated the study quality as moderate for all studies (unvalidated outcome assessment, minor attrition problems, investigator-initiated trials only). Based on the funnel plot there was suspicion of publication bias.There were no valid data for the treatment of other acute respiratory tract infections. Adverse events were more common with P. sidoides, but none were serious.<h4>Authors' conclusions</h4>P. sidoides may be effective in alleviating symptoms of acute rhinosinusitis and the common cold in adults, but doubt exists. It may be effective in relieving symptoms in acute bronchitis in adults and children, and sinusitis in adults. The overall quality of the evidence was considered low for main outcomes in acute bronchitis in children and adults, and very low for acute sinusitis and the common cold. Reliable data on treatment for other ARIs were not identified.",
+        "affiliation": "Clinical Epidemiology, Leibniz Institute for Prevention Research and Epidemiology - BIPS GmbH, Achterstrasse 30, Bremen, Germany, 28359.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Research Support, Non-U.S. Gov't",
+            "Systematic Review",
+            "systematic-review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pelargonium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Respiratory Tract Infections",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Common Cold",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bronchitis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sinusitis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acute Disease"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/14651858.CD006323.pub3"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11835051"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11835051?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/14651858.cd006323.pub3"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "18646148",
+              "reference": "Cochrane Database Syst Rev. 2008 Jul 16;(3):CD006323. doi: 10.1002/14651858.CD006323.pub2.",
+              "type": "Update of",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 66,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-04-28",
+        "dateOfCreation": "2013-10-23",
+        "dateOfRevision": "2026-09-24",
+        "electronicPublicationDate": "2013-10-22",
+        "firstPublicationDate": "2013-10-22",
+        "firstIndexDate": "2013-10-28",
+        "fullTextReceivedDate": "2025-11-28",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

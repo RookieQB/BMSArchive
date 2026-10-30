@@ -1,0 +1,1960 @@
+{
+  "query": "TITLE_ABS:\"Aloe vera\" AND (clinical trial OR randomized OR systematic review)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 567,
+    "nextCursorMark": "AoIIQPTySig1NjUwOTQ0MA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Aloe+vera%22+AND+%28clinical+trial+OR+randomized+OR+systematic+review%29&cursorMark=AoIIQPTySig1NjUwOTQ0MA%3D%3D&resultType=core&pageSize=8&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"Aloe vera\" AND (clinical trial OR randomized OR systematic review)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42490900",
+          "source": "MED",
+          "pmid": "42490900",
+          "pmcid": "PMC13375724",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13375724"
+            ]
+          },
+          "doi": "10.3389/fdmed.2026.1845683",
+          "title": "Clinical and radiographic outcomes of Aloe vera as a pulpotomy medicament in primary teeth: a systematic review.",
+          "authorString": "Uchil S, R M, Bhandary M, B S, Shetty U.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Uchil S",
+                "lastName": "Uchil",
+                "firstName": "Samiksha",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pediatric and Preventive Dentistry, AB Shetty Memorial Institute of Dental Sciences, NITTE (Deemed to be University), Mangalore, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "R M",
+                "lastName": "R",
+                "firstName": "Manju",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pediatric and Preventive Dentistry, AB Shetty Memorial Institute of Dental Sciences, NITTE (Deemed to be University), Mangalore, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bhandary M",
+                "lastName": "Bhandary",
+                "firstName": "Meghna",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pediatric and Preventive Dentistry, AB Shetty Memorial Institute of Dental Sciences, NITTE (Deemed to be University), Mangalore, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "B S",
+                "lastName": "B",
+                "firstName": "Sadhvi",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pediatric and Preventive Dentistry, AB Shetty Memorial Institute of Dental Sciences, NITTE (Deemed to be University), Mangalore, Karnataka, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shetty U",
+                "lastName": "Shetty",
+                "firstName": "Urvashi",
+                "initials": "U",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Oral Pathology, AB Shetty Memorial Institute of Dental Sciences, NITTE (Deemed to be University), Mangalore, Karnataka, India."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "7",
+            "journalIssueId": 4119144,
+            "dateOfPublication": "2026 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Front Dent Med",
+              "title": "Frontiers in dental medicine",
+              "essn": "2673-4915",
+              "issn": "2673-4915",
+              "nlmid": "101777956",
+              "isoabbreviation": "Front Dent Med"
+            },
+            "printPublicationDate": "2026-01-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "1845683",
+          "abstractText": "<h4>Introduction</h4>Pulpotomy is a common vital pulp therapy in primary molars aimed at preserving radicular pulp vitality until exfoliation. Concerns regarding the cytotoxicity and systemic effects of formocresol have prompted interest in biocompatible alternatives such as Aloe vera, which possesses anti-inflammatory, antimicrobial, and regenerative properties.<h4>Aim</h4>To evaluate the clinical and radiographic success of Aloe vera as a pulpotomy medicament in primary molars compared to conventional agents.<h4>Methods</h4>A systematic search of PubMed, Scopus and Web of Science was conducted in accordance with PRISMA guidelines. Randomized controlled trials evaluating Aloe vera as a pulpotomy medicament in primary molars were included. Risk of bias was assessed using the Cochrane RoB2 tool, and the certainty of evidence for primary outcomes was evaluated using the GRADE approach.<h4>Results</h4>Clinical success at 3-6 months was high (90%-100%) and comparable between groups. However, radiographic success was highly inconsistent; two major trials reported significantly lower success for Aloe vera (21.1% and 54.8%) compared to formocresol at 6-12 months.<h4>Conclusion</h4>Aloe vera demonstrates promising short-term clinical performance, but it showed less predictable radiographic outcomes and was inferior to standard comparators in some trials. Due to the Very Low certainty of evidence and high risk of bias in major studies, herbal agents cannot currently be recommended as definitive substitutes for formocresol or MTA.<h4>Systematic review registration</h4>https://www.crd.york.ac.uk/PROSPERO/view/CRD420251230179, PROSPERO, identifier CRD420251230179.",
+          "affiliation": "Department of Pediatric and Preventive Dentistry, AB Shetty Memorial Institute of Dental Sciences, NITTE (Deemed to be University), Mangalore, Karnataka, India.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "Systematic Review",
+              "systematic-review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Aloe vera",
+              "Pulpotomy",
+              "Vital Pulp Therapy",
+              "Primary Molars",
+              "Formocresol Alternative"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3389/fdmed.2026.1845683"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13375724"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13375724?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-23",
+          "dateOfCreation": "2026-07-23",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-07-03",
+          "firstPublicationDate": "2026-07-03",
+          "firstIndexDate": "2026-07-23",
+          "fullTextReceivedDate": "2026-09-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42453492",
+          "source": "MED",
+          "pmid": "42453492",
+          "pmcid": "PMC13366207",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13366207"
+            ]
+          },
+          "doi": "10.1155/ijod/4088662",
+          "title": "Comparative Evaluation of Locally Delivered &lt;i&gt;Aloe vera&lt;/i&gt; Gel as an Adjunct to Scaling and Root Planing in Patients With Periodontitis: A Randomized Clinical Trial.",
+          "authorString": "Boloor V, Siraj BW, Kashyap R, Jenifer H, Prathap S, Naeem A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Boloor V",
+                "lastName": "Boloor",
+                "firstName": "Vinita",
+                "initials": "V",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0456-9320"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Periodontology, Yenepoya Dental College, Yenepoya (Deemed to be University), Mangaluru, Karnataka, India, yenepoya.edu.in."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Siraj BW",
+                "lastName": "Siraj",
+                "firstName": "Belim Wasim",
+                "initials": "BW",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6750-8226"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Periodontology, Yenepoya Dental College, Yenepoya (Deemed to be University), Mangaluru, Karnataka, India, yenepoya.edu.in."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kashyap R",
+                "lastName": "Kashyap",
+                "firstName": "Rajesh",
+                "initials": "R",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4030-8128"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Periodontology, Yenepoya Dental College, Yenepoya (Deemed to be University), Mangaluru, Karnataka, India, yenepoya.edu.in."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jenifer H",
+                "lastName": "Jenifer",
+                "firstName": "Haziel",
+                "initials": "H",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8865-3254"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Periodontology, Yenepoya Dental College, Yenepoya (Deemed to be University), Mangaluru, Karnataka, India, yenepoya.edu.in."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Prathap S",
+                "lastName": "Prathap",
+                "firstName": "Shruthy",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9983-0693"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Periodontology, Yenepoya Dental College, Yenepoya (Deemed to be University), Mangaluru, Karnataka, India, yenepoya.edu.in."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Naeem A",
+                "lastName": "Naeem",
+                "firstName": "Abdul",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Periodontology, Yenepoya Dental College, Yenepoya (Deemed to be University), Mangaluru, Karnataka, India, yenepoya.edu.in."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9983-0693"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0456-9320"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4030-8128"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6750-8226"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8865-3254"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "2026",
+            "journalIssueId": 4084948,
+            "dateOfPublication": "2026 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Int J Dent",
+              "title": "International journal of dentistry",
+              "essn": "1687-8736",
+              "issn": "1687-8728",
+              "nlmid": "101524183",
+              "isoabbreviation": "Int J Dent"
+            },
+            "printPublicationDate": "2026-01-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "4088662",
+          "abstractText": "<h4>Background</h4>Herbal adjuncts have gained increasing interest in nonsurgical periodontal therapy because of their anti-inflammatory, antimicrobial, and wound-healing properties. <i>Aloe vera</i> has been explored as a locally delivered therapeutic agent owing to its biological activity and favorable safety profile.<h4>Aim</h4>To evaluate the clinical efficacy of locally delivered <i>Aloe vera</i> gel as an adjunct to scaling and root planing (SRP) in patients with Stage II-III, Grade B periodontitis.<h4>Materials and methods</h4>This randomized split-mouth clinical trial included systemically healthy patients diagnosed with Stage II-III, Grade B periodontitis. Selected periodontal sites were randomly assigned to receive either SRP with adjunctive subgingival application of locally prepared <i>Aloe vera</i> gel or SRP alone. Clinical parameters including plaque index (PI), gingival index (GI), probing pocket depth (PPD), and clinical attachment level (CAL) were recorded at baseline and at 15, 30, and 45 days. An artificial intelligence-assisted evidence mapping analysis was additionally performed as a supplementary exploratory approach to contextualize the clinical findings within the existing periodontal literature.<h4>Results</h4>Both treatment groups demonstrated statistically significant improvement in all clinical parameters over the study period. At 45 days, sites treated with adjunctive <i>Aloe vera</i> gel showed greater reduction in PPD and greater gain in CAL compared with sites treated with SRP alone.<h4>Conclusion</h4>Adjunctive subgingival application of locally prepared <i>Aloe vera</i> gel may improve short-term clinical periodontal outcomes when used alongside conventional nonsurgical periodontal therapy. These findings support its potential role as a safe and economical adjunctive therapeutic option.",
+          "affiliation": "Department of Periodontology, Yenepoya Dental College, Yenepoya (Deemed to be University), Mangaluru, Karnataka, India, yenepoya.edu.in.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1155/ijod/4088662"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13366207"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13366207?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-15",
+          "dateOfCreation": "2026-07-15",
+          "dateOfRevision": "2026-09-26",
+          "electronicPublicationDate": "2026-07-14",
+          "firstPublicationDate": "2026-07-14",
+          "firstIndexDate": "2026-07-16",
+          "fullTextReceivedDate": "2026-09-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PMC13302088",
+          "source": "PMC",
+          "pmcid": "PMC13302088",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13302088"
+            ]
+          },
+          "title": "The Potential of Aloe vera as a Caries Prevention Agent in the Future: A Scoping Review",
+          "authorString": "Irmaleny I, Nurdin D, Primathena I, Ghani H.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Irmaleny I",
+                "lastName": "Irmaleny",
+                "firstName": "Irmaleny",
+                "initials": "I",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Conservative Dentistry, Faculty of Dentistry, Universitas Padjadjaran, Bandung 40132, Indonesia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nurdin D",
+                "lastName": "Nurdin",
+                "firstName": "Denny",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Conservative Dentistry, Faculty of Dentistry, Universitas Padjadjaran, Bandung 40132, Indonesia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Primathena I",
+                "lastName": "Primathena",
+                "firstName": "Indra",
+                "initials": "I",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Conservative Dentistry, Faculty of Dentistry, Universitas Padjadjaran, Bandung 40132, Indonesia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ghani H",
+                "lastName": "Ghani",
+                "firstName": "Huwaina Abd",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Restorative Dentistry and Endodontic, School of Dental Sciences, Health Campus, Universiti Sains Malaysia, Kota Bharu 16150, Malaysia"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "12",
+            "volume": "15",
+            "journalIssueId": 4221242,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "J Clin Med",
+              "title": "Journal of clinical medicine",
+              "essn": "2077-0383",
+              "issn": "2077-0383",
+              "nlmid": "101606588",
+              "isoabbreviation": "J Clin Med"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "language": "eng",
+          "pubModel": "Undetermined",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Aloe vera",
+              "dental caries",
+              "Dentistry",
+              "Caries Prevention"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "PubMedCentral",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13302088/?tool=EBI"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "PubMedCentral",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13302088/pdf/?tool=EBI"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13302088"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13302088?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2026-06-26",
+          "dateOfRevision": "2026-06-26",
+          "electronicPublicationDate": "2026-06-01",
+          "firstPublicationDate": "2026-06-01",
+          "firstIndexDate": "2026-06-26",
+          "fullTextReceivedDate": "2026-06-26",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42356420",
+          "source": "MED",
+          "pmid": "42356420",
+          "pmcid": "PMC13304867",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13304867"
+            ]
+          },
+          "doi": "10.3390/nu18122034",
+          "title": "Phytochemistry, Bioavailability, and Molecular Mechanisms Underlying Multitarget Anticancer Activity of &lt;i&gt;Aloe vera&lt;/i&gt;.",
+          "authorString": "Haroon N, Amjad A, Maaz M, Noman AM, Anees N, Muhammad Z, Shah M, Abdulmonem WA.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Haroon N",
+                "lastName": "Haroon",
+                "firstName": "Nimra",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Amjad A",
+                "lastName": "Amjad",
+                "firstName": "Adnan",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5288-8038"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Maaz M",
+                "lastName": "Maaz",
+                "firstName": "Muhammad",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0009-2254-4256"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Noman AM",
+                "lastName": "Noman",
+                "firstName": "Ahmad Mujtaba",
+                "initials": "AM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7559-0338"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Anees N",
+                "lastName": "Anees",
+                "firstName": "Nimra",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-3450-4930"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Muhammad Z",
+                "lastName": "Muhammad",
+                "firstName": "Zafarullah",
+                "initials": "Z",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Agriculture and Food Engineering, Baise University, Baise City 533000, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shah M",
+                "lastName": "Shah",
+                "firstName": "Mohibullah",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6126-7102"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biochemistry, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abdulmonem WA",
+                "lastName": "Abdulmonem",
+                "firstName": "Waleed Al",
+                "initials": "WA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2984-9262"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pathology, College of Medicine, Qassim University, Buraidah 51411, Saudi Arabia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5288-8038"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6126-7102"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7559-0338"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2984-9262"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0005-3450-4930"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0009-2254-4256"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "12",
+            "volume": "18",
+            "journalIssueId": 4222012,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Nutrients",
+              "title": "Nutrients",
+              "essn": "2072-6643",
+              "issn": "2072-6643",
+              "nlmid": "101521595",
+              "isoabbreviation": "Nutrients"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "2034",
+          "abstractText": "<b>Background/Objectives</b>: Cancer, a multifactorial disease with uncontrolled cell growth, oxidative stress, inflammation, genomic instability, and molecular signaling pathways, is a global health concern, leading to the ~20 million newly diagnosed cases annually. Although conventional therapy has been shown to enhance the survival rates of cancer patients, its clinical efficacy is limited by certain side effects that occur as a result of treatment, thus necessitating the exploration of plant-derived bioactive compounds for their potential as safer and alternative supportive therapeutic agents. <i>Aloe vera</i>, known as the plant of immortality, comprises phytochemicals, such as anthraquinones (aloe-emodin, emodin, and aloin), polysaccharides (acemannan), flavonoids, and phenolic acids, which contribute to the pharmacological effect of the compound. <b>Methods</b>: This review summarizes the anticancer potential of <i>Aloe vera</i>, and the data were retrieved from databases, such as PubMed, Google Scholar, ScienceDirect, Web of Science, and Wiley Online Library, during the time period of 2015 to 2025. <b>Results</b>: The literature revealed that <i>Aloe vera</i> and its bioactive compounds have dose-dependent cytotoxic and anti-proliferative properties against hepatocellular, cervical, colorectal, lung, breast, prostate, and hematological cancers, which are significantly mediated by apoptosis and pyroptosis induction, reactive oxygen species (ROS) production, mitochondrial dysfunction, inhibition of angiogenesis and metastasis, and the modulation of key signaling pathways, particularly PI3K/Akt, MAPK, NF-\u043aB, p53, and Wnt/\u03b2-catenin. Furthermore, anthraquinones, including Aloe-emodin, demonstrate potent anticancer effects at micro-molar doses, and polysaccharides increase immune reactions and provide tumor immunity. <b>Conclusions</b>: Conclusively, <i>Aloe vera</i> is a promising multi-target natural compound, particularly efficient in the treatment of cancer. However, despite significant therapeutic potential, more research on pharmacokinetics, standard dose, and controlled clinical trials of <i>Aloe vera</i> is required to validate clinical applicability.",
+          "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Aloe",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antineoplastic Agents, Phytogenic",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Signal Transduction",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Biological Availability"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Phytochemicals",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Oxidative stress",
+              "Bioavailability",
+              "Aloe vera",
+              "Aloe-emodin",
+              "Anticancer activity",
+              "Phytochemicals",
+              "Molecular Signaling Pathways",
+              "Natural Therapeutics"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antineoplastic Agents, Phytogenic",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Phytochemicals",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/nu18122034"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13304867"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13304867?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-26",
+          "dateOfCreation": "2026-06-26",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-22",
+          "firstPublicationDate": "2026-06-22",
+          "firstIndexDate": "2026-06-27",
+          "fullTextReceivedDate": "2026-08-19",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42317150",
+          "source": "MED",
+          "pmid": "42317150",
+          "pmcid": "PMC13280788",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13280788"
+            ]
+          },
+          "doi": "10.3290/j.ohpd.c_2697",
+          "title": "Natural Agents for the Improvement of Gingival Health: Systematic Review and Meta-Analysis of Randomized Clinical Trials.",
+          "authorString": "Meyer F, Mohammed ZS, Deschner J, Enax J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Meyer F",
+                "lastName": "Meyer",
+                "firstName": "Frederic",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Frederic Meyer Senior Scientist, Research Department, Dr. Kurt Wolff GmbH & Co. KG, Bielefeld, Germany. Conceived and designed the study, performed the study, data acquisition, data analysis, wrote the manuscript."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mohammed ZS",
+                "lastName": "Mohammed",
+                "firstName": "Zubaida Selva",
+                "initials": "ZS"
+              },
+              {
+                "fullName": "Deschner J",
+                "lastName": "Deschner",
+                "firstName": "James",
+                "initials": "J"
+              },
+              {
+                "fullName": "Enax J",
+                "lastName": "Enax",
+                "firstName": "Joachim",
+                "initials": "J"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "24",
+            "journalIssueId": 4218401,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Oral Health Prev Dent",
+              "title": "Oral health & preventive dentistry",
+              "essn": "1757-9996",
+              "issn": "1602-1622",
+              "nlmid": "101167768",
+              "isoabbreviation": "Oral Health Prev Dent"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "417-423",
+          "abstractText": "<h4>Purpose</h4>This systematic review and meta-analysis evaluated the efficacy of natural ingredients used in toothpastes and gels in improving gingival health.<h4>Materials and methods</h4>A comprehensive search strategy using different databases was conducted in accordance with PRISMA guidelines to identify randomized clinical trials (RCTs) on the use of natural ingredients for improving gingival health. Included studies focussed on outcomes measuring gingival health parameters, such as gingival index (GI), or bleeding on probing (BoP). Out of 249 identified studies, 10 RCTs met the inclusion criteria. Formulations included natural ingredients from plant extracts such as Aloe vera or Pudilan, and hydroxyapatite (as tooth-like calcium phosphate).<h4>Results</h4>The meta-analysis demonstrated a statistically significant improvement in gingival health when natural ingredients were used compared to control toothpastes and gels (p=0.0051). These findings suggest that natural ingredients may offer comparable or superior efficacy to conventional oral care products in terms of gingival health. Notably, Aloe vera and hydroxyapatite consistently demonstrated clinical benefits.<h4>Conclusions</h4>Natural ingredients used in oral care products represent a promising strategy in gingivitis prevention and management. Their use in toothpastes and gels may therefore provide clinicians and patients with evidence-based, well-tolerated alternatives or adjuncts to conventional formulations for maintaining and improving gingival health.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Meta-Analysis",
+              "research-article",
+              "Systematic Review",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Gingiva",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Aloe"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Gingivitis",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PC",
+                      "qualifierName": "prevention & control"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Durapatite",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Gels"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Phytotherapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Periodontal Index"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Randomized Controlled Trials as Topic"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Toothpastes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "clinical study",
+              "Toothpaste",
+              "Gingival Health",
+              "Natural Agent"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Gels",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Toothpastes",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Durapatite",
+                "registryNumber": "91D9GV0Z28"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3290/j.ohpd.c_2697"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13280788"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13280788?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-19",
+          "dateOfCreation": "2026-06-19",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-19",
+          "firstPublicationDate": "2026-06-19",
+          "firstIndexDate": "2026-06-20",
+          "fullTextReceivedDate": "2026-06-24",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42428186",
+          "source": "MED",
+          "pmid": "42428186",
+          "pmcid": "PMC13347676",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13347676"
+            ]
+          },
+          "doi": "10.7759/cureus.110516",
+          "title": "Early Physiological Markers of Wound Healing as Potential Prognostic Markers of Long-Term Patient Satisfaction After Upper Eyelid Blepharoplasty: A Comparative Analysis of Aloe Vera Versus Untreated Controls.",
+          "authorString": "Hayo A, Khalil A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Hayo A",
+                "lastName": "Hayo",
+                "firstName": "Abdullah",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Research and Development, Latakia University, Lattakia, SYR."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Khalil A",
+                "lastName": "Khalil",
+                "firstName": "Ali",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oral and Maxillofacial Surgery, Manara University, Lattakia, SYR."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "18",
+            "journalIssueId": 4206252,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Cureus",
+              "title": "Cureus",
+              "essn": "2168-8184",
+              "issn": "2168-8184",
+              "nlmid": "101596737",
+              "isoabbreviation": "Cureus"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "e110516",
+          "abstractText": "Background While topical Aloe Vera has been shown to improve wound healing following upper eyelid blepharoplasty, it remains unknown which early physiological markers of healing best predict long-term patient satisfaction. Identifying such predictors could help surgeons counsel patients and optimize postoperative protocols. Objective The objective of this study is to determine which early wound-healing parameters (vascularity, pigmentation, pliability, and height) measured at one week postoperatively are most strongly associated with patient satisfaction at three months after upper eyelid blepharoplasty\u00a0and to compare these associations between Aloe Vera-treated and untreated wounds. Methods This was a secondary analysis of data from a split-face, assessor-blinded, randomized controlled trial involving 10 patients (20 surgical sites) undergoing bilateral upper eyelid blepharoplasty. One eyelid received topical Aloe Vera gel once daily for seven days postoperatively; the contralateral side served as an untreated control. Scar characteristics were assessed using the modified Vancouver Scar Scale (mVSS) at one week and three months. Patient satisfaction was measured using a five-point Likert scale at three months. Spearman's rank correlation coefficients were calculated to examine associations between early (one week) mVSS parameters and late (three months) satisfaction. Multivariable ordinal logistic regression was performed to identify independent\u00a0prognostic markers\u00a0of satisfaction. Results In Aloe Vera-treated wounds, the total mVSS score at one week showed a very strong negative correlation with patient satisfaction at three months (r = -0.88; P = 0.002). Among individual parameters, vascularity at one week demonstrated the strongest correlation with subsequent satisfaction (r = -0.82; P = 0.004), followed by pigmentation (r = -0.79; P = 0.009). In untreated control wounds, correlations were weaker and non-significant for most parameters (P > 0.05 for all comparisons). Conclusion Early physiological response to Aloe Vera therapy, particularly reduction in vascularity and pigmentation within the first postoperative week, is strongly associated with patient satisfaction at three months following upper eyelid blepharoplasty. These findings provide surgeons with evidence-based prognostic markers for counseling patients and suggest that early wound appearance may serve as a reliable indicator of final aesthetic outcomes when Aloe Vera is used as an adjunctive therapy.",
+          "affiliation": "Research and Development, Latakia University, Lattakia, SYR.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Wound healing",
+              "Aloe vera",
+              "Blepharoplasty",
+              "Vancouver Scar Scale",
+              "Patient Satisfaction Scale"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.7759/cureus.110516"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13347676"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13347676?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-10",
+          "dateOfCreation": "2026-07-10",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-09",
+          "firstPublicationDate": "2026-06-09",
+          "firstIndexDate": "2026-07-10",
+          "fullTextReceivedDate": "2026-09-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42795264",
+          "source": "MED",
+          "pmid": "42795264",
+          "pmcid": "PMC13608851",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13608851"
+            ]
+          },
+          "doi": "10.3390/life16091397",
+          "title": "Cardioprotective Effects of &lt;i&gt;Aloe vera&lt;/i&gt;-Derived Bioactive Compounds in Myocardial Infarction: A Preclinical Review of Mechanisms and Dosages.",
+          "authorString": "Al-Rawahi N, Abduwani A, Alhabsi AN, Al Lawati A, Al Lawati H, Das S.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Al-Rawahi N",
+                "lastName": "Al-Rawahi",
+                "firstName": "Nouf",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0001-3056-0629"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human & Clinical Anatomy, College of Medicine & Health Sciences, Sultan Qaboos University, Al Khoud, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abduwani A",
+                "lastName": "Abduwani",
+                "firstName": "Ali",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0006-5595-3521"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human & Clinical Anatomy, College of Medicine & Health Sciences, Sultan Qaboos University, Al Khoud, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alhabsi AN",
+                "lastName": "Alhabsi",
+                "firstName": "Ayman N",
+                "initials": "AN",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0001-6240-5738"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, Royal College of Surgeons, D02 YN77 Dublin, Ireland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Al Lawati A",
+                "lastName": "Al Lawati",
+                "firstName": "Abdullah",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5650-6620"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Surgery, Sultan Qaboos University Hospital, Al Khoudh, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Al Lawati H",
+                "lastName": "Al Lawati",
+                "firstName": "Hanan",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacy Program, Oman College of Health Sciences, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Das S",
+                "lastName": "Das",
+                "firstName": "Srijit",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8302-7257"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human & Clinical Anatomy, College of Medicine & Health Sciences, Sultan Qaboos University, Al Khoud, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8302-7257"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5650-6620"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0001-3056-0629"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0001-6240-5738"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0006-5595-3521"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "9",
+            "volume": "16",
+            "journalIssueId": 4270450,
+            "dateOfPublication": "2026 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Life (Basel)",
+              "title": "Life (Basel, Switzerland)",
+              "essn": "2075-1729",
+              "issn": "2075-1729",
+              "nlmid": "101580444",
+              "isoabbreviation": "Life (Basel)"
+            },
+            "printPublicationDate": "2026-08-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "1397",
+          "abstractText": "Myocardial infarction (MI) is characterized by sudden cardiomyocyte death due to impaired blood supply and remains a leading cause of mortality despite advances in management. <i>Aloe vera</i>, a plant rich in over 75 bioactive compounds, including vitamins, minerals, polysaccharides, and anthraquinones, has been widely used in traditional medicine and modern healthcare. Increasing evidence supports its cardioprotective potential through multiple mechanisms. <i>Aloe vera</i> and its derivatives have demonstrated antioxidative, anti-apoptotic, anti-inflammatory, antimicrobial, immunomodulatory, and vasodilatory effects relevant to MI pathophysiology. Compounds such as aloe-emodin, emodin, aloin, barbaloin, and selenium-enriched polysaccharides have been shown to modulate pathways including Nrf2/HO-1, TGF-\u03b2/SMAD, ERK, ferroptosis inhibition, ionic pump activity, and microRNA regulation. These molecular effects translate into reductions in oxidative damage, apoptotic signaling, inflammatory cytokine release, calcium imbalance, and creatine kinase/LDH leakage, while preserving myocardial structure and function in preclinical models. Collectively, preclinical studies suggest the potential cardioprotective effects of <i>Aloe vera</i>-derived preparations and compounds; however, robust clinical evidence in myocardial infarction is lacking, and their therapeutic relevance remains uncertain.",
+          "affiliation": "Department of Human & Clinical Anatomy, College of Medicine & Health Sciences, Sultan Qaboos University, Al Khoud, Muscat 123, Oman.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Antioxidant",
+              "Myocardial infarction",
+              "Aloe vera",
+              "cardiovascular"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/life16091397"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13608851"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13608851?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-09-26",
+          "dateOfCreation": "2026-09-26",
+          "dateOfRevision": "2026-09-29",
+          "electronicPublicationDate": "2026-08-24",
+          "firstPublicationDate": "2026-08-24",
+          "firstIndexDate": "2026-09-28",
+          "fullTextReceivedDate": "2026-09-25",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42794916",
+          "source": "MED",
+          "pmid": "42794916",
+          "pmcid": "PMC13604403",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13604403"
+            ]
+          },
+          "doi": "10.3390/cancers18182949",
+          "title": "Non-Pharmacological Treatments for Oral Carcinogenesis: From Oral Lichen Planus to Oral Squamous Cell Carcinoma.",
+          "authorString": "Re F, Scilla F, Labanca M, Russo D, Gioco G, Favero G, Rezzani R.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Re F",
+                "lastName": "Re",
+                "firstName": "Federica",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4219-8695"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical and Experimental Sciences, Universit\u00e0 di Brescia, 25123 Brescia, Italy."
+                    },
+                    {
+                      "affiliation": "Unit of Blood Diseases and Bone Marrow Transplant, Department of Clinical and Experimental Sciences, Universit\u00e0 di Brescia, ASST Spedali Civili, 25123 Brescia, Italy."
+                    },
+                    {
+                      "affiliation": "Interdepartmental University Center of Research \"Adaption and Regeneration of Tissues and Organs (ARTO)\", Universit\u00e0 di Brescia, 25123 Brescia, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Scilla F",
+                "lastName": "Scilla",
+                "firstName": "Francesco",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0000-6418-1320"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Interdepartmental University Center of Research \"Adaption and Regeneration of Tissues and Organs (ARTO)\", Universit\u00e0 di Brescia, 25123 Brescia, Italy."
+                    },
+                    {
+                      "affiliation": "Head and Neck Department, Fondazione Policlinico Universitario A. Gemelli-IRCCS, School of Dentistry, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Labanca M",
+                "lastName": "Labanca",
+                "firstName": "Mauro",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical and Experimental Sciences, Universit\u00e0 di Brescia, 25123 Brescia, Italy."
+                    },
+                    {
+                      "affiliation": "Interdepartmental University Center of Research \"Adaption and Regeneration of Tissues and Organs (ARTO)\", Universit\u00e0 di Brescia, 25123 Brescia, Italy."
+                    },
+                    {
+                      "affiliation": "Italian Society for the Study of Orofacial Pain (Societ\u00e0 Italiana Studio Dolore Orofacciale-SISDO), 25123 Brescia, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Russo D",
+                "lastName": "Russo",
+                "firstName": "Domenico",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Unit of Blood Diseases and Bone Marrow Transplant, Department of Clinical and Experimental Sciences, Universit\u00e0 di Brescia, ASST Spedali Civili, 25123 Brescia, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gioco G",
+                "lastName": "Gioco",
+                "firstName": "Gioele",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8637-2029"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Head and Neck Department, Fondazione Policlinico Universitario A. Gemelli-IRCCS, School of Dentistry, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Favero G",
+                "lastName": "Favero",
+                "firstName": "Gaia",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6895-7106"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical and Experimental Sciences, Universit\u00e0 di Brescia, 25123 Brescia, Italy."
+                    },
+                    {
+                      "affiliation": "Interdepartmental University Center of Research \"Adaption and Regeneration of Tissues and Organs (ARTO)\", Universit\u00e0 di Brescia, 25123 Brescia, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rezzani R",
+                "lastName": "Rezzani",
+                "firstName": "Rita",
+                "initials": "R",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7515-5846"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical and Experimental Sciences, Universit\u00e0 di Brescia, 25123 Brescia, Italy."
+                    },
+                    {
+                      "affiliation": "Interdepartmental University Center of Research \"Adaption and Regeneration of Tissues and Organs (ARTO)\", Universit\u00e0 di Brescia, 25123 Brescia, Italy."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6895-7106"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7515-5846"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8637-2029"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4219-8695"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0000-6418-1320"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "18",
+            "volume": "18",
+            "journalIssueId": 4265245,
+            "dateOfPublication": "2026 Sep",
+            "monthOfPublication": 9,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Cancers (Basel)",
+              "title": "Cancers",
+              "essn": "2072-6694",
+              "issn": "2072-6694",
+              "nlmid": "101526829",
+              "isoabbreviation": "Cancers (Basel)"
+            },
+            "printPublicationDate": "2026-09-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "2949",
+          "abstractText": "Oral lichen planus (OLP) is a chronic, immune-mediated inflammatory disorder of the oral mucosa recognized as an oral potentially malignant disorder, with a pooled malignant transformation rate of approximately 1-1.4% that is highest in atrophic-erosive and tongue lesions. Its most feared outcome, oral squamous cell carcinoma (OSCC), remains associated with a 5-year survival below 50% and a substantial clinical, functional, and economic burden. Because conventional management, like topical corticosteroids for OLP and surgery with or without radiotherapy for OSCC, entails cumulative toxicity and limited long-term efficacy, non-pharmacological strategies are attracting growing interest. This narrative review critically appraises the available evidence across the OLP-to-OSCC continuum, examining high-power ablative lasers, low-level laser therapy/photobiomodulation, photodynamic therapy, nutraceutical and phytotherapeutic agents (including melatonin, curcumin, aloe vera, coconut, zinc, and vitamin D), cryotherapy, ozone therapy, probiotics, and psychological interventions, alongside supportive measures in OSCC such as oral hygiene management, photobiomodulation for treatment-related toxicity, and post-treatment rehabilitation. Evidence is strongest and most consistent for photobiomodulation in OLP, whereas most other modalities remain promising but limited by small samples, heterogeneous protocols, and scarce placebo-controlled data. A multidisciplinary, evidence-graded approach is essential to optimize early detection, disease control, and quality of life.",
+          "affiliation": "Department of Clinical and Experimental Sciences, Universit\u00e0 di Brescia, 25123 Brescia, Italy.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Interdepartmental University Center of Research \"Adaption and Regeneration of Tissues and Organs-(ARTO)\", Universit\u00e0 di Brescia",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Photodynamic therapy",
+              "Oral lichen planus",
+              "Oral Squamous Cell Carcinoma",
+              "Nutraceuticals",
+              "Photobiomodulation",
+              "Non-pharmacological Therapies",
+              "Oral Carcinogenesis",
+              "Oral Potentially Malignant Disorders",
+              "Oral Hygiene Management"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/cancers18182949"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13604403"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13604403?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-09-26",
+          "dateOfCreation": "2026-09-26",
+          "dateOfRevision": "2026-09-29",
+          "electronicPublicationDate": "2026-09-11",
+          "firstPublicationDate": "2026-09-11",
+          "firstIndexDate": "2026-09-28",
+          "fullTextReceivedDate": "2026-09-25",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

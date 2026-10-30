@@ -1,0 +1,386 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:22336851 AND SRC:MED",
+    "internalQuery": "EXT_ID:22336851 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "22336851",
+        "source": "MED",
+        "pmid": "22336851",
+        "pmcid": "PMC9943919",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9943919"
+          ]
+        },
+        "doi": "10.1002/14651858.cd008762.pub2",
+        "title": "Aloe vera for treating acute and chronic wounds.",
+        "authorString": "Dat AD, Poon F, Pham KB, Doust J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dat AD",
+              "lastName": "Dat",
+              "firstName": "Anthony D",
+              "initials": "AD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-4970-6027"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Health Sciences and Medicine, Bond University, Gold Coast, Australia. adat@student.bond.edu.au"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Poon F",
+              "lastName": "Poon",
+              "firstName": "Flora",
+              "initials": "F"
+            },
+            {
+              "fullName": "Pham KB",
+              "lastName": "Pham",
+              "firstName": "Kim B T",
+              "initials": "KB"
+            },
+            {
+              "fullName": "Doust J",
+              "lastName": "Doust",
+              "firstName": "Jenny",
+              "initials": "J"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0009-0008-4970-6027"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "journalIssueId": 2470773,
+          "dateOfPublication": "2012 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Cochrane Database Syst Rev",
+            "title": "The Cochrane database of systematic reviews",
+            "essn": "1469-493X",
+            "issn": "1469-493X",
+            "isoabbreviation": "Cochrane Database Syst Rev",
+            "nlmid": "100909747"
+          },
+          "printPublicationDate": "2012-02-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "CD008762",
+        "abstractText": "<h4>Background</h4>Aloe vera is a cactus-like perennial succulent belonging to the Liliaceae Family that is commonly grown in tropical climates. Animal studies have suggested that Aloe vera may help accelerate the wound healing process.<h4>Objectives</h4>To determine the effects of Aloe vera-derived products (for example dressings and topical gels) on the healing of acute wounds (for example lacerations, surgical incisions and burns) and chronic wounds (for example infected wounds, arterial and venous ulcers).<h4>Search methods</h4>We searched the Cochrane Wounds Group Specialised Register (9 September 2011), the Cochrane Central Register of Controlled Trials (CENTRAL) (The Cochrane Library 2011, Issue 3), Ovid MEDLINE (2005 to August Week 5 2011), Ovid MEDLINE (In-Process & Other Non-Indexed Citations 8 September 2011), Ovid EMBASE (2007 to 2010 Week 35), Ovid AMED (1985 to September 2011) and EBSCO CINAHL (1982 to 9 September 2011). We did not apply date or language restrictions.<h4>Selection criteria</h4>We included all randomised controlled trials that evaluated the effectiveness of Aloe vera, aloe-derived products and a combination of Aloe vera and other dressings as a treatment for acute or chronic wounds. There was no restriction in terms of source, date of publication or language. An objective measure of wound healing (either proportion of completely healed wounds or time to complete healing) was the primary endpoint.<h4>Data collection and analysis</h4>Two review authors independently carried out trial selection, data extraction and risk of bias assessment, checked by a third review author.<h4>Main results</h4>Seven trials were eligible for inclusion, comprising a total of 347 participants. Five trials in people with acute wounds evaluated the effects of Aloe vera on burns, haemorrhoidectomy patients and skin biopsies. Aloe vera mucilage did not increase burn healing compared with silver sulfadiazine (risk ratio (RR) 1.41, 95% confidence interval (CI) 0.70 to 2.85). A reduction in healing time with Aloe vera was noted after haemorrhoidectomy (RR 16.33 days, 95% CI 3.46 to 77.15) and there was no difference in the proportion of patients completely healed at follow up after skin biopsies. In people with chronic wounds, one trial found no statistically significant difference in pressure ulcer healing with Aloe vera (RR 0.10, 95% CI -1.59 to 1.79) and in a trial of surgical wounds healing by secondary intention Aloe vera significantly delayed healing (mean difference 30 days, 95% CI 7.59 to 52.41). Clinical heterogeneity precluded meta-analysis. The poor quality of the included trials indicates that the trial results must be viewed with extreme caution as they have a high risk of bias.<h4>Authors' conclusions</h4>There is currently an absence of high quality clinical trial evidence to support the use of Aloe vera topical agents or Aloe vera dressings as treatments for acute and chronic wounds.",
+        "affiliation": "Faculty of Health Sciences and Medicine, Bond University, Gold Coast, Australia. adat@student.bond.edu.au",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Systematic Review",
+            "systematic-review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Skin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Aloe"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hemorrhoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SU",
+                    "qualifierName": "surgery"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Wounds and Injuries",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Burns",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acute Disease"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chronic Disease"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Silver Sulfadiazine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Framycetin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gels"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Infective Agents, Local",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biopsy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Bandages"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Wound Healing",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pressure Ulcer",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Infective Agents, Local",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Gels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Silver Sulfadiazine",
+              "registryNumber": "W46JY43EJR"
+            },
+            {
+              "name": "Framycetin",
+              "registryNumber": "4BOC774388"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/14651858.CD008762.pub2"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9943919"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9943919?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/14651858.cd008762.pub2"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "25351761",
+              "reference": "Sao Paulo Med J. 2014 Dec;132(6):382. doi: 10.1590/1516-3180.20141326t1.",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 44,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2012-05-23",
+        "dateOfCreation": "2012-02-17",
+        "dateOfRevision": "2025-06-26",
+        "electronicPublicationDate": "2012-02-15",
+        "firstPublicationDate": "2012-02-15",
+        "firstIndexDate": "2012-02-17",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

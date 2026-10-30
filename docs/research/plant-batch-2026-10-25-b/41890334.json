@@ -1,0 +1,184 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:41890334 AND SRC:MED",
+    "internalQuery": "EXT_ID:41890334 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41890334",
+        "source": "MED",
+        "pmid": "41890334",
+        "pmcid": "PMC13013544",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13013544"
+          ]
+        },
+        "doi": "10.47895/amp.vi0.12322",
+        "title": "Short-term Liver Safety of &lt;i&gt;Pelargonium sidoides&lt;/i&gt; DC. Root (PELARGO) 20 mg Capsule: A Non-interventional Post-authorization Safety Study.",
+        "authorString": "Alvero RGY, Balmadrid AS, Aquino RCC, Balaccua GP.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Alvero RGY",
+              "lastName": "Alvero",
+              "firstName": "Rita Grace Y",
+              "initials": "RGY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmalytics Corporation."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Balmadrid AS",
+              "lastName": "Balmadrid",
+              "firstName": "Aline S",
+              "initials": "AS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmalytics Corporation."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aquino RCC",
+              "lastName": "Aquino",
+              "firstName": "Rea Carmela C",
+              "initials": "RCC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pascual Laboratories, Inc."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Balaccua GP",
+              "lastName": "Balaccua",
+              "firstName": "Geraldo P",
+              "initials": "GP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pascual Laboratories, Inc."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "60",
+          "journalIssueId": 4161594,
+          "dateOfPublication": "2026 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Acta Med Philipp",
+            "title": "Acta medica Philippina",
+            "essn": "2094-9278",
+            "issn": "0001-6071",
+            "nlmid": "0312677",
+            "isoabbreviation": "Acta Med Philipp"
+          },
+          "printPublicationDate": "2026-01-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "15-23",
+        "abstractText": "<h4>Background and objectives</h4><i>Pelargonium sidoides</i> DC. Root (PELARGO) 20 mg capsule is approved by the Philippine Food and Drug Administration (FDA) for the symptomatic treatment of common cold. In compliance with FDA, this post-authorization safety study was conducted to determine the incidence of signs and symptoms of liver injury with PELARGO intake. It also aimed to look at symptom improvement and the incidence of other adverse events.<h4>Methods</h4>This non-interventional post-authorization safety study enrolled 300 adult patients with common cold, prescribed with <i>Pelargonium sidoides</i> DC. 20 mg capsule three times a day for seven days during routine clinical care from May 2023 to December 2023 in Cavite, Philippines. Demographic, clinical, and physical exam data were collected at baseline. Physical exam data, signs and symptoms of liver injury, symptom improvement, and other adverse events were determined post-treatment. Descriptive statistics were computed to characterize the participants at baseline (day 0) and end-study visit (day 8).<h4>Results</h4>There were 300 enrolled patients, 53% female and 60% single. The mean age was 36 years and the mean BMI was 26 kg/m<sup>2</sup>. Vital signs at baseline were mostly within normal limits and most had respiratory findings. Two hundred ninety-eight (298) completed the study. Only a few had respiratory findings at end-study visit. There were no signs and symptoms of liver toxicity nor serious adverse events after seven days of PELARGO intake. Reported adverse effects with 2.0% to 1.3% incidence in seven days include dizziness, drowsiness, headache, and polyphagia. Others were <1% in incidence. Overall, adverse events were infrequent, mostly mild and of short duration, and resolved spontaneously. Most doctors (97%) and patients (98%) reported significant improvement of symptoms after treatment.<h4>Conclusion</h4>There is no evidence of liver toxicity after seven days of PELARGO intake for common cold among Filipino adults. The drug was well tolerated, and most patients experienced significant symptom improvement. Results should be interpreted with caution in the light of study limitations.",
+        "affiliation": "Pharmalytics Corporation.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hepatotoxicity",
+            "Common cold",
+            "Pelargonium"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.47895/amp.vi0.12322"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13013544"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13013544?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-03-27",
+        "dateOfCreation": "2026-03-27",
+        "dateOfRevision": "2026-08-13",
+        "electronicPublicationDate": "2026-02-27",
+        "firstPublicationDate": "2026-02-27",
+        "firstIndexDate": "2026-03-27",
+        "fullTextReceivedDate": "2026-03-26",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

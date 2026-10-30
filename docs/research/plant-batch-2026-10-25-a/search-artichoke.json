@@ -1,0 +1,1208 @@
+{
+  "version": "6.9",
+  "hitCount": 3,
+  "request": {
+    "queryString": "TITLE_ABS:\"Efficacy of artichoke leaf extract\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 5,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39693956",
+        "source": "MED",
+        "pmid": "39693956",
+        "pmcid": "PMC11720609",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11720609"
+          ]
+        },
+        "doi": "10.1016/j.psj.2024.104521",
+        "title": "The efficacy of Artichoke leaf extract conjugated with organic zinc nanoparticles on growth, carcass traits and blood biochemical parameters of broilers.",
+        "authorString": "Ashour EA, Aldhalmi AK, Kamal M, Salem SS, Mahgoub SA, Alqhtani AH, Madkour M, Elolimy AA, Abd El-Hack ME, Swelum AA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ashour EA",
+              "lastName": "Ashour",
+              "firstName": "Elwy A",
+              "initials": "EA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Poultry Department, Faculty of Agriculture, Zagazig University, Zagazig, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aldhalmi AK",
+              "lastName": "Aldhalmi",
+              "firstName": "Ahmed K",
+              "initials": "AK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5652-0484"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Al- Mustaqbal University, 51001 Babylon, Iraq."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kamal M",
+              "lastName": "Kamal",
+              "firstName": "Mahmoud",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5618-7076"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Gastrointestinal Microbiology, National Center for International Research on Animal Gut Nutrition, Nanjing Agricultural University, Nanjing 210095, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Salem SS",
+              "lastName": "Salem",
+              "firstName": "Salem S",
+              "initials": "SS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2898-6708"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, 11884, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mahgoub SA",
+              "lastName": "Mahgoub",
+              "firstName": "Samir A",
+              "initials": "SA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4801-5757"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Agricultural Microbiology Department, Faculty of Agriculture, Zagazig University, Zagazig, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alqhtani AH",
+              "lastName": "Alqhtani",
+              "firstName": "Abdulmohsen H",
+              "initials": "AH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Animal Production, College of Food and Agriculture Sciences, King Saud University, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Madkour M",
+              "lastName": "Madkour",
+              "firstName": "Mahmoud",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2913-1314"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Animal Production Department, National Research Centre, Dokki, 12622, Giza, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Elolimy AA",
+              "lastName": "Elolimy",
+              "firstName": "Ahmed A",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Animal Production Department, National Research Centre, Dokki, 12622, Giza, Egypt; Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab Emirates University, Al Ain P.O. Box 15551, Abu Dhabi, United Arab Emirates. Electronic address: elolimy@uaeu.ac.ae."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abd El-Hack ME",
+              "lastName": "Abd El-Hack",
+              "firstName": "Mohamed E",
+              "initials": "ME",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2831-8534"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Poultry Department, Faculty of Agriculture, Zagazig University, Zagazig, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Swelum AA",
+              "lastName": "Swelum",
+              "firstName": "Ayman A",
+              "initials": "AA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3247-5898"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Animal Production, College of Food and Agriculture Sciences, King Saud University, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5652-0484"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2831-8534"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5618-7076"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2898-6708"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2913-1314"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3247-5898"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4801-5757"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "104",
+          "journalIssueId": 3891228,
+          "dateOfPublication": "2025 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Poult Sci",
+            "title": "Poultry science",
+            "essn": "1525-3171",
+            "issn": "0032-5791",
+            "isoabbreviation": "Poult Sci",
+            "nlmid": "0401150"
+          },
+          "printPublicationDate": "2025-01-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "104521",
+        "abstractText": "This study aimed to discover how using nano artichoke leaf extract Stabilized with zinc Nanoparticles (ZnO-Nano-ALPE) as an alternative to antibiotics and an antioxidant in broiler feed affected their growth, meat quality, and blood. In a completely randomized design experiment, 210 1-day-old chicks (Arbor Acres) were assigned to three trial groups. Each group was subdivided into seven replicates, each with ten unsexed chicks. The groups formed were as follows: the control group received a basal diet without additives. In contrast, the ZnO-Nano-ALPE1 and ZnO-Nano-ALPE2 groups received a basal diet plus 1.0 and 2.0 cm<sup>3</sup> of nano artichoke leaf extract ZnO-Nano-ALPE /kg diet, respectively. The results showed significant changes in LBW on days 28 and 31 of their lives, with the ZnO-Nano-ALPE groups showing the greatest changes. Variation analysis revealed no discernible changes between the treatment groups; however, there were notable variations in the calculated feed intake (FI) on days 29 and 31. There were no notable variations in carcass features between treatments, except for the percentage of carcass, dressing, thigh, heart, and intestine cecum in the control group. In addition, we found significant differences in total protein, albumin, and globulin levels between treatments, with the control group showing higher levels compared to the other two groups. The diet increased alanine aminotransferase (ALT) and aspartate aminotransferase (AST) levels and elevated cholesterol levels. The study revealed significant differences in immunoglobulins, Superoxide dismutase (SOD) and Malondialdehyde (MDA) levels among the treatments, with the 1.0 cm<sup>3</sup> treatment group exhibiting the highest levels. Thus, adding ZnO-Nano-ALPE to growing chick feeds at 1.0 and 2.0 cm<sup>3</sup> rates could improve productivity, some carcass characteristics, and blood parameters.",
+        "affiliation": "Poultry Department, Faculty of Agriculture, Zagazig University, Zagazig, Egypt.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "King Saud University",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Chickens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cynara scolymus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Zinc",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Zinc Oxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "VE",
+                    "qualifierName": "veterinary"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Random Allocation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animal Feed",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Meat",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Metal Nanoparticles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animal Nutritional Physiological Phenomena",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Growth",
+            "Blood",
+            "Broiler",
+            "carcass",
+            "Healthy Product",
+            "Zn-nano Artichoke Extract"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Zinc",
+              "registryNumber": "J41CSQ7QDS"
+            },
+            {
+              "name": "Zinc Oxide",
+              "registryNumber": "SOI2LOH54Z"
+            },
+            {
+              "name": "artichoke leaf",
+              "registryNumber": "B71UA545DE"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.psj.2024.104521"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11720609"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11720609?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-04-28",
+        "dateOfCreation": "2024-12-18",
+        "dateOfRevision": "2026-09-24",
+        "electronicPublicationDate": "2024-11-07",
+        "firstPublicationDate": "2024-11-07",
+        "firstIndexDate": "2024-12-19",
+        "fullTextReceivedDate": "2025-11-27",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29520889",
+        "source": "MED",
+        "pmid": "29520889",
+        "doi": "10.1002/ptr.6073",
+        "title": "Efficacy of artichoke leaf extract in non-alcoholic fatty liver disease: A pilot double-blind randomized controlled trial.",
+        "authorString": "Panahi Y, Kianpour P, Mohtashami R, Atkin SL, Butler AE, Jafari R, Badeli R, Sahebkar A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Panahi Y",
+              "lastName": "Panahi",
+              "firstName": "Yunes",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2504-8356"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmacotherapy Department, School of Pharmacy, Baqiyatallah University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kianpour P",
+              "lastName": "Kianpour",
+              "firstName": "Parisa",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmacotherapy Department, Faculty of Pharmacy, Tehran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mohtashami R",
+              "lastName": "Mohtashami",
+              "firstName": "Reza",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4087-6061"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medicine Quran and Health Research Center, Baqiyatallah University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Atkin SL",
+              "lastName": "Atkin",
+              "firstName": "Stephen L",
+              "initials": "SL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5887-7257"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Weill Cornell Medicine Qatar, Doha, Qatar."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Butler AE",
+              "lastName": "Butler",
+              "firstName": "Alexandra E",
+              "initials": "AE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5762-3917"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Life Sciences Research Division, Anti-Doping Laboratory Qatar, Doha, Qatar."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jafari R",
+              "lastName": "Jafari",
+              "firstName": "Ramezan",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1099-4259"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Baqiyatallah University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Badeli R",
+              "lastName": "Badeli",
+              "firstName": "Roghayeh",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Neonatal and Children's Health Research Center, Golestan University of Medical Sciences, Gorgan, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sahebkar A",
+              "lastName": "Sahebkar",
+              "firstName": "Amirhossein",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8656-1444"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Neurogenic Inflammation Research Center, Mashhad University of Medical Sciences, Isfahan, Iran."
+                  },
+                  {
+                    "affiliation": "Biotechnology Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Isfahan, Iran."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2504-8356"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4087-6061"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5762-3917"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5887-7257"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8656-1444"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1099-4259"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4071-5900"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "32",
+          "journalIssueId": 2702521,
+          "dateOfPublication": "2018 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Phytother Res",
+            "title": "Phytotherapy research : PTR",
+            "essn": "1099-1573",
+            "issn": "0951-418X",
+            "isoabbreviation": "Phytother Res",
+            "nlmid": "8904486"
+          },
+          "printPublicationDate": "2018-07-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "1382-1387",
+        "abstractText": "Non-alcoholic fatty liver disease (NAFLD) is the most common cause of chronic liver disease worldwide and is potentially treatable, though there are few therapeutic agents available. Artichoke leaf extract (ALE) has shown potential as a hepatoprotective agent. This study sought to determine if ALE had therapeutic utility in patients with established NAFLD. In this randomized double-blind placebo-controlled parallel-group trial, 100 subjects with ultrasound-diagnosed NAFLD were randomized to either ALE 600\u00a0mg daily or placebo for a 2-month period. NAFLD response was assessed by liver ultrasound and serological markers including the aspartate aminotransferase (AST)/alanine aminotransferase (ALT) ratio and AST to platelet ratio index (APRI) score. Ninety patients completed the study (49 ALE and 41 placebo) with no side effects reported. ALE treatment compared with placebo: Doppler sonography showed increased hepatic vein flow (p\u00a0<\u00a0.001), reduced portal vein diameter (p\u00a0<\u00a0.001) and liver size (p\u00a0<\u00a0.001), reduction in serum ALT (p\u00a0<\u00a0.001) and AST (p\u00a0<\u00a0.001) levels, improvement in AST/ALT ratio and APRI scores (p\u00a0<\u00a0.01), and reduction in total bilirubin. ALE supplementation reduced total cholesterol, low-density lipoprotein cholesterol, high-density lipoprotein cholesterol, non-high-density lipoprotein cholesterol, and triglyceride concentrations (p\u00a0=\u00a0.01). This study has shown beneficial effects of ALE supplementation on both ultrasound liver parameters and liver serum parameters (ALT, AST, APRI ratio, and total bilirubin) in patients with NAFLD.",
+        "affiliation": "Pharmacotherapy Department, School of Pharmacy, Baqiyatallah University of Medical Sciences, Tehran, Iran.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Baqiyatallah University of Medical Sciences",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cynara scolymus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Triglycerides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pilot Projects"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Non-alcoholic Fatty Liver Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Phytochemical",
+            "Non-alcoholic Fatty Liver Disease (Nafld)",
+            "Artichoke Leaf Extract (Ale)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Triglycerides",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ptr.6073"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 53,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-08-14",
+        "dateOfCreation": "2018-03-10",
+        "dateOfRevision": "2018-12-02",
+        "electronicPublicationDate": "2018-03-09",
+        "firstPublicationDate": "2018-03-09",
+        "firstIndexDate": "2018-03-09",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "14653829",
+        "source": "MED",
+        "pmid": "14653829",
+        "doi": "10.1046/j.1365-2036.2003.01767.x",
+        "title": "Efficacy of artichoke leaf extract in the treatment of patients with functional dyspepsia: a six-week placebo-controlled, double-blind, multicentre trial.",
+        "authorString": "Holtmann G, Adam B, Haag S, Collet W, Gr\u00fcnewald E, Windeck T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Holtmann G",
+              "lastName": "Holtmann",
+              "firstName": "G",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0206-2358"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Internal Medicine, Department of Gastroenterology, University of Essen, Germany. g.holtmann@uni-essen.de"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Adam B",
+              "lastName": "Adam",
+              "firstName": "B",
+              "initials": "B"
+            },
+            {
+              "fullName": "Haag S",
+              "lastName": "Haag",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Collet W",
+              "lastName": "Collet",
+              "firstName": "W",
+              "initials": "W"
+            },
+            {
+              "fullName": "Gr\u00fcnewald E",
+              "lastName": "Gr\u00fcnewald",
+              "firstName": "E",
+              "initials": "E"
+            },
+            {
+              "fullName": "Windeck T",
+              "lastName": "Windeck",
+              "firstName": "T",
+              "initials": "T"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0206-2358"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "11-12",
+          "volume": "18",
+          "journalIssueId": 1179662,
+          "dateOfPublication": "2003 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2003,
+          "journal": {
+            "medlineAbbreviation": "Aliment Pharmacol Ther",
+            "title": "Alimentary pharmacology & therapeutics",
+            "essn": "1365-2036",
+            "issn": "0269-2813",
+            "isoabbreviation": "Aliment Pharmacol Ther",
+            "nlmid": "8707234"
+          },
+          "printPublicationDate": "2003-12-01"
+        },
+        "pubYear": "2003",
+        "pageInfo": "1099-1105",
+        "abstractText": "<h4>Background</h4>This study aimed to assess the efficacy of artichoke leaf extract (ALE) in the treatment of patients with functional dyspepsia (FD).<h4>Methods</h4>In a double-blind, randomized controlled trial (RCT), 247 patients with functional dyspepsia were recruited and treated with either a commercial ALE preparation (2 x 320 mg plant extract t.d.s.) or a placebo. The primary efficacy variable was the sum score of the patient's weekly rating of the overall change in dyspeptic symptoms (four-point scale). Secondary variables were the scores of each dyspeptic symptom and the quality of life (QOL) as assessed by the Nepean Dyspepsia Index (NDI).<h4>Results</h4>Two hundred and forty-seven patients were enrolled, and data from 244 patients (129 active treatment, 115 placebo) were suitable for inclusion in the statistical analysis (intention-to-treat). The overall symptom improvement over the 6 weeks of treatment was significantly greater with ALE than with the placebo (8.3 +/- 4.6, vs. 6.7 +/- 4.8, P < 0.01). Similarly, patients treated with ALE showed significantly greater improvement in the global quality-of-life scores (NDI) compared with the placebo-treated patients (- 41.1 +/- 47.6 vs. - 24.8 +/- 35.6, P < 0.01).<h4>Conclusion</h4>The ALE preparation tested was significantly better than the placebo in alleviating symptoms and improving the disease-specific quality of life in patients with functional dyspepsia.",
+        "affiliation": "Division of Internal Medicine, Department of Gastroenterology, University of Essen, Germany. g.holtmann@uni-essen.de",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cynara scolymus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dyspepsia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quality of Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1046/j.1365-2036.2003.01767.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 74,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-02-02",
+        "dateOfCreation": "2003-12-05",
+        "dateOfRevision": "2022-03-11",
+        "firstPublicationDate": "2003-12-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

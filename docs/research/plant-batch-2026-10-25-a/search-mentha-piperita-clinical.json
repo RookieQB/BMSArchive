@@ -1,0 +1,2958 @@
+{
+  "query": "TITLE_ABS:\"Mentha piperita\" AND (clinical trial OR randomized OR systematic review)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 86,
+    "nextCursorMark": "AoIIQJJCiCg1NDA0NDA1NA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Mentha+piperita%22+AND+%28clinical+trial+OR+randomized+OR+systematic+review%29&cursorMark=AoIIQJJCiCg1NDA0NDA1NA%3D%3D&resultType=core&pageSize=8&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"Mentha piperita\" AND (clinical trial OR randomized OR systematic review)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "PMC13691296",
+          "source": "PMC",
+          "pmcid": "PMC13691296",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13691296"
+            ]
+          },
+          "title": "Encapsulation of Peppermint Essential Oil (Mentha piperita L.) in Gelatin\u2010Coated Solid Lipid Nanocarriers (PEO\u2010SLNs): Characterization and Its Effect on Microbial Quality of Trout Fillet (Oncorhynchus mykiss)",
+          "authorString": "Safaeian Laein S, Khanzadi S, Hashemi M, Gheybi F, Azizzadeh M, Laein M, Oz E, Zeng M, Oz F, Sarabandi K.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Safaeian Laein S",
+                "lastName": "Safaeian Laein",
+                "firstName": "Sara",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Ferdowsi University of Mashhad"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Khanzadi S",
+                "lastName": "Khanzadi",
+                "firstName": "Saeid",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Mashhad University of Medical Sciences"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hashemi M",
+                "lastName": "Hashemi",
+                "firstName": "Mohammad",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Mashhad University of Medical Sciences"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gheybi F",
+                "lastName": "Gheybi",
+                "firstName": "Fatemeh",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Mashhad University of Medical Sciences"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Azizzadeh M",
+                "lastName": "Azizzadeh",
+                "firstName": "Mohammad",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Ferdowsi University of Mashhad"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Laein M",
+                "lastName": "Laein",
+                "firstName": "Mohammad Sayah",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Network Veterinary City of Mashhad"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Oz E",
+                "lastName": "Oz",
+                "firstName": "Emel",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Ataturk University"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zeng M",
+                "lastName": "Zeng",
+                "firstName": "Maomao",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Jiangnan University"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Oz F",
+                "lastName": "Oz",
+                "firstName": "Fatih",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Ataturk University"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sarabandi K",
+                "lastName": "Sarabandi",
+                "firstName": "Khashayar",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Research Institute of Food Science and Technology (RIFST)"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "10",
+            "volume": "14",
+            "journalIssueId": 4273942,
+            "dateOfPublication": "2026 Oct",
+            "monthOfPublication": 10,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Food Sci Nutr",
+              "title": "Food science & nutrition",
+              "essn": "2048-7177",
+              "issn": "2048-7177",
+              "isoabbreviation": "Food Sci Nutr",
+              "nlmid": "101605473"
+            },
+            "printPublicationDate": "2026-10-01"
+          },
+          "pubYear": "2026",
+          "language": "eng",
+          "pubModel": "Undetermined",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Essential oils",
+              "Solid lipid nanoparticles",
+              "Fish Gelatin",
+              "Trout Fillet"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "PubMedCentral",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13691296/?tool=EBI"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "PubMedCentral",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13691296/pdf/?tool=EBI"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13691296"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13691296?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "N",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2026-10-24",
+          "dateOfRevision": "2026-10-24",
+          "electronicPublicationDate": "2026-10-01",
+          "firstPublicationDate": "2026-10-01",
+          "firstIndexDate": "2026-10-24",
+          "fullTextReceivedDate": "2026-10-24",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41828723",
+          "source": "MED",
+          "pmid": "41828723",
+          "pmcid": "PMC12985713",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12985713"
+            ]
+          },
+          "doi": "10.3390/ijms27052508",
+          "title": "Neuroprotective Effect of the Combined Extract of &lt;i&gt;Mentha piperita&lt;/i&gt; and &lt;i&gt;Cornus officinalis&lt;/i&gt; Against Neuronal Cell Death and Scopolamine-Induced Memory Impairment.",
+          "authorString": "Oh KI, Jeong J, Jeong H, Yong Y, Yeo S, Park E, Jeong SY.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Oh KI",
+                "lastName": "Oh",
+                "firstName": "Kang-Il",
+                "initials": "KI",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7787-7394"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Genetics, Ajou University School of Medicine, Suwon 16499, Republic of Korea."
+                    },
+                    {
+                      "affiliation": "BK21 R&E Initiative for Advanced Precision Medicine, Department of Biomedical Sciences, Graduate School of Ajou University, Suwon 16499, Republic of Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jeong J",
+                "lastName": "Jeong",
+                "firstName": "Junhwan",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0008-5871-2656"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Genetics, Ajou University School of Medicine, Suwon 16499, Republic of Korea."
+                    },
+                    {
+                      "affiliation": "BK21 R&E Initiative for Advanced Precision Medicine, Department of Biomedical Sciences, Graduate School of Ajou University, Suwon 16499, Republic of Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jeong H",
+                "lastName": "Jeong",
+                "firstName": "Hyesoo",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Nine B Co., Ltd., Daejeon 34121, Republic of Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yong Y",
+                "lastName": "Yong",
+                "firstName": "Yoonjoong",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Nine B Co., Ltd., Daejeon 34121, Republic of Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yeo S",
+                "lastName": "Yeo",
+                "firstName": "Subin",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Nine B Co., Ltd., Daejeon 34121, Republic of Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Park E",
+                "lastName": "Park",
+                "firstName": "Eunkuk",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Genetics, Ajou University School of Medicine, Suwon 16499, Republic of Korea."
+                    },
+                    {
+                      "affiliation": "BK21 R&E Initiative for Advanced Precision Medicine, Department of Biomedical Sciences, Graduate School of Ajou University, Suwon 16499, Republic of Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jeong SY",
+                "lastName": "Jeong",
+                "firstName": "Seon-Yong",
+                "initials": "SY",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0625-3530"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Genetics, Ajou University School of Medicine, Suwon 16499, Republic of Korea."
+                    },
+                    {
+                      "affiliation": "BK21 R&E Initiative for Advanced Precision Medicine, Department of Biomedical Sciences, Graduate School of Ajou University, Suwon 16499, Republic of Korea."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7787-7394"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0625-3530"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0008-5871-2656"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "5",
+            "volume": "27",
+            "journalIssueId": 4149168,
+            "dateOfPublication": "2026 Mar",
+            "monthOfPublication": 3,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Int J Mol Sci",
+              "title": "International journal of molecular sciences",
+              "essn": "1422-0067",
+              "issn": "1422-0067",
+              "isoabbreviation": "Int J Mol Sci",
+              "nlmid": "101092791"
+            },
+            "printPublicationDate": "2026-03-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "2508",
+          "abstractText": "Mild cognitive impairment (MCI) represents an intermediate stage between normal aging and Alzheimer's disease. This study investigated the neuroprotective effects of a combined extract of <i>Mentha piperita</i> (MP) and <i>Cornus officinalis</i> (CO) (MC) using in vitro and in vivo models. In SK-N-SH cells, pretreatment with MC (50-150 \u03bcg/mL) significantly attenuated H<sub>2</sub>O<sub>2</sub>-induced cellular injury, as evidenced by a reduction in Annexin V-positive cells and an increase in brain-derived neurotrophic factor (<i>BDNF</i>) mRNA expression. Rosmarinic acid and loganin, the marker compounds of MP and CO, alone or combined at a 6:4 ratio, mitigated H<sub>2</sub>O<sub>2</sub>-induced decreases in cell viability and <i>BDNF</i> mRNA. In the in vivo study, male Sprague-Dawley rats were orally administered MC (50, 100, or 200 mg/kg/day) for 28 days, with phosphatidylserine (50 mg/kg/day) serving as a positive control. MC administration significantly improved cognitive performance in rats with scopolamine-induced memory impairment, as demonstrated by increased step-through latency in the passive avoidance test and reduced escape latency in the Morris water maze. Furthermore, in the probe trial, MC-treated rats spent significantly more time in the target quadrant, indicating enhanced spatial memory retention. Mechanistically, MC restored hippocampal acetylcholine levels and reversed the scopolamine-induced decrease in BDNF and its downstream signaling. Specifically, MC upregulated hippocampal BDNF expression and enhanced the phosphorylation of extracellular signal-regulated kinase (ERK), protein kinase B (AKT), and cAMP response element-binding protein (CREB). In conclusion, these results demonstrate that the MC extract possesses potent neuroprotective and learning- and memory-enhancing effects, highlighting its potential as a therapeutic candidate for managing age-related cognitive decline and MCI.",
+          "affiliation": "Department of Medical Genetics, Ajou University School of Medicine, Suwon 16499, Republic of Korea.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Korea Health Industry Development Institute",
+                "grantId": "RS-2025-25303051",
+                "orderIn": 0
+              },
+              {
+                "agency": "Korea Health Industry Development Institute",
+                "grantId": "RS-2021-KH113820",
+                "orderIn": 0
+              },
+              {
+                "agency": "Korea Health Industry Development Institute",
+                "grantId": "RS-2022-KH130303",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Hippocampus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Neurons",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Line, Tumor"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rats"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rats, Sprague-Dawley"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cornus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Memory Disorders",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CI",
+                      "qualifierName": "chemically induced"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Hydrogen Peroxide"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cinnamates",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Iridoids"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Scopolamine",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AE",
+                      "qualifierName": "adverse effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TO",
+                      "qualifierName": "toxicity"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Brain-Derived Neurotrophic Factor",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Neuroprotective Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Maze Learning",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Death",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Survival",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Depsides",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Rosmarinic Acid"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Cornus officinalis",
+              "herbal medicine",
+              "neuroprotection",
+              "Mentha Piperita",
+              "Neuronal Cell Death",
+              "Scopolamine-induced Memory Impairment"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "depsides",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Cinnamates",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Iridoids",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Brain-Derived Neurotrophic Factor",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Neuroprotective Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "rosmarinic acid",
+                "registryNumber": "MQE6XG29YI"
+              },
+              {
+                "name": "Hydrogen Peroxide",
+                "registryNumber": "BBX060AN9V"
+              },
+              {
+                "name": "loganin",
+                "registryNumber": "H7WJ16Q93C"
+              },
+              {
+                "name": "Scopolamine",
+                "registryNumber": "DL48G20X8X"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/ijms27052508"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12985713"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12985713?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "N",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-07-10",
+          "dateOfCreation": "2026-03-14",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-03-09",
+          "firstPublicationDate": "2026-03-09",
+          "firstIndexDate": "2026-03-14",
+          "fullTextReceivedDate": "2026-03-14",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41311590",
+          "source": "MED",
+          "pmid": "41311590",
+          "pmcid": "PMC12655842",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12655842"
+            ]
+          },
+          "doi": "10.4103/ijnmr.ijnmr_283_23",
+          "title": "The Effects of Peppermint on Menstrual Disorders: A Systematic Review of Randomized Controlled Trials.",
+          "authorString": "Lagzian Y, Askari F, Mehrabi R.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Lagzian Y",
+                "lastName": "Lagzian",
+                "firstName": "Yegane",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5373-6706"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Midwifery, School of Nursing and Midwifery, Torbat Heydariyeh University of Medical Sciences, Torbat Heydariyeh, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Askari F",
+                "lastName": "Askari",
+                "firstName": "Fariba",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Reproductive Health and Population Research Center, Gonabad University of Medical Sciences, Gonabad, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mehrabi R",
+                "lastName": "Mehrabi",
+                "firstName": "Rahele",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Reproductive Health and Population Research Center, Department of Medical Information Sciences, School of Allied Medicine, Gonabad University of Medical Sciences, Gonabad, Iran."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5373-6706"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "30",
+            "journalIssueId": 4056999,
+            "dateOfPublication": "2025 Nov-Dec",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Iran J Nurs Midwifery Res",
+              "title": "Iranian journal of nursing and midwifery research",
+              "essn": "2228-5504",
+              "issn": "1735-9066",
+              "isoabbreviation": "Iran J Nurs Midwifery Res",
+              "nlmid": "101558775"
+            },
+            "printPublicationDate": "2025-11-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "777-784",
+          "abstractText": "<h4>Background</h4>Various aspects of women's functioning are affected by menstrual disorders. There are various treatment methods to control these conditions. This systematic review aimed to evaluate the effects of peppermint on menstrual disorders.<h4>Materials and methods</h4>A comprehensive search was performed in PubMed, EMBASE, Scopus, Web of Science, Science Direct, SID, and Google Scholar without any limitations until July 31, 2023. To identify those studies that were consistent with the main purpose of this review, the search focused on the keywords \"menstruation disorders,\" \"Mentha piperita,\" and their other synonyms in the title and abstract of the articles. Methodological quality was assessed using the Jadad scale.<h4>Results</h4>A total of 238 articles were retrieved. After removing duplicates and irrelevant studies, 146 articles remained. After evaluating the titles and abstracts, the full text of the remaining eight articles was evaluated. At this stage, one article was excluded due to being in the Malay language, and two articles were excluded due to the use of water mint species. Finally, five Randomized Controlled Trials (RCTs) with a total of 499 participants were included. The quality rating of the included trials indicates that three studies were of high quality, and two studies were of low quality. The studies examined primary dysmenorrhea and premenstrual syndrome. Statistically significant reductions in pain severity, improved cognitive function, and gastrointestinal symptoms were observed.<h4>Conclusions</h4>The findings suggest that peppermint may be effective in improving menstrual disorders. However, high-quality RCTs that overcome the methodological limitations of the current studies are needed.",
+          "affiliation": "Department of Midwifery, School of Nursing and Midwifery, Torbat Heydariyeh University of Medical Sciences, Torbat Heydariyeh, Iran.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Women",
+              "Systematic review",
+              "Randomized controlled trial",
+              "Mentha Piperita",
+              "Menstruation Disturbances"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.4103/ijnmr.ijnmr_283_23"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12655842"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12655842?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "license": "cc by-nc-sa",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2025-11-28",
+          "dateOfCreation": "2025-11-28",
+          "dateOfRevision": "2025-11-30",
+          "electronicPublicationDate": "2025-11-03",
+          "firstPublicationDate": "2025-11-03",
+          "firstIndexDate": "2025-11-28",
+          "fullTextReceivedDate": "2025-12-22",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41992088",
+          "source": "MED",
+          "pmid": "41992088",
+          "pmcid": "PMC13089926",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13089926"
+            ]
+          },
+          "doi": "10.1080/15592324.2026.2657091",
+          "title": "Melatonin-iron oxide nanoparticles synergy enhances salt tolerance in &lt;i&gt;Mentha\u2009\u00d7\u2009piperita&lt;/i&gt; L.",
+          "authorString": "Anwar T, Qureshi H, Ayub H, El-Beltagi HS, Yunusov S, Ziyadov S, Muminov MM, El-Shaboury GA, Bazarbayeva D, Alsudays IM, Alamer KH, Bekmukhamedova M, Jobborov B, Shah MA.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Anwar T",
+                "lastName": "Anwar",
+                "firstName": "Tauseef",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, The Islamia University of Bahawalpur, Bahawalpur, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Qureshi H",
+                "lastName": "Qureshi",
+                "firstName": "Huma",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, University of Chakwal, Chakwal, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ayub H",
+                "lastName": "Ayub",
+                "firstName": "Hira",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Botany, The Islamia University of Bahawalpur, Bahawalpur, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "El-Beltagi HS",
+                "lastName": "El-Beltagi",
+                "firstName": "Hossam S",
+                "initials": "HS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Agricultural Biotechnology Department, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yunusov S",
+                "lastName": "Yunusov",
+                "firstName": "Salohiddinjon",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Horticulture and Viticulture, Tashkent State Agrarian University, Tashkent region, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ziyadov S",
+                "lastName": "Ziyadov",
+                "firstName": "Shuqurillo",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ecology, National University of Uzbekistan named after Mirzo Ulugbek, Tashkent, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Muminov MM",
+                "lastName": "Muminov",
+                "firstName": "Muydinjon M",
+                "initials": "MM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Andijan State University, Andijan, Uzbekistan."
+                    },
+                    {
+                      "affiliation": "Department of Startup Projects, Kokond University Andijan Branch, Andijan, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "El-Shaboury GA",
+                "lastName": "El-Shaboury",
+                "firstName": "Gamal Awad",
+                "initials": "GA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Biology Department, College of Science, King Khalid University, Abha, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bazarbayeva D",
+                "lastName": "Bazarbayeva",
+                "firstName": "Dilbar",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Engineering Technology and Environmental Protection, Nukus State Technical University, Nukus, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alsudays IM",
+                "lastName": "Alsudays",
+                "firstName": "Ibtisam M",
+                "initials": "IM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0632-1281"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biology, College of Science, Qassim University, Qassim, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alamer KH",
+                "lastName": "Alamer",
+                "firstName": "Khalid H",
+                "initials": "KH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Biological Sciences Department, Faculty of Science and Arts, King Abdulaziz University, Rabigh, Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bekmukhamedova M",
+                "lastName": "Bekmukhamedova",
+                "firstName": "Munisa",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ecology and Hydrogeology, University of Geological Sciences, Tashkent, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jobborov B",
+                "lastName": "Jobborov",
+                "firstName": "Bakhrom",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Ecology, National University of Uzbekistan named after Mirzo Ulugbek, Tashkent, Uzbekistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shah MA",
+                "lastName": "Shah",
+                "firstName": "Mohd Asif",
+                "initials": "MA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0000-2821-5423"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Kardan University, Kabul, Afghanistan."
+                    },
+                    {
+                      "affiliation": "Division of Research and Development, Lovely Professional University, Phagwara, India."
+                    },
+                    {
+                      "affiliation": "University Center for Research & Development, Chandigarh University, Mohali, India."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0632-1281"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0000-2821-5423"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "21",
+            "journalIssueId": 4076768,
+            "dateOfPublication": "2026 Dec",
+            "monthOfPublication": 12,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Plant Signal Behav",
+              "title": "Plant signaling & behavior",
+              "essn": "1559-2324",
+              "issn": "1559-2316",
+              "isoabbreviation": "Plant Signal Behav",
+              "nlmid": "101291431"
+            },
+            "printPublicationDate": "2026-12-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "2657091",
+          "abstractText": "Iron is an essential micronutrient involved in chlorophyll biosynthesis, redox metabolism, and antioxidant enzyme function, and its availability becomes particularly important under salinity stress. This study evaluated the individual and combined effects of green-synthesized iron oxide nanoparticles (IONPs) and melatonin on the salt stress response of <i>Mentha\u2009\u00d7\u2009piperita</i> L. A controlled greenhouse experiment was conducted using a three-factor factorial design with melatonin (0 and 0.1 g L<sup>-1</sup>), IONPs (0 and 0.5 g L<sup>-1</sup>), and NaCl (0 and 100\u2009 mM). Treatments were applied as foliar sprays for four weeks, and plant growth traits, photosynthetic pigments, oxidative damage markers, membrane stability, and antioxidant enzyme activities were assessed. Salinity markedly reduced leaf, shoot, and root growth, decreased the chlorophyll content, and increased hydrogen peroxide, malondialdehyde, and electrolyte leakage. In contrast, melatonin and IONPs alleviated these adverse effects, with the combined treatment producing the strongest response. Under saline conditions, the combined application of IONPs and melatonin increased shoot and root growth, improved chlorophyll retention, reduced oxidative damage, and enhanced the activities of superoxide dismutase, peroxidase, and catalase relative to NaCl-treated plants. These results indicate that the combined treatment improved salt tolerance by strengthening antioxidant defense, preserving membrane integrity, and sustaining photosynthetic performance. These findings suggest that biogenic iron oxide nanoparticles, particularly when integrated with melatonin, may serve as effective nano-biostimulant tools for improving peppermint resilience under salinity stress. This study provides a physiological and biochemical basis for the use of iron-based nanomaterials and plant bioregulators in the management of salt-affected cultivation systems.",
+          "affiliation": "Department of Botany, The Islamia University of Bahawalpur, Bahawalpur, Pakistan.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Non-US Government Research Support type",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Hydrogen Peroxide",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Chlorophyll",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Melatonin",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antioxidants",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Photosynthesis",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Nanoparticles",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Salt Tolerance",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Reactive oxygen species",
+              "Lipid Peroxidation",
+              "Electrolyte leakage",
+              "photosynthetic pigments",
+              "Biogenic Nanomaterials",
+              "Nano-biostimulants"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antioxidants",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Chlorophyll",
+                "registryNumber": "1406-65-1"
+              },
+              {
+                "name": "Hydrogen Peroxide",
+                "registryNumber": "BBX060AN9V"
+              },
+              {
+                "name": "Melatonin",
+                "registryNumber": "JL5DK93RCL"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1080/15592324.2026.2657091"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13089926"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13089926?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-15",
+          "dateOfCreation": "2026-04-17",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-04-16",
+          "firstPublicationDate": "2026-04-16",
+          "firstIndexDate": "2026-04-17",
+          "fullTextReceivedDate": "2026-04-22",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42043716",
+          "source": "MED",
+          "pmid": "42043716",
+          "pmcid": "PMC13275630",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13275630"
+            ]
+          },
+          "doi": "10.1007/s10787-026-02251-0",
+          "title": "Medicinal plants as alternative and adjunct antimicrobial agents in ear, nose, and throat (ENT) Infections.",
+          "authorString": "Kay\u0131ran SD, \u00d6zda\u015f T, G\u00fcven B\u00f6lgen UM, \u00c7evikelli T, \u015eahan MN, Ertu\u011frul H, I\u015f\u0131ldakl\u0131 A, \u00d6zkurt S, Acar Y, Demirk\u0131ran E.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Kay\u0131ran SD",
+                "lastName": "Kay\u0131ran",
+                "firstName": "Serpil Demirci",
+                "initials": "SD",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Botany, Faculty of Pharmacy, \u00c7ukurova University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u00d6zda\u015f T",
+                "lastName": "\u00d6zda\u015f",
+                "firstName": "Talih",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "G\u00fcven B\u00f6lgen UM",
+                "lastName": "G\u00fcven B\u00f6lgen",
+                "firstName": "Umay Merve",
+                "initials": "UM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Technology, Faculty of Pharmacy, \u00c7ukurova University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u00c7evikelli T",
+                "lastName": "\u00c7evikelli",
+                "firstName": "Tilbe",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Technology, Faculty of Pharmacy, Bah\u00e7e\u015fehir University, Istanbul, Turkey. tilbe.cevikelli@bau.edu.tr."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u015eahan MN",
+                "lastName": "\u015eahan",
+                "firstName": "Merve Nur",
+                "initials": "MN",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ertu\u011frul H",
+                "lastName": "Ertu\u011frul",
+                "firstName": "Hazar",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "I\u015f\u0131ldakl\u0131 A",
+                "lastName": "I\u015f\u0131ldakl\u0131",
+                "firstName": "Ali",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "\u00d6zkurt S",
+                "lastName": "\u00d6zkurt",
+                "firstName": "Sedef",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Acar Y",
+                "lastName": "Acar",
+                "firstName": "Yakup",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Demirk\u0131ran E",
+                "lastName": "Demirk\u0131ran",
+                "firstName": "Ege",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of ENT, Adana City Training and Research Hospital, Health Science University, Adana, Turkey."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "34",
+            "journalIssueId": 4218334,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Inflammopharmacology",
+              "title": "Inflammopharmacology",
+              "essn": "1568-5608",
+              "issn": "0925-4692",
+              "isoabbreviation": "Inflammopharmacology",
+              "nlmid": "9112626"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "3755-3781",
+          "abstractText": "Medicinal plants are widely used worldwide for ear, nose, and throat (ENT) disorders and have a long history of traditional application. This review aims to summarize current experimental and clinical evidence on medicinal plants used for ENT conditions such as otitis externa/media, tinnitus, vertigo, allergic rhinitis, pharyngitis, and laryngitis, and to support the identification of new plant species with antimicrobial potential against ENT pathogens. This review thoroughly summarizes recent developments from 2020 to 2025 and was conducted using electronic databases, including PubMed, Web of Science, Scopus, ScienceDirect, and Google Scholar, with predefined ENT and medicinal plants-related keywords. Frequently used species include Lavandula angustifolia, Thymus vulgaris, Curcuma longa, Zingiber officinale, Origanum vulgare, Glycyrrhiza glabra, Mentha piperita, Matricaria chamomilla, and Syzygium aromaticum, many of which show In vitro antibacterial, antifungal, or antiviral activity relevant to upper airway and oral/ENT infections. Evidence indicates that selected medicinal plants and their extracts or essential oils inhibit key ENT-related pathogens, including multidrug-resistant respiratory and pharyngeal bacteria. The compiled data, structured in comparative tables, highlight promising taxa and preparation types, and underscore gaps in clinical validation, standardization, and safety assessment. Overall, this review provides an evidence-based overview of ENT-related phytotherapy and a framework for future pharmacological and phytochemical studies aimed at developing novel plant-derived antimicrobials for ear, nose, and throat diseases.",
+          "affiliation": "Department of Pharmaceutical Botany, Faculty of Pharmacy, \u00c7ukurova University, Adana, Turkey.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Bahcesehir University",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plants, Medicinal",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Otorhinolaryngologic Diseases",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MI",
+                      "qualifierName": "microbiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Anti-Infective Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Phytotherapy",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Ear",
+              "Activity",
+              "Medicinal plant",
+              "Antimicrobial",
+              "Nose And Throat Diseases"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Anti-Infective Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1007/s10787-026-02251-0"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13275630"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13275630?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-17",
+          "dateOfCreation": "2026-04-27",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-04-27",
+          "firstPublicationDate": "2026-04-27",
+          "firstIndexDate": "2026-04-27",
+          "fullTextReceivedDate": "2026-06-24",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41619305",
+          "source": "MED",
+          "pmid": "41619305",
+          "pmcid": "PMC12860549",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12860549"
+            ]
+          },
+          "doi": "10.1002/cbdv.202503567",
+          "title": "Topical Formulations Containing Mentha piperita for Wound Healing: A Scoping Review.",
+          "authorString": "Ara\u00fajo LG, Vila-Nova BG, Abreu AG.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Ara\u00fajo LG",
+                "lastName": "Ara\u00fajo",
+                "firstName": "Lorena Gon\u00e7alves",
+                "initials": "LG",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Programa de P\u00f3s-Gradua\u00e7\u00e3o em Ci\u00eancias da Sa\u00fade, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    },
+                    {
+                      "affiliation": "Laborat\u00f3rio de Imunofisiologia, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Vila-Nova BG",
+                "lastName": "Vila-Nova",
+                "firstName": "Beatriz Gomes",
+                "initials": "BG",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laborat\u00f3rio de Imunofisiologia, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abreu AG",
+                "lastName": "Abreu",
+                "firstName": "Afonso Gomes",
+                "initials": "AG",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1665-0879"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Programa de P\u00f3s-Gradua\u00e7\u00e3o em Ci\u00eancias da Sa\u00fade, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    },
+                    {
+                      "affiliation": "Laborat\u00f3rio de Imunofisiologia, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1665-0879"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "2",
+            "volume": "23",
+            "journalIssueId": 4109684,
+            "dateOfPublication": "2026 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Chem Biodivers",
+              "title": "Chemistry & biodiversity",
+              "essn": "1612-1880",
+              "issn": "1612-1872",
+              "isoabbreviation": "Chem Biodivers",
+              "nlmid": "101197449"
+            },
+            "printPublicationDate": "2026-02-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "e03567",
+          "abstractText": "Skin wound infections represent a major clinical challenge, exacerbated by biofilm formation and the increasing prevalence of bacterial resistance. Essential oils, particularly those of Mentha piperita, are well recognized for their antimicrobial and wound-healing properties. This scoping review mapped the available evidence on the use of topical formulations containing M. piperita-derived products for wound healing, with a focus on formulation vehicles, concentrations, experimental models, and efficacy parameters. Following JBI and PRISMA-ScR guidelines, a comprehensive search was conducted in PubMed, Scopus, Web of Science, and LILACS (2010-2025). Twenty studies met the inclusion criteria, the majority of which were preclinical, comprising in vitro (35%), in vivo (30%), and combined in vitro/in vivo (30%) models. Only one ex vivo study was identified, and no clinical trials were found. The formulations investigated ranged from creams and gels to nanoemulsions, lipid carriers, films, and nanofibers, with concentrations varying from 0.5% to 20%. Staphylococcus aureus was the most frequently tested strain and showed greater susceptibility to peppermint essential oil (PEO). Incorporation into nanostructured systems was associated with improved stability, enhanced skin permeation, and superior antimicrobial performance, particularly when combined with nanoparticles, metals, other bioactive compounds, or, in specific cases, clinical antibiotics such as levofloxacin. Across both infected wound models and noninfected wound-healing models, M. piperita-containing formulations were associated with favorable outcomes, although the underlying mechanisms differed depending on the presence or absence of microbial challenge. Despite these promising findings, significant gaps remain regarding ex vivo validation, safety assessment, and clinical translation. Overall, PEO demonstrates considerable potential as an antimicrobial and wound-healing agent; however, more standardized and clinically oriented studies are required.",
+          "affiliation": "Programa de P\u00f3s-Gradua\u00e7\u00e3o em Ci\u00eancias da Sa\u00fade, Universidade Federal do Maranh\u00e3o, S\u00e3o Lu\u00eds, Brazil.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Scoping Review",
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Coordena\u00e7\u00e3o de Aperfei\u00e7oamento de Pessoal de N\u00edvel Superior",
+                "grantId": "Finance Code 001",
+                "orderIn": 0
+              },
+              {
+                "agency": "Coordination for the Improvement of Higher Education Personnel",
+                "grantId": "Finance Code 001",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Council for Scientific and Technological Development",
+                "grantId": "307035/2022-0",
+                "orderIn": 0
+              },
+              {
+                "agency": "Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico",
+                "grantId": "307035/2022\u20100",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Staphylococcus aureus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Oils, Volatile",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Oils"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Anti-Bacterial Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IP",
+                      "qualifierName": "isolation & purification"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Microbial Sensitivity Tests"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Administration, Topical"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Drug Compounding"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Wound Healing",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Antimicrobial activity",
+              "Mentha Piperita",
+              "Biofilm Inhibition",
+              "Nanostructured Systems"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Anti-Bacterial Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Oils, Volatile",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Oils",
+                "registryNumber": "0"
+              },
+              {
+                "name": "peppermint oil",
+                "registryNumber": "AV092KU4JH"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1002/cbdv.202503567"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12860549"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12860549?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-06",
+          "dateOfCreation": "2026-01-31",
+          "dateOfRevision": "2026-07-13",
+          "firstPublicationDate": "2026-02-01",
+          "firstIndexDate": "2026-02-06",
+          "fullTextReceivedDate": "2026-02-07",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40917836",
+          "source": "MED",
+          "pmid": "40917836",
+          "pmcid": "PMC12408269",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12408269"
+            ]
+          },
+          "doi": "10.3389/fmed.2025.1589691",
+          "title": "Evaluating efficacy, safety, and innovation in skin care applications of essential oils: a systematic review.",
+          "authorString": "Pezantes-Orellana C, German Berm\u00fadez F, Montalvo J, Packer T, Orellana-Manzano A.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Pezantes-Orellana C",
+                "lastName": "Pezantes-Orellana",
+                "firstName": "Camila",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "NovaVita, Guayaquil, Ecuador."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "German Berm\u00fadez F",
+                "lastName": "German Berm\u00fadez",
+                "firstName": "F\u00e1tima",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3869-8040"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratorio para Investigaciones Biom\u00e9dicas, Facultad de Ciencias de la Vida, Escuela Superior Polit\u00e9cnica del Litoral (ESPOL), Guayaquil, Ecuador."
+                    },
+                    {
+                      "affiliation": "Licenciatura en Nutrici\u00f3n y Diet\u00e9tica, Facultad de Ciencias de la Vida, Escuela Superior Polit\u00e9cnica del Litoral, ESPOL, Guayaquil, Ecuador."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Montalvo J",
+                "lastName": "Montalvo",
+                "firstName": "Jos\u00e9",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "NovaVita, Guayaquil, Ecuador."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Packer T",
+                "lastName": "Packer",
+                "firstName": "Tamara",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "NovaVita, Guayaquil, Ecuador."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Orellana-Manzano A",
+                "lastName": "Orellana-Manzano",
+                "firstName": "Andrea",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratorio para Investigaciones Biom\u00e9dicas, Facultad de Ciencias de la Vida, Escuela Superior Polit\u00e9cnica del Litoral (ESPOL), Guayaquil, Ecuador."
+                    },
+                    {
+                      "affiliation": "Licenciatura en Nutrici\u00f3n y Diet\u00e9tica, Facultad de Ciencias de la Vida, Escuela Superior Polit\u00e9cnica del Litoral, ESPOL, Guayaquil, Ecuador."
+                    },
+                    {
+                      "affiliation": "Facultad de Ciencias de la Salud, Universidad Esp\u00edritu Santo, Samborond\u00f3n, Ecuador."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3869-8040"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "12",
+            "journalIssueId": 3893115,
+            "dateOfPublication": "2025 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Front Med (Lausanne)",
+              "title": "Frontiers in medicine",
+              "essn": "2296-858X",
+              "issn": "2296-858X",
+              "isoabbreviation": "Front Med (Lausanne)",
+              "nlmid": "101648047"
+            },
+            "printPublicationDate": "2025-01-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "1589691",
+          "abstractText": "Essential oils have emerged as popular natural alternatives to synthetic ingredients in cosmetic products, drawing attention for their therapeutic potential in treating skin conditions like acne, psoriasis, and atopic dermatitis. This systematic review analyzed 70 studies from the past decade across multiple databases to evaluate their effectiveness and safety in derma cosmetic applications. The research encompassed clinical trials, <i>in vitro</i> studies, and <i>in vivo</i> experiments examining various essential oils in different cosmetic formulations, including lavender (<i>Lavandula angustifolia</i>), tea tree (<i>Melaleuca alternifolia</i>), chamomile (<i>Matricaria chamomilla</i>), peppermint (<i>Mentha piperita</i>), hemp (<i>Cannabis sativa</i>), <i>Euphorbia characias</i>, hierba de San Guillermo (<i>Agrimonia</i> <i>eupatoria</i>) and eucalyptus (<i>Eucalyptus globulus</i>). Key findings demonstrated that tea tree oil was particularly effective for acne treatment, while lavender and rosemary oils showed promising anti-inflammatory and anti-aging properties. Plant extracts from <i>Ocimum gratissimum</i> and <i>Matricaria chamomilla</i> also yielded positive results for skin health improvement. Various formulations such as gels, creams, and serums showed different levels of effectiveness in enhancing skin hydration, elasticity, and overall appearance. While the clinical evidence suggests significant potential for essential oils in cosmetic and dermatological applications, researchers emphasize the need for more comprehensive, longterm clinical trials to establish their efficacy and safety profiles fully.",
+          "affiliation": "NovaVita, Guayaquil, Ecuador.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "Systematic Review",
+              "systematic-review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Essential oils",
+              "Bioactive compounds",
+              "Skin Conditions",
+              "Cosmetic Product",
+              "Dermocosmetic Application"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3389/fmed.2025.1589691"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12408269"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12408269?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 4,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct",
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-09-08",
+          "dateOfRevision": "2025-09-10",
+          "electronicPublicationDate": "2025-08-21",
+          "firstPublicationDate": "2025-08-21",
+          "firstIndexDate": "2025-09-09",
+          "fullTextReceivedDate": "2025-11-28",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41096883",
+          "source": "MED",
+          "pmid": "41096883",
+          "pmcid": "PMC12524642",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12524642"
+            ]
+          },
+          "doi": "10.3390/ijms26199618",
+          "title": "Protective Effect of Aromatic Plant Essential Oil Administration on Brain Tissue of PTZ-Treated and Non-Treated Mice.",
+          "authorString": "Pagonopoulou O, Koutroumanidou E, Mitrakas A, Pappa A, Voulgaridou GP, Vasiloudi D, Alexopoulou SP, Alexiadis T, Lambropoulou M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Pagonopoulou O",
+                "lastName": "Pagonopoulou",
+                "firstName": "Olga",
+                "initials": "O",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Neurophysiology, Medical School, Democritus University of Thrace, 68100 Alexandroupolis, Greece."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Koutroumanidou E",
+                "lastName": "Koutroumanidou",
+                "firstName": "Eleni",
+                "initials": "E",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6378-8611"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Neurophysiology, Medical School, Democritus University of Thrace, 68100 Alexandroupolis, Greece."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mitrakas A",
+                "lastName": "Mitrakas",
+                "firstName": "Achilleas",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9980-7773"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Histology-Embryology, Medical School, Democritus University of Thrace, 68100 Alexandroupolis, Greece."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pappa A",
+                "lastName": "Pappa",
+                "firstName": "Aglaia",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0913-4315"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Biology and Genetics, Democritus University of Thrace, 68100 Alexandroupolis, Greece."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Voulgaridou GP",
+                "lastName": "Voulgaridou",
+                "firstName": "Georgia-Persephoni",
+                "initials": "GP",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0173-8560"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Physiology, Medical School, Democritus University of Thrace, 68100 Alexandroupolis, Greece."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Vasiloudi D",
+                "lastName": "Vasiloudi",
+                "firstName": "Despoina",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Physiology, Medical School, Democritus University of Thrace, 68100 Alexandroupolis, Greece."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alexopoulou SP",
+                "lastName": "Alexopoulou",
+                "firstName": "Sofia-Panagiota",
+                "initials": "SP",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Histology-Embryology, Medical School, Democritus University of Thrace, 68100 Alexandroupolis, Greece."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alexiadis T",
+                "lastName": "Alexiadis",
+                "firstName": "Triantafyllos",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Histology-Embryology, Medical School, Democritus University of Thrace, 68100 Alexandroupolis, Greece."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Lambropoulou M",
+                "lastName": "Lambropoulou",
+                "firstName": "Maria",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8651-3680"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Histology-Embryology, Medical School, Democritus University of Thrace, 68100 Alexandroupolis, Greece."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8651-3680"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6378-8611"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9980-7773"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0173-8560"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0913-4315"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "19",
+            "volume": "26",
+            "journalIssueId": 4033656,
+            "dateOfPublication": "2025 Oct",
+            "monthOfPublication": 10,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Int J Mol Sci",
+              "title": "International journal of molecular sciences",
+              "essn": "1422-0067",
+              "issn": "1422-0067",
+              "isoabbreviation": "Int J Mol Sci",
+              "nlmid": "101092791"
+            },
+            "printPublicationDate": "2025-10-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "9618",
+          "abstractText": "Epilepsy manifests as recurrent spontaneous seizures associated with irregular brain activity. Recognizing the limitations of conventional antiepileptic treatments, we explored the therapeutic potential of essential oils (EOs) derived from Greek aromatic plants (<i>Mentha pulegium</i>, <i>Mentha spicata</i> wild, <i>Mentha piperita</i>, <i>Lavandula angustifolia</i> and <i>Origanum Dictamnus</i>). Specifically, we explored their radical scavenging capacity (DPPH), as well as their antioxidant (AOP and MDA levels) and neuroprotective effect in a PTZ-induced epilepsy Balb/c mice model (animals were pretreated with EOs prior to PTZ treatment). Our results indicated that <i>Mentha piperita</i> emerges as the most promising EO, demonstrating strong antioxidant activity and the highest radical scavenging ability (IC<sub>50</sub> = 1.9 mg/mL). <i>Mentha pulegium</i> also exhibited considerable antioxidant potential, demonstrating the strongest effect in the AOP assay when administered prior to PTZ treatment. Furthermore, <i>Origanum dictamnus</i> exhibited the strongest potential to attenuate MDA formation in the presence of PTZ. Finally, immunohistochemistry indicated a trend of neuronal preservation in animals pretreated with EOs prior to PTZ, with <i>Mentha piperita</i> demonstrating the most significant effect. Based on these findings, we suggest that certain EOs possess significant antioxidant and neuroprotective properties. Further research is warranted to validate these results and elucidate the active ingredients responsible for the observed properties.",
+          "affiliation": "Laboratory of Neurophysiology, Medical School, Democritus University of Thrace, 68100 Alexandroupolis, Greece.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Brain",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice, Inbred BALB C"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mentha piperita",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mentha pulegium",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Origanum",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Epilepsy",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CI",
+                      "qualifierName": "chemically induced"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Disease Models, Animal"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Malondialdehyde",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AN",
+                      "qualifierName": "analysis"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Pentylenetetrazole",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Oils, Volatile",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Oils",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Convulsants",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Neuroprotective Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antioxidants",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lipid Peroxidation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Essential oils",
+              "Epilepsy",
+              "Antioxidant",
+              "MDA",
+              "ROS",
+              "DPPH",
+              "PTZ",
+              "Mentha Piperita",
+              "Mentha Pulegium",
+              "Lavandula Angustifolia",
+              "Origanum Dictamnus",
+              "Menta Piperita",
+              "Mentha Spicata Wild"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Oils, Volatile",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antioxidants",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Convulsants",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Oils",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Neuroprotective Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Pentylenetetrazole",
+                "registryNumber": "WM5Z385K7T"
+              },
+              {
+                "name": "Malondialdehyde",
+                "registryNumber": "4Y8F71G49Q"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/ijms26199618"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12524642"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12524642?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-03-05",
+          "dateOfCreation": "2025-10-16",
+          "dateOfRevision": "2026-03-05",
+          "electronicPublicationDate": "2025-10-02",
+          "firstPublicationDate": "2025-10-02",
+          "firstIndexDate": "2025-10-16",
+          "fullTextReceivedDate": "2025-10-21",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

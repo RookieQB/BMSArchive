@@ -1,0 +1,1712 @@
+[
+  {
+    "citation": "[1] - McKay DL, Chen CY, Saltzman E, Blumberg JB. Hibiscus sabdariffa L. tea (tisane) lowers blood pressure in prehypertensive and mildly hypertensive adults. The Journal of nutrition, 2010. PMID: 20018807. DOI: 10.3945/jn.109.115097",
+    "pmid": "20018807",
+    "doi": "10.3945/jn.109.115097",
+    "study_type": "RCT",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Sabdariffa gossypiifolia",
+      "synonyms_used_in_study": [
+        "Hibiscus sabdariffa"
+      ],
+      "common_names": [
+        "Roselle / Hibiscus sabdariffa"
+      ],
+      "family": "Malvaceae",
+      "part_used": "Fleshy red calyces, usually dried and infused in water; tea and concentrated extracts have different constituent exposures. Clinical sources use the synonym Hibiscus sabdariffa [1][5][6]."
+    },
+    "preparation": {
+      "type": "Brewed hibiscus tea, aqueous calyx preparation",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Three 240-mL tea servings daily",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "6 weeks",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "65",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Adults age 30–70 with pre/mild hypertension, not taking BP-lowering medicines"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Systolic pressure change −7.2 versus −1.3 mmHg; P=.030; diastolic between-group difference not significant"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Systolic pressure change −7.2 versus −1.3 mmHg; P=.030; diastolic between-group difference not significant",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Small, short study; clinical endpoints and medicated populations not established"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Tea exposure produced lower systolic BP than placebo; study does not prove clinical-event reduction",
+    "bms_archive_interpretation": "Small, short study; clinical endpoints and medicated populations not established",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[2] - Ellis LR, Zulfiqar S, Holmes M, Marshall L, Dye L, Boesch C. A systematic review and meta-analysis of the effects of Hibiscus sabdariffa on blood pressure and cardiometabolic markers. Nutrition reviews, 2022. PMID: 34927694. DOI: 10.1093/nutrit/nuab104",
+    "pmid": "34927694",
+    "doi": "10.1093/nutrit/nuab104",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Sabdariffa gossypiifolia",
+      "synonyms_used_in_study": [
+        "Hibiscus sabdariffa"
+      ],
+      "common_names": [
+        "Roselle / Hibiscus sabdariffa"
+      ],
+      "family": "Malvaceae",
+      "part_used": "Fleshy red calyces, usually dried and infused in water; tea and concentrated extracts have different constituent exposures. Clinical sources use the synonym Hibiscus sabdariffa [1][5][6]."
+    },
+    "preparation": {
+      "type": "Hibiscus preparations vary across trials",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Varied; no pooled dose recommendation",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Varied; not a single regimen",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "17 chronic trials; pooled total varies by endpoint",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Adults in randomized cardiometabolic-marker studies"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Placebo comparison systolic BP −7.10 mmHg (95% CI −13.00 to −1.20), I²=95%; fasting glucose effect not significant"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Placebo comparison systolic BP −7.10 mmHg (95% CI −13.00 to −1.20), I²=95%; fasting glucose effect not significant",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Mild gastrointestinal symptoms in one included trial; sparse long-term reporting",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "High heterogeneity; moderate risk of bias; no cardiovascular-event efficacy"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors propose potential cardiovascular-marker benefit and request dose-response/duration research",
+    "bms_archive_interpretation": "High heterogeneity; moderate risk of bias; no cardiovascular-event efficacy",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": false,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[3] - Frank T, Janssen M, Netzel M, Netzel M, Netzel M, Strass G, Kler A, Kriesl E, Bitsch I. Pharmacokinetics of anthocyanidin-3-glycosides following consumption of Hibiscus sabdariffa L. extract. Journal of clinical pharmacology, 2005. PMID: 15647413. DOI: 10.1177/0091270004270561",
+    "pmid": "15647413",
+    "doi": "10.1177/0091270004270561",
+    "study_type": "OBS",
+    "evidence_level": "C",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Sabdariffa gossypiifolia",
+      "synonyms_used_in_study": [
+        "Hibiscus sabdariffa"
+      ],
+      "common_names": [
+        "Roselle / Hibiscus sabdariffa"
+      ],
+      "family": "Malvaceae",
+      "part_used": "Fleshy red calyces, usually dried and infused in water; tea and concentrated extracts have different constituent exposures. Clinical sources use the synonym Hibiscus sabdariffa [1][5][6]."
+    },
+    "preparation": {
+      "type": "Hibiscus extract; solvent/ratio not reported in abstract",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "150 mL extract containing 147.4 mg total anthocyanins",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Single exposure; urine collected 7 hours",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "6",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Healthy volunteers"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Median intact anthocyanin Tmax 1.5 hours; total intact anthocyanin urinary recovery 0.018% over 7 hours"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Median intact anthocyanin Tmax 1.5 hours; total intact anthocyanin urinary recovery 0.018% over 7 hours",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Very small compound-specific PK study; not whole-extract bioavailability"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors request further study of metabolites and conjugates",
+    "bms_archive_interpretation": "Very small compound-specific PK study; not whole-extract bioavailability",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[4] - Abubakar SM, Ukeyima MT, Spencer JPE, Lovegrove JA. Acute Effects of Hibiscus Sabdariffa Calyces on Postprandial Blood Pressure, Vascular Function, Blood Lipids, Biomarkers of Insulin Resistance and Inflammation in Humans. Nutrients, 2019. PMID: 30764582. DOI: 10.3390/nu11020341",
+    "pmid": "30764582",
+    "doi": "10.3390/nu11020341",
+    "study_type": "RCT",
+    "evidence_level": "C",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Sabdariffa gossypiifolia",
+      "synonyms_used_in_study": [
+        "Hibiscus sabdariffa"
+      ],
+      "common_names": [
+        "Roselle / Hibiscus sabdariffa"
+      ],
+      "family": "Malvaceae",
+      "part_used": "Fleshy red calyces, usually dried and infused in water; tea and concentrated extracts have different constituent exposures. Clinical sources use the synonym Hibiscus sabdariffa [1][5][6]."
+    },
+    "preparation": {
+      "type": "Aqueous calyx drink",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "250 mL aqueous calyx extract at breakfast",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Acute 4-hour response; crossover visits 2 weeks apart",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "25",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Men with estimated 1–10% CVD risk"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "FMD improved; acute BP reduction not significant; measured phenolic acids peaked around 1–2 h"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "FMD improved; acute BP reduction not significant; measured phenolic acids peaked around 1–2 h",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Small single-blind study; no long-term outcomes"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Acute vascular function signal requires confirmation",
+    "bms_archive_interpretation": "Small single-blind study; no long-term outcomes",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": false,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[5] - Herrera-Arellano A, Flores-Romero S, Chávez-Soto MA, Tortoriello J. Effectiveness and tolerability of a standardized extract from Hibiscus sabdariffa in patients with mild to moderate hypertension: a controlled and randomized clinical trial. Phytomedicine : international journal of phytotherapy and phytopharmacology, 2004. PMID: 15330492. DOI: 10.1016/j.phymed.2004.04.001",
+    "pmid": "15330492",
+    "doi": "10.1016/j.phymed.2004.04.001",
+    "study_type": "RCT",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Sabdariffa gossypiifolia",
+      "synonyms_used_in_study": [
+        "Hibiscus sabdariffa"
+      ],
+      "common_names": [
+        "Roselle / Hibiscus sabdariffa"
+      ],
+      "family": "Malvaceae",
+      "part_used": "Fleshy red calyces, usually dried and infused in water; tea and concentrated extracts have different constituent exposures. Clinical sources use the synonym Hibiscus sabdariffa [1][5][6]."
+    },
+    "preparation": {
+      "type": "Aqueous calyx infusion",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Infusion of 10 g dry calyx containing 9.6 mg anthocyanins daily; captopril comparator 25 mg twice daily",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "4 weeks",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "90 enrolled; 75 analyzed (39 extract, 36 captopril)",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Hypertensive adults age 30–80 without antihypertensive treatment for preceding month"
+    },
+    "comparator": "Captopril 25 mg twice daily",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "No significant between-group BP difference at study end; natriuretic signal reported"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "No significant between-group BP difference at study end; natriuretic signal reported",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "15 of 90, non-medical reasons",
+    "limitations": [
+      "15 non-medical withdrawals; full blinding and noninferiority design not established in abstract"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors report similar BP/tolerability; absence of significant difference is not proof of equivalence",
+    "bms_archive_interpretation": "15 non-medical withdrawals; full blinding and noninferiority design not established in abstract",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[1] - Christensen R, Bartels EM, Altman RD, Astrup A, Bliddal H. Does the hip powder of Rosa canina (rosehip) reduce pain in osteoarthritis patients?--a meta-analysis of randomized controlled trials. Osteoarthritis and cartilage, 2008. PMID: 18407528. DOI: 10.1016/j.joca.2008.03.001",
+    "pmid": "18407528",
+    "doi": "10.1016/j.joca.2008.03.001",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Rosa canina",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Dog Rose / Rosehip"
+      ],
+      "family": "Rosaceae",
+      "part_used": "The clinical evidence concerns powder made from the seeds and shells/husks of a Rosa canina subspecies. Seed oil, seed-free hip material, teas and multi-species rosehip blends are not interchangeable with this powder [2][3]."
+    },
+    "preparation": {
+      "type": "Proprietary Rosa canina hip powder",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Varied/not specified in abstract",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Median 3 months",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "287 across 3 trials",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "People with osteoarthritis"
+    },
+    "comparator": "Placebo",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Standardized pain effect 0.37 (95% CI .13–.60); I²=0%"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Standardized pain effect 0.37 (95% CI .13–.60); I²=0%",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "All trials supported by same manufacturer; sparse evidence; safety incomplete"
+    ],
+    "funding_source": "All three studies supported by manufacturer Hyben-Vital International",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors report pain reduction but request independent long-term replication",
+    "bms_archive_interpretation": "All trials supported by same manufacturer; sparse evidence; safety incomplete",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[2] - Winther K, Apel K, Thamsborg G. A powder made from seeds and shells of a rose-hip subspecies (Rosa canina) reduces symptoms of knee and hip osteoarthritis: a randomized, double-blind, placebo-controlled clinical trial. Scandinavian journal of rheumatology, 2005. PMID: 16195164. DOI: 10.1080/03009740510018624",
+    "pmid": "16195164",
+    "doi": "10.1080/03009740510018624",
+    "study_type": "RCT",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Rosa canina",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Dog Rose / Rosehip"
+      ],
+      "family": "Rosaceae",
+      "part_used": "The clinical evidence concerns powder made from the seeds and shells/husks of a Rosa canina subspecies. Seed oil, seed-free hip material, teas and multi-species rosehip blends are not interchangeable with this powder [2][3]."
+    },
+    "preparation": {
+      "type": "Powder of seeds and shells of a Rosa canina subspecies",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "5 g powder daily",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "3 months per crossover period",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "94",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Hip/knee osteoarthritis"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "WOMAC pain reduction versus placebo at 3 weeks; rescue medication reduced"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "WOMAC pain reduction versus placebo at 3 weeks; rescue medication reduced",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Crossover carryover and detailed safety not resolved from abstract; proprietary preparation"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors suggest symptom and rescue-medication reduction",
+    "bms_archive_interpretation": "Crossover carryover and detailed safety not resolved from abstract; proprietary preparation",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[3] - Chrubasik C, Roufogalis BD, Müller-Ladner U, Chrubasik S. A systematic review on the Rosa canina effect and efficacy profiles. Phytotherapy research : PTR, 2008. PMID: 18384191. DOI: 10.1002/ptr.2400",
+    "pmid": "18384191",
+    "doi": "10.1002/ptr.2400",
+    "study_type": "REVIEW",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Rosa canina",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Dog Rose / Rosehip"
+      ],
+      "family": "Rosaceae",
+      "part_used": "The clinical evidence concerns powder made from the seeds and shells/husks of a Rosa canina subspecies. Seed oil, seed-free hip material, teas and multi-species rosehip blends are not interchangeable with this powder [2][3]."
+    },
+    "preparation": {
+      "type": "Different hip, seed, hip-and-seed preparations including Litozin",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Not specified",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Varied",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human and preclinical synthesis",
+      "sample_size": "Multiple studies; total not provided",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Experimental and exploratory human evidence"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Experimental antioxidant/anti-inflammatory effects and exploratory clinical findings"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Experimental antioxidant/anti-inflammatory effects and exploratory clinical findings",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Narrative pharmacology synthesis; experimental effects cannot establish human indications"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors call for determination of clinical effect sizes and optimized formulations",
+    "bms_archive_interpretation": "Narrative pharmacology synthesis; experimental effects cannot establish human indications",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[4] - Chrubasik C, Duke RK, Chrubasik S. The evidence for clinical efficacy of rose hip and seed: a systematic review. Phytotherapy research : PTR, 2006. PMID: 16395741. DOI: 10.1002/ptr.1729",
+    "pmid": "16395741",
+    "doi": "10.1002/ptr.1729",
+    "study_type": "REVIEW",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Rosa canina",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Dog Rose / Rosehip"
+      ],
+      "family": "Rosaceae",
+      "part_used": "The clinical evidence concerns powder made from the seeds and shells/husks of a Rosa canina subspecies. Seed oil, seed-free hip material, teas and multi-species rosehip blends are not interchangeable with this powder [2][3]."
+    },
+    "preparation": {
+      "type": "Seed-and-husk powder of subspecies",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Not specified",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Varied",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human and preclinical synthesis",
+      "sample_size": "4 trials, including 2 subgroup analyses",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Patients in Rosa canina clinical studies"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Narrative review concludes moderate evidence for osteoarthritis preparation"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Narrative review concludes moderate evidence for osteoarthritis preparation",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Few studies; subgroup analyses are not independent replications"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors judge moderate evidence for the specific powder",
+    "bms_archive_interpretation": "Few studies; subgroup analyses are not independent replications",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[1] - Timmer A, Günther J, Motschall E, Rücker G, Antes G, Kern WV. Pelargonium sidoides extract for treating acute respiratory tract infections. The Cochrane database of systematic reviews, 2013. PMID: 24146345. DOI: 10.1002/14651858.cd006323.pub3",
+    "pmid": "24146345",
+    "doi": "10.1002/14651858.cd006323.pub3",
+    "study_type": "SR-MA",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Pelargonium sidoides",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "African Geranium / Umckaloabo"
+      ],
+      "family": "Geraniaceae",
+      "part_used": "Root; clinical findings mainly concern proprietary EPs 7630 liquid/dry extracts. EMA describes defined ethanol-extracted preparations and also covers P. reniforme, so genus-level and mixed-species preparations cannot be assumed equivalent to P. sidoides trial material [2][3][6]."
+    },
+    "preparation": {
+      "type": "Pelargonium preparations, mostly proprietary extract",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Varied; liquid and tablet preparations",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Varied; main bronchitis outcomes day 7",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "8 analyzed trials from 10 eligible; 746 adults and 819 children in bronchitis subsets",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Adults and children with selected acute respiratory infections"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Low-quality bronchitis symptom signal; very-low-quality cold/sinusitis evidence; preparation-related heterogeneity"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Low-quality bronchitis symptom signal; very-low-quality cold/sinusitis evidence; preparation-related heterogeneity",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "More adverse events with extract than placebo; no serious events in included trials",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Suspected publication bias; outcome validation/blinding concerns; no Level A classification"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Possible symptom effects with doubt and low/very-low evidence quality",
+    "bms_archive_interpretation": "Suspected publication bias; outcome validation/blinding concerns; no Level A classification",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[2] - Willcox M, Simpson C, Wilding S, Stuart B, Soilemezi D, Whitehead A, Morgan A, Wrixon E, Zhu S, Yao G, Webley F, Yan R, Bostock J, Bell M, Griffiths G, Leydon G, Little P, Butler C, Hay AD, Moore M. Pelargonium sidoides root extract for the treatment of acute cough due to lower respiratory tract infection in adults: a feasibility double-blind, placebo-controlled randomised trial. BMC complementary medicine and therapies, 2021. PMID: 33514367. DOI: 10.1186/s12906-021-03206-4",
+    "pmid": "33514367",
+    "doi": "10.1186/s12906-021-03206-4",
+    "study_type": "RCT",
+    "evidence_level": "C",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Pelargonium sidoides",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "African Geranium / Umckaloabo"
+      ],
+      "family": "Geraniaceae",
+      "part_used": "Root; clinical findings mainly concern proprietary EPs 7630 liquid/dry extracts. EMA describes defined ethanol-extracted preparations and also covers P. reniforme, so genus-level and mixed-species preparations cannot be assumed equivalent to P. sidoides trial material [2][3][6]."
+    },
+    "preparation": {
+      "type": "Proprietary EPs 7630 liquid or tablets",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Liquid/tablet Kaloba regimens; abstract does not specify mg or extract ratio",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "28-day follow-up",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "134 recruited; 103 completed symptom diary",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "UK primary care adults with acute bronchitis cough ≤21 days"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Recruitment/retention feasibility; no treatment-related serious AEs"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Recruitment/retention feasibility; no treatment-related serious AEs",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "No serious treatment-related events reported; detailed frequencies not available in abstract",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Feasibility study, not powered definitive efficacy; antibiotics used by many participants"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Definitive RCT appeared feasible",
+    "bms_archive_interpretation": "Feasibility study, not powered definitive efficacy; antibiotics used by many participants",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[3] - Kardos P, Lehmacher W, Zimmermann A, Brandes-Schramm J, Funk P, Matthys H, Kamin W. Effects of Pelargonium sidoides extract EPs 7630 on acute cough and quality of life - a meta-analysis of randomized, placebo-controlled trials. Multidisciplinary respiratory medicine, 2022. PMID: 36051888. DOI: 10.4081/mrm.2022.868",
+    "pmid": "36051888",
+    "doi": "10.4081/mrm.2022.868",
+    "study_type": "SR-MA",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Pelargonium sidoides",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "African Geranium / Umckaloabo"
+      ],
+      "family": "Geraniaceae",
+      "part_used": "Root; clinical findings mainly concern proprietary EPs 7630 liquid/dry extracts. EMA describes defined ethanol-extracted preparations and also covers P. reniforme, so genus-level and mixed-species preparations cannot be assumed equivalent to P. sidoides trial material [2][3][6]."
+    },
+    "preparation": {
+      "type": "EPs 7630 root extract",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Varied EPs 7630 regimens",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Main cough endpoints day 7 bronchitis/day 5 cold",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "2195 across 11 trials",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Children/adolescents and adults with bronchitis; adults with cold"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Greater cough response/remission than placebo in analyses"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Greater cough response/remission than placebo in analyses",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Product/manufacturer involvement; does not remove Cochrane certainty concerns; applies only studied extract"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors judge cough/QoL advantage",
+    "bms_archive_interpretation": "Product/manufacturer involvement; does not remove Cochrane certainty concerns; applies only studied extract",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": false,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[4] - Teschke R, Frenzel C, Schulze J, Eickhoff A. Spontaneous reports of primarily suspected herbal hepatotoxicity by Pelargonium sidoides: was causality adequately ascertained? Regulatory toxicology and pharmacology : RTP, 2012. PMID: 22381150. DOI: 10.1016/j.yrtph.2012.02.009",
+    "pmid": "22381150",
+    "doi": "10.1016/j.yrtph.2012.02.009",
+    "study_type": "CASE",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Pelargonium sidoides",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "African Geranium / Umckaloabo"
+      ],
+      "family": "Geraniaceae",
+      "part_used": "Root; clinical findings mainly concern proprietary EPs 7630 liquid/dry extracts. EMA describes defined ethanol-extracted preparations and also covers P. reniforme, so genus-level and mixed-species preparations cannot be assumed equivalent to P. sidoides trial material [2][3][6]."
+    },
+    "preparation": {
+      "type": "Pelargonium sidoides products",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Not specified",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Varied/not provided",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "15 suspected hepatotoxicity cases",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Spontaneously reported liver cases"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "No probable/highly probable causal assignment using updated CIOMS scale"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "No probable/highly probable causal assignment using updated CIOMS scale",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Poor case quality/confounding; reassessment cannot prove no liver hazard"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors find no convincing hepatotoxicity evidence in analyzed reports",
+    "bms_archive_interpretation": "Poor case quality/confounding; reassessment cannot prove no liver hazard",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[5] - Alvero RGY, Balmadrid AS, Aquino RCC, Balaccua GP. Short-term Liver Safety of <i>Pelargonium sidoides</i> DC. Root (PELARGO) 20 mg Capsule: A Non-interventional Post-authorization Safety Study. Acta medica Philippina, 2026. PMID: 41890334. DOI: 10.47895/amp.vi0.12322",
+    "pmid": "41890334",
+    "doi": "10.47895/amp.vi0.12322",
+    "study_type": "OBS",
+    "evidence_level": "C",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Pelargonium sidoides",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "African Geranium / Umckaloabo"
+      ],
+      "family": "Geraniaceae",
+      "part_used": "Root; clinical findings mainly concern proprietary EPs 7630 liquid/dry extracts. EMA describes defined ethanol-extracted preparations and also covers P. reniforme, so genus-level and mixed-species preparations cannot be assumed equivalent to P. sidoides trial material [2][3][6]."
+    },
+    "preparation": {
+      "type": "PELARGO root-extract capsule; not interchangeable with EPs 7630",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "20 mg PELARGO capsule three times daily",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "7 days treatment; visit day 8",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "300 enrolled; 298 completed",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Filipino adults with common cold"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "No clinical signs/symptoms of liver toxicity or serious AEs; mild dizziness/headache/drowsiness etc"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "No clinical signs/symptoms of liver toxicity or serious AEs; mild dizziness/headache/drowsiness etc",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "No clinical liver injury signs; mild transient AEs; full text retained",
+    "withdrawals": "2 of 300 did not complete",
+    "limitations": [
+      "Short uncontrolled manufacturer-sponsored study; symptom-based surveillance without liver chemistry cannot exclude asymptomatic or delayed rare injury"
+    ],
+    "funding_source": "Pascual Laboratories Inc. via Pharmalytics Corporation",
+    "conflict_of_interest": "Two authors employed by sponsor",
+    "author_conclusion": "Authors report no observed liver toxicity with explicit limitations",
+    "bms_archive_interpretation": "Short uncontrolled manufacturer-sponsored study; symptom-based surveillance without liver chemistry cannot exclude asymptomatic or delayed rare injury",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": false,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[1] - Li L, Li H, Gao Y, Vafaei S, Zhang X, Yang M. Effect of flaxseed supplementation on blood pressure: a systematic review, and dose-response meta-analysis of randomized clinical trials. Food & function, 2023. PMID: 36622248. DOI: 10.1039/d2fo02566c",
+    "pmid": "36622248",
+    "doi": "10.1039/d2fo02566c",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Linum usitatissimum",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Flax / Linseed"
+      ],
+      "family": "Linaceae",
+      "part_used": "Dried ripe seeds, whole/broken or milled, and seed mucilage. Seed oil lacks the same bulk-forming fibre exposure; purified lignan extracts have a separate pharmacokinetic and safety evidence base [3][5][6]."
+    },
+    "preparation": {
+      "type": "Whole seed/powder/oil/extract varies",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Varied flax products",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Varied",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "2427 across 33 trials/43 arms",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Human trial populations including hypertension"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Systolic −3.19 mmHg; diastolic −2.61 mmHg; I² 92.5%/94.1%"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Systolic −3.19 mmHg; diastolic −2.61 mmHg; I² 92.5%/94.1%",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Very high heterogeneity; different products; no blanket efficacy/dose conclusion"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors report pooled reductions",
+    "bms_archive_interpretation": "Very high heterogeneity; different products; no blanket efficacy/dose conclusion",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[2] - Ursoniu S, Sahebkar A, Andrica F, Serban C, Banach M, Lipid and Blood Pressure Meta-analysis Collaboration (LBPMC) Group. Effects of flaxseed supplements on blood pressure: A systematic review and meta-analysis of controlled clinical trial. Clinical nutrition (Edinburgh, Scotland), 2016. PMID: 26071633. DOI: 10.1016/j.clnu.2015.05.012",
+    "pmid": "26071633",
+    "doi": "10.1016/j.clnu.2015.05.012",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Linum usitatissimum",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Flax / Linseed"
+      ],
+      "family": "Linaceae",
+      "part_used": "Dried ripe seeds, whole/broken or milled, and seed mucilage. Seed oil lacks the same bulk-forming fibre exposure; purified lignan extracts have a separate pharmacokinetic and safety evidence base [3][5][6]."
+    },
+    "preparation": {
+      "type": "Powder, oil or lignan extracts",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Varied",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Varied",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "1302 across 15 trials/19 arms",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Human BP trials"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Pooled systolic −2.85 and diastolic −2.39 mmHg; formulation subgroups differ"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Pooled systolic −2.85 and diastolic −2.39 mmHg; formulation subgroups differ",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Heterogeneity and preparation-specific results; no product interchangeability"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors report reductions across pooled products",
+    "bms_archive_interpretation": "Heterogeneity and preparation-specific results; no product interchangeability",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[3] - Setchell KD, Brown NM, Zimmer-Nechemias L, Wolfe B, Jha P, Heubi JE. Metabolism of secoisolariciresinol-diglycoside the dietary precursor to the intestinally derived lignan enterolactone in humans. Food & function, 2014. PMID: 24429845. DOI: 10.1039/c3fo60402k",
+    "pmid": "24429845",
+    "doi": "10.1039/c3fo60402k",
+    "study_type": "OBS",
+    "evidence_level": "C",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Linum usitatissimum",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Flax / Linseed"
+      ],
+      "family": "Linaceae",
+      "part_used": "Dried ripe seeds, whole/broken or milled, and seed mucilage. Seed oil lacks the same bulk-forming fibre exposure; purified lignan extracts have a separate pharmacokinetic and safety evidence base [3][5][6]."
+    },
+    "preparation": {
+      "type": "Purified flax SDG extracts with differing purity",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "25, 50, 75, 86 or 172 mg SDG in purified extracts",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Single-dose and one-week repeated-intake studies",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "PK substudies; total not specified in abstract",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Healthy postmenopausal women"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "SDG converted to SECO, enterodiol and enterolactone; approximate half-lives 4.8,9.4,13.2 h respectively"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "SDG converted to SECO, enterodiol and enterolactone; approximate half-lives 4.8,9.4,13.2 h respectively",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Small PK substudies not efficacy; no impairment or complete-seed extrapolation"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Defines compound-specific human PK",
+    "bms_archive_interpretation": "Small PK substudies not efficacy; no impairment or complete-seed extrapolation",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[4] - Toulabi T, Yarahmadi M, Goudarzi F, Ebrahimzadeh F, Momenizadeh A, Yarahmadi S. Effects of flaxseed on blood pressure, body mass index, and total cholesterol in hypertensive patients: A randomized clinical trial. Explore (New York, N.Y.), 2022. PMID: 34119421. DOI: 10.1016/j.explore.2021.05.003",
+    "pmid": "34119421",
+    "doi": "10.1016/j.explore.2021.05.003",
+    "study_type": "RCT",
+    "evidence_level": "U",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Linum usitatissimum",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Flax / Linseed"
+      ],
+      "family": "Linaceae",
+      "part_used": "Dried ripe seeds, whole/broken or milled, and seed mucilage. Seed oil lacks the same bulk-forming fibre exposure; purified lignan extracts have a separate pharmacokinetic and safety evidence base [3][5][6]."
+    },
+    "preparation": {
+      "type": "Flaxseed supplementation; exact processing not specified in abstract",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "10 g or 30 g flaxseed supplementation vs placebo",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "12 weeks",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "Abstract says 112, but arm sizes 45+45+45=135; unresolved",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Hypertension; age 35–70"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Reported BP/BMI/cholesterol reductions; precise effect not relied upon in proposed entry"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Reported BP/BMI/cholesterol reductions; precise effect not relied upon in proposed entry",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Internal sample-size inconsistency; full text required before precise claims"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors report favorable outcomes",
+    "bms_archive_interpretation": "Internal sample-size inconsistency; full text required before precise claims",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[1] - Pittler MH, Ernst E. Horse chestnut seed extract for chronic venous insufficiency. The Cochrane database of systematic reviews, 2012. PMID: 23152216. DOI: 10.1002/14651858.cd003230.pub4",
+    "pmid": "23152216",
+    "doi": "10.1002/14651858.cd003230.pub4",
+    "study_type": "SR-MA",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Aesculus hippocastanum",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Horse Chestnut"
+      ],
+      "family": "Sapindaceae",
+      "part_used": "Seed-derived standardized extracts used in clinical trials; not raw seeds, bark, leaves or flowers. EMA standardized extracts specify constituent assay and extraction solvent, so older aescin values and newer protoaescigenin-based values should not be casually interchanged [1][3][4]."
+    },
+    "preparation": {
+      "type": "Horse chestnut seed mono-extract standardized to escin",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Standardized seed extracts, varied regimens",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "Short term, varied",
+      "route": "Unknown / not reported in accessed source"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "17 trials; leg-volume analysis 502 across 6",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "Chronic venous insufficiency"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Pooled leg-volume reduction 32.1 mL (95% CI 13.49–50.72) versus placebo; pain signals"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Pooled leg-volume reduction 32.1 mL (95% CI 13.49–50.72) versus placebo; pain signals",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "Unknown / not reported in accessed source",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Old small trials, study limitations and long-term data gap; cannot generalize to raw parts"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors suggest short-term symptom efficacy while requesting larger definitive trials",
+    "bms_archive_interpretation": "Old small trials, study limitations and long-term data gap; cannot generalize to raw parts",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  },
+  {
+    "citation": "[2] - Diehm C, Trampisch HJ, Lange S, Schmidt C. Comparison of leg compression stocking and oral horse-chestnut seed extract therapy in patients with chronic venous insufficiency. Lancet (London, England), 1996. PMID: 8569363. DOI: 10.1016/s0140-6736(96)90467-5",
+    "pmid": "8569363",
+    "doi": "10.1016/s0140-6736(96)90467-5",
+    "study_type": "RCT",
+    "evidence_level": "B",
+    "plant_or_fungus": {
+      "accepted_latin_name": "Aesculus hippocastanum",
+      "synonyms_used_in_study": [],
+      "common_names": [
+        "Horse Chestnut"
+      ],
+      "family": "Sapindaceae",
+      "part_used": "Seed-derived standardized extracts used in clinical trials; not raw seeds, bark, leaves or flowers. EMA standardized extracts specify constituent assay and extraction solvent, so older aescin values and newer protoaescigenin-based values should not be casually interchanged [1][3][4]."
+    },
+    "preparation": {
+      "type": "Standardized horse chestnut seed extract",
+      "extract_ratio": "Unknown / not reported in accessed source",
+      "solvent": "Unknown / not reported in accessed source",
+      "standardization": "Unknown / not reported in accessed source",
+      "active_compounds": []
+    },
+    "intervention": {
+      "dose": "Dried seed extract equivalent to 50 mg aescin twice daily",
+      "frequency": "Unknown / not reported in accessed source",
+      "duration": "12 weeks",
+      "route": "Oral"
+    },
+    "population_or_model": {
+      "type": "Human",
+      "sample_size": "240 (95 extract, 99 compression, 46 placebo)",
+      "age_range": "Unknown / not reported in accessed source",
+      "sex": "Unknown / not reported in accessed source",
+      "condition": "People with chronic venous insufficiency"
+    },
+    "comparator": "Unknown / not reported in accessed source",
+    "blinding": "Unknown / not reported in accessed source",
+    "outcomes": {
+      "primary": [
+        "Leg volume −43.8 mL extract, −46.7 mL compression, +9.8 mL placebo"
+      ],
+      "secondary": []
+    },
+    "results": {
+      "primary_outcome_result": "Leg volume −43.8 mL extract, −46.7 mL compression, +9.8 mL placebo",
+      "secondary_outcome_results": "Unknown / not reported in accessed source",
+      "statistical_significance": "Unknown / not reported in accessed source",
+      "effect_size": "Unknown / not reported in accessed source"
+    },
+    "adverse_events": "No serious treatment-related events reported; detailed frequencies not available in abstract",
+    "withdrawals": "Unknown / not reported in accessed source",
+    "limitations": [
+      "Partially blinded; equivalence hierarchy caveat; no thrombosis-prevention conclusion"
+    ],
+    "funding_source": "Unknown / not reported in accessed source",
+    "conflict_of_interest": "Unknown / not reported in accessed source",
+    "author_conclusion": "Authors discuss therapies as alternatives for edema reduction",
+    "bms_archive_interpretation": "Partially blinded; equivalence hierarchy caveat; no thrombosis-prevention conclusion",
+    "maps_to_data_json": {
+      "narrative_summary.historical_use": false,
+      "narrative_summary.modern_application": true,
+      "narrative_summary.side_effects": false,
+      "narrative_summary.contraindications": false,
+      "clinical_data.used_part": true,
+      "clinical_data.primary_active_compounds": false,
+      "clinical_data.mechanism_of_action": false,
+      "clinical_data.pharmacokinetics.absorption": false,
+      "clinical_data.pharmacokinetics.distribution": false,
+      "clinical_data.pharmacokinetics.metabolism": false,
+      "clinical_data.pharmacokinetics.excretion": false,
+      "clinical_data.safety_and_interactions.drug_interactions": false,
+      "clinical_data.safety_and_interactions.toxicity": false,
+      "clinical_data.special_precautions.pregnancy": false,
+      "clinical_data.special_precautions.lactation": false,
+      "clinical_data.special_precautions.hepatic_impairment": false,
+      "clinical_data.special_precautions.renal_impairment": false,
+      "sources.top_studies_urls": true,
+      "sources.cited_references": true
+    },
+    "qa_notes": "Verified title/authors/year/abstract via Europe PMC MED record. Evidence grade applies to described use; PK and safety studies do not confer an efficacy grade.",
+    "requires_full_text": true,
+    "full_text_reason": "Detailed extraction, safety ascertainment, withdrawals, funding and formulation require full text unless retained XML is available.",
+    "last_reviewed": "2026-10-25",
+    "reviewed_by": "extraction-synthesis-agent"
+  }
+]

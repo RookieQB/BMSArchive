@@ -1,0 +1,2303 @@
+{
+  "query": "TITLE_ABS:\"Aloe vera\" AND (adverse effects OR toxicity OR drug interactions)",
+  "date": "2026-10-25",
+  "response": {
+    "version": "6.9",
+    "hitCount": 154,
+    "nextCursorMark": "AoIIQMhAmCg1NTc1OTMwOQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Aloe+vera%22+AND+%28adverse+effects+OR+toxicity+OR+drug+interactions%29&cursorMark=AoIIQMhAmCg1NTc1OTMwOQ%3D%3D&resultType=core&pageSize=8&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"Aloe vera\" AND (adverse effects OR toxicity OR drug interactions)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 8,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42356420",
+          "source": "MED",
+          "pmid": "42356420",
+          "pmcid": "PMC13304867",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13304867"
+            ]
+          },
+          "doi": "10.3390/nu18122034",
+          "title": "Phytochemistry, Bioavailability, and Molecular Mechanisms Underlying Multitarget Anticancer Activity of &lt;i&gt;Aloe vera&lt;/i&gt;.",
+          "authorString": "Haroon N, Amjad A, Maaz M, Noman AM, Anees N, Muhammad Z, Shah M, Abdulmonem WA.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Haroon N",
+                "lastName": "Haroon",
+                "firstName": "Nimra",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Amjad A",
+                "lastName": "Amjad",
+                "firstName": "Adnan",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5288-8038"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Maaz M",
+                "lastName": "Maaz",
+                "firstName": "Muhammad",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0009-2254-4256"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Noman AM",
+                "lastName": "Noman",
+                "firstName": "Ahmad Mujtaba",
+                "initials": "AM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7559-0338"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Anees N",
+                "lastName": "Anees",
+                "firstName": "Nimra",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-3450-4930"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Muhammad Z",
+                "lastName": "Muhammad",
+                "firstName": "Zafarullah",
+                "initials": "Z",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Agriculture and Food Engineering, Baise University, Baise City 533000, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shah M",
+                "lastName": "Shah",
+                "firstName": "Mohibullah",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6126-7102"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biochemistry, Bahauddin Zakariya University, Multan 60800, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abdulmonem WA",
+                "lastName": "Abdulmonem",
+                "firstName": "Waleed Al",
+                "initials": "WA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2984-9262"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pathology, College of Medicine, Qassim University, Buraidah 51411, Saudi Arabia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5288-8038"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6126-7102"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7559-0338"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2984-9262"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0005-3450-4930"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0009-2254-4256"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "12",
+            "volume": "18",
+            "journalIssueId": 4222012,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Nutrients",
+              "title": "Nutrients",
+              "essn": "2072-6643",
+              "issn": "2072-6643",
+              "isoabbreviation": "Nutrients",
+              "nlmid": "101521595"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "2034",
+          "abstractText": "<b>Background/Objectives</b>: Cancer, a multifactorial disease with uncontrolled cell growth, oxidative stress, inflammation, genomic instability, and molecular signaling pathways, is a global health concern, leading to the ~20 million newly diagnosed cases annually. Although conventional therapy has been shown to enhance the survival rates of cancer patients, its clinical efficacy is limited by certain side effects that occur as a result of treatment, thus necessitating the exploration of plant-derived bioactive compounds for their potential as safer and alternative supportive therapeutic agents. <i>Aloe vera</i>, known as the plant of immortality, comprises phytochemicals, such as anthraquinones (aloe-emodin, emodin, and aloin), polysaccharides (acemannan), flavonoids, and phenolic acids, which contribute to the pharmacological effect of the compound. <b>Methods</b>: This review summarizes the anticancer potential of <i>Aloe vera</i>, and the data were retrieved from databases, such as PubMed, Google Scholar, ScienceDirect, Web of Science, and Wiley Online Library, during the time period of 2015 to 2025. <b>Results</b>: The literature revealed that <i>Aloe vera</i> and its bioactive compounds have dose-dependent cytotoxic and anti-proliferative properties against hepatocellular, cervical, colorectal, lung, breast, prostate, and hematological cancers, which are significantly mediated by apoptosis and pyroptosis induction, reactive oxygen species (ROS) production, mitochondrial dysfunction, inhibition of angiogenesis and metastasis, and the modulation of key signaling pathways, particularly PI3K/Akt, MAPK, NF-\u043aB, p53, and Wnt/\u03b2-catenin. Furthermore, anthraquinones, including Aloe-emodin, demonstrate potent anticancer effects at micro-molar doses, and polysaccharides increase immune reactions and provide tumor immunity. <b>Conclusions</b>: Conclusively, <i>Aloe vera</i> is a promising multi-target natural compound, particularly efficient in the treatment of cancer. However, despite significant therapeutic potential, more research on pharmacokinetics, standard dose, and controlled clinical trials of <i>Aloe vera</i> is required to validate clinical applicability.",
+          "affiliation": "Faculty of Food Science and Nutrition, Bahauddin Zakariya University, Multan 60800, Pakistan.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Aloe",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Plant Extracts",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antineoplastic Agents, Phytogenic",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Signal Transduction",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Biological Availability"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Phytochemicals",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PK",
+                      "qualifierName": "pharmacokinetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PD",
+                      "qualifierName": "pharmacology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Oxidative stress",
+              "Bioavailability",
+              "Aloe vera",
+              "Aloe-emodin",
+              "Anticancer activity",
+              "Phytochemicals",
+              "Molecular Signaling Pathways",
+              "Natural Therapeutics"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Plant Extracts",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antineoplastic Agents, Phytogenic",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Phytochemicals",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/nu18122034"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13304867"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13304867?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-26",
+          "dateOfCreation": "2026-06-26",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-22",
+          "firstPublicationDate": "2026-06-22",
+          "firstIndexDate": "2026-06-27",
+          "fullTextReceivedDate": "2026-08-19",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42795264",
+          "source": "MED",
+          "pmid": "42795264",
+          "pmcid": "PMC13608851",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13608851"
+            ]
+          },
+          "doi": "10.3390/life16091397",
+          "title": "Cardioprotective Effects of &lt;i&gt;Aloe vera&lt;/i&gt;-Derived Bioactive Compounds in Myocardial Infarction: A Preclinical Review of Mechanisms and Dosages.",
+          "authorString": "Al-Rawahi N, Abduwani A, Alhabsi AN, Al Lawati A, Al Lawati H, Das S.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Al-Rawahi N",
+                "lastName": "Al-Rawahi",
+                "firstName": "Nouf",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0001-3056-0629"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human & Clinical Anatomy, College of Medicine & Health Sciences, Sultan Qaboos University, Al Khoud, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Abduwani A",
+                "lastName": "Abduwani",
+                "firstName": "Ali",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0006-5595-3521"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human & Clinical Anatomy, College of Medicine & Health Sciences, Sultan Qaboos University, Al Khoud, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Alhabsi AN",
+                "lastName": "Alhabsi",
+                "firstName": "Ayman N",
+                "initials": "AN",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0001-6240-5738"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, Royal College of Surgeons, D02 YN77 Dublin, Ireland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Al Lawati A",
+                "lastName": "Al Lawati",
+                "firstName": "Abdullah",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5650-6620"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Surgery, Sultan Qaboos University Hospital, Al Khoudh, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Al Lawati H",
+                "lastName": "Al Lawati",
+                "firstName": "Hanan",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pharmacy Program, Oman College of Health Sciences, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Das S",
+                "lastName": "Das",
+                "firstName": "Srijit",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8302-7257"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human & Clinical Anatomy, College of Medicine & Health Sciences, Sultan Qaboos University, Al Khoud, Muscat 123, Oman."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8302-7257"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5650-6620"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0001-3056-0629"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0001-6240-5738"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0006-5595-3521"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "9",
+            "volume": "16",
+            "journalIssueId": 4270450,
+            "dateOfPublication": "2026 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Life (Basel)",
+              "title": "Life (Basel, Switzerland)",
+              "essn": "2075-1729",
+              "issn": "2075-1729",
+              "isoabbreviation": "Life (Basel)",
+              "nlmid": "101580444"
+            },
+            "printPublicationDate": "2026-08-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "1397",
+          "abstractText": "Myocardial infarction (MI) is characterized by sudden cardiomyocyte death due to impaired blood supply and remains a leading cause of mortality despite advances in management. <i>Aloe vera</i>, a plant rich in over 75 bioactive compounds, including vitamins, minerals, polysaccharides, and anthraquinones, has been widely used in traditional medicine and modern healthcare. Increasing evidence supports its cardioprotective potential through multiple mechanisms. <i>Aloe vera</i> and its derivatives have demonstrated antioxidative, anti-apoptotic, anti-inflammatory, antimicrobial, immunomodulatory, and vasodilatory effects relevant to MI pathophysiology. Compounds such as aloe-emodin, emodin, aloin, barbaloin, and selenium-enriched polysaccharides have been shown to modulate pathways including Nrf2/HO-1, TGF-\u03b2/SMAD, ERK, ferroptosis inhibition, ionic pump activity, and microRNA regulation. These molecular effects translate into reductions in oxidative damage, apoptotic signaling, inflammatory cytokine release, calcium imbalance, and creatine kinase/LDH leakage, while preserving myocardial structure and function in preclinical models. Collectively, preclinical studies suggest the potential cardioprotective effects of <i>Aloe vera</i>-derived preparations and compounds; however, robust clinical evidence in myocardial infarction is lacking, and their therapeutic relevance remains uncertain.",
+          "affiliation": "Department of Human & Clinical Anatomy, College of Medicine & Health Sciences, Sultan Qaboos University, Al Khoud, Muscat 123, Oman.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Antioxidant",
+              "Myocardial infarction",
+              "Aloe vera",
+              "cardiovascular"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/life16091397"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13608851"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13608851?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-09-26",
+          "dateOfCreation": "2026-09-26",
+          "dateOfRevision": "2026-09-29",
+          "electronicPublicationDate": "2026-08-24",
+          "firstPublicationDate": "2026-08-24",
+          "firstIndexDate": "2026-09-28",
+          "fullTextReceivedDate": "2026-09-25",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42524185",
+          "source": "MED",
+          "pmid": "42524185",
+          "pmcid": "PMC13409366",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13409366"
+            ]
+          },
+          "doi": "10.5114/bta/216302",
+          "title": "&lt;i&gt;In silico&lt;/i&gt; investigation of &lt;i&gt;Aloe vera&lt;/i&gt; phytoconstituents targeting key proteins involved in atopic dermatitis progression.",
+          "authorString": "El Bouamri L, Bouribab A, Bouachrine M, Chtita S.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "El Bouamri L",
+                "lastName": "El Bouamri",
+                "firstName": "Lamiae",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Analytical and Molecular Chemistry, Faculty of Sciences Ben M'Sik, Hassan II University of Casablanca, Morocco."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bouribab A",
+                "lastName": "Bouribab",
+                "firstName": "Amal",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Analytical and Molecular Chemistry, Faculty of Sciences Ben M'Sik, Hassan II University of Casablanca, Morocco."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bouachrine M",
+                "lastName": "Bouachrine",
+                "firstName": "Mohammed",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8901-047X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "MCNS Laboratory, Faculty of Sciences, Moulay Ismail University, Meknes, Morocco."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chtita S",
+                "lastName": "Chtita",
+                "firstName": "Samir",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2344-5101"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Analytical and Molecular Chemistry, Faculty of Sciences Ben M'Sik, Hassan II University of Casablanca, Morocco."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8901-047X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2344-5101"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "2",
+            "volume": "107",
+            "journalIssueId": 4235037,
+            "dateOfPublication": "2026 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "BioTechnologia (Pozn)",
+              "title": "Biotechnologia",
+              "essn": "2353-9461",
+              "issn": "0860-7796",
+              "isoabbreviation": "BioTechnologia (Pozn)",
+              "nlmid": "9702407"
+            },
+            "printPublicationDate": "2026-01-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "121-136",
+          "abstractText": "<h4>Background</h4>Atopic dermatitis (AD) is a chronic inflammatory skin disease involving complex immune pathways. Natural compounds derived from <i>Aloe vera</i> are attracting increasing attention for their potential in the treatment of dermatological disorders.<h4>Materials and methods</h4>A virtual screening of 110 <i>A. vera</i>-derived phytoconstituents was performed against three key protein targets implicated in AD: interleukin-4 receptor alpha, Janus kinase 1, and phosphodiesterase 4D. The top-ranked compounds were further assessed using absorption, distribution, metabolism, excretion, and toxicity (ADMET) properties to evaluate drug-likeness and safety profiles. Molecular dynamics (MD) simulations over 100 ns were conducted to examine the structural stability of the selected ligand-protein complexes.<h4>Results</h4>Quercetin and kaempferol showed the highest binding affinities across all three targets. ADMET analysis confirmed their favorable pharmacokinetic and safety profiles. MD simulations revealed stable and compact protein-ligand interactions, supporting their potential as multitarget inhibitors of AD.<h4>Conclusions</h4>Quercetin and kaempferol from <i>A. vera</i> emerge as promising multitarget lead candidates for AD treatment, particularly for topical therapeutic applications. These findings warrant further <i>in vitro</i> and <i>in vivo</i> validation to support their potential clinical translation.",
+          "affiliation": "Laboratory of Analytical and Molecular Chemistry, Faculty of Sciences Ben M'Sik, Hassan II University of Casablanca, Morocco.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Quercetin",
+              "Molecular docking",
+              "Molecular dynamics",
+              "Aloe vera",
+              "Kaempferol",
+              "Atopic Dermatitis",
+              "Admet Analysis"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.5114/bta/216302"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13409366"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13409366?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-29",
+          "dateOfCreation": "2026-07-29",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-27",
+          "firstPublicationDate": "2026-06-27",
+          "firstIndexDate": "2026-07-30",
+          "fullTextReceivedDate": "2026-09-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42040489",
+          "source": "MED",
+          "pmid": "42040489",
+          "pmcid": "PMC13103827",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13103827"
+            ]
+          },
+          "doi": "10.1021/acsomega.5c13440",
+          "title": "Formulation of a Modified &lt;i&gt;Aloe vera&lt;/i&gt;-Based Emulgel for Sustained Release of Methotrexate: Integrated Experimental and Theoretical Approaches.",
+          "authorString": "Begum T, Hazarika M, Das A, Bhuyan P, Verma AK, Das B, Agarwal S, Guha AK, Ganguly M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Begum T",
+                "lastName": "Begum",
+                "firstName": "Tanjila",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Cotton University, Guwahati, Assam 781001, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hazarika M",
+                "lastName": "Hazarika",
+                "firstName": "Moushumi",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "CSIR-NEIST, Branch Itanagar, G-sector, Naharlagun, Arunachal Pradesh 791110, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Das A",
+                "lastName": "Das",
+                "firstName": "Arpita",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Cotton University, Guwahati, Assam 781001, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bhuyan P",
+                "lastName": "Bhuyan",
+                "firstName": "Pranjal",
+                "initials": "P",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4000-5020"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Pandu College, Guwahati, Assam 781012, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Verma AK",
+                "lastName": "Verma",
+                "firstName": "Akalesh Kumar",
+                "initials": "AK",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Zoology, Cell & Biochemical Technology Laboratory, Cotton University, Guwahati, Assam 781001, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Das B",
+                "lastName": "Das",
+                "firstName": "Bikram",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Mathematics, Indian Institute of Technology Guwahati, Guwahati 781039, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Agarwal S",
+                "lastName": "Agarwal",
+                "firstName": "Sangeeta",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Cotton University, Guwahati, Assam 781001, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Guha AK",
+                "lastName": "Guha",
+                "firstName": "Ankur Kanti",
+                "initials": "AK",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4370-8108"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Cotton University, Guwahati, Assam 781001, India."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ganguly M",
+                "lastName": "Ganguly",
+                "firstName": "Mausumi",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemistry, Cotton University, Guwahati, Assam 781001, India."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4000-5020"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4370-8108"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0005-8574-2365"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "15",
+            "volume": "11",
+            "journalIssueId": 4185998,
+            "dateOfPublication": "2026 Apr",
+            "monthOfPublication": 4,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "ACS Omega",
+              "title": "ACS omega",
+              "essn": "2470-1343",
+              "issn": "2470-1343",
+              "isoabbreviation": "ACS Omega",
+              "nlmid": "101691658"
+            },
+            "printPublicationDate": "2026-04-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "23171-23187",
+          "abstractText": "Rheumatoid arthritis is a chronic autoimmune disorder characterized by chronic inflammation of synovial joints, for which methotrexate remains the first-line therapy. However, conventional methotrexate administration is often limited by systemic toxicity and uncontrolled drug release. In this study, a methotrexate-loaded <i>Aloe vera</i>-based emulgel was developed to achieve sustained drug delivery and enhanced anti-inflammatory efficacy. Four emulgel formulations with varying compositions were prepared and evaluated for physicochemical characteristics, including appearance, rheological behavior, spreadability, average globule size, zeta potential, drug content, and in vitro drug release. <i>Aloe vera</i>-containing formulations demonstrated sustained methotrexate release, with more than 60% of the drug released over 6 h, and the release kinetics were best described by the Weibull model. In contrast, non-Aloe <i>vera</i> formulations exhibited rapid drug release (>80% within 2 h) following Michaelis-Menten kinetics, indicating the critical role of <i>Aloe vera</i> in modulating release behavior. The optimized emulgel showed significant anti-inflammatory activity by inhibiting protein denaturation, achieving up to 93% inhibition of bovine serum albumin and 95% inhibition of egg albumin, comparable to diclofenac. Cytotoxicity studies revealed minimal to negligible toxicity toward normal peripheral blood mononuclear cells and splenocytes over 24-96 h, confirming good biocompatibility. Density functional theory calculations indicated stable adduct formation between methotrexate and bioactive constituents of <i>Aloe vera</i>, supporting their role as effective drug carriers. Molecular docking studies further suggested enhanced binding affinity of these adducts toward cyclooxygenase-2 compared to methotrexate alone. Overall, the findings suggest that methotrexate-loaded <i>Aloe vera</i>-based emulgel is a safe and promising therapeutic platform for improved management of rheumatoid arthritis.",
+          "affiliation": "Department of Chemistry, Cotton University, Guwahati, Assam 781001, India.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1021/acsomega.5c13440"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13103827"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13103827?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-04-27",
+          "dateOfCreation": "2026-04-27",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-04-07",
+          "firstPublicationDate": "2026-04-07",
+          "firstIndexDate": "2026-04-27",
+          "fullTextReceivedDate": "2026-04-24",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42117091",
+          "source": "MED",
+          "pmid": "42117091",
+          "pmcid": "PMC13157280",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13157280"
+            ]
+          },
+          "doi": "10.1515/med-2026-1392",
+          "title": "Hormesis: induction by &lt;i&gt;Aloe vera&lt;/i&gt; extracts and individual constituents.",
+          "authorString": "Calabrese EJ, Pressman P, Hayes AW, Agathokleous E, Dhawan G, Kapoor R, Calabrese V.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Calabrese EJ",
+                "lastName": "Calabrese",
+                "firstName": "Edward J",
+                "initials": "EJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7659-412X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Environmental Health Sciences, Morrill I-N344, School of Public Health and Health Sciences, University of Massachusetts, Amherst, MA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pressman P",
+                "lastName": "Pressman",
+                "firstName": "Peter",
+                "initials": "P",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "University of Maine, Orono, ME, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hayes AW",
+                "lastName": "Hayes",
+                "firstName": "A Wallace",
+                "initials": "AW",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Environmental Occupational Risk Analysis and Management, College of Public Health, University of South Florida, Tampa, FL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Agathokleous E",
+                "lastName": "Agathokleous",
+                "firstName": "Evgenios",
+                "initials": "E",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0058-4857"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Ecology and Applied Meteorology, Nanjing University of Information Science & Technology, Nanjing, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dhawan G",
+                "lastName": "Dhawan",
+                "firstName": "Gaurav",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0511-7323"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Sri Guru Ram Das (SGRD), University of Health Sciences, Amritsar, India."
+                    },
+                    {
+                      "affiliation": "Independent Consultant, Hartford, CT, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kapoor R",
+                "lastName": "Kapoor",
+                "firstName": "Rachna",
+                "initials": "R",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0538-5440"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Saint Francis Hospital and Medical Center, Hartford, CT, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Calabrese V",
+                "lastName": "Calabrese",
+                "firstName": "Vittorio",
+                "initials": "V",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0478-985X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biomedical and Biotechnological Sciences, School of Medicine University of Catania, Catania, Italy."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0058-4857"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0478-985X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7659-412X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0511-7323"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0538-5440"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "21",
+            "journalIssueId": 4129483,
+            "dateOfPublication": "2026 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Open Med (Wars)",
+              "title": "Open medicine (Warsaw, Poland)",
+              "essn": "2391-5463",
+              "issn": "2391-5463",
+              "isoabbreviation": "Open Med (Wars)",
+              "nlmid": "101672167"
+            },
+            "printPublicationDate": "2026-01-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "20261392",
+          "abstractText": "<i>Aloe vera</i> has an extensive history in traditional folk medicine. There is a robust scientific literature on <i>Aloe vera</i> extracts and several prominent chemical constituents, covering chemical characterization, biological/chemoprotective effects, and mechanisms. This paper provides the first integrative assessment of <i>Aloe vera</i>-induced hormetic dose responses. <i>Aloe vera</i> extract-induced hormetic responses acted as an immunostimulant in multiple fish species, enhancing development/growth and reducing adverse effects from environmental stressors. <i>Aloe vera</i> extract-induced hormetic effects are prominent in dermatological studies, improving keratinocyte- and fibroblast-related wound-healing processes. <i>Aloe vera</i> extracts induced hormetic-based neuroprotective endpoints for epileptic seizures, pain, in Alzheimer's disease models, and for lifespan. This analysis includes the hormetic effects of specific chemical constituents of <i>Aloe vera</i> extracts (acemannan/aloin) on stem cells, cardiomyocytes, bone cells, and other cell types, and their mechanisms. These findings show that a complex range of <i>Aloe vera</i> extract mixtures/specific constituents induce hormetic dose responses. These findings also indicate that hormetic dose responses play a prominent role in mediating many biomedical and chemopreventive effects of <i>Aloe vera</i> extracts and their major chemical constituents. Recognition of these findings should assist in creating optimized hormetic-based study designs and improving biologically/mechanistically based interpretations of their dose-response findings with their clinical implications.",
+          "affiliation": "Department of Environmental Health Sciences, Morrill I-N344, School of Public Health and Health Sciences, University of Massachusetts, Amherst, MA, USA.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Hormesis",
+              "Preconditioning",
+              "Dose-response",
+              "Biphasic",
+              "Adaptogen"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1515/med-2026-1392"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13157280"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13157280?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-05-12",
+          "dateOfCreation": "2026-05-12",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-05-11",
+          "firstPublicationDate": "2026-01-01",
+          "firstIndexDate": "2026-05-14",
+          "fullTextReceivedDate": "2026-05-20",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41836525",
+          "source": "MED",
+          "pmid": "41836525",
+          "pmcid": "PMC12983164",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12983164"
+            ]
+          },
+          "doi": "10.2147/dddt.s554673",
+          "title": "Development, Characterization, and Clinical Evaluation of a 6% Nitroglycerin-Aloe Vera Transdermal Gel for Stable Angina Management.",
+          "authorString": "Iqbal MO, Bhutta KKA, Khan IA, Rehman IU, Khan MK, Gu Y, Chen J, Wu X.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Iqbal MO",
+                "lastName": "Iqbal",
+                "firstName": "Muhammad Omer",
+                "initials": "MO",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7122-9422"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Marine Science and Biological Engineering, Qingdao University of Science and Technology, Qingdao, Shandong, 266042, People's Republic of China."
+                    },
+                    {
+                      "affiliation": "Ali-Ul-Murtaza, Department of Rehabilitation Sciences, Muhammad Institute of Medical and Allied Sciences, Multan, Punjab, 60000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bhutta KKA",
+                "lastName": "Bhutta",
+                "firstName": "Kashaf Khan Anjum",
+                "initials": "KKA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Ali-Ul-Murtaza, Department of Rehabilitation Sciences, Muhammad Institute of Medical and Allied Sciences, Multan, Punjab, 60000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Khan IA",
+                "lastName": "Khan",
+                "firstName": "Imran Ahmad",
+                "initials": "IA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacy, MNS University of Agriculture, Multan, Punjab, 60000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rehman IU",
+                "lastName": "Rehman",
+                "firstName": "Inam Ur",
+                "initials": "IU",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Intensive Care Unit, CPE Institute of Cardiology, Multan, Punjab, 60000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Khan MK",
+                "lastName": "Khan",
+                "firstName": "Maliha Khalid",
+                "initials": "MK",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8761-8879"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Ali-Ul-Murtaza, Department of Rehabilitation Sciences, Muhammad Institute of Medical and Allied Sciences, Multan, Punjab, 60000, Pakistan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gu Y",
+                "lastName": "Gu",
+                "firstName": "Yuchao",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Marine Science and Biological Engineering, Qingdao University of Science and Technology, Qingdao, Shandong, 266042, People's Republic of China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chen J",
+                "lastName": "Chen",
+                "firstName": "Jin",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Marine Science and Biological Engineering, Qingdao University of Science and Technology, Qingdao, Shandong, 266042, People's Republic of China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wu X",
+                "lastName": "Wu",
+                "firstName": "Xiao",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Qingdao Central Hospital, University of Health and Rehabilitation Sciences (Qingdao Central Medical Group), Qingdao, Shandong, 266042, People's Republic of China."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7122-9422"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8761-8879"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4736-2546"
+              }
+            ]
+          },
+          "journalInfo": {
+            "volume": "20",
+            "journalIssueId": 4091778,
+            "dateOfPublication": "2026 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Drug Des Devel Ther",
+              "title": "Drug design, development and therapy",
+              "essn": "1177-8881",
+              "issn": "1177-8881",
+              "isoabbreviation": "Drug Des Devel Ther",
+              "nlmid": "101475745"
+            },
+            "printPublicationDate": "2026-01-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "554673",
+          "abstractText": "<h4>Purpose</h4>This study aimed to develop, characterize, and clinically evaluate a novel 6% nitroglycerin (NTG) Aloe vera gel formulation as a transdermal alternative to conventional sublingual NTG therapy in patients with stable angina pectoris.<h4>Patients and methods</h4>A randomized, parallel-group, double-blind clinical trial was conducted involving 150 patients with stable angina, allocated to receive either 6% NTG-Aloe vera gel or standard sublingual NTG tablets (0.6mg). The gel was assessed for physicochemical parameters, FTIR compatibility, stability under ICH guidelines, and in vitro drug release kinetics. Dermatological safety was evaluated via skin irritation testing. Clinical efficacy was determined by Numeric Pain Rating Scale (NPRS), chest tightness scores, Seattle Angina Questionnaire (SAQ), and vital parameters, including blood pressure and oxygen saturation.<h4>Results</h4>The NTG Aloe vera gel demonstrated desirable physicochemical properties, sustained zero-order drug release, and excellent stability with no significant degradation. Clinical data revealed that the gel provided gradual, sustained pain and chest tightness relief, superior SAQ scores (p<0.001), and improved tolerability compared to sublingual NTG. Importantly, the gel induced a controlled hypotensive response without abrupt cardiovascular changes, indicating enhanced safety. No dermatological adverse effects were reported.<h4>Conclusion</h4>This pilot study showed 6% NTG-Aloe vera gel offers a stable, effective, and patient-friendly transdermal delivery system for angina management, meriting further large-scale and long-term evaluations.<h4>Registration</h4>Clinical Trial Registry-India (CTRI/2024/11/076947).",
+          "affiliation": "College of Marine Science and Biological Engineering, Qingdao University of Science and Technology, Qingdao, Shandong, 266042, People's Republic of China.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "case-report"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Nitroglycerin",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Vasodilator Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Plant Preparations"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Gels"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Administration, Cutaneous"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Double-Blind Method"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Adult"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Middle Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Angina, Stable",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Aloe vera",
+              "Nitroglycerin",
+              "Angina Pectoris",
+              "pharmaceutical preparations",
+              "Transdermal Drug Delivery Systems"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Vasodilator Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Gels",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Plant Preparations",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Nitroglycerin",
+                "registryNumber": "G59M7S0WS3"
+              },
+              {
+                "name": "Aloe vera gel",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.2147/DDDT.S554673"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12983164"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12983164?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by-nc",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-03-16",
+          "dateOfCreation": "2026-03-16",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-01-08",
+          "firstPublicationDate": "2026-01-08",
+          "firstIndexDate": "2026-03-17",
+          "fullTextReceivedDate": "2026-03-14",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42718813",
+          "source": "MED",
+          "pmid": "42718813",
+          "pmcid": "PMC13553970",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13553970"
+            ]
+          },
+          "doi": "10.3389/fphar.2026.1810632",
+          "title": "Natural products for the management of diarrhea: a systematic review of clinical efficacy, safety, and certainty of evidence.",
+          "authorString": "Bach C, Schiebel CS, Luisa Valerio de Mello Braga L, Vieira Ulyss\u00e9a Fernandes AC, Avancini M, Ferreira Fernandes G, Zaleski J, Boschini D'Agostin J, Maria-Ferreira D.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Bach C",
+                "lastName": "Bach",
+                "firstName": "Camila",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    },
+                    {
+                      "affiliation": "Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Schiebel CS",
+                "lastName": "Schiebel",
+                "firstName": "Carolina Silva",
+                "initials": "CS",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    },
+                    {
+                      "affiliation": "Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Luisa Valerio de Mello Braga L",
+                "lastName": "Luisa Valerio de Mello Braga",
+                "firstName": "Lara",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    },
+                    {
+                      "affiliation": "Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Vieira Ulyss\u00e9a Fernandes AC",
+                "lastName": "Vieira Ulyss\u00e9a Fernandes",
+                "firstName": "Ana Carolina",
+                "initials": "AC",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    },
+                    {
+                      "affiliation": "Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Avancini M",
+                "lastName": "Avancini",
+                "firstName": "Mariana",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    },
+                    {
+                      "affiliation": "Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ferreira Fernandes G",
+                "lastName": "Ferreira Fernandes",
+                "firstName": "Gabriel",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    },
+                    {
+                      "affiliation": "Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zaleski J",
+                "lastName": "Zaleski",
+                "firstName": "Jonatan",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    },
+                    {
+                      "affiliation": "Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Boschini D'Agostin J",
+                "lastName": "Boschini D'Agostin",
+                "firstName": "Jessica",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    },
+                    {
+                      "affiliation": "Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Maria-Ferreira D",
+                "lastName": "Maria-Ferreira",
+                "firstName": "Daniele",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    },
+                    {
+                      "affiliation": "Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "journalInfo": {
+            "volume": "17",
+            "journalIssueId": 4103377,
+            "dateOfPublication": "2026 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Front Pharmacol",
+              "title": "Frontiers in pharmacology",
+              "essn": "1663-9812",
+              "issn": "1663-9812",
+              "isoabbreviation": "Front Pharmacol",
+              "nlmid": "101548923"
+            },
+            "printPublicationDate": "2026-01-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "1810632",
+          "abstractText": "<h4>Introduction</h4>Diarrhea is a common gastrointestinal disorder caused by infections, inflammatory diseases, or treatment-related toxicity, particularly from chemotherapy and radiotherapy, often compromising treatment adherence and quality of life. Natural products have been increasingly investigated as complementary therapeutic strategies; however, their clinical efficacy, safety, and certainty of evidence remain unclear.<h4>Methods</h4>This systematic review evaluated clinical efficacy, safety, and certainty of evidence of natural products for the management of diarrhea in oncological and non-oncological settings. The review followed PRISMA guidelines and was registered in PROSPERO (CRD42025572477). PubMed, MEDLINE, and the Cochrane Library were systematically searched to identify human clinical trials evaluating natural products for diarrhea. Certainty of evidence was assessed using the GRADE approach.<h4>Results and discussion</h4>Ten studies met the inclusion criteria and evaluated interventions including Aloe vera (L.) Burm. f [Asphodelaceae; Aloe barbadensis], partially hydrolyzed guar gum, Berberis aristata DC [Berberidaceae], and multibotanical herbal formulations such as Entoban and Amoebex. Most studies reported significant improvements in diarrhea-related outcomes, including reduced stool frequency and severity, improved stool consistency, and relief of associated gastrointestinal symptoms. An exploratory narrative synthesis suggested context-specific mechanisms of action, with microbiota modulation and anti-inflammatory effects more frequently associated with treatment-related diarrhea, whereas antimicrobial activity and intestinal barrier support appeared more relevant in nononcological conditions. However, the certainty of evidence was predominantly low to very low because of methodological limitations, including small sample sizes, inadequate blinding, heterogeneous outcome measures, and reliance on single-study evidence. Safety reporting was generally insufficient, although most interventions were associated with few reported adverse events. Complementary pharmacological evidence was used to contextualize potential herb-drug interactions, highlighting important safety considerations, particularly for patients receiving anticancer therapies with narrow therapeutic indices. Overall, natural products show promise as supportive interventions for diarrhea management; however, the current evidence is insufficient to support definitive clinical recommendations. High-quality randomized controlled trials with standardized outcome measures and comprehensive safety assessments are needed to establish their therapeutic value.<h4>Systematic review registration</h4>https://www.crd.york.ac.uk/PROSPERO/view/CRD42025572477.",
+          "affiliation": "Faculdades Pequeno Pr\u00edncipe, Curitiba, Paran\u00e1, Brazil.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "Systematic Review",
+              "systematic-review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Diarrhea",
+              "Herb-drug Interactions",
+              "Diarrhea Management",
+              "Evidence Certainty",
+              "Oncology Supportive Care"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3389/fphar.2026.1810632"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13553970"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13553970?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-09-10",
+          "dateOfCreation": "2026-09-10",
+          "dateOfRevision": "2026-09-11",
+          "electronicPublicationDate": "2026-08-26",
+          "firstPublicationDate": "2026-08-26",
+          "firstIndexDate": "2026-09-11",
+          "fullTextReceivedDate": "2026-09-13",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42280615",
+          "source": "MED",
+          "pmid": "42280615",
+          "pmcid": "PMC13259354",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13259354"
+            ]
+          },
+          "doi": "10.3390/polym18111406",
+          "title": "Chitosan-Silk Fibroin Hydrogel Scaffold Incorporating Bioactive &lt;i&gt;Aloe vera&lt;/i&gt; and Mimosa Complex for Cartilage-Supportive Applications.",
+          "authorString": "Maneechan W, Tuanchai A, Ross S, Ross GM, Putthong C, Ngoenkam J, Higuchi Y, Charoensit P, Viyoch J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Maneechan W",
+                "lastName": "Maneechan",
+                "firstName": "Witwisitpong",
+                "initials": "W",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7450-416X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Technology, Faculty of Pharmaceutical Sciences, Naresuan University, Phitsanulok 65000, Thailand."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tuanchai A",
+                "lastName": "Tuanchai",
+                "firstName": "Areeya",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center of Excellence in Biomaterials, Department of Chemistry, Faculty of Science, Naresuan University, Phitsanulok 65000, Thailand."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ross S",
+                "lastName": "Ross",
+                "firstName": "Sukunya",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5593-6779"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center of Excellence in Biomaterials, Department of Chemistry, Faculty of Science, Naresuan University, Phitsanulok 65000, Thailand."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ross GM",
+                "lastName": "Ross",
+                "firstName": "Gareth M",
+                "initials": "GM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2340-9568"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center of Excellence in Biomaterials, Department of Chemistry, Faculty of Science, Naresuan University, Phitsanulok 65000, Thailand."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Putthong C",
+                "lastName": "Putthong",
+                "firstName": "Chatnarong",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0006-0607-1813"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Applied Thai Traditional Medicine, Faculty of Public Health, Naresuan University, Phitsanulok 65000, Thailand."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ngoenkam J",
+                "lastName": "Ngoenkam",
+                "firstName": "Jatuporn",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3762-3872"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Parasitology, Faculty of Medical Science, Naresuan University, Phitsanulok 65000, Thailand."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Higuchi Y",
+                "lastName": "Higuchi",
+                "firstName": "Yuriko",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9869-1019"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Drug Delivery Research, Graduate School of Pharmaceutical Sciences, Kyoto University, Kyoto 606-8501, Japan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Charoensit P",
+                "lastName": "Charoensit",
+                "firstName": "Pensri",
+                "initials": "P",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Technology, Faculty of Pharmaceutical Sciences, Naresuan University, Phitsanulok 65000, Thailand."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Viyoch J",
+                "lastName": "Viyoch",
+                "firstName": "Jarupa",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Technology, Faculty of Pharmaceutical Sciences, Naresuan University, Phitsanulok 65000, Thailand."
+                    },
+                    {
+                      "affiliation": "Center of Excellence for Innovation in Chemistry (PERCH-CIC), Faculty of Pharmaceutical Sciences, Naresuan University, Phitsanulok 65000, Thailand."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5593-6779"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2340-9568"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3762-3872"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7450-416X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9869-1019"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0006-0607-1813"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "11",
+            "volume": "18",
+            "journalIssueId": 4215259,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Polymers (Basel)",
+              "title": "Polymers",
+              "essn": "2073-4360",
+              "issn": "2073-4360",
+              "isoabbreviation": "Polymers (Basel)",
+              "nlmid": "101545357"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "1406",
+          "abstractText": "A composite hydrogel scaffold comprising chitosan, silk fibroin, <i>Aloe vera</i> extract, and Mimosa complex was fabricated and thoroughly characterized. Upon freeze-drying, the scaffolds displayed a uniform cylindrical geometry with a highly porous, interconnected polymeric network. Quantitative image analysis revealed a mean pore diameter of 43.09 \u00b1 2.27 \u00b5m alongside an overall porosity of 61.4 \u00b1 6.2%. ATR-FTIR and XRD analyses confirmed successful inclusion of the complex formation and the incorporation of all constituents into the final formulation. The scaffold exhibited a compressive modulus of 46.63 \u00b1 22.71 kPa (dry) and 5.40 \u00b1 3.73 kPa (hydrated), with a swelling ratio of 756.62 \u00b1 114.08%, supporting its suitability for physiological applications. TGF-\u03b23 loading via adsorption yielded an entrapment efficiency of approximately 79.18%, reflecting effective physical immobilization throughout the polymer matrix. Cytocompatibility was subsequently assessed using an indirect contact model combined with an MTT assay, both of which confirmed that TGF-\u03b23-loaded scaffolds exerted no cytotoxic effects on chondrocytes. After 28 days in culture, scanning electron microscopy revealed pronounced cell adhesion, preservation of rounded cell morphology, and ECM deposition along pore walls and throughout interconnected channels. Immunofluorescence analysis further demonstrated a time-dependent accumulation of aggrecan and collagen type II within the three-dimensional scaffold architecture. Collectively, these findings suggest that the developed composite hydrogel scaffold is well-suited for cartilage-related in vitro culture applications.",
+          "affiliation": "Department of Pharmaceutical Technology, Faculty of Pharmaceutical Sciences, Naresuan University, Phitsanulok 65000, Thailand.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Thailand Science Research and Innovation",
+                "grantId": "Fundamental Fund R2569B125, Naresuan University Order 05094/2568",
+                "orderIn": 0
+              },
+              {
+                "agency": "Reinventing University Program 2026, The Office of the Permanent Secretary of the Ministry of Higher Education, Science, Research and Innovation (MHESI), and Naresuan University, Thailand",
+                "grantId": "Grant Number R2569A015",
+                "orderIn": 0
+              },
+              {
+                "agency": "Global and Frontier Research University Fund, Naresuan University",
+                "grantId": "Grant Number R2568C001",
+                "orderIn": 0
+              },
+              {
+                "agency": "The NSRF via the Program Management Unit for Human Resources & Institutional Development, Research and Innovation",
+                "grantId": "grant number B13F680066",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Cartilage",
+              "Chitosan",
+              "Aloe vera",
+              "silk fibroin",
+              "Hydrogel Scaffold",
+              "Mimosa Complex"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/polym18111406"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13259354"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13259354?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-12",
+          "dateOfCreation": "2026-06-12",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-05",
+          "firstPublicationDate": "2026-06-05",
+          "firstIndexDate": "2026-06-13",
+          "fullTextReceivedDate": "2026-06-13",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}
