@@ -5623,5 +5623,978 @@
         "renal_impairment": "EMA specifically calls for medical evaluation in renal insufficiency or unexplained leg oedema; no validated renal dosing adjustment is established [3]."
       }
     }
+  },
+  {
+    "scientific_name": "Artemisia annua",
+    "common_name": "Sweet wormwood / Qinghao",
+    "type": "Plant",
+    "article_count": 1835,
+    "primary_categories": [
+      "Allergic rhinitis research",
+      "Antimalarial research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32963688/",
+        "https://pubmed.ncbi.nlm.nih.gov/15109558/"
+      ],
+      "cited_references": [
+        "[1] Lou H et al. Artemisia annua sublingual immunotherapy for seasonal allergic rhinitis: A multicenter, randomized trial. World Allergy Organization Journal. 2020;13(9):100458. PMID: 32963688. DOI: 10.1016/j.waojou.2020.100458.",
+        "[2] WHO. WHO monographs on selected medicinal plants: Artemisia annua L. WHO; 2009.",
+        "[3] Markus S. Mueller et al. Randomized controlled trial of a traditional preparation of Artemisia annua L. (Annual Wormwood) in the treatment of malaria. Transactions of the Royal Society of Tropical Medicine and Hygiene. 2004;98(5):318–321. PMID: 15109558. DOI: 10.1016/j.trstmh.2003.09.001."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Artemisia annua has a history of traditional use in East Asian medicine; WHO describes the plant and its traditional context [2]. Artemisinin medicines are purified or semisynthetic drugs and should not be conflated with whole-plant tea [2,3].",
+      "modern_application": "A phase III study examined standardized A. annua pollen drops for seasonal allergic rhinitis. This allergen immunotherapy is distinct from oral herb use. A separate study of Artemisia tea for malaria does not support using it as a substitute for recommended antimalarial treatment [1,3].",
+      "side_effects": "In the pollen-immunotherapy RCT, treatment-related adverse events were common but none was serious [1]. Safety findings from standardized pollen drops do not establish safety of teas, extracts or essential oil.",
+      "contraindications": "Do not use whole-plant preparations as a substitute for proven malaria treatment [2,3]. Safety of oral medicinal preparations in pregnancy, lactation and chronic disease is not established in the sources reviewed."
+    },
+    "clinical_data": {
+      "used_part": "Aerial parts and leaves are used in traditional preparations; human trials cited here study standardized pollen drops or separate oral preparations, not interchangeable material [1-3].",
+      "primary_active_compounds": [
+        "Artemisinin (reported constituent; not a proxy for whole-plant clinical effect) [2]"
+      ],
+      "mechanism_of_action": "The clinical studies cited here do not establish a mechanism for oral A. annua preparations. Allergen-specific SLIT is a distinct immunotherapy and should not be used to infer pharmacology of the whole herb [1].",
+      "pharmacokinetics": {
+        "absorption": "Human PK data for whole-plant preparations were not identified. Allergen SLIT exposure is not oral-herb PK [1].",
+        "distribution": "Not characterized in the human sources reviewed.",
+        "metabolism": "No human whole-plant metabolism data identified.",
+        "excretion": "No human whole-plant excretion data identified."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No species- and preparation-specific clinical interaction study was identified in the sources reviewed.",
+        "toxicity": "The cited human sources do not establish long-term toxicity for whole-plant oral products. Product, plant part and route differ substantially across preparations [1-3]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal use during pregnancy has not been established in the cited sources; avoid inferring safety from traditional use.",
+        "lactation": "Lactation safety data for medicinal preparations were not identified.",
+        "hepatic_impairment": "No human data sufficient to characterize hepatic impairment were identified.",
+        "renal_impairment": "No human data sufficient to characterize renal impairment were identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Arctium lappa",
+    "common_name": "Burdock",
+    "type": "Plant",
+    "article_count": 473,
+    "primary_categories": [
+      "Traditional herbal use",
+      "Inflammatory biomarker research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/25350500/"
+      ],
+      "cited_references": [
+        "[1] Maghsoumi-Norouzabad L et al. Effects of Arctium lappa L. (Burdock) root tea on inflammatory status and oxidative stress in patients with knee osteoarthritis. International Journal of Rheumatic Diseases. 2016;19(3):255-261. PMID: 25350500. DOI: 10.1111/1756-185X.12477.",
+        "[2] EMA/HMPC. Assessment report on Arctium lappa L., radix. European Medicines Agency. Reference: EMA/HMPC/246764/2009. https://www.ema.europa.eu/en/medicines/herbal/arctii-radix"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Burdock root has a history of traditional herbal use; the EMA assessment concerns root preparations and traditional-use claims, not proof of efficacy [2].",
+      "modern_application": "A small study in adults with knee osteoarthritis examined burdock root tea alongside acetaminophen and glucosamine. It measured inflammatory and oxidative-stress markers, so it does not establish symptom relief or broad clinical efficacy [1].",
+      "side_effects": "Adverse-event evidence is limited in the small trial and does not characterize long-term use [1,2].",
+      "contraindications": "The EMA assessment describes only specific root preparations and indications. It does not establish safety for every plant part or concentrated extract [2]."
+    },
+    "clinical_data": {
+      "used_part": "Root tea in the human trial; EMA material concerns root preparations [1,2].",
+      "primary_active_compounds": [],
+      "mechanism_of_action": "The cited human study measured biomarkers and does not establish a clinical mechanism of action [1]. The cited human studies do not characterize an active compound or establish constituent-specific activity.",
+      "pharmacokinetics": {
+        "absorption": "Human PK data for burdock root preparations were not identified in the cited sources.",
+        "distribution": "Not characterized in the human sources reviewed.",
+        "metabolism": "Not characterized in the human sources reviewed.",
+        "excretion": "Not characterized in the human sources reviewed."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No species-specific clinical interaction study identified in the sources reviewed.",
+        "toxicity": "Long-term toxicity and safety across preparations are not adequately characterized by the cited sources [1,2]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal-use safety in pregnancy is not established in the cited material.",
+        "lactation": "Lactation safety is not established in the cited material.",
+        "hepatic_impairment": "No impairment-specific human evidence identified.",
+        "renal_impairment": "No impairment-specific human evidence identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Asparagus racemosus",
+    "common_name": "Shatavari",
+    "type": "Plant",
+    "article_count": 284,
+    "primary_categories": [
+      "Menopause research",
+      "Traditional Ayurvedic use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38725785/"
+      ],
+      "cited_references": [
+        "[1] Gudise VS et al. Efficacy and Safety of Shatavari Root Extract for the Management of Menopausal Symptoms: A Double-Blind, Multicenter, Randomized Controlled Trial. Cureus. 2024;16(4):e57879. PMID: 38725785. DOI: 10.7759/cureus.57879."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Shatavari root is described in Ayurveda as a traditional botanical used in women's health; traditional context is not proof of clinical benefit [1].",
+      "modern_application": "A placebo-controlled study assessed a proprietary Shatavari root extract at two follow-up points. It reported symptom and quality-of-life changes, but participant accounting, between-group analyses and adverse-event reporting were inconsistent. Findings do not establish efficacy or safety for other products [1].",
+      "side_effects": "The report gives inconsistent adverse-event counts and descriptions, so its tolerability findings cannot be summarized reliably. The small 60-day trial does not establish uncommon or long-term harms [1].",
+      "contraindications": "Evidence is insufficient to establish safety in pregnancy, lactation or hormone-sensitive conditions. Do not interpret the trial as a recommendation or as evidence that it replaces clinical care [1]."
+    },
+    "clinical_data": {
+      "used_part": "Proprietary standardized root extract (Aspurūs; 5% total shatavarins), 250 mg capsule twice daily for 60 days in the trial [1].",
+      "primary_active_compounds": [],
+      "mechanism_of_action": "The cited clinical trial does not establish a species-specific mechanism [1]. The cited human studies do not characterize an active compound or establish constituent-specific activity.",
+      "pharmacokinetics": {
+        "absorption": "Human PK data for the trial formulation were not identified.",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No clinically characterized interaction study identified in the sources reviewed.",
+        "toxicity": "Long-term and rare toxicity are not established by a short trial [1]."
+      },
+      "special_precautions": {
+        "pregnancy": "Pregnancy safety is not established in the cited evidence.",
+        "lactation": "Lactation safety is not established by the cited trial.",
+        "hepatic_impairment": "No data sufficient to characterize hepatic impairment.",
+        "renal_impairment": "No data sufficient to characterize renal impairment."
+      }
+    }
+  },
+  {
+    "scientific_name": "Avena sativa",
+    "common_name": "Oat / Green oat",
+    "type": "Plant",
+    "article_count": 1963,
+    "primary_categories": [
+      "Cognitive research",
+      "Traditional topical use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32485993/"
+      ],
+      "cited_references": [
+        "[1] Kennedy DO et al. Acute and Chronic Effects of Green Oat (Avena sativa) Extract on Cognitive Function and Mood during a Laboratory Stressor in Healthy Adults. Nutrients. 2020;12(6):1598. PMID: 32485993. DOI: 10.3390/nu12061598.",
+        "[2] EMA/HMPC. European Union herbal monographs on Avena sativa L., herba and fructus. EMA herbal product pages: https://www.ema.europa.eu/en/medicines/herbal/avenae-herba and https://www.ema.europa.eu/en/medicines/herbal/avenae-fructus"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "EMA distinguishes oat herb from oat fruit; traditional-use conclusions for specified topical fruit preparations concern minor skin inflammation and small wounds [2].",
+      "modern_application": "A study in healthy adults tested a proprietary green-oat aerial-parts extract. It reported selected working-memory and multitasking findings and a reduced electrodermal stress response at the highest product dose, but no treatment-related mood effect. Results are specific to this extract [1].",
+      "side_effects": "The short cognition trial does not establish long-term safety; the EMA monograph reports limited adverse-event information for its specific traditional preparations [1,2].",
+      "contraindications": "Do not generalize safety from food oats to concentrated extracts or topical medicinal products. Hypersensitivity to oats is a contraindication for relevant preparations [2]."
+    },
+    "clinical_data": {
+      "used_part": "Green aerial oat extract in the cognition trial; EMA sources separately cover herba and fructus [1,2].",
+      "primary_active_compounds": [],
+      "mechanism_of_action": "The RCT reports cognitive outcomes but does not establish a clinically validated mechanism [1]. The cited human studies do not characterize an active compound or establish constituent-specific activity.",
+      "pharmacokinetics": {
+        "absorption": "Human PK data for the cited green-oat extract were not reported [1].",
+        "distribution": "Not characterized in the cited clinical study.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No species-specific clinical interaction study identified for the tested extract.",
+        "toxicity": "Long-term toxicity and rare events are not established by the short trial [1]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal extract safety during pregnancy is insufficiently established.",
+        "lactation": "Medicinal extract safety during lactation is insufficiently established.",
+        "hepatic_impairment": "No impairment-specific evidence identified.",
+        "renal_impairment": "No impairment-specific evidence identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Azadirachta indica",
+    "common_name": "Neem",
+    "type": "Plant",
+    "article_count": 2009,
+    "primary_categories": [
+      "Metabolic research",
+      "Traditional use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33244247/"
+      ],
+      "cited_references": [
+        "[1] Pingali U et al. Evaluation of the Effect of an Aqueous Extract of Azadirachta indica (Neem) Leaves and Twigs on Glycemic Control, Endothelial Dysfunction and Systemic Inflammation in Subjects with Type 2 Diabetes Mellitus. Diabetes, Metabolic Syndrome and Obesity. 2020;13:4401-4412. PMID: 33244247. DOI: 10.2147/DMSO.S274378.",
+        "[2] Teresa M. Braga et al. Azadirachta indica A. Juss. In Vivo Toxicity—An Updated Review. Molecules. 2021;26(2):252. PMID: 33419112. DOI: 10.3390/molecules26020252."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Neem has a long history in traditional South Asian systems; uses vary by plant part and preparation. The clinical study cited here evaluates only a standardized aqueous leaf-and-twig extract [1].",
+      "modern_application": "A placebo-controlled study examined a standardized aqueous neem leaf-and-twig extract as an adjunct to metformin in people with type 2 diabetes. This single-product study cannot establish efficacy for neem generally, other parts, or use without standard care [1].",
+      "side_effects": "The RCT's duration and size do not establish uncommon or long-term harms. Animal toxicity literature is not confirmation of human safety [1,2].",
+      "contraindications": "Do not generalize from this extract to neem oil, seed, bark or other products. Human interaction evidence is insufficient; medicinal use in diabetes requires particular caution because the trial involved concurrent metformin [1]."
+    },
+    "clinical_data": {
+      "used_part": "Standardized aqueous leaf-and-twig extract in the RCT; other neem products are not interchangeable [1].",
+      "primary_active_compounds": [],
+      "mechanism_of_action": "The human trial reports metabolic and vascular endpoints but does not establish a mechanism applicable to all neem preparations [1]. The cited human studies do not characterize an active compound or establish constituent-specific activity.",
+      "pharmacokinetics": {
+        "absorption": "No human PK data for the tested formulation are reported in the abstract [1].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "A clinical interaction with metformin was not isolated; the trial studied adjunctive use [1].",
+        "toxicity": "Human long-term toxicity is not adequately characterized; animal toxicity findings cannot be directly extrapolated [2]."
+      },
+      "special_precautions": {
+        "pregnancy": "Pregnancy safety for medicinal neem products is not established in the cited human evidence.",
+        "lactation": "Lactation safety is not established.",
+        "hepatic_impairment": "No human evidence sufficient to characterize hepatic impairment.",
+        "renal_impairment": "No human evidence sufficient to characterize renal impairment."
+      }
+    }
+  },
+  {
+    "scientific_name": "Betula pendula",
+    "common_name": "Silver birch",
+    "type": "Plant",
+    "article_count": 824,
+    "primary_categories": [
+      "Traditional urinary use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38876582/",
+        "https://pubmed.ncbi.nlm.nih.gov/29513959/"
+      ],
+      "cited_references": [
+        "[1] EMA/HMPC. European Union herbal monograph on Betula pendula Roth, Betula pubescens Ehrh. and hybrids, folium. EMA/482160/2015.",
+        "[2] Roszko M et al. Evaluating birch leaf tea as a functional herbal beverage: Beneficial impact on the urinary tract, and metabolism in human organism. Food Research International. 2024. PMID: 38876582. DOI: 10.1016/j.foodres.2024.114481.",
+        "[3] Emilia Okragla, Milena Chraniuk, Lidia Wolska. Microtox test as a tool to assess antimicrobial properties of herbal infusions used in urinary tract infections. Acta Poloniae Pharmaceutica. 2017;74(3):895–901. PMID: 29513959."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Birch leaf has an EMA traditional-use conclusion for increasing urine output to support flushing in minor urinary complaints. The monograph covers B. pendula, B. pubescens and hybrids, so evidence is not always attributable to B. pendula alone [1].",
+      "modern_application": "EMA found insufficient clinical-trial evidence for a well-established use; its conclusion rests on long-standing traditional use [1]. Other indexed studies include nonclinical or food-beverage investigations and do not establish treatment of urinary infection [2,3].",
+      "side_effects": "EMA reports gastrointestinal symptoms and allergic reactions with frequency unknown [1].",
+      "contraindications": "Avoid in birch-leaf/pollen hypersensitivity and in conditions requiring fluid restriction, including severe heart or kidney disease, as specified by EMA [1]."
+    },
+    "clinical_data": {
+      "used_part": "Leaf, usually as comminuted/powdered material or dry/liquid extract; scope is leaf-specific [1].",
+      "primary_active_compounds": [],
+      "mechanism_of_action": "The EMA traditional-use assessment does not establish a clinical mechanism. Nonclinical anti-adhesive findings are not proof of human efficacy [1,2]. The cited human studies do not characterize an active compound or establish constituent-specific activity.",
+      "pharmacokinetics": {
+        "absorption": "Human PK data for birch-leaf medicinal products were not identified; the beverage study does not establish clinical PK for medicines [2].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "No human drug-PK data identified; diuresis is the traditional-use rationale, not a measured medicinal PK endpoint [1]."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No species-specific clinical interaction study identified; EMA advises appropriate hydration and lists contraindications [1].",
+        "toxicity": "Human long-term toxicity is not established; reported adverse effects are limited to the EMA summary [1]."
+      },
+      "special_precautions": {
+        "pregnancy": "EMA indicates use only for adults and adolescents over 12; pregnancy/lactation evidence is insufficient [1].",
+        "lactation": "Insufficient data; EMA advises consultation for medicinal use during lactation [1].",
+        "hepatic_impairment": "No impairment-specific PK or safety data; EMA contraindicates use where fluid restriction is recommended [1].",
+        "renal_impairment": "Same as hepatic impairment; severe renal disease/fluid restriction is a contraindication [1]."
+      }
+    }
+  },
+  {
+    "scientific_name": "Carum carvi",
+    "common_name": "Caraway",
+    "type": "Plant",
+    "article_count": 220,
+    "primary_categories": [
+      "Digestive research",
+      "Traditional use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/30939487/",
+        "https://pubmed.ncbi.nlm.nih.gov/28695660/"
+      ],
+      "cited_references": [
+        "[1] William D. Chey et al. A Novel, Duodenal-Release Formulation of a Combination of Caraway Oil and L-Menthol for the Treatment of Functional Dyspepsia: A Randomized Controlled Trial. Clinical and Translational Gastroenterology. 2019;10(4):e00021. PMID: 30939487. DOI: 10.14309/ctg.0000000000000021.",
+        "[2] G. Rich et al. A randomized placebo-controlled trial on the effects of Menthacarin, a proprietary peppermint- and caraway-oil-preparation, on symptoms and quality of life in patients with functional dyspepsia. Neurogastroenterology & Motility. 2017;29(11):e13132. PMID: 28695660. DOI: 10.1111/nmo.13132.",
+        "[3] EMA/HMPC. European Union herbal monograph and assessment report on Carum carvi L., fructus and aetheroleum. Monograph references EMA/HMPC/715092/2013 (fruit) and EMA/HMPC/715094/2013 (oil). https://www.ema.europa.eu/en/medicines/herbal/carvi-fructus",
+        "[4] S. S. Yousefi et al. The Effects of Carum Carvi (Bunium Persicum Boiss) on Early Return of Bowel Motility After Caesarean Section: Double-Blind, Randomized, Placebo-Controlled Trial. Journal of Family & Reproductive Health. 2019;13(1):35–41. PMID: 31850096.",
+        "[5] LactMed. Caraway. Drugs and Lactation Database. NCBI Bookshelf, NBK501791. https://www.ncbi.nlm.nih.gov/books/NBK501791/"
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "EMA monographs describe traditional use of caraway fruit and essential oil in specified digestive preparations [3].",
+      "modern_application": "Human digestive studies concern fixed combinations with menthol or peppermint oil, so their results cannot be attributed to caraway alone [1,2]. A caesarean-section trial often indexed under caraway actually studied Bunium persicum and is excluded [4].",
+      "side_effects": "Combination trials do not establish caraway-alone adverse-event rates. Medicinal oil safety across doses and durations remains insufficiently characterized [1-3].",
+      "contraindications": "Do not infer standalone efficacy, dosing or safety from combination products. The misattributed Bunium persicum trial is not evidence for this species [4]."
+    },
+    "clinical_data": {
+      "used_part": "Fruit/seed and essential oil; the cited human trials use combination products, not isolated caraway [1-3].",
+      "primary_active_compounds": [
+        "Carvone and limonene are reported constituents of caraway fruit oil [3]."
+      ],
+      "mechanism_of_action": "The combination trials do not establish a species-specific mechanism for caraway alone [1,2].",
+      "pharmacokinetics": {
+        "absorption": "No human PK data for isolated caraway identified. Combination-product studies do not define caraway-specific absorption [1,2].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No clinical interaction study for isolated caraway identified in the sources reviewed.",
+        "toxicity": "Long-term and preparation-specific toxicity remain uncertain; do not infer safety from the small combination trials [1-3]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal-dose safety in pregnancy is insufficiently established in the sources reviewed.",
+        "lactation": "Caraway is present in some lactation teas, but LactMed notes no scientifically valid clinical trials support galactagogue use [5].",
+        "hepatic_impairment": "No human impairment-specific evidence identified.",
+        "renal_impairment": "No human impairment-specific evidence identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Cichorium intybus",
+    "common_name": "Chicory",
+    "type": "Plant",
+    "article_count": 1056,
+    "primary_categories": [
+      "Metabolic research",
+      "Food and prebiotic research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32026537/",
+        "https://pubmed.ncbi.nlm.nih.gov/32768902/"
+      ],
+      "cited_references": [
+        "[1] K. Chandra et al. Effect of Cichorium intybus seeds supplementation on the markers of glycemic control, oxidative stress, inflammation, and lipid profile in type 2 diabetes mellitus: A randomized, double-blind placebo study. Phytotherapy Research. 2020;34(7):1609–1618. PMID: 32026537. DOI: 10.1002/ptr.6624.",
+        "[2] Aćimović M et al. Chicory (Cichorium intybus L.) as a food ingredient: Nutritional composition, bioactivity, safety, and health claims. Food Chemistry. 2020. PMID: 32768902. DOI: 10.1016/j.foodchem.2020.127676."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Chicory has food and traditional-use histories involving different plant parts. Inulin-rich root use as food should be distinguished from seed extracts studied clinically [2].",
+      "modern_application": "A study examined an aqueous chicory-seed extract as an adjunct to metformin in people with type 2 diabetes. The abstract reports marker changes, but participant flow, extract standardization and adverse events require full-text review [1].",
+      "side_effects": "The trial abstract does not provide enough adverse-event detail to characterize safety. Food-use information in reviews does not establish medicinal-dose safety [1,2].",
+      "contraindications": "Do not generalize the seed-extract study to chicory root, inulin products or food use; the clinical trial's participant flow and formulation require verification [1,2]."
+    },
+    "clinical_data": {
+      "used_part": "Aqueous seed extract in the diabetes trial; root/inulin as food is a separate preparation [1,2].",
+      "primary_active_compounds": [
+        "Inulin (especially chicory root) and polyphenols are described in the food-composition review; not a marker for the seed extract [2]."
+      ],
+      "mechanism_of_action": "The clinical trial measured metabolic outcomes and does not establish a clinical mechanism for chicory preparations [1].",
+      "pharmacokinetics": {
+        "absorption": "Human PK for the seed extract was not reported in the cited trial [1].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No species- and preparation-specific clinical interaction study identified.",
+        "toxicity": "Safety of medicinal seed extract is not established by the short abstract; composition differs across parts [1,2]."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient clinical evidence for medicinal seed extracts in pregnancy.",
+        "lactation": "Insufficient clinical evidence for medicinal seed extracts in lactation.",
+        "hepatic_impairment": "No human impairment-specific data identified.",
+        "renal_impairment": "No human impairment-specific data identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Actaea racemosa",
+    "common_name": "Black cohosh",
+    "type": "Plant",
+    "article_count": 142,
+    "primary_categories": [
+      "Menopause research",
+      "Traditional North American use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/18585461/",
+        "https://pubmed.ncbi.nlm.nih.gov/19609225/",
+        "https://pubmed.ncbi.nlm.nih.gov/24499633/"
+      ],
+      "cited_references": [
+        "[1] Francesca Borrelli, Edzard Ernst. Black cohosh (Cimicifuga racemosa) for menopausal symptoms: a systematic review of its efficacy. Pharmacological Research. 2008;58(1):8–14. PMID: 18585461. DOI: 10.1016/j.phrs.2008.05.008.",
+        "[2] S. E. Geller et al. Safety and efficacy of black cohosh and red clover for the management of vasomotor symptoms: a randomized controlled trial. Menopause. 2009;16(6):1156–1166. PMID: 19609225. DOI: 10.1097/gme.0b013e3181ace49b.",
+        "[3] S. Mohammad-Alizadeh-Charandabi et al. Efficacy of black cohosh (Cimicifuga racemosa L.) in treating early symptoms of menopause: a randomized clinical trial. Chinese Medicine. 2013;8:20. PMID: 24499633. DOI: 10.1186/1749-8546-8-20.",
+        "[4] Yuan Le et al. Review of black cohosh-induced toxicity and adverse clinical effects. Journal of Environmental Science and Health, Part C: Toxicology and Carcinogenesis. 2025;43(3):243–268. PMID: 40503925. DOI: 10.1080/26896583.2025.2513795.",
+        "[5] Sofia Salari et al. Ethnobotany, Phytochemistry, Traditional and Modern Uses of Actaea racemosa L. (Black cohosh): A Review. Advances in Experimental Medicine and Biology. 2021;1308:403–449. PMID: 33861455. DOI: 10.1007/978-3-030-64872-5_24."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Black cohosh root/rhizome has documented North American traditional use; modern products vary and require authenticated species and preparation [5].",
+      "modern_application": "A systematic review found inconsistent results across randomized trials for menopausal symptoms [1]. A 12-month trial found no significant vasomotor-symptom benefit over placebo [2]; a smaller 8-week trial of one root extract cannot settle efficacy for all products [3].",
+      "side_effects": "Liver-injury reports have been described, but causality is uncertain and adulteration/misidentification complicates attribution. A review is not proof that the species caused each case [4,5].",
+      "contraindications": "Product identity and extraction method matter; use only authenticated A. racemosa evidence. The available trials do not establish long-term efficacy or safety for all products [1-5]."
+    },
+    "clinical_data": {
+      "used_part": "Root and rhizome extracts; trial results apply only to the specific extract tested [2,3].",
+      "primary_active_compounds": [
+        "Triterpene glycosides and phenolic acids are described in phytochemical reviews; commercial-product composition varies [5]."
+      ],
+      "mechanism_of_action": "Clinical trials do not establish a validated human mechanism for symptom changes [1-3].",
+      "pharmacokinetics": {
+        "absorption": "Human PK data remain insufficient across products; no general exposure profile is established [1,4].",
+        "distribution": "Not characterized consistently for clinical products [1,4].",
+        "metabolism": "Not characterized adequately for a general product-specific profile [1,4].",
+        "excretion": "Not characterized adequately for a general product-specific profile [1,4]."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No interaction profile can be generalized across products from the cited trials; clinically significant interactions remain insufficiently characterized [1,4].",
+        "toxicity": "Liver injury has been reported with products labelled black cohosh; causality and product identity are uncertain [4,5]."
+      },
+      "special_precautions": {
+        "pregnancy": "Pregnancy safety is not established; use is not supported by the cited menopause trials.",
+        "lactation": "Lactation safety is not established.",
+        "hepatic_impairment": "Given reported liver-injury cases and limited causal certainty, hepatic disease warrants medical review before use; no dose adjustment evidence is established [4].",
+        "renal_impairment": "Renal impairment data are insufficient."
+      }
+    }
+  },
+  {
+    "scientific_name": "Citrus × aurantium",
+    "common_name": "Bitter orange",
+    "type": "Plant",
+    "article_count": 815,
+    "primary_categories": [
+      "Weight-management research",
+      "Cardiovascular safety research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/36235672/",
+        "https://pubmed.ncbi.nlm.nih.gov/35694173/"
+      ],
+      "cited_references": [
+        "[1] Dorottya Koncz et al. The Safety and Efficacy of Citrus aurantium (Bitter Orange) Extracts and p-Synephrine: A Systematic Review and Meta-Analysis. Nutrients. 2022;14(19):4019. PMID: 36235672. DOI: 10.3390/nu14194019.",
+        "[2] C. J. R. Benjamim et al. Bitter Orange (Citrus aurantium L.) Intake Before Submaximal Aerobic Exercise Is Safe for Cardiovascular and Autonomic Systems in Healthy Males: A Randomized Trial. Frontiers in Nutrition. 2022;9:890388. PMID: 35694173. DOI: 10.3389/fnut.2022.890388."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Bitter orange has food and traditional uses, but fruit, peel, flower and isolated p-synephrine are distinct materials; the cited human evidence concerns particular extracts or p-synephrine [1,2].",
+      "modern_application": "A meta-analysis assessed p-synephrine interventions, which are not equivalent to all bitter-orange preparations; prolonged use was associated with higher systolic and diastolic blood pressure, while weight loss was not significant [1]. Separately, a crossover trial of 12 healthy active men tested one 600 mg product containing 180 mg p-synephrine before exercise and found no unfavorable acute cardiovascular effect in that specific setting [2]. Neither study establishes general or long-term safety.",
+      "side_effects": "Blood-pressure findings in the meta-analysis concern p-synephrine studies; safety conclusions cannot be generalized to every bitter-orange preparation or mixed supplement [1,2].",
+      "contraindications": "Do not equate isolated p-synephrine, bitter-orange extracts and multi-ingredient products. Repeated-use and disease-population safety remain uncertain [1,2]."
+    },
+    "clinical_data": {
+      "used_part": "Part varies by product; cited trials concern p-synephrine or a defined extract, not a universal plant preparation [1,2].",
+      "primary_active_compounds": [
+        "p-Synephrine is discussed in the reviewed products; concentration and composition vary [1,2]."
+      ],
+      "mechanism_of_action": "The human evidence does not establish a general mechanism or a benefit of whole-fruit preparations [1,2].",
+      "pharmacokinetics": {
+        "absorption": "No general human PK profile for bitter-orange products was established by the cited trial synthesis [1].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "Interaction evidence for the many combination products is insufficient; stimulant-containing products require product-specific evaluation [1].",
+        "toxicity": "Potential blood-pressure effects were reported for prolonged p-synephrine use; the short single-dose study cannot establish chronic toxicity [1,2]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal-dose safety in pregnancy is not established.",
+        "lactation": "Medicinal-dose safety in lactation is not established.",
+        "hepatic_impairment": "No hepatic impairment evidence identified.",
+        "renal_impairment": "No renal impairment evidence identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Coffea arabica",
+    "common_name": "Arabica coffee",
+    "type": "Plant",
+    "article_count": 1375,
+    "primary_categories": [
+      "Coffee-pulp research",
+      "Metabolic research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41909045/",
+        "https://pubmed.ncbi.nlm.nih.gov/41608242/"
+      ],
+      "cited_references": [
+        "[1] Supawan Buranapin et al. Potential lipid-lowering effects of Coffea arabica pulp extract product in hyperlipidemia-obese subjects: a randomized double-blind placebo-controlled trial. Frontiers in Nutrition. 2026;13:1755054. PMID: 41909045. DOI: 10.3389/fnut.2026.1755054.",
+        "[2] EFSA Panel on Food Additives and Flavourings et al. Safety evaluation of pectin-rich extract derived from Coffea arabica as food additive. EFSA Journal. 2026;24(1):e9852. PMID: 41608242. DOI: 10.2903/j.efsa.2026.9852."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Coffee fruit has long been consumed as a beverage; the clinical evidence listed here concerns a specific aqueous coffee-pulp product, not brewed coffee or green/roasted beans [1,2].",
+      "modern_application": "A placebo-controlled study examined a named aqueous coffee-pulp extract in adults with obesity and elevated LDL. It is exploratory, product-specific research and does not establish effects for coffee beans, beverages, or other pulp products [1].",
+      "side_effects": "The small, time-limited trial does not establish uncommon or long-term adverse effects. Safety of the EFSA-assessed food ingredient cannot be generalized to other preparations [1,2].",
+      "contraindications": "Distinguish pulp extract from coffee beverages, beans, leaves and multi-ingredient supplements. Medicinal use and interactions depend on caffeine and product composition; no universal safety profile follows from these sources [1,2]."
+    },
+    "clinical_data": {
+      "used_part": "Aqueous coffee-fruit pulp extract in the cited RCT; not roasted/green beans [1].",
+      "primary_active_compounds": [],
+      "mechanism_of_action": "The RCT measures lipid-related outcomes and does not establish a mechanism for coffee pulp [1]. The cited human studies do not characterize an active compound or establish constituent-specific activity.",
+      "pharmacokinetics": {
+        "absorption": "Human PK for the coffee-pulp extract was not established in the cited RCT abstract [1].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized for the named pulp product.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No clinical interaction study for the named pulp product identified in the cited sources.",
+        "toxicity": "Long-term medicinal toxicity is not established; the EFSA opinion is limited to a defined food ingredient [2]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal-use safety during pregnancy is not established by the cited sources.",
+        "lactation": "Medicinal-use safety during lactation is not established by the cited sources.",
+        "hepatic_impairment": "No impairment-specific evidence identified.",
+        "renal_impairment": "No impairment-specific evidence identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Eucalyptus globulus",
+    "common_name": "Blue gum eucalyptus",
+    "type": "Plant",
+    "article_count": 1087,
+    "primary_categories": [
+      "Respiratory research",
+      "Traditional herbal use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/35294302/",
+        "https://pubmed.ncbi.nlm.nih.gov/21052500/"
+      ],
+      "cited_references": [
+        "[1] Her L et al. Efficacy and Safety of Eucalyptus for Relieving Cough: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Journal of Integrative and Complementary Medicine. 2022;28(3):218-226. PMID: 35294302. DOI: 10.1089/jicm.2021.0226.",
+        "[2] EMA/HMPC. European Union herbal monograph on Eucalyptus globulus Labill., folium. EMA/HMPC/892618/2011.",
+        "[3] Eran Ben-Arye et al. Treatment of upper respiratory tract infections in primary care: a randomized study using aromatic herbs. Evidence-Based Complementary and Alternative Medicine. 2011;2011:690346. PMID: 21052500. DOI: 10.1155/2011/690346."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "EMA's traditional-use assessment applies to dried eucalyptus leaf preparations for cough associated with colds; it is not a well-established-use conclusion [2].",
+      "modern_application": "A meta-analysis of eucalyptus-containing cough products found symptom improvement, but four of six studies used combinations and reviewers judged the clinical importance minimal or uncertain [1].",
+      "side_effects": "The meta-analysis reported no serious adverse events during trial periods and common mild-to-moderate gastrointestinal symptoms in a comparable study; this does not establish safety of every route or oil [1].",
+      "contraindications": "Leaf preparations, essential oil and multi-plant inhaled/topical products are distinct. Follow product-specific contraindications; concentrated eucalyptus oil must not be treated as equivalent to leaf tea [1-3]."
+    },
+    "clinical_data": {
+      "used_part": "Dried leaf for EMA traditional-use scope; some clinical studies used multi-ingredient essential-oil preparations [1-3].",
+      "primary_active_compounds": [
+        "1,8-cineole is a principal constituent discussed for eucalyptus oil; leaf and oil preparations differ [1,2]."
+      ],
+      "mechanism_of_action": "Clinical trials do not establish a single mechanism for the heterogeneous preparations in the cough meta-analysis [1].",
+      "pharmacokinetics": {
+        "absorption": "Human PK data for the EMA leaf preparations were not identified; route-specific essential-oil studies cannot define leaf PK [1,2].",
+        "distribution": "Not characterized for leaf medicines.",
+        "metabolism": "Not characterized for leaf medicines.",
+        "excretion": "Not characterized for leaf medicines."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No interaction profile can be generalized across the different routes and combination products [1,2].",
+        "toxicity": "Trial follow-up does not establish long-term toxicity or the safety of concentrated essential oil [1,2]."
+      },
+      "special_precautions": {
+        "pregnancy": "EMA product information does not support medicinal use in pregnancy without adequate data [2].",
+        "lactation": "Insufficient medicinal-use evidence in lactation [2].",
+        "hepatic_impairment": "No impairment-specific data identified.",
+        "renal_impairment": "No impairment-specific data identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Foeniculum vulgare",
+    "common_name": "Fennel",
+    "type": "Plant",
+    "article_count": 746,
+    "primary_categories": [
+      "Digestive traditional use",
+      "Menstrual symptom research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34187122/"
+      ],
+      "cited_references": [
+        "[1] EMA/HMPC. European Union herbal monograph on Foeniculum vulgare Miller subsp. vulgare var. dulce (Mill.) Batt. & Trab., fructus. EMA/HMPC/372841/2016, revision 1.",
+        "[2] Hadis Shahrahmani et al. Effect of fennel on primary dysmenorrhea: a systematic review and meta-analysis. Journal of Complementary and Integrative Medicine. 2021;18(2):261–269. PMID: 34187122. DOI: 10.1515/jcim-2019-0212."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "EMA's monograph supports traditional-use claims only for specified sweet-fennel fruit preparations and indications; it does not cover all fennel varieties or parts [1].",
+      "modern_application": "A systematic review pooled trials of fennel for primary dysmenorrhea, but products and preparations varied [2]. The pooled result cannot be attributed to the specific sweet-fennel fruit preparations covered by EMA without full-text product-level comparison [1,2].",
+      "side_effects": "EMA flags estragole exposure and limited safety data for some groups and preparations; trial-level adverse-event reporting requires full-text review [1,2].",
+      "contraindications": "Keep sweet fennel fruit, other varieties, essential oil and food use distinct. EMA limits age and use conditions for medicinal products; follow its product-specific precautions [1]."
+    },
+    "clinical_data": {
+      "used_part": "EMA scope: fruit of Foeniculum vulgare subsp. vulgare var. dulce; clinical trials in the review used varied fennel products [1,2].",
+      "primary_active_compounds": [
+        "Anethole and estragole are constituents in fennel fruit preparations; amounts vary by variety and product [1]."
+      ],
+      "mechanism_of_action": "Clinical outcomes in the dysmenorrhea review do not establish a validated mechanism [2].",
+      "pharmacokinetics": {
+        "absorption": "No general human PK profile for fennel fruit medicines was identified in the cited clinical synthesis [1,2].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No generalized clinical interaction profile established for fennel preparations.",
+        "toxicity": "Risk assessment must be preparation-specific; EMA discusses estragole exposure and the need to limit exposure [1]."
+      },
+      "special_precautions": {
+        "pregnancy": "Pregnancy data for medicinal preparations are limited; follow the EMA monograph and product-specific restrictions [1].",
+        "lactation": "Lactation data are limited; no generalized medicinal-use safety claim is established [1].",
+        "hepatic_impairment": "No hepatic-impairment data identified.",
+        "renal_impairment": "No renal-impairment data identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Gentiana lutea",
+    "common_name": "Yellow gentian",
+    "type": "Plant",
+    "article_count": 142,
+    "primary_categories": [
+      "Digestive traditional use",
+      "Topical skin research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/37365865/"
+      ],
+      "cited_references": [
+        "[1] EMA/HMPC. European Union herbal monograph on Gentiana lutea L., radix, revision 1. EMA/HMPC/607861/2017.",
+        "[2] Jean-Yves Berthon et al. In vitro, ex vivo and clinical approaches to evaluate the potential effect of Gentiana lutea extract on skin. International Journal of Cosmetic Science. 2023;45(5):688–698. PMID: 37365865. DOI: 10.1111/ics.12878."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "EMA recognizes traditional use of specified gentian-root preparations for temporary loss of appetite and mild dyspeptic/gastrointestinal complaints [1].",
+      "modern_application": "The EMA conclusion is based on traditional use; an uncontrolled 205-person study did not support firm efficacy conclusions [1]. A 22-person, 14-day split-face study examined a topical eye-area cream, which does not support oral digestive claims [2].",
+      "side_effects": "EMA reported no side effects in the assessment material at that time, but this is not proof of safety across products or populations [1].",
+      "contraindications": "Use only within the EMA's specified root preparations and traditional-use scope. The topical skin trial does not establish oral use [1,2]."
+    },
+    "clinical_data": {
+      "used_part": "Dried/comminuted root or specified ethanol extracts for EMA scope; separate topical extract in the skin study [1,2].",
+      "primary_active_compounds": [
+        "Gentiopicroside and other bitter secoiridoids are reported in the EMA assessment [1]."
+      ],
+      "mechanism_of_action": "The topical study explored pathways in skin models; it does not establish a clinical mechanism for oral gentian preparations [2].",
+      "pharmacokinetics": {
+        "absorption": "EMA reports no clinical pharmacokinetic data for gentian root [1].",
+        "distribution": "No clinical PK data available [1].",
+        "metabolism": "No clinical PK data available [1].",
+        "excretion": "No clinical PK data available [1]."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No clinical interaction evidence sufficient to grade interactions was identified by EMA [1].",
+        "toxicity": "Clinical safety data are limited; EMA assessment is not a comprehensive long-term toxicity demonstration [1]."
+      },
+      "special_precautions": {
+        "pregnancy": "EMA states use in children/adolescents under 18 is not recommended; medicinal use in pregnancy is insufficiently established [1].",
+        "lactation": "Lactation safety is not established [1].",
+        "hepatic_impairment": "No hepatic impairment-specific evidence identified.",
+        "renal_impairment": "No renal impairment-specific evidence identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Hamamelis virginiana",
+    "common_name": "Witch hazel",
+    "type": "Plant",
+    "article_count": 103,
+    "primary_categories": [
+      "Topical skin research",
+      "Traditional herbal use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/23337964/",
+        "https://pubmed.ncbi.nlm.nih.gov/41468068/"
+      ],
+      "cited_references": [
+        "[1] EMA/HMPC. European Union herbal monographs and assessment reports on Hamamelis virginiana L., folium, cortex and distillate.",
+        "[2] F. C. Beikert et al. Antiinflammatory potential of seven plant extracts in the ultraviolet erythema test. A randomized, placebo-controlled study. Hautarzt. 2013;64(1):40–46. PMID: 23337964. DOI: 10.1007/s00105-012-2505-x.",
+        "[3] Döndü Sevimli Güler et al. Comparison of the Effects of Breast Milk and Hamamelis virginiana (Witch Hazel) on the Healing of Diaper Dermatitis in Infants: A Randomized Trial. Breastfeeding Medicine. 2026;21(4):258–264. PMID: 41468068. DOI: 10.1177/15568253251406258."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Witch hazel preparations have a long history of topical use. EMA treats leaf, bark and distillate as distinct herbal substances and preparations [1].",
+      "modern_application": "A randomized topical UV-erythema study included a Hamamelis extract among seven plant extracts; the abstract reports a significant effect for Aloe, not Hamamelis [2]. A 60-infant diaper-dermatitis trial compared breast milk with a cream containing Hamamelis, but baseline severity differed substantially between groups, limiting comparison; its abstract does not report adverse events [3]. EMA use conclusions remain preparation-specific [1].",
+      "side_effects": "EMA notes rare contact allergy. The infant trial cannot establish broad safety for internal use or other witch-hazel preparations [1,3].",
+      "contraindications": "Do not transfer findings among leaf, bark and distillate or from topical use to ingestion. Internal-use pregnancy/lactation data are insufficient [1]."
+    },
+    "clinical_data": {
+      "used_part": "Leaf, bark, and distillate are separate EMA preparations; cited trials are topical formulations only [1-3].",
+      "primary_active_compounds": [
+        "Tannins are characteristic constituents of leaf/bark preparations; composition differs from distillate [1]."
+      ],
+      "mechanism_of_action": "Topical clinical studies do not establish a systemic mechanism or efficacy for all witch-hazel preparations [1-3].",
+      "pharmacokinetics": {
+        "absorption": "No human PK data for the distinct topical preparations were identified in the EMA material [1].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No clinical interaction profile for systemic use identified. Do not state tannin-related nutrient/drug absorption as a demonstrated clinical interaction without direct evidence [1].",
+        "toxicity": "Rare contact allergy is reported; long-term internal toxicity is not established [1]."
+      },
+      "special_precautions": {
+        "pregnancy": "Insufficient data for internal medicinal use during pregnancy [1].",
+        "lactation": "Insufficient data for internal medicinal use during lactation [1].",
+        "hepatic_impairment": "No systemic-use hepatic impairment evidence identified.",
+        "renal_impairment": "No systemic-use renal impairment evidence identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Harpagophytum procumbens",
+    "common_name": "Devil's claw",
+    "type": "Plant",
+    "article_count": 185,
+    "primary_categories": [
+      "Musculoskeletal research",
+      "Traditional herbal use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/15369596/",
+        "https://pubmed.ncbi.nlm.nih.gov/34712343/"
+      ],
+      "cited_references": [
+        "[1] Joel J. Gagnier, Sigrun Chrubasik, Eric Manheimer. Harpagophytum procumbens for osteoarthritis and low back pain: a systematic review. BMC Complementary and Alternative Medicine. 2004;4:13. PMID: 15369596. DOI: 10.1186/1472-6882-4-13.",
+        "[2] Hamid Reza Farpour et al. The Efficacy of Harpagophytum procumbens (Teltonal) in Patients with Knee Osteoarthritis: A Randomized Active-Controlled Clinical Trial. Evidence-Based Complementary and Alternative Medicine. 2021;2021:5596892. PMID: 34712343. DOI: 10.1155/2021/5596892.",
+        "[3] EMA/HMPC. Assessment report on Harpagophytum procumbens and/or H. zeyheri, radix."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Devil's claw secondary root is used in traditional herbal preparations; EMA assessment distinguishes root preparations and does not find a sufficient basis for well-established efficacy [3].",
+      "modern_application": "A systematic review of 12 trials found that the evidence varied by preparation and harpagoside content, with heterogeneity limiting pooling [1]. A 60-person trial compared a named product with meloxicam over unequal treatment periods; it found no significant superiority between groups [2]. These findings are product- and indication-specific.",
+      "side_effects": "Adverse-event evidence varies by formulation and trial; available sources do not establish long-term safety across powders and extracts [1-3].",
+      "contraindications": "EMA does not establish well-established use. Avoid generalizing findings among powdered root, aqueous extract and ethanolic extracts [1-3]."
+    },
+    "clinical_data": {
+      "used_part": "Secondary roots/tubers; human trials used specific powder or extract preparations and are not interchangeable [1-3].",
+      "primary_active_compounds": [
+        "Harpagoside is used to characterize some preparations; amount varies by product [1,3]."
+      ],
+      "mechanism_of_action": "Clinical studies do not establish a single validated human mechanism for the diverse preparations [1,2].",
+      "pharmacokinetics": {
+        "absorption": "No general human PK profile identified across the distinct devil's-claw preparations [1-3].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No comprehensive clinical interaction profile established by the cited sources.",
+        "toxicity": "Safety evidence is formulation-specific; trial heterogeneity and short follow-up limit conclusions [1,2]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal-use safety in pregnancy is not established by the cited trials.",
+        "lactation": "Lactation safety is not established.",
+        "hepatic_impairment": "No impairment-specific evidence identified; product labeling and clinician review are appropriate where underlying disease is present.",
+        "renal_impairment": "No impairment-specific evidence identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Humulus lupulus",
+    "common_name": "Hop",
+    "type": "Plant",
+    "article_count": 981,
+    "primary_categories": [
+      "Menopause research",
+      "Traditional herbal use"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/25982391/",
+        "https://pubmed.ncbi.nlm.nih.gov/23543804/"
+      ],
+      "cited_references": [
+        "[1] Vida Aghamiri et al. The effect of Hop (Humulus lupulus L.) on early menopausal symptoms and hot flashes: A randomized placebo-controlled trial. Complementary Therapies in Clinical Practice. 2016;23:130–135. PMID: 25982391. DOI: 10.1016/j.ctcp.2015.05.001.",
+        "[2] Niteeka Maroo, Avijit Hazra, Tapas Das. Efficacy and safety of a polyherbal sedative-hypnotic formulation NSF-3 in primary insomnia in comparison to zolpidem: a randomized controlled trial. Indian Journal of Pharmacology. 2013;45(1):34–39. PMID: 23543804. DOI: 10.4103/0253-7613.106432.",
+        "[3] Arne Heyerick et al. A first prospective, randomized, double-blind, placebo-controlled study on the use of a standardized hop extract to alleviate menopausal discomforts. Maturitas. 2006;54(2):164–175. PMID: 16321485. DOI: 10.1016/j.maturitas.2005.10.005."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Hop strobiles have traditional use in herbal products, but modern trial results relate to defined extracts [1-3].",
+      "modern_application": "A placebo-controlled study reported lower menopause symptom scores with hop tablets, but the abstract omits the preparation, plant part, dose and adverse-event details [1]. Another study tested a standardized extract enriched in 8-prenylnaringenin; results varied by dose and assessment time [3]. A separate sleep study combined hop with valerian and passionflower, so hop effects cannot be isolated [2].",
+      "side_effects": "The trial abstracts do not establish long-term safety or characterize uncommon adverse events [1,2]. Estrogenic activity of some hop constituents requires preparation-specific evaluation [3].",
+      "contraindications": "Do not generalize results from one hop extract or a multi-herb sleep product to all hop preparations. Long-term and hormone-sensitive-population safety remain uncertain [1-3]."
+    },
+    "clinical_data": {
+      "used_part": "Female inflorescences (strobiles) and standardized extracts; clinical products differ in composition [1-3].",
+      "primary_active_compounds": [
+        "8-prenylnaringenin is a hop phytoestrogen used to standardize one studied extract; concentrations vary [3]."
+      ],
+      "mechanism_of_action": "The studies do not establish a clinically validated mechanism for all hop preparations [1-3].",
+      "pharmacokinetics": {
+        "absorption": "No general human PK profile identified for hop extracts in the cited trials [1-3].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No broad clinical interaction profile is established; consider that products may have estrogenic constituents, but interaction magnitude is not established [3].",
+        "toxicity": "Long-term toxicity and rare harms are not established by the short RCTs [1,2]."
+      },
+      "special_precautions": {
+        "pregnancy": "Pregnancy safety for medicinal hop extracts is not established.",
+        "lactation": "Lactation safety is not established.",
+        "hepatic_impairment": "No hepatic impairment-specific evidence identified.",
+        "renal_impairment": "No renal impairment-specific evidence identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Ilex paraguariensis",
+    "common_name": "Yerba mate",
+    "type": "Plant",
+    "article_count": 645,
+    "primary_categories": [
+      "Metabolic research",
+      "Dietary beverage research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/36647770/",
+        "https://pubmed.ncbi.nlm.nih.gov/26408319/",
+        "https://pubmed.ncbi.nlm.nih.gov/33374524/"
+      ],
+      "cited_references": [
+        "[1] Manuela F. B. José et al. Physiological effects of yerba maté (Ilex paraguariensis): a systematic review. Nutrition Reviews. 2023;81(9):1163–1179. PMID: 36647770. DOI: 10.1093/nutrit/nuac109.",
+        "[2] Sun-Young Kim et al. Anti-obesity effects of Yerba Mate (Ilex Paraguariensis): a randomized, double-blind, placebo-controlled clinical trial. BMC Complementary and Alternative Medicine. 2015;15:338. PMID: 26408319. DOI: 10.1186/s12906-015-0859-1.",
+        "[3] Karimi S. Gebara et al. A Randomized Crossover Intervention Study on the Effect a Standardized Maté Extract (Ilex paraguariensis A. St.-Hil.) in Men Predisposed to Cardiovascular Risk. Nutrients. 2021;13(1):14. PMID: 33374524. DOI: 10.3390/nu13010014."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Yerba mate leaves are traditionally prepared as an infusion. Beverage, soluble powder, capsule and standardized extract are distinct exposures [1].",
+      "modern_application": "A systematic review found human studies with varied designs and preparations, with many at moderate/high risk of bias and certainty ranging from moderate to very low [1]. A small 12-week capsule trial and a separate 34-person standardized-extract study produced different findings; the latter found no significant overall effect on measured cardiometabolic outcomes [2,3].",
+      "side_effects": "Available trials are small/short and do not establish long-term safety. Beverage caffeine content and preparation vary; the cited studies do not establish a universal safety profile [1-3].",
+      "contraindications": "Do not generalize extract or capsule results to traditional beverage use or vice versa. Evidence does not establish disease prevention or treatment [1-3]."
+    },
+    "clinical_data": {
+      "used_part": "Leaves, used as infusion or processed extract; products and caffeine exposure vary [1-3].",
+      "primary_active_compounds": [
+        "Caffeine and caffeoylquinic acids are constituents discussed in the systematic review; content varies by product [1]."
+      ],
+      "mechanism_of_action": "The clinical evidence does not establish a single mechanism or disease-modifying effect [1-3].",
+      "pharmacokinetics": {
+        "absorption": "PK varies with infusion/extract composition; no general human PK profile is established by these sources [1-3].",
+        "distribution": "Not characterized as a general plant-product profile.",
+        "metabolism": "Not characterized as a general plant-product profile.",
+        "excretion": "Not characterized as a general plant-product profile."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No comprehensive species-specific clinical interaction profile established in the cited studies.",
+        "toxicity": "Long-term safety and risk across preparation methods are not resolved by small clinical trials [1-3]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal-dose safety in pregnancy is not established by these sources.",
+        "lactation": "Medicinal-dose safety in lactation is not established by these sources.",
+        "hepatic_impairment": "No impairment-specific clinical data identified.",
+        "renal_impairment": "No impairment-specific clinical data identified."
+      }
+    }
+  },
+  {
+    "scientific_name": "Juniperus communis",
+    "common_name": "Common juniper",
+    "type": "Plant",
+    "article_count": 302,
+    "primary_categories": [
+      "Traditional urinary use",
+      "Digestive research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41240546/"
+      ],
+      "cited_references": [
+        "[1] EMA/HMPC. European Union herbal monograph on Juniperus communis L., galbulus (pseudo-fructus), revision 1. EMA/HMPC/241320/2021. https://www.ema.europa.eu/en/medicines/herbal/juniperi-galbulus-pseudo-fructus",
+        "[2] EMA/HMPC. European Union herbal monograph on Juniperus communis L., aetheroleum. EMA herbal-product page: https://www.ema.europa.eu/en/medicines/herbal/juniperi-aetheroleum",
+        "[3] Uwe Albrecht et al. Efficacy and safety of Roleca® juniper 100 mg in the treatment of functional dyspepsia: A randomized, double-blind, placebo-controlled trial. Phytomedicine. 2025;149:157542. PMID: 41240546. DOI: 10.1016/j.phymed.2025.157542."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "EMA recognizes traditional use for specified juniper berry preparations in minor urinary complaints and digestive discomfort; berry and essential oil monographs are separate [1,2].",
+      "modern_application": "A short study evaluated a named juniper-oil product for functional dyspepsia. The abstract is available, but the full report was not independently reviewed, so this profile makes no efficacy or safety conclusion [3].",
+      "side_effects": "EMA describes preparation-specific cautions [1,2]. The trial abstract was identified but its full report was not independently reviewed; product-specific safety conclusions are therefore not drawn.",
+      "contraindications": "EMA advises against use in conditions requiring fluid restriction and does not establish medicinal use in pregnancy, lactation or people under 18 [1]. Do not transfer oil trial results to berries [3]."
+    },
+    "clinical_data": {
+      "used_part": "Pseudo-fruit (berry) for traditional-use scope; essential oil is a separate preparation [1-3].",
+      "primary_active_compounds": [
+        "Volatile oil constituents are preparation-dependent; EMA distinguishes berry and essential-oil materials [1,2]."
+      ],
+      "mechanism_of_action": "The short dyspepsia trial does not establish mechanism for juniper berries or other preparations [3].",
+      "pharmacokinetics": {
+        "absorption": "Human PK data for juniper berry medicines were not identified; the short oil trial does not establish a general PK profile [1-3].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Traditional-use diuretic context is not a human PK study; general excretion data remain insufficient [1]."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No broad clinical interaction profile established; EMA notes caution with diuretic co-use for relevant preparations [1,2].",
+        "toxicity": "Long-term safety data are limited; EMA assessment notes sparse clinical safety data [1,2]."
+      },
+      "special_precautions": {
+        "pregnancy": "Pregnancy safety is not established; EMA advises against medicinal use in pregnancy [1].",
+        "lactation": "Lactation safety is not established; EMA advises against medicinal use in lactation [1].",
+        "hepatic_impairment": "No hepatic impairment-specific evidence identified.",
+        "renal_impairment": "No impairment-specific human evidence identified. EMA advises against use in fluid-restriction states for the pseudo-fruit monograph; this does not establish a general renal-disease contraindication [1]."
+      }
+    }
+  },
+  {
+    "scientific_name": "Moringa oleifera",
+    "common_name": "Moringa",
+    "type": "Plant",
+    "article_count": 2817,
+    "primary_categories": [
+      "Metabolic research",
+      "Nutrition research"
+    ],
+    "sources": {
+      "top_studies_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41305552/",
+        "https://pubmed.ncbi.nlm.nih.gov/36440058/"
+      ],
+      "cited_references": [
+        "[1] Diana Crișan et al. Effects of Moringa oleifera Lam. Supplementation on Cardiometabolic Outcomes: A Meta-Analysis of Randomized Controlled Trials with GRADE Assessment. Nutrients. 2025;17(22):3501. PMID: 41305552. DOI: 10.3390/nu17223501.",
+        "[2] Siraphat Fungtammasan, Vorapong Phupong. The effect of Moringa oleifera capsule in increasing breast milk volume in early postpartum patients: A double-blind, randomized controlled trial. European Journal of Obstetrics & Gynecology and Reproductive Biology: X. 2022;16:100171. PMID: 36440058. DOI: 10.1016/j.eurox.2022.100171."
+      ]
+    },
+    "narrative_summary": {
+      "historical_use": "Moringa leaves, pods and seeds are used as foods and in traditional practices, but their composition and exposures differ; clinical findings must remain part-specific [1,2].",
+      "modern_application": "A meta-analysis of randomized studies found no consistent cardiometabolic benefit and rated the evidence very low certainty [1]. A short postpartum study of dried leaf powder found no statistically significant difference in its primary milk-volume outcome. It does not establish benefit or infant safety [2].",
+      "side_effects": "The included studies vary in part and preparation and do not establish long-term safety. The postpartum trial does not establish infant safety from its primary outcome [1,2].",
+      "contraindications": "Do not recommend moringa to increase milk volume or infer safety in lactation from the trial. Avoid generalizing between leaf, seed and pod products [1,2]."
+    },
+    "clinical_data": {
+      "used_part": "Parts studied vary; the milk-volume trial used leaf capsules, whereas cardiometabolic trials used varied products [1,2].",
+      "primary_active_compounds": [],
+      "mechanism_of_action": "The RCTs assess clinical outcomes and do not establish a general human mechanism for the plant [1]. The cited human studies do not characterize an active compound or establish constituent-specific activity.",
+      "pharmacokinetics": {
+        "absorption": "Human PK data were not established in the cited meta-analysis or RCT [1,2].",
+        "distribution": "Not characterized.",
+        "metabolism": "Not characterized.",
+        "excretion": "Not characterized."
+      },
+      "safety_and_interactions": {
+        "drug_interactions": "No comprehensive species- and preparation-specific interaction profile established by these sources.",
+        "toxicity": "Very-low-certainty efficacy evidence does not establish overall safety; long-term toxicity remains insufficiently characterized [1,2]."
+      },
+      "special_precautions": {
+        "pregnancy": "Medicinal-dose pregnancy safety is not established across parts and preparations.",
+        "lactation": "The leaf-capsule RCT does not establish a milk-volume benefit; safety in lactation and for the infant is not established [2].",
+        "hepatic_impairment": "No impairment-specific evidence identified.",
+        "renal_impairment": "No impairment-specific evidence identified."
+      }
+    }
   }
 ]
